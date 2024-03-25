@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1c9c29529db9e2d4",
+        "id": "23b38fa91e850a48",
         "type": "tabs",
         "children": [
           {
-            "id": "5ada95fd93ac2815",
+            "id": "cb8c07fb5d696435",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/조건문.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "독립",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/조건문.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/조건문.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/조건문.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,10 +140,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5ada95fd93ac2815",
+  "active": "cb8c07fb5d696435",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/확률과 통계/독립 사건.md",
+    "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
     "obsidian/ComputerScience/Python(basic)/조건문.md",
+    "obsidian/ComputerScience/확률과 통계/독립 사건.md",
     "obsidian/ComputerScience/확률과 통계/무제 파일 1.md",
     "obsidian/ComputerScience/Python(basic)",
     "obsidian/ComputerScience/확률과 통계/무제 파일.md",
