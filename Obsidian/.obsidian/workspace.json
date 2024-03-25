@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/KR_history/선사시대.md",
+                "file": "obsidian/ComputerScience/확률과 통계/독립 사건.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/KR_history/선사시대.md",
+                "file": "obsidian/ComputerScience/확률과 통계/독립 사건.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/KR_history/선사시대.md",
+                "file": "obsidian/ComputerScience/확률과 통계/독립 사건.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/KR_history/선사시대.md"
+                "file": "obsidian/ComputerScience/확률과 통계/독립 사건.md"
               }
             }
           }
@@ -149,14 +149,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d0d8bbe68caebe73",
+  "active": "cb8c07fb5d696435",
   "lastOpenFiles": [
-    "obsidian/KR_history/고대/고구려.md",
+    "obsidian/ComputerScience/Python(basic)/조건문.md",
+    "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
+    "obsidian/ComputerScience/Python(basic)/연산자.md",
+    "obsidian/ComputerScience/Python(basic)/자료구조.md",
     "obsidian/KR_history/선사시대.md",
+    "obsidian/KR_history/고대/고구려.md",
     "obsidian/KR_history/고대",
     "obsidian/KR_history",
-    "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
-    "obsidian/ComputerScience/Python(basic)/조건문.md",
     "obsidian/ComputerScience/확률과 통계/독립 사건.md",
     "obsidian/ComputerScience/확률과 통계/무제 파일 1.md",
     "obsidian/ComputerScience/Python(basic)",
