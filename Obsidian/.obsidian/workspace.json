@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "c18b2700cdefe54e",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c9c29529db9e2d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ada95fd93ac2815",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/ComputerScience/확률과 통계/무제 파일 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d4ef660eefc9dce8",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a40ddeab999d131",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4824d7b5ee6b90fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7cea1b4cbc945680",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "독립",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "998b39b375eb1994",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 218.5
+  },
+  "right": {
+    "id": "7955a80cb3f4ce08",
+    "type": "split",
+    "children": [
+      {
+        "id": "74a2a58bda4cda75",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d44099825c849e5a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "obsidian/ComputerScience/확률과 통계/무제 파일 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d0d8bbe68caebe73",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "obsidian/ComputerScience/확률과 통계/무제 파일 1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6ddf4ffb0a43ab89",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e26efddcf6394f13",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "obsidian/ComputerScience/확률과 통계/무제 파일 1.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "5ada95fd93ac2815",
+  "lastOpenFiles": [
+    "obsidian/ComputerScience/확률과 통계/무제 파일.md",
+    "obsidian/ComputerScience/확률과 통계/무제 파일 1.md",
+    "obsidian/ComputerScience/확률과 통계/독립 사건.md",
+    "Welcome.md",
+    "obsidian/무제 파일.md",
+    "obsidian/computer science/무제 파일.md",
+    "obsidian/ComputerScience/확률과 통계",
+    "obsidian/ComputerScience",
+    "obsidian"
+  ]
+}
