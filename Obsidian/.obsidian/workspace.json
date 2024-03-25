@@ -11,8 +11,12 @@
             "id": "cb8c07fb5d696435",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/KR_history/선사시대.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "obsidian/KR_history/선사시대.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "obsidian/KR_history/선사시대.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,14 +124,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "obsidian/KR_history/선사시대.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -140,8 +149,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cb8c07fb5d696435",
+  "active": "d0d8bbe68caebe73",
   "lastOpenFiles": [
+    "obsidian/KR_history/고대/고구려.md",
+    "obsidian/KR_history/선사시대.md",
+    "obsidian/KR_history/고대",
+    "obsidian/KR_history",
     "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
     "obsidian/ComputerScience/Python(basic)/조건문.md",
     "obsidian/ComputerScience/확률과 통계/독립 사건.md",
