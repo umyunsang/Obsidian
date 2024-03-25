@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/무제 파일 1.md",
+                "file": "obsidian/ComputerScience/Python(basic)/조건문.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/무제 파일 1.md",
+                "file": "obsidian/ComputerScience/Python(basic)/조건문.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/무제 파일 1.md",
+                "file": "obsidian/ComputerScience/Python(basic)/조건문.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/무제 파일 1.md"
+                "file": "obsidian/ComputerScience/Python(basic)/조건문.md"
               }
             }
           }
@@ -150,9 +150,11 @@
   },
   "active": "5ada95fd93ac2815",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/확률과 통계/무제 파일.md",
-    "obsidian/ComputerScience/확률과 통계/무제 파일 1.md",
     "obsidian/ComputerScience/확률과 통계/독립 사건.md",
+    "obsidian/ComputerScience/Python(basic)/조건문.md",
+    "obsidian/ComputerScience/확률과 통계/무제 파일 1.md",
+    "obsidian/ComputerScience/Python(basic)",
+    "obsidian/ComputerScience/확률과 통계/무제 파일.md",
     "Welcome.md",
     "obsidian/무제 파일.md",
     "obsidian/computer science/무제 파일.md",
