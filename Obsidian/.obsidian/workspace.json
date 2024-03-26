@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/KR_history/고대/남북국시대/발해.md",
+                "file": "obsidian/ComputerScience/확률과 통계/데이터 구조/이중 연결 리스트.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/KR_history/고대/남북국시대/발해.md",
+                "file": "obsidian/ComputerScience/확률과 통계/데이터 구조/이중 연결 리스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/KR_history/고대/남북국시대/발해.md",
+                "file": "obsidian/ComputerScience/확률과 통계/데이터 구조/이중 연결 리스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/KR_history/고대/남북국시대/발해.md"
+                "file": "obsidian/ComputerScience/확률과 통계/데이터 구조/이중 연결 리스트.md"
               }
             }
           }
@@ -151,10 +152,13 @@
   },
   "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/인공지능/p",
+    "obsidian/ComputerScience/인공지능/Perceptron/Perceptron.md",
+    "obsidian/ComputerScience/확률과 통계/데이터 구조/단순 연결 리스트(코드).md",
+    "obsidian/ComputerScience/확률과 통계/데이터 구조/단순 연결 리스트.md",
+    "obsidian/KR_history/고대/남북국시대/발해.md",
+    "obsidian/ComputerScience/인공지능/Perceptron",
     "obsidian/ComputerScience/인공지능",
     "obsidian/KR_history/고대/남북국시대/통일신라.md",
-    "obsidian/KR_history/고대/남북국시대/발해.md",
     "obsidian/KR_history/고대/삼국시대/신라.md",
     "obsidian/KR_history/고대/삼국시대/백제.md",
     "obsidian/KR_history/고대/삼국시대/고구려.md",
@@ -166,8 +170,6 @@
     "obsidian/KR_history/선사시대.md",
     "obsidian/KR_history/고대 이전",
     "obsidian/ComputerScience/확률과 통계/데이터 구조/이중 연결 리스트.md",
-    "obsidian/ComputerScience/확률과 통계/데이터 구조/단순 연결 리스트.md",
-    "obsidian/ComputerScience/확률과 통계/데이터 구조/단순 연결 리스트(코드).md",
     "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
     "obsidian/ComputerScience/확률과 통계/데이터 구조",
     "obsidian/ComputerScience/Python(basic)/1~2챕터 스터디 내용.md",
@@ -183,7 +185,6 @@
     "Welcome.md",
     "obsidian/무제 파일.md",
     "obsidian/computer science/무제 파일.md",
-    "obsidian/ComputerScience/확률과 통계",
-    "obsidian/ComputerScience"
+    "obsidian/ComputerScience/확률과 통계"
   ]
 }
