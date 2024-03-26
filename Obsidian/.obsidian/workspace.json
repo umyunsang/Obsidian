@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
+                "file": "obsidian/KR_history/고대 이전.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "연결리스트",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
+                "file": "obsidian/KR_history/고대 이전.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
+                "file": "obsidian/KR_history/고대 이전.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md"
+                "file": "obsidian/KR_history/고대 이전.md"
               }
             }
           }
@@ -152,17 +151,19 @@
   },
   "active": "cb8c07fb5d696435",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
-    "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
-    "obsidian/ComputerScience/데이터 구조/단순 연결 리스트(코드).md",
+    "obsidian/KR_history/선사시대.md",
+    "obsidian/KR_history/고대 이전.md",
+    "obsidian/KR_history/고대 이전",
+    "obsidian/ComputerScience/확률과 통계/데이터 구조/이중 연결 리스트.md",
+    "obsidian/ComputerScience/확률과 통계/데이터 구조/단순 연결 리스트.md",
+    "obsidian/ComputerScience/확률과 통계/데이터 구조/단순 연결 리스트(코드).md",
     "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
-    "obsidian/ComputerScience/데이터 구조",
+    "obsidian/ComputerScience/확률과 통계/데이터 구조",
     "obsidian/ComputerScience/Python(basic)/1~2챕터 스터디 내용.md",
     "obsidian/ComputerScience/확률과 통계/독립 사건.md",
     "obsidian/ComputerScience/Python(basic)/조건문.md",
     "obsidian/ComputerScience/Python(basic)/연산자.md",
     "obsidian/ComputerScience/Python(basic)/자료구조.md",
-    "obsidian/KR_history/선사시대.md",
     "obsidian/KR_history/고대/고구려.md",
     "obsidian/KR_history/고대",
     "obsidian/KR_history",
