@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/무제 파일.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Bayes' Theorem.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/무제 파일.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Bayes' Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/무제 파일.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Bayes' Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/무제 파일.md"
+                "file": "obsidian/ComputerScience/확률과 통계/Bayes' Theorem.md"
               }
             }
           }
@@ -151,9 +151,9 @@
   },
   "active": "cb8c07fb5d696435",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/확률과 통계/Variance.md",
-    "obsidian/ComputerScience/확률과 통계/무제 파일.md",
     "obsidian/ComputerScience/확률과 통계/Probability.md",
+    "obsidian/ComputerScience/확률과 통계/Bayes' Theorem.md",
+    "obsidian/ComputerScience/확률과 통계/Variance.md",
     "obsidian/ComputerScience/확률과 통계/Counting.md",
     "obsidian/ComputerScience/확률과 통계/Bernoulli Distribution.md",
     "obsidian/ComputerScience/확률과 통계/Binomial Distribution.md",
