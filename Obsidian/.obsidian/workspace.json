@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Expectation.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Expectation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Expectation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md"
+                "file": "obsidian/ComputerScience/확률과 통계/Expectation.md"
               }
             }
           }
@@ -152,8 +151,15 @@
   },
   "active": "cb8c07fb5d696435",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/웹프로그래밍/HTML 기본 태그 및 속성 설명.md",
+    "obsidian/ComputerScience/확률과 통계/CDF.md",
+    "obsidian/ComputerScience/확률과 통계/Expectation.md",
+    "obsidian/ComputerScience/확률과 통계/Combinations.md",
+    "obsidian/ComputerScience/확률과 통계/Probability.md",
+    "obsidian/ComputerScience/확률과 통계/Permutations.md",
+    "obsidian/ComputerScience/확률과 통계/Counting.md",
+    "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md",
+    "obsidian/ComputerScience/웹프로그래밍/HTML 기본 태그 및 속성 설명.md",
     "obsidian/KR_history/고대/문화.md",
     "obsidian/ComputerScience/웹프로그래밍/무제 폴더",
     "obsidian/ComputerScience/웹프로그래밍",
@@ -163,27 +169,20 @@
     "obsidian/KR_history/고대/삼국시대/고구려.md",
     "obsidian/KR_history/고대/삼국시대/백제.md",
     "obsidian/KR_history/고대/삼국시대/신라.md",
-    "obsidian/ComputerScience/확률과 통계/Probability.md",
-    "obsidian/ComputerScience/확률과 통계/Permutations.md",
-    "obsidian/ComputerScience/확률과 통계/Counting.md",
     "obsidian/KR_history/고대/남북국시대/통일신라.md",
     "obsidian/KR_history/고대/남북국시대/발해.md",
     "obsidian/ComputerScience/확률과 통계/독립 사건.md",
-    "obsidian/ComputerScience/확률과 통계/Combinations.md",
     "obsidian/ComputerScience/Python(basic)/조건문.md",
     "obsidian/ComputerScience/Python(basic)/연산자.md",
     "obsidian/ComputerScience/Python(basic)/자료구조.md",
     "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
     "obsidian/ComputerScience/인공지능/Perceptron/Perceptron.md",
-    "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
     "obsidian/ComputerScience/확률과 통계/데이터 구조/단순 연결 리스트(코드).md",
     "obsidian/ComputerScience/인공지능/Perceptron",
     "obsidian/ComputerScience/인공지능",
     "obsidian/KR_history/고대/남북국시대",
-    "obsidian/KR_history/고대/남북국 시대.md",
     "obsidian/KR_history/고대/삼국시대",
-    "obsidian/KR_history/고대 이전.md",
     "obsidian/KR_history/고대 이전",
     "obsidian/ComputerScience/데이터 구조",
     "obsidian/KR_history/고대",
