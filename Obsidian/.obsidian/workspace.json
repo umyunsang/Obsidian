@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Expectation.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Variance.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Expectation.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Variance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Expectation.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Variance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Expectation.md"
+                "file": "obsidian/ComputerScience/확률과 통계/Variance.md"
               }
             }
           }
@@ -151,9 +151,12 @@
   },
   "active": "cb8c07fb5d696435",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/확률과 통계/CDF.md",
-    "obsidian/ComputerScience/확률과 통계/Expectation.md",
+    "obsidian/ComputerScience/확률과 통계/Binomial Distribution.md",
+    "obsidian/ComputerScience/확률과 통계/Bernoulli Distribution.md",
+    "obsidian/ComputerScience/확률과 통계/Variance.md",
     "obsidian/ComputerScience/확률과 통계/Combinations.md",
+    "obsidian/ComputerScience/확률과 통계/Expectation.md",
+    "obsidian/ComputerScience/확률과 통계/CDF.md",
     "obsidian/ComputerScience/확률과 통계/Probability.md",
     "obsidian/ComputerScience/확률과 통계/Permutations.md",
     "obsidian/ComputerScience/확률과 통계/Counting.md",
@@ -176,9 +179,6 @@
     "obsidian/ComputerScience/Python(basic)/연산자.md",
     "obsidian/ComputerScience/Python(basic)/자료구조.md",
     "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
-    "obsidian/ComputerScience/인공지능/Perceptron/Perceptron.md",
-    "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
-    "obsidian/ComputerScience/확률과 통계/데이터 구조/단순 연결 리스트(코드).md",
     "obsidian/ComputerScience/인공지능/Perceptron",
     "obsidian/ComputerScience/인공지능",
     "obsidian/KR_history/고대/남북국시대",
