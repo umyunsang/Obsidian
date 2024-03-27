@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -149,7 +150,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4824d7b5ee6b90fb",
+  "active": "cb8c07fb5d696435",
   "lastOpenFiles": [
     "obsidian/ComputerScience/웹프로그래밍/HTML 기본 태그 및 속성 설명.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md",

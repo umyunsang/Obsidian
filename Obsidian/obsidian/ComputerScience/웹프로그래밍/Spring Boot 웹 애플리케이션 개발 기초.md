@@ -1,21 +1,15 @@
 
 ---
-아래는 코드와 함께 설명을 포함한 내용입니다:
-
 ### Spring Boot 기초
 
 #### 1. MyController.java
+	1.public class...윗 줄에 @Controller가 있어야 이 자바소소는 컨트롤러 역할을 합니다.
+	2.컨트롤러 소스안에는 메소드들이 많습니다. 메소드들의 순서는 상관없습니다.
+	3.이번 학기 내내 우리가 작성하는 컨트롤러의 메소드에는 @GetMapping("/주소") 혹은@PostMapping("/주소")가 붙습니다.
+	4.자바에서 @로 시작하는 것은 이노테이션이라 부릅니다. 우리는 현재까지 3가지 이노테이션을 사용했습니다.
+	5.GetMapping PostMapping에 들어가는 주소는 http://localhost:8080는 생략하고 슬래쉬 /부터 시작합니다. / 하나만 있으면 http://localhost:8080/라는 의미입니다.
+	6.앞에서 보낸 데이터를 받으려면 메소드 괄호 안에 String mid 이런식으로만 적어도name속성이 mid인 데이터를 잘 받습니다. 다만, 앞에서 보낸 데이터임을 확실하게 못박기 위해서 @RequestParam(name="mid")를 적는다.
 ```java
-package com.web.p1;
-
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-
-import java.util.ArrayList;
-
 @Controller
 public class MyController {
     @GetMapping("/")
@@ -123,7 +117,8 @@ public class MyController {
 #### 4. ex01Answer.html
 ```html
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<!-- <html xmlns:th="http://www.thymeleaf.org"> 시험에선 안써도 됨 -->
+<html>
 <head><meta charset="UTF-8">
 <title>받는 쪽</title></head>
 <body style="background-color:aqua">
