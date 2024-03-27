@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Probability.md",
+                "file": "obsidian/KR_history/고대/문화.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "연결리스트",
+                "query": "가야",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Probability.md",
+                "file": "obsidian/KR_history/고대/문화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Probability.md",
+                "file": "obsidian/KR_history/고대/문화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Probability.md"
+                "file": "obsidian/KR_history/고대/문화.md"
               }
             }
           }
@@ -149,12 +149,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cb8c07fb5d696435",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/확률과 통계/독립 사건.md",
+    "obsidian/KR_history/고대/삼국시대/가야.md",
+    "obsidian/KR_history/고대/문화.md",
+    "obsidian/KR_history/고대/경제 + 사회.md",
+    "obsidian/KR_history/고대/삼국시대/신라.md",
     "obsidian/ComputerScience/확률과 통계/Probability.md",
     "obsidian/ComputerScience/확률과 통계/Permutations.md",
     "obsidian/ComputerScience/확률과 통계/Counting.md",
+    "obsidian/KR_history/고대/남북국시대/통일신라.md",
+    "obsidian/KR_history/고대/남북국시대/발해.md",
+    "obsidian/ComputerScience/확률과 통계/독립 사건.md",
     "obsidian/ComputerScience/확률과 통계/Combinations.md",
     "obsidian/ComputerScience/Python(basic)/조건문.md",
     "obsidian/ComputerScience/Python(basic)/연산자.md",
@@ -164,14 +170,10 @@
     "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
     "obsidian/ComputerScience/확률과 통계/데이터 구조/단순 연결 리스트(코드).md",
-    "obsidian/KR_history/고대/남북국시대/발해.md",
     "obsidian/ComputerScience/인공지능/Perceptron",
     "obsidian/ComputerScience/인공지능",
-    "obsidian/KR_history/고대/남북국시대/통일신라.md",
-    "obsidian/KR_history/고대/삼국시대/신라.md",
     "obsidian/KR_history/고대/삼국시대/백제.md",
     "obsidian/KR_history/고대/삼국시대/고구려.md",
-    "obsidian/KR_history/고대/삼국시대/가야.md",
     "obsidian/KR_history/고대/남북국시대",
     "obsidian/KR_history/고대/남북국 시대.md",
     "obsidian/KR_history/고대/삼국시대",
@@ -184,8 +186,6 @@
     "obsidian/KR_history",
     "obsidian/ComputerScience/확률과 통계/무제 파일 1.md",
     "obsidian/ComputerScience/Python(basic)",
-    "Welcome.md",
-    "obsidian/무제 파일.md",
     "obsidian/ComputerScience/확률과 통계"
   ]
 }
