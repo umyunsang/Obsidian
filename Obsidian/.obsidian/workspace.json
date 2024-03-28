@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/데이터의 표현/디지털 코드.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/데이터의 표현/에러 검출 코드.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/데이터의 표현/디지털 코드.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/데이터의 표현/에러 검출 코드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/데이터의 표현/디지털 코드.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/데이터의 표현/에러 검출 코드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/데이터의 표현/디지털 코드.md"
+                "file": "obsidian/ComputerScience/컴퓨터 구조/데이터의 표현/에러 검출 코드.md"
               }
             }
           }
@@ -149,10 +149,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cb8c07fb5d696435",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/컴퓨터 구조/데이터의 표현/실수 표현.md",
+    "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
+    "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
+    "obsidian/ComputerScience/컴퓨터 구조/데이터의 표현/에러 검출 코드.md",
     "obsidian/ComputerScience/컴퓨터 구조/데이터의 표현/디지털 코드.md",
+    "obsidian/ComputerScience/컴퓨터 구조/데이터의 표현/실수 표현.md",
     "obsidian/ComputerScience/컴퓨터 구조/데이터의 표현/정수표현.md",
     "obsidian/ComputerScience/컴퓨터 구조/데이터의 표현/진법과 진법 변환.md",
     "obsidian/ComputerScience/컴퓨터 구조/디지털 논리 회로/논리 게이트.md",
@@ -172,7 +175,6 @@
     "obsidian/ComputerScience/컴퓨터 구조",
     "obsidian/ComputerScience/확률과 통계/Permutations.md",
     "obsidian/ComputerScience/확률과 통계/CDF.md",
-    "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md",
     "obsidian/ComputerScience/웹프로그래밍/HTML 기본 태그 및 속성 설명.md",
     "obsidian/KR_history/고대/문화.md",
@@ -180,8 +182,6 @@
     "obsidian/ComputerScience/웹프로그래밍",
     "obsidian/ComputerScience/무제 파일.md",
     "obsidian/KR_history/고대/경제 + 사회.md",
-    "obsidian/KR_history/고대/삼국시대/가야.md",
-    "obsidian/KR_history/고대/삼국시대/고구려.md",
     "obsidian/ComputerScience/인공지능/Perceptron",
     "obsidian/ComputerScience/인공지능",
     "obsidian/KR_history/고대/남북국시대",
