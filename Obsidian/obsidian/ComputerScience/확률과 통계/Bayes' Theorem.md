@@ -35,7 +35,6 @@
   - 주변 확률 $P(E)$를 계산하기 위해 베이즈 이론을 활용하여 다음과 같이 계산할 수 있습니다:
     $$ P(E) = P(E|B) \cdot P(B) + P(E|B') \cdot P(B') $$
     여기서 $B'$는 사건 $B$의 여집합을 나타냅니다.
-죄송합니다. 다시 수정하겠습니다.
 
 ### Bayes' 이론의 확장: Unknown Normalization Constant
 

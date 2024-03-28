@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -150,21 +149,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cb8c07fb5d696435",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/컴퓨터 구조/디지털 논리 회로",
-    "obsidian/ComputerScience/인공지능/Perceptron/AND, NAND, OR 게이트.md",
-    "obsidian/ComputerScience/컴퓨터 구조/디지털 논리 회로/논리 게이트.md",
-    "obsidian/ComputerScience/확률과 통계/Probability.md",
-    "obsidian/ComputerScience/컴퓨터 구조",
-    "obsidian/ComputerScience/확률과 통계/Conditional Probability.md",
     "obsidian/ComputerScience/확률과 통계/Bayes' Theorem.md",
-    "obsidian/ComputerScience/확률과 통계/Variance.md",
-    "obsidian/ComputerScience/확률과 통계/Counting.md",
     "obsidian/ComputerScience/확률과 통계/Bernoulli Distribution.md",
     "obsidian/ComputerScience/확률과 통계/Binomial Distribution.md",
-    "obsidian/ComputerScience/확률과 통계/Combinations.md",
+    "obsidian/ComputerScience/확률과 통계/Variance.md",
     "obsidian/ComputerScience/확률과 통계/Expectation.md",
+    "obsidian/ComputerScience/확률과 통계/Counting.md",
+    "obsidian/ComputerScience/확률과 통계/Combinations.md",
+    "obsidian/ComputerScience/확률과 통계/Conditional Probability.md",
+    "obsidian/ComputerScience/컴퓨터 구조/디지털 논리 회로/불 대수.md",
+    "obsidian/ComputerScience/컴퓨터 구조/디지털 논리 회로/논리 게이트.md",
+    "obsidian/ComputerScience/컴퓨터 구조/디지털 논리 회로",
+    "obsidian/ComputerScience/인공지능/Perceptron/AND, NAND, OR 게이트.md",
+    "obsidian/ComputerScience/확률과 통계/Probability.md",
+    "obsidian/ComputerScience/컴퓨터 구조",
     "obsidian/ComputerScience/확률과 통계/Permutations.md",
     "obsidian/ComputerScience/확률과 통계/CDF.md",
     "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
@@ -186,7 +186,6 @@
     "obsidian/KR_history/고대/남북국시대",
     "obsidian/KR_history/고대/삼국시대",
     "obsidian/KR_history/고대 이전",
-    "obsidian/ComputerScience/데이터 구조",
-    "obsidian/KR_history/고대"
+    "obsidian/ComputerScience/데이터 구조"
   ]
 }
