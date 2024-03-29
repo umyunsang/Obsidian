@@ -9,6 +9,13 @@
 	4.자바에서 @로 시작하는 것은 이노테이션이라 부릅니다. 우리는 현재까지 3가지 이노테이션을 사용했습니다.
 	5.GetMapping PostMapping에 들어가는 주소는 http://localhost:8080는 생략하고 슬래쉬 /부터 시작합니다. / 하나만 있으면 http://localhost:8080/라는 의미입니다.
 	6.앞에서 보낸 데이터를 받으려면 메소드 괄호 안에 String mid 이런식으로만 적어도name속성이 mid인 데이터를 잘 받습니다. 다만, 앞에서 보낸 데이터임을 확실하게 못박기 위해서 @RequestParam(name="mid")를 적는다.
+	7.get vs post
+		get : 주소창에 모든 정보가 포함되어 표현됨
+		post : 모든 정보가 숨겨짐 (get보다 보안이 좋음)
+	8. get <-> post 바꾸는 법
+		1. 보내는 html <form> 태그 안 action="get,post"로 변경
+		2. 받는 Controller @Get,Post Mapping으로 변경
+	9. 
 ```java
 @Controller
 public class MyController {
@@ -115,6 +122,8 @@ public class MyController {
 ```
 
 #### 4. ex01Answer.html
+	1. <strong th:text="${변수}">
+		th:text는 태그 속성 : 무조건 태그안에 있어해해
 ```html
 <!DOCTYPE html>
 <!-- <html xmlns:th="http://www.thymeleaf.org"> 시험에선 안써도 됨 -->
@@ -163,6 +172,9 @@ public class MyController {
 ```
 
 #### 7. ex03.html
+	1.<option value="aqua">시원한 아쿠아
+		전송할 데이터와 화면에 보이는 데이터를 분리
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -183,6 +195,10 @@ public class MyController {
 ```
 
 #### 8. ex03Answer.html
+	1.<title th:text="|${변수}+하드코딩|">
+		변수와 하드코딩을 썩을땐 "" 안에 ||를 사용하면 됨
+	2.<body th:style="|background-color: ${변수}">
+		이하 내용 동일
 ```html
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
