@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
+                "file": "obsidian/KR_history/고려/초기 정치.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
+                "file": "obsidian/KR_history/고려/초기 정치.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
+                "file": "obsidian/KR_history/고려/초기 정치.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/변수와 자료형.md"
+                "file": "obsidian/KR_history/고려/초기 정치.md"
               }
             }
           }
@@ -151,10 +151,16 @@
   },
   "active": "cb8c07fb5d696435",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/Python(basic)/자료구조.md",
+    "obsidian/KR_history/고려/초기 정치.md",
+    "obsidian/KR_history/고려",
+    "obsidian/ComputerScience/Python(basic)/연산자.md",
     "obsidian/ComputerScience/Python(basic)/조건문.md",
+    "obsidian/ComputerScience/Python(basic)/반복문.md",
+    "obsidian/ComputerScience/확률과 통계/Probability.md",
+    "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
     "obsidian/ComputerScience/확률과 통계/Conditional Probability.md",
     "obsidian/ComputerScience/확률과 통계/Counting.md",
-    "obsidian/ComputerScience/확률과 통계/Probability.md",
     "obsidian/ComputerScience/확률과 통계/Random Variables.md",
     "obsidian/ComputerScience/확률과 통계/Bayes' Theorem.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/불 대수.md",
@@ -172,11 +178,6 @@
     "obsidian/ComputerScience/인공지능/Perceptron/AND, NAND, OR 게이트.md",
     "obsidian/KR_history/고대/경제 + 사회.md",
     "obsidian/KR_history/고대/문화.md",
-    "obsidian/KR_history/고대 이전.md",
-    "obsidian/KR_history/선사시대.md",
-    "obsidian/ComputerScience/확률과 통계/Independence.md",
-    "obsidian/ComputerScience/Python(basic)/반복문.md",
-    "obsidian/ComputerScience/Python(basic)/자료구조.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)",
@@ -185,7 +186,6 @@
     "obsidian/ComputerScience/인공지능/Perceptron",
     "obsidian/ComputerScience/인공지능",
     "obsidian/KR_history/고대/남북국시대",
-    "obsidian/KR_history/고대/삼국시대",
-    "obsidian/KR_history/고대 이전"
+    "obsidian/KR_history/고대/삼국시대"
   ]
 }
