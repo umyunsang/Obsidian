@@ -1,3 +1,4 @@
+#ComputerScience #확률과통계 
 
 ---
 **포아송 분포(Poisson Distribution):**
@@ -29,5 +30,28 @@ $$ \text{Var}(X) = \sigma^2 = \lambda $$
 - **PMF 그래프:**
 	포아송 분포의 PMF 그래프는 확률 질량 함수 플롯으로, x-축은 사건의 수 $k$를 나타내고 y-축은 확률 $P(X = k)$를 나타냅니다. 일반적으로 그래프는 평균 발생률 매개변수 $\lambda$를 중심으로 오른쪽으로 치우친 모양을 보입니다.
 
-- **예시:**
-	가게에 1시간 동안 들어오는 고객 수를 관찰한다고 가정해보겠습니다. 평균적으로 1시간에 10명의 고객이 도착합니다. 이를 $\lambda = 10$인 포아송 분포로 모델링할 수 있습니다. 그러면 1시간 동안 8명의 고객을 관찰할 확률은 $P(X = 8) = \frac{{e^{-10} \times 10^8}}{{8!}}$로 주어집니다.
+
+
+## Poisson Proof
+
+Binomial 분포의 PMF는 다음과 같습니다:
+$$ P(X = k) = \binom{n}{k} p^k (1-p)^{n-k} $$
+
+Poisson 분포의 PMF는 다음과 같습니다:
+$$ P(X = k) = \frac{{e^{-\lambda} \lambda^k}}{{k!}} $$
+
+Binomial 분포의 매개변수 $n$과 $p$가 Poisson 분포의 매개변수 $\lambda$와 관련된 경우를 살펴보겠습니다. $np = \lambda$ 라고 가정하겠습니다.
+
+이제 $n$이 충분히 크고 $p$가 충분히 작은 경우, $n$을 큰 값으로, $p$를 작은 값으로 극한을 취하면:
+
+$$ \lim_{n \to \infty} P(X = k) = \lim_{n \to \infty} \binom{n}{k} p^k (1-p)^{n-k} $$
+
+$$ = \lim_{n \to \infty} \frac{{n!}}{{k! (n-k)!}} p^k (1-p)^{n-k} $$
+
+$$ = \lim_{n \to \infty} \frac{{n \cdot (n-1) \cdot (n-2) \cdot \ldots \cdot (n-k+1)}}{{k!}} p^k \left(1-\frac{{\lambda}}{n}\right)^n \left(1-\frac{{\lambda}}{n}\right)^{-k} $$
+
+$$ = \frac{{\lambda^k}}{{k!}} \cdot \lim_{n \to \infty} \left(1-\frac{{\lambda}}{n}\right)^n $$
+
+$$ = \frac{{\lambda^k}}{{k!}} \cdot e^{-\lambda} $$
+
+위의 극한은 Poisson 분포의 PMF와 동일한 형태를 가지므로, Binomial 분포의 극한이 Poisson 분포가 됨을 증명했습니다.
