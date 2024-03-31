@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/KR_history/고려/초기 정치.md",
+                "file": "obsidian/KR_history/고려/중기 정치.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/KR_history/고려/초기 정치.md",
+                "file": "obsidian/KR_history/고려/중기 정치.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/KR_history/고려/초기 정치.md",
+                "file": "obsidian/KR_history/고려/중기 정치.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/KR_history/고려/초기 정치.md"
+                "file": "obsidian/KR_history/고려/중기 정치.md"
               }
             }
           }
@@ -151,8 +151,9 @@
   },
   "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
-    "obsidian/KR_history/고대/남북국시대/통일신라.md",
     "obsidian/KR_history/고려/초기 정치.md",
+    "obsidian/KR_history/고려/중기 정치.md",
+    "obsidian/KR_history/고대/남북국시대/통일신라.md",
     "obsidian/ComputerScience/Python(basic)/반복문.md",
     "obsidian/ComputerScience/확률과 통계/More Discreete Distributions.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/카르노 맵.md",
@@ -176,7 +177,6 @@
     "obsidian/ComputerScience/웹프로그래밍/HTML 기본 태그 및 속성 설명.md",
     "obsidian/ComputerScience/인공지능/Perceptron/AND, NAND, OR 게이트.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/진법과 진법 변환.md",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/정수표현.md",
     "obsidian/KR_history/고려",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로",
