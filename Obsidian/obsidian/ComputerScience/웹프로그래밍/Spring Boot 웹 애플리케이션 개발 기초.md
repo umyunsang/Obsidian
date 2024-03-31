@@ -1,3 +1,4 @@
+#ComputerScience #웹프로그래밍 
 
 ---
 ### Spring Boot 기초
@@ -224,12 +225,4 @@ th:text="${color}">color</strong>입니다.
 </head>
 <body>
 <h2>회원 리스트 
-```
 
-1. **Spring Boot 기초 개념**: Spring Boot를 사용하여 웹 애플리케이션을 개발하는 기본 개념을 이해해야 합니다.
-2. **Controller 작성**: `@Controller` 어노테이션을 사용하여 컨트롤러를 작성하고, 요청 매핑을 설정합니다.
-3. **Thymeleaf 템플릿 엔진**: Thymeleaf를 사용하여 HTML 템플릿을 작성하고, 컨트롤러와 데이터를 연동하여 동적으로 웹 페이지를 생성합니다.
-4. **POST와 GET 요청**: HTTP POST와 GET 요청의 차이를 이해하고, 각각의 요청에 대한 처리를 구현합니다.
-5. **Model 객체 활용**: `Model` 객체를 사용하여 컨트롤러에서 뷰로 데이터를 전달하는 방법을 익혀야 합니다.
-6. **HTML과 CSS**: HTML과 CSS를 사용하여 웹 페이지의 레이아웃과 스타일링을 설정합니다.
-7. **반복문과 조건문 활용**: Thymeleaf에서 제공하는 반복문과 조건문을 사용하여 동적인 컨텐츠를 생성합니다.

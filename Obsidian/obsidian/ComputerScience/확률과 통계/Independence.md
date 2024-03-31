@@ -1,3 +1,4 @@
+#ComputerScience #확률과통계 
 
 ---
 1. **Definition: Independence (정의: 독립)**:

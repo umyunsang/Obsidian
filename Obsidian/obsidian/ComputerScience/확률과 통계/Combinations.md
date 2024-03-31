@@ -1,3 +1,4 @@
+#ComputerScience #확률과통계 
 
 ---
 #### Permutations of Distinct Objects (서로 다른 객체의 순열)

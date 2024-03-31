@@ -1,3 +1,4 @@
+#ComputerScience #확률과통계 
 
 ---
 ### Bayes' 이론
