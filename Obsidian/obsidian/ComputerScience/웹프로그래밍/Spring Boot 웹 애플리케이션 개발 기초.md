@@ -147,11 +147,10 @@ public class MyController {
 <form method="post" action="/ex02/answer">
 이름 : <input type="text" name="mname"><p>
 직급 : <select name="po">
- <option>사원
-<option>대리
-<option>팀장
-<option>임원
-</select><p>
+		<option>사원
+		<option>대리
+		<option>팀장
+		<option>임원 </select><p>
  <input type ="submit" value="확인">
 </form >
 </body></html>
@@ -185,12 +184,12 @@ public class MyController {
 <form method="post" action="/ex03/answer">
 이름 : <input type="text" name="mname"><p>
 좋아하는 색 : <select name="color">
- <option value="aqua">시원한 아쿠아
-<option value="lime">라임색이 좋아요!
- <option value="orange">상큼한 오렌지색
-<option value="white">역시 흰색 최고
+			<option value="aqua">시원한 아쿠아
+			<option value="lime">라임색이 좋아요!
+			<option value="orange">상큼한 오렌지색
+			<option value="white">역시 흰색 최고
 </select ><p>
- <input type ="submit" value="보내기">
+<input type ="submit" value="보내기">
 </form >
 </body></html>
 ```
