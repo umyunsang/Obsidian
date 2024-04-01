@@ -1,3 +1,6 @@
+---
+tags:
+---
 #ComputerScience #확률과통계 
 
 ---
@@ -6,7 +9,7 @@
 **표기:** $X \sim \text{Poi}(\lambda)$
 
 **설명:**
-포아송 분포는 일정한 시간 또는 공간 간격 내에서 발생하는 사건의 수를 모델링하는 이산 확률 분포로, 해당 사건들의 평균 발생률을 고려합니다. 이는 사건들이 독립적으로 발생하며 주어진 간격 내에서 일정한 평균 발생률을 가정하는 상황에서 사용됩니다.
+포아송 분포는 <mark style="background: yellow;">일정한 시간</mark> 또는 공간 간격 내에서 발생하는 사건의 수를 모델링하는 이산 확률 분포로, 해당 사건들의 평균 발생률을 고려합니다. 이는 사건들이 독립적으로 발생하며 주어진 간격 내에서 일정한 평균 발생률을 가정하는 상황에서 사용됩니다.
 
 **주요속성**:
 - **매개변수:**
@@ -17,7 +20,7 @@
 
 - **PMF 식:**
 	포아송 랜덤 변수 $X$의 확률 질량 함수(PMF)는 다음과 같습니다:
-$$ P(X = k) = \frac{{e^{-\lambda} \lambda^k}}{{k!}}, \quad \text{for } k = 0, 1, 2, \ldots $$
+$$ P(X = k) = \frac{{e^{-\lambda} \lambda^k}}{{k!}}, \quad \text{for } k = \{0, 1, 2, \ldots\}$$
 
 - **기대값:**
 	포아송 랜덤 변수의 기대값 또는 평균 ($\mu$)은 매개변수와 동일합니다:
@@ -55,3 +58,17 @@ $$ = \frac{{\lambda^k}}{{k!}} \cdot \lim_{n \to \infty} \left(1-\frac{{\lambda}}
 $$ = \frac{{\lambda^k}}{{k!}} \cdot e^{-\lambda} $$
 
 위의 극한은 Poisson 분포의 PMF와 동일한 형태를 가지므로, Binomial 분포의 극한이 Poisson 분포가 됨을 증명했습니다.
+
+### Poisson 분포 응용 예시
+- 일정 주어진 시간 동안에 도착한 고객의 수
+- 1킬로미터 도로에 있는 흠집의 수
+- 일정 주어진 생산시간 동안 발생하는 불량 수
+- 하룻동안 발생하는 출생자 수
+- 어떤 시간 동안 롤게이트를 통과하는 차량의 수
+- 어떤 페이지 하나를 완성하는 데 발생하는 오타의 발생률
+- 어떤 특정 진도 이상의 지진이 발생하는 수 
+
+Example)
+Probability of k requests from this area in the next 1minute?
+On average, $\lambda = 5$ requests per minute
+$$P(X = k) = \frac{{e^{-5} 5^k}}{{k!}}$$
