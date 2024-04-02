@@ -1,4 +1,5 @@
-
+#ComputerScience #인공지능 #perceptron 
+ 
 ---
 
 ### 1. 패키지 선언
@@ -42,37 +43,21 @@ print(first_img.shape)
 
 ### 5. Multi Layer Perceptron (MLP) 모델 정의
 ```python
-class MLP(nn.Module):
-    def __init__(self):
-        super(MLP, self).__init__()
+class MLP(nn.Module)첫 번째 fully connected layer의 출력 크기는 100이어야 합니다. 이는 두 번째 fully connected layer의 입력 크기와 일치해야 합니다. 이유는 행렬의 곱셈을 수행하기 위해서입니다.
 
-        self.fc1 = nn.Linear(784, 100)
-        self.fc2 = nn.Linear(100, 10)
-        self.sigmoid = nn.Sigmoid()
+4. `self.fc2 = nn.Linear(100, 10)`
+   - 두 번째 fully connected layer를 정의합니다. 입력 특징의 수는 100이고, 출력 특징의 수는 10입니다.
 
-    def forward(self, x):
-        x = x.view(-1, 28 * 28)
-        y = self.sigmoid(self.fc1(x))
-        y = self.fc2(y)
-        return y
-```
-1. `class SLP(nn.Module):`
-   - `SLP` 클래스를 정의합니다. 이 클래스는 `nn.Module` 클래스를 상속받습니다.
+5. `self.sigmoid = nn.Sigmoid()`
+   - Sigmoid 활성화 함수를 정의합니다.
 
-2. `def __init__(self):`
-   - 클래스의 초기화 메서드입니다.
-   - `super(SLP, self).__init__()`을 호출하여 부모 클래스인 `nn.Module`의 초기화 메서드를 호출합니다.
-
-3. `self.fc = nn.Linear(in_features=784, out_features=10):`
-   - `nn.Linear` 모듈을 사용하여 fully connected layer를 정의합니다.
-   - `in_features=784`는 입력 특징의 수를 나타냅니다. MNIST 이미지는 28x28 픽셀이므로, 총 784개의 특징이 있습니다.
-   - `out_features=10`는 출력의 크기를 나타냅니다. MNIST 데이터셋은 0부터 9까지의 숫자를 분류하는 문제이므로, 총 10개의 클래스가 있습니다.
-
-4. `def forward(self, x):`
+1. `def forward(self, x):`
    - 순전파 메서드입니다. 모델에 입력 데이터를 전달하여 출력을 계산합니다.
    - `x = x.view(-1, 28 * 28)`을 사용하여 입력 이미지를 1차원으로 평탄화합니다. 이렇게 함으로써 28x28 크기의 이미지를 784개의 특징을 가진 벡터로 변환합니다.
-   - `y = self.fc(x)`를 통해 fully connected layer를 통과한 출력을 계산합니다.
+   - `y = self.sigmoid(self.fc1(x))`를 통해 첫 번째 fully connected layer를 통과한 결과에 Sigmoid 활성화 함수를 적용합니다.
+   - `y = self.fc2(y)`를 통해 두 번째 fully connected layer를 통과한 출력을 계산합니다.
    - 최종적으로 출력값 `y`를 반환합니다.
+
 ### 6. 하이퍼파라미터 지정
 ```python
 batch_size = 100

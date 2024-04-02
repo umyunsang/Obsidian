@@ -1,4 +1,4 @@
-#ComputerScience #인공지능 #perceptron 
+#ComputerScience #인공지능  
 
 ---
 ### AND 게이트

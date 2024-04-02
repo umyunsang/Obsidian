@@ -1,4 +1,5 @@
-
+#ComputerScience #인공지능 #perceptron 
+ 
 ---
 ### 1. 패키지 선언
 ```python
