@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -152,8 +153,8 @@
   "active": "f115375c04340ec3",
   "lastOpenFiles": [
     "obsidian/ComputerScience/인공지능/Perceptron/SLP.md",
-    "obsidian/ComputerScience/인공지능/Perceptron/MLP.md",
     "obsidian/ComputerScience/인공지능/Perceptron/MLP theorm.md",
+    "obsidian/ComputerScience/인공지능/Perceptron/MLP.md",
     "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
