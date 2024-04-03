@@ -18,6 +18,7 @@
 8. get <-> post 바꾸는 법
 		1. 보내는 html <form> 태그 안 action="get,post"로 변경
 		2. 받는 Controller @Get,Post Mapping으로 변경
+9. 
 */
 @Controller
 public class MyController {
@@ -197,7 +198,7 @@ public class MyController {
 
 #### 8. ex03Answer.html
 	1.<title th:text="|${변수}+하드코딩|">
-		변수와 하드코딩을 썩을땐 "" 안에 ||를 사용하면 됨
+		변수와 하드코딩을 섞을땐 "" 안에 ||를 사용하면 됨
 	2.<body th:style="|background-color: ${변수}">
 		이하 내용 동일
 ```html
