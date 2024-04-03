@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Continuous RVs.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Continuous RVs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Continuous RVs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md"
+                "file": "obsidian/ComputerScience/확률과 통계/Continuous RVs.md"
               }
             }
           }
@@ -152,7 +151,15 @@
   },
   "active": "f115375c04340ec3",
   "lastOpenFiles": [
+    "obsidian/index.md",
+    "obsidian/ComputerScience/확률과 통계/Continuous RVs.md",
+    "obsidian/ComputerScience/확률과 통계/Poisson Distribution.md",
+    "obsidian/ComputerScience/확률과 통계/More Discreete Distributions (시험 X).md",
+    "obsidian/ComputerScience/확률과 통계/Probability.md",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/진법과 진법 변환.md",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/정수표현.md",
     "obsidian/ComputerScience/웹프로그래밍/HTML 기본 태그 및 속성 설명.md",
+    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/카르노 맵.md",
     "obsidian/ComputerScience/인공지능/Perceptron/MLP (Multi Layer Perceptron).md",
     "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
@@ -164,20 +171,12 @@
     "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
     "obsidian/ComputerScience/Python(basic)/조건문.md",
     "obsidian/ComputerScience/Python(basic)/연산자.md",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md",
     "obsidian/KR_history/고려/외교.md",
     "obsidian/KR_history/고려/중기 정치.md",
     "obsidian/KR_history/고려/초기 정치.md",
     "obsidian/KR_history/선사시대.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/불 대수.md",
     "obsidian/ComputerScience/확률과 통계/Expectation.md",
-    "obsidian/ComputerScience/확률과 통계/Combinations.md",
-    "obsidian/ComputerScience/확률과 통계/Conditional Probability.md",
-    "obsidian/ComputerScience/확률과 통계/Poisson Distribution.md",
-    "obsidian/ComputerScience/확률과 통계/More Discreete Distributions (시험 X).md",
-    "obsidian/ComputerScience/확률과 통계/Binomial Distribution.md",
-    "obsidian/ComputerScience/확률과 통계/Bernoulli Distribution.md",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/논리 게이트.md",
     "obsidian/KR_history/고려",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로",

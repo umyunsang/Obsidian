@@ -226,5 +226,16 @@ th:text="${color}">color</strong>입니다.
 <body><h2>회원 리스트</h2>
 <table>
 <tr id ="ftr"> <th> 회원 ID
-<tr th:each="a:$$
-
+<tr th:each="a:${arr}"> <td th:text="${a}">
+</table>
+</body>
+</html>
+```
+#### 10. ex04.css
+```css
+@charset "UTF-8";
+body {background-color:#ECE0F8;}
+table {width:200px; border:1px dashe green;}
+#ftr {background-color:orange;}
+td {color:navy; text-align:center;}
+```
