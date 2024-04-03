@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Continuous RVs.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Continuous RVs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Continuous RVs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md"
+                "file": "obsidian/ComputerScience/확률과 통계/Continuous RVs.md"
               }
             }
           }
