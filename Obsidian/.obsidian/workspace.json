@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/카르노 맵.md",
+                "file": "obsidian/ComputerScience/Python(basic)/반복문.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/카르노 맵.md",
+                "file": "obsidian/ComputerScience/Python(basic)/반복문.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/카르노 맵.md",
+                "file": "obsidian/ComputerScience/Python(basic)/반복문.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/카르노 맵.md"
+                "file": "obsidian/ComputerScience/Python(basic)/반복문.md"
               }
             }
           }
@@ -151,6 +151,11 @@
   },
   "active": "f115375c04340ec3",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
+    "obsidian/ComputerScience/Python(basic)/연산자.md",
+    "obsidian/ComputerScience/Python(basic)/자료구조.md",
+    "obsidian/ComputerScience/Python(basic)/조건문.md",
+    "obsidian/ComputerScience/Python(basic)/반복문.md",
     "obsidian/ComputerScience/데이터 구조/스택.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/카르노 맵.md",
     "obsidian/ComputerScience/웹프로그래밍/Space for Practice and Creation.md",
@@ -171,12 +176,7 @@
     "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
     "obsidian/ComputerScience/인공지능/AND, NAND, OR 게이트.md",
     "obsidian/ComputerScience/인공지능/Perceptron/MLP theorm.md",
-    "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
-    "obsidian/ComputerScience/Python(basic)/조건문.md",
-    "obsidian/ComputerScience/Python(basic)/연산자.md",
     "obsidian/KR_history/고려/중기 정치.md",
-    "obsidian/KR_history/고려/초기 정치.md",
-    "obsidian/KR_history/선사시대.md",
     "obsidian/KR_history/고려",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로",
