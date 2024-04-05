@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ddcb23e4a1d099ee",
+        "id": "50da1c963db099eb",
         "type": "tabs",
         "children": [
           {
-            "id": "f115375c04340ec3",
+            "id": "d89a03cf9ba18c82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "obsidian/ComputerScience/Python(basic)/반복문.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -149,13 +149,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f115375c04340ec3",
+  "active": "d89a03cf9ba18c82",
   "lastOpenFiles": [
+    "무제 파일.canvas",
+    "obsidian/ComputerScience/Python(basic)/반복문.md",
     "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
     "obsidian/ComputerScience/Python(basic)/연산자.md",
     "obsidian/ComputerScience/Python(basic)/자료구조.md",
     "obsidian/ComputerScience/Python(basic)/조건문.md",
-    "obsidian/ComputerScience/Python(basic)/반복문.md",
     "obsidian/ComputerScience/데이터 구조/스택.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/카르노 맵.md",
     "obsidian/ComputerScience/웹프로그래밍/Space for Practice and Creation.md",
@@ -176,7 +177,6 @@
     "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
     "obsidian/ComputerScience/인공지능/AND, NAND, OR 게이트.md",
     "obsidian/ComputerScience/인공지능/Perceptron/MLP theorm.md",
-    "obsidian/KR_history/고려/중기 정치.md",
     "obsidian/KR_history/고려",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로",
