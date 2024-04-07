@@ -76,7 +76,7 @@ public class MyController {
 
     // ex04 메소드 추가
     @GetMapping("/ex04")
-    public String ex04Answer(Model mo) {
+    public String ex04(Model mo) {
         var arr = new ArrayList<String>();
         arr.add("고흐");
         arr.add("james");
