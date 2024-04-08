@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
+                "file": "obsidian/ComputerScience/Python(basic)/조건문.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
+                "file": "obsidian/ComputerScience/Python(basic)/조건문.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
+                "file": "obsidian/ComputerScience/Python(basic)/조건문.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md"
+                "file": "obsidian/ComputerScience/Python(basic)/조건문.md"
               }
             }
           }
@@ -150,11 +149,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d89a03cf9ba18c82",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
     "obsidian/ComputerScience/Python(basic)/반복문.md",
-    "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/Python(basic)/조건문.md",
+    "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/스택.md",
