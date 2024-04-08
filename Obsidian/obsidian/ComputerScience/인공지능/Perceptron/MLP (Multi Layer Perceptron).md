@@ -42,11 +42,24 @@ print(first_img.shape)
 - 이미지를 1차원으로 평탄화하여 신경망에 입력할 수 있는 형태로 변환합니다.
 
 ### 5. Multi Layer Perceptron (MLP) 모델 정의
+
 ```python
-class MLP(nn.Module)첫 번째 fully connected layer의 출력 크기는 100이어야 합니다. 이는 두 번째 fully connected layer의 입력 크기와 일치해야 합니다. 이유는 행렬의 곱셈을 수행하기 위해서입니다.
+class MLP(nn.Module):
+    def __init__(self):
+        super(MLP, self).__init__()
+        self.fc1 = nn.Linear(28 * 28, 100)  # 첫 번째 fully connected layer
+        self.fc2 = nn.Linear(100, 10)       # 두 번째 fully connected layer
+        self.sigmoid = nn.Sigmoid()         # Sigmoid 활성화 함수
+
+    def forward(self, x):
+        x = x.view(-1, 28 * 28)
+        y = self.sigmoid(self.fc1(x))  # 첫 번째 fully connected layer + 활성화 함수(Sigmoid)
+        y = self.fc2(y)                # 두 번째 fully connected layer
+        return y
+```
 
 4. `self.fc2 = nn.Linear(100, 10)`
-   - 두 번째 fully connected layer를 정의합니다. 입력 특징의 수는 100이고, 출력 특징의 수는 10입니다.
+   - 두 번째 fully connected layer를 정의합니다. 입력 특징의 수는 100이고, 출력 특징의 수는 10입니다. 입력 특징의 수는 첫 번째 fully connected layer의 출력 특징의 수와 같아야 한다.
 
 5. `self.sigmoid = nn.Sigmoid()`
    - Sigmoid 활성화 함수를 정의합니다.
