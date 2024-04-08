@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Perceptron/Back.md",
+                "file": "obsidian/ComputerScience/인공지능/Perceptron/Backpropagation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Perceptron/Back.md",
+                "file": "obsidian/ComputerScience/인공지능/Perceptron/Backpropagation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Perceptron/Back.md",
+                "file": "obsidian/ComputerScience/인공지능/Perceptron/Backpropagation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Perceptron/Back.md"
+                "file": "obsidian/ComputerScience/인공지능/Perceptron/Backpropagation.md"
               }
             }
           }
@@ -151,8 +151,9 @@
   },
   "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/확률과 통계/Poisson Distribution.md",
     "obsidian/index.md",
-    "obsidian/ComputerScience/인공지능/Perceptron/Back.md",
+    "obsidian/ComputerScience/인공지능/Perceptron/Backpropagation.md",
     "obsidian/ComputerScience/인공지능/Perceptron/MLP theorm.md",
     "obsidian/ComputerScience/인공지능/Perceptron/SLP (Single Layer Perceptron).md",
     "obsidian/ComputerScience/인공지능/Perceptron/MLP (Multi Layer Perceptron).md",
@@ -176,7 +177,6 @@
     "obsidian/ComputerScience/확률과 통계/Random Variables.md",
     "obsidian/ComputerScience/확률과 통계/Variance.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/진법과 진법 변환.md",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/정수표현.md",
     "무제 파일.canvas",
     "obsidian/KR_history/고려",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현",
