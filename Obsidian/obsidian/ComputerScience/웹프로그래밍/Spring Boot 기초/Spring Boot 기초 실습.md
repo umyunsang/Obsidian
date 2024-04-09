@@ -1,25 +1,33 @@
 #ComputerScience #웹프로그래밍 
 
 ---
-### Spring Boot 기초
-
 #### 1. MyController.java
+
+1. **@Controller 어노테이션**: 
+   - 자바 클래스의 맨 위에 `@Controller` 어노테이션이 있어야 해당 클래스가 컨트롤러의 역할을 수행합니다.
+
+2. **컨트롤러 메소드 순서**:
+   - 컨트롤러 내부에는 여러 메소드가 있지만, 이들의 순서는 상관없습니다.
+
+3. **컨트롤러 메소드 어노테이션**:
+   - 이번 학기에 작성하는 모든 컨트롤러 메소드에는 `@GetMapping("/주소")` 또는 `@PostMapping("/주소")` 어노테이션이 필요합니다.
+
+4. **이노테이션 사용**:
+   - 자바에서 `@`로 시작하는 것을 이노테이션이라고 부르며, 현재까지 3가지 이노테이션을 사용하였습니다.
+
+5. **GetMapping과 PostMapping 주소**:
+   - `GetMapping`과 `PostMapping`에 들어가는 주소는 `http://localhost:8080`를 생략하고 슬래시(`/`)부터 시작합니다. 하나의 슬래시(`/`)만 있어도 `http://localhost:8080/`를 의미합니다.
+
+6. **데이터 수신 메소드 작성**:
+   - 앞에서 보낸 데이터를 받으려면 메소드 괄호 안에 `String mid`와 같이 작성해도 됩니다. 다만, 데이터가 앞에서 보낸 것임을 명시하기 위해 `@RequestParam(name="mid")`를 추가하는 것이 좋습니다.
+
+7. **GET vs POST**:
+   - GET은 주소창에 모든 정보가 표시되지만, POST는 모든 정보가 숨겨집니다. 따라서 POST가 GET보다 보안이 좋습니다.
+
+8. **GET <-> POST 변경 방법**:
+   - 보내는 HTML `<form>` 태그의 action 속성을 `"get"` 또는 `"post"`로 변경합니다.
+   - 받는 컨트롤러의 어노테이션을 `@Get` 또는 `@Post` Mapping으로 변경합니다.
 ```java
-/*
-1. public class...윗 줄에 @Controller가 있어야 이 자바소소는 컨트롤러 역할을 합니다.
-2. 컨트롤러 소스안에는 메소드들이 많습니다. 메소드들의 순서는 상관없습니다.
-3. 이번 학기 내내 우리가 작성하는 컨트롤러의 메소드에는 @GetMapping("/주소") 혹은@PostMapping("/주소")가 붙습니다.
-4. 자바에서 @로 시작하는 것은 이노테이션이라 부릅니다. 우리는 현재까지 3가지 이노테이션을 사용했습니다.
-5. GetMapping PostMapping에 들어가는 주소는 http://localhost:8080는 생략하고 슬래쉬 /부터 시작합니다. / 하나만 있으면 http://localhost:8080/라는 의미입니다.
-6. 앞에서 보낸 데이터를 받으려면 메소드 괄호 안에 String mid 이런식으로만 적어도name속성이 mid인 데이터를 잘 받습니다. 다만, 앞에서 보낸 데이터임을 확실하게 못박기 위해서 @RequestParam(name="mid")를 적는다.
-7. get vs post
-	get : 주소창에 모든 정보가 포함되어 표현됨
-	post : 모든 정보가 숨겨짐 (get보다 보안이 좋음)	
-8. get <-> post 바꾸는 법
-		1. 보내는 html <form> 태그 안 action="get,post"로 변경
-		2. 받는 Controller @Get,Post Mapping으로 변경
-9. 
-*/
 @Controller
 public class MyController {
     @GetMapping("/")

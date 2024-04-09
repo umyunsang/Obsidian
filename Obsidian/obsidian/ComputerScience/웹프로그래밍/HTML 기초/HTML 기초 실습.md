@@ -25,6 +25,11 @@
 ```
 
 ## 2.html
+	1.<body style="background-color:silver"> style 속성으로도 사용 가능
+	2.<strong>태그 글자를 진하게 
+	3.input type= "text": 문자열 입력, "password": 화면에 기호로 표현
+	4.name속성은 나중에 서버로 데이터를 보낼 때 매우 중요
+	
 ```html
 <html><head> <title>로그인</title></head> 
 <style>
@@ -47,6 +52,9 @@
 ```
 
 ## 3.html
+	1.<select> 태그는 여러 데이터 중 하나를 선택
+	2.type 속성의 값이 reset인 버튼은 화면 초기화 기능
+	3.value 속성도 나중에 서버로 데이터를 보낼 때 중요
 ```html
 <html><head><title>회원가입 화면이다~</title></head>
 <style>
