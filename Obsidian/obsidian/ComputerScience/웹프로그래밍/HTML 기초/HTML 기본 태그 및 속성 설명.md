@@ -1,74 +1,34 @@
 #ComputerScience #웹프로그래밍 #기본태그 
 
 ---
+### 웹프로그래밍의 종류
+- front - end
+	- HTML (CSS, JavaScript)
+- back - end (회사)
+	- PHP
+	- Python 웹
+	- Node.js 등등
+- database (데이터 저장)
+	- SQL
+	- NoSQL
+
 1. `<!DOCTYPE html>`: HTML 문서가 HTML5를 사용한다는 것을 선언하는 문서 타입 선언자입니다.
-
 2. `<html>`: HTML 문서의 루트 요소로서, 전체 HTML 내용을 감싸는 역할을 합니다.
-
 3. `<head>`: HTML 문서의 메타데이터를 포함하는데 사용되며, 제목(title), 외부 스타일시트, 스크립트 등을 정의합니다.
-
 4. `<title>`: 문서의 제목을 정의하는데 사용됩니다. 브라우저 탭에 표시됩니다.
-
 5. `<body>`: 실제로 화면에 표시되는 내용을 포함하는데 사용되며, 텍스트, 이미지, 링크 등을 포함합니다.
-
 6. `<h2>`: 두 번째 수준의 제목을 정의하는데 사용되며, 크기가 더 작은 제목입니다.
-
 7. `<hr>`: 수평선을 삽입하는 태그입니다. 주로 문단이나 섹션의 구분선으로 사용됩니다.
-
 8. `<p>`: 단락을 정의하는데 사용되며, 문단 단위의 텍스트를 포함합니다.
-
 9. `<a>`: 하이퍼링크를 생성하는데 사용되며, href 속성에 지정된 URL로 이동합니다.
-
 10. `<br>`: 줄바꿈을 생성하는 태그입니다. 인라인 요소로 사용되며, 닫는 태그가 없습니다.
-
 11. `&nbsp;`: 비-breaking space를 의미하며, 공백을 삽입할 때 사용됩니다.
-
 12. `<span>`: 특정 부분에 스타일을 적용하기 위해 사용되는 인라인 요소입니다.
-
 13. `<strong>`: 텍스트를 강조하는데 사용되며, 일반적으로 굵은 글꼴로 표시됩니다.
-
 14. `<input>`: 사용자 입력 필드를 생성하는데 사용되며, 텍스트 입력, 패스워드 입력 등 다양한 유형이 있습니다.
-
 15. `<form>`: 사용자 입력 데이터를 서버로 제출하는데 사용되는 폼 요소를 정의합니다.
-
 16. `<table>`: 표를 생성하는데 사용되며, 행(`<tr>`), 헤더 셀(`<th>`), 데이터 셀(`<td>`) 등을 포함합니다.
 
-이렇게 각 태그는 문서의 구조를 정의하거나 특정한 기능을 수행하는 역할을 합니다.
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <title>HTML 실습</title>
-</head>
-<body style="background-color: silver;">
-    <h2>제목</h2>
-    <hr>
-    <p>내용</p>
-    <a href="https://www.naver.com" target="_blank">네이버</a>
-    <br>
-    <!--공백&nbsp;여러개&nbsp;삽입-->
-    <span style="margin-right: 10px;">스타일 적용할 텍스트</span>
-    <strong>진한 글자</strong>
-    <input type="text" name="username" placeholder="유저명">
-    <input type="password" name="password" placeholder="비밀번호">
-    <form action="/submit" method="post">
-        <input type="submit" value="전송">
-        <input type="reset" value="초기화">
-    </form>
-    <table border="1">
-        <tr>
-            <th>헤더1</th>
-            <th>헤더2</th>
-        </tr>
-        <tr>
-            <td>데이터1</td>
-            <td>데이터2</td>
-        </tr>
-    </table>
-</body>
-</html>
-```
 
 ## 연습문제
 

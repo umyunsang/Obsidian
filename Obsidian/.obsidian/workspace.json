@@ -4,6 +4,22 @@
     "type": "split",
     "children": [
       {
+        "id": "d1bf71903097a1fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58d687086c7687de",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "obsidian/ComputerScience/웹프로그래밍/HTML 기초/HTML 기초 실습.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "9f65cc4a3e200417",
         "type": "tabs",
         "children": [
@@ -11,9 +27,11 @@
             "id": "4b7e00edc2554d9a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Perceptron/실습/Perceptron (실습).pdf"
+                "file": "obsidian/ComputerScience/웹프로그래밍/HTML 기초/실습/1장 실습.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -83,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Perceptron/실습/Perceptron (실습).pdf",
+                "file": "obsidian/ComputerScience/웹프로그래밍/HTML 기초/실습/1장 실습.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Perceptron/실습/Perceptron (실습).pdf",
+                "file": "obsidian/ComputerScience/웹프로그래밍/HTML 기초/실습/1장 실습.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Perceptron/실습/Perceptron (실습).pdf"
+                "file": "obsidian/ComputerScience/웹프로그래밍/HTML 기초/실습/1장 실습.md"
               }
             }
           }
@@ -147,23 +166,32 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4824d7b5ee6b90fb",
+  "active": "4b7e00edc2554d9a",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP(실습).pdf",
-    "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/이론/MLP(이론).pdf",
-    "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/이론",
-    "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습",
-    "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)",
+    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/HTML 기초 실습.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/실습/1장 실습.md",
+    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/HTML 기본 태그 및 속성 설명.md",
+    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md",
+    "obsidian/ComputerScience/웹프로그래밍/Space for Practice and Creation.md",
+    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/실습",
+    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/실습",
+    "obsidian/ComputerScience/웹프로그래밍/HTML 기초",
+    "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
+    "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
+    "obsidian/ComputerScience/데이터 구조/스택.md",
+    "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
     "obsidian/ComputerScience/인공지능/Perceptron/이론/Perceptron (이론).pdf",
-    "obsidian/ComputerScience/인공지능/Perceptron/실습",
-    "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation (이론).pdf",
-    "obsidian/ComputerScience/인공지능/Perceptron/이론",
+    "obsidian/ComputerScience/인공지능/Perceptron/실습/Perceptron (실습).pdf",
+    "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트.md",
+    "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/이론/MLP theorm.md",
+    "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
+    "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/SLP (Single Layer Perceptron).md",
+    "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP(실습).pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting.pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient Effect.pdf",
+    "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation (이론).pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation.md",
-    "obsidian/ComputerScience/인공지능/Perceptron/MLP (Multi Layer Perceptron).md",
-    "obsidian/ComputerScience/인공지능/Perceptron/SLP (Single Layer Perceptron).md",
-    "obsidian/ComputerScience/인공지능/Perceptron/MLP theorm.md",
+    "obsidian/index.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/카르노 맵.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/조합 논리 회로.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/불 대수.md",
@@ -173,18 +201,8 @@
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/에러 검출 코드.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/실수 표현.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/디지털 코드.md",
-    "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
-    "obsidian/ComputerScience/웹프로그래밍/HTML 기본 태그 및 속성 설명.md",
     "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
-    "obsidian/ComputerScience/데이터 구조/스택.md",
     "obsidian/ComputerScience/Python(basic)/반복문.md",
-    "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
-    "obsidian/ComputerScience/Python(basic)/조건문.md",
-    "obsidian/ComputerScience/Python(basic)/연산자.md",
-    "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
-    "obsidian/ComputerScience/확률과 통계/Normal Distribution.md",
-    "obsidian/ComputerScience/확률과 통계/Poisson Distribution.md",
-    "obsidian/ComputerScience/확률과 통계/Probability.md",
     "무제 파일.canvas"
   ]
 }
