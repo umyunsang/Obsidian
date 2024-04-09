@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/스택.md",
+                "file": "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/스택.md",
+                "file": "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/스택.md",
+                "file": "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/스택.md"
+                "file": "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md"
               }
             }
           }
@@ -149,9 +149,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4824d7b5ee6b90fb",
+  "active": "d89a03cf9ba18c82",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/웹프로그래밍/HTML 기본 태그 및 속성 설명.md",
+    "obsidian/ComputerScience/인공지능/Perceptron/Backpropagation.md",
     "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
+    "obsidian/ComputerScience/데이터 구조/스택.md",
     "obsidian/ComputerScience/Python(basic)/반복문.md",
     "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
@@ -170,13 +173,10 @@
     "obsidian/ComputerScience/확률과 통계/Bernoulli Distribution.md",
     "obsidian/ComputerScience/확률과 통계/Binomial Distribution.md",
     "obsidian/ComputerScience/확률과 통계/Bayes' Theorem.md",
-    "obsidian/ComputerScience/인공지능/Perceptron/Backpropagation.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 웹 애플리케이션 개발 기초.md",
-    "obsidian/ComputerScience/웹프로그래밍/HTML 기본 태그 및 속성 설명.md",
     "obsidian/ComputerScience/웹프로그래밍/Space for Practice and Creation.md",
     "obsidian/index.md",
     "obsidian/ComputerScience/인공지능/Perceptron/MLP theorm.md",
-    "obsidian/ComputerScience/인공지능/Perceptron/SLP (Single Layer Perceptron).md",
     "무제 파일.canvas",
     "obsidian/KR_history/고려",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현",
