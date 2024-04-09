@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Probability/Probability.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Probability/Probability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Probability/Probability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md"
+                "file": "obsidian/ComputerScience/확률과 통계/Probability/Probability.md"
               }
             }
           }
@@ -150,28 +149,33 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "58d687086c7687de",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 개발 환경 세팅/연습문제.md",
+    "obsidian/ComputerScience/확률과 통계/Independence",
+    "obsidian/ComputerScience/확률과 통계/Bayes' theorem/Bayes' Theorem 문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/Bayes' theorem",
+    "obsidian/ComputerScience/확률과 통계/Conditional Probability/Conditional Probability 문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/Conditional Probability",
+    "obsidian/ComputerScience/확률과 통계/Probability/Probability 문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/Probability",
+    "obsidian/ComputerScience/확률과 통계/Counting/Counting.md",
+    "obsidian/ComputerScience/확률과 통계/Combinations/Combinations.md",
+    "obsidian/ComputerScience/확률과 통계/Combinations/Combinations 문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/Counting/Counting 문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/Counting/Permutations 문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/Combinations",
+    "obsidian/ComputerScience/확률과 통계/Bayes' theorem/Bayes' Theorem.md",
+    "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
+    "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
+    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 개발 환경 세팅/연습문제.md",
     "obsidian/ComputerScience/웹프로그래밍/HTML 기초/연습문제.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.md",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초",
     "obsidian/ComputerScience/웹프로그래밍/Space for Practice and Creation.md",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 개발 환경 세팅/Spring Boot 개발 환경 세팅.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/HTML 기초 실습.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 개발 환경 세팅",
     "obsidian/ComputerScience/웹프로그래밍/HTML 기초/HTML 기초 실습.md",
-    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/실습",
-    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/실습",
-    "obsidian/ComputerScience/웹프로그래밍/HTML 기초",
-    "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/스택.md",
     "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
-    "obsidian/ComputerScience/인공지능/Perceptron/이론/Perceptron (이론).pdf",
-    "obsidian/ComputerScience/인공지능/Perceptron/실습/Perceptron (실습).pdf",
     "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트.md",
     "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/이론/MLP theorm.md",
     "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
@@ -183,11 +187,6 @@
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/불 대수.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/논리 게이트.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/진법과 진법 변환.md",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/정수표현.md",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/에러 검출 코드.md",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/실수 표현.md",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/디지털 코드.md",
-    "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
     "무제 파일.canvas"
   ]
 }
