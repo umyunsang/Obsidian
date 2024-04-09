@@ -28,4 +28,4 @@
 
 7. **Conditional Independence (조건부 독립성)**:
    - 사건들이 일정한 사건에 대해 조건부로 독립이라면, 이를 조건부 독립이라고 합니다.
-   - 수식: $P(A \cap B | C) = P(A|C) \times P(B|C)$
+   - 수식: $P(A  B | C) = P(A|C) \times P(B|C)$
