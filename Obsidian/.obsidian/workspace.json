@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -150,7 +149,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4824d7b5ee6b90fb",
+  "active": "58d687086c7687de",
   "lastOpenFiles": [
     "obsidian/ComputerScience/Python(basic)/연산자.md",
     "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
