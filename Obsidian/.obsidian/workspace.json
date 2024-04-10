@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/이중 연결 리스트 예상 문제.md",
+                "file": "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/이중 연결 리스트 예상 문제.md",
+                "file": "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/이중 연결 리스트 예상 문제.md",
+                "file": "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/이중 연결 리스트 예상 문제.md"
+                "file": "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md"
               }
             }
           }
@@ -152,10 +152,10 @@
   },
   "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/데이터 구조/예상 문제/단순 연결 리스트 예상 문제.md",
-    "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/이중 연결 리스트 예상 문제.md",
     "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
+    "obsidian/ComputerScience/데이터 구조/예상 문제/단순 연결 리스트 예상 문제.md",
+    "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제",
     "obsidian/ComputerScience/데이터 구조/스택.md",
     "obsidian/ComputerScience/Python(basic)/연산자.md",
