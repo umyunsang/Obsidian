@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트 실습.md",
+                "file": "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트 실습.md",
+                "file": "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트 실습.md",
+                "file": "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트 실습.md"
+                "file": "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md"
               }
             }
           }
@@ -149,44 +150,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "58d687086c7687de",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/Python(basic)/연산자.md",
+    "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
+    "obsidian/ComputerScience/Python(basic)/조건문.md",
+    "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
+    "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation (이론).pdf",
+    "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
+    "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
+    "obsidian/ComputerScience/데이터 구조/스택.md",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/순서 논리 회로.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/카르노 맵.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/에러 검출 코드.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/실수 표현.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/디지털 코드.pdf",
+    "obsidian/ComputerScience/확률과 통계/Bayes' theorem/Bayes' Theorem 문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/Counting/Counting 문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/Counting/Permutations 문제.pdf",
+    "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/이론/MLP(이론).pdf",
+    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.md",
+    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
+    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 개발 환경 세팅/연습문제.md",
+    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/연습문제.md",
+    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/HTML 기초 실습.md",
+    "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
     "obsidian/ComputerScience/인공지능/Perceptron/이론/AND, NAND, OR 게이트.md",
     "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트 실습.md",
-    "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트.md",
-    "obsidian/ComputerScience/인공지능/Perceptron/이론/Perceptron (이론).pdf",
     "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
+    "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트.md",
     "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/SLP (Single Layer Perceptron).md",
-    "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP(실습).pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation.md",
-    "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation (이론).pdf",
-    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.md",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 개발 환경 세팅/Spring Boot 개발 환경 세팅.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/HTML 기초 실습.md",
-    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/HTML 기초 실습.pdf",
-    "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
-    "obsidian/ComputerScience/확률과 통계/Normal RV/Normal RV 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/Normal RV/Normal Distribution.md",
-    "obsidian/ComputerScience/확률과 통계/Normal RV/10_normal_gaussian.pdf",
-    "obsidian/ComputerScience/확률과 통계/Normal RV",
     "obsidian/ComputerScience/확률과 통계/무제 파일.md",
     "obsidian/index.md",
     "무제 파일.canvas",
     "obsidian/ComputerScience/확률과 통계/Continuous RVs/Continuous RVs.md",
     "obsidian/ComputerScience/확률과 통계/Poisson/More Discreete Distributions (시험 X).md",
     "obsidian/ComputerScience/확률과 통계/Poisson/Poisson Distribution.md",
-    "obsidian/ComputerScience/확률과 통계/Independence/Independence.md",
-    "obsidian/ComputerScience/확률과 통계/Probability/Probability.md",
-    "obsidian/ComputerScience/확률과 통계/Counting/Counting.md",
-    "obsidian/ComputerScience/확률과 통계/Combinations/Combinations.md",
-    "obsidian/ComputerScience/확률과 통계/Bayes' theorem/Bayes' Theorem.md",
-    "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
-    "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 개발 환경 세팅/연습문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/연습문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/Space for Practice and Creation.md"
+    "obsidian/ComputerScience/확률과 통계/Independence/Independence.md"
   ]
 }
