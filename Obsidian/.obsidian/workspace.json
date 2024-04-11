@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
+                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "연결 리스트",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
+                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
+                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/후위 표기법.md"
+                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md"
               }
             }
           }
@@ -152,8 +152,15 @@
   },
   "active": "58d687086c7687de",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/데이터 구조/스택.md",
+    "obsidian/ComputerScience/Python(basic)/무제 파일.md",
+    "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
+    "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
+    "obsidian/ComputerScience/Python(basic)/반복문.md",
+    "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
+    "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation.md",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/디지털 코드.pdf",
     "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
+    "obsidian/ComputerScience/데이터 구조/스택.md",
     "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(중위표기법을 전위표기법,후위표기법 변환 ).pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/5주차(스택).pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/5주차.pdf",
@@ -166,14 +173,11 @@
     "obsidian/ComputerScience/데이터 구조/예상 문제/이중 연결 리스트 예상 문제.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/원형 연결 리스트 예상 문제.md",
     "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(큐).pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(스택응용문제).pdf",
     "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
     "obsidian/ComputerScience/Python(basic)/연산자.md",
-    "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
     "obsidian/ComputerScience/Python(basic)/조건문.md",
-    "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 개발 환경 세팅/연습문제.md",
@@ -181,13 +185,9 @@
     "obsidian/ComputerScience/웹프로그래밍/HTML 기초/HTML 기초 실습.md",
     "obsidian/ComputerScience/인공지능/Perceptron/이론/AND, NAND, OR 게이트.md",
     "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트 실습.md",
-    "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
     "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트.md",
     "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/SLP (Single Layer Perceptron).md",
-    "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation.md",
     "obsidian/ComputerScience/확률과 통계/Normal RV/Normal Distribution.md",
-    "obsidian/ComputerScience/확률과 통계/무제 파일.md",
-    "obsidian/index.md",
     "무제 파일.canvas"
   ]
 }
