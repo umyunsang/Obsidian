@@ -11,9 +11,11 @@
             "id": "58d687086c7687de",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(큐).pdf"
+                "file": "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(큐).pdf",
+                "file": "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(큐).pdf",
+                "file": "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(큐).pdf"
+                "file": "obsidian/ComputerScience/데이터 구조/후위 표기법.md"
               }
             }
           }
@@ -147,26 +150,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4824d7b5ee6b90fb",
+  "active": "58d687086c7687de",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(중위표기법을 전위표기법,후위표기법 변환 ).pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(큐).pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(스택응용문제).pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/5주차.pdf",
     "obsidian/ComputerScience/데이터 구조/스택.md",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/원형 연결 리스트 예상 문제.md",
+    "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(중위표기법을 전위표기법,후위표기법 변환 ).pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/5주차(스택).pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/4주차.pdf",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/5주차.pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/4주차(cont).pdf",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/4주차.pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/3주차_1.pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/2주차_리스트.pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/1주차_2.pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf",
+    "obsidian/ComputerScience/데이터 구조/예상 문제/단순 연결 리스트 예상 문제.md",
+    "obsidian/ComputerScience/데이터 구조/예상 문제/이중 연결 리스트 예상 문제.md",
+    "obsidian/ComputerScience/데이터 구조/예상 문제/원형 연결 리스트 예상 문제.md",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(큐).pdf",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(스택응용문제).pdf",
     "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/이중 연결 리스트 예상 문제.md",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/단순 연결 리스트 예상 문제.md",
     "obsidian/ComputerScience/Python(basic)/연산자.md",
     "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
     "obsidian/ComputerScience/Python(basic)/조건문.md",
