@@ -11,9 +11,11 @@
             "id": "156baa06bd48b8c5",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Conditional Probability/Conditional Probability 문제.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/Continuous RVs/문제 풀이.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Conditional Probability/Conditional Probability 문제.pdf",
+                "file": "obsidian/ComputerScience/확률과 통계/Continuous RVs/문제 풀이.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Conditional Probability/Conditional Probability 문제.pdf",
+                "file": "obsidian/ComputerScience/확률과 통계/Continuous RVs/문제 풀이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Conditional Probability/Conditional Probability 문제.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/Continuous RVs/문제 풀이.md"
               }
             }
           }
@@ -148,8 +150,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4824d7b5ee6b90fb",
+  "active": "156baa06bd48b8c5",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/확률과 통계/Continuous RVs/Continuous RVs.md",
+    "obsidian/ComputerScience/확률과 통계/Continuous RVs/문제 풀이.md",
+    "obsidian/ComputerScience/확률과 통계/Continuous RVs/Continuous RVs 문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/Conditional Probability/문제풀이.md",
+    "obsidian/ComputerScience/확률과 통계/Conditional Probability/Conditional Probability 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/Combinations/Combinations 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/Combinations/문제 풀이.md",
     "obsidian/index.md",
@@ -165,8 +172,6 @@
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.pdf",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
     "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션",
-    "obsidian/ComputerScience/확률과 통계/Counting/Permutations 문제.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/서론.pdf",
     "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/Python(basic)/무제 파일.md",
     "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
@@ -183,8 +188,6 @@
     "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
     "obsidian/ComputerScience/Python(basic)/연산자.md",
     "obsidian/ComputerScience/Python(basic)/조건문.md",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 개발 환경 세팅/연습문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/연습문제.md",
     "무제 파일.canvas"
   ]
 }
