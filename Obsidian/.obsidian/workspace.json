@@ -11,11 +11,9 @@
             "id": "58d687086c7687de",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/확률과 통계/Combinations/Combinations 문제.pdf"
               }
             }
           }
@@ -69,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -86,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Combinations/Combinations 문제.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Combinations/Combinations 문제.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md"
+                "file": "obsidian/ComputerScience/확률과 통계/Combinations/Combinations 문제.pdf"
               }
             }
           }
@@ -150,29 +147,30 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "58d687086c7687de",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/Python(basic)/무제 파일.md",
+    "obsidian/ComputerScience/확률과 통계/Counting/Permutations 문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/Counting/Counting 문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/Bayes' theorem/Bayes' Theorem 문제.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/서론.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/순서 논리 회로.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/조합 논리 회로.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/에러 검출 코드.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/실수 표현.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/디지털 코드.pdf",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(큐).pdf",
     "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
+    "obsidian/ComputerScience/Python(basic)/무제 파일.md",
     "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
     "obsidian/ComputerScience/Python(basic)/반복문.md",
     "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
     "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation.md",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/디지털 코드.pdf",
     "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
     "obsidian/ComputerScience/데이터 구조/스택.md",
     "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(중위표기법을 전위표기법,후위표기법 변환 ).pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/5주차(스택).pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/5주차.pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/4주차(cont).pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/4주차.pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/3주차_1.pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/2주차_리스트.pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/1주차_2.pdf",
     "obsidian/ComputerScience/데이터 구조/예상 문제/단순 연결 리스트 예상 문제.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/이중 연결 리스트 예상 문제.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/원형 연결 리스트 예상 문제.md",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(큐).pdf",
     "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
@@ -187,7 +185,6 @@
     "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트 실습.md",
     "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트.md",
     "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/SLP (Single Layer Perceptron).md",
-    "obsidian/ComputerScience/확률과 통계/Normal RV/Normal Distribution.md",
     "무제 파일.canvas"
   ]
 }
