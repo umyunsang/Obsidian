@@ -1,6 +1,12 @@
 #ComputerScience #웹프로그래밍 
 
 ---
+우리가 3장에서 배운 내용의 핵심은 자료 보내기 받기!!
+보내는 쪽에서 자료 받는 쪽을 정확히 명시 다음 화면도 정해졌음
+
+그런데, 쇼핑을 한다고 생각해보면 화면 순서 미리 알 수 없음
+
+즉, 화면끼리 넘기기만 하는 게 아니라 제 3의 장소(장바구니)에 넣어놨다가 나중에 필요할 때 꺼내 씀
 #### 1. MyController.java
 
 1. **@Controller 어노테이션**: 
@@ -134,7 +140,7 @@ public class MyController {
 
 #### 4. ex01Answer.html
 	1. <strong th:text="${변수}">
-		th:text는 태그 속성 : 무조건 태그안에 있어해해
+		th:text는 태그 속성 : 무조건 태그안에 있어해
 ```html
 <!DOCTYPE html>
 <!-- <html xmlns:th="http://www.thymeleaf.org"> 시험에선 안써도 됨 -->
