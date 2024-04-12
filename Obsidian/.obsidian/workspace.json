@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f3c48484889caf48",
+        "id": "4b6c49bc609cc2b5",
         "type": "tabs",
         "children": [
           {
-            "id": "156baa06bd48b8c5",
+            "id": "25745650099c5498",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Continuous RVs/문제 풀이.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/확률과 통계/Normal RV/Normal RV 문제.pdf"
               }
             }
           }
@@ -86,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Continuous RVs/문제 풀이.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Normal RV/Normal RV 문제.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Continuous RVs/문제 풀이.md",
+                "file": "obsidian/ComputerScience/확률과 통계/Normal RV/Normal RV 문제.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Continuous RVs/문제 풀이.md"
+                "file": "obsidian/ComputerScience/확률과 통계/Normal RV/Normal RV 문제.pdf"
               }
             }
           }
@@ -150,28 +148,30 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "156baa06bd48b8c5",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/확률과 통계/Continuous RVs/Continuous RVs.md",
+    "obsidian/ComputerScience/확률과 통계/Independence/문제 풀이.md",
+    "obsidian/ComputerScience/확률과 통계/Normal RV/문제 풀이.md",
+    "obsidian/ComputerScience/확률과 통계/Normal RV/Normal RV 문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/Independence/Independence 문제.pdf",
+    "obsidian/index.md",
+    "obsidian/ComputerScience/확률과 통계/Counting/Permutations 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/Continuous RVs/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/Continuous RVs/Continuous RVs 문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/Counting/Counting 문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/Continuous RVs/Continuous RVs.md",
     "obsidian/ComputerScience/확률과 통계/Conditional Probability/문제풀이.md",
     "obsidian/ComputerScience/확률과 통계/Conditional Probability/Conditional Probability 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/Combinations/Combinations 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/Combinations/문제 풀이.md",
-    "obsidian/index.md",
     "obsidian/ComputerScience/확률과 통계/Binomial RV/Binomial RV 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/Bernoulli RV/Bernoulli RV 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/Bayes' theorem/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/Bayes' theorem/Bayes' Theorem 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/Bayes' theorem/Bayes' Theorem.md",
-    "obsidian/ComputerScience/확률과 통계/Counting/Counting 문제.pdf",
     "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.md",
-    "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.pdf",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.md",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.pdf",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션",
     "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/Python(basic)/무제 파일.md",
     "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
@@ -185,9 +185,6 @@
     "obsidian/ComputerScience/데이터 구조/예상 문제/원형 연결 리스트 예상 문제.md",
     "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
-    "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
-    "obsidian/ComputerScience/Python(basic)/연산자.md",
-    "obsidian/ComputerScience/Python(basic)/조건문.md",
     "무제 파일.canvas"
   ]
 }
