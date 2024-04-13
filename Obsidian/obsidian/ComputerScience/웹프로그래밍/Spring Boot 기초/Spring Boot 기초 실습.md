@@ -231,6 +231,9 @@ th:text="${color}">color</strong>입니다.
 ```
 
 #### 9. ex04.html
+1. th:each -> 반복문
+2. th:each="a:${arr}"> : arr 리스트 인덱스 0부터 a 변수에 선언
+3. th:text="${a}"> : a 변수 출력
 ```html
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
