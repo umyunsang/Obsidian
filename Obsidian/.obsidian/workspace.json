@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Normal RV/Normal RV 문제.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/Poisson/Poisson 문제.pdf"
               }
             }
           }
@@ -67,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -84,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Normal RV/Normal RV 문제.pdf",
+                "file": "obsidian/ComputerScience/확률과 통계/Poisson/Poisson 문제.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Normal RV/Normal RV 문제.pdf",
+                "file": "obsidian/ComputerScience/확률과 통계/Poisson/Poisson 문제.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Normal RV/Normal RV 문제.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/Poisson/Poisson 문제.pdf"
               }
             }
           }
@@ -150,9 +149,9 @@
   },
   "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/확률과 통계/Independence/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/Normal RV/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/Normal RV/Normal RV 문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/Independence/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/Independence/Independence 문제.pdf",
     "obsidian/index.md",
     "obsidian/ComputerScience/확률과 통계/Counting/Permutations 문제.pdf",
