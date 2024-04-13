@@ -11,9 +11,11 @@
             "id": "a96456fdac1724c6",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.pdf"
+                "file": "obsidian/ComputerScience/웹프로그래밍/연습장.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -34,8 +36,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d8652a35bca89aab",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -102,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.pdf",
+                "file": "obsidian/ComputerScience/웹프로그래밍/연습장.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.pdf",
+                "file": "obsidian/ComputerScience/웹프로그래밍/연습장.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.pdf"
+                "file": "obsidian/ComputerScience/웹프로그래밍/연습장.md"
               }
             }
           }
@@ -168,8 +180,9 @@
   },
   "active": "a96456fdac1724c6",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/연습장.md",
+    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 개발 환경 세팅/Spring Boot 개발 환경 세팅.pdf",
     "obsidian/ComputerScience/웹프로그래밍/HTML 기초/HTML 기초.pdf",
     "obsidian/ComputerScience/데이터 구조/큐.md",
@@ -202,7 +215,6 @@
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
     "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/Python(basic)/무제 파일.md",
-    "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
     "무제 파일.canvas"
   ]
 }
