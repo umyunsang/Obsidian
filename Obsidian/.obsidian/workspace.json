@@ -11,9 +11,11 @@
             "id": "25745650099c5498",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Poisson/Poisson 문제.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/Probability/문제 풀이.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Poisson/Poisson 문제.pdf",
+                "file": "obsidian/ComputerScience/확률과 통계/Probability/문제 풀이.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Poisson/Poisson 문제.pdf",
+                "file": "obsidian/ComputerScience/확률과 통계/Probability/문제 풀이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/Poisson/Poisson 문제.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/Probability/문제 풀이.md"
               }
             }
           }
@@ -147,13 +150,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4824d7b5ee6b90fb",
+  "active": "25745650099c5498",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/확률과 통계/Probability/Probability 문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/Probability/Probability.md",
+    "obsidian/ComputerScience/확률과 통계/Probability/문제 풀이.md",
+    "obsidian/ComputerScience/확률과 통계/Poisson/Poisson 문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/Poisson/문제풀이.md",
+    "obsidian/index.md",
     "obsidian/ComputerScience/확률과 통계/Normal RV/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/Normal RV/Normal RV 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/Independence/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/Independence/Independence 문제.pdf",
-    "obsidian/index.md",
     "obsidian/ComputerScience/확률과 통계/Counting/Permutations 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/Continuous RVs/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/Continuous RVs/Continuous RVs 문제.pdf",
@@ -164,9 +172,7 @@
     "obsidian/ComputerScience/확률과 통계/Combinations/Combinations 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/Combinations/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/Binomial RV/Binomial RV 문제.pdf",
-    "obsidian/ComputerScience/확률과 통계/Bernoulli RV/Bernoulli RV 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/Bayes' theorem/문제 풀이.md",
-    "obsidian/ComputerScience/확률과 통계/Bayes' theorem/Bayes' Theorem 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/Bayes' theorem/Bayes' Theorem.md",
     "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.md",
@@ -181,9 +187,6 @@
     "obsidian/ComputerScience/데이터 구조/스택.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/단순 연결 리스트 예상 문제.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/이중 연결 리스트 예상 문제.md",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/원형 연결 리스트 예상 문제.md",
-    "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
-    "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
     "무제 파일.canvas"
   ]
 }
