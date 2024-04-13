@@ -13,25 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/디지털 코드/디지털 코드.md",
+                "file": "obsidian/ComputerScience/데이터 구조/스택.md",
                 "mode": "source",
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "58660a08ce9d113e",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "d8652a35bca89aab",
+            "id": "0abd6f7d26007ad7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/디지털 코드/디지털 코드.pdf"
+                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/원형 연결 리스트 예상 문제.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -101,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/디지털 코드/디지털 코드.md",
+                "file": "obsidian/ComputerScience/데이터 구조/스택.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/디지털 코드/디지털 코드.md",
+                "file": "obsidian/ComputerScience/데이터 구조/스택.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/디지털 코드/디지털 코드.md"
+                "file": "obsidian/ComputerScience/데이터 구조/스택.md"
               }
             }
           }
@@ -165,33 +161,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fcf6d0d6c95f1285",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
+    "obsidian/ComputerScience/데이터 구조/스택.md",
+    "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
+    "obsidian/ComputerScience/데이터 구조/예상 문제/원형 연결 리스트 예상 문제.md",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/6.집적 회로.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/5.순서 논리 회로.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/4.조합 논리 회로.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/3.카르노 맵.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/5.에러 검출 코드.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/4.실수 표현.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/2.진법과 진법 변환.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/3.정수 표현.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/1.디지털 코드.pdf",
     "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.md",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/디지털 코드/디지털 코드.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/디지털 코드/디지털 코드.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/디지털 코드",
-    "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.pdf",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.md",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 개발 환경 세팅/Spring Boot 개발 환경 세팅.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/HTML 기초.pdf",
     "obsidian/ComputerScience/데이터 구조/큐.md",
-    "obsidian/ComputerScience/데이터 구조/스택.md",
-    "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
-    "obsidian/ComputerScience/확률과 통계/Variance/Variance 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/Variance/문제 풀이.md",
     "obsidian/index.md",
     "obsidian/ComputerScience/확률과 통계/Random Variables/문제 풀이.md",
-    "obsidian/ComputerScience/확률과 통계/Random Variables/Random variables 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/Random Variables/문제 해결.md",
     "obsidian/ComputerScience/확률과 통계/Random Variables/Expectation.md",
-    "obsidian/ComputerScience/확률과 통계/Probability/Probability 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/Probability/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/Probability/Probability.md",
-    "obsidian/ComputerScience/확률과 통계/Poisson/Poisson 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/Poisson/문제풀이.md",
     "obsidian/ComputerScience/확률과 통계/Normal RV/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/Independence/문제 풀이.md",
@@ -201,7 +199,6 @@
     "obsidian/ComputerScience/확률과 통계/Combinations/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/Bayes' theorem/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/Bayes' theorem/Bayes' Theorem.md",
-    "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
     "무제 파일.canvas"
   ]
 }
