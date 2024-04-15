@@ -11,27 +11,9 @@
             "id": "8ff4461be4a830ff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "ce95d0bf99c09bd1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "76b8d8004dd13d14",
-            "type": "leaf",
-            "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/지뢰찾기/과제 02_지뢰찾기-1.pdf"
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient Effect.pdf"
               }
             }
           }
@@ -85,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -102,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient Effect.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient Effect.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md"
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient Effect.pdf"
               }
             }
           }
@@ -168,8 +149,14 @@
   },
   "active": "8ff4461be4a830ff",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/Python(basic)/지뢰찾기/과제 02_지뢰찾기-1.pdf",
+    "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation.md",
+    "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/이론/MLP theorm.md",
+    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting.pdf",
+    "obsidian/ComputerScience/인공지능/중간 시험.md",
     "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
+    "obsidian/ComputerScience/Python(basic)/지뢰찾기/과제 02_지뢰찾기-1.pdf",
+    "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
+    "obsidian/ComputerScience/데이터 구조/큐.md",
     "obsidian/ComputerScience/Python(basic)/지뢰찾기",
     "obsidian/ComputerScience/Python(basic)/무제 파일.md",
     "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
@@ -179,10 +166,8 @@
     "obsidian/ComputerScience/데이터 구조/예상 문제/답지.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/[데이터구조]2024년1학기중간고사예상문제.pdf",
     "obsidian/ComputerScience/인공지능/Perceptron/이론/Perceptron (이론).pdf",
-    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting.pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient Effect.pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation (이론).pdf",
-    "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation.md",
     "obsidian/ComputerScience/웹프로그래밍/HTML 기초/HTML 기초.pdf",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
     "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.pdf",
@@ -200,9 +185,6 @@
     "obsidian/ComputerScience/확률과 통계/11.joint RVs/문제 풀이.md",
     "obsidian/index.md",
     "무제 파일.md",
-    "obsidian/ComputerScience/데이터 구조/큐.md",
-    "obsidian/ComputerScience/확률과 통계/Combinations/무제 파일.md",
-    "obsidian/ComputerScience/데이터 구조/스택.md",
     "무제 파일.canvas"
   ]
 }
