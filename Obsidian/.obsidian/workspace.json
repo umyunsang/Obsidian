@@ -4,18 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "92a3ea7545a9ab58",
+        "id": "116877475d2b76ed",
         "type": "tabs",
         "children": [
           {
-            "id": "fcf6d0d6c95f1285",
+            "id": "8ff4461be4a830ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
+                "file": "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "ce95d0bf99c09bd1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76b8d8004dd13d14",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "obsidian/ComputerScience/Python(basic)/지뢰찾기/과제 02_지뢰찾기-1.pdf"
               }
             }
           }
@@ -69,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -85,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
+                "file": "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
+                "file": "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md"
+                "file": "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md"
               }
             }
           }
@@ -149,11 +166,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fcf6d0d6c95f1285",
+  "active": "8ff4461be4a830ff",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/Python(basic)/지뢰찾기/과제 02_지뢰찾기-1.pdf",
+    "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
+    "obsidian/ComputerScience/Python(basic)/지뢰찾기",
+    "obsidian/ComputerScience/Python(basic)/무제 파일.md",
+    "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/Python(basic)/4.조건문.md",
     "obsidian/ComputerScience/Python(basic)/6.튜플.md",
-    "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/Python(basic)/3.반복문.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/답지.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/[데이터구조]2024년1학기중간고사예상문제.pdf",
@@ -166,8 +187,6 @@
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
     "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/5.에러 검출 코드.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/4.실수 표현.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/3.정수 표현.pdf",
     "obsidian/ComputerScience/확률과 통계/8.Poisson/문제풀이.md",
     "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제 풀이.md",
     "obsidian/ComputerScience/Python(basic)/1.변수와 자료형.md",
@@ -184,8 +203,6 @@
     "obsidian/ComputerScience/데이터 구조/큐.md",
     "obsidian/ComputerScience/확률과 통계/Combinations/무제 파일.md",
     "obsidian/ComputerScience/데이터 구조/스택.md",
-    "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
-    "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
     "무제 파일.canvas"
   ]
 }
