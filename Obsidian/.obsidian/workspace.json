@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
+                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
+                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
+                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md"
+                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md"
               }
             }
           }
@@ -152,7 +151,10 @@
   },
   "active": "fcf6d0d6c95f1285",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/Python(basic)/무제 파일.md",
+    "obsidian/ComputerScience/Python(basic)/4.조건문.md",
+    "obsidian/ComputerScience/Python(basic)/6.튜플.md",
+    "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
+    "obsidian/ComputerScience/Python(basic)/3.반복문.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/답지.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/[데이터구조]2024년1학기중간고사예상문제.pdf",
     "obsidian/ComputerScience/인공지능/Perceptron/이론/Perceptron (이론).pdf",
@@ -168,11 +170,8 @@
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/3.정수 표현.pdf",
     "obsidian/ComputerScience/확률과 통계/8.Poisson/문제풀이.md",
     "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제 풀이.md",
-    "obsidian/ComputerScience/Python(basic)/반복문.md",
-    "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
-    "obsidian/ComputerScience/Python(basic)/연산자.md",
-    "obsidian/ComputerScience/Python(basic)/조건문.md",
-    "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
+    "obsidian/ComputerScience/Python(basic)/1.변수와 자료형.md",
+    "obsidian/ComputerScience/Python(basic)/2.연산자.md",
     "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/문제풀이.md",
     "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/Bayes' Theorem.md",
     "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/Conditional Probability.md",
