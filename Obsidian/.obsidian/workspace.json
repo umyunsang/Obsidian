@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
+                "file": "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "연결 리스트",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
+                "file": "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
+                "file": "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md"
+                "file": "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md"
               }
             }
           }
@@ -151,24 +151,27 @@
   },
   "active": "8ff4461be4a830ff",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/Python(basic)/지뢰찾기/과제 02_지뢰찾기-1.pdf",
+    "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
+    "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/중간 시험 범위.md",
+    "obsidian/ComputerScience/인공지능/중간 시험.md",
+    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
+    "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
     "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Dropout (결과값 이상).md",
-    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Overfitting.pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/Vanishing Gradient Effect.pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결",
     "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/이론/MLP theorm.md",
-    "obsidian/ComputerScience/인공지능/중간 시험.md",
-    "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
-    "obsidian/ComputerScience/Python(basic)/지뢰찾기/과제 02_지뢰찾기-1.pdf",
     "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
     "obsidian/ComputerScience/데이터 구조/큐.md",
     "obsidian/ComputerScience/Python(basic)/지뢰찾기",
     "obsidian/ComputerScience/Python(basic)/무제 파일.md",
-    "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/Python(basic)/4.조건문.md",
     "obsidian/ComputerScience/Python(basic)/6.튜플.md",
     "obsidian/ComputerScience/Python(basic)/3.반복문.md",
@@ -183,9 +186,6 @@
     "obsidian/ComputerScience/Python(basic)/1.변수와 자료형.md",
     "obsidian/ComputerScience/Python(basic)/2.연산자.md",
     "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/문제풀이.md",
-    "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/Bayes' Theorem.md",
-    "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/Conditional Probability.md",
-    "obsidian/ComputerScience/확률과 통계/중간 시험/중간 범위.md",
     "무제 파일.canvas"
   ]
 }
