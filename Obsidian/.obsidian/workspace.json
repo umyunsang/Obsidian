@@ -11,9 +11,11 @@
             "id": "fcf6d0d6c95f1285",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/3.정수 표현.pdf"
+                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/3.정수 표현.pdf",
+                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/3.정수 표현.pdf",
+                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/3.정수 표현.pdf"
+                "file": "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md"
               }
             }
           }
@@ -149,29 +152,31 @@
   },
   "active": "fcf6d0d6c95f1285",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/2.진법과 진법 변환.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/1.논리 게이트.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/2.불 대수.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/3.카르노 맵.pdf",
+    "obsidian/ComputerScience/Python(basic)/무제 파일.md",
+    "obsidian/ComputerScience/데이터 구조/예상 문제/답지.md",
+    "obsidian/ComputerScience/데이터 구조/예상 문제/[데이터구조]2024년1학기중간고사예상문제.pdf",
+    "obsidian/ComputerScience/인공지능/Perceptron/이론/Perceptron (이론).pdf",
+    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting.pdf",
+    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient Effect.pdf",
+    "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation (이론).pdf",
+    "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation.md",
+    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/HTML 기초.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/연습장.md",
+    "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/5.에러 검출 코드.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/4.실수 표현.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/3.정수 표현.pdf",
     "obsidian/ComputerScience/확률과 통계/8.Poisson/문제풀이.md",
     "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제 풀이.md",
-    "obsidian/ComputerScience/확률과 통계/8.Poisson/Poisson 문제.pdf",
-    "obsidian/ComputerScience/확률과 통계/중간 시험/05_independence.pdf",
-    "obsidian/ComputerScience/Python(basic)/무제 파일.md",
     "obsidian/ComputerScience/Python(basic)/반복문.md",
     "obsidian/ComputerScience/Python(basic)/변수와 자료형.md",
     "obsidian/ComputerScience/Python(basic)/연산자.md",
     "obsidian/ComputerScience/Python(basic)/조건문.md",
     "obsidian/ComputerScience/Python(basic)/리스트, 튜플, 딕셔너리.md",
-    "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/Bayes' Theorem 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/문제풀이.md",
-    "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/Conditional Probability 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/Bayes' Theorem.md",
     "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/Conditional Probability.md",
-    "obsidian/ComputerScience/확률과 통계/중간 시험/04_cond_bayes.pdf",
     "obsidian/ComputerScience/확률과 통계/중간 시험/중간 범위.md",
-    "obsidian/ComputerScience/확률과 통계/중간 시험/11_joint_rvs.pdf",
-    "obsidian/ComputerScience/확률과 통계/중간 시험/10_normal_gaussian.pdf",
     "obsidian/ComputerScience/확률과 통계/5.Independence/Independence.md",
     "obsidian/ComputerScience/확률과 통계/11.joint RVs/joint RVs.md",
     "obsidian/ComputerScience/확률과 통계/11.joint RVs/문제 풀이.md",
@@ -182,9 +187,6 @@
     "obsidian/ComputerScience/데이터 구조/스택.md",
     "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
     "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/원형 연결 리스트 예상 문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.md",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/디지털 코드/디지털 코드.md",
     "무제 파일.canvas"
   ]
 }
