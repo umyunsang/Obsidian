@@ -20,22 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "03773b31cf1f848f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "26a73fb0ae6c74ef",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "obsidian/ComputerScience/인공지능/필기 과제.pdf"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/필기 과제.pdf",
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/필기 과제.pdf",
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/필기 과제.pdf"
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Batch Normalization.md"
               }
             }
           }
@@ -166,12 +150,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "26a73fb0ae6c74ef",
+  "active": "0bbcba018847dd2b",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/인공지능/필기 과제.pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Dropout (결과값 이상).md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
-    "obsidian/ComputerScience/인공지능/필기 과제.pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
     "obsidian/ComputerScience/인공지능/중간 시험.md",
     "obsidian/ComputerScience/Python(basic)/지뢰찾기/과제 02_지뢰찾기-1.pdf",
