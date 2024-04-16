@@ -11,11 +11,9 @@
             "id": "0bbcba018847dd2b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Overfitting.pdf"
               }
             }
           }
@@ -69,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Overfitting.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Overfitting.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md"
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Overfitting.pdf"
               }
             }
           }
@@ -149,15 +148,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0bbcba018847dd2b",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/웹프로그래밍/연습장.md",
-    "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
-    "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Dropout (결과값 이상).md",
+    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Overfitting.pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
-    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
+    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/Vanishing Gradient Effect.pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
+    "obsidian/ComputerScience/인공지능/Backpropagation/실습/CIFAR10/CIFAR10 (실습).pdf",
+    "obsidian/ComputerScience/인공지능/Perceptron/이론/AND, NAND, OR 게이트.md",
+    "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
+    "obsidian/ComputerScience/인공지능/Backpropagation/실습/CIFAR10",
+    "obsidian/ComputerScience/웹프로그래밍/연습장.md",
+    "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
+    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
     "obsidian/ComputerScience/인공지능/필기 과제.pdf",
     "obsidian/ComputerScience/인공지능/중간 시험.md",
     "obsidian/ComputerScience/Python(basic)/지뢰찾기/과제 02_지뢰찾기-1.pdf",
@@ -171,21 +175,16 @@
     "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
     "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
     "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation.md",
-    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Overfitting.pdf",
-    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/Vanishing Gradient Effect.pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결",
     "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/이론/MLP theorm.md",
     "obsidian/ComputerScience/데이터 구조/큐.md",
-    "obsidian/ComputerScience/Python(basic)/지뢰찾기",
     "obsidian/ComputerScience/Python(basic)/무제 파일.md",
     "obsidian/ComputerScience/Python(basic)/4.조건문.md",
     "obsidian/ComputerScience/Python(basic)/6.튜플.md",
     "obsidian/ComputerScience/Python(basic)/3.반복문.md",
-    "obsidian/ComputerScience/인공지능/Perceptron/이론/Perceptron (이론).pdf",
     "obsidian/ComputerScience/확률과 통계/8.Poisson/문제풀이.md",
     "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제 풀이.md",
-    "obsidian/ComputerScience/Python(basic)/1.변수와 자료형.md",
     "무제 파일.canvas"
   ]
 }
