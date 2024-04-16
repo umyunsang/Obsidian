@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#가야  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/[데이터구조]2024년1학기중간고사예상문제.pdf",
+                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/답지.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/[데이터구조]2024년1학기중간고사예상문제.pdf",
+                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/답지.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/[데이터구조]2024년1학기중간고사예상문제.pdf"
+                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/답지.md"
               }
             }
           }
@@ -165,9 +165,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0bbcba018847dd2b",
+  "active": "8ff4461be4a830ff",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/데이터 구조/예상 문제/[데이터구조]2024년1학기중간고사예상문제.pdf",
+    "obsidian/ComputerScience/데이터 구조/예상 문제/단순 연결 리스트 예상 문제.md",
+    "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/답지.md",
+    "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/중간 시험 범위.md",
     "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
     "obsidian/ComputerScience/Python(basic)/지뢰찾기/과제 02_지뢰찾기-1.pdf",
@@ -185,14 +189,12 @@
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결",
     "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/이론/MLP theorm.md",
-    "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
     "obsidian/ComputerScience/데이터 구조/큐.md",
     "obsidian/ComputerScience/Python(basic)/지뢰찾기",
     "obsidian/ComputerScience/Python(basic)/무제 파일.md",
     "obsidian/ComputerScience/Python(basic)/4.조건문.md",
     "obsidian/ComputerScience/Python(basic)/6.튜플.md",
     "obsidian/ComputerScience/Python(basic)/3.반복문.md",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/[데이터구조]2024년1학기중간고사예상문제.pdf",
     "obsidian/ComputerScience/인공지능/Perceptron/이론/Perceptron (이론).pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation (이론).pdf",
     "obsidian/ComputerScience/웹프로그래밍/HTML 기초/HTML 기초.pdf",
@@ -200,8 +202,6 @@
     "obsidian/ComputerScience/확률과 통계/8.Poisson/문제풀이.md",
     "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제 풀이.md",
     "obsidian/ComputerScience/Python(basic)/1.변수와 자료형.md",
-    "obsidian/ComputerScience/Python(basic)/2.연산자.md",
-    "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/문제풀이.md",
     "무제 파일.canvas"
   ]
 }
