@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Dropout (결과값 이상).md",
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Dropout.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Dropout (결과값 이상).md",
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Dropout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Dropout (결과값 이상).md",
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Dropout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Dropout (결과값 이상).md"
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Dropout.md"
               }
             }
           }
@@ -149,15 +149,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4824d7b5ee6b90fb",
+  "active": "0bbcba018847dd2b",
   "lastOpenFiles": [
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
+    "obsidian/ComputerScience/인공지능/Backpropagation/실습/CIFAR10/CIFAR10.md",
+    "obsidian/ComputerScience/인공지능/Backpropagation/실습/CIFAR10/CIFAR10 (실습).pdf",
+    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Dropout.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Overfitting.pdf",
-    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Dropout (결과값 이상).md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/Vanishing Gradient Effect.pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
-    "obsidian/ComputerScience/인공지능/Backpropagation/실습/CIFAR10/CIFAR10 (실습).pdf",
     "obsidian/ComputerScience/인공지능/Perceptron/이론/AND, NAND, OR 게이트.md",
     "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/CIFAR10",
@@ -185,7 +186,6 @@
     "obsidian/ComputerScience/Python(basic)/6.튜플.md",
     "obsidian/ComputerScience/Python(basic)/3.반복문.md",
     "obsidian/ComputerScience/확률과 통계/8.Poisson/문제풀이.md",
-    "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제 풀이.md",
     "무제 파일.canvas"
   ]
 }

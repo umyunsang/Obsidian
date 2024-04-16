@@ -1,5 +1,24 @@
 
 ---
+## Dropout
+
+```python
+        self.dropout = nn.Dropout(0.2)
+
+    def forward(self, x):
+        x = x.view(-1, 28 * 28)
+        y = self.relu(self.fc1(x))
+        y = self.dropout(y)
+        y = self.relu(self.fc2(y))
+        y = self.dropout(y)
+        y = self.relu(self.fc3(y))
+        y = self.dropout(y)
+        y = self.relu(self.fc4(y))
+        y = self.dropout(y)
+        y = self.fc5(y)
+        return y
+```
+
 
 ```python
 import torch
@@ -96,6 +115,6 @@ torch.save(network.state_dict(), "../../Backpropagation/Vanishing Gradient/mlp_m
 ```
 
   
-# Epoch: 100 Loss = 0.738454  
-# Learning finished  
-# Accuracy: 0.5475999712944031
+Epoch: 100 Loss = 0.004778
+Learning finished
+Accuracy: 0.7955999970436096

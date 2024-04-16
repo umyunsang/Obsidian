@@ -1,5 +1,7 @@
 
 ---
+## Data Augumentation
+	`데이터 확장`
 
 ```python
 import torch
@@ -105,6 +107,6 @@ torch.save(network.state_dict(), "../../Backpropagation/Vanishing Gradient/mlp_m
 
 ```
 
-# Epoch: 100 Loss = 0.002126  
-# Learning finished  
-# Accuracy: 0.7763000130653381
+Epoch: 100 Loss = 0.000031
+Learning finished
+Accuracy: 0.8259999752044678
