@@ -43,7 +43,7 @@ class MLP(nn.Module):
 network = MLP().to(device)
 
 # 6. 하이퍼파라미터 설정
-batch_size = 100
+batch_size = 10
 learning_rate = 0.1
 training_epochs = 100
 loss_function = nn.CrossEntropyLoss()
