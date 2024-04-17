@@ -12,9 +12,11 @@
             "id": "801ea714574fdb0a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/04_cond_bayes.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제 풀이.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -103,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/04_cond_bayes.pdf",
+                "file": "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제 풀이.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/04_cond_bayes.pdf",
+                "file": "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제 풀이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/04_cond_bayes.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제 풀이.md"
               }
             }
           }
@@ -169,28 +171,29 @@
   },
   "active": "801ea714574fdb0a",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/확률과 통계/6.Random Variables/06_random variables.pdf",
+    "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제 풀이.md",
+    "obsidian/ComputerScience/확률과 통계/6.Random Variables/Random Variables.md",
+    "obsidian/ComputerScience/확률과 통계/5.Independence/05_independence.pdf",
+    "obsidian/ComputerScience/확률과 통계/5.Independence/문제 풀이.md",
+    "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/04_cond_bayes.pdf",
+    "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제 풀이.md",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
+    "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/문제풀이.md",
     "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/문제.pdf",
     "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/Bayes' Theorem.md",
-    "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제.pdf",
-    "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/문제풀이.md",
     "obsidian/ComputerScience/확률과 통계/중간 시험/04_cond_bayes.pdf",
-    "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
     "obsidian/ComputerScience/확률과 통계/10.Normal RV/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/7-0.Variance/Variance.md",
     "obsidian/ComputerScience/확률과 통계/9.Continuous RVs/09_continuous_rv.pdf",
     "obsidian/ComputerScience/확률과 통계/7-2.Binomial RV/Binomial Distribution.md",
     "obsidian/ComputerScience/확률과 통계/7-1.Bernoulli RV/Bernoulli RV 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/7-1.Bernoulli RV/Bernoulli Distribution.md",
-    "obsidian/ComputerScience/확률과 통계/6.Random Variables/06_random variables.pdf",
-    "obsidian/ComputerScience/확률과 통계/5.Independence/05_independence.pdf",
     "obsidian/ComputerScience/확률과 통계/13Joint statistics/13_joint_statistics.pdf",
     "obsidian/ComputerScience/확률과 통계/12.Independent RVs/Independent RVs.md",
     "obsidian/ComputerScience/확률과 통계/12.Independent RVs/12_independent_rvs.pdf",
-    "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제.pdf",
     "obsidian/ComputerScience/확률과 통계/7-0.Variance/문제 풀이.md",
-    "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제 풀이.md",
-    "obsidian/ComputerScience/확률과 통계/5.Independence/문제 풀이.md",
     "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/확인문제.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
     "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.md",
@@ -203,7 +206,6 @@
     "obsidian/ComputerScience/인공지능/중간 시험.md",
     "obsidian/ComputerScience/웹프로그래밍/HTML 기초/연습문제.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 개발 환경 세팅/연습문제.md",
-    "obsidian/ComputerScience/확률과 통계/11.joint RVs/문제 풀이.md",
     "무제 파일.canvas"
   ]
 }
