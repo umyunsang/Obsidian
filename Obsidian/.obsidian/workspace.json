@@ -8,12 +8,30 @@
         "type": "tabs",
         "children": [
           {
+            "id": "87fcf2184e98b057",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/확인문제.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "559f1387f6900b97",
+        "type": "tabs",
+        "children": [
+          {
             "id": "b8bde2b074d3d938",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.pdf"
+                "file": "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/4장_확인문제.pdf"
               }
             }
           }
@@ -67,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -84,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.pdf",
+                "file": "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/4장_확인문제.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.pdf",
+                "file": "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/4장_확인문제.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.pdf"
+                "file": "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/4장_확인문제.pdf"
               }
             }
           }
@@ -148,8 +165,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4824d7b5ee6b90fb",
+  "active": "b8bde2b074d3d938",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/확인문제.md",
+    "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/4장_확인문제.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
+    "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.pdf",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
     "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/이론/MLP theorm.md",
@@ -165,12 +187,8 @@
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/4.디지털 코드.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/3.실수 표현.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/2.정수 표현.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/1.진법과 진법 변환.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/4.조합 논리 회로.pdf",
     "obsidian/ComputerScience/웹프로그래밍/HTML 기초/연습문제.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 개발 환경 세팅/연습문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.md",
     "obsidian/ComputerScience/확률과 통계/11.joint RVs/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
     "obsidian/index.md",
@@ -184,7 +202,6 @@
     "obsidian/ComputerScience/데이터 구조/예상 문제/원형 연결 리스트 예상 문제.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/단순 연결 리스트 예상 문제.md",
     "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
-    "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
     "무제 파일.canvas"
   ]
 }
