@@ -4,34 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "559f1387f6900b97",
+        "id": "527af712ae4e6225",
         "type": "tabs",
+        "dimension": 72.03525641025641,
         "children": [
           {
-            "id": "b8bde2b074d3d938",
+            "id": "801ea714574fdb0a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/12.Independent RVs/Independent RVs.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/04_cond_bayes.pdf"
               }
             }
           }
         ]
       },
       {
-        "id": "2a6f232a2c7d8f7b",
+        "id": "299dc4c901d24ba2",
         "type": "tabs",
+        "dimension": 27.96474358974359,
         "children": [
           {
-            "id": "686882bd99678d3b",
+            "id": "0f4a34a06178e43c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/12.Independent RVs/12_independent_rvs.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -85,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -102,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/12.Independent RVs/12_independent_rvs.pdf",
+                "file": "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/04_cond_bayes.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/12.Independent RVs/12_independent_rvs.pdf",
+                "file": "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/04_cond_bayes.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/12.Independent RVs/12_independent_rvs.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/04_cond_bayes.pdf"
               }
             }
           }
@@ -166,26 +167,30 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "686882bd99678d3b",
+  "active": "801ea714574fdb0a",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/Bayes' Theorem.md",
+    "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제 풀이.md",
+    "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/문제풀이.md",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/04_cond_bayes.pdf",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
+    "obsidian/ComputerScience/확률과 통계/10.Normal RV/문제 풀이.md",
+    "obsidian/ComputerScience/확률과 통계/7-0.Variance/Variance.md",
+    "obsidian/ComputerScience/확률과 통계/9.Continuous RVs/09_continuous_rv.pdf",
+    "obsidian/ComputerScience/확률과 통계/7-2.Binomial RV/Binomial Distribution.md",
+    "obsidian/ComputerScience/확률과 통계/7-1.Bernoulli RV/Bernoulli RV 문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/7-1.Bernoulli RV/Bernoulli Distribution.md",
+    "obsidian/ComputerScience/확률과 통계/6.Random Variables/06_random variables.pdf",
+    "obsidian/ComputerScience/확률과 통계/5.Independence/05_independence.pdf",
+    "obsidian/ComputerScience/확률과 통계/13Joint statistics/13_joint_statistics.pdf",
     "obsidian/ComputerScience/확률과 통계/12.Independent RVs/Independent RVs.md",
     "obsidian/ComputerScience/확률과 통계/12.Independent RVs/12_independent_rvs.pdf",
-    "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/문제.pdf",
     "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제.pdf",
-    "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/04_cond_bayes.pdf",
-    "obsidian/ComputerScience/확률과 통계/5.Independence/05_independence.pdf",
-    "obsidian/ComputerScience/확률과 통계/6.Random Variables/06_random variables.pdf",
-    "obsidian/ComputerScience/확률과 통계/7-2.Binomial RV/문제.pdf",
-    "obsidian/ComputerScience/확률과 통계/7-1.Bernoulli RV/Bernoulli RV 문제.pdf",
-    "obsidian/ComputerScience/확률과 통계/7-0.Variance/문제.pdf",
-    "obsidian/ComputerScience/확률과 통계/9.Continuous RVs/문제.pdf",
-    "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
-    "obsidian/ComputerScience/확률과 통계/7-1.Bernoulli RV/Bernoulli Distribution.md",
     "obsidian/ComputerScience/확률과 통계/7-0.Variance/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/5.Independence/문제 풀이.md",
-    "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제 풀이.md",
-    "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/문제풀이.md",
     "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/확인문제.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
     "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.md",
@@ -199,10 +204,6 @@
     "obsidian/ComputerScience/웹프로그래밍/HTML 기초/연습문제.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 개발 환경 세팅/연습문제.md",
     "obsidian/ComputerScience/확률과 통계/11.joint RVs/문제 풀이.md",
-    "obsidian/index.md",
-    "obsidian/ComputerScience/확률과 통계/11.joint RVs/joint RVs.md",
-    "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
-    "obsidian/ComputerScience/Python(basic)/무제 파일.md",
     "무제 파일.canvas"
   ]
 }
