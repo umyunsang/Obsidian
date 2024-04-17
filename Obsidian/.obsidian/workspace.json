@@ -11,9 +11,11 @@
             "id": "b8bde2b074d3d938",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/5.에러 검출 코드.pdf"
+                "file": "obsidian/ComputerScience/인공지능/중간 시험.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/5.에러 검출 코드.pdf",
+                "file": "obsidian/ComputerScience/인공지능/중간 시험.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/5.에러 검출 코드.pdf",
+                "file": "obsidian/ComputerScience/인공지능/중간 시험.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/5.에러 검출 코드.pdf"
+                "file": "obsidian/ComputerScience/인공지능/중간 시험.md"
               }
             }
           }
@@ -147,8 +149,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4824d7b5ee6b90fb",
+  "active": "b8bde2b074d3d938",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/5.에러 검출 코드.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/4.디지털 코드.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/3.실수 표현.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/데이터의 표현/2.정수 표현.pdf",
@@ -168,7 +171,6 @@
     "obsidian/ComputerScience/확률과 통계/중간 시험/11_joint_rvs.pdf",
     "obsidian/index.md",
     "obsidian/ComputerScience/확률과 통계/11.joint RVs/joint RVs.md",
-    "obsidian/ComputerScience/확률과 통계/중간 시험/10_normal_gaussian.pdf",
     "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/Python(basic)/무제 파일.md",
     "obsidian/ComputerScience/확률과 통계/중간 시험/중간 범위.md",
