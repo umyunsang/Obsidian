@@ -12,11 +12,9 @@
             "id": "801ea714574fdb0a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제 풀이.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/확률과 통계/10.Normal RV/10_normal_gaussian.pdf"
               }
             }
           }
@@ -105,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제 풀이.md",
+                "file": "obsidian/ComputerScience/확률과 통계/10.Normal RV/10_normal_gaussian.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제 풀이.md",
+                "file": "obsidian/ComputerScience/확률과 통계/10.Normal RV/10_normal_gaussian.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제 풀이.md"
+                "file": "obsidian/ComputerScience/확률과 통계/10.Normal RV/10_normal_gaussian.pdf"
               }
             }
           }
@@ -171,6 +169,11 @@
   },
   "active": "801ea714574fdb0a",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/확률과 통계/7-0.Variance/Variance.md",
+    "obsidian/ComputerScience/확률과 통계/10.Normal RV/10_normal_gaussian.pdf",
+    "obsidian/ComputerScience/확률과 통계/10.Normal RV/문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/9.Continuous RVs/09_continuous_rv.pdf",
+    "obsidian/ComputerScience/확률과 통계/7-0.Variance/07_bernoulli_binomial.pdf",
     "obsidian/ComputerScience/확률과 통계/6.Random Variables/06_random variables.pdf",
     "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/6.Random Variables/Random Variables.md",
@@ -185,14 +188,9 @@
     "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제.pdf",
     "obsidian/ComputerScience/확률과 통계/중간 시험/04_cond_bayes.pdf",
     "obsidian/ComputerScience/확률과 통계/10.Normal RV/문제 풀이.md",
-    "obsidian/ComputerScience/확률과 통계/7-0.Variance/Variance.md",
-    "obsidian/ComputerScience/확률과 통계/9.Continuous RVs/09_continuous_rv.pdf",
     "obsidian/ComputerScience/확률과 통계/7-2.Binomial RV/Binomial Distribution.md",
-    "obsidian/ComputerScience/확률과 통계/7-1.Bernoulli RV/Bernoulli RV 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/7-1.Bernoulli RV/Bernoulli Distribution.md",
-    "obsidian/ComputerScience/확률과 통계/13Joint statistics/13_joint_statistics.pdf",
     "obsidian/ComputerScience/확률과 통계/12.Independent RVs/Independent RVs.md",
-    "obsidian/ComputerScience/확률과 통계/12.Independent RVs/12_independent_rvs.pdf",
     "obsidian/ComputerScience/확률과 통계/7-0.Variance/문제 풀이.md",
     "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/확인문제.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
