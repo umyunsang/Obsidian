@@ -13,37 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/11.joint RVs/문제 풀이.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/HTML 기초/연습문제.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "7bf97b7b71b92057",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "cd0aa3f7a0fed929",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "def4bfcb48b21666",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/04_cond_bayes.pdf"
               }
             }
           }
@@ -113,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/HTML 기초/연습문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/HTML 기초/연습문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md"
+                "file": "obsidian/ComputerScience/웹프로그래밍/HTML 기초/연습문제.md"
               }
             }
           }
@@ -177,12 +149,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cd0aa3f7a0fed929",
+  "active": "b8bde2b074d3d938",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/확률과 통계/중간 시험/04_cond_bayes.pdf",
-    "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
-    "obsidian/ComputerScience/확률과 통계/중간 시험/11_joint_rvs.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 개발 환경 세팅/연습문제.md",
+    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
+    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 개발 환경 세팅/Spring Boot 개발 환경 세팅.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/HTML 기초.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/연습문제.md",
+    "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.md",
     "obsidian/ComputerScience/확률과 통계/11.joint RVs/문제 풀이.md",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/04_cond_bayes.pdf",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/11_joint_rvs.pdf",
     "obsidian/index.md",
     "obsidian/ComputerScience/확률과 통계/11.joint RVs/joint RVs.md",
     "obsidian/ComputerScience/확률과 통계/중간 시험/10_normal_gaussian.pdf",
@@ -193,14 +172,8 @@
     "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/Python(basic)/무제 파일.md",
     "obsidian/ComputerScience/확률과 통계/중간 시험/중간 범위.md",
-    "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.md",
-    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/연습문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 개발 환경 세팅/연습문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
     "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.md",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/Spring Boot 기초 실습.pdf",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/[데이터구조]2024년1학기중간고사예상문제.pdf",
     "obsidian/ComputerScience/데이터 구조/예상 문제/데이터구조 답지.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/이중 연결 리스트 예상 문제.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/원형 연결 리스트 예상 문제.md",
@@ -208,7 +181,6 @@
     "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(중위표기법을 전위표기법,후위표기법 변환 ).pdf",
     "obsidian/ComputerScience/데이터 구조/스택.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/CIFAR10/CIFAR10.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Dropout.md",
