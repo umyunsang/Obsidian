@@ -43,12 +43,11 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/11_joint_rvs.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/04_cond_bayes.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/11.joint RVs/문제 풀이.md",
+                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/11.joint RVs/문제 풀이.md",
+                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/11.joint RVs/문제 풀이.md"
+                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md"
               }
             }
           }
@@ -178,18 +177,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b8bde2b074d3d938",
+  "active": "cd0aa3f7a0fed929",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/확률과 통계/중간 시험/11_joint_rvs.pdf",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/04_cond_bayes.pdf",
     "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/11_joint_rvs.pdf",
     "obsidian/ComputerScience/확률과 통계/11.joint RVs/문제 풀이.md",
+    "obsidian/index.md",
     "obsidian/ComputerScience/확률과 통계/11.joint RVs/joint RVs.md",
     "obsidian/ComputerScience/확률과 통계/중간 시험/10_normal_gaussian.pdf",
     "obsidian/ComputerScience/확률과 통계/중간 시험/09_continuous_rv.pdf",
     "obsidian/ComputerScience/확률과 통계/중간 시험/07_bernoulli_binomial.pdf",
     "obsidian/ComputerScience/확률과 통계/중간 시험/06_random variables.pdf",
     "obsidian/ComputerScience/확률과 통계/중간 시험/05_independence.pdf",
-    "obsidian/ComputerScience/확률과 통계/중간 시험/04_cond_bayes.pdf",
     "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/Python(basic)/무제 파일.md",
     "obsidian/ComputerScience/확률과 통계/중간 시험/중간 범위.md",
@@ -214,7 +214,6 @@
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Dropout.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
-    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
     "무제 파일.canvas"
   ]
 }
