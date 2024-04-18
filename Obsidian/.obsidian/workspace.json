@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a0a1ccac7167577a",
+        "id": "67572b79d2a32318",
         "type": "tabs",
         "children": [
           {
-            "id": "6762acc1b6deacd6",
+            "id": "406e6958282ca619",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/6.집적 회로.pdf"
+                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/5.순서 논리 회로.pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/6.집적 회로.pdf",
+                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/5.순서 논리 회로.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/6.집적 회로.pdf",
+                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/5.순서 논리 회로.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/6.집적 회로.pdf"
+                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/5.순서 논리 회로.pdf"
               }
             }
           }
@@ -147,11 +147,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6762acc1b6deacd6",
+  "active": "406e6958282ca619",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/중간 시험 범위.md",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/5.순서 논리 회로.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/4.조합 논리 회로.pdf",
+    "obsidian/ComputerScience/데이터 구조/예상 문제/데이터구조 답지.md",
+    "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
+    "obsidian/ComputerScience/데이터 구조/스택.md",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/5.순서 논리 회로.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/중간 시험 범위.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/6.집적 회로.pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Overfitting.pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
@@ -181,10 +184,6 @@
     "obsidian/ComputerScience/확률과 통계/7-2.Binomial RV/Binomial Distribution.md",
     "obsidian/ComputerScience/확률과 통계/7-1.Bernoulli RV/Bernoulli Distribution.md",
     "obsidian/ComputerScience/확률과 통계/12.Independent RVs/Independent RVs.md",
-    "obsidian/ComputerScience/확률과 통계/7-0.Variance/문제 풀이.md",
-    "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/확인문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/Spring Boot 기초/연습문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.md",
     "무제 파일.canvas"
   ]
 }
