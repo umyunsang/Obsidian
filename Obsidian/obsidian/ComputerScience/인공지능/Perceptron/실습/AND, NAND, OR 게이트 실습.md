@@ -101,7 +101,9 @@ def AND (x1, x2):
   else :  
     return 1  
   
-def NAND (x1, x2):  
+def NAN
+
+D (x1, x2):  
   x = np.array([x1, x2])  
   w = np.array([-0.5, -0.5])  
   b = 0.7  
