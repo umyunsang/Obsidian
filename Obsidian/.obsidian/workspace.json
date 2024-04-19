@@ -4,6 +4,24 @@
     "type": "split",
     "children": [
       {
+        "id": "7f5183a86c224b23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89cec609456f0655",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/ComputerScience/웹프로그래밍/HTML 기초/HTML 기초 실습.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "acddbaa3505442c7",
         "type": "tabs",
         "children": [
@@ -11,9 +29,11 @@
             "id": "e656c599c7c361a7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/5.순서 논리 회로.pdf"
+                "file": "obsidian/ComputerScience/웹프로그래밍/HTML 기초/연습문제.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -84,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/5.순서 논리 회로.pdf",
+                "file": "obsidian/ComputerScience/웹프로그래밍/HTML 기초/연습문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/5.순서 논리 회로.pdf",
+                "file": "obsidian/ComputerScience/웹프로그래밍/HTML 기초/연습문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/5.순서 논리 회로.pdf"
+                "file": "obsidian/ComputerScience/웹프로그래밍/HTML 기초/연습문제.md"
               }
             }
           }
@@ -150,6 +169,13 @@
   },
   "active": "e656c599c7c361a7",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/HTML 기초 실습.md",
+    "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.md",
+    "obsidian/ComputerScience/웹프로그래밍/HTML 기초/연습문제.md",
+    "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/확인문제.md",
+    "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/쿠키와 세션.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/쿠키와 세션/4장_확인문제.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/5.순서 논리 회로.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/4.조합 논리 회로.pdf",
     "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트 실습.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/디지털 논리 회로/2.불 대수.pdf",
@@ -167,14 +193,10 @@
     "obsidian/ComputerScience/Python(basic)/중간/답지.md",
     "obsidian/ComputerScience/Python(basic)/3.반복문.md",
     "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
-    "obsidian/ComputerScience/Python(basic)/중간",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(큐).pdf",
     "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/이중 연결 리스트 예상 문제.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/원형 연결 리스트 예상 문제.md",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/1주차_2.pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/2주차_리스트.pdf",
     "obsidian/ComputerScience/데이터 구조/예상 문제/단순 연결 리스트 예상 문제.md",
     "obsidian/ComputerScience/데이터 구조/큐.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/데이터구조 답지.md",
@@ -183,9 +205,6 @@
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/중간 시험 범위.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
-    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
-    "obsidian/ComputerScience/인공지능/중간 시험.md",
-    "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
     "무제 파일.canvas"
   ]
 }
