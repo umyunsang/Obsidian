@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/연습장.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.pdf"
+                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/4장_확인문제.pdf"
               }
             }
           }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/연습장.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/연습장.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/연습장.md"
+                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md"
               }
             }
           }
@@ -167,13 +167,13 @@
   },
   "active": "d981d4c8f1d4b79b",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.pdf",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
+    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
+    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/4장_확인문제.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.pdf",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.pdf",
     "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/확인문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/4장_확인문제.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/확인문제.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경 세팅.pdf",
