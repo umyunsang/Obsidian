@@ -17,8 +17,8 @@ from torch.utils.data import DataLoader
 
 ### 2. 데이터셋 준비
 ```python
-mnist_train = dataset.MNIST(root="./", train=True, transform=transform.ToTensor(), download=True)
-mnist_test = dataset.MNIST(root="./", train=False, transform=transform.ToTensor(), download=True)
+mnist_train = dataset.MNIST(root="./", train=True, transform = transform.ToTensor(), download=True)
+mnist_test = dataset.MNIST(root="./", train=False, transform = transform.ToTensor(), download=True)
 ```
 - `MNIST` 데이터셋을 다운로드하고, 훈련 데이터셋과 테스트 데이터셋으로 나눕니다.
 - `transform.ToTensor()`: 이미지를 텐서로 변환합니다.
