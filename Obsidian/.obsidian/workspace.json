@@ -8,6 +8,24 @@
         "type": "tabs",
         "children": [
           {
+            "id": "5fcb33b269f9e3c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "bc7da82b2e065408",
+        "type": "tabs",
+        "children": [
+          {
             "id": "b231a109249c80b4",
             "type": "leaf",
             "state": {
@@ -150,10 +168,11 @@
   },
   "active": "b231a109249c80b4",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/인공지능/Backpropagation/실습/CIFAR10/CIFAR10 (실습).pdf",
-    "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation (이론).pdf",
-    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/Vanishing Gradient Effect.pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
+    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
+    "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation (이론).pdf",
+    "obsidian/ComputerScience/인공지능/Backpropagation/실습/CIFAR10/CIFAR10 (실습).pdf",
+    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/Vanishing Gradient Effect.pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation.md",
     "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
     "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/SLP (Single Layer Perceptron).md",
@@ -171,7 +190,6 @@
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
     "obsidian/ComputerScience/Python(basic)/중간/23-2 중간고사.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/6.집적 회로.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/5.순서 논리 회로.pdf",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
     "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/확인문제.md",
@@ -185,7 +203,6 @@
     "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/이중 연결 리스트 예상 문제.md",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/원형 연결 리스트 예상 문제.md",
     "무제 파일.canvas"
   ]
 }
