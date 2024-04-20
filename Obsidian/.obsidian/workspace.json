@@ -16,19 +16,8 @@
                 "file": "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation (이론).pdf"
               }
             }
-          },
-          {
-            "id": "52bb89dc896a78e4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/Vanishing Gradient Effect.pdf"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/Vanishing Gradient Effect.pdf",
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation (이론).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/Vanishing Gradient Effect.pdf",
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation (이론).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/Vanishing Gradient Effect.pdf"
+                "file": "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation (이론).pdf"
               }
             }
           }
@@ -159,11 +148,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "52bb89dc896a78e4",
+  "active": "b231a109249c80b4",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
-    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/Vanishing Gradient Effect.pdf",
+    "obsidian/ComputerScience/인공지능/Backpropagation/실습/CIFAR10/CIFAR10 (실습).pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation (이론).pdf",
+    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/Vanishing Gradient Effect.pdf",
+    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation.md",
     "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
     "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/SLP (Single Layer Perceptron).md",
