@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
+                "file": "obsidian/ComputerScience/Python(basic)/중간/답지.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/4장_확인문제.pdf"
+                "file": "obsidian/ComputerScience/Python(basic)/중간/23-2 중간고사.pdf"
               }
             }
           }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
+                "file": "obsidian/ComputerScience/Python(basic)/중간/답지.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
+                "file": "obsidian/ComputerScience/Python(basic)/중간/답지.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md"
+                "file": "obsidian/ComputerScience/Python(basic)/중간/답지.md"
               }
             }
           }
@@ -168,21 +168,22 @@
   "active": "d981d4c8f1d4b79b",
   "lastOpenFiles": [
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
+    "obsidian/ComputerScience/Python(basic)/중간/23-2 중간고사.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/6.집적 회로.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/5.순서 논리 회로.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/4.조합 논리 회로.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/2.불 대수.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/1.논리 게이트.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1. 데이터의 표현/1.진법과 진법 변환.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1. 데이터의 표현/5.에러 검출 코드.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1. 데이터의 표현/4.디지털 코드.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1. 데이터의 표현/3.실수 표현.pdf",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/4장_확인문제.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.pdf",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
-    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.pdf",
     "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/확인문제.md",
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/확인문제.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
-    "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경 세팅.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/3장_확인문제.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/2장_확인문제.pdf",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/5.순서 논리 회로.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/4.조합 논리 회로.pdf",
     "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트 실습.md",
     "obsidian/ComputerScience/인공지능/Perceptron/이론/AND, NAND, OR 게이트.md",
     "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
