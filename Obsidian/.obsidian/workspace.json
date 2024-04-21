@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/1주차_2.pdf"
+                "file": "obsidian/constellation/내별자리.pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/1주차_2.pdf",
+                "file": "obsidian/constellation/내별자리.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/1주차_2.pdf",
+                "file": "obsidian/constellation/내별자리.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/1주차_2.pdf"
+                "file": "obsidian/constellation/내별자리.pdf"
               }
             }
           }
@@ -149,6 +149,11 @@
   },
   "active": "b231a109249c80b4",
   "lastOpenFiles": [
+    "obsidian/constellation/출생천도궁.png",
+    "Welcome.md",
+    "obsidian/constellation/내별자리.pdf",
+    "obsidian/constellation",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/1주차_2.pdf",
     "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Overfitting.pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
@@ -169,11 +174,8 @@
     "Excalidraw/Drawing 2024-04-20 13.08.11.excalidraw.md",
     "Excalidraw",
     "2024-04-20.md",
-    "obsidian/ComputerScience/인공지능/Perceptron/실습/Perceptron (실습).pdf",
-    "obsidian/ComputerScience/인공지능/Perceptron/이론/Perceptron (이론).pdf",
     "obsidian/ComputerScience/Python(basic)/중간/답지.md",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
-    "obsidian/ComputerScience/Python(basic)/중간/23-2 중간고사.pdf",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
     "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/확인문제.md",
@@ -183,7 +185,6 @@
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/CIFAR10/CIFAR10.md",
     "obsidian/ComputerScience/Python(basic)/3.반복문.md",
     "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
-    "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
     "무제 파일.canvas"
   ]
 }
