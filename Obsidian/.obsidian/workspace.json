@@ -11,9 +11,11 @@
             "id": "b231a109249c80b4",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/constellation/내별자리.pdf"
+                "file": "obsidian/index.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/constellation/내별자리.pdf",
+                "file": "obsidian/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/constellation/내별자리.pdf",
+                "file": "obsidian/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/constellation/내별자리.pdf"
+                "file": "obsidian/index.md"
               }
             }
           }
@@ -150,8 +152,8 @@
   "active": "b231a109249c80b4",
   "lastOpenFiles": [
     "obsidian/constellation/출생천도궁.png",
-    "Welcome.md",
     "obsidian/constellation/내별자리.pdf",
+    "Welcome.md",
     "obsidian/constellation",
     "obsidian/ComputerScience/데이터 구조/수업pdf/1주차_2.pdf",
     "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
