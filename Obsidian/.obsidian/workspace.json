@@ -147,10 +147,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4824d7b5ee6b90fb",
+  "active": "721bc94b728ed040",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/확률과 통계/중간 시험/10_normal_gaussian.pdf",
+    "obsidian/index.md",
     "obsidian/ComputerScience/확률과 통계/중간 시험/11_joint_rvs.pdf",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/10_normal_gaussian.pdf",
     "obsidian/ComputerScience/확률과 통계/중간 시험/09_continuous_rv.pdf",
     "obsidian/ComputerScience/확률과 통계/중간 시험/06_random variables.pdf",
     "obsidian/ComputerScience/확률과 통계/중간 시험/05_independence.pdf",
@@ -162,7 +163,6 @@
     "obsidian/ComputerScience/확률과 통계/5.Independence/05_independence.pdf",
     "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/Bayes' Theorem.md",
     "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제 풀이.md",
-    "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제.pdf",
     "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/문제풀이.md",
     "Welcome.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/데이터구조 답지.md",
@@ -177,7 +177,6 @@
     "Excalidraw/Drawing 2024-04-22 17.22.08.excalidraw.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/CIFAR10/CIFAR10.md",
     "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트 실습.md",
-    "obsidian/index.md",
     "obsidian/constellation/출생천도궁.png",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
