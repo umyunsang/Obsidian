@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/9.Continuous RVs/09_continuous_rv.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/11_joint_rvs.pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/9.Continuous RVs/09_continuous_rv.pdf",
+                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/11_joint_rvs.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/9.Continuous RVs/09_continuous_rv.pdf",
+                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/11_joint_rvs.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/9.Continuous RVs/09_continuous_rv.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/11_joint_rvs.pdf"
               }
             }
           }
@@ -147,8 +147,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "721bc94b728ed040",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/확률과 통계/중간 시험/10_normal_gaussian.pdf",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/11_joint_rvs.pdf",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/09_continuous_rv.pdf",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/06_random variables.pdf",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/05_independence.pdf",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
+    "obsidian/ComputerScience/확률과 통계/10.Normal RV/10_normal_gaussian.pdf",
+    "obsidian/ComputerScience/확률과 통계/9.Continuous RVs/09_continuous_rv.pdf",
     "obsidian/ComputerScience/확률과 통계/7-0.Variance/07_bernoulli_binomial.pdf",
     "obsidian/ComputerScience/확률과 통계/6.Random Variables/06_random variables.pdf",
     "obsidian/ComputerScience/확률과 통계/5.Independence/05_independence.pdf",
@@ -156,17 +164,9 @@
     "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제.pdf",
     "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/문제풀이.md",
-    "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/04_cond_bayes.pdf",
-    "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/문제.pdf",
     "Welcome.md",
-    "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/데이터구조 답지.md",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/[데이터구조]2024년1학기중간고사예상문제.pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/4주차.pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/4주차(cont).pdf",
     "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(스택응용문제).pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(큐).pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Dropout.md",
     "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/단순 연결 리스트 예상 문제.md",
