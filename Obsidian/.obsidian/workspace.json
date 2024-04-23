@@ -4,34 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "20e38f6c4c03cf9d",
+        "id": "43eae5fb1edb0e8b",
         "type": "tabs",
         "children": [
           {
-            "id": "b231a109249c80b4",
+            "id": "721bc94b728ed040",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/데이터구조 답지.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "2da6275b9af6dfb1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "442f87567ff32de8",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/[데이터구조]2024년1학기중간고사예상문제.pdf"
               }
             }
           }
@@ -85,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -102,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/데이터구조 답지.md",
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/데이터구조 답지.md",
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/데이터구조 답지.md"
+                "file": "Welcome.md"
               }
             }
           }
@@ -166,12 +149,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b231a109249c80b4",
+  "active": "721bc94b728ed040",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
+    "obsidian/ComputerScience/데이터 구조/예상 문제/데이터구조 답지.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/[데이터구조]2024년1학기중간고사예상문제.pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/4주차.pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/4주차(cont).pdf",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/데이터구조 답지.md",
     "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
     "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(스택응용문제).pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(큐).pdf",
@@ -188,7 +172,6 @@
     "obsidian/ComputerScience/데이터 구조/예상 문제/이중 연결 리스트 예상 문제.md",
     "Excalidraw/Drawing 2024-04-22 17.22.08.excalidraw.md",
     "Excalidraw",
-    "obsidian/ComputerScience/인공지능/Backpropagation/실습/CIFAR10/CIFAR10 (실습).pdf",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/CIFAR10/CIFAR10.md",
     "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트 실습.md",
     "obsidian/index.md",
