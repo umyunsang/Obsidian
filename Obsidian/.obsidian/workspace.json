@@ -11,11 +11,9 @@
             "id": "721bc94b728ed040",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/04_cond_bayes.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/04_cond_bayes.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/04_cond_bayes.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/04_cond_bayes.pdf"
               }
             }
           }
@@ -151,6 +149,8 @@
   },
   "active": "721bc94b728ed040",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/문제.pdf",
+    "Welcome.md",
     "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/데이터구조 답지.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/[데이터구조]2024년1학기중간고사예상문제.pdf",
@@ -176,7 +176,6 @@
     "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트 실습.md",
     "obsidian/index.md",
     "obsidian/constellation/출생천도궁.png",
-    "Welcome.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
@@ -187,7 +186,6 @@
     "obsidian/ComputerScience/인공지능/Perceptron/이론/AND, NAND, OR 게이트.md",
     "Excalidraw/Drawing 2024-04-20 13.08.11.excalidraw.md",
     "2024-04-20.md",
-    "obsidian/ComputerScience/Python(basic)/중간/답지.md",
     "무제 파일.canvas"
   ]
 }
