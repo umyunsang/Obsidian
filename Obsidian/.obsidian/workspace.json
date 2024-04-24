@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/2.불 대수.pdf"
+                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/4.조합 논리 회로.pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/2.불 대수.pdf",
+                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/4.조합 논리 회로.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/2.불 대수.pdf",
+                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/4.조합 논리 회로.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/2.불 대수.pdf"
+                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/4.조합 논리 회로.pdf"
               }
             }
           }
@@ -149,17 +149,18 @@
   },
   "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/1.논리 게이트.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/5.순서 논리 회로.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1705817_AI학과_엄윤상.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/6.집적 회로.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/4.조합 논리 회로.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/3.카르노 맵.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/2.불 대수.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/1.논리 게이트.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/중간 시험 범위.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1. 데이터의 표현/5.에러 검출 코드.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1. 데이터의 표현/4.디지털 코드.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1. 데이터의 표현/3.실수 표현.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1. 데이터의 표현/2.정수 표현.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1. 데이터의 표현/1.진법과 진법 변환.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/5.순서 논리 회로.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/4.조합 논리 회로.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/6.집적 회로.pdf",
     "obsidian/ComputerScience/확률과 통계/11.joint RVs/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/11.joint RVs/joint RVs.md",
     "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
