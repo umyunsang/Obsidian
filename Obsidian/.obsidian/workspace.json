@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/10_normal_gaussian.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/9.Continuous RVs/09_continuous_rv.pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/10_normal_gaussian.pdf",
+                "file": "obsidian/ComputerScience/확률과 통계/9.Continuous RVs/09_continuous_rv.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/10_normal_gaussian.pdf",
+                "file": "obsidian/ComputerScience/확률과 통계/9.Continuous RVs/09_continuous_rv.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/중간 시험/10_normal_gaussian.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/9.Continuous RVs/09_continuous_rv.pdf"
               }
             }
           }
@@ -147,20 +147,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4824d7b5ee6b90fb",
+  "active": "721bc94b728ed040",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/확률과 통계/중간 시험/11_joint_rvs.pdf",
-    "obsidian/index.md",
-    "obsidian/ComputerScience/확률과 통계/중간 시험/10_normal_gaussian.pdf",
-    "obsidian/ComputerScience/확률과 통계/중간 시험/09_continuous_rv.pdf",
-    "obsidian/ComputerScience/확률과 통계/중간 시험/06_random variables.pdf",
-    "obsidian/ComputerScience/확률과 통계/중간 시험/05_independence.pdf",
-    "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
-    "obsidian/ComputerScience/확률과 통계/10.Normal RV/10_normal_gaussian.pdf",
-    "obsidian/ComputerScience/확률과 통계/9.Continuous RVs/09_continuous_rv.pdf",
+    "obsidian/ComputerScience/확률과 통계/10.Normal RV/문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/7-2.Binomial RV/문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/7-1.Bernoulli RV/Bernoulli RV 문제.pdf",
     "obsidian/ComputerScience/확률과 통계/7-0.Variance/07_bernoulli_binomial.pdf",
-    "obsidian/ComputerScience/확률과 통계/6.Random Variables/06_random variables.pdf",
-    "obsidian/ComputerScience/확률과 통계/5.Independence/05_independence.pdf",
+    "obsidian/ComputerScience/확률과 통계/7-0.Variance/문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/5.Independence/Independence.md",
+    "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제 풀이.md",
+    "obsidian/ComputerScience/확률과 통계/6.Random Variables/Random Variables.md",
+    "obsidian/ComputerScience/확률과 통계/6.Random Variables/Expectation.md",
+    "obsidian/ComputerScience/확률과 통계/5.Independence/문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제.pdf",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/11_joint_rvs.pdf",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/10_normal_gaussian.pdf",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/06_random variables.pdf",
+    "obsidian/ComputerScience/확률과 통계/11.joint RVs/문제 풀이.md",
+    "obsidian/index.md",
+    "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
     "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/Bayes' Theorem.md",
     "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/문제풀이.md",
@@ -180,11 +186,6 @@
     "obsidian/constellation/출생천도궁.png",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
     "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
-    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
-    "obsidian/ComputerScience/인공지능/Backpropagation/이론/Backpropagation.md",
-    "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
-    "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/실습/SLP (Single Layer Perceptron).md",
-    "obsidian/ComputerScience/인공지능/MLP(Multi Layer Perceptron)/이론/MLP theorm.md",
     "무제 파일.canvas"
   ]
 }
