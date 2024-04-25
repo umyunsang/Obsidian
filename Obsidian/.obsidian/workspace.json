@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "43eae5fb1edb0e8b",
+        "id": "04da8e97cc12367f",
         "type": "tabs",
         "children": [
           {
-            "id": "721bc94b728ed040",
+            "id": "f366a672a4e6c725",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/3.카르노 맵.pdf"
+                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/3.카르노 맵.pdf",
+                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/3.카르노 맵.pdf",
+                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/3.카르노 맵.pdf"
+                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md"
               }
             }
           }
@@ -147,8 +149,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "721bc94b728ed040",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/Python(basic)/4.조건문.md",
+    "obsidian/ComputerScience/Python(basic)/3.반복문.md",
+    "obsidian/ComputerScience/Python(basic)/2.연산자.md",
+    "obsidian/ComputerScience/Python(basic)/1.변수와 자료형.md",
+    "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
+    "obsidian/ComputerScience/Python(basic)/지뢰찾기/과제 02_지뢰찾기-1.pdf",
+    "obsidian/ComputerScience/Python(basic)/중간/답지.md",
+    "obsidian/ComputerScience/Python(basic)/중간/23-2 중간고사.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/3.카르노 맵.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/2.불 대수.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/1.논리 게이트.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1. 데이터의 표현/5.에러 검출 코드.pdf",
@@ -156,11 +167,7 @@
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1. 데이터의 표현/3.실수 표현.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1. 데이터의 표현/2.정수 표현.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1. 데이터의 표현/1.진법과 진법 변환.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/5.순서 논리 회로.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/4.조합 논리 회로.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/3.카르노 맵.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/중간 시험 범위.md",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/6.집적 회로.pdf",
     "obsidian/ComputerScience/확률과 통계/11.joint RVs/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/11.joint RVs/joint RVs.md",
     "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
@@ -180,11 +187,6 @@
     "obsidian/ComputerScience/데이터 구조/예상 문제/단순 연결 리스트 예상 문제.md",
     "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/원형 연결 리스트 예상 문제.md",
-    "obsidian/ComputerScience/데이터 구조/이중 연결 리스트.md",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/이중 연결 리스트 예상 문제.md",
-    "Excalidraw/Drawing 2024-04-22 17.22.08.excalidraw.md",
-    "obsidian/ComputerScience/인공지능/Backpropagation/실습/CIFAR10/CIFAR10.md",
-    "obsidian/ComputerScience/인공지능/Perceptron/실습/AND, NAND, OR 게이트 실습.md",
     "obsidian/constellation/출생천도궁.png",
     "무제 파일.canvas"
   ]
