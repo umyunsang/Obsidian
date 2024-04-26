@@ -245,9 +245,6 @@ th:text="${color}">color</strong>입니다.
 <table>
 <tr id ="ftr"> <th> 회원 ID
 <tr th:each="a:${arr}"> <td th:text="${a}">
-</table>
-</body>
-</html>
 ```
 #### 10. ex04.css
 ```css

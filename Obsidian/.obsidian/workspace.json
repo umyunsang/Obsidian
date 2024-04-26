@@ -13,7 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/중간/답지.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "a8fa9c3d9063dd9c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be7ede05d6402bc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/ComputerScience/웹프로그래밍/연습장.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/중간/답지.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/중간/답지.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/중간/답지.md"
+                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md"
               }
             }
           }
@@ -149,8 +167,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4824d7b5ee6b90fb",
+  "active": "f366a672a4e6c725",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경 세팅.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
+    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/확인문제.md",
+    "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/확인문제.md",
+    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
+    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/연습장.md",
+    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
+    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
+    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
+    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/4장_확인문제.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.pdf",
+    "obsidian/ComputerScience/Python(basic)/중간/답지.md",
     "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/Python(basic)/4.조건문.md",
     "obsidian/ComputerScience/Python(basic)/3.반복문.md",
@@ -158,16 +190,11 @@
     "obsidian/ComputerScience/Python(basic)/1.변수와 자료형.md",
     "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
     "obsidian/ComputerScience/Python(basic)/지뢰찾기/과제 02_지뢰찾기-1.pdf",
-    "obsidian/ComputerScience/Python(basic)/중간/답지.md",
     "obsidian/ComputerScience/Python(basic)/중간/23-2 중간고사.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/3.카르노 맵.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/2.불 대수.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/2. 디지털 논리 회로/1.논리 게이트.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1. 데이터의 표현/5.에러 검출 코드.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1. 데이터의 표현/4.디지털 코드.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1. 데이터의 표현/3.실수 표현.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1. 데이터의 표현/2.정수 표현.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1. 데이터의 표현/1.진법과 진법 변환.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/중간 시험 범위.md",
     "obsidian/ComputerScience/확률과 통계/11.joint RVs/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/11.joint RVs/joint RVs.md",
@@ -178,15 +205,6 @@
     "obsidian/ComputerScience/확률과 통계/6.Random Variables/Expectation.md",
     "obsidian/index.md",
     "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/Bayes' Theorem.md",
-    "obsidian/ComputerScience/확률과 통계/4.Bayes' theorem/문제 풀이.md",
-    "obsidian/ComputerScience/확률과 통계/4-0.Conditional Probability/문제풀이.md",
-    "Welcome.md",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/데이터구조 답지.md",
-    "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
-    "obsidian/ComputerScience/인공지능/Backpropagation/실습/Overfitting 해결/Dropout.md",
-    "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/단순 연결 리스트 예상 문제.md",
-    "obsidian/ComputerScience/데이터 구조/원형 연결 리스트.md",
     "obsidian/constellation/출생천도궁.png",
     "무제 파일.canvas"
   ]
