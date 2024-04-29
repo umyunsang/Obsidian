@@ -11,9 +11,11 @@
             "id": "f3a9b96d7333586c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/14_conditional_expectation.pdf"
+                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/14_conditional_expectation.pdf",
+                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/14_conditional_expectation.pdf",
+                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/14_conditional_expectation.pdf"
+                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md"
               }
             }
           }
@@ -149,8 +151,10 @@
   },
   "active": "f3a9b96d7333586c",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/Conditional Expectation.md",
+    "obsidian/ComputerScience/데이터 구조/큐.md",
+    "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/14_conditional_expectation.pdf",
+    "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/Conditional Expectation.md",
     "obsidian/ComputerScience/확률과 통계/13Joint statistics/13_joint_statistics.pdf",
     "obsidian/ComputerScience/확률과 통계/17.Continous_joint_probability-2/17_continous_joint_probability_iI.pdf",
     "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/16_continous_joint_probability_i.pdf",
@@ -169,7 +173,6 @@
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
     "obsidian/ComputerScience/Python(basic)/중간/답지.md",
-    "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/Python(basic)/4.조건문.md",
     "obsidian/ComputerScience/Python(basic)/3.반복문.md",
     "obsidian/ComputerScience/Python(basic)/2.연산자.md",
