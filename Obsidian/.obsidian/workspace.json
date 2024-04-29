@@ -11,11 +11,9 @@
             "id": "f3a9b96d7333586c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/인공지능/Optimization/이론/Optimization(이론).pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
+                "file": "obsidian/ComputerScience/인공지능/Optimization/이론/Optimization(이론).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
+                "file": "obsidian/ComputerScience/인공지능/Optimization/이론/Optimization(이론).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md"
+                "file": "obsidian/ComputerScience/인공지능/Optimization/이론/Optimization(이론).pdf"
               }
             }
           }
@@ -151,21 +149,21 @@
   },
   "active": "f3a9b96d7333586c",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/데이터 구조/큐.md",
     "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
+    "obsidian/ComputerScience/인공지능/Optimization/실습/LearingRateControl and Optimizers.pdf",
+    "obsidian/ComputerScience/인공지능/Optimization/실습",
+    "obsidian/ComputerScience/인공지능/Optimization/이론/Optimization(이론).pdf",
+    "obsidian/ComputerScience/인공지능/Optimization/이론",
+    "obsidian/ComputerScience/인공지능/Optimization",
+    "obsidian/ComputerScience/데이터 구조/큐.md",
     "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/14_conditional_expectation.pdf",
     "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/Conditional Expectation.md",
     "obsidian/ComputerScience/확률과 통계/13Joint statistics/13_joint_statistics.pdf",
     "obsidian/ComputerScience/확률과 통계/17.Continous_joint_probability-2/17_continous_joint_probability_iI.pdf",
     "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/16_continous_joint_probability_i.pdf",
     "obsidian/ComputerScience/확률과 통계/15.General_inference/15_general_inference.pdf",
-    "obsidian/ComputerScience/확률과 통계/17.Continous_joint_probability-2",
-    "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1",
-    "obsidian/ComputerScience/확률과 통계/15.General_inference",
-    "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
-    "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경 세팅.pdf",
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/확인문제.md",
     "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/확인문제.md",
@@ -186,7 +184,6 @@
     "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/6.Random Variables/Random Variables.md",
     "obsidian/ComputerScience/확률과 통계/6.Random Variables/Expectation.md",
-    "obsidian/index.md",
     "obsidian/constellation/출생천도궁.png",
     "무제 파일.canvas"
   ]
