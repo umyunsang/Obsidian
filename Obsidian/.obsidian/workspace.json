@@ -11,27 +11,9 @@
             "id": "f3a9b96d7333586c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/트리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "3facc9e29d9c35f0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d4bb4064ad2bddcb",
-            "type": "leaf",
-            "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/9주차(트리).pdf"
+                "file": "obsidian/ComputerScience/인공지능/Optimization/실습/LearingRateControl and Optimizers.pdf"
               }
             }
           }
@@ -102,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/9주차(트리).pdf",
+                "file": "obsidian/ComputerScience/인공지능/Optimization/실습/LearingRateControl and Optimizers.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/9주차(트리).pdf",
+                "file": "obsidian/ComputerScience/인공지능/Optimization/실습/LearingRateControl and Optimizers.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/9주차(트리).pdf"
+                "file": "obsidian/ComputerScience/인공지능/Optimization/실습/LearingRateControl and Optimizers.pdf"
               }
             }
           }
@@ -166,12 +148,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d4bb4064ad2bddcb",
+  "active": "f3a9b96d7333586c",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/인공지능/Optimization/이론/Optimization(이론).pdf",
     "obsidian/ComputerScience/데이터 구조/트리.md",
     "obsidian/ComputerScience/데이터 구조/수업pdf/9주차(트리).pdf",
     "obsidian/ComputerScience/데이터 구조/큐.md",
-    "obsidian/ComputerScience/인공지능/Optimization/이론/Optimization(이론).pdf",
     "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/인공지능/Optimization/실습/LearingRateControl and Optimizers.pdf",
     "obsidian/ComputerScience/인공지능/Optimization/실습",
