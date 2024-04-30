@@ -11,9 +11,27 @@
             "id": "f3a9b96d7333586c",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/ComputerScience/데이터 구조/트리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "3facc9e29d9c35f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4bb4064ad2bddcb",
+            "type": "leaf",
+            "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Optimization/이론/Optimization(이론).pdf"
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/9주차(트리).pdf"
               }
             }
           }
@@ -67,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -83,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Optimization/이론/Optimization(이론).pdf",
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/9주차(트리).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Optimization/이론/Optimization(이론).pdf",
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/9주차(트리).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/Optimization/이론/Optimization(이론).pdf"
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/9주차(트리).pdf"
               }
             }
           }
@@ -147,21 +166,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f3a9b96d7333586c",
+  "active": "d4bb4064ad2bddcb",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/데이터 구조/트리.md",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/9주차(트리).pdf",
+    "obsidian/ComputerScience/데이터 구조/큐.md",
+    "obsidian/ComputerScience/인공지능/Optimization/이론/Optimization(이론).pdf",
     "obsidian/ComputerScience/Python(basic)/5.리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/인공지능/Optimization/실습/LearingRateControl and Optimizers.pdf",
     "obsidian/ComputerScience/인공지능/Optimization/실습",
-    "obsidian/ComputerScience/인공지능/Optimization/이론/Optimization(이론).pdf",
     "obsidian/ComputerScience/인공지능/Optimization/이론",
     "obsidian/ComputerScience/인공지능/Optimization",
-    "obsidian/ComputerScience/데이터 구조/큐.md",
     "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/14_conditional_expectation.pdf",
     "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/Conditional Expectation.md",
     "obsidian/ComputerScience/확률과 통계/13Joint statistics/13_joint_statistics.pdf",
     "obsidian/ComputerScience/확률과 통계/17.Continous_joint_probability-2/17_continous_joint_probability_iI.pdf",
     "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/16_continous_joint_probability_i.pdf",
-    "obsidian/ComputerScience/확률과 통계/15.General_inference/15_general_inference.pdf",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
@@ -183,7 +203,6 @@
     "obsidian/ComputerScience/확률과 통계/5.Independence/Independence.md",
     "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제 풀이.md",
     "obsidian/ComputerScience/확률과 통계/6.Random Variables/Random Variables.md",
-    "obsidian/ComputerScience/확률과 통계/6.Random Variables/Expectation.md",
     "obsidian/constellation/출생천도궁.png",
     "무제 파일.canvas"
   ]
