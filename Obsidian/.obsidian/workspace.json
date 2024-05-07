@@ -11,9 +11,11 @@
             "id": "f3a9b96d7333586c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(이진트리구현, BST).pdf"
+                "file": "obsidian/ComputerScience/데이터 구조/트리.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(이진트리구현, BST).pdf",
+                "file": "obsidian/ComputerScience/데이터 구조/트리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(이진트리구현, BST).pdf",
+                "file": "obsidian/ComputerScience/데이터 구조/트리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(이진트리구현, BST).pdf"
+                "file": "obsidian/ComputerScience/데이터 구조/트리.md"
               }
             }
           }
@@ -149,25 +151,26 @@
   },
   "active": "f3a9b96d7333586c",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/데이터 구조/트리.md",
+    "obsidian/ComputerScience/데이터 구조/무제 파일.md",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/1.프로세스 구성과 동작.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/6.CISC와 RISC.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/4.컴퓨터 명령어.pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(이진트리구현, BST).pdf",
-    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경 세팅.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/컴퓨터구조_4장_김현석.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/2.산술 논리 연산 장치.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/5.주소 지정 방식.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/3.레지스터.pdf",
+    "obsidian/ComputerScience/인공지능/Ai 아바타 만들기/실습/AI 아바타 만들기 (실습).pdf",
+    "obsidian/ComputerScience/인공지능/Ai 아바타 만들기/실습",
+    "obsidian/ComputerScience/데이터 구조/트리.md",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
     "obsidian/ComputerScience/Python(basic)/6. 함수.md",
-    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스",
     "obsidian/ComputerScience/Python(basic)/1. 변수와 자료형.md",
     "obsidian/ComputerScience/Python(basic)/2. 연산자.md",
     "obsidian/ComputerScience/Python(basic)/3. 반복문.md",
     "obsidian/ComputerScience/Python(basic)/4. 조건문.md",
     "obsidian/ComputerScience/Python(basic)/5. 리스트, 튜플, 딕셔너리.md",
-    "obsidian/constellation/내별자리.pdf",
-    "obsidian/ComputerScience/Python(basic)/6.함수",
     "obsidian/constellation/출생천도궁.png",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/컴퓨터구조_4장_김현석.pdf",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/[데이터구조]2024년1학기중간고사예상문제.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/1705817_AI학과_엄윤상.pdf",
     "obsidian/ComputerScience/데이터 구조/큐.md",
     "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/Conditional Expectation.md",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
@@ -184,7 +187,6 @@
     "obsidian/ComputerScience/확률과 통계/11.joint RVs/joint RVs.md",
     "obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
     "obsidian/ComputerScience/확률과 통계/5.Independence/Independence.md",
-    "obsidian/ComputerScience/확률과 통계/6.Random Variables/문제 풀이.md",
     "무제 파일.canvas"
   ]
 }
