@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/16_continous_joint_probability_i.pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf",
+                "file": "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/16_continous_joint_probability_i.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf",
+                "file": "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/16_continous_joint_probability_i.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/16_continous_joint_probability_i.pdf"
               }
             }
           }
@@ -149,6 +149,10 @@
   },
   "active": "f3a9b96d7333586c",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf",
+    "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap",
+    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/5장_확인문제.pdf",
     "obsidian/ComputerScience/데이터 구조/트리.md",
     "obsidian/ComputerScience/데이터 구조/무제 파일.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/1.프로세스 구성과 동작.pdf",
@@ -158,9 +162,6 @@
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/컴퓨터구조_4장_김현석.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/2.산술 논리 연산 장치.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/5.주소 지정 방식.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/3.레지스터.pdf",
-    "obsidian/ComputerScience/인공지능/Ai 아바타 만들기/실습/AI 아바타 만들기 (실습).pdf",
-    "obsidian/ComputerScience/인공지능/Ai 아바타 만들기/실습",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
     "obsidian/ComputerScience/Python(basic)/6. 함수.md",
     "obsidian/ComputerScience/Python(basic)/1. 변수와 자료형.md",
