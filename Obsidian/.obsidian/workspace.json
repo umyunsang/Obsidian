@@ -11,11 +11,9 @@
             "id": "f3a9b96d7333586c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/트리.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/트리.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/트리.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/트리.md"
+                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf"
               }
             }
           }
@@ -151,6 +149,7 @@
   },
   "active": "f3a9b96d7333586c",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/데이터 구조/트리.md",
     "obsidian/ComputerScience/데이터 구조/무제 파일.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/1.프로세스 구성과 동작.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/6.CISC와 RISC.pdf",
@@ -162,7 +161,6 @@
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/3.레지스터.pdf",
     "obsidian/ComputerScience/인공지능/Ai 아바타 만들기/실습/AI 아바타 만들기 (실습).pdf",
     "obsidian/ComputerScience/인공지능/Ai 아바타 만들기/실습",
-    "obsidian/ComputerScience/데이터 구조/트리.md",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
     "obsidian/ComputerScience/Python(basic)/6. 함수.md",
     "obsidian/ComputerScience/Python(basic)/1. 변수와 자료형.md",
