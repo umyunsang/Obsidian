@@ -67,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -147,11 +148,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "87f36e160213b832",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/데이터 구조/수업pdf/스택과 큐.pdf",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf",
     "obsidian/ComputerScience/데이터 구조/트리.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/4.컴퓨터 명령어.pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/3.레지스터.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/2.산술 논리 연산 장치.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/1.프로세스 구성과 동작.pdf",
