@@ -11,9 +11,11 @@
             "id": "87f36e160213b832",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf"
+                "file": "obsidian/ComputerScience/Python(basic)/6. 함수.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf",
+                "file": "obsidian/ComputerScience/Python(basic)/6. 함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf",
+                "file": "obsidian/ComputerScience/Python(basic)/6. 함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf"
+                "file": "obsidian/ComputerScience/Python(basic)/6. 함수.md"
               }
             }
           }
@@ -148,10 +149,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4824d7b5ee6b90fb",
+  "active": "87f36e160213b832",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/데이터 구조/수업pdf/스택과 큐.pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/스택과 큐.pdf",
     "obsidian/ComputerScience/데이터 구조/트리.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/4.컴퓨터 명령어.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/3.레지스터.pdf",
