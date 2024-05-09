@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/4.컴퓨터 명령어.pdf"
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/4.컴퓨터 명령어.pdf",
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/4.컴퓨터 명령어.pdf",
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/4.컴퓨터 명령어.pdf"
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf"
               }
             }
           }
@@ -149,6 +149,9 @@
   },
   "active": "87f36e160213b832",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/데이터 구조/트리.md",
+    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/4.컴퓨터 명령어.pdf",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/3.레지스터.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/2.산술 논리 연산 장치.pdf",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/1.프로세스 구성과 동작.pdf",
@@ -160,11 +163,7 @@
     "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf",
     "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap",
     "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/5장_확인문제.pdf",
-    "obsidian/ComputerScience/데이터 구조/트리.md",
     "obsidian/ComputerScience/데이터 구조/무제 파일.md",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/6.CISC와 RISC.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/4.컴퓨터 명령어.pdf",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
     "obsidian/ComputerScience/Python(basic)/6. 함수.md",
     "obsidian/ComputerScience/Python(basic)/1. 변수와 자료형.md",
