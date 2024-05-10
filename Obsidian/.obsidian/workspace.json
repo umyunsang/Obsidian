@@ -11,9 +11,23 @@
             "id": "87f36e160213b832",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf"
+                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "471aa0de05017b85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf",
+                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf",
+                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf"
+                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md"
               }
             }
           }
@@ -148,10 +162,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "87f36e160213b832",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
     "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/5장_확인문제.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
     "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf",
     "obsidian/ComputerScience/Python(basic)/6. 함수.md",
     "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf",
