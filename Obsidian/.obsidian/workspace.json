@@ -67,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -149,6 +150,9 @@
   },
   "active": "87f36e160213b832",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
+    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/5장_확인문제.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf",
     "obsidian/ComputerScience/Python(basic)/6. 함수.md",
     "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/스택과 큐.pdf",
@@ -162,8 +166,6 @@
     "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/Continuous Joint.md",
     "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/Independence in Variables.md",
     "obsidian/index.md",
-    "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf",
-    "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap",
     "obsidian/ComputerScience/데이터 구조/무제 파일.md",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
     "obsidian/ComputerScience/Python(basic)/1. 변수와 자료형.md",
@@ -184,7 +186,6 @@
     "obsidian/ComputerScience/Python(basic)/중간/답지.md",
     "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
     "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/중간 시험 범위.md",
-    "obsidian/ComputerScience/확률과 통계/11.joint RVs/문제 풀이.md",
     "무제 파일.canvas"
   ]
 }
