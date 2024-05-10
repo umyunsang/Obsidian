@@ -6,26 +6,32 @@
       {
         "id": "1eb7bf9be74b8165",
         "type": "tabs",
+        "dimension": 48.157051282051285,
         "children": [
           {
-            "id": "87f36e160213b832",
+            "id": "c6bdd86d47f9afc2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/5장_확인문제.pdf"
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "68349d17ba43685f",
+        "type": "tabs",
+        "dimension": 51.84294871794872,
+        "children": [
           {
             "id": "471aa0de05017b85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/확인문제.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -98,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/확인문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/확인문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md"
+                "file": "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/확인문제.md"
               }
             }
           }
@@ -162,11 +167,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4824d7b5ee6b90fb",
+  "active": "471aa0de05017b85",
   "lastOpenFiles": [
     "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/5장_확인문제.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
+    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/확인문제.md",
     "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/MYSQL.md",
+    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
     "obsidian/ComputerScience/Python(basic)/6. 함수.md",
     "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/스택과 큐.pdf",
@@ -198,8 +205,6 @@
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
     "obsidian/ComputerScience/Python(basic)/중간/답지.md",
-    "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/중간 시험 범위.md",
     "무제 파일.canvas"
   ]
 }
