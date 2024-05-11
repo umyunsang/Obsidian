@@ -4,26 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "68349d17ba43685f",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
-          {
-            "id": "471aa0de05017b85",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(이진트리구현, BST).pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "cc13d8256d1027ea",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "001f4daa42a9a907",
@@ -31,9 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/트리 (TREE).md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "6c8e98e27b045f89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19b6dfc4e9cc3bab",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf"
               }
             }
           }
@@ -104,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(이진트리구현, BST).pdf",
+                "file": "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(이진트리구현, BST).pdf",
+                "file": "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(이진트리구현, BST).pdf"
+                "file": "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf"
               }
             }
           }
@@ -168,37 +166,45 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "471aa0de05017b85",
+  "active": "19b6dfc4e9cc3bab",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
+    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.md",
+    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/MYSQL.md",
+    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습장.md",
     "obsidian/ComputerScience/데이터 구조/트리 (TREE).md",
+    "Pasted image 20240511132912.png",
+    "Pasted image 20240511132732.png",
+    "image/Pasted image 20240511140823.png",
+    "image/Pasted image 20240511140621.png",
+    "image/Pasted image 20240511140018.png",
+    "image/Pasted image 20240511135940.png",
+    "image/Pasted image 20240511135852.png",
+    "image/Pasted image 20240511135134.png",
+    "image/Pasted image 20240511135109.png",
+    "image/Pasted image 20240511134458.png",
+    "Excalidraw/Drawing 2024-04-22 17.22.08.excalidraw.md",
+    "image",
+    "obsidian/ComputerScience/데이터 구조/예상 문제/데이터구조 답지.md",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(중위표기법을 전위표기법,후위표기법 변환 ).pdf",
+    "obsidian/ComputerScience/데이터 구조/예상 문제/이중 연결 리스트 예상 문제.md",
+    "obsidian/ComputerScience/데이터 구조/예상 문제/원형 연결 리스트 예상 문제.md",
+    "obsidian/ComputerScience/데이터 구조/예상 문제/단순 연결 리스트 예상 문제.md",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/5주차(스택).pdf",
+    "obsidian/ComputerScience/데이터 구조/스택.md",
+    "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(이진트리구현, BST).pdf",
-    "Pasted image 20240511140823.png",
-    "Pasted image 20240511140621.png",
-    "Pasted image 20240511140018.png",
-    "Pasted image 20240511135940.png",
-    "Pasted image 20240511135852.png",
-    "Pasted image 20240511135134.png",
-    "Pasted image 20240511135109.png",
     "obsidian/ComputerScience/데이터 구조/Binary-Tree 구현, BST(Binary Search Tree).md",
     "obsidian/ComputerScience/데이터 구조/큐.md",
     "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
     "obsidian/ComputerScience/데이터 구조/수업pdf/9주차(트리).pdf",
-    "Pasted image 20240511134458.png",
-    "Pasted image 20240511134312.png",
-    "Pasted image 20240511134217.png",
-    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/5장_확인문제.pdf",
     "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/확인문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/MYSQL.md",
-    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
     "obsidian/ComputerScience/Python(basic)/6. 함수.md",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/스택과 큐.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/4.컴퓨터 명령어.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/3.레지스터.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조 (pdf 우선)/3.중앙 처리 장치/2.산술 논리 연산 장치.pdf",
     "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/Continuous Joint.md",
     "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/Independence in Variables.md",
     "obsidian/index.md",
@@ -207,14 +213,6 @@
     "obsidian/ComputerScience/Python(basic)/2. 연산자.md",
     "obsidian/ComputerScience/Python(basic)/3. 반복문.md",
     "obsidian/ComputerScience/Python(basic)/4. 조건문.md",
-    "obsidian/ComputerScience/Python(basic)/5. 리스트, 튜플, 딕셔너리.md",
-    "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/Conditional Expectation.md",
-    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
-    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/확인문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/확인문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
     "무제 파일.canvas"
   ]
 }

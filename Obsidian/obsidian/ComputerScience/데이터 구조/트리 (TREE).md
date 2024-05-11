@@ -99,6 +99,7 @@ class TreeNode:
 ```
 
 #### 이진 트리 구현
+
 - 노드를 이용한 이진 트리 구현은 복잡
 	- 주로 배열 자료형을 이용 
 	- 레벨이 증가할 수록 비교 해야 할 노드가 기하급수적으로 증가 
@@ -175,5 +176,125 @@ def calc_height(node):
 ```
 
 #### 이진탐색트리(Binary Search Tree, BST)
+
 - 이진 탐색 트리 속성
-	- 
+	- 각 노드는 최대 두 개의 자식 노드를 가짐 
+	- 각 노드의 왼쪽 서브트리에 있는 값은 해당 노드의 값보다 작음 
+	- 각 노드의 오른쪽 서브 트리에 있는 값은 해당 노드의 값보다 큼 
+	- 좌우 서브트리는 모두 위 속성들을 만족해야 함
+- 장점
+	- 정렬된 순서로 데이터를 정장하기 때문에, 이진 탐색 알고리즘을 사용하여 원하는 값을 빠르게 찾 을 수 있음. 
+	- 중위 순회를 수행하면 BST의 모든 노드를 정렬된 순서로 방문할 수 있습니다. 
+	- 데이터의 삽입, 삭제, 검색 등의 동적연산에 대해 효율적 처리 가능 
+	- 삽입 및 삭제 연산을 수행할 때 트리를 재조정할 필요가 없어 자료구조의 확장성 높음
+- 단점
+	- 특정한 순서대로 데이터가 입력되는 경우에는 트리의 높이가 선형적으로 증가 
+	- 데이터가 랜덤하게 입력되지 않거나, 특정한 순서로 입력될 경우 트리가 불균형 
+	- 트리가 불균형 할 경우에는 균형을 유지하기 위해 추가적인 연산이 필요 
+	- 일부 노드의 삽입 또는 삭제 연산은 트리의 구조를 재조정해야 하므로 복잡성 증가
+
+#### 이진탐색트리(Binary Search Tree, BST) 구현
+
+- 문제. 이진 트리를 참고하여 이진탐색트리 클래스 구현
+	- 필요 메소드 : 삽입, 탐색 기능 
+	- 부가기능 : 삽입 기능 구현을 위한 노드 순회, 원하는 데이터 찾기 위한 탐색기능 구현을 위한 순회
+- 구성 메소드
+1. 삽입 (insert) 
+2. 탐색 (search) 
+3. 중위 순회 출력 (inorder_print) 
+4. (추가) 레벨 별 출력 (levelOrder_print)
+
+**1. 삽입 (insert)
+```python
+def insert(self, data):
+    self.root = self.insert_recursive(self.root, data)
+
+def insert_recursive(self, node, data):
+    # insert_recursive 메소드: 현재 노드에서 재귀적으로 데이터를 삽입하는 메소드입니다.
+    # - 설명 순서:
+    #   1. 현재 노드가 None인 경우, 새로운 노드를 생성하여 반환합니다.
+    #   2. 데이터가 현재 노드의 키 값보다 작은 경우, 왼쪽 서브트리에 재귀적으로 삽입합니다.
+    #   3. 데이터가 현재 노드의 키 값보다 큰 경우, 오른쪽 서브트리에 재귀적으로 삽입합니다.
+    #   4. 데이터가 현재 노드의 키 값과 동일한 경우, 아무 작업도 수행하지 않습니다.
+    #   5. 마지막으로 삽입이 완료된 노드를 반환합니다.
+    if node is None:
+        return TreeNode(data)
+    if data < node.key:
+        node.left = self.insert_recursive(node.left, data)
+    elif data > node.key:
+        node.right = self.insert_recursive(node.right, data)
+    else:
+        pass
+    return node
+```
+
+**2. 탐색 (search) 
+```python
+def search(self, data):
+    return self.search_recursive(self.root, data)
+
+def search_recursive(self, node, data):
+    # search_recursive 메소드: 현재 노드에서 재귀적으로 데이터를 탐색하는 메소드입니다.
+    # - 설명 순서:
+    #   1. 현재 노드가 None이거나 현재 노드의 데이터가 찾고자 하는 데이터와 같으면 현재 노드를 반환합니다.
+    #   2. 찾고자 하는 데이터가 현재 노드의 데이터보다 작은 경우, 왼쪽 서브트리에 재귀적으로 탐색합니다.
+    #   3. 그렇지 않은 경우(찾고자 하는 데이터가 현재 노드의 데이터보다 큰 경우), 오른쪽 서브트리에 재귀적으로 탐색합니다.
+    if node is None or node.data == data:
+        return node
+    if data < node.data:
+        return self.search_recursive(node.left, data)
+    else:
+        return self.search_recursive(node.right, data)
+```
+
+**3. 중위 순회 출력 (inorder_print) 
+```python
+def inorder_print(self):
+    self.inorder_recursive(self.root)
+    print()
+
+def inorder_recursive(self, node):
+    # inorder_recursive 메소드: 중위 순회를 재귀적으로 수행하여 노드를 출력하는 메소드입니다.
+    # - 설명 순서:
+    #   1. 현재 노드가 None이 아닌 경우에만 순회를 수행합니다.
+    #   2. 왼쪽 서브트리를 방문하여 중위 순회를 수행합니다.
+    #   3. 현재 노드의 데이터를 출력합니다.
+    #   4. 오른쪽 서브트리를 방문하여 중위 순회를 수행합니다.
+    if node:
+        self.inorder_recursive(node.left)
+        print(node.data, end=' ')
+        self.inorder_recursive(node.right)
+```
+
+**4. (추가) 레벨 별 출력 (levelOrder_print)
+```python
+def levelOrder_print(self):
+    # levelOrder_print 메소드: 이진탐색트리의 레벨 순서로 노드를 출력하는 메소드입니다.
+    # - 설명 순서:
+    #   1. 루트 노드가 None인 경우, 아무 작업을 수행하지 않고 종료합니다.
+    #   2. 레벨 순서대로 노드를 출력하기 위해 큐를 사용합니다.
+    #   3. 현재 레벨의 노드들을 큐에 추가하고, 큐가 빌 때까지 반복합니다.
+    #   4. 현재 레벨의 노드들을 출력하고, 다음 레벨의 노드들을 큐에 추가합니다.
+    #   5. 각 레벨의 노드를 출력할 때마다 해당 레벨을 표시합니다.
+    if self.root is None:
+        return 0
+		
+    queue = deque([self.root])
+    cnt = 0
+    while queue:
+        size = len(queue)
+		
+        cnt = cnt + 1
+        print(f"★ LEVEL ", cnt, ": ", end="")
+        for _ in range(size):
+            node = queue.popleft()
+            print(node.data, end=" ")
+			
+            if node.left:
+                queue.append(node.left)
+            if node.right:
+                queue.append(node.right)
+        print()
+    return
+
+```
