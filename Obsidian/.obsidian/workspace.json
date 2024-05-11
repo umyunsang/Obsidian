@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.pdf"
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2.산술 논리 연산 장치.pdf"
               }
             }
           }
@@ -34,8 +34,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "15d1f06bd3362c78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md"
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md"
               }
             }
           }
@@ -166,11 +179,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "19b6dfc4e9cc3bab",
+  "active": "15d1f06bd3362c78",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2.산술 논리 연산 장치.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/무제 파일.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1.진법과 진법 변환.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
+    "Pasted image 20240511163743.png",
+    "Pasted image 20240511163538.png",
+    "Pasted image 20240511161920.png",
+    "obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1.진법과 진법 변환.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1. 진법과 진법 변환.md",
     "Pasted image 20240511160805.png",
     "obsidian/ComputerScience/컴퓨터 구조/1705817_AI학과_엄윤상.pdf",
@@ -192,7 +211,6 @@
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Dropout.md",
     "obsidian/ComputerScience/인공지능/중간시험/인공지능_중간고사_엄윤상_1705817.md",
-    "obsidian/ComputerScience/인공지능/중간시험/24_인공지능_중간고사.pdf",
     "obsidian/ComputerScience/인공지능/중간 시험.md",
     "obsidian/ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/이론/MLP theorm.md",
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10.md",
@@ -207,12 +225,7 @@
     "Pasted image 20240511132912.png",
     "Pasted image 20240511132732.png",
     "image/Pasted image 20240511140823.png",
-    "image/Pasted image 20240511140621.png",
-    "image/Pasted image 20240511140018.png",
-    "image/Pasted image 20240511135940.png",
     "Excalidraw/Drawing 2024-04-22 17.22.08.excalidraw.md",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/데이터구조 답지.md",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/이중 연결 리스트 예상 문제.md",
     "무제 파일.canvas"
   ]
 }
