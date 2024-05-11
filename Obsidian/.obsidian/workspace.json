@@ -4,22 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "6c8e98e27b045f89",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "17c57c345fd9b100",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2.산술 논리 연산 장치.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "1567a160085bfee5",
         "type": "tabs",
         "children": [
@@ -98,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -181,32 +164,35 @@
   },
   "active": "15d1f06bd3362c78",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2.산술 논리 연산 장치.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/중앙 처리 장치.pdf",
+    "image/Pasted image 20240511175647.png",
+    "image/Pasted image 20240511175548.png",
+    "image/Pasted image 20240511174928.png",
+    "image/Pasted image 20240511174858.png",
+    "image/Pasted image 20240511174651.png",
+    "image/Pasted image 20240511172729.png",
+    "image/Pasted image 20240511171600.png",
+    "image/Pasted image 20240511163743.png",
+    "image/Pasted image 20240511163538.png",
+    "image/Pasted image 20240511161920.png",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/무제 파일.md",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2.산술 논리 연산 장치.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/3.레지스터.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
+    "obsidian/index.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
-    "Pasted image 20240511163743.png",
-    "Pasted image 20240511163538.png",
-    "Pasted image 20240511161920.png",
     "obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1.진법과 진법 변환.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1. 진법과 진법 변환.md",
-    "Pasted image 20240511160805.png",
     "obsidian/ComputerScience/컴퓨터 구조/1705817_AI학과_엄윤상.pdf",
-    "Pasted image 20240511160011.png",
-    "Pasted image 20240511155338.png",
-    "Pasted image 20240511155210.png",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/무제 폴더",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/6.집적 회로.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/6.CISC와 RISC.pdf",
     "obsidian/ComputerScience/Python(basic)/6. 함수.md",
-    "obsidian/ComputerScience/인공지능/Ai 아바타 만들기/실습/AI 아바타 만들기 (실습).pdf",
     "obsidian/ComputerScience/인공지능/4. Optimization/실습/Adam.md",
-    "obsidian/index.md",
     "obsidian/ComputerScience/인공지능/4. Optimization/실습/Momentum.md",
     "obsidian/ComputerScience/인공지능/4. Optimization/실습/LearningRateControl.md",
-    "obsidian/ComputerScience/인공지능/4. Optimization/실습/Optimizer.pdf",
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Dropout.md",
@@ -222,9 +208,6 @@
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.md",
     "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/MYSQL.md",
     "obsidian/ComputerScience/데이터 구조/트리 (TREE).md",
-    "Pasted image 20240511132912.png",
-    "Pasted image 20240511132732.png",
-    "image/Pasted image 20240511140823.png",
     "Excalidraw/Drawing 2024-04-22 17.22.08.excalidraw.md",
     "무제 파일.canvas"
   ]
