@@ -4,34 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "cc13d8256d1027ea",
+        "id": "6c8e98e27b045f89",
         "type": "tabs",
         "children": [
           {
-            "id": "001f4daa42a9a907",
+            "id": "17c57c345fd9b100",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.pdf"
               }
             }
           }
         ]
       },
       {
-        "id": "6c8e98e27b045f89",
+        "id": "1567a160085bfee5",
         "type": "tabs",
         "children": [
           {
             "id": "19b6dfc4e9cc3bab",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf"
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf"
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md"
               }
             }
           }
@@ -168,12 +168,41 @@
   },
   "active": "19b6dfc4e9cc3bab",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1.진법과 진법 변환.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
+    "obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1. 진법과 진법 변환.md",
+    "Pasted image 20240511160805.png",
+    "obsidian/ComputerScience/컴퓨터 구조/1705817_AI학과_엄윤상.pdf",
+    "Pasted image 20240511160011.png",
+    "Pasted image 20240511155338.png",
+    "Pasted image 20240511155210.png",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/무제 폴더",
+    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/6.집적 회로.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/6.CISC와 RISC.pdf",
+    "obsidian/ComputerScience/Python(basic)/6. 함수.md",
+    "obsidian/ComputerScience/인공지능/Ai 아바타 만들기/실습/AI 아바타 만들기 (실습).pdf",
+    "obsidian/ComputerScience/인공지능/4. Optimization/실습/Adam.md",
+    "obsidian/index.md",
+    "obsidian/ComputerScience/인공지능/4. Optimization/실습/Momentum.md",
+    "obsidian/ComputerScience/인공지능/4. Optimization/실습/LearningRateControl.md",
+    "obsidian/ComputerScience/인공지능/4. Optimization/실습/Optimizer.pdf",
+    "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
+    "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
+    "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Dropout.md",
+    "obsidian/ComputerScience/인공지능/중간시험/인공지능_중간고사_엄윤상_1705817.md",
+    "obsidian/ComputerScience/인공지능/중간시험/24_인공지능_중간고사.pdf",
+    "obsidian/ComputerScience/인공지능/중간 시험.md",
+    "obsidian/ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/이론/MLP theorm.md",
+    "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10.md",
+    "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
+    "obsidian/ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
+    "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/Continuous Joint.md",
     "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
+    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.md",
     "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/MYSQL.md",
-    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습장.md",
     "obsidian/ComputerScience/데이터 구조/트리 (TREE).md",
     "Pasted image 20240511132912.png",
     "Pasted image 20240511132732.png",
@@ -181,38 +210,9 @@
     "image/Pasted image 20240511140621.png",
     "image/Pasted image 20240511140018.png",
     "image/Pasted image 20240511135940.png",
-    "image/Pasted image 20240511135852.png",
-    "image/Pasted image 20240511135134.png",
-    "image/Pasted image 20240511135109.png",
-    "image/Pasted image 20240511134458.png",
     "Excalidraw/Drawing 2024-04-22 17.22.08.excalidraw.md",
-    "image",
     "obsidian/ComputerScience/데이터 구조/예상 문제/데이터구조 답지.md",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/6주차(중위표기법을 전위표기법,후위표기법 변환 ).pdf",
     "obsidian/ComputerScience/데이터 구조/예상 문제/이중 연결 리스트 예상 문제.md",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/원형 연결 리스트 예상 문제.md",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/단순 연결 리스트 예상 문제.md",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/5주차(스택).pdf",
-    "obsidian/ComputerScience/데이터 구조/스택.md",
-    "obsidian/ComputerScience/데이터 구조/후위 표기법.md",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(이진트리구현, BST).pdf",
-    "obsidian/ComputerScience/데이터 구조/Binary-Tree 구현, BST(Binary Search Tree).md",
-    "obsidian/ComputerScience/데이터 구조/큐.md",
-    "obsidian/ComputerScience/데이터 구조/단순 연결 리스트.md",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/9주차(트리).pdf",
-    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/5장_확인문제.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/확인문제.md",
-    "obsidian/ComputerScience/Python(basic)/6. 함수.md",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/스택과 큐.pdf",
-    "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/Continuous Joint.md",
-    "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/Independence in Variables.md",
-    "obsidian/index.md",
-    "obsidian/ComputerScience/웹프로그래밍/연습장.md",
-    "obsidian/ComputerScience/Python(basic)/1. 변수와 자료형.md",
-    "obsidian/ComputerScience/Python(basic)/2. 연산자.md",
-    "obsidian/ComputerScience/Python(basic)/3. 반복문.md",
-    "obsidian/ComputerScience/Python(basic)/4. 조건문.md",
     "무제 파일.canvas"
   ]
 }
