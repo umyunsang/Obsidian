@@ -8,14 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "19b6dfc4e9cc3bab",
+            "id": "21c209e06dcb2cb3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf"
               }
             }
           },
@@ -25,14 +23,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md"
+                "file": "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf"
               }
             }
           }
@@ -162,8 +159,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "15d1f06bd3362c78",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
+    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
+    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/1장_확인문제.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/무제 파일.md",
+    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경 세팅.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/2장_확인문제.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/중앙 처리 장치.pdf",
     "image/Pasted image 20240511175647.png",
     "image/Pasted image 20240511175548.png",
@@ -178,17 +183,12 @@
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/무제 파일.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2.산술 논리 연산 장치.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/3.레지스터.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
     "obsidian/index.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
     "obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1.진법과 진법 변환.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1. 진법과 진법 변환.md",
     "obsidian/ComputerScience/컴퓨터 구조/1705817_AI학과_엄윤상.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/무제 폴더",
-    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/6.집적 회로.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/6.CISC와 RISC.pdf",
     "obsidian/ComputerScience/Python(basic)/6. 함수.md",
     "obsidian/ComputerScience/인공지능/4. Optimization/실습/Adam.md",
     "obsidian/ComputerScience/인공지능/4. Optimization/실습/Momentum.md",
@@ -204,11 +204,8 @@
     "obsidian/ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
     "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/Continuous Joint.md",
     "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
-    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.md",
     "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/MYSQL.md",
-    "obsidian/ComputerScience/데이터 구조/트리 (TREE).md",
-    "Excalidraw/Drawing 2024-04-22 17.22.08.excalidraw.md",
     "무제 파일.canvas"
   ]
 }
