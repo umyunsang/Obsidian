@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/2장_확인문제.pdf"
+                "file": "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경.pdf"
               }
             }
           }
@@ -67,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -84,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/2장_확인문제.pdf",
+                "file": "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/2장_확인문제.pdf",
+                "file": "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/2장_확인문제.pdf"
+                "file": "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경.pdf"
               }
             }
           }
@@ -150,14 +149,15 @@
   },
   "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/2장_확인문제.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경 세팅.pdf",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/1장_확인문제.pdf",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/무제 파일.md",
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경 세팅.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/2장_확인문제.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/중앙 처리 장치.pdf",
     "image/Pasted image 20240511175647.png",
