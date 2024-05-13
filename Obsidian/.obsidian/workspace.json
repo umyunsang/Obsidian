@@ -11,9 +11,11 @@
             "id": "21c209e06dcb2cb3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/17.Continous_joint_probability-2/17_continous_joint_probability_iI.pdf"
+                "file": "obsidian/ComputerScience/Python(basic)/6. 함수.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/17.Continous_joint_probability-2/17_continous_joint_probability_iI.pdf",
+                "file": "obsidian/ComputerScience/Python(basic)/6. 함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/17.Continous_joint_probability-2/17_continous_joint_probability_iI.pdf",
+                "file": "obsidian/ComputerScience/Python(basic)/6. 함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/17.Continous_joint_probability-2/17_continous_joint_probability_iI.pdf"
+                "file": "obsidian/ComputerScience/Python(basic)/6. 함수.md"
               }
             }
           }
@@ -149,6 +152,10 @@
   },
   "active": "21c209e06dcb2cb3",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
+    "obsidian/ComputerScience/Python(basic)/지뢰찾기/과제 02_지뢰찾기-1.pdf",
+    "obsidian/ComputerScience/Python(basic)/6. 함수.md",
+    "obsidian/ComputerScience/확률과 통계/17.Continous_joint_probability-2/17_continous_joint_probability_iI.pdf",
     "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/16_continous_joint_probability_i.pdf",
     "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/14_conditional_expectation.pdf",
     "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경.pdf",
@@ -162,7 +169,6 @@
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/중앙 처리 장치.pdf",
     "image/Pasted image 20240511175647.png",
     "image/Pasted image 20240511175548.png",
     "image/Pasted image 20240511174928.png",
@@ -174,12 +180,9 @@
     "image/Pasted image 20240511163538.png",
     "image/Pasted image 20240511161920.png",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/무제 파일.md",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2.산술 논리 연산 장치.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/3.레지스터.pdf",
     "obsidian/index.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
     "obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1. 진법과 진법 변환.md",
-    "obsidian/ComputerScience/Python(basic)/6. 함수.md",
     "obsidian/ComputerScience/인공지능/4. Optimization/실습/Adam.md",
     "obsidian/ComputerScience/인공지능/4. Optimization/실습/Momentum.md",
     "obsidian/ComputerScience/인공지능/4. Optimization/실습/LearningRateControl.md",
