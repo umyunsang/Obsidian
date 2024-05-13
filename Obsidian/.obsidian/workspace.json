@@ -11,9 +11,11 @@
             "id": "21c209e06dcb2cb3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf"
+                "file": "obsidian/ComputerScience/Python(basic)/6. 함수.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf",
+                "file": "obsidian/ComputerScience/Python(basic)/6. 함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf",
+                "file": "obsidian/ComputerScience/Python(basic)/6. 함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf"
+                "file": "obsidian/ComputerScience/Python(basic)/6. 함수.md"
               }
             }
           }
@@ -149,8 +151,8 @@
   },
   "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/Python(basic)/6. 함수.md",
     "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf",
+    "obsidian/ComputerScience/Python(basic)/6. 함수.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN (실습).pdf",
     "obsidian/ComputerScience/인공지능/5. CNN/이론",
     "obsidian/ComputerScience/인공지능/5. CNN/실습",
