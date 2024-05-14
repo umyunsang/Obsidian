@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL).pdf",
+                "file": "obsidian/ComputerScience/데이터 구조/AVL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL).pdf",
+                "file": "obsidian/ComputerScience/데이터 구조/AVL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL).pdf"
+                "file": "obsidian/ComputerScience/데이터 구조/AVL.md"
               }
             }
           }
@@ -166,10 +166,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "21c209e06dcb2cb3",
+  "active": "e767f90dde1bec50",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/데이터 구조/AVL.md",
+    "Pasted image 20240514092225.png",
+    "Pasted image 20240514092134.png",
+    "Pasted image 20240514092000.png",
+    "Pasted image 20240514091859.png",
     "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL).pdf",
+    "obsidian/ComputerScience/데이터 구조/AVL.md",
+    "Pasted image 20240514091808.png",
     "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(이진트리구현, BST).pdf",
     "obsidian/ComputerScience/데이터 구조/트리 (TREE).md",
@@ -193,10 +198,6 @@
     "image/Pasted image 20240511174858.png",
     "image/Pasted image 20240511174651.png",
     "image/Pasted image 20240511172729.png",
-    "image/Pasted image 20240511171600.png",
-    "image/Pasted image 20240511163743.png",
-    "image/Pasted image 20240511163538.png",
-    "image/Pasted image 20240511161920.png",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/무제 파일.md",
     "obsidian/index.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
