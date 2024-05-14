@@ -4,22 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "1567a160085bfee5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "21c209e06dcb2cb3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL).pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "fb5069256f44c05b",
         "type": "tabs",
         "children": [
@@ -27,11 +11,9 @@
             "id": "e767f90dde1bec50",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/AVL.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf"
               }
             }
           }
@@ -85,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -102,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/AVL.md",
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/AVL.md",
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/AVL.md"
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf"
               }
             }
           }
@@ -168,19 +149,24 @@
   },
   "active": "e767f90dde1bec50",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN (실습).pdf",
+    "image/Pasted image 20240514092134.png",
+    "image/Pasted image 20240514092000.png",
+    "image/Pasted image 20240514091859.png",
+    "image/Pasted image 20240514091808.png",
+    "image/Pasted image 20240514092225.png",
+    "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf",
+    "obsidian/ComputerScience/데이터 구조/AVL.md",
     "Pasted image 20240514092225.png",
     "Pasted image 20240514092134.png",
     "Pasted image 20240514092000.png",
     "Pasted image 20240514091859.png",
     "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL).pdf",
-    "obsidian/ComputerScience/데이터 구조/AVL.md",
     "Pasted image 20240514091808.png",
     "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(이진트리구현, BST).pdf",
     "obsidian/ComputerScience/데이터 구조/트리 (TREE).md",
     "obsidian/ComputerScience/Python(basic)/6. 함수.md",
-    "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf",
-    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN (실습).pdf",
     "obsidian/ComputerScience/인공지능/5. CNN/이론",
     "obsidian/ComputerScience/인공지능/5. CNN/실습",
     "obsidian/ComputerScience/인공지능/5. CNN",
@@ -192,12 +178,6 @@
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
-    "image/Pasted image 20240511175647.png",
-    "image/Pasted image 20240511175548.png",
-    "image/Pasted image 20240511174928.png",
-    "image/Pasted image 20240511174858.png",
-    "image/Pasted image 20240511174651.png",
-    "image/Pasted image 20240511172729.png",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/무제 파일.md",
     "obsidian/index.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
