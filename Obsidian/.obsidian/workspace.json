@@ -11,11 +11,9 @@
             "id": "e767f90dde1bec50",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/5.주소 지정 방식.pdf"
               }
             }
           }
@@ -69,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/5.주소 지정 방식.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/5.주소 지정 방식.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10.md"
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/5.주소 지정 방식.pdf"
               }
             }
           }
@@ -151,6 +150,18 @@
   },
   "active": "e767f90dde1bec50",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4.컴퓨터 명령어.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
+    "Pasted image 20240516123419.png",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/3.레지스터.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/3. 레지스터.md",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
+    "Pasted image 20240516121445.png",
+    "Pasted image 20240516115656.png",
+    "Pasted image 20240516115237.png",
+    "Pasted image 20240516115214.png",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
+    "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10.md",
     "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN (실습).pdf",
     "image/Pasted image 20240514092134.png",
@@ -159,12 +170,7 @@
     "image/Pasted image 20240514091808.png",
     "image/Pasted image 20240514092225.png",
     "obsidian/ComputerScience/데이터 구조/AVL.md",
-    "Pasted image 20240514092225.png",
-    "Pasted image 20240514092134.png",
-    "Pasted image 20240514092000.png",
-    "Pasted image 20240514091859.png",
     "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL).pdf",
-    "Pasted image 20240514091808.png",
     "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(BST구현).pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/10주차(이진트리구현, BST).pdf",
     "obsidian/ComputerScience/데이터 구조/트리 (TREE).md",
@@ -173,16 +179,11 @@
     "obsidian/ComputerScience/인공지능/5. CNN/실습",
     "obsidian/ComputerScience/인공지능/5. CNN",
     "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
-    "obsidian/ComputerScience/Python(basic)/지뢰찾기/과제 02_지뢰찾기-1.pdf",
-    "obsidian/ComputerScience/확률과 통계/17.Continous_joint_probability-2/17_continous_joint_probability_iI.pdf",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/무제 파일.md",
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/무제 파일.md",
     "obsidian/index.md",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
     "obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1. 진법과 진법 변환.md",
     "obsidian/ComputerScience/인공지능/4. Optimization/실습/Adam.md",
     "obsidian/ComputerScience/인공지능/4. Optimization/실습/Momentum.md",
@@ -193,9 +194,7 @@
     "obsidian/ComputerScience/인공지능/중간시험/인공지능_중간고사_엄윤상_1705817.md",
     "obsidian/ComputerScience/인공지능/중간 시험.md",
     "obsidian/ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/이론/MLP theorm.md",
-    "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10.md",
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
-    "obsidian/ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
     "무제 파일.canvas"
   ]
 }
