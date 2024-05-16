@@ -67,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -148,21 +147,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e767f90dde1bec50",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/데이터 구조/AVL.md",
-    "Pasted image 20240516150832.png",
-    "Pasted image 20240516150804.png",
-    "Pasted image 20240516150739.png",
-    "Pasted image 20240516150732.png",
-    "Pasted image 20240516150715.png",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL코드구현).pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL).pdf",
-    "Pasted image 20240516150425.png",
-    "Pasted image 20240516150401.png",
-    "Pasted image 20240516150330.png",
-    "Pasted image 20240516150328.png",
-    "Pasted image 20240516150307.png",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL코드구현).pdf",
+    "image/Pasted image 20240516150832.png",
+    "image/Pasted image 20240516150804.png",
+    "image/Pasted image 20240516150739.png",
+    "image/Pasted image 20240516150732.png",
+    "image/Pasted image 20240516150715.png",
+    "image/Pasted image 20240516150425.png",
+    "image/Pasted image 20240516150401.png",
+    "image/Pasted image 20240516150330.png",
+    "image/Pasted image 20240516150328.png",
+    "image/Pasted image 20240516150307.png",
+    "obsidian/ComputerScience/데이터 구조/AVL.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/컴퓨터구조_5장_김현석.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치",
