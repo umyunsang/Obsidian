@@ -13,7 +13,25 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf"
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL코드구현).pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "b0d4025b2c1af6ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "542ccd5fa5b119cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/ComputerScience/데이터 구조/AVL.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -83,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL코드구현).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL코드구현).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf"
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL코드구현).pdf"
               }
             }
           }
@@ -147,15 +166,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4824d7b5ee6b90fb",
+  "active": "e767f90dde1bec50",
   "lastOpenFiles": [
-    "image/Pasted image 20240516123419.png",
-    "image/Pasted image 20240516121445.png",
-    "image/Pasted image 20240516115656.png",
-    "image/Pasted image 20240516115237.png",
-    "image/Pasted image 20240516115214.png",
-    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/컴퓨터구조_5장_김현석.pdf",
+    "obsidian/ComputerScience/데이터 구조/AVL.md",
+    "Pasted image 20240516150832.png",
+    "Pasted image 20240516150804.png",
+    "Pasted image 20240516150739.png",
+    "Pasted image 20240516150732.png",
+    "Pasted image 20240516150715.png",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL코드구현).pdf",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL).pdf",
+    "Pasted image 20240516150425.png",
+    "Pasted image 20240516150401.png",
+    "Pasted image 20240516150330.png",
+    "Pasted image 20240516150328.png",
+    "Pasted image 20240516150307.png",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/컴퓨터구조_5장_김현석.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/중앙 처리 장치.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치",
@@ -163,19 +190,10 @@
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/5.주소 지정 방식.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4.컴퓨터 명령어.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
-    "Pasted image 20240516123419.png",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/3.레지스터.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/3. 레지스터.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
-    "Pasted image 20240516121445.png",
-    "Pasted image 20240516115656.png",
-    "Pasted image 20240516115237.png",
-    "Pasted image 20240516115214.png",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10.md",
-    "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf",
-    "image/Pasted image 20240514092134.png",
-    "obsidian/ComputerScience/데이터 구조/AVL.md",
     "obsidian/ComputerScience/데이터 구조/트리 (TREE).md",
     "obsidian/ComputerScience/Python(basic)/6. 함수.md",
     "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
