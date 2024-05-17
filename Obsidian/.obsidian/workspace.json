@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#가야  ",
+                "query": "<ul>",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
+                "file": "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
+                "file": "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf"
+                "file": "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md"
               }
             }
           }
@@ -161,11 +160,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "161aaabb636f07f5",
+  "active": "ae8696730297f01f",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
+    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.pdf",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
     "obsidian/ComputerScience/Python(basic)/문제풀이_1_10.pdf",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2",
@@ -186,7 +186,6 @@
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/컴퓨터구조_5장_김현석.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/중앙 처리 장치.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/3. 레지스터.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
