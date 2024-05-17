@@ -8,7 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e767f90dde1bec50",
+            "id": "ae8696730297f01f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "161aaabb636f07f5",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -16,20 +28,9 @@
                 "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf"
               }
             }
-          },
-          {
-            "id": "ae8696730297f01f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,10 +161,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e767f90dde1bec50",
+  "active": "161aaabb636f07f5",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
+    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
+    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
     "obsidian/ComputerScience/Python(basic)/문제풀이_1_10.pdf",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2",
     "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL코드구현).pdf",
@@ -193,7 +196,6 @@
     "obsidian/ComputerScience/Python(basic)/6. 함수.md",
     "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/무제 파일.md",
-    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
     "obsidian/index.md",
@@ -206,7 +208,6 @@
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Dropout.md",
     "obsidian/ComputerScience/인공지능/중간시험/인공지능_중간고사_엄윤상_1705817.md",
     "obsidian/ComputerScience/인공지능/중간 시험.md",
-    "obsidian/ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/이론/MLP theorm.md",
     "무제 파일.canvas"
   ]
 }
