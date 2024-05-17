@@ -13,11 +13,24 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/문제풀이_1_10.pdf"
+                "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf"
+              }
+            }
+          },
+          {
+            "id": "ae8696730297f01f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/문제풀이_1_10.pdf",
+                "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/문제풀이_1_10.pdf",
+                "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/문제풀이_1_10.pdf"
+                "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md"
               }
             }
           }
@@ -148,11 +161,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e767f90dde1bec50",
+  "active": "ae8696730297f01f",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
+    "obsidian/ComputerScience/Python(basic)/문제풀이_1_10.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2",
     "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL코드구현).pdf",
     "obsidian/ComputerScience/Python(basic)/문제풀이_11_20.pdf",
-    "obsidian/ComputerScience/Python(basic)/문제풀이_1_10.pdf",
     "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL).pdf",
     "image/Pasted image 20240516150832.png",
     "image/Pasted image 20240516150804.png",
@@ -169,9 +185,6 @@
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/컴퓨터구조_5장_김현석.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/중앙 처리 장치.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/6.CISC와 RISC.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/5.주소 지정 방식.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/3. 레지스터.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
@@ -195,7 +208,6 @@
     "obsidian/ComputerScience/인공지능/중간시험/인공지능_중간고사_엄윤상_1705817.md",
     "obsidian/ComputerScience/인공지능/중간 시험.md",
     "obsidian/ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/이론/MLP theorm.md",
-    "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
     "무제 파일.canvas"
   ]
 }
