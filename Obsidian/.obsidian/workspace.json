@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/애플 M4 CPU.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/애플 M4 CPU.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/애플 M4 CPU.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/애플 M4 CPU.md"
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md"
               }
             }
           }
@@ -152,8 +152,10 @@
   },
   "active": "ae8696730297f01f",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/애플 M4 CPU/애플 M4 CPU.md",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/애플 M4 CPU/1705817.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/애플 M4 CPU",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/애플 M4 CPU.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/3. 레지스터.md",
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
@@ -177,8 +179,6 @@
     "image/Pasted image 20240516150307.png",
     "obsidian/ComputerScience/데이터 구조/AVL.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/컴퓨터구조_5장_김현석.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10.md",
@@ -197,7 +197,6 @@
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Dropout.md",
     "obsidian/ComputerScience/인공지능/중간시험/인공지능_중간고사_엄윤상_1705817.md",
-    "obsidian/ComputerScience/인공지능/중간 시험.md",
     "무제 파일.canvas"
   ]
 }
