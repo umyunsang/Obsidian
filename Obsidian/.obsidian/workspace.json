@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fb5069256f44c05b",
+        "id": "8666b690716d8b28",
         "type": "tabs",
         "children": [
           {
             "id": "ae8696730297f01f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.pdf"
               }
             }
           }
@@ -69,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -86,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md"
+                "file": "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.pdf"
               }
             }
           }
@@ -152,21 +149,27 @@
   },
   "active": "ae8696730297f01f",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4.컴퓨터 명령어.pdf",
+    "Pasted image 20240519142811.png",
+    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
+    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
+    "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/2장_확인문제.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/1장_확인문제.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
+    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
+    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/3장_확인문제.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경.pdf",
+    "Pasted image 20240519140040.png",
+    "Pasted image 20240519135522.png",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/3. 레지스터.md",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/3.레지스터.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/애플 M4 CPU/애플 M4 CPU.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/애플 M4 CPU/1705817.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/애플 M4 CPU",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/3. 레지스터.md",
-    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
-    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.pdf",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
-    "obsidian/ComputerScience/Python(basic)/문제풀이_1_10.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL코드구현).pdf",
-    "obsidian/ComputerScience/Python(basic)/문제풀이_11_20.pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL).pdf",
     "image/Pasted image 20240516150832.png",
     "image/Pasted image 20240516150804.png",
     "image/Pasted image 20240516150739.png",
@@ -174,11 +177,7 @@
     "image/Pasted image 20240516150715.png",
     "image/Pasted image 20240516150425.png",
     "image/Pasted image 20240516150401.png",
-    "image/Pasted image 20240516150330.png",
-    "image/Pasted image 20240516150328.png",
-    "image/Pasted image 20240516150307.png",
     "obsidian/ComputerScience/데이터 구조/AVL.md",
-    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10.md",
@@ -186,8 +185,6 @@
     "obsidian/ComputerScience/Python(basic)/6. 함수.md",
     "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/무제 파일.md",
-    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
-    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
     "obsidian/index.md",
     "obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1. 진법과 진법 변환.md",
     "obsidian/ComputerScience/인공지능/4. Optimization/실습/Adam.md",
