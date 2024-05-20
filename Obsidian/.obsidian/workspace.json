@@ -29,13 +29,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/2. 제어 장치의 종류.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba7b974c45bb82cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md"
+                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md"
               }
             }
           }
@@ -166,21 +179,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7d16cb3d65aee937",
+  "active": "ba7b974c45bb82cf",
   "lastOpenFiles": [
-    "Pasted image 20240520185332.png",
-    "Pasted image 20240520185329.png",
-    "Pasted image 20240520185243.png",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/컴퓨터구조_5장_김현석.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
+    "Pasted image 20240520194414.png",
+    "Pasted image 20240520194358.png",
+    "Pasted image 20240520194237.png",
+    "Pasted image 20240520193257.png",
+    "Pasted image 20240520193020.png",
+    "Pasted image 20240520192859.png",
+    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
+    "Pasted image 20240520192728.png",
+    "Pasted image 20240520192500.png",
+    "Pasted image 20240520192459.png",
+    "Pasted image 20240520192341.png",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
-    "Pasted image 20240520185154.png",
-    "Pasted image 20240520184959.png",
-    "Pasted image 20240520184949.png",
-    "Pasted image 20240520184719.png",
-    "Pasted image 20240520184339.png",
-    "Pasted image 20240520184106.png",
-    "Pasted image 20240520184104.png",
-    "Pasted image 20240520183800.png",
+    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
+    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/2. 제어 장치의 종류.md",
+    "무제 파일.md",
     "obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/중앙 처리 장치.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md",
     "obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/6. CISC와 RISC.md",
@@ -209,11 +226,6 @@
     "obsidian/ComputerScience/Python(basic)/6. 함수.md",
     "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/무제 파일.md",
-    "obsidian/index.md",
-    "obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1. 진법과 진법 변환.md",
-    "obsidian/ComputerScience/인공지능/4. Optimization/실습/Adam.md",
-    "obsidian/ComputerScience/인공지능/4. Optimization/실습/Momentum.md",
-    "obsidian/ComputerScience/인공지능/4. Optimization/실습/LearningRateControl.md",
     "무제 파일.canvas"
   ]
 }
