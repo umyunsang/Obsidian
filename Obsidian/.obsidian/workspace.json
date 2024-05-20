@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/컴퓨터구조_5장_김현석.pdf"
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf"
               }
             }
           }
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md"
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf"
               }
             }
           }
@@ -179,10 +179,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ba7b974c45bb82cf",
+  "active": "3c5b6ef7162c8589",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/컴퓨터구조_5장_김현석.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
+    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/컴퓨터구조_5장_김현석.pdf",
+    "Pasted image 20240520200647.png",
+    "Pasted image 20240520200228.png",
+    "Pasted image 20240520195649.png",
+    "Pasted image 20240520195647.png",
     "Pasted image 20240520194414.png",
     "Pasted image 20240520194358.png",
     "Pasted image 20240520194237.png",
@@ -190,10 +196,6 @@
     "Pasted image 20240520193020.png",
     "Pasted image 20240520192859.png",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
-    "Pasted image 20240520192728.png",
-    "Pasted image 20240520192500.png",
-    "Pasted image 20240520192459.png",
-    "Pasted image 20240520192341.png",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/2. 제어 장치의 종류.md",
@@ -215,7 +217,6 @@
     "obsidian/ComputerScience/데이터 구조/AVL.md",
     "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL).pdf",
     "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN 주요설계모듈(이론).pdf",
-    "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf",
     "Excalidraw/Drawing 2024-05-20 09.18.10.excalidraw.md",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
@@ -225,7 +226,6 @@
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10.md",
     "obsidian/ComputerScience/Python(basic)/6. 함수.md",
     "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
-    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/무제 파일.md",
     "무제 파일.canvas"
   ]
 }
