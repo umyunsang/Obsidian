@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf"
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md"
               }
             }
           }
@@ -179,22 +179,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c5b6ef7162c8589",
+  "active": "ba7b974c45bb82cf",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
+    "image/Pasted image 20240520173752.png",
+    "image/Pasted image 20240520192341.png",
+    "image/Pasted image 20240520200647.png",
+    "image/Pasted image 20240520200228.png",
+    "image/Pasted image 20240520195649.png",
+    "image/Pasted image 20240520195647.png",
+    "image/Pasted image 20240520194414.png",
+    "image/Pasted image 20240520194358.png",
+    "image/Pasted image 20240520194237.png",
+    "image/Pasted image 20240520193257.png",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
-    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/컴퓨터구조_5장_김현석.pdf",
-    "Pasted image 20240520200647.png",
-    "Pasted image 20240520200228.png",
-    "Pasted image 20240520195649.png",
-    "Pasted image 20240520195647.png",
-    "Pasted image 20240520194414.png",
-    "Pasted image 20240520194358.png",
-    "Pasted image 20240520194237.png",
-    "Pasted image 20240520193257.png",
-    "Pasted image 20240520193020.png",
-    "Pasted image 20240520192859.png",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
