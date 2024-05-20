@@ -8,12 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ae8696730297f01f",
+            "id": "aca40d153699c2d4",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf"
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4.컴퓨터 명령어.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "554de11c8b78d6d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae8696730297f01f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -83,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf"
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md"
               }
             }
           }
@@ -149,6 +168,15 @@
   },
   "active": "ae8696730297f01f",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4.컴퓨터 명령어.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
+    "Pasted image 20240520105521.png",
+    "Pasted image 20240520105451.png",
+    "Pasted image 20240520105354.png",
+    "Pasted image 20240520104202.png",
+    "Pasted image 20240520104141.png",
+    "Pasted image 20240520104013.png",
+    "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf",
     "obsidian/ComputerScience/확률과 통계/17.Continous_joint_probability-2/17_continous_joint_probability_iI.pdf",
     "Excalidraw/Drawing 2024-05-20 09.18.10.excalidraw.md",
     "Excalidraw",
@@ -158,9 +186,6 @@
     "obsidian/ComputerScience/확률과 통계/22.map",
     "obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
     "obsidian/ComputerScience/확률과 통계/20.mle",
-    "obsidian/ComputerScience/확률과 통계/새 폴더",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4.컴퓨터 명령어.pdf",
     "Pasted image 20240519142811.png",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
@@ -172,12 +197,6 @@
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/애플 M4 CPU/애플 M4 CPU.md",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
     "image/Pasted image 20240516150832.png",
-    "image/Pasted image 20240516150804.png",
-    "image/Pasted image 20240516150739.png",
-    "image/Pasted image 20240516150732.png",
-    "image/Pasted image 20240516150715.png",
-    "image/Pasted image 20240516150425.png",
-    "image/Pasted image 20240516150401.png",
     "obsidian/ComputerScience/데이터 구조/AVL.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
