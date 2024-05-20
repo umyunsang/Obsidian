@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.pdf",
+                "file": "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.pdf",
+                "file": "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.pdf"
+                "file": "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf"
               }
             }
           }
@@ -149,26 +149,27 @@
   },
   "active": "ae8696730297f01f",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/확률과 통계/17.Continous_joint_probability-2/17_continous_joint_probability_iI.pdf",
+    "Excalidraw/Drawing 2024-05-20 09.18.10.excalidraw.md",
+    "Excalidraw",
+    "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/16_continous_joint_probability_i.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.pdf",
+    "obsidian/ComputerScience/확률과 통계/22.map/22_map.pdf",
+    "obsidian/ComputerScience/확률과 통계/22.map",
+    "obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
+    "obsidian/ComputerScience/확률과 통계/20.mle",
+    "obsidian/ComputerScience/확률과 통계/새 폴더",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4.컴퓨터 명령어.pdf",
     "Pasted image 20240519142811.png",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
-    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.pdf",
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
-    "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/2장_확인문제.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/1장_확인문제.pdf",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
-    "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/3장_확인문제.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경.pdf",
     "Pasted image 20240519140040.png",
     "Pasted image 20240519135522.png",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/3. 레지스터.md",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/3.레지스터.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/애플 M4 CPU/애플 M4 CPU.md",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/애플 M4 CPU/1705817.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/애플 M4 CPU",
-    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
     "image/Pasted image 20240516150832.png",
     "image/Pasted image 20240516150804.png",
@@ -193,7 +194,6 @@
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Dropout.md",
-    "obsidian/ComputerScience/인공지능/중간시험/인공지능_중간고사_엄윤상_1705817.md",
     "무제 파일.canvas"
   ]
 }
