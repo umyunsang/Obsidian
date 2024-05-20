@@ -4,32 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "3ec0b8dca8c7f1b1",
+        "id": "0186311d740f722a",
         "type": "tabs",
         "children": [
           {
-            "id": "c42fb1a4e394de06",
+            "id": "7d16cb3d65aee937",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/5.주소 지정 방식.pdf"
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/6.CISC와 RISC.pdf"
               }
             }
           }
         ]
       },
       {
-        "id": "0186311d740f722a",
+        "id": "d9fea06cd84b50b2",
         "type": "tabs",
         "children": [
           {
-            "id": "88c625b2c20d00ad",
+            "id": "c42fb1a4e394de06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/5. 주소 지정 방식.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/6. CISC와 RISC.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/5. 주소 지정 방식.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/6. CISC와 RISC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/5. 주소 지정 방식.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/6. CISC와 RISC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/5. 주소 지정 방식.md"
+                "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/6. CISC와 RISC.md"
               }
             }
           }
@@ -166,11 +166,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "88c625b2c20d00ad",
+  "active": "c42fb1a4e394de06",
   "lastOpenFiles": [
-    "Pasted image 20240520174257.png",
-    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/5.주소 지정 방식.pdf",
+    "Pasted image 20240520175315.png",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/6.CISC와 RISC.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/6. CISC와 RISC.md",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/중앙 처리 장치.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/5. 주소 지정 방식.md",
+    "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/5.주소 지정 방식.pdf",
+    "Pasted image 20240520174257.png",
     "Pasted image 20240520173922.png",
     "Pasted image 20240520173752.png",
     "obsidian/ComputerScience/데이터 구조/트리 (TREE).md",
@@ -185,15 +189,12 @@
     "image/Pasted image 20240520124612.png",
     "image/Pasted image 20240520124413.png",
     "image/Pasted image 20240520124110.png",
-    "image/Pasted image 20240520123829.png",
     "obsidian/ComputerScience/Python(basic)/문제풀이_1_10.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4.컴퓨터 명령어.pdf",
     "obsidian/ComputerScience/Python(basic)/문제풀이_11_20.pdf",
     "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf",
-    "obsidian/ComputerScience/확률과 통계/17.Continous_joint_probability-2/17_continous_joint_probability_iI.pdf",
     "Excalidraw/Drawing 2024-05-20 09.18.10.excalidraw.md",
-    "Excalidraw",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
@@ -213,7 +214,6 @@
     "obsidian/ComputerScience/인공지능/4. Optimization/실습/Momentum.md",
     "obsidian/ComputerScience/인공지능/4. Optimization/실습/LearningRateControl.md",
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
-    "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
     "무제 파일.canvas"
   ]
 }
