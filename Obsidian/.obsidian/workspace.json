@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN 주요설계모듈(이론).pdf"
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL).pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN 주요설계모듈(이론).pdf",
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN 주요설계모듈(이론).pdf",
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN 주요설계모듈(이론).pdf"
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL).pdf"
               }
             }
           }
@@ -149,8 +149,10 @@
   },
   "active": "88c625b2c20d00ad",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf",
+    "obsidian/ComputerScience/데이터 구조/트리 (TREE).md",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL).pdf",
     "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN 주요설계모듈(이론).pdf",
+    "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf",
     "image/Pasted image 20240520125808.png",
     "image/Pasted image 20240520125545.png",
     "image/Pasted image 20240520125222.png",
@@ -171,7 +173,6 @@
     "obsidian/ComputerScience/확률과 통계/17.Continous_joint_probability-2/17_continous_joint_probability_iI.pdf",
     "Excalidraw/Drawing 2024-05-20 09.18.10.excalidraw.md",
     "Excalidraw",
-    "obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/16_continous_joint_probability_i.pdf",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
@@ -183,7 +184,6 @@
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/2. 산술 논리 연산 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/1.프로세스 구성과 동작.md",
     "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10.md",
-    "obsidian/ComputerScience/데이터 구조/트리 (TREE).md",
     "obsidian/ComputerScience/Python(basic)/6. 함수.md",
     "obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/무제 파일.md",
