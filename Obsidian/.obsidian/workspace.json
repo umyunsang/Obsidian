@@ -13,18 +13,29 @@
             "state": {
               "type": "pdf",
               "state": {
+                "file": "obsidian/ComputerScience/Python(basic)/문제풀이_1_10.pdf"
+              }
+            }
+          },
+          {
+            "id": "f20438a146bbea37",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
                 "file": "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4.컴퓨터 명령어.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
-        "id": "554de11c8b78d6d2",
+        "id": "3ec0b8dca8c7f1b1",
         "type": "tabs",
         "children": [
           {
-            "id": "ae8696730297f01f",
+            "id": "b7fbe847e61469ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,6 +44,14 @@
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "88c625b2c20d00ad",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -166,20 +185,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ae8696730297f01f",
+  "active": "b7fbe847e61469ff",
   "lastOpenFiles": [
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4.컴퓨터 명령어.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3.중앙 처리 장치/4. 컴퓨터 명령어.md",
-    "Pasted image 20240520112930.png",
-    "Pasted image 20240520111350.png",
-    "Pasted image 20240520111036.png",
-    "Pasted image 20240520110929.png",
-    "Pasted image 20240520110643.png",
-    "Pasted image 20240520110511.png",
-    "Pasted image 20240520105521.png",
-    "Pasted image 20240520105451.png",
-    "Pasted image 20240520105354.png",
-    "Pasted image 20240520104202.png",
+    "Pasted image 20240520123030.png",
+    "Pasted image 20240520122533.png",
+    "Pasted image 20240520122450.png",
+    "obsidian/ComputerScience/Python(basic)/문제풀이_1_10.pdf",
+    "obsidian/ComputerScience/Python(basic)/문제풀이_11_20.pdf",
+    "image/Pasted image 20240520111350.png",
+    "image/Pasted image 20240520111036.png",
+    "image/Pasted image 20240520110929.png",
+    "image/Pasted image 20240520112930.png",
+    "image/Pasted image 20240520110643.png",
+    "image/Pasted image 20240520110511.png",
+    "image/Pasted image 20240520105521.png",
     "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf",
     "obsidian/ComputerScience/확률과 통계/17.Continous_joint_probability-2/17_continous_joint_probability_iI.pdf",
     "Excalidraw/Drawing 2024-05-20 09.18.10.excalidraw.md",
@@ -188,8 +209,6 @@
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.pdf",
     "obsidian/ComputerScience/확률과 통계/22.map/22_map.pdf",
     "obsidian/ComputerScience/확률과 통계/22.map",
-    "obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
-    "obsidian/ComputerScience/확률과 통계/20.mle",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
