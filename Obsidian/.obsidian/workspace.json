@@ -13,42 +13,11 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf"
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/12주차(정렬).pdf"
               }
             }
           }
         ]
-      },
-      {
-        "id": "96a483eeb8dcbf5d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7d16cb3d65aee937",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/2. 제어 장치의 종류.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba7b974c45bb82cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -115,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/12주차(정렬).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/12주차(정렬).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md"
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/12주차(정렬).pdf"
               }
             }
           }
@@ -179,9 +147,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ba7b974c45bb82cf",
+  "active": "3c5b6ef7162c8589",
   "lastOpenFiles": [
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/12주차(정렬).pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
     "image/Pasted image 20240520173752.png",
     "image/Pasted image 20240520192341.png",
     "image/Pasted image 20240520200647.png",
@@ -192,7 +162,6 @@
     "image/Pasted image 20240520194358.png",
     "image/Pasted image 20240520194237.png",
     "image/Pasted image 20240520193257.png",
-    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/컴퓨터구조_5장_김현석.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
