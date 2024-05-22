@@ -11,11 +11,9 @@
             "id": "3c5b6ef7162c8589",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/14_conditional_expectation.pdf"
               }
             }
           }
@@ -69,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -86,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
+                "file": "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/14_conditional_expectation.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
+                "file": "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/14_conditional_expectation.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md"
+                "file": "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/14_conditional_expectation.pdf"
               }
             }
           }
@@ -152,19 +149,22 @@
   },
   "active": "3c5b6ef7162c8589",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/Conditional Expectation.md",
+    "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/14_conditional_expectation.pdf",
+    "obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
+    "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf",
+    "obsidian/ComputerScience/확률과 통계/17.Continous_joint_probability-2/17_continous_joint_probability_iI.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재3번까지.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/4장_확인문제.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/4장_확인문제.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
-    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재3번까지.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN (실습).pdf",
     "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf",
     "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN 주요설계모듈(이론).pdf",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/12주차(정렬).pdf",
-    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
     "image/Pasted image 20240520173752.png",
     "image/Pasted image 20240520192341.png",
@@ -177,13 +177,11 @@
     "image/Pasted image 20240520194237.png",
     "image/Pasted image 20240520193257.png",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
-    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/컴퓨터구조_5장_김현석.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/2. 제어 장치의 종류.md",
     "무제 파일.md",
-    "obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/중앙 처리 장치.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md",
     "obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/6. CISC와 RISC.md",
     "obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/애플 M4 CPU/애플 M4 CPU.md",
@@ -196,7 +194,6 @@
     "Excalidraw/Drawing 2024-05-20 09.18.10.excalidraw.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
     "obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
-    "obsidian/ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10.md",
     "무제 파일.canvas"
   ]
 }
