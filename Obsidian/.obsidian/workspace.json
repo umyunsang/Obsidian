@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/20.mle/Maximum Likelihood Estimation.md",
+                "file": "obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
+                "file": "obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
+                "file": "obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/20.mle/MLE.md"
+                "file": "obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md"
               }
             }
           }
@@ -162,13 +162,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fbb95d624c9f8987",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/확률과 통계/20.mle/Maximum Likelihood Estimation.md",
+    "obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md",
     "obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
+    "obsidian/ComputerScience/확률과 통계/20.mle/Maximum Likelihood Estimation.md",
     "obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
     "obsidian/index.md",
-    "obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md",
     "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/14_conditional_expectation.pdf",
     "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/Conditional Expectation.md",
     "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf",
