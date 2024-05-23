@@ -4,22 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "d6c550ad2323a689",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "fbb95d624c9f8987",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/12-2주차_con't(정렬).pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "9e55f62df0539400",
         "type": "tabs",
         "children": [
@@ -29,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/정렬.md",
+                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/정렬.md",
+                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/정렬.md",
+                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/정렬.md"
+                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md"
               }
             }
           }
@@ -165,8 +149,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d2010943ea161590",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
+    "obsidian/ComputerScience/데이터 구조/4. 트리",
+    "obsidian/ComputerScience/데이터 구조/3. 큐",
+    "obsidian/ComputerScience/데이터 구조/5. 정렬",
+    "obsidian/ComputerScience/데이터 구조/2. 스택",
+    "obsidian/ComputerScience/데이터 구조/1. 리스트",
+    "obsidian/ComputerScience/데이터 구조/4. 트리/AVL.md",
+    "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
     "image/Pasted image 20240523160246.png",
     "image/Pasted image 20240523160228.png",
     "image/Pasted image 20240523160149.png",
@@ -177,11 +169,8 @@
     "image/Pasted image 20240523160304.png",
     "image/Pasted image 20240523155847.png",
     "image/Pasted image 20240523155738.png",
-    "image/Pasted image 20240523154212.png",
     "obsidian/ComputerScience/데이터 구조/수업pdf/12-2주차_con't(정렬).pdf",
-    "obsidian/ComputerScience/데이터 구조/정렬.md",
     "obsidian/ComputerScience/데이터 구조/수업pdf/12-1주차(정렬).pdf",
-    "obsidian/ComputerScience/데이터 구조/AVL.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
@@ -197,12 +186,7 @@
     "obsidian/ComputerScience/확률과 통계/20.mle/Maximum Likelihood Estimation.md",
     "obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
     "obsidian/index.md",
-    "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/14_conditional_expectation.pdf",
     "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/Conditional Expectation.md",
-    "obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf",
-    "obsidian/ComputerScience/확률과 통계/17.Continous_joint_probability-2/17_continous_joint_probability_iI.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재3번까지.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/4장_확인문제.pdf",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
