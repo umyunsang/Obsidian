@@ -2,15 +2,6 @@
 
 Welcome to my **Obsidian Notes Repository**! This repository serves as a comprehensive collection of my personal notes, insights, and organized knowledge from various courses and subjects I am studying. Using the powerful and flexible note-taking app Obsidian, I have meticulously documented and structured my learning journey to facilitate easy reference and continuous learning.
 
-## 🗂️ Table of Contents
-
-- [Introduction](#introduction)
-- [Organization](#organization)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## 📚 Introduction
 
 This repository is dedicated to documenting my academic journey and self-learning endeavors. By leveraging Obsidian, a markdown-based note-taking app, I can efficiently organize, link, and access my notes. This repository not only helps me keep track of what I have learned but also serves as a resource for others who are interested in the same topics.
