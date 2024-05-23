@@ -13,10 +13,16 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/12-1주차(정렬).pdf"
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/12-2주차_con't(정렬).pdf"
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "9e55f62df0539400",
+        "type": "tabs",
+        "children": [
           {
             "id": "d2010943ea161590",
             "type": "leaf",
@@ -29,8 +35,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -163,18 +167,21 @@
   },
   "active": "d2010943ea161590",
   "lastOpenFiles": [
-    "Pasted image 20240523154212.png",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/12-1주차(정렬).pdf",
-    "obsidian/ComputerScience/데이터 구조/정렬.md",
+    "image/Pasted image 20240523160246.png",
+    "image/Pasted image 20240523160228.png",
+    "image/Pasted image 20240523160149.png",
+    "image/Pasted image 20240523160133.png",
+    "image/Pasted image 20240523160114.png",
+    "image/Pasted image 20240523160054.png",
+    "image/Pasted image 20240523155952.png",
+    "image/Pasted image 20240523160304.png",
+    "image/Pasted image 20240523155847.png",
+    "image/Pasted image 20240523155738.png",
+    "image/Pasted image 20240523154212.png",
     "obsidian/ComputerScience/데이터 구조/수업pdf/12-2주차_con't(정렬).pdf",
+    "obsidian/ComputerScience/데이터 구조/정렬.md",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/12-1주차(정렬).pdf",
     "obsidian/ComputerScience/데이터 구조/AVL.md",
-    "Pasted image 20240523153946.png",
-    "Pasted image 20240523153919.png",
-    "Pasted image 20240523153615.png",
-    "Pasted image 20240523153553.png",
-    "Pasted image 20240523153255.png",
-    "Pasted image 20240523153237.png",
-    "Pasted image 20240523152750.png",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
@@ -185,7 +192,6 @@
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/2. 제어 장치의 종류.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
-    "Pasted image 20240523120259.png",
     "obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md",
     "obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
     "obsidian/ComputerScience/확률과 통계/20.mle/Maximum Likelihood Estimation.md",
@@ -202,8 +208,6 @@
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
-    "image/Pasted image 20240520173752.png",
-    "image/Pasted image 20240520192341.png",
     "무제 파일.md",
     "obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md",
     "obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/6. CISC와 RISC.md",
