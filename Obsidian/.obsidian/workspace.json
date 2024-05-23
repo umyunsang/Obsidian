@@ -4,22 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "0186311d740f722a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "46768c72fb2491ff",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "d6c550ad2323a689",
         "type": "tabs",
         "children": [
@@ -27,15 +11,26 @@
             "id": "fbb95d624c9f8987",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "obsidian/ComputerScience/데이터 구조/수업pdf/12-1주차(정렬).pdf"
+              }
+            }
+          },
+          {
+            "id": "d2010943ea161590",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
+                "file": "obsidian/ComputerScience/데이터 구조/정렬.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -101,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
+                "file": "obsidian/ComputerScience/데이터 구조/정렬.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
+                "file": "obsidian/ComputerScience/데이터 구조/정렬.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md"
+                "file": "obsidian/ComputerScience/데이터 구조/정렬.md"
               }
             }
           }
@@ -165,10 +161,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fbb95d624c9f8987",
+  "active": "d2010943ea161590",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
+    "Pasted image 20240523154212.png",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/12-1주차(정렬).pdf",
+    "obsidian/ComputerScience/데이터 구조/정렬.md",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/12-2주차_con't(정렬).pdf",
+    "obsidian/ComputerScience/데이터 구조/AVL.md",
+    "Pasted image 20240523153946.png",
+    "Pasted image 20240523153919.png",
+    "Pasted image 20240523153615.png",
+    "Pasted image 20240523153553.png",
+    "Pasted image 20240523153255.png",
+    "Pasted image 20240523153237.png",
+    "Pasted image 20240523152750.png",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
+    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
@@ -189,29 +197,18 @@
     "obsidian/ComputerScience/확률과 통계/17.Continous_joint_probability-2/17_continous_joint_probability_iI.pdf",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재3번까지.pdf",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/4장_확인문제.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
     "obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
-    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN (실습).pdf",
     "image/Pasted image 20240520173752.png",
     "image/Pasted image 20240520192341.png",
-    "image/Pasted image 20240520200647.png",
-    "image/Pasted image 20240520200228.png",
-    "image/Pasted image 20240520195649.png",
-    "image/Pasted image 20240520195647.png",
-    "image/Pasted image 20240520194414.png",
-    "image/Pasted image 20240520194358.png",
-    "image/Pasted image 20240520194237.png",
     "무제 파일.md",
     "obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md",
     "obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/6. CISC와 RISC.md",
     "obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/애플 M4 CPU/애플 M4 CPU.md",
     "obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
-    "obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/5. 주소 지정 방식.md",
-    "obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
     "무제 파일.canvas"
   ]
 }
