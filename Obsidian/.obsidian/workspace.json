@@ -148,11 +148,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4824d7b5ee6b90fb",
+  "active": "d2010943ea161590",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
+    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재10번까지.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/MYSQL.md",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/4장_확인문제.pdf",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재3번까지.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재10번까지.pdf",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
     "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이 10~20.md",
     "image/Pasted image 20240523165536.png",
@@ -174,7 +176,6 @@
     "obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
     "obsidian/ComputerScience/데이터 구조/4. 트리",
     "obsidian/ComputerScience/데이터 구조/3. 큐",
-    "obsidian/ComputerScience/데이터 구조/5. 정렬",
     "obsidian/ComputerScience/데이터 구조/4. 트리/AVL.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
@@ -194,8 +195,6 @@
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/확인문제.md",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
-    "무제 파일.md",
-    "obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md",
     "무제 파일.canvas"
   ]
 }
