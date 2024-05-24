@@ -11,11 +11,9 @@
             "id": "d2010943ea161590",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이 10~20.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재10번까지.pdf"
               }
             }
           }
@@ -86,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이 10~20.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재10번까지.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이 10~20.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재10번까지.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이 10~20.md"
+                "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재10번까지.pdf"
               }
             }
           }
@@ -152,6 +150,11 @@
   },
   "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/4장_확인문제.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재3번까지.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재10번까지.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
+    "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이 10~20.md",
     "image/Pasted image 20240523165536.png",
     "image/Pasted image 20240523165513.png",
     "image/Pasted image 20240523165452.png",
@@ -162,9 +165,7 @@
     "image/Pasted image 20240523165301.png",
     "image/Pasted image 20240523165241.png",
     "image/Pasted image 20240523165605.png",
-    "image/Pasted image 20240523165210.png",
     "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이 1~10.md",
-    "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이 10~20.md",
     "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이_11_20.pdf",
     "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이_1_10.pdf",
     "obsidian/ComputerScience/Python(basic)/문제풀이/무제 폴더",
@@ -174,10 +175,7 @@
     "obsidian/ComputerScience/데이터 구조/4. 트리",
     "obsidian/ComputerScience/데이터 구조/3. 큐",
     "obsidian/ComputerScience/데이터 구조/5. 정렬",
-    "obsidian/ComputerScience/데이터 구조/2. 스택",
-    "obsidian/ComputerScience/데이터 구조/1. 리스트",
     "obsidian/ComputerScience/데이터 구조/4. 트리/AVL.md",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/12-2주차_con't(정렬).pdf",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
