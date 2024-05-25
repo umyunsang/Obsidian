@@ -4,35 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "16b3b29dec79d190",
+        "id": "1b08ba55c24eea34",
         "type": "tabs",
         "children": [
           {
-            "id": "d2010943ea161590",
+            "id": "7e9297c60bac89a0",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "73e0f750442ce6fe",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b9ba2e97b063a27f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -102,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -166,11 +141,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b9ba2e97b063a27f",
+  "active": "7e9297c60bac89a0",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
     "Pasted image 20240525161748.png",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
     "Pasted image 20240525161644.png",
     "Pasted image 20240525160436.png",
     "Pasted image 20240525160345.png",
@@ -180,7 +155,6 @@
     "Pasted image 20240525160001.png",
     "Pasted image 20240525155948.png",
     "Pasted image 20240525155914.png",
-    "Pasted image 20240525155736.png",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-3.md",
