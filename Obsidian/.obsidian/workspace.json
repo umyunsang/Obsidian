@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md"
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md"
               }
             }
           }
@@ -168,20 +168,20 @@
   },
   "active": "b9ba2e97b063a27f",
   "lastOpenFiles": [
+    "Pasted image 20240525121824.png",
+    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
+    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
+    "Pasted image 20240525121125.png",
+    "Pasted image 20240525120939.png",
+    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
+    "Pasted image 20240525115710.png",
+    "Pasted image 20240525115549.png",
+    "Pasted image 20240525115505.png",
     "Pasted image 20240525115122.png",
     "Pasted image 20240525114922.png",
     "Pasted image 20240525114706.png",
     "Pasted image 20240525114531.png",
     "Pasted image 20240525114148.png",
-    "Pasted image 20240525114054.png",
-    "Pasted image 20240525113934.png",
-    "Pasted image 20240525113733.png",
-    "Pasted image 20240525113651.png",
-    "Pasted image 20240525112222.png",
-    "Pasted image 20240525112214.png",
-    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
-    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
-    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-3.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-1.md",
