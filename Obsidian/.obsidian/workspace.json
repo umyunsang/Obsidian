@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md"
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md"
               }
             }
           }
@@ -150,10 +150,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4824d7b5ee6b90fb",
+  "active": "7e9297c60bac89a0",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
+    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
+    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
     "Pasted image 20240525161748.png",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
