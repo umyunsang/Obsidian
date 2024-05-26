@@ -11,8 +11,12 @@
             "id": "7e9297c60bac89a0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md"
+              }
             }
           }
         ],
@@ -141,8 +150,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7e9297c60bac89a0",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
+    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
     "Pasted image 20240525161748.png",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
@@ -179,8 +190,6 @@
     "obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
     "obsidian/ComputerScience/데이터 구조/4. 트리/AVL.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
-    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
-    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/2. 제어 장치의 종류.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
     "obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md",
