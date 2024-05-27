@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "1b08ba55c24eea34",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9d69477fb5ae5dc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "2f94342f2636f547",
         "type": "tabs",
         "children": [
@@ -31,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
+                "file": "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -103,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
+                "file": "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
+                "file": "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md"
+                "file": "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md"
               }
             }
           }
@@ -167,11 +150,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9d69477fb5ae5dc9",
+  "active": "7e9297c60bac89a0",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
+    "obsidian/ComputerScience/Python(basic)/3. 반복문.md",
+    "obsidian/ComputerScience/Python(basic)/4. 조건문.md",
+    "obsidian/ComputerScience/Python(basic)/5. 리스트, 튜플, 딕셔너리.md",
+    "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
+    "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이 10~20.md",
     "obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
+    "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이_11_20.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
+    "obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
@@ -201,9 +190,7 @@
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/4장_확인문제.pdf",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재3번까지.pdf",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
-    "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이 10~20.md",
     "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이 1~10.md",
-    "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이_11_20.pdf",
     "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이_1_10.pdf",
     "obsidian/ComputerScience/Python(basic)/문제풀이/무제 폴더",
     "obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
@@ -211,9 +198,6 @@
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/2. 제어 장치의 종류.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
-    "obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md",
-    "obsidian/ComputerScience/확률과 통계/20.mle/Maximum Likelihood Estimation.md",
-    "obsidian/index.md",
     "무제 파일.canvas"
   ]
 }
