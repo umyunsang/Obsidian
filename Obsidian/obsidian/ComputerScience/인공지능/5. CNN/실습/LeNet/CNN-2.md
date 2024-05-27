@@ -3,6 +3,8 @@
 ` 1. Pooling layer 변경: Average pooling -> Max pooling
 ` 2. Convolutional layer channel 개수 변경: 6 -> 32, 64`
 
+![[Pasted image 20240527185047.png]]
+
 ```python
 
 # CNN 모델 정의  

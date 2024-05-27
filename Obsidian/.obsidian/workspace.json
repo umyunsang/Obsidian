@@ -11,9 +11,11 @@
             "id": "7e9297c60bac89a0",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN 주요설계모듈(실습).pdf"
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN-3.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -46,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Maxpool",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN 주요설계모듈(실습).pdf",
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN-3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN 주요설계모듈(실습).pdf",
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN-3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN 주요설계모듈(실습).pdf"
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN-3.md"
               }
             }
           }
@@ -150,11 +151,26 @@
   },
   "active": "7e9297c60bac89a0",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-1.md",
-    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN (실습).pdf",
-    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-3.md",
-    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-2.md",
-    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN 주요설계모듈(실습).pdf",
+    "Pasted image 20240527185141.png",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN-2.md",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN (실습).pdf",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN-1.md",
+    "Pasted image 20240527185047.png",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/시험 예상 문제.md",
+    "Pasted image 20240527184404.png",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGDense.md",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md",
+    "Pasted image 20240527182733.png",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/CNN 주요설계모듈(실습).pdf",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet",
+    "Pasted image 20240527182119.png",
+    "Pasted image 20240527181924.png",
+    "Pasted image 20240527181542.png",
+    "Pasted image 20240527181027.png",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN-3.md",
     "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
     "obsidian/ComputerScience/Python(basic)/3. 반복문.md",
     "obsidian/ComputerScience/Python(basic)/4. 조건문.md",
@@ -171,13 +187,6 @@
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/컴퓨터구조_6장_김현석.pdf",
     "Pasted image 20240525161644.png",
     "Pasted image 20240525160436.png",
-    "Pasted image 20240525160345.png",
-    "Pasted image 20240525160206.png",
-    "Pasted image 20240525160143.png",
-    "Pasted image 20240525160115.png",
-    "Pasted image 20240525160001.png",
-    "Pasted image 20240525155948.png",
-    "Pasted image 20240525155914.png",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
     "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
@@ -188,13 +197,6 @@
     "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/MYSQL.md",
     "obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/4장_확인문제.pdf",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재3번까지.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
-    "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이 1~10.md",
-    "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이_1_10.pdf",
-    "obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
-    "obsidian/ComputerScience/데이터 구조/4. 트리/AVL.md",
-    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
-    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/2. 제어 장치의 종류.md",
     "무제 파일.canvas"
   ]
 }

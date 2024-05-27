@@ -5,8 +5,9 @@
 ` • 75 ~ 149 epoch: 0.0005`  
 ` • 150 ~ 200 epoch: 0.00025`
 
+![[Pasted image 20240527185141.png]]
+
 ```python
-  
 # CNN 모델 정의  
 class CNN(nn.Module):  
     def __init__(self):  

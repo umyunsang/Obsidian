@@ -1,7 +1,10 @@
 
 ---
+![[Pasted image 20240527184404.png]]
+
+#### LeNet-5 모델구조
+
 ```python
-  
 # CNN 모델 정의  
 class CNN(nn.Module):  
     def __init__(self):  
