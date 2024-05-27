@@ -11,11 +11,9 @@
             "id": "7e9297c60bac89a0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-1.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN 주요설계모듈(실습).pdf"
               }
             }
           }
@@ -69,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-1.md",
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN 주요설계모듈(실습).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-1.md",
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN 주요설계모듈(실습).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-1.md"
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN 주요설계모듈(실습).pdf"
               }
             }
           }
@@ -151,11 +150,11 @@
   },
   "active": "7e9297c60bac89a0",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-1.md",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN (실습).pdf",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-3.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-2.md",
-    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-1.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN 주요설계모듈(실습).pdf",
-    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN (실습).pdf",
     "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
     "obsidian/ComputerScience/Python(basic)/3. 반복문.md",
     "obsidian/ComputerScience/Python(basic)/4. 조건문.md",
