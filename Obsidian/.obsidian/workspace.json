@@ -8,12 +8,28 @@
         "type": "tabs",
         "children": [
           {
+            "id": "9d69477fb5ae5dc9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "2f94342f2636f547",
+        "type": "tabs",
+        "children": [
+          {
             "id": "7e9297c60bac89a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
+                "file": "obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
+                "file": "obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
+                "file": "obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md"
+                "file": "obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf"
               }
             }
           }
@@ -150,10 +166,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7e9297c60bac89a0",
+  "active": "9d69477fb5ae5dc9",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
+    "obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
+    "obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
+    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
     "Pasted image 20240525161748.png",
@@ -187,17 +205,14 @@
     "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이_11_20.pdf",
     "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이_1_10.pdf",
     "obsidian/ComputerScience/Python(basic)/문제풀이/무제 폴더",
-    "obsidian/ComputerScience/Python(basic)/문제풀이",
     "obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
     "obsidian/ComputerScience/데이터 구조/4. 트리/AVL.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/2. 제어 장치의 종류.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
     "obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md",
-    "obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
     "obsidian/ComputerScience/확률과 통계/20.mle/Maximum Likelihood Estimation.md",
     "obsidian/index.md",
-    "obsidian/ComputerScience/확률과 통계/14.Conditional_expectation/Conditional Expectation.md",
     "무제 파일.canvas"
   ]
 }
