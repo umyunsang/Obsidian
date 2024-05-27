@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md"
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-1.md"
               }
             }
           }
@@ -152,10 +151,15 @@
   },
   "active": "7e9297c60bac89a0",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-3.md",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-2.md",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-1.md",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN 주요설계모듈(실습).pdf",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN (실습).pdf",
+    "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
     "obsidian/ComputerScience/Python(basic)/3. 반복문.md",
     "obsidian/ComputerScience/Python(basic)/4. 조건문.md",
     "obsidian/ComputerScience/Python(basic)/5. 리스트, 튜플, 딕셔너리.md",
-    "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
     "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이 10~20.md",
     "obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
     "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이_11_20.pdf",
@@ -177,10 +181,6 @@
     "Pasted image 20240525155914.png",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
-    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-3.md",
-    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-1.md",
-    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN-2.md",
-    "obsidian/ComputerScience/인공지능/5. CNN/실습/CNN (실습).pdf",
     "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
@@ -192,12 +192,10 @@
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
     "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이 1~10.md",
     "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이_1_10.pdf",
-    "obsidian/ComputerScience/Python(basic)/문제풀이/무제 폴더",
     "obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
     "obsidian/ComputerScience/데이터 구조/4. 트리/AVL.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/2. 제어 장치의 종류.md",
-    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
     "무제 파일.canvas"
   ]
 }
