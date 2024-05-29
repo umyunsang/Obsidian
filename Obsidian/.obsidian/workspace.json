@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -166,23 +165,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7af3196d799ec51e",
+  "active": "4824d7b5ee6b90fb",
   "lastOpenFiles": [
-    "Pasted image 20240529161415.png",
-    "Pasted image 20240529161140.png",
-    "Pasted image 20240529161045.png",
-    "Pasted image 20240529160946.png",
-    "Pasted image 20240529160830.png",
-    "Pasted image 20240529160524.png",
+    "image/Pasted image 20240529161140.png",
+    "image/Pasted image 20240529161045.png",
+    "image/Pasted image 20240529160946.png",
+    "image/Pasted image 20240529161415.png",
+    "image/Pasted image 20240529160830.png",
+    "image/Pasted image 20240529160524.png",
+    "image/Pasted image 20240529131722.png",
+    "image/Pasted image 20240529130531.png",
+    "image/Pasted image 20240529130036.png",
+    "image/Pasted image 20240529125604.png",
+    "image/Pasted image 20240529125220.png",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제.pdf",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재10번까지.pdf",
-    "Pasted image 20240529131722.png",
-    "Pasted image 20240529130531.png",
-    "Pasted image 20240529130036.png",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/시험 예상 문제.md",
-    "Pasted image 20240529125604.png",
-    "Pasted image 20240529125220.png",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/CNN 주요설계모듈(실습).pdf",
