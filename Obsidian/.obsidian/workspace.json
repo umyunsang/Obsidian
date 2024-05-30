@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "f2315159fba7dbca",
+        "id": "5ae9a7762fd94f9f",
         "type": "tabs",
         "children": [
           {
@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
+                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
+                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
+                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md"
+                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md"
               }
             }
           }
@@ -152,21 +152,24 @@
   },
   "active": "7e9297c60bac89a0",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/기억 장치.pdf",
+    "image/Pasted image 20240530150251.png",
+    "image/Pasted image 20240530150230.png",
+    "image/Pasted image 20240530150213.png",
+    "image/Pasted image 20240530150038.png",
+    "image/Pasted image 20240530150323.png",
+    "obsidian/ComputerScience/데이터 구조/수업pdf/13주차(기수정렬).pdf",
+    "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
+    "Pasted image 20240530150323.png",
+    "Pasted image 20240530150251.png",
+    "Pasted image 20240530150230.png",
+    "Pasted image 20240530150213.png",
+    "Pasted image 20240530150038.png",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
+    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/기억 장치.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
     "image/Pasted image 20240530113350.png",
-    "image/Pasted image 20240530113212.png",
-    "image/Pasted image 20240530113029.png",
-    "image/Pasted image 20240530112940.png",
-    "image/Pasted image 20240530113435.png",
-    "image/Pasted image 20240530114656.png",
-    "image/Pasted image 20240530114653.png",
-    "image/Pasted image 20240530114545.png",
-    "image/Pasted image 20240530114201.png",
-    "image/Pasted image 20240530113650.png",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제.pdf",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재10번까지.pdf",
@@ -191,10 +194,8 @@
     "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이 10~20.md",
     "obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
     "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이_11_20.pdf",
-    "obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
-    "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
     "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/데이터베이스.md",
     "무제 파일.canvas"
