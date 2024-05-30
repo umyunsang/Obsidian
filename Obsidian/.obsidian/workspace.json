@@ -4,22 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "12f376c019e4ace6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c633f1518cc171ad",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/기억 장치.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "f2315159fba7dbca",
         "type": "tabs",
         "children": [
