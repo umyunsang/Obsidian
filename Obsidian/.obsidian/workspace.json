@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
+                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
+                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
+                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md"
+                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md"
               }
             }
           }
@@ -152,8 +152,8 @@
   },
   "active": "7e9297c60bac89a0",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf",
     "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
+    "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제.pdf",
     "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/MYSQL.md",
     "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/7장_확인문제_현재1번까지.pdf",
