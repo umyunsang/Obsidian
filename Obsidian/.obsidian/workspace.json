@@ -11,11 +11,9 @@
             "id": "7e9297c60bac89a0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf"
               }
             }
           }
@@ -86,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md"
+                "file": "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf"
               }
             }
           }
@@ -152,13 +150,21 @@
   },
   "active": "7e9297c60bac89a0",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/MYSQL.md",
+    "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/7장_확인문제_현재1번까지.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작",
+    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
+    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
+    "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
     "image/Pasted image 20240530150251.png",
     "image/Pasted image 20240530150230.png",
     "image/Pasted image 20240530150213.png",
     "image/Pasted image 20240530150038.png",
     "image/Pasted image 20240530150323.png",
     "obsidian/ComputerScience/데이터 구조/수업pdf/13주차(기수정렬).pdf",
-    "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
     "Pasted image 20240530150323.png",
     "Pasted image 20240530150251.png",
     "Pasted image 20240530150230.png",
@@ -169,13 +175,8 @@
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
-    "image/Pasted image 20240530113350.png",
-    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재10번까지.pdf",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/시험 예상 문제.md",
-    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
-    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/CNN 주요설계모듈(실습).pdf",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN-2.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
@@ -185,15 +186,12 @@
     "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN (실습).pdf",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN-1.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md",
-    "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet",
-    "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet",
     "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
     "obsidian/ComputerScience/Python(basic)/3. 반복문.md",
     "obsidian/ComputerScience/Python(basic)/4. 조건문.md",
     "obsidian/ComputerScience/Python(basic)/5. 리스트, 튜플, 딕셔너리.md",
     "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이 10~20.md",
     "obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
-    "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이_11_20.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
     "obsidian/ComputerScience/웹프로그래밍/연습장.md",
