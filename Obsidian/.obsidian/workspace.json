@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "76563de3beb65ba2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9d21c3b5407bf71d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/1705817_엄윤상_데이터구조_4주차과제.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/1705817_엄윤상_데이터구조_4주차과제.md",
+                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/1705817_엄윤상_데이터구조_4주차과제.md",
+                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/1705817_엄윤상_데이터구조_4주차과제.md"
+                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md"
               }
             }
           }
@@ -168,10 +150,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9d21c3b5407bf71d",
+  "active": "7e9297c60bac89a0",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
     "obsidian/ComputerScience/데이터 구조/5. 정렬/1705817_엄윤상_데이터구조_4주차과제.md",
+    "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
     "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
     "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제.pdf",
