@@ -11,11 +11,9 @@
             "id": "7e9297c60bac89a0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/ComputerScience/확률과 통계/22.map/22_map.pdf"
               }
             }
           }
@@ -69,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -86,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
+                "file": "obsidian/ComputerScience/확률과 통계/22.map/22_map.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
+                "file": "obsidian/ComputerScience/확률과 통계/22.map/22_map.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md"
+                "file": "obsidian/ComputerScience/확률과 통계/22.map/22_map.pdf"
               }
             }
           }
@@ -152,8 +149,12 @@
   },
   "active": "7e9297c60bac89a0",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/데이터 구조/5. 정렬/1705817_엄윤상_데이터구조_4주차과제.md",
+    "obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.pdf",
+    "obsidian/ComputerScience/확률과 통계/22.map/22_map.pdf",
+    "obsidian/ComputerScience/확률과 통계/23. naive_bayes",
+    "obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
     "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
+    "obsidian/ComputerScience/데이터 구조/5. 정렬/1705817_엄윤상_데이터구조_4주차과제.md",
     "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
     "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제.pdf",
@@ -179,15 +180,12 @@
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
-    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제_현재10번까지.pdf",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/시험 예상 문제.md",
-    "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/CNN 주요설계모듈(실습).pdf",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN-2.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGDense.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN-3.md",
-    "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN (실습).pdf",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN-1.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md",
     "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
@@ -197,7 +195,6 @@
     "obsidian/ComputerScience/Python(basic)/문제풀이/문제풀이 10~20.md",
     "obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
     "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
-    "obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
     "무제 파일.canvas"
   ]
 }
