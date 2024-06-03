@@ -11,9 +11,11 @@
             "id": "7e9297c60bac89a0",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/22.map/22_map.pdf"
+                "file": "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -67,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/22.map/22_map.pdf",
+                "file": "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/22.map/22_map.pdf",
+                "file": "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/확률과 통계/22.map/22_map.pdf"
+                "file": "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md"
               }
             }
           }
@@ -149,8 +152,8 @@
   },
   "active": "7e9297c60bac89a0",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.pdf",
     "obsidian/ComputerScience/확률과 통계/22.map/22_map.pdf",
+    "obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.pdf",
     "obsidian/ComputerScience/확률과 통계/23. naive_bayes",
     "obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
     "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
