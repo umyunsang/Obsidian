@@ -11,11 +11,9 @@
             "id": "7e9297c60bac89a0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
-                "mode": "preview",
-                "source": false
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN Backpropagation(이론).pdf"
               }
             }
           }
@@ -86,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN Backpropagation(이론).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN Backpropagation(이론).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md"
+                "file": "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN Backpropagation(이론).pdf"
               }
             }
           }
@@ -152,34 +150,34 @@
   },
   "active": "7e9297c60bac89a0",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
+    "obsidian/ComputerScience/데이터 구조/예상 문제/2024년1학기데이터구조_기말고사_공지용.pdf",
+    "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN Backpropagation(이론).pdf",
+    "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN 주요설계모듈(이론).pdf",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGNet (실습).pdf",
+    "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/CNN 주요설계모듈(실습).pdf",
+    "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
     "obsidian/ComputerScience/확률과 통계/22.map/22_map.pdf",
     "obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.pdf",
     "obsidian/ComputerScience/확률과 통계/23. naive_bayes",
     "obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
-    "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
     "obsidian/ComputerScience/데이터 구조/5. 정렬/1705817_엄윤상_데이터구조_4주차과제.md",
     "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
-    "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/6장_확인문제.pdf",
     "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/MYSQL.md",
-    "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/7장_확인문제_현재1번까지.pdf",
-    "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
-    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
     "image/Pasted image 20240530150251.png",
     "image/Pasted image 20240530150230.png",
     "image/Pasted image 20240530150213.png",
     "image/Pasted image 20240530150038.png",
     "image/Pasted image 20240530150323.png",
-    "obsidian/ComputerScience/데이터 구조/수업pdf/13주차(기수정렬).pdf",
     "Pasted image 20240530150323.png",
     "Pasted image 20240530150251.png",
     "Pasted image 20240530150230.png",
     "Pasted image 20240530150213.png",
     "Pasted image 20240530150038.png",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
-    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/기억 장치.pdf",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
@@ -191,7 +189,6 @@
     "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN-3.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN-1.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md",
-    "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
     "obsidian/ComputerScience/Python(basic)/3. 반복문.md",
     "obsidian/ComputerScience/Python(basic)/4. 조건문.md",
     "obsidian/ComputerScience/Python(basic)/5. 리스트, 튜플, 딕셔너리.md",
