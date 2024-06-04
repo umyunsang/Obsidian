@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -149,13 +148,24 @@
   },
   "active": "eab6df2f422e9b63",
   "lastOpenFiles": [
+    "image/Pasted image 20240604134248.png",
+    "image/Pasted image 20240604143441.png",
+    "image/Pasted image 20240530150251.png",
+    "image/Pasted image 20240604123924.png",
+    "image/Pasted image 20240604123836.png",
+    "image/Pasted image 20240604123736.png",
+    "image/Pasted image 20240604123654.png",
+    "image/Pasted image 20240604123613.png",
+    "image/Pasted image 20240604123458.png",
+    "image/Pasted image 20240604123408.png",
+    "image/Pasted image 20240604123239.png",
+    "image",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet (실습).pdf",
+    "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/UMNet.md",
     "Obsidian/obsidian/ComputerScience/인공지능/기말시험/시험 예상 문제.md",
-    "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
-    "Pasted image 20240604134248.png",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/CNN (실습).pdf",

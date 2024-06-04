@@ -1,6 +1,6 @@
 
 ---
-![[Pasted image 20240604134248.png]]
+![[Pasted image 20240604143441.png]]
 ### ResNet 모듈
 
 ```python
