@@ -1,8 +1,6 @@
 
 ---
-![[Pasted image 20240527181027.png]]
-
-#### VGGNet(VGG-16) 모듈
+![[Pasted image 20240527182733.png]]
 
 ```python
 # 패키지 선언  
@@ -39,44 +37,77 @@ plt.imshow(first_data[0].permute(1, 2, 0))
 plt.show()  
   
   
-# VGG 모델 정의  
-class VGG(nn.Module):  
+# 모델 정의  
+class UMNet(nn.Module):  
     def __init__(self):  
-        super(VGG, self).__init__()  
+        super(UMNet, self).__init__()  
   
         self.conv1_1 = nn.Conv2d(in_channels=3, out_channels=16, kernel_size=3, padding=1)  
         self.conv1_2 = nn.Conv2d(in_channels=16, out_channels=32, kernel_size=3, padding=1)  
   
-        self.conv2_1 = nn.Conv2d(in_channels=32, out_channels=32, kernel_size=3, padding=1)  
+        self.conv2_1 = nn.Conv2d(in_channels=35, out_channels=32, kernel_size=3, padding=1)  
         self.conv2_2 = nn.Conv2d(in_channels=32, out_channels=64, kernel_size=3, padding=1)  
   
-        self.conv3_1 = nn.Conv2d(in_channels=64, out_channels=128, kernel_size=3, padding=1)  
+        self.conv3_1 = nn.Conv2d(in_channels=99, out_channels=128, kernel_size=3, padding=1)  
         self.conv3_2 = nn.Conv2d(in_channels=128, out_channels=256, kernel_size=3, padding=1)  
   
         self.fc1 = nn.Linear(4096, 512)  
         self.fc2 = nn.Linear(512, 256)  
         self.fc3 = nn.Linear(256, 10)  
   
+        # Skip connection을 위한 convolution layer 선언  
+        self.conv_skip1 = nn.Conv2d(in_channels=3, out_channels=32, kernel_size=3, padding=1)  
+        self.conv_skip2 = nn.Conv2d(in_channels=35, out_channels=64, kernel_size=3, padding=1)  
+        self.conv_skip3 = nn.Conv2d(in_channels=99, out_channels=256, kernel_size=3, padding=1)  
+  
         # 파라미터를 가지지 않은 layer는 한 번만 선언해도 문제 없음  
         self.relu = nn.ReLU()  
-        self.avgPool2d = nn.AvgPool2d(kernel_size=2, stride=2)  
+        self.MaxPool2d = nn.MaxPool2d(kernel_size=2, stride=2)  
+  
+        # Channel Attention 을 위한 convolution layer 선언  
+        self.GAP = nn.AdaptiveAvgPool2d((1, 1))  
+        self.caconv1 = nn.Conv2d(in_channels=64, out_channels=64, kernel_size=1)  
+        self.caconv2 = nn.Conv2d(in_channels=64, out_channels=64, kernel_size=1)  
+        self.sigmoid = nn.Sigmoid()  
   
     def forward(self, x):  
-        # convolution layers  
+        # Skip connection  
+        skip = self.relu(self.conv_skip1(x))  
         out = self.relu(self.conv1_1(x))  
         out = self.relu(self.conv1_2(out))  
-        out = self.avgPool2d(out)  
   
-        out = self.relu(self.conv2_1(out))  
-        out = self.relu(self.conv2_2(out))  
-        out = self.avgPool2d(out)  
+        out = out + skip  
   
-        out = self.relu(self.conv3_1(out))  
+        # Dense connection  
+        out = torch.cat([x, out], dim=1)  
+  
+        out = self.MaxPool2d(out)  
+  
+        # Skip connection  
+        skip = self.relu(self.conv_skip2(out))  
+        out1 = self.relu(self.conv2_1(out))  
+        out1 = self.relu(self.conv2_2(out1))  
+        # Channel Attention (CA)  
+        weight = self.GAP(out1)  
+        weight = self.relu(self.caconv1(weight))  
+        weight = self.sigmoid(self.caconv2(weight))  
+        out1 = out1 * weight  
+  
+        out1 = out1 + skip  
+  
+        # Dense connection  
+        out1 = torch.cat([out, out1], dim=1)  
+  
+        out1 = self.MaxPool2d(out1)  
+        # Skip connection  
+        skip = self.relu(self.conv_skip3(out1))  
+        out = self.relu(self.conv3_1(out1))  
         out = self.relu(self.conv3_2(out))  
-        out = self.avgPool2d(out)  
-  
+        out = out + skip  
+        
+        out = self.MaxPool2d(out)  
         # 평탄화  
-        out = out.reshape(-1, 4096)  
+        out = out.reshape(out.size(0), -1)  
   
         # fully connected layers  
         out = self.relu(self.fc1(out))  
@@ -86,19 +117,19 @@ class VGG(nn.Module):
         return out  
   
   
-# Hyper-parameters 지정  
+# Hyper-parameter 지정  
 batch_size = 100  
 learning_rate = 0.1  
 training_epochs = 20  
 loss_function = nn.CrossEntropyLoss()  
-network = VGG()  
+network = UMNet()  
 optimizer = torch.optim.SGD(network.parameters(), lr=learning_rate)  
 data_loader = DataLoader(dataset=cifar10_train,  
                          batch_size=batch_size,  
                          shuffle=True,  
                          drop_last=True)  
   
-# Perceptron 학습을 위한 반복문 선언  
+# 학습을 위한 반복문 진행  
 network = network.to('cuda:0')  
 for epoch in range(training_epochs):  
     avg_cost = 0  
@@ -121,7 +152,7 @@ for epoch in range(training_epochs):
   
 print('Learning finished')  
   
-# 학습이 완료된 모델을 이용해 정답률 확인  
+# 정답률 확인  
 network = network.to('cpu')  
 with torch.no_grad():  # test에서는 기울기 계산 제외  
     img_test = torch.tensor(np.transpose(cifar10_test.data, (0, 3, 1, 2))) / 255.  
