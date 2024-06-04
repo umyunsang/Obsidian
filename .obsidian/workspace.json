@@ -4,16 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "588dabb2a6b99bae",
+        "id": "15680462f019c91e",
         "type": "tabs",
         "children": [
           {
-            "id": "a613e34ff4e14c17",
+            "id": "43d498eb3054003b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/2024년1학기데이터구조_기말고사_공지용.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "3ab2d4c32026ae67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "525d1a00597baeb3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/test.md",
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -85,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/test.md",
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/2024년1학기데이터구조_기말고사_공지용.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/test.md",
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/2024년1학기데이터구조_기말고사_공지용.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/test.md"
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/2024년1학기데이터구조_기말고사_공지용.pdf"
               }
             }
           }
@@ -146,8 +163,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a613e34ff4e14c17",
+  "active": "43d498eb3054003b",
   "lastOpenFiles": [
+    "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
+    "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/2024년1학기데이터구조_기말고사_공지용.pdf",
+    "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/1705817_엄윤상_데이터구조_4주차과제.md",
+    "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말",
+    "Obsidian/obsidian/ComputerScience/데이터 구조/시험/중간",
+    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/6.Random Variables/Expectation.md",
     "Obsidian/test.md"
   ]
 }
