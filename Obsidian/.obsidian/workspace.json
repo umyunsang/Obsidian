@@ -8,12 +8,22 @@
         "type": "tabs",
         "children": [
           {
+            "id": "e3ebb540f0ffd0f9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/기억 장치.pdf"
+              }
+            }
+          },
+          {
             "id": "7e9297c60bac89a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/LR control.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/4. 가상 기억 장치.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "7955a80cb3f4ce08",
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/LR control.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/기억 장치.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/LR control.md",
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/기억 장치.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/LR control.md"
+                "file": "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/기억 장치.pdf"
               }
             }
           }
@@ -149,11 +160,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7e9297c60bac89a0",
+  "active": "e3ebb540f0ffd0f9",
   "lastOpenFiles": [
+    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/4. 가상 기억 장치.md",
+    "Pasted image 20240604122002.png",
+    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/기억 장치.pdf",
+    "Pasted image 20240604121924.png",
+    "Pasted image 20240604121803.png",
+    "Pasted image 20240604121635.png",
+    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
+    "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/LR control.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN 모듈.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/pooling.md",
-    "obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/LR control.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/CNN 주요설계모듈(실습).pdf",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGNet (실습).pdf",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG-16",
@@ -173,7 +191,6 @@
     "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
     "obsidian/ComputerScience/데이터 구조/예상 문제/기말_데이터구조 답지.md",
-    "obsidian/ComputerScience/데이터 구조/예상 문제/2024년1학기데이터구조_기말고사_공지용.pdf",
     "obsidian/ComputerScience/데이터 구조/예상 문제/중간_데이터구조 답지.md",
     "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
     "obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
@@ -184,18 +201,12 @@
     "image/Pasted image 20240530150038.png",
     "image/Pasted image 20240530150323.png",
     "Pasted image 20240530150323.png",
-    "Pasted image 20240530150251.png",
-    "Pasted image 20240530150230.png",
-    "Pasted image 20240530150213.png",
-    "Pasted image 20240530150038.png",
-    "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
     "obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGDense.md",
     "obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md",
-    "obsidian/ComputerScience/Python(basic)/3. 반복문.md",
     "무제 파일.canvas"
   ]
 }
