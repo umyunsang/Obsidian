@@ -8,12 +8,28 @@
         "type": "tabs",
         "children": [
           {
+            "id": "d47fbf9912cd6311",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "72ebdaaf36d96597",
+        "type": "tabs",
+        "children": [
+          {
             "id": "7e9297c60bac89a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/기말_데이터구조 답지.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/기말_데이터구조 답지.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/기말_데이터구조 답지.md",
+                "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/ComputerScience/데이터 구조/예상 문제/기말_데이터구조 답지.md"
+                "file": "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md"
               }
             }
           }
@@ -152,8 +168,11 @@
   },
   "active": "7e9297c60bac89a0",
   "lastOpenFiles": [
-    "obsidian/ComputerScience/데이터 구조/예상 문제/2024년1학기데이터구조_기말고사_공지용.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
+    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
+    "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
     "obsidian/ComputerScience/데이터 구조/예상 문제/기말_데이터구조 답지.md",
+    "obsidian/ComputerScience/데이터 구조/예상 문제/2024년1학기데이터구조_기말고사_공지용.pdf",
     "obsidian/ComputerScience/데이터 구조/예상 문제/중간_데이터구조 답지.md",
     "obsidian/ComputerScience/인공지능/5. CNN/이론/CNN Backpropagation(이론).pdf",
     "obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
@@ -167,10 +186,8 @@
     "obsidian/ComputerScience/확률과 통계/23. naive_bayes",
     "obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
     "obsidian/ComputerScience/데이터 구조/5. 정렬/1705817_엄윤상_데이터구조_4주차과제.md",
-    "obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
     "obsidian/ComputerScience/웹프로그래밍/5. 데이터베이스/MYSQL.md",
     "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
-    "obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
     "image/Pasted image 20240530150251.png",
     "image/Pasted image 20240530150230.png",
     "image/Pasted image 20240530150213.png",
