@@ -87,6 +87,28 @@
   ```
   - 이 예제는 1에서 10까지의 숫자를 입력할 수 있는 필드를 생성하며, 초기값은 5입니다.
 
+### HTML 속성: `required`, `checked`, `selected`
+
+#### `required`
+- **설명**:
+  - `required` 속성은 폼의 입력 필드가 필수 항목임을 지정합니다.
+  - 사용자가 해당 입력 필드를 채우지 않으면 폼이 제출되지 않으며, 브라우저는 사용자에게 경고 메시지를 표시합니다.
+- **사용 가능한 요소**:
+  - `<input>` (특히 `type="text"`, `type="email"`, `type="password"`, `type="number"`, 등)
+  - `<textarea>`
+  - `<select>`
+#### `checked`
+- **설명**:
+  - `checked` 속성은 체크박스(`input type="checkbox"`)나 라디오 버튼(`input type="radio"`)이 기본적으로 선택되어 있음을 지정합니다.
+- **사용 가능한 요소**:
+  - `<input type="checkbox">`
+  - `<input type="radio">`
+#### `selected`
+- **설명**:
+  - `selected` 속성은 드롭다운 목록(`<select>`)의 옵션(`<option>`)이 기본적으로 선택되어 있음을 지정합니다.
+- **사용 가능한 요소**:
+  - `<option>`
+
 ---
 
 ```html
