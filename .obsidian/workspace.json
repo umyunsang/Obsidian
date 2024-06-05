@@ -11,9 +11,11 @@
             "id": "060d4167c209ef9a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.pdf"
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.pdf",
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.pdf",
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.pdf"
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md"
               }
             }
           }
@@ -144,8 +146,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ba9e23474eb62275",
+  "active": "060d4167c209ef9a",
   "lastOpenFiles": [
+    "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.pdf",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
     "image/Pasted image 20240605151939.png",
@@ -178,7 +182,6 @@
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGDense.md",
     "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/2024년1학기데이터구조_기말고사_공지용.pdf",
     "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/1705817_엄윤상_데이터구조_4주차과제.md",
-    "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/6.Random Variables/Expectation.md",
     "Obsidian/test.md"
