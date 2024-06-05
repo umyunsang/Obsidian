@@ -11,25 +11,9 @@
             "id": "060d4167c209ef9a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/7장_확인문제_현재7번까지.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "6f883de0831918cd",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "eab6df2f422e9b63",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -102,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md"
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md"
               }
             }
           }
@@ -163,26 +146,28 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "eab6df2f422e9b63",
+  "active": "060d4167c209ef9a",
   "lastOpenFiles": [
+    "image/Pasted image 20240605151939.png",
+    "image/Pasted image 20240605151520.png",
+    "image/Pasted image 20240605151030.png",
+    "image/Pasted image 20240605150949.png",
+    "image/Pasted image 20240605150923.png",
+    "image/Pasted image 20240605150904.png",
+    "image/Pasted image 20240605152840.png",
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf",
+    "Obsidian/obsidian/index.md",
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/7장_확인문제_현재7번까지.pdf",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
     "Pasted image 20240605152840.png",
-    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
-    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf",
     "Pasted image 20240605151939.png",
     "Pasted image 20240605151520.png",
     "Pasted image 20240605151030.png",
-    "Pasted image 20240605150949.png",
-    "Pasted image 20240605150923.png",
-    "Pasted image 20240605150904.png",
     "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/7장_확인문제_현재1번까지.pdf",
     "Obsidian/obsidian/ComputerScience/인공지능/기말시험/시험 예상 문제.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
-    "image/Pasted image 20240604134248.png",
-    "image/Pasted image 20240604143441.png",
-    "image/Pasted image 20240530150251.png",
     "image",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet (실습).pdf",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md",
