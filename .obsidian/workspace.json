@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md"
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "eab6df2f422e9b63",
   "lastOpenFiles": [
+    "Obsidian/obsidian/ComputerScience/인공지능/기말시험/시험 예상 문제.md",
+    "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
     "image/Pasted image 20240604134248.png",
     "image/Pasted image 20240604143441.png",
     "image/Pasted image 20240530150251.png",
@@ -158,14 +160,11 @@
     "image/Pasted image 20240604123613.png",
     "image/Pasted image 20240604123458.png",
     "image/Pasted image 20240604123408.png",
-    "image/Pasted image 20240604123239.png",
     "image",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet (실습).pdf",
-    "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/UMNet.md",
-    "Obsidian/obsidian/ComputerScience/인공지능/기말시험/시험 예상 문제.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/CNN (실습).pdf",
