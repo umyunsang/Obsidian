@@ -11,9 +11,25 @@
             "id": "060d4167c209ef9a",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/7장_확인문제_현재11번까지.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1f2c32c8a447bbb7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4434d4473ea6d201",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 285.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -85,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md"
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md"
               }
             }
           }
@@ -146,10 +163,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "060d4167c209ef9a",
+  "active": "4434d4473ea6d201",
   "lastOpenFiles": [
-    "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.pdf",
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/7장_확인문제_현재11번까지.pdf",
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
+    "Pasted image 20240607134936.png",
+    "Pasted image 20240607134613.png",
+    "Pasted image 20240607134517.png",
+    "Pasted image 20240607133310.png",
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf",
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/7장_확인문제_현재7번까지.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
     "image/Pasted image 20240605151939.png",
@@ -158,14 +183,7 @@
     "image/Pasted image 20240605150949.png",
     "image/Pasted image 20240605150923.png",
     "image/Pasted image 20240605150904.png",
-    "image/Pasted image 20240605152840.png",
-    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf",
     "Obsidian/obsidian/index.md",
-    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/7장_확인문제_현재7번까지.pdf",
-    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
-    "Pasted image 20240605152840.png",
-    "Pasted image 20240605151939.png",
-    "Pasted image 20240605151520.png",
     "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/7장_확인문제_현재1번까지.pdf",
     "Obsidian/obsidian/ComputerScience/인공지능/기말시험/시험 예상 문제.md",
@@ -177,10 +195,7 @@
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/UMNet.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet",
-    "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/CNN (실습).pdf",
-    "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/CNN 주요설계모듈(실습).pdf",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGDense.md",
-    "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/2024년1학기데이터구조_기말고사_공지용.pdf",
     "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/1705817_엄윤상_데이터구조_4주차과제.md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/6.Random Variables/Expectation.md",
