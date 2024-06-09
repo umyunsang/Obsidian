@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md"
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md"
               }
             }
           }
@@ -149,8 +148,12 @@
   },
   "active": "1596fdf83aa83c04",
   "lastOpenFiles": [
-    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf",
+    "image/Pasted image 20240607134936.png",
+    "image/Pasted image 20240607134613.png",
+    "image/Pasted image 20240607134517.png",
+    "image/Pasted image 20240607133310.png",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/7장_확인문제_현재11번까지.pdf",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
     "Pasted image 20240607134936.png",
@@ -164,9 +167,6 @@
     "image/Pasted image 20240605151939.png",
     "image/Pasted image 20240605151520.png",
     "image/Pasted image 20240605151030.png",
-    "image/Pasted image 20240605150949.png",
-    "image/Pasted image 20240605150923.png",
-    "image/Pasted image 20240605150904.png",
     "Obsidian/obsidian/index.md",
     "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/7장_확인문제_현재1번까지.pdf",
