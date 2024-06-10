@@ -4,22 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "a41ce3d384cf1adc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "98dc68a29fa7e1a5",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "834b416f89ff369c",
         "type": "tabs",
         "children": [
@@ -29,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md"
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md"
               }
             }
           }
@@ -163,11 +147,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1626902f032a3aca",
+  "active": "ba9e23474eb62275",
   "lastOpenFiles": [
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
     "Pasted image 20240610170610.png",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
-    "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
     "Pasted image 20240610170328.png",
     "Pasted image 20240610170137.png",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
@@ -180,7 +164,6 @@
     "image/Pasted image 20240610150019.png",
     "image/Pasted image 20240610145959.png",
     "image/Pasted image 20240610145940.png",
-    "image/Pasted image 20240610145923.png",
     "Obsidian/obsidian/ComputerScience/확률과 통계/22.map/22_MAP.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/22. map.pdf",
