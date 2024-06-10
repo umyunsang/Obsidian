@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "834b416f89ff369c",
+        "id": "846557c1bb63f1a6",
         "type": "tabs",
         "children": [
           {
-            "id": "2ac5a53aa4424cb2",
+            "id": "789ff04d6a12d8de",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -20,7 +20,7 @@
         ]
       },
       {
-        "id": "846557c1bb63f1a6",
+        "id": "e202673f29aaa986",
         "type": "tabs",
         "children": [
           {
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23. naive bayers.pdf",
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23. naive bayers.pdf",
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23. naive bayers.pdf"
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.md"
               }
             }
           }
@@ -163,28 +163,29 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2ac5a53aa4424cb2",
+  "active": "1626902f032a3aca",
   "lastOpenFiles": [
-    "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.md",
+    "image/Pasted image 20240610200757.png",
+    "image/Pasted image 20240610200738.png",
+    "image/Pasted image 20240610200658.png",
+    "image/Pasted image 20240610200631.png",
+    "image/Pasted image 20240610200559.png",
+    "image/Pasted image 20240610200513.png",
+    "image/Pasted image 20240610191347.png",
+    "image/Pasted image 20240610191323.png",
+    "image/Pasted image 20240610191214.png",
+    "image/Pasted image 20240610191125.png",
+    "image/Pasted image 20240610191100.png",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23. naive bayers.pdf",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.md",
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/22.map/22_MAP.md",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
-    "image/Pasted image 20240610170328.png",
-    "image/Pasted image 20240610170137.png",
-    "image/Pasted image 20240610170610.png",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
-    "Pasted image 20240610170610.png",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
-    "Pasted image 20240610170328.png",
-    "Pasted image 20240610170137.png",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
-    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/7장_확인문제.pdf",
-    "image/Pasted image 20240610150138.png",
-    "image/Pasted image 20240610150116.png",
-    "image/Pasted image 20240610150059.png",
-    "image/Pasted image 20240610150041.png",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/22. map.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/22.map/22_map.pdf",
