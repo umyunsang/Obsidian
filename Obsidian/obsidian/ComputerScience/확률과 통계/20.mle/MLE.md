@@ -49,7 +49,9 @@ L(\theta) = \prod_{i=1}^n p^{x_i}(1-p)^{1-x_i}
 $$
 
 $$
-LL(\theta) = \sum_{i=1}^n \log p^{x_i}(1-p)^{1-x_i} = \sum_{i=1}^n x_i (\log p) + (1 - x_i) \log(1-p) = Y \log p + (n - Y) \log(1-p)
+LL(\theta) = \sum_{i=1}^n \log p^{x_i}(1-p)^{1-x_i}$$
+$$= \sum_{i=1}^n x_i (\log p) + (1 - x_i) \log(1-p)$$ 
+$$= Y \log p + (n - Y) \log(1-p)
 $$
 
 여기서 $Y = \sum_{i=1}^n x_i$입니다.
@@ -72,45 +74,16 @@ $$
 다음으로, 정규 분포의 최적 파라미터 값을 추정해 봅시다. 우리는 $n$개의 정규 분포에서 샘플링된 IID 랜덤 변수 $X_1, X_2, \dots, X_n$에 접근할 수 있습니다. 각 $X_i$는 $\mu = \theta_0, \sigma^2 = \theta_1$ 인 $N(\mu, \sigma^2)$에서 샘플링된 것으로 가정합니다. 이 경우 $\theta$는 평균( $\mu$ ) 및 분산( $\sigma^2$ )이라는 두 값을 가진 벡터입니다.
 
 $$
-L(\theta) = \prod_{i=1}^n f(X_i|\theta) = \prod_{i=1}^n \frac{1}{\sqrt{2\pi\theta_1}} e^{-\frac{(x_i - \theta_0)^2}{2\theta_1}}
+L(\theta) = \prod_{i=1}^n f(X_i|\theta) = \prod_{i=1}^n \frac{1}{\sqrt{2\pi\theta_1}} e^{-\frac{(X_i - \theta_0)^2}{2\theta_1}}
 $$
 
 $$
-LL(\theta) = \sum_{i=1}^n \log \frac{1}{\sqrt{2\pi\theta_1}} e^{-\frac{(x_i - \theta_0)^2}{2\theta_1}} = \sum_{i=1}^n \left[ - \log(\sqrt{2\pi\theta_1}) - \frac{1}{2\theta_1}(x_i - \theta_0)^2 \right]
+LL(\theta) = \sum_{i=1}^n \log \frac{1}{\sqrt{2\pi\theta_1}} e^{-\frac{(X_i - \theta_0)^2}{2\theta_1}} = \sum_{i=1}^n \left[ - \log(\sqrt{2\pi\theta_1}) - \frac{1}{2\theta_1}(X_i - \theta_0)^2 \right]
 $$
 
 이제, 로그 우도 함수를 최대화하는 $\theta$ 값을 선택해야 합니다. 이를 위해 $LL$ 함수에 대해 $\theta_0$ 및 $\theta_1$에 대한 편미분을 계산하고 두 방정식을 모두 0으로 설정한 다음 $\theta$ 값을 구합니다. 그 결과는 다음과 같습니다:
 
 $$
-\hat{\mu} = \frac{1}{n}\sum_{i=1}^n x_i, \quad \hat{\sigma^2} = \frac{1}{n}\sum_{i=1}^n (x_i - \hat{\mu})^2
+{\mu}_{MLE} = \frac{1}{n}\sum_{i=1}^n X_i, \quad {\sigma^2}_{MLE} = \frac{1}{n}\sum_{i=1}^n (x_i - {\mu}_{MLE})^2
 $$
 
-### 선형 변환과 노이즈
-
-MLE는 도함수가 있는 우도 함수를 가진 모든 확률 모델에 사용할 수 있습니다. 예를 들어, $Y = \theta X + Z$, $Z \sim N(0, \sigma^2)$ 및 $X$가 알려지지 않은 분포를 가지는 모델에서 $\theta$를 추정해 봅시다.
-
-여기서 $X$의 값을 알고 있는 경우, $\theta X$는 하나의 숫자이며, $\theta X + Z$는 가우시안과 숫자의 합이 됩니다. 이는 $Y|X \sim N(\theta X, \sigma^2)$임을 의미합니다. 우리의 목표는 $\theta$ 값을 선택하여 독립적이고 동일하게 분포된 (IID) 데이터 $(X_1, Y_1), (X_2, Y_2), \dots, (X_n, Y_n)$의 로그 우도를 최대화하는 것입니다.
-
-먼저, $\theta$가 주어진 데이터의 로그 우도 함수를 찾고, 로그 우도 함수를 최대화하는 $\theta$ 값을 찾습니다. 시작하려면 정규 분포의 PDF를 사용하여 $Y|X, \theta$의 확률을 표현합니다:
-
-$$
-f(Y_i | X_i , \theta) = \frac{1}{\sqrt{2\pi} \sigma} e^{-\frac{(Y_i - \theta X_i)^2}{2\sigma^2}}
-$$
-
-이제 우도 함수를 작성하고, 로그를 취하여 로그 우도 함수를 얻습니다:
-
-$$
-L(\theta) = \prod_{i=1}^n f(Y_i, X_i | \theta) = \prod_{i=1}^n f(Y_i | X_i, \theta)f(X_i) = \prod_{i=1}^n \frac{1}{\sqrt{2\pi} \sigma} e^{-\frac{(Y_i - \theta X_i)^2}{2\sigma^2}}f(X_i)
-$$
-
-$$
-LL(\theta) = \log L(\theta) = \log \prod_{i=1}^n \frac{1}{\sqrt{2\pi} \sigma} e^{-\frac{(Y_i - \theta X_i)^2}{2\sigma^2}} f(X_i) = \sum_{i=1}^n \log \frac{1}{\sqrt{2\pi} \sigma} e^{-\frac{(Y_i - \theta X_i)^2}{2\sigma^2}} + \sum_{i=1}^n \log f(X_i)
-$$
-
-상수 곱과 $\theta$와 무관한 항을 제거하면 다음과 같습니다:
-
-$$
-\hat{\theta} = \underset{\theta}{\operatorname{argmax}}  - \sum_{i=1}^m (Y_i - \theta X_i)^2 = \underset{\theta}{\operatorname{argmin}}  \sum_{i=1}^m (Y_i - \theta X_i)^2
-$$
-
-이 결과는 데이터의 우도를 최대화하는 $\theta$ 값이 $Y$의 예측 오차의 제곱을 최소화하는 값임을 의미합니다. 이는 선형 회귀의 기초가 됩니다.
