@@ -18,19 +18,25 @@ $$\theta_{\text{MAP}} = \underset{\theta}{\operatorname{argmax }} \text{ } \prod
 $$\theta_{\text{MAP}} = \underset{\theta}{\operatorname{argmax }} \text{ } \left( \log (g(\theta)) + \sum_{i=1}^n \log(f(X_i | \theta)) \right)$$
 
 베이지안 용어를 사용하면, MAP 추정은 $\theta$ 에 대한 "사후 분포"의 모드입니다. MLE 방정식과 MAP 방정식을 나란히 비교하면 MAP가 로그의 사전항을 더한 정확히 동일한 함수의 argmax임을 알 수 있습니다.
+- log prior + log-likelihood
 
 ![[Pasted image 20240610121728.png]]
-## Parameter Priors
+
+Laplace estimates : 각각의 Observe 에 +1 을 함  
+
+## Conjugate distributions
 
 위 내용은 MAP(Maximum A Posteriori) 추정을 준비하기 위해 사전 분포(prior distributions)에 대해 다룹니다. 각각의 다른 매개변수에 대한 합리적인 분포가 필요합니다. 예를 들어, 포아송 분포를 예측한다면 𝜆에 대한 사전 분포의 적절한 확률 변수 유형은 무엇일까요?
 
 다음은 각각의 다른 매개변수 및 그들의 사전 분포로 가장 자주 사용되는 분포 목록입니다:
 
-- 베르누이 분포 𝑝 : 베타 분포
-- 이항 분포 𝑝 : 베타 분포
-- 포아송 분포 𝜆 : 감마 분포
-- 지수 분포 𝜆 : 감마 분포
-- 다항 분포 𝑝𝑖 : 디리클레 분포
-- 정규 분포 𝜇 : 정규 분포
-- 정규 분포 𝜎^2 : 역감마 분포
+| Parameter                     | Distribution  |
+| ----------------------------- | ------------- |
+| Bernoulli (베르누이 분포) $p$       | Beta          |
+| Binomial (이항 분포) $p$          | Beta          |
+| Poisson (포아송 분포) $\lambda$    | Gamma         |
+| Exponential (지수 분포) $\lambda$ | Gamma         |
+| Multinomial $p_i$             | Dirichlet     |
+| Normal $\mu$                  | Normal        |
+| Normal $\sigma^2$             | Inverse Gamma |
 

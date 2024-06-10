@@ -4,53 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "099a4a71127faa19",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b5b549a40467e113",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/20. mle.pdf"
-              }
-            }
-          },
-          {
-            "id": "7e23ad695eeab6d8",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf"
-              }
-            }
-          },
-          {
-            "id": "8d7a4b6abc361503",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/22. map.pdf"
-              }
-            }
-          },
-          {
-            "id": "b0cd014e60bd5a22",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23. naive bayers.pdf"
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
         "id": "17b0215ee4a2fa52",
         "type": "tabs",
         "children": [
@@ -60,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/22.map/MAP.md",
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/22.map/22_MAP.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/22.map/MAP.md",
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/22.map/22_MAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/22.map/MAP.md",
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/22.map/22_MAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/22.map/MAP.md"
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/22.map/22_MAP.md"
               }
             }
           }
@@ -194,11 +147,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "15fe28f9237580fc",
+  "active": "ba9e23474eb62275",
   "lastOpenFiles": [
-    "Pasted image 20240610121728.png",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/22. map.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/22.map/MAP.md",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/22.map/22_MAP.md",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/22.map/22_map.pdf",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23. naive bayers.pdf",
+    "Pasted image 20240610121728.png",
     "Obsidian/obsidian/ComputerScience/확률과 통계/20.mle/20_mle.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
@@ -213,11 +169,8 @@
     "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/16. continous_joint_probability_i.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/Continuous Joint.md",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23. naive bayers.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/16_continous_joint_probability_i.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/22.map/22_map.pdf",
     "image/Pasted image 20240607134936.png",
     "image/Pasted image 20240607134613.png",
     "image/Pasted image 20240607134517.png",
@@ -227,7 +180,6 @@
     "Pasted image 20240607134936.png",
     "Pasted image 20240607134613.png",
     "Pasted image 20240607134517.png",
-    "Pasted image 20240607133310.png",
     "Obsidian/obsidian/index.md",
     "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
     "Obsidian/obsidian/ComputerScience/인공지능/기말시험/시험 예상 문제.md",
