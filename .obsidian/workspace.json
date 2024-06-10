@@ -4,22 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "17b0215ee4a2fa52",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "15fe28f9237580fc",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/7장_확인문제.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "a41ce3d384cf1adc",
         "type": "tabs",
         "children": [
@@ -34,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0e4f8f1535f723aa",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -163,10 +157,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1626902f032a3aca",
+  "active": "0e4f8f1535f723aa",
   "lastOpenFiles": [
-    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/7장_확인문제.pdf",
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/7장_확인문제.pdf",
     "image/Pasted image 20240610150138.png",
     "image/Pasted image 20240610150116.png",
     "image/Pasted image 20240610150059.png",
@@ -195,7 +190,6 @@
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/16. continous_joint_probability_i.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/Continuous Joint.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/16_continous_joint_probability_i.pdf",
-    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
     "Obsidian/obsidian/index.md",
     "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
     "Obsidian/obsidian/ComputerScience/인공지능/기말시험/시험 예상 문제.md",
