@@ -4,22 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "846557c1bb63f1a6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "789ff04d6a12d8de",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23. naive bayers.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "e202673f29aaa986",
         "type": "tabs",
         "children": [
@@ -29,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.md",
-                "mode": "source",
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19_sampling 1.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -102,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.md",
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19_sampling 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.md",
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19_sampling 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.md"
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19_sampling 1.md"
               }
             }
           }
@@ -165,6 +148,18 @@
   },
   "active": "1626902f032a3aca",
   "lastOpenFiles": [
+    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/16. continous_joint_probability_i.pdf",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/15.General_inference/16.Continous_joint_probability-1/16_continous_joint_probability_i.pdf",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/15.General_inference/16.Continous_joint_probability-1/Continuous Joint.md",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19_sampling 1.md",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling.md",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Sampling.md",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Bootstrapping.md",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/20_mle 1.md",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/22_MAP 1.md",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23_naive_bayes 1.md",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.md",
     "image/Pasted image 20240610200757.png",
     "image/Pasted image 20240610200738.png",
     "image/Pasted image 20240610200658.png",
@@ -175,9 +170,7 @@
     "image/Pasted image 20240610191323.png",
     "image/Pasted image 20240610191214.png",
     "image/Pasted image 20240610191125.png",
-    "image/Pasted image 20240610191100.png",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23. naive bayers.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.md",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/23. naive_bayes/23_naive_bayes.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/22.map/22_MAP.md",
@@ -190,26 +183,16 @@
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/22. map.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/22.map/22_map.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/20.mle/20_mle.md",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/20. mle.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Bootstrapping.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19. Sampling & Bootstrap.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Sampling.md",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/Continuous Joint.md",
     "Obsidian/obsidian/index.md",
     "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
     "Obsidian/obsidian/ComputerScience/인공지능/기말시험/시험 예상 문제.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
-    "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/UMNet.md",
-    "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md",
-    "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGDense.md",
-    "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/1705817_엄윤상_데이터구조_4주차과제.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md"
+    "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/UMNet.md"
   ]
 }
