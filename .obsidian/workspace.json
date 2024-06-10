@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0e4f8f1535f723aa",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,7 +146,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0e4f8f1535f723aa",
+  "active": "1626902f032a3aca",
   "lastOpenFiles": [
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
