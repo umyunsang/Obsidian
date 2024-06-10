@@ -28,21 +28,22 @@
   - 예시: `H<sub>2</sub>O` ➔ H₂O
 
 #### HTML 표 실습
-- **표 생성**
-  - HTML에서 표를 생성하고, 여러 셀을 합치는 방법을 배웁니다.
-  - 예시:
-    ```html
+- colspan
+	-  열을 합치는 방법입니다.
+	- 예시:
+```html
     <table border="1">
         <tr> <td colspan="3">여러 칸 셀 합치기
         <tr> <td>2행 1열
              <td>2행 2열
              <td>2행 3열
     </table>
-    ```
-- **rowspan**
-  - 행을 합치는 방법입니다.
-  - 예시:
-    ```html
+```
+		![[Pasted image 20240610170328.png]]
+-  **rowspan**
+	- 행을 합치는 방법입니다.
+	- 예시:
+```html
     <table border="1">
         <tr> <td rowspan="2">1열 합치기
              <td>1행 2열
@@ -50,8 +51,8 @@
         <tr> <td>2행 2열
              <td>2행 3열
     </table>
-    ```
-  - `rowspan="2"` 속성을 사용하여 두 행을 합칩니다.
+```
+		![[Pasted image 20240610170137.png]]
 
 ### HTML `input` 태그의 `type` 속성: `range`와 `number`
 
@@ -87,7 +88,7 @@
   ```
   - 이 예제는 1에서 10까지의 숫자를 입력할 수 있는 필드를 생성하며, 초기값은 5입니다.
 
-### HTML 속성: `required`, `checked`, `selected`
+### HTML 속성: `required`, `checked`, `selected`, `disabled`
 
 #### `required`
 - **설명**:
@@ -97,45 +98,77 @@
   - `<input>` (특히 `type="text"`, `type="email"`, `type="password"`, `type="number"`, 등)
   - `<textarea>`
   - `<select>`
+
 #### `checked`
 - **설명**:
   - `checked` 속성은 체크박스(`input type="checkbox"`)나 라디오 버튼(`input type="radio"`)이 기본적으로 선택되어 있음을 지정합니다.
 - **사용 가능한 요소**:
   - `<input type="checkbox">`
   - `<input type="radio">`
+
 #### `selected`
 - **설명**:
   - `selected` 속성은 드롭다운 목록(`<select>`)의 옵션(`<option>`)이 기본적으로 선택되어 있음을 지정합니다.
 - **사용 가능한 요소**:
   - `<option>`
 
+#### `disabled`
+- **설명**:
+  - `disabled` 속성은 폼 요소가 비활성화되어 사용자가 상호작용할 수 없음을 지정합니다.
+  - 비활성화된 폼 요소는 폼 제출 시 전송되지 않습니다.
+- **사용 가능한 요소**:
+  - `<input>`
+  - `<textarea>`
+  - `<select>`
+  - `<button>`
+  - `<fieldset>`
+  - `<option>`
+  - `<optgroup>`
+
+| 속성         | 설명                                         | 사용 가능한 요소                                                                                                  |
+| ---------- | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
+| `required` | 입력 필드가 필수 항목임을 지정. 사용자가 입력하지 않으면 폼 제출이 안됨. | `<input>` (`type="text"`, `type="email"`, `type="password"`, `type="number"`, 등), `<textarea>`, `<select>` |
+| `checked`  | 체크박스 또는 라디오 버튼이 기본적으로 선택되어 있음을 지정.         | `<input type="checkbox">`, `<input type="radio">`                                                          |
+| `selected` | 드롭다운 목록의 옵션이 기본적으로 선택되어 있음을 지정.            | `<option>`                                                                                                 |
+| `disabled`  | 폼 요소가 비활성화되어 사용자가 상호작용할 수 없음을 지정. 폼 제출 시 전송되지 않음.                   | `<input>`, `<textarea>`, `<select>`, `<button>`, `<fieldset>`, `<option>`, `<optgroup>`                     |
+
 ---
+![[Pasted image 20240610170610.png]]
 
 ```html
-<form method="post" action="/mybook">
-    성명: <input type="text" name="person">
-    <p> 회원여부: 
-        <input type="radio" name="member" value="yes" checked>회원 
-        <input type="radio" name="member" value="no">비회원
-    <p> 직업: 
-        <select name="job" size="1">
-            <option>학생 
-            <option selected>창업CEO 
-            <option>예술가 
-            <option>기타 
-        </select>
-    <p> 
-        <fieldset>
-            <legend> 구입희망분야(복수선택 가능)</legend> 
-            <input type="checkbox" name="books" value="computer">컴퓨터 
-            <input type="checkbox" name="books" value="economy">주식 
-            <input type="checkbox" name="books" value="animation">애니메이션 
-            <input type="checkbox" name="books" value="common">상식 
-        </fieldset>
-    <p> 비고: <br> 
-        <textarea name="comments" rows="4" cols="40">...하고픈 말...</textarea>
-    </p> 
-    <button>신청</button> 
-</form>
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>Insert title here</title></head>
+<body>
+<strong>설문조사</strong><p>
+<form action="/iam/answer" method="post">
+<fieldset>
+	<legend>성별과 나이를 입력하세요.</legend>
+	성별: <input type="radio" name="gender" value="남" checked>남자
+	<input type="radio" name="gender" value="여">여자<br>
+	나이 : <input type="number" name="age" required>
+</fieldset><p>
 
+<fieldset>
+	<legend>관심있는 식문화를 선택하세요.(1개 이상)</legend>
+	<input type="checkbox" name="foods" value="소주에 삼겹살">소주에 삼겹살
+	<input type="checkbox" name="foods" value="딸기케이크">딸기 케이크
+	<input type="checkbox" name="foods" value="치맥">치맥
+	<input type="checkbox" name="foods" value="킹크랩">킹크랩
+</fieldset><p>
+
+<fieldset>
+	<legend>나의 자신감은 어느 정도인가?</legend>
+	나는 무지 잘 생겼다. 
+	<input type="range" name="face" min="1" max="5" value="1"><br>
+	나는 맘만 먹으면 A+ 이다. 
+	<input type="range" name="grade" min="1" max="5" value="1"> <br>
+	강의실에서 산만해보여도 머리속에는 내용이 잘 정리되어 있다.<br>
+	<input type="range" name="head" min="1" max="5" value="1">
+</fieldset><p>
+
+Promote yourself<br>
+<textarea name="promote" rows="4" cols="40"></textarea><p>
+<input type="submit" value="확인">
+<input type="reset" value="취소">
+</form></body></html>
 ```
