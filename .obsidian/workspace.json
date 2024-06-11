@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19_sampling 1.md",
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19_sampling 1.md",
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19_sampling 1.md",
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19_sampling 1.md"
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md"
               }
             }
           }
@@ -148,10 +148,14 @@
   },
   "active": "1626902f032a3aca",
   "lastOpenFiles": [
+    "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
+    "Obsidian/obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
+    "Obsidian/obsidian/ComputerScience/데이터 구조/4. 트리/AVL.md",
+    "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/2024년1학기데이터구조_기말고사_공지용.pdf",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19_sampling 1.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/16. continous_joint_probability_i.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/15.General_inference/16.Continous_joint_probability-1/16_continous_joint_probability_i.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/15.General_inference/16.Continous_joint_probability-1/Continuous Joint.md",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19_sampling 1.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Sampling.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Bootstrapping.md",
@@ -184,15 +188,11 @@
     "Obsidian/obsidian/ComputerScience/확률과 통계/22.map/22_map.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/20.mle/20_mle.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/20. mle.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19. Sampling & Bootstrap.pdf",
     "Obsidian/obsidian/index.md",
-    "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
     "Obsidian/obsidian/ComputerScience/인공지능/기말시험/시험 예상 문제.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md",
-    "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
-    "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/UMNet.md"
+    "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md"
   ]
 }
