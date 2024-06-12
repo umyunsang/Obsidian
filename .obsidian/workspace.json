@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
+                "file": "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/4. 가상 기억 장치.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
+                "file": "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/4. 가상 기억 장치.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
+                "file": "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/4. 가상 기억 장치.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md"
+                "file": "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/4. 가상 기억 장치.md"
               }
             }
           }
@@ -146,8 +147,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8d548165d602283b",
+  "active": "ba9e23474eb62275",
   "lastOpenFiles": [
+    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
+    "Pasted image 20240612152339.png",
+    "Pasted image 20240612152332.png",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
     "Obsidian/obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
@@ -158,7 +162,6 @@
     "image/Pasted image 20240611173803.png",
     "image/Pasted image 20240611173744.png",
     "image/Pasted image 20240611173838.png",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
@@ -190,9 +193,6 @@
     "Obsidian/obsidian/ComputerScience/확률과 통계/15.General_inference/16.Continous_joint_probability-1/Continuous Joint.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Sampling.md",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Bootstrapping.md",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/20_mle 1.md",
-    "image/Pasted image 20240610200757.png",
-    "image/Pasted image 20240610200738.png"
+    "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Bootstrapping.md"
   ]
 }
