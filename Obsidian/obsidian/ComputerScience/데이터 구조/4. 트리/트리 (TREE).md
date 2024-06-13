@@ -82,7 +82,7 @@
 
 ![[Pasted image 20240511134458.png]]
 
-**Quiz
+**Quiz**
 	문제 1. "D"의 부모 노드는? -> B
 	문제 2. "D"의 왼쪽 자식노드와 오른쪽 자식노드는? -> H, I
 
@@ -118,7 +118,7 @@ class TreeNode:
 
 #### 이진 트리 출력방법
 
-**1. 전위순회 출력 (Preorder traversal) : V(root)L(left)R(right)
+**1. 전위순회 출력 (Preorder traversal) : V(root)L(left)R(right)**
 
 ```python
 def preorder_recursive(node):
@@ -127,9 +127,9 @@ def preorder_recursive(node):
 		preorder_recursive(node.left)
 		preorder_recursive(node.right)
 ```
-![[Pasted image 20240511140018.png]]
+	![[Pasted image 20240511140018.png]]
 
-**2. 중위순회 출력 (inorder traversal) : L(left)V(root)R(right)
+**2. 중위순회 출력 (inorder traversal) : L(left)V(root)R(right)**
 
 ```python
 def inorder_recursive(node):
