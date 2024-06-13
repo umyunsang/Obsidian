@@ -13,7 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "07ecaa3c889460b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4d51fccad596879",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -85,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md"
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md"
               }
             }
           }
@@ -146,19 +165,30 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8d548165d602283b",
+  "active": "f4d51fccad596879",
   "lastOpenFiles": [
+    "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
+    "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
+    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
+    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
+    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
+    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md",
+    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/5. 주소 지정 방식.md",
+    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/6. CISC와 RISC.md",
+    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
+    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/2. 제어 장치의 종류.md",
+    "Pasted image 20240613141352.png",
+    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/제어 장치.pdf",
+    "Pasted image 20240613141314.png",
+    "image/Pasted image 20240520190832.png",
+    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
+    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
+    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
+    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/4. 가상 기억 장치.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/2. 제어 장치의 종류.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/5. 주소 지정 방식.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN 모듈.md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/3. 레지스터.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/6. CISC와 RISC.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
@@ -168,26 +198,15 @@
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/pooling.md",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/LR control.md",
     "Obsidian/obsidian/ComputerScience/인공지능/필기 과제.pdf",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/제어 장치.pdf",
     "image/Pasted image 20240612152332.png",
     "image/Pasted image 20240612152339.png",
     "Pasted image 20240612152339.png",
     "Pasted image 20240612152332.png",
-    "Obsidian/obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
     "image/Pasted image 20240611173820.png",
     "image/Pasted image 20240611173803.png",
     "image/Pasted image 20240611173744.png",
-    "image/Pasted image 20240611173838.png",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/기억 장치.pdf",
-    "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
-    "Pasted image 20240611173838.png",
     "Obsidian/obsidian/ComputerScience/데이터 구조/수업pdf/12-2주차_con't(정렬).pdf",
-    "Pasted image 20240611173820.png",
     "Obsidian/obsidian/ComputerScience/데이터 구조/수업pdf/12-1주차(정렬).pdf",
     "Obsidian/obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL코드구현).pdf",
     "Obsidian/obsidian/ComputerScience/데이터 구조/수업pdf/11주차(AVL).pdf",
