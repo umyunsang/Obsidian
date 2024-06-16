@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md"
+                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md"
               }
             }
           }
@@ -165,10 +165,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "936fe855fb062ae9",
+  "active": "f77f23b3bc33d9eb",
   "lastOpenFiles": [
-    "Obsidian/obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
     "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
+    "Obsidian/obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
     "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
     "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/2024년1학기데이터구조_기말고사_공지용.pdf",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/기억 장치.pdf",
