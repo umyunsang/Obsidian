@@ -1,9 +1,9 @@
 
 ---
 ` 3. Learning rate control  
-` • 1 ~ 74 epoch: 0.001  `
-` • 75 ~ 149 epoch: 0.0005`  
-` • 150 ~ 200 epoch: 0.00025`
+	` • 1 ~ 74 epoch: 0.001  `
+	` • 75 ~ 149 epoch: 0.0005`  
+	` • 150 ~ 200 epoch: 0.00025`
 
 ![[Pasted image 20240527185141.png]]
 
@@ -59,7 +59,7 @@ for epoch in range(training_epochs):
         optimizer.step()  
         avg_cost += loss / total_batch  
   
-    print('Epoch: %d Loss = %f' % (epoch + 1, avg_cost))  
+    print('Epoch: %d Loss = %f' %(epoch + 1, avg_cost))  
     scheduler.step()  
   
 print('Learning finished')  

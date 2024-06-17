@@ -107,7 +107,7 @@ class UMNet(nn.Module):
         
         out = self.MaxPool2d(out)  
         # 평탄화  
-        out = out.reshape(out.size(0), -1)  
+        out = out.reshape(-1, 4096) 
   
         # fully connected layers  
         out = self.relu(self.fc1(out))  
