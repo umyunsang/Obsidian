@@ -8,14 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "669292ab85dabf6f",
+            "id": "101b7b4ac37e0137",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Bootstrapping.md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23. naive bayers.pdf"
               }
             }
           }
@@ -69,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Bootstrapping.md",
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23. naive bayers.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Bootstrapping.md",
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23. naive bayers.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Bootstrapping.md"
+                "file": "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23. naive bayers.pdf"
               }
             }
           }
@@ -146,14 +145,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "669292ab85dabf6f",
+  "active": "101b7b4ac37e0137",
   "lastOpenFiles": [
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19. Sampling & Bootstrap.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/22. map.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23_naive_bayes 1.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23. naive bayers.pdf",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/22. map.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/22_MAP 1.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/20_mle 1.md",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/20. mle.pdf",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19. Sampling & Bootstrap.pdf",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Sampling.md",
+    "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Bootstrapping.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19_sampling 1.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/16. continous_joint_probability_i.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/15.General_inference/16.Continous_joint_probability-1/Continuous Joint.md",
@@ -167,7 +169,6 @@
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/4. 가상 기억 장치.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/20. mle.pdf",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
@@ -178,8 +179,6 @@
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/6. CISC와 RISC.md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/제어 장치.pdf",
     "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md",
-    "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGDense.md",
-    "Obsidian/obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
     "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/2024년1학기데이터구조_기말고사_공지용.pdf",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/기억 장치.pdf",
     "image/Pasted image 20240613141352.png",
