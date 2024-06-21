@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cdeb3090d18db60f",
+        "id": "c7193c20d9af7aef",
         "type": "tabs",
         "children": [
           {
-            "id": "0cc89a8215dc0ed1",
+            "id": "6b7691a806cdd4c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "47d68435c69280cd",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "391625a11c695f9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
                 "mode": "preview",
                 "source": false
               }
@@ -87,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -104,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md"
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md"
               }
             }
           }
@@ -165,19 +146,26 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0cc89a8215dc0ed1",
+  "active": "6b7691a806cdd4c5",
   "lastOpenFiles": [
-    "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/2024년1학기데이터구조_기말고사_공지용.pdf",
-    "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
+    "image/Pasted image 20240620131107.png",
+    "image/Pasted image 20240620131034.png",
+    "image/Pasted image 20240620131018.png",
+    "image/Pasted image 20240620130948.png",
+    "image/Pasted image 20240620130913.png",
+    "image/Pasted image 20240620130844.png",
+    "image/Pasted image 20240620130810.png",
     "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
+    "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
+    "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/2024년1학기데이터구조_기말고사_공지용.pdf",
     "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/정렬관련기말고사예상문제 정리.pdf",
     "Pasted image 20240620131107.png",
     "Pasted image 20240620131034.png",
     "Pasted image 20240620131018.png",
-    "Pasted image 20240620130948.png",
-    "Pasted image 20240620130913.png",
-    "Pasted image 20240620130844.png",
-    "Pasted image 20240620130810.png",
     "Obsidian/obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/5. 주소 지정 방식.md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
@@ -196,7 +184,6 @@
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/4. 가상 기억 장치.md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/기억 장치.pdf",
     "Obsidian/obsidian/constellation/내별자리.pdf",
-    "Obsidian/obsidian/constellation/출생천도궁.png",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23_naive_bayes 1.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/22_MAP 1.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/20_mle 1.md",
@@ -205,13 +192,7 @@
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/22. map.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/20. mle.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19. Sampling & Bootstrap.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Bootstrapping.md",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/20.mle/20_mle.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/16. continous_joint_probability_i.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling_bootstrap.pdf",
-    "image/Pasted image 20240613141352.png",
-    "image/Pasted image 20240613141314.png"
+    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/16. continous_joint_probability_i.pdf"
   ]
 }
