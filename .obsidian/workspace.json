@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
-                "mode": "preview",
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md"
+                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md"
               }
             }
           }
@@ -148,10 +148,12 @@
   },
   "active": "6b7691a806cdd4c5",
   "lastOpenFiles": [
-    "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf",
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
-    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
+    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
     "image/Pasted image 20240620131107.png",
     "image/Pasted image 20240620131034.png",
     "image/Pasted image 20240620131018.png",
@@ -187,12 +189,10 @@
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23_naive_bayes 1.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/22_MAP 1.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/20_mle 1.md",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19_sampling 1.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23. naive bayers.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/22. map.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/20. mle.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19. Sampling & Bootstrap.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/16. continous_joint_probability_i.pdf"
+    "Obsidian/obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf"
   ]
 }
