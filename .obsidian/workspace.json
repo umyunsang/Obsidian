@@ -4,18 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "c7193c20d9af7aef",
+        "id": "619a9f0ada45724d",
         "type": "tabs",
         "children": [
           {
-            "id": "6b7691a806cdd4c5",
+            "id": "f84a68bd5514f334",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/Welcome.md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/obsidian/ComputerScience/선형대수학/02. 선형방정식/chapter2 연습문제.pdf"
+              }
+            }
+          },
+          {
+            "id": "dd35e9118e41df93",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/obsidian/ComputerScience/선형대수학/01. 선형대수학의 개요/연습문제.pdf"
               }
             }
           }
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/Welcome.md",
+                "file": "Obsidian/obsidian/ComputerScience/선형대수학/02. 선형방정식/chapter2 연습문제.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/Welcome.md",
+                "file": "Obsidian/obsidian/ComputerScience/선형대수학/02. 선형방정식/chapter2 연습문제.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/Welcome.md"
+                "file": "Obsidian/obsidian/ComputerScience/선형대수학/02. 선형방정식/chapter2 연습문제.pdf"
               }
             }
           }
@@ -146,10 +154,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ba9e23474eb62275",
+  "active": "f84a68bd5514f334",
   "lastOpenFiles": [
-    "Obsidian/obsidian/ComputerScience/선형대수학/01. 선형대수학의 개요/01. 선형대수학의 개요.pdf",
     "Obsidian/obsidian/ComputerScience/선형대수학/02. 선형방정식/02. 선형방정식.pdf",
+    "Obsidian/obsidian/ComputerScience/선형대수학/02. 선형방정식/chapter2 연습문제.pdf",
+    "Obsidian/obsidian/ComputerScience/선형대수학/01. 선형대수학의 개요/연습문제.pdf",
+    "Obsidian/obsidian/ComputerScience/선형대수학/02. 선형방정식/선형방정식.md",
+    "Obsidian/obsidian/ComputerScience/선형대수학/01. 선형대수학의 개요/01. 선형대수학의 개요.pdf",
+    "Obsidian/Welcome.md",
     "Obsidian/obsidian/ComputerScience/코딩 기초와 문제해결",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
     "Obsidian/obsidian/ComputerScience/선형대수학/09. 직교성/09. 직교성.pdf",
@@ -158,8 +170,6 @@
     "Obsidian/obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
     "Obsidian/obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf",
     "Obsidian/obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf",
-    "Obsidian/obsidian/ComputerScience/선형대수학/03. 행렬/03. 행렬.pdf",
-    "Obsidian/obsidian/ComputerScience/선형대수학/09. 직교성",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
@@ -191,8 +201,6 @@
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/3. 레지스터.md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/4. 가상 기억 장치.md",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23_naive_bayes 1.md",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/22_MAP 1.md",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/20_mle 1.md"
+    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23_naive_bayes 1.md"
   ]
 }
