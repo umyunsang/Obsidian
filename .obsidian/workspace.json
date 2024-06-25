@@ -11,23 +11,42 @@
             "id": "f84a68bd5514f334",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/코딩 기초와 문제해결/01. 안녕 야옹이.pdf"
-              }
-            }
-          },
-          {
-            "id": "dd35e9118e41df93",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/obsidian/ComputerScience/선형대수학/01. 선형대수학의 개요/연습문제.pdf"
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/컴퓨터에서의 정보의 표현.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ]
+      },
+      {
+        "id": "7a60ac5a5716f36e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c51a80e53bca378b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/Chapter 02. 컴퓨터의 이해와 정보의 표현.pdf"
+              }
+            }
+          },
+          {
+            "id": "9e438d35467dcc9d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1.진법과 진법 변환.pdf"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/코딩 기초와 문제해결/01. 안녕 야옹이.pdf",
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/컴퓨터에서의 정보의 표현.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/코딩 기초와 문제해결/01. 안녕 야옹이.pdf",
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/컴퓨터에서의 정보의 표현.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/코딩 기초와 문제해결/01. 안녕 야옹이.pdf"
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/컴퓨터에서의 정보의 표현.md"
               }
             }
           }
@@ -156,23 +175,44 @@
   },
   "active": "f84a68bd5514f334",
   "lastOpenFiles": [
-    "Obsidian/obsidian/ComputerScience/선형대수학/02. 선형방정식/chapter2 연습문제.pdf",
-    "Obsidian/obsidian/ComputerScience/코딩 기초와 문제해결/음성검색.pdf",
-    "Obsidian/obsidian/ComputerScience/코딩 기초와 문제해결/스크래치.pdf",
-    "Obsidian/obsidian/ComputerScience/코딩 기초와 문제해결/간단한 대화형 인공지능.pdf",
-    "Obsidian/obsidian/ComputerScience/코딩 기초와 문제해결/Chapter 04. 알고리즘과 프로그래밍 언어.pdf",
-    "Obsidian/obsidian/ComputerScience/코딩 기초와 문제해결/Chapter 03. 컴퓨팅 사고와 문제해결.pdf",
-    "Obsidian/obsidian/ComputerScience/코딩 기초와 문제해결/Chapter 02. 컴퓨터의 이해와 정보의 표현.pdf",
-    "Obsidian/obsidian/ComputerScience/코딩 기초와 문제해결/02. 페인트 통.pdf",
-    "Obsidian/obsidian/ComputerScience/코딩 기초와 문제해결/01. 안녕 야옹이.pdf",
-    "Obsidian/obsidian/ComputerScience/선형대수학/02. 선형방정식/02. 선형방정식.pdf",
-    "Obsidian/obsidian/ComputerScience/선형대수학/01. 선형대수학의 개요/연습문제.pdf",
-    "Obsidian/obsidian/ComputerScience/선형대수학/02. 선형방정식/선형방정식.md",
-    "Obsidian/Welcome.md",
-    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
-    "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
-    "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
-    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1.진법과 진법 변환.pdf",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/Chapter 02. 컴퓨터의 이해와 정보의 표현.pdf",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/컴퓨터에서의 정보의 표현.md",
+    "Obsidian/obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/Chapter 02. 컴퓨터의 이해와 정보의 표현.pdf",
+    "Obsidian/index.md",
+    "Obsidian/KR_history/고대/삼국시대/신라.md",
+    "Obsidian/KR_history/고대/삼국시대/백제.md",
+    "Obsidian/KR_history/고대/삼국시대/가야.md",
+    "Obsidian/KR_history/고대/삼국시대/고구려.md",
+    "Obsidian/KR_history/고대/남북국시대/발해.md",
+    "Obsidian/KR_history/고대/남북국시대/통일신라.md",
+    "Obsidian/KR_history/고려/외교.md",
+    "Obsidian/KR_history/고려/초기 정치.md",
+    "Obsidian/KR_history/고대/삼국시대",
+    "Obsidian/KR_history/고려/중기 정치.md",
+    "Obsidian/KR_history/고대/문화.md",
+    "Obsidian/KR_history/고대/경제 + 사회.md",
+    "Obsidian/KR_history/고대/남북국시대",
+    "Obsidian/KR_history/선사시대.md",
+    "Obsidian/KR_history/고려",
+    "Obsidian/KR_history/고대",
+    "Obsidian/KR_history/고대 이전.md",
+    "Obsidian/KR_history",
+    "Obsidian/constellation/내별자리.pdf",
+    "Obsidian/constellation/출생천도궁.png",
+    "Obsidian/constellation",
+    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
+    "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Vanishing Gradient 해결/Vanishing Gradient Effect.pdf",
+    "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
+    "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
+    "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Dropout.md",
+    "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
+    "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10.md",
+    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md",
+    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGDense.md",
+    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md",
+    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/UMNet.md",
+    "image/Pasted image 20240625152659.png",
     "image/Pasted image 20240620131107.png",
     "image/Pasted image 20240620131034.png",
     "image/Pasted image 20240620131018.png",
@@ -180,27 +220,6 @@
     "image/Pasted image 20240620130913.png",
     "image/Pasted image 20240620130844.png",
     "image/Pasted image 20240620130810.png",
-    "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
-    "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
-    "Pasted image 20240620131107.png",
-    "Pasted image 20240620131034.png",
-    "Pasted image 20240620131018.png",
-    "Obsidian/obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/5. 주소 지정 방식.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/6. CISC와 RISC.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/2. 제어 장치의 종류.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/3. 레지스터.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/4. 가상 기억 장치.md",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23_naive_bayes 1.md"
+    "Pasted image 20240620131107.png"
   ]
 }
