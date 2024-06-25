@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
+                "file": "Obsidian/Welcome.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
+                "file": "Obsidian/Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
+                "file": "Obsidian/Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md"
+                "file": "Obsidian/Welcome.md"
               }
             }
           }
@@ -146,11 +146,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6b7691a806cdd4c5",
+  "active": "ba9e23474eb62275",
   "lastOpenFiles": [
-    "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf",
-    "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습 2.pdf",
+    "Obsidian/obsidian/ComputerScience/선형대수학/01. 선형대수학의 개요/01. 선형대수학의 개요.pdf",
+    "Obsidian/obsidian/ComputerScience/선형대수학/02. 선형방정식/02. 선형방정식.pdf",
+    "Obsidian/obsidian/ComputerScience/코딩 기초와 문제해결",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
+    "Obsidian/obsidian/ComputerScience/선형대수학/09. 직교성/09. 직교성.pdf",
+    "Obsidian/obsidian/ComputerScience/선형대수학/08. 고유값과 고유벡터/08. 고유값과 고유벡터.pdf",
+    "Obsidian/obsidian/ComputerScience/선형대수학/07. 선형변환/07. 선형변환.pdf",
+    "Obsidian/obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
+    "Obsidian/obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf",
+    "Obsidian/obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf",
+    "Obsidian/obsidian/ComputerScience/선형대수학/03. 행렬/03. 행렬.pdf",
+    "Obsidian/obsidian/ComputerScience/선형대수학/09. 직교성",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
     "Obsidian/obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
@@ -163,8 +172,6 @@
     "image/Pasted image 20240620130810.png",
     "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
     "Obsidian/obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
-    "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/2024년1학기데이터구조_기말고사_공지용.pdf",
-    "Obsidian/obsidian/ComputerScience/데이터 구조/시험/기말/정렬관련기말고사예상문제 정리.pdf",
     "Pasted image 20240620131107.png",
     "Pasted image 20240620131034.png",
     "Pasted image 20240620131018.png",
@@ -184,15 +191,8 @@
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/3. 레지스터.md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
     "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/4. 가상 기억 장치.md",
-    "Obsidian/obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/기억 장치.pdf",
-    "Obsidian/obsidian/constellation/내별자리.pdf",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23_naive_bayes 1.md",
     "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/22_MAP 1.md",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/20_mle 1.md",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/23. naive bayers.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/22. map.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/20. mle.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/19. Sampling & Bootstrap.pdf",
-    "Obsidian/obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf"
+    "Obsidian/obsidian/ComputerScience/확률과 통계/기말 시험/20_mle 1.md"
   ]
 }
