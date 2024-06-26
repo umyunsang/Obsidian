@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "619a9f0ada45724d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f84a68bd5514f334",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/컴퓨터에서의 정보의 표현.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "7a60ac5a5716f36e",
         "type": "tabs",
         "children": [
@@ -34,19 +16,8 @@
                 "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/Chapter 02. 컴퓨터의 이해와 정보의 표현.pdf"
               }
             }
-          },
-          {
-            "id": "9e438d35467dcc9d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1.진법과 진법 변환.pdf"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -112,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/컴퓨터에서의 정보의 표현.md",
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/Chapter 02. 컴퓨터의 이해와 정보의 표현.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/컴퓨터에서의 정보의 표현.md",
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/Chapter 02. 컴퓨터의 이해와 정보의 표현.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/컴퓨터에서의 정보의 표현.md"
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/Chapter 02. 컴퓨터의 이해와 정보의 표현.pdf"
               }
             }
           }
@@ -173,13 +145,27 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f84a68bd5514f334",
+  "active": "c51a80e53bca378b",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1.진법과 진법 변환.pdf",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/Chapter 02. 컴퓨터의 이해와 정보의 표현.pdf",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/컴퓨터에서의 정보의 표현.md",
-    "Obsidian/obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/Chapter 02. 컴퓨터의 이해와 정보의 표현.pdf",
+    "image/Pasted image 20240625161905.png",
+    "image/Pasted image 20240625161828.png",
+    "image/Pasted image 20240625161639.png",
+    "image/Pasted image 20240625161557.png",
+    "image/Pasted image 20240625161535.png",
+    "image/Pasted image 20240625161352.png",
     "Obsidian/index.md",
+    "Obsidian/Welcome.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/5.에러 검출 코드.pdf",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/Chapter 02. 컴퓨터의 이해와 정보의 표현.pdf",
+    "2024-06-25.md",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/컴퓨터에서의 정보의 표현(시험문제 안나옴).md",
+    "Pasted image 20240625161905.png",
+    "Pasted image 20240625161828.png",
+    "Pasted image 20240625161639.png",
+    "Pasted image 20240625161557.png",
+    "Pasted image 20240625161535.png",
+    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1.진법과 진법 변환.pdf",
+    "Obsidian/obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/Chapter 02. 컴퓨터의 이해와 정보의 표현.pdf",
     "Obsidian/KR_history/고대/삼국시대/신라.md",
     "Obsidian/KR_history/고대/삼국시대/백제.md",
     "Obsidian/KR_history/고대/삼국시대/가야.md",
@@ -199,27 +185,13 @@
     "Obsidian/KR_history/고대 이전.md",
     "Obsidian/KR_history",
     "Obsidian/constellation/내별자리.pdf",
-    "Obsidian/constellation/출생천도궁.png",
-    "Obsidian/constellation",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
-    "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Vanishing Gradient 해결/Vanishing Gradient Effect.pdf",
     "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
     "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
     "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Dropout.md",
     "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
     "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGDense.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/UMNet.md",
-    "image/Pasted image 20240625152659.png",
-    "image/Pasted image 20240620131107.png",
-    "image/Pasted image 20240620131034.png",
-    "image/Pasted image 20240620131018.png",
-    "image/Pasted image 20240620130948.png",
-    "image/Pasted image 20240620130913.png",
-    "image/Pasted image 20240620130844.png",
-    "image/Pasted image 20240620130810.png",
-    "Pasted image 20240620131107.png"
+    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGDense.md"
   ]
 }
