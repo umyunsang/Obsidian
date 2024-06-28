@@ -11,11 +11,9 @@
             "id": "93b0a620208d3865",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/중간고사.md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/ComputerScience/선형대수학/03. 행렬/연습문제.pdf"
               }
             }
           }
@@ -69,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/중간고사.md",
+                "file": "Obsidian/ComputerScience/선형대수학/03. 행렬/연습문제.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/중간고사.md",
+                "file": "Obsidian/ComputerScience/선형대수학/03. 행렬/연습문제.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/중간고사.md"
+                "file": "Obsidian/ComputerScience/선형대수학/03. 행렬/연습문제.pdf"
               }
             }
           }
@@ -148,18 +147,17 @@
   },
   "active": "93b0a620208d3865",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/음성검색.pdf",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/2. 컴퓨팅 사고와 문제해결/음성검색.pdf",
+    "Obsidian/ComputerScience/선형대수학/03. 행렬/연습문제.pdf",
+    "Obsidian/ComputerScience/선형대수학/02. 선형방정식/연습문제.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/중간고사.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/2. 컴퓨팅 사고와 문제해결/02. 페인트 통.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/Chapter 04. 알고리즘과 프로그래밍 언어.pdf",
-    "Obsidian/ComputerScience/선형대수학/03. 행렬/연습문제.pdf",
     "Obsidian/ComputerScience/선형대수학/03. 행렬/03. 행렬.pdf",
     "Obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/2. 컴퓨팅 사고와 문제해결/01. 안녕 야옹이.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/2. 컴퓨팅 사고와 문제해결/컴퓨팅 사고와 문제해결.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/2. 컴퓨팅 사고와 문제해결",
-    "Obsidian/ComputerScience/선형대수학/02. 선형방정식/연습문제.pdf",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/컴퓨터의 이해와 정보의 표현.pdf",
     "image/Pasted image 20240625161905.png",
     "image/Pasted image 20240625161828.png",
     "image/Pasted image 20240625161639.png",
