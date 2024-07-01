@@ -4,16 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "1263e401a7a42694",
+        "id": "40ace727afd12766",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9cc46210e739971",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/연산자.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "2b97feb31d909582",
         "type": "tabs",
         "children": [
           {
             "id": "93b0a620208d3865",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/03. 행렬/연습문제.pdf"
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/연산자.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/03. 행렬/연습문제.pdf",
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/연산자.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/03. 행렬/연습문제.pdf",
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/연산자.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/03. 행렬/연습문제.pdf"
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/연산자.md"
               }
             }
           }
@@ -147,17 +165,22 @@
   },
   "active": "93b0a620208d3865",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/2. 컴퓨팅 사고와 문제해결/음성검색.pdf",
-    "Obsidian/ComputerScience/선형대수학/03. 행렬/연습문제.pdf",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/연산자.pdf",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/연산자.md",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/문법.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/문법.pdf",
+    "Obsidian/ComputerScience/선형대수학/04. 역행렬/연습문제.pdf",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/무제 폴더",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/Chapter 04. 알고리즘과 프로그래밍 언어.pdf",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어",
+    "Obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf",
+    "Obsidian/ComputerScience/선형대수학/02. 선형방정식/02. 선형방정식.pdf",
+    "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/2. 컴퓨팅 사고와 문제해결/컴퓨팅 사고와 문제해결.pdf",
     "Obsidian/ComputerScience/선형대수학/02. 선형방정식/연습문제.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/중간고사.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/2. 컴퓨팅 사고와 문제해결/02. 페인트 통.pdf",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/Chapter 04. 알고리즘과 프로그래밍 언어.pdf",
-    "Obsidian/ComputerScience/선형대수학/03. 행렬/03. 행렬.pdf",
-    "Obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/2. 컴퓨팅 사고와 문제해결/01. 안녕 야옹이.pdf",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/2. 컴퓨팅 사고와 문제해결/컴퓨팅 사고와 문제해결.pdf",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/2. 컴퓨팅 사고와 문제해결",
     "image/Pasted image 20240625161905.png",
     "image/Pasted image 20240625161828.png",
     "image/Pasted image 20240625161639.png",
@@ -186,11 +209,6 @@
     "Obsidian/KR_history/선사시대.md",
     "Obsidian/KR_history/고대 이전.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
-    "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
-    "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Batch Normalization.md",
-    "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Dropout.md",
-    "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
-    "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md"
+    "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md"
   ]
 }
