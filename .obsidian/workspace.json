@@ -4,32 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "de86aae1e5d0d91a",
+        "id": "359faee9fb8038a7",
         "type": "tabs",
         "children": [
           {
-            "id": "848f3b1a5d48e2f3",
+            "id": "716976ae69cf2479",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/04. 역행렬/연습문제.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "8aff968112df33bf",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "609e04708b740312",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf"
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -100,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/04. 역행렬/연습문제.pdf",
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/04. 역행렬/연습문제.pdf",
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/04. 역행렬/연습문제.pdf"
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md"
               }
             }
           }
@@ -161,8 +146,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "848f3b1a5d48e2f3",
+  "active": "716976ae69cf2479",
   "lastOpenFiles": [
+    "순서도_기호.jpg",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도작성_예.pdf",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/Chapter 04. 알고리즘과 프로그래밍 언어.pdf",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/전역변수, 지역변수.md",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/변수와 배열.md",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/연산자.md",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/문법.md",
+    "Obsidian/ComputerScience/선형대수학/04. 역행렬/연습문제.pdf",
     "Obsidian/ComputerScience/선형대수학/03. 행렬/연습문제.pdf",
     "Obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf",
     "Obsidian/ComputerScience/선형대수학/03. 행렬/03. 행렬.pdf",
@@ -172,15 +166,7 @@
     "Obsidian/ComputerScience/선형대수학/02. 선형방정식/연습문제.pdf",
     "Obsidian/ComputerScience/선형대수학/02. 선형방정식/예제문제.pdf",
     "Obsidian/ComputerScience/선형대수학/01. 선형대수학의 개요/01. 선형대수학의 개요.pdf",
-    "Obsidian/ComputerScience/선형대수학/01. 선형대수학의 개요/연습문제.pdf",
-    "Obsidian/ComputerScience/선형대수학/01. 선형대수학의 개요/예제문제.pdf",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도작성_예.pdf",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/전역변수, 지역변수.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/변수와 배열.md",
     "Obsidian/ComputerScience/선형대수학/02. 선형방정식/선형방정식.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/연산자.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/문법.md",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
     "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
