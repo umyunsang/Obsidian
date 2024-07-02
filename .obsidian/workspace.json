@@ -4,18 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "2b97feb31d909582",
+        "id": "de86aae1e5d0d91a",
         "type": "tabs",
         "children": [
           {
-            "id": "93b0a620208d3865",
+            "id": "848f3b1a5d48e2f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/변수와 배열.md",
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/전역변수, 지역변수.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "8aaf5d3b40a8e0e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64513665dc14092f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도작성_예.pdf"
               }
             }
           }
@@ -69,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -85,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/변수와 배열.md",
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/전역변수, 지역변수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/변수와 배열.md",
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/전역변수, 지역변수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/변수와 배열.md"
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/전역변수, 지역변수.md"
               }
             }
           }
@@ -146,8 +163,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "93b0a620208d3865",
+  "active": "848f3b1a5d48e2f3",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/전역변수, 지역변수.md",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도작성_예.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/변수와배열.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/변수와 배열.md",
     "Obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf",
@@ -159,7 +179,6 @@
     "Obsidian/ComputerScience/선형대수학/04. 역행렬/예제문제.pdf",
     "Obsidian/ComputerScience/선형대수학/03. 행렬/03. 행렬.pdf",
     "Obsidian/ComputerScience/선형대수학/02. 선형방정식/02. 선형방정식.pdf",
-    "Obsidian/ComputerScience/선형대수학/01. 선형대수학의 개요/01. 선형대수학의 개요.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/연산자.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/문법.md",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
@@ -191,7 +210,6 @@
     "Obsidian/KR_history/고려/중기 정치.md",
     "Obsidian/KR_history/고대/문화.md",
     "Obsidian/KR_history/고대/경제 + 사회.md",
-    "Obsidian/KR_history/선사시대.md",
-    "Obsidian/KR_history/고대 이전.md"
+    "Obsidian/KR_history/선사시대.md"
   ]
 }
