@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/전역변수, 지역변수.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/전역변수, 지역변수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/전역변수, 지역변수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md"
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/전역변수, 지역변수.md"
               }
             }
           }
@@ -148,24 +148,24 @@
   },
   "active": "716976ae69cf2479",
   "lastOpenFiles": [
-    "순서도_기호.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도작성_예.pdf",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/Chapter 04. 알고리즘과 프로그래밍 언어.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/전역변수, 지역변수.md",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/연산자.pdf",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/문법.pdf",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/변수와배열.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/변수와 배열.md",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/컴퓨터의 이해와 정보의 표현.pdf",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/2. 컴퓨팅 사고와 문제해결/음성검색.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/연산자.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/문법.md",
-    "Obsidian/ComputerScience/선형대수학/04. 역행렬/연습문제.pdf",
-    "Obsidian/ComputerScience/선형대수학/03. 행렬/연습문제.pdf",
-    "Obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf",
-    "Obsidian/ComputerScience/선형대수학/03. 행렬/03. 행렬.pdf",
-    "Obsidian/ComputerScience/선형대수학/03. 행렬/외울거.md",
-    "Pasted image 20240702190615.png",
-    "Obsidian/ComputerScience/선형대수학/02. 선형방정식/02. 선형방정식.pdf",
-    "Obsidian/ComputerScience/선형대수학/02. 선형방정식/연습문제.pdf",
-    "Obsidian/ComputerScience/선형대수학/02. 선형방정식/예제문제.pdf",
     "Obsidian/ComputerScience/선형대수학/01. 선형대수학의 개요/01. 선형대수학의 개요.pdf",
+    "Obsidian/ComputerScience/선형대수학/02. 선형방정식/02. 선형방정식.pdf",
+    "Obsidian/ComputerScience/선형대수학/03. 행렬/03. 행렬.pdf",
+    "Obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf",
+    "Obsidian/ComputerScience/선형대수학/03. 행렬/외울거.md",
+    "순서도_기호.jpg",
+    "Pasted image 20240702190615.png",
     "Obsidian/ComputerScience/선형대수학/02. 선형방정식/선형방정식.md",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
@@ -183,7 +183,6 @@
     "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/컴퓨터에서의 정보의 표현(시험문제 안나옴).md",
     "Pasted image 20240625161905.png",
     "Pasted image 20240625161828.png",
-    "Pasted image 20240625161639.png",
     "Obsidian/KR_history/고대/삼국시대/신라.md",
     "Obsidian/KR_history/고대/삼국시대/백제.md",
     "Obsidian/KR_history/고대/삼국시대/가야.md",
