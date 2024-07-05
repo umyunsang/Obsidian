@@ -11,11 +11,9 @@
             "id": "716976ae69cf2479",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 실습.md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf"
               }
             }
           }
@@ -86,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 실습.md",
+                "file": "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 실습.md",
+                "file": "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 실습.md"
+                "file": "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf"
               }
             }
           }
@@ -149,8 +147,9 @@
   },
   "active": "716976ae69cf2479",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/Led제어.md",
+    "Obsidian/ComputerScience/선형대수학/05. 행렬식/chapter 5 연습문제.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 실습.md",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/Led제어.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 입출력.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/2. 아두이노 입력 이해하기.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/1. 아두이노 출력.pdf",
@@ -158,7 +157,6 @@
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/풀다운_컨먼캐소드_led제어.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/풀업_컨먼애노드_led제어.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/풀업_컨먼캐소드_led제어.jpg",
-    "Obsidian/ComputerScience/선형대수학/05. 행렬식/chapter 5 연습문제.pdf",
     "풀업_컨먼애노드_led제어.jpg",
     "풀업_컨먼캐소드_led제어.jpg",
     "풀다운_컨먼캐소드_led제어.jpg",
@@ -193,7 +191,6 @@
     "Obsidian/KR_history/고대/삼국시대/고구려.md",
     "Obsidian/KR_history/고대/남북국시대/발해.md",
     "Obsidian/KR_history/고대/남북국시대/통일신라.md",
-    "Obsidian/KR_history/고려/외교.md",
-    "Obsidian/KR_history/고려/초기 정치.md"
+    "Obsidian/KR_history/고려/외교.md"
   ]
 }
