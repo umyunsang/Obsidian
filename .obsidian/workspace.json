@@ -11,9 +11,11 @@
             "id": "716976ae69cf2479",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf"
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 실습.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf",
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 실습.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf",
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 실습.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf"
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 실습.md"
               }
             }
           }
@@ -147,12 +148,19 @@
   },
   "active": "716976ae69cf2479",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/선형대수학/05. 행렬식/chapter 5 연습문제.pdf",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 실습.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/Led제어.md",
+    "자동차 헤드라이트 시스템.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 입출력.md",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/간단한 대화형 인공지능.pdf",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 실습.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/2. 아두이노 입력 이해하기.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/1. 아두이노 출력.pdf",
+    "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
+    "Obsidian/ComputerScience/선형대수학/06. 벡터/chapter 6 연습문제.pdf",
+    "Obsidian/ComputerScience/선형대수학/05. 행렬식/chapter 5 연습문제.pdf",
+    "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf",
+    "Obsidian/ComputerScience/선형대수학/07. 선형변환/07. 선형변환.pdf",
+    "Obsidian/ComputerScience/선형대수학/07. 선형변환/07. 선형변환.pdf",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/Led제어.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/풀다운_컨먼애노드_led제어.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/풀다운_컨먼캐소드_led제어.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/풀업_컨먼애노드_led제어.jpg",
@@ -162,16 +170,10 @@
     "풀다운_컨먼캐소드_led제어.jpg",
     "풀다운_컨먼애노드_led제어.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누",
-    "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf",
     "image/순서도_기호.jpg",
     "image/Pasted image 20240702190615.png",
-    "Obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/전역변수, 지역변수.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도작성_예.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/연산자.pdf",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/문법.pdf",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/변수와배열.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/변수와 배열.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/연산자.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/문법.md",
