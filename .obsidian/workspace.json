@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "79f93ae95ed2b012",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "716976ae69cf2479",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/무제 파일.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "c19bb4aac09529f6",
         "type": "tabs",
         "children": [
@@ -31,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf"
+                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/chapter 6 연습문제.pdf"
               }
             }
           }
@@ -85,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -102,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
+                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/chapter 6 연습문제.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
+                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/chapter 6 연습문제.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf"
+                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/chapter 6 연습문제.pdf"
               }
             }
           }
@@ -165,8 +146,11 @@
   },
   "active": "c36178d730f484a8",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/선형대수학/06. 벡터/무제 파일.md",
     "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
+    "Obsidian/ComputerScience/선형대수학/06. 벡터/chapter 6 연습문제.pdf",
+    "Obsidian/ComputerScience/선형대수학/07. 선형변환/07. 선형변환.pdf",
+    "Obsidian/ComputerScience/선형대수학/06. 벡터/6.5 벡터와 기하학.md",
+    "Obsidian/ComputerScience/선형대수학/07. 선형변환/7.1 선형변환.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도작성_예.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/5. 함수/함수.pdf",
@@ -183,8 +167,6 @@
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 입출력.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/2. 아두이노 입력 이해하기.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/1. 아두이노 출력.pdf",
-    "Obsidian/ComputerScience/선형대수학/06. 벡터/chapter 6 연습문제.pdf",
-    "Obsidian/ComputerScience/선형대수학/05. 행렬식/chapter 5 연습문제.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/Led제어.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/풀다운_컨먼애노드_led제어.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/풀다운_컨먼캐소드_led제어.jpg",
@@ -208,7 +190,6 @@
     "Obsidian/KR_history/고대/삼국시대/백제.md",
     "Obsidian/KR_history/고대/삼국시대/가야.md",
     "Obsidian/KR_history/고대/삼국시대/고구려.md",
-    "Obsidian/KR_history/고대/남북국시대/발해.md",
-    "Obsidian/KR_history/고대/남북국시대/통일신라.md"
+    "Obsidian/KR_history/고대/남북국시대/발해.md"
   ]
 }
