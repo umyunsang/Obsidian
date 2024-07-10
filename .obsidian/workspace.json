@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/5. 함수/함수.pdf"
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도작성_예.pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/5. 함수/함수.pdf",
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도작성_예.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/5. 함수/함수.pdf",
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도작성_예.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/5. 함수/함수.pdf"
+                "file": "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도작성_예.pdf"
               }
             }
           }
@@ -146,6 +146,8 @@
   },
   "active": "716976ae69cf2479",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/5. 함수/함수.pdf",
     "image/풀업_컨먼캐소드_led제어.jpg",
     "image/풀업_컨먼애노드_led제어.jpg",
     "image/풀다운_컨먼캐소드_led제어.jpg",
@@ -154,7 +156,6 @@
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/간단한 대화형 인공지능.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/스크래치.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 실습.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/5. 함수/함수.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/5. 함수",
     "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
     "자동차 헤드라이트 시스템.jpg",
@@ -169,9 +170,7 @@
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/풀다운_컨먼캐소드_led제어.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/풀업_컨먼애노드_led제어.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/풀업_컨먼캐소드_led제어.jpg",
-    "풀업_컨먼애노드_led제어.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/전역변수, 지역변수.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/변수와 배열.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/연산자.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/문법.md",
