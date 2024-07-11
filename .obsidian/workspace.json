@@ -8,6 +8,22 @@
         "type": "tabs",
         "children": [
           {
+            "id": "c5a1d776357dee8a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cafc37674936dd5b",
+        "type": "tabs",
+        "children": [
+          {
             "id": "c36178d730f484a8",
             "type": "leaf",
             "state": {
@@ -83,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/chapter 6 연습문제.pdf",
+                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/chapter 6 연습문제.pdf",
+                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/chapter 6 연습문제.pdf"
+                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf"
               }
             }
           }
@@ -144,34 +160,36 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c36178d730f484a8",
+  "active": "c5a1d776357dee8a",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터 주요 정의,정리.pdf",
     "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
     "Obsidian/ComputerScience/선형대수학/06. 벡터/chapter 6 연습문제.pdf",
+    "Obsidian/ComputerScience/선형대수학/07. 선형변환/7. 선형변환 주요 정의,정리.pdf",
+    "Obsidian/ComputerScience/선형대수학/07. 선형변환/7. 선형변환.md",
     "Obsidian/ComputerScience/선형대수학/07. 선형변환/07. 선형변환.pdf",
+    "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터.md",
+    "Pasted image 20240711153349.png",
+    "Pasted image 20240711153208.png",
+    "Obsidian/ComputerScience/선형대수학/07. 선형변환/chapter 7 연습문제.pdf",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/5. 함수/알고리즘연습2.pdf",
+    "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf",
+    "Obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf",
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/5. 함수/알고리즘연습1.pdf",
     "Obsidian/ComputerScience/선형대수학/06. 벡터/6.5 벡터와 기하학.md",
     "Obsidian/ComputerScience/선형대수학/07. 선형변환/7.1 선형변환.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도작성_예.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/5. 함수/함수.pdf",
     "image/풀업_컨먼캐소드_led제어.jpg",
     "image/풀업_컨먼애노드_led제어.jpg",
     "image/풀다운_컨먼캐소드_led제어.jpg",
     "image/풀다운_컨먼애노드_led제어.jpg",
     "image/자동차 헤드라이트 시스템.jpg",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/간단한 대화형 인공지능.pdf",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/스크래치.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 실습.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/5. 함수",
     "자동차 헤드라이트 시스템.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 입출력.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/2. 아두이노 입력 이해하기.pdf",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/1. 아두이노 출력.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/Led제어.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/풀다운_컨먼애노드_led제어.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/풀다운_컨먼캐소드_led제어.jpg",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/풀업_컨먼애노드_led제어.jpg",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/풀업_컨먼캐소드_led제어.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/전역변수, 지역변수.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/변수와 배열.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/연산자.md",
@@ -188,8 +206,6 @@
     "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/컴퓨터에서의 정보의 표현(시험문제 안나옴).md",
     "Obsidian/KR_history/고대/삼국시대/신라.md",
     "Obsidian/KR_history/고대/삼국시대/백제.md",
-    "Obsidian/KR_history/고대/삼국시대/가야.md",
-    "Obsidian/KR_history/고대/삼국시대/고구려.md",
-    "Obsidian/KR_history/고대/남북국시대/발해.md"
+    "Obsidian/KR_history/고대/삼국시대/가야.md"
   ]
 }
