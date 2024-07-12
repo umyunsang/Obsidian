@@ -11,9 +11,11 @@
             "id": "c5a1d776357dee8a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf"
+                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -29,7 +31,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/chapter 6 연습문제.pdf"
+                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터 주요 정의,정리.pdf"
               }
             }
           }
@@ -83,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -99,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
+                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
+                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf"
+                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터.md"
               }
             }
           }
@@ -162,20 +165,21 @@
   },
   "active": "c5a1d776357dee8a",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/선형대수학/07. 선형변환/chapter 7 연습문제.pdf",
+    "Obsidian/index.md",
     "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터 주요 정의,정리.pdf",
-    "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
-    "Obsidian/ComputerScience/선형대수학/06. 벡터/chapter 6 연습문제.pdf",
     "Obsidian/ComputerScience/선형대수학/07. 선형변환/7. 선형변환 주요 정의,정리.pdf",
+    "Obsidian/ComputerScience/선형대수학/05. 행렬식/chapter 5 연습문제.pdf",
     "Obsidian/ComputerScience/선형대수학/07. 선형변환/7. 선형변환.md",
     "Obsidian/ComputerScience/선형대수학/07. 선형변환/07. 선형변환.pdf",
+    "Obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf",
+    "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf",
+    "Obsidian/ComputerScience/선형대수학/06. 벡터/chapter 6 연습문제.pdf",
+    "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
     "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터.md",
     "Pasted image 20240711153349.png",
     "Pasted image 20240711153208.png",
-    "Obsidian/ComputerScience/선형대수학/07. 선형변환/chapter 7 연습문제.pdf",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/5. 함수/알고리즘연습2.pdf",
-    "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf",
-    "Obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/5. 함수/알고리즘연습1.pdf",
     "Obsidian/ComputerScience/선형대수학/06. 벡터/6.5 벡터와 기하학.md",
     "Obsidian/ComputerScience/선형대수학/07. 선형변환/7.1 선형변환.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
@@ -200,7 +204,6 @@
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
     "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/중간고사.md",
-    "Obsidian/index.md",
     "Obsidian/Welcome.md",
     "2024-06-25.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/컴퓨터에서의 정보의 표현(시험문제 안나옴).md",
