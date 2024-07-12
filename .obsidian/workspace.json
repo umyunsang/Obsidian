@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "c19bb4aac09529f6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c5a1d776357dee8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "cafc37674936dd5b",
         "type": "tabs",
         "children": [
@@ -31,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터 주요 정의,정리.pdf"
+                "file": "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf"
               }
             }
           }
@@ -85,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -102,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터.md",
+                "file": "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터.md",
+                "file": "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터.md"
+                "file": "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf"
               }
             }
           }
@@ -163,20 +144,21 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c5a1d776357dee8a",
+  "active": "c36178d730f484a8",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/선형대수학/07. 선형변환/chapter 7 연습문제.pdf",
-    "Obsidian/index.md",
-    "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터 주요 정의,정리.pdf",
     "Obsidian/ComputerScience/선형대수학/07. 선형변환/7. 선형변환 주요 정의,정리.pdf",
-    "Obsidian/ComputerScience/선형대수학/05. 행렬식/chapter 5 연습문제.pdf",
-    "Obsidian/ComputerScience/선형대수학/07. 선형변환/7. 선형변환.md",
     "Obsidian/ComputerScience/선형대수학/07. 선형변환/07. 선형변환.pdf",
+    "Obsidian/ComputerScience/선형대수학/07. 선형변환/chapter 7 연습문제.pdf",
     "Obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf",
+    "Obsidian/ComputerScience/선형대수학/04. 역행렬/연습문제.pdf",
+    "Obsidian/ComputerScience/선형대수학/05. 행렬식/chapter 5 연습문제.pdf",
     "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf",
     "Obsidian/ComputerScience/선형대수학/06. 벡터/chapter 6 연습문제.pdf",
-    "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
+    "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터 주요 정의,정리.pdf",
     "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터.md",
+    "Obsidian/index.md",
+    "Obsidian/ComputerScience/선형대수학/07. 선형변환/7. 선형변환.md",
+    "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
     "Pasted image 20240711153349.png",
     "Pasted image 20240711153208.png",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/5. 함수/알고리즘연습2.pdf",
