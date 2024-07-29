@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf"
+                "file": "Obsidian/ComputerScience/인공지능/4. Optimization/이론/Optimization(이론).pdf"
               }
             }
           }
@@ -67,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -83,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
+                "file": "Obsidian/ComputerScience/인공지능/4. Optimization/이론/Optimization(이론).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
+                "file": "Obsidian/ComputerScience/인공지능/4. Optimization/이론/Optimization(이론).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf"
+                "file": "Obsidian/ComputerScience/인공지능/4. Optimization/이론/Optimization(이론).pdf"
               }
             }
           }
@@ -146,22 +147,32 @@
   },
   "active": "c36178d730f484a8",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/이론/MLP(이론).pdf",
+    "Obsidian/ComputerScience/인공지능/3. Backpropagation/이론/Backpropagation (이론).pdf",
+    "Obsidian/ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/이론/MLP theorm.md",
+    "Obsidian/ComputerScience/인공지능/3. Backpropagation/이론/Backpropagation.md",
+    "Obsidian/ComputerScience/인공지능/1. Perceptron/이론/Perceptron (이론).pdf",
+    "Obsidian/ComputerScience/인공지능/1. Perceptron/이론/AND, NAND, OR 게이트.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/무제 파일.md",
+    "ch04.ipynb",
+    "Obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
+    "Obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/pooling.md",
+    "Obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN 모듈.md",
+    "Obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/LR control.md",
+    "Obsidian/ComputerScience/인공지능/5. CNN/실습/CNN (실습).pdf",
+    "Obsidian/ComputerScience/인공지능/5. CNN/실습/CNN 주요설계모듈(실습).pdf",
+    "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
+    "Obsidian/ComputerScience/머신러닝프로젝트",
+    "image/Pasted image 20240711153208.png",
+    "image/Pasted image 20240711153349.png",
     "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf",
     "Obsidian/ComputerScience/선형대수학/05. 행렬식/chapter 5 연습문제.pdf",
     "Obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf",
-    "Obsidian/ComputerScience/선형대수학/07. 선형변환/07. 선형변환.pdf",
-    "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
-    "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터 주요 정의,정리.pdf",
-    "Obsidian/ComputerScience/선형대수학/06. 벡터/chapter 6 연습문제.pdf",
-    "Obsidian/ComputerScience/선형대수학/07. 선형변환/7. 선형변환 주요 정의,정리.pdf",
-    "Obsidian/ComputerScience/선형대수학/07. 선형변환/chapter 7 연습문제.pdf",
-    "Obsidian/ComputerScience/선형대수학/04. 역행렬/연습문제.pdf",
     "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터.md",
     "Obsidian/index.md",
     "Obsidian/ComputerScience/선형대수학/07. 선형변환/7. 선형변환.md",
     "Pasted image 20240711153349.png",
     "Pasted image 20240711153208.png",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/5. 함수/알고리즘연습2.pdf",
     "Obsidian/ComputerScience/선형대수학/06. 벡터/6.5 벡터와 기하학.md",
     "Obsidian/ComputerScience/선형대수학/07. 선형변환/7.1 선형변환.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
@@ -174,8 +185,6 @@
     "자동차 헤드라이트 시스템.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 입출력.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/Led제어.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/풀다운_컨먼애노드_led제어.jpg",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/풀다운_컨먼캐소드_led제어.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/전역변수, 지역변수.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/변수와 배열.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/연산자.md",
@@ -183,14 +192,6 @@
     "Obsidian/ComputerScience/선형대수학/03. 행렬/외울거.md",
     "Obsidian/ComputerScience/선형대수학/02. 선형방정식/선형방정식.md",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
-    "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/중간고사.md",
-    "Obsidian/Welcome.md",
-    "2024-06-25.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/1. 컴퓨터에서의 정보의 표현/컴퓨터에서의 정보의 표현(시험문제 안나옴).md",
-    "Obsidian/KR_history/고대/삼국시대/신라.md",
-    "Obsidian/KR_history/고대/삼국시대/백제.md",
-    "Obsidian/KR_history/고대/삼국시대/가야.md"
+    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md"
   ]
 }
