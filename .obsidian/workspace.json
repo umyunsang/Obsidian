@@ -11,9 +11,11 @@
             "id": "c36178d730f484a8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/인공지능/4. Optimization/이론/Optimization(이론).pdf"
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/실력과제.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/인공지능/4. Optimization/이론/Optimization(이론).pdf",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/실력과제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/인공지능/4. Optimization/이론/Optimization(이론).pdf",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/실력과제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/인공지능/4. Optimization/이론/Optimization(이론).pdf"
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/실력과제.md"
               }
             }
           }
@@ -147,27 +149,38 @@
   },
   "active": "c36178d730f484a8",
   "lastOpenFiles": [
+    "Pasted image 20240730101033.png",
+    "Pasted image 20240730101014.png",
+    "Pasted image 20240730100944.png",
+    "Pasted image 20240730100923.png",
+    "Obsidian/ComputerScience/Python(basic)/5. 리스트, 튜플, 딕셔너리.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/실력과제.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/인공지능특강.pdf",
+    "Obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
+    "Obsidian/ComputerScience/Python(basic)/3. 반복문.md",
+    "Obsidian/ComputerScience/Python(basic)/2. 연산자.md",
+    "Obsidian/ComputerScience/Python(basic)/1. 변수와 자료형.md",
+    "Obsidian/ComputerScience/Python(basic)/6. 함수.md",
+    "Obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
+    "Obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
+    "Obsidian/ComputerScience/인공지능/5. CNN/이론/CNN Backpropagation(이론).pdf",
+    "Obsidian/ComputerScience/인공지능/5. CNN/이론/CNN 주요설계모듈(이론).pdf",
+    "Obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf",
+    "Obsidian/ComputerScience/인공지능/4. Optimization/이론/Optimization(이론).pdf",
     "Obsidian/ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/이론/MLP(이론).pdf",
     "Obsidian/ComputerScience/인공지능/3. Backpropagation/이론/Backpropagation (이론).pdf",
     "Obsidian/ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/이론/MLP theorm.md",
     "Obsidian/ComputerScience/인공지능/3. Backpropagation/이론/Backpropagation.md",
     "Obsidian/ComputerScience/인공지능/1. Perceptron/이론/Perceptron (이론).pdf",
     "Obsidian/ComputerScience/인공지능/1. Perceptron/이론/AND, NAND, OR 게이트.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/무제 파일.md",
     "ch04.ipynb",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/pooling.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN 모듈.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/LR control.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/CNN (실습).pdf",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/CNN 주요설계모듈(실습).pdf",
-    "Obsidian/ComputerScience/선형대수학/06. 벡터/06. 백터.pdf",
-    "Obsidian/ComputerScience/머신러닝프로젝트",
     "image/Pasted image 20240711153208.png",
     "image/Pasted image 20240711153349.png",
-    "Obsidian/ComputerScience/선형대수학/05. 행렬식/05. 행렬식.pdf",
-    "Obsidian/ComputerScience/선형대수학/05. 행렬식/chapter 5 연습문제.pdf",
-    "Obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf",
     "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터.md",
     "Obsidian/index.md",
     "Obsidian/ComputerScience/선형대수학/07. 선형변환/7. 선형변환.md",
@@ -179,19 +192,8 @@
     "image/풀업_컨먼캐소드_led제어.jpg",
     "image/풀업_컨먼애노드_led제어.jpg",
     "image/풀다운_컨먼캐소드_led제어.jpg",
-    "image/풀다운_컨먼애노드_led제어.jpg",
-    "image/자동차 헤드라이트 시스템.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 실습.md",
-    "자동차 헤드라이트 시스템.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 입출력.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/Led제어.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/전역변수, 지역변수.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/변수와 배열.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/연산자.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/문법.md",
-    "Obsidian/ComputerScience/선형대수학/03. 행렬/외울거.md",
-    "Obsidian/ComputerScience/선형대수학/02. 선형방정식/선형방정식.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md"
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/Led제어.md"
   ]
 }
