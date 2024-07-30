@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -149,6 +148,10 @@
   },
   "active": "c36178d730f484a8",
   "lastOpenFiles": [
+    "image/Pasted image 20240730101014.png",
+    "image/Pasted image 20240730100944.png",
+    "image/Pasted image 20240730100923.png",
+    "image/Pasted image 20240730101033.png",
     "Pasted image 20240730101033.png",
     "Pasted image 20240730101014.png",
     "Pasted image 20240730100944.png",
@@ -185,13 +188,9 @@
     "Obsidian/index.md",
     "Obsidian/ComputerScience/선형대수학/07. 선형변환/7. 선형변환.md",
     "Pasted image 20240711153349.png",
-    "Pasted image 20240711153208.png",
     "Obsidian/ComputerScience/선형대수학/06. 벡터/6.5 벡터와 기하학.md",
     "Obsidian/ComputerScience/선형대수학/07. 선형변환/7.1 선형변환.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
-    "image/풀업_컨먼캐소드_led제어.jpg",
-    "image/풀업_컨먼애노드_led제어.jpg",
-    "image/풀다운_컨먼캐소드_led제어.jpg",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 실습.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 입출력.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/Led제어.md"
