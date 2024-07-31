@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/성적입력 프로그램.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/성적입력 프로그램.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/성적입력 프로그램.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md"
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/성적입력 프로그램.md"
               }
             }
           }
@@ -149,11 +149,13 @@
   },
   "active": "c36178d730f484a8",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/Python(basic)/5. 리스트, 튜플, 딕셔너리.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/구구단 프로그램.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/성적입력 프로그램.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/실력과제.md",
     "Obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
+    "Obsidian/ComputerScience/Python(basic)/5. 리스트, 튜플, 딕셔너리.md",
     "Obsidian/ComputerScience/Python(basic)/6. 함수.md",
     "Obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/실력과제.md",
     "image/Pasted image 20240730101014.png",
     "image/Pasted image 20240730100944.png",
     "image/Pasted image 20240730100923.png",
@@ -192,7 +194,6 @@
     "Obsidian/ComputerScience/선형대수학/07. 선형변환/7.1 선형변환.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/3. 알고리즘과 프로그래밍 언어/순서도 작성.md",
     "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 실습.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 입출력.md",
-    "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/Led제어.md"
+    "Obsidian/ComputerScience/코딩 기초와 문제해결/4. 아두이누/아두이노 입출력.md"
   ]
 }
