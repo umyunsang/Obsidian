@@ -156,9 +156,9 @@ np.random.seed(42)      # 난수 시드 설정
 rnd = np.random.rand(5) # [0.37, 0.95, ..., 0.06] - 0~1 사이 난수 5개
 print(rnd)
 rnd = np.random.rand(5) * 10 + 165 # [166.0, 168.6, ..., 172.1] - 범위 조정
-print(rnd.round(2))     # 소수점
+print(rnd.round(2))     # 소수점 둘째 자리까지 반올림
 
- 둘째 자리까지 반올림
+
 print(rnd.astype(int))  # 정수로 변환
 
 nums = np.random.normal(loc=165, scale=10, size=(3, 4)).round(2)
