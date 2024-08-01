@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/성적입력 프로그램.md",
+                "file": "Obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/성적입력 프로그램.md",
+                "file": "Obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/성적입력 프로그램.md",
+                "file": "Obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/성적입력 프로그램.md"
+                "file": "Obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md"
               }
             }
           }
@@ -149,8 +149,8 @@
   },
   "active": "c36178d730f484a8",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/머신러닝프로젝트/구구단 프로그램.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/성적입력 프로그램.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/구구단 프로그램.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/실력과제.md",
     "Obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
     "Obsidian/ComputerScience/Python(basic)/5. 리스트, 튜플, 딕셔너리.md",
