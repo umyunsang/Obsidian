@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/subplot 그래프 예제.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/크기조정 및 그리드.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/subplot 그래프 예제.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/크기조정 및 그리드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/subplot 그래프 예제.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/크기조정 및 그리드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/subplot 그래프 예제.md"
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/크기조정 및 그리드.md"
               }
             }
           }
@@ -148,10 +148,17 @@
   },
   "active": "4c8aa8f5bae69c64",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/그래프 스타일 예제.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/subplot 그래프 예제.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/Matplotlib 그래프 예제.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/기본 그래프.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/크기조정 및 그리드.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/그래프 스타일.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/2024세미나자료.pdf",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/boxplot 주식 그래프.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/imshow 이미지 그래프.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/subplot  예제.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/subplot 생성.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/scatter 산점도 그래프.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/pie 원형 그래프.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/bar 막대 그래프.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib",
     "Obsidian/ComputerScience/머신러닝프로젝트/Numpy/Numpy 기초.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Python 기초/구구단 프로그램.md",
@@ -171,7 +178,6 @@
     "Obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
     "Obsidian/ComputerScience/Python(basic)/5. 리스트, 튜플, 딕셔너리.md",
     "Obsidian/ComputerScience/Python(basic)/6. 함수.md",
-    "Obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
     "image/Pasted image 20240730101014.png",
     "image/Pasted image 20240730100944.png",
     "image/Pasted image 20240730100923.png",
@@ -181,17 +187,11 @@
     "Pasted image 20240730100944.png",
     "Pasted image 20240730100923.png",
     "Obsidian/ComputerScience/머신러닝프로젝트/인공지능특강.pdf",
-    "Obsidian/ComputerScience/Python(basic)/지뢰찾기/지뢰찾기.md",
-    "Obsidian/ComputerScience/Python(basic)/3. 반복문.md",
-    "Obsidian/ComputerScience/Python(basic)/2. 연산자.md",
-    "Obsidian/ComputerScience/Python(basic)/1. 변수와 자료형.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/이론/CNN Backpropagation(이론).pdf",
     "Obsidian/ComputerScience/인공지능/5. CNN/이론/CNN 주요설계모듈(이론).pdf",
     "Obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf",
     "Obsidian/ComputerScience/인공지능/4. Optimization/이론/Optimization(이론).pdf",
     "Obsidian/ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/이론/MLP(이론).pdf",
-    "Obsidian/ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/이론/MLP theorm.md",
-    "Obsidian/ComputerScience/인공지능/3. Backpropagation/이론/Backpropagation.md",
     "image/Pasted image 20240711153208.png",
     "image/Pasted image 20240711153349.png"
   ]
