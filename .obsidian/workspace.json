@@ -11,9 +11,11 @@
             "id": "4c8aa8f5bae69c64",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/2024세미나자료.pdf"
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/subplot 그래프 예제.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/2024세미나자료.pdf",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/subplot 그래프 예제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/2024세미나자료.pdf",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/subplot 그래프 예제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/2024세미나자료.pdf"
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/subplot 그래프 예제.md"
               }
             }
           }
@@ -147,8 +148,12 @@
   },
   "active": "4c8aa8f5bae69c64",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/머신러닝프로젝트/Numpy/Numpy 기초.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/그래프 스타일 예제.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/subplot 그래프 예제.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/Matplotlib 그래프 예제.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/2024세미나자료.pdf",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Numpy/Numpy 기초.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Python 기초/구구단 프로그램.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Python 기초/성적입력 프로그램.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Python 기초/실력과제.md",
@@ -185,11 +190,8 @@
     "Obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf",
     "Obsidian/ComputerScience/인공지능/4. Optimization/이론/Optimization(이론).pdf",
     "Obsidian/ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/이론/MLP(이론).pdf",
-    "Obsidian/ComputerScience/인공지능/3. Backpropagation/이론/Backpropagation (이론).pdf",
     "Obsidian/ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/이론/MLP theorm.md",
     "Obsidian/ComputerScience/인공지능/3. Backpropagation/이론/Backpropagation.md",
-    "Obsidian/ComputerScience/인공지능/1. Perceptron/이론/AND, NAND, OR 게이트.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
     "image/Pasted image 20240711153208.png",
     "image/Pasted image 20240711153349.png"
   ]
