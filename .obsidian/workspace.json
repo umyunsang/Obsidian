@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4c8aa8f5bae69c64",
+            "id": "e7a571399105875c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/크기조정 및 그리드.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Series.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/크기조정 및 그리드.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/크기조정 및 그리드.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/크기조정 및 그리드.md"
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Series.md"
               }
             }
           }
@@ -146,12 +146,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4c8aa8f5bae69c64",
+  "active": "e7a571399105875c",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/기본 그래프.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/크기조정 및 그리드.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/그래프 스타일.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Dataframe.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/2024세미나자료.pdf",
+    "Obsidian/ComputerScience/머신러닝프로젝트/인공지능특강.pdf",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Series.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/무제 폴더",
+    "Obsidian/ComputerScience/인공지능/3. Backpropagation/이론/Backpropagation.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Pandas",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/크기조정 및 그리드.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/기본 그래프.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/그래프 스타일.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/boxplot 주식 그래프.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/imshow 이미지 그래프.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/subplot  예제.md",
@@ -172,12 +178,8 @@
     "Obsidian/ComputerScience/데이터 구조/3. 큐/큐.md",
     "Obsidian/ComputerScience/데이터 구조/1. 리스트/원형 연결 리스트.md",
     "Obsidian/ComputerScience/데이터 구조/1. 리스트/단순 연결 리스트.md",
-    "Obsidian/ComputerScience/데이터 구조/1. 리스트/이중 연결 리스트.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Python 기초",
     "Obsidian/ComputerScience/머신러닝프로젝트/Numpy",
-    "Obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
-    "Obsidian/ComputerScience/Python(basic)/5. 리스트, 튜플, 딕셔너리.md",
-    "Obsidian/ComputerScience/Python(basic)/6. 함수.md",
     "image/Pasted image 20240730101014.png",
     "image/Pasted image 20240730100944.png",
     "image/Pasted image 20240730100923.png",
@@ -186,12 +188,9 @@
     "Pasted image 20240730101014.png",
     "Pasted image 20240730100944.png",
     "Pasted image 20240730100923.png",
-    "Obsidian/ComputerScience/머신러닝프로젝트/인공지능특강.pdf",
     "Obsidian/ComputerScience/인공지능/5. CNN/이론/CNN Backpropagation(이론).pdf",
     "Obsidian/ComputerScience/인공지능/5. CNN/이론/CNN 주요설계모듈(이론).pdf",
     "Obsidian/ComputerScience/인공지능/5. CNN/이론/CNN (이론).pdf",
-    "Obsidian/ComputerScience/인공지능/4. Optimization/이론/Optimization(이론).pdf",
-    "Obsidian/ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/이론/MLP(이론).pdf",
     "image/Pasted image 20240711153208.png",
     "image/Pasted image 20240711153349.png"
   ]
