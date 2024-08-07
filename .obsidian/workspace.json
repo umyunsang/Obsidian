@@ -11,9 +11,11 @@
             "id": "e7a571399105875c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/01_K-NN.pdf"
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Pivot.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/01_K-NN.pdf",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Pivot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/01_K-NN.pdf",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Pivot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/01_K-NN.pdf"
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Pivot.md"
               }
             }
           }
@@ -144,11 +146,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ba9e23474eb62275",
+  "active": "e7a571399105875c",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/머신러닝프로젝트/01_K-NN.pdf",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Pivot.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/인공지능특강.pdf",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Data_analysis.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/KNN",
     "Obsidian/ComputerScience/머신러닝프로젝트/2024세미나자료.pdf",
-    "Obsidian/ComputerScience/머신러닝프로젝트/01_K-NN.pdf",
     "Obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
     "Obsidian/ComputerScience/확률과 통계/기말 시험/23_naive_bayes 1.md",
     "Obsidian/ComputerScience/확률과 통계/기말 시험/23. naive bayers.pdf",
@@ -161,8 +166,6 @@
     "Obsidian/ComputerScience/확률과 통계/기말 시험/16. continous_joint_probability_i.pdf",
     "Obsidian/ComputerScience/확률과 통계/기말 시험",
     "Obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
-    "Obsidian/ComputerScience/확률과 통계/중간 시험/11_joint_rvs.pdf",
-    "Obsidian/ComputerScience/확률과 통계/중간 시험/10_normal_gaussian.pdf",
     "Obsidian/ComputerScience/확률과 통계/23.naive_bayes/23_naive_bayes.md",
     "Obsidian/ComputerScience/확률과 통계/12.Independent_RVs/Independent RVs.md",
     "Obsidian/ComputerScience/확률과 통계/4.Bayes_theorem/문제 풀이.md",
@@ -180,8 +183,6 @@
     "Obsidian/ComputerScience/확률과 통계/6.Random_Variables/Expectation.md",
     "Obsidian/ComputerScience/확률과 통계/4-0.Conditional_Probability/문제풀이.md",
     "Obsidian/ComputerScience/확률과 통계/4-0.Conditional_Probability/Conditional Probability.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Dataframe.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Series.md",
     "image/Pasted image 20240730101014.png",
     "image/Pasted image 20240730100944.png",
     "image/Pasted image 20240730100923.png",
