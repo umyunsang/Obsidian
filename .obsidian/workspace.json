@@ -11,8 +11,12 @@
             "id": "a2ad01e9336a3fc8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Multi_Regression.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Multi_Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Multi_Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Multi_Regression.md"
+              }
             }
           }
         ]
@@ -140,6 +148,8 @@
   },
   "active": "a2ad01e9336a3fc8",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/04_Regression_Multiple.pdf",
+    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Multi_Regression.md",
     "Obsidian/ComputerScience/Python(basic)/무제 파일.md",
     "Obsidian/ComputerScience/Python(basic)/1. 변수와 자료형.md",
     "Obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
@@ -167,15 +177,12 @@
     "Obsidian/ComputerScience/확률과 통계/기말 시험/20_mle 1.md",
     "Obsidian/ComputerScience/확률과 통계/기말 시험/20. mle.pdf",
     "Obsidian/ComputerScience/확률과 통계/기말 시험/19_sampling 1.md",
-    "Obsidian/ComputerScience/확률과 통계/기말 시험/19. Sampling & Bootstrap.pdf",
     "Obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
     "Obsidian/ComputerScience/확률과 통계/23.naive_bayes/23_naive_bayes.md",
     "Obsidian/ComputerScience/확률과 통계/12.Independent_RVs/Independent RVs.md",
     "Obsidian/ComputerScience/확률과 통계/4.Bayes_theorem/문제 풀이.md",
     "Obsidian/ComputerScience/확률과 통계/4.Bayes_theorem/Bayes' Theorem.md",
     "Obsidian/ComputerScience/확률과 통계/11.joint_RVs/문제 풀이.md",
-    "Obsidian/ComputerScience/확률과 통계/11.joint_RVs/joint RVs.md",
-    "Obsidian/ComputerScience/확률과 통계/10.Normal_RV/문제 풀이.md",
     "image/Pasted image 20240730101014.png",
     "image/Pasted image 20240730100944.png",
     "image/Pasted image 20240730100923.png",
