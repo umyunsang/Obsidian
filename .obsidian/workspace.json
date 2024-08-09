@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "079f319dff0e19de",
+        "id": "5f9b6f32df6df8a6",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a571399105875c",
+            "id": "a2ad01e9336a3fc8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,12 +138,21 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e7a571399105875c",
+  "active": "a2ad01e9336a3fc8",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/Python(basic)/무제 파일.md",
+    "Obsidian/ComputerScience/Python(basic)/1. 변수와 자료형.md",
+    "Obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
+    "Obsidian/ComputerScience/Python(basic)/6. 함수.md",
+    "Obsidian/ComputerScience/Python(basic)/5. 리스트, 튜플, 딕셔너리.md",
+    "Obsidian/ComputerScience/Python(basic)/4. 조건문.md",
+    "Obsidian/ComputerScience/Python(basic)/3. 반복문.md",
+    "Obsidian/ComputerScience/Python(basic)/2. 연산자.md",
+    "Obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Classifier.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/KNN/03_Regression_Lin&poly.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/KNN/02_Regression_K-NN.pdf",
-    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/KNN/01_K-NN.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Pivot.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/인공지능특강.pdf",
@@ -175,14 +176,6 @@
     "Obsidian/ComputerScience/확률과 통계/11.joint_RVs/문제 풀이.md",
     "Obsidian/ComputerScience/확률과 통계/11.joint_RVs/joint RVs.md",
     "Obsidian/ComputerScience/확률과 통계/10.Normal_RV/문제 풀이.md",
-    "Obsidian/ComputerScience/확률과 통계/10.Normal_RV/Normal Distribution.md",
-    "Obsidian/ComputerScience/확률과 통계/9.Continuous_RVs/문제 풀이.md",
-    "Obsidian/ComputerScience/확률과 통계/9.Continuous_RVs/Continuous RVs.md",
-    "Obsidian/ComputerScience/확률과 통계/7-2.Binomial_RV/Binomial Distribution.md",
-    "Obsidian/ComputerScience/확률과 통계/7-1.Bernoulli_RV/Bernoulli Distribution.md",
-    "Obsidian/ComputerScience/확률과 통계/6.Random_Variables/문제 풀이.md",
-    "Obsidian/ComputerScience/확률과 통계/6.Random_Variables/Random Variables.md",
-    "Obsidian/ComputerScience/확률과 통계/6.Random_Variables/Expectation.md",
     "image/Pasted image 20240730101014.png",
     "image/Pasted image 20240730100944.png",
     "image/Pasted image 20240730100923.png",
