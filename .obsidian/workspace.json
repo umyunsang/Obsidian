@@ -11,11 +11,9 @@
             "id": "a2ad01e9336a3fc8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/ComputerScience/인공지능/필기 과제.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
+                "file": "Obsidian/ComputerScience/인공지능/필기 과제.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
+                "file": "Obsidian/ComputerScience/인공지능/필기 과제.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md"
+                "file": "Obsidian/ComputerScience/인공지능/필기 과제.pdf"
               }
             }
           }
@@ -148,6 +146,10 @@
   },
   "active": "a2ad01e9336a3fc8",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/인공지능/중간시험/인공지능_중간고사_엄윤상_1705817.md",
+    "Obsidian/ComputerScience/인공지능/중간시험/24_인공지능_중간고사.pdf",
+    "Obsidian/ComputerScience/인공지능/기말시험/시험 예상 문제.md",
+    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGDense.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md",
@@ -160,7 +162,6 @@
     "Obsidian/ComputerScience/인공지능/4. Optimization/실습/Momentum.md",
     "Obsidian/ComputerScience/인공지능/4. Optimization/실습/Optimizer.pdf",
     "Obsidian/ComputerScience/인공지능/4. Optimization/실습/Adam.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/CNN (실습).pdf",
     "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.pdf",
     "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
@@ -175,7 +176,6 @@
     "Obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/확인문제.md",
     "Obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/확인문제.md",
     "Obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
-    "Obsidian/ComputerScience/데이터 구조/2. 스택/스택.md",
     "Obsidian/ComputerScience/데이터 구조/시험/중간/[데이터구조]2024년1학기중간고사예상문제.pdf",
     "Obsidian/ComputerScience/데이터 구조/시험/기말/정렬관련기말고사예상문제 정리.pdf",
     "Obsidian/ComputerScience/데이터 구조/시험/기말/2024년1학기데이터구조_기말고사_공지용.pdf",
@@ -184,7 +184,6 @@
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/중앙 처리 장치.pdf",
     "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1.논리 게이트.pdf",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/2.정수 표현.pdf",
-    "Obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/기억 장치.pdf",
     "image/Pasted image 20240730101014.png",
     "image/Pasted image 20240730100944.png",
     "image/Pasted image 20240730100923.png",
