@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/4. 가상 기억 장치.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/4. 가상 기억 장치.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/4. 가상 기억 장치.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md"
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/4. 가상 기억 장치.md"
               }
             }
           }
@@ -148,18 +148,27 @@
   },
   "active": "a2ad01e9336a3fc8",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/5. 파이프 라이닝.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/4. 프로세서 제어.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/2. 제어 장치의 종류.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/6. CISC와 RISC.md",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/5. 주소 지정 방식.md",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/3. 레지스터.md",
+    "image/Pasted image 20240812132713.png",
+    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/중앙 처리 장치.pdf",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md",
     "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1.논리 게이트.pdf",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/2.정수 표현.pdf",
     "Obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/기억 장치.pdf",
     "Obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
     "Obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/4. 가상 기억 장치.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/2. 주기억 장치.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/1. 기억 장치 시스템의 개요.md",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1.진법과 진법 변환.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Logistic/logistic.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Logistic",
@@ -167,7 +176,6 @@
     "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Regression",
     "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression",
     "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Classifier",
-    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/06_Regression_Incremental learning.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Multiple/Multi_Regression.md",
     "Obsidian/ComputerScience/Python(basic)/무제 파일.md",
     "Obsidian/ComputerScience/Python(basic)/1. 변수와 자료형.md",
@@ -177,13 +185,6 @@
     "Obsidian/ComputerScience/Python(basic)/4. 조건문.md",
     "Obsidian/ComputerScience/Python(basic)/3. 반복문.md",
     "Obsidian/ComputerScience/Python(basic)/2. 연산자.md",
-    "Obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Regression/Regression.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Classifier/Classifier.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Pivot.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Data_analysis.md",
-    "Obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
-    "Obsidian/ComputerScience/확률과 통계/기말 시험/23_naive_bayes 1.md",
     "image/Pasted image 20240730101014.png",
     "image/Pasted image 20240730100944.png",
     "image/Pasted image 20240730100923.png",
@@ -192,7 +193,6 @@
     "Pasted image 20240730101014.png",
     "Pasted image 20240730100944.png",
     "Pasted image 20240730100923.png",
-    "image/Pasted image 20240711153208.png",
-    "image/Pasted image 20240711153349.png"
+    "image/Pasted image 20240711153208.png"
   ]
 }
