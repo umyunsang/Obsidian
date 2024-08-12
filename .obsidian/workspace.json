@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
+                "file": "Obsidian/ComputerScience/데이터 구조/2. 스택/스택.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
+                "file": "Obsidian/ComputerScience/데이터 구조/2. 스택/스택.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
+                "file": "Obsidian/ComputerScience/데이터 구조/2. 스택/스택.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md"
+                "file": "Obsidian/ComputerScience/데이터 구조/2. 스택/스택.md"
               }
             }
           }
@@ -148,7 +148,24 @@
   },
   "active": "a2ad01e9336a3fc8",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/데이터 구조/1. 리스트/이중 연결 리스트.md",
+    "Obsidian/ComputerScience/데이터 구조/3. 큐/큐.md",
+    "Obsidian/ComputerScience/데이터 구조/2. 스택/스택.md",
+    "Obsidian/ComputerScience/데이터 구조/1. 리스트/원형 연결 리스트.md",
+    "Obsidian/ComputerScience/데이터 구조/1. 리스트/단순 연결 리스트.md",
+    "Obsidian/ComputerScience/데이터 구조/시험/중간/중간_데이터구조 답지.md",
+    "Obsidian/ComputerScience/데이터 구조/시험/중간/[데이터구조]2024년1학기중간고사예상문제.pdf",
+    "Obsidian/ComputerScience/데이터 구조/시험/기말/기말_데이터구조 답지.md",
+    "Obsidian/ComputerScience/데이터 구조/시험/기말/정렬관련기말고사예상문제 정리.pdf",
+    "Obsidian/ComputerScience/데이터 구조/시험/기말/2024년1학기데이터구조_기말고사_공지용.pdf",
+    "Obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
+    "Obsidian/ComputerScience/데이터 구조/4. 트리/AVL.md",
+    "Obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
+    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/5. 주소 지정 방식.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
+    "Pasted image 20240812142815.png",
     "Obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
     "Obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/3. 캐시 기억 장치.md",
     "Obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/4. 가상 기억 장치.md",
@@ -160,31 +177,15 @@
     "Obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
     "Obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/2. 제어 장치의 종류.md",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/6. CISC와 RISC.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/5. 주소 지정 방식.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/3. 레지스터.md",
     "image/Pasted image 20240812132713.png",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/중앙 처리 장치.pdf",
-    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
     "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1.논리 게이트.pdf",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/2.정수 표현.pdf",
     "Obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/기억 장치.pdf",
-    "Obsidian/ComputerScience/컴퓨터 구조/5. 기억 장치/과제_CacheFriendly코딩실습.md",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1.진법과 진법 변환.pdf",
-    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Logistic/logistic.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Logistic",
     "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Multiple",
-    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Regression",
-    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression",
-    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Classifier",
-    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Multiple/Multi_Regression.md",
-    "Obsidian/ComputerScience/Python(basic)/무제 파일.md",
-    "Obsidian/ComputerScience/Python(basic)/1. 변수와 자료형.md",
-    "Obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
-    "Obsidian/ComputerScience/Python(basic)/6. 함수.md",
-    "Obsidian/ComputerScience/Python(basic)/5. 리스트, 튜플, 딕셔너리.md",
-    "Obsidian/ComputerScience/Python(basic)/4. 조건문.md",
-    "Obsidian/ComputerScience/Python(basic)/3. 반복문.md",
     "image/Pasted image 20240730101014.png",
     "image/Pasted image 20240730100944.png",
     "image/Pasted image 20240730100923.png",
@@ -192,7 +193,6 @@
     "Pasted image 20240730101033.png",
     "Pasted image 20240730101014.png",
     "Pasted image 20240730100944.png",
-    "Pasted image 20240730100923.png",
-    "image/Pasted image 20240711153208.png"
+    "Pasted image 20240730100923.png"
   ]
 }

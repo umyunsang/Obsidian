@@ -4,12 +4,12 @@
 - 트리는 나무 모양의 자료구조 
 	- 계층적인 관계를 가진 자료의 표현에 매우 유용 
 	- 비선형 자료구조, 계층구조 
-	![[Pasted image 20240511132732.png]]
+	![](../../../../image/Pasted%20image%2020240511132732.png)
 - 활용 예시: 운영체제의 파일시스템, 탐색 트리, 우선순위 큐, 결정 트리 등
 
 #### 트리(TREE) 관련 용어
 
-![[Pasted image 20240511132912.png]]
+![](../../../../image/Pasted%20image%2020240511132912.png)
 
 | 용어     | 내용                                                        |
 | ------ | --------------------------------------------------------- |
@@ -28,16 +28,16 @@
 	- 중첩된 집합
 	- 중첩된 괄호
 	- 들여쓰기 (indentation)
-	![[Pasted image 20240511133126.png]]
+	![](../../../../image/Pasted%20image%2020240511133126.png)
 
 #### 트리(TREE) 표현법
 - 방법1 : N-링크표현
 	- 자식의 개수에 제한이 없는 트리 (genderal TREE)
-		![[Pasted image 20240511133321.png]]
+		![](../../../../image/Pasted%20image%2020240511133321.png)
 
 - 방법2: 왼쪽 자식 – 오른쪽 형제
 
-![[Pasted image 20240511133507.png]]
+	![](../../../../image/Pasted%20image%2020240511133507.png)
 
 
 #### 이진 트리 (Binary TREE)
@@ -55,7 +55,7 @@
 
 #### 이진 트리 (Binary TREE) 종류
 
-![[Pasted image 20240511133810.png]]
+![](../../../../image/Pasted%20image%2020240511133810.png)
 
 - 포화 이진 트리 (full binary tree)
 	- 트리의 각 레벨에 노드가 꽉 차 있는 이진 트리
@@ -64,23 +64,23 @@
 	- 마지막 레벨에서는 노드가 꽉 차 있지 않아도 되지만 중간에 빈 곳이 있으면 안 됨 
 	- “포화 이진 트리는 항상 완전 이진 트리”는 성립, “완전 이진 트리는 항상 포화 이진 트리”는 성립되지 않음
 	
-	![[Pasted image 20240511134048.png]]
+	![](../../../../image/Pasted%20image%2020240511134048.png)
 	
 - 균형 이진 트리 (balanced binary tree)
 	- 높이 균형 이진 트리 (height-balanced binary tree) 
 	- 모든 노드에서 좌우 서브 트리의 높이 차이가 1 이하인 트리를 말하며, 높이 차이가 1 초과할 경우 경사트리
 	
-	![[Pasted image 20240511134217.png]]
+	![](../../../../image/Pasted%20image%2020240511134217.png)
 
 #### 이진 트리 (Binary TREE) 와 배열 자료형의 관계
 
-![[Pasted image 20240511134312.png]]
+![](../../../../image/Pasted%20image%2020240511134312.png)
 
 - 이진 트리의 특성을 활용한 배열 자료형에 저장할 경우 탐색 및 활용이 용이함 
 - 배열의 첫 인덱스는 건너띄고, 두번째 인덱스 부터 저장 
 - 루트 노드부터 각 레벨로 내려오고, 각 레벨은 왼쪽에서 오른쪽으로 순차적으로 저장
 
-![[Pasted image 20240511134458.png]]
+![](../../../../image/Pasted%20image%2020240511134458.png)
 
 **Quiz**
 	문제 1. "D"의 부모 노드는? -> B
@@ -89,7 +89,7 @@
 
 #### 이진 트리 구현을 위한 클래스
 
-![[Pasted image 20240511135134.png]]
+![](../../../../image/Pasted%20image%2020240511135134.png)
 ```python
 class TreeNode:
 	def __init__(self, value, left=None, right=None):
@@ -127,7 +127,7 @@ def preorder_recursive(node):
 		preorder_recursive(node.left)
 		preorder_recursive(node.right)
 ```
-	![[Pasted image 20240511140018.png]]
+![](../../../../image/Pasted%20image%2020240511140018.png)
 
 **2. 중위순회 출력 (inorder traversal) : L(left)V(root)R(right)**
 
@@ -139,7 +139,7 @@ def inorder_recursive(node):
 		inorder_recursive(node.right)
 ```
 
-![[Pasted image 20240511140621.png]]
+![](../../../../image/Pasted%20image%2020240511140621.png)
 
 **3. 후위순회 출력 (postorder traversal) : L(left)R(right)V(root)
 
@@ -151,7 +151,7 @@ def postorder_recursive(node):
 		print(node.value, end=' ')
 ```
 
-![[Pasted image 20240511140823.png]]
+![](../../../../image/Pasted%20image%2020240511140823.png)
 
 #### 전체 노드의 수 구하기
 - 왼쪽 서브 트리의 노드 수와 오른쪽 서브 트리의 노드 수의 합
