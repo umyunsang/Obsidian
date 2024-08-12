@@ -1,6 +1,6 @@
 
 ---
-![[Pasted image 20240527182119.png]]
+![](../../../../../../image/Pasted%20image%2020240527182119.png)
 
 #### Channel attention (CA) 실험
 

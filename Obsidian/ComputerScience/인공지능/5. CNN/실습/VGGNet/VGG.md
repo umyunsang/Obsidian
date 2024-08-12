@@ -1,6 +1,6 @@
 
 ---
-![[Pasted image 20240527181027.png]]
+![](../../../../../../image/Pasted%20image%2020240527181027.png)
 
 #### VGGNet(VGG-16) 모듈
 

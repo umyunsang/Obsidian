@@ -1,6 +1,6 @@
 
 ---
-![[Pasted image 20240527181542.png]]
+![](../../../../../../image/Pasted%20image%2020240527181542.png)
 
 ####  Skip connection 실습  
 

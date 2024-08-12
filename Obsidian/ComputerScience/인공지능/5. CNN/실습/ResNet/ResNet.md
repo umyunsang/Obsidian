@@ -1,6 +1,6 @@
 
 ---
-![[Pasted image 20240604143441.png]]
+![](../../../../../../image/Pasted%20image%2020240604143441.png)
 ### ResNet 모듈
 
 ```python

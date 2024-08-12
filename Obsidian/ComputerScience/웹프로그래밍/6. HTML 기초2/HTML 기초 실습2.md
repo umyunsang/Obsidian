@@ -39,7 +39,7 @@
              <td>2행 3열
     </table>
 ```
-![[Pasted image 20240610170328.png]]
+![](../../../../image/Pasted%20image%2020240610170328.png)
 -  **rowspan**
 	- 행을 합치는 방법입니다.
 	- 예시:
@@ -52,7 +52,7 @@
              <td>2행 3열
     </table>
 ```
-![[Pasted image 20240610170137.png]]
+![](../../../../image/Pasted%20image%2020240610170137.png)
 
 ### HTML `input` 태그의 `type` 속성: `range`와 `number`
 
@@ -133,7 +133,7 @@
 | `disabled`  | 폼 요소가 비활성화되어 사용자가 상호작용할 수 없음을 지정. 폼 제출 시 전송되지 않음.                   | `<input>`, `<textarea>`, `<select>`, `<button>`, `<fieldset>`, `<option>`, `<optgroup>`                     |
 
 ---
-![[Pasted image 20240610170610.png]]
+![](../../../../image/Pasted%20image%2020240610170610.png)
 
 ```html
 <!DOCTYPE html>

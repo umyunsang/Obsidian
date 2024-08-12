@@ -1,6 +1,6 @@
 
 ---
-![[Pasted image 20240527181924.png]]
+![](../../../../../../image/Pasted%20image%2020240527181924.png)
 
 #### Dense connection 실험
 
