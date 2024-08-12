@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Multi_Regression.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Logistic/logistic.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Multi_Regression.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Logistic/logistic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Multi_Regression.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Logistic/logistic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Multi_Regression.md"
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Logistic/logistic.md"
               }
             }
           }
@@ -146,10 +146,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a2ad01e9336a3fc8",
+  "active": "ba9e23474eb62275",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/04_Regression_Multiple.pdf",
-    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Multi_Regression.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Logistic",
+    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Multiple",
+    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Regression",
+    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression",
+    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Classifier",
+    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/06_Regression_Incremental learning.pdf",
+    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Logistic/logistic.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Logistic/05_Regression_Logistic.pdf",
+    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Multiple/Multi_Regression.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Multiple/04_Regression_Multiple.pdf",
     "Obsidian/ComputerScience/Python(basic)/무제 파일.md",
     "Obsidian/ComputerScience/Python(basic)/1. 변수와 자료형.md",
     "Obsidian/ComputerScience/Python(basic)/7. 파일 읽기와 쓰기.md",
@@ -159,30 +167,23 @@
     "Obsidian/ComputerScience/Python(basic)/3. 반복문.md",
     "Obsidian/ComputerScience/Python(basic)/2. 연산자.md",
     "Obsidian/ComputerScience/Python(basic)/8. 객체 지향 프로그래밍.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Classifier.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/03_Regression_Lin&poly.pdf",
-    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/02_Regression_K-NN.pdf",
-    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/01_K-NN.pdf",
+    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Regression/Regression.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Classifier/Classifier.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Regression/03_Regression_Lin&poly.pdf",
+    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Regression/Regression/02_Regression_K-NN.pdf",
+    "Obsidian/ComputerScience/머신러닝프로젝트/KNN/Classifier/01_K-NN.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Pivot.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/인공지능특강.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Data_analysis.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/KNN",
-    "Obsidian/ComputerScience/머신러닝프로젝트/2024세미나자료.pdf",
     "Obsidian/ComputerScience/확률과 통계/기말 시험/기말 범위.md",
     "Obsidian/ComputerScience/확률과 통계/기말 시험/23_naive_bayes 1.md",
-    "Obsidian/ComputerScience/확률과 통계/기말 시험/23. naive bayers.pdf",
     "Obsidian/ComputerScience/확률과 통계/기말 시험/22_MAP 1.md",
-    "Obsidian/ComputerScience/확률과 통계/기말 시험/22. map.pdf",
     "Obsidian/ComputerScience/확률과 통계/기말 시험/20_mle 1.md",
-    "Obsidian/ComputerScience/확률과 통계/기말 시험/20. mle.pdf",
     "Obsidian/ComputerScience/확률과 통계/기말 시험/19_sampling 1.md",
     "Obsidian/ComputerScience/확률과 통계/중간 시험/중간시험 범위.md",
     "Obsidian/ComputerScience/확률과 통계/23.naive_bayes/23_naive_bayes.md",
     "Obsidian/ComputerScience/확률과 통계/12.Independent_RVs/Independent RVs.md",
     "Obsidian/ComputerScience/확률과 통계/4.Bayes_theorem/문제 풀이.md",
     "Obsidian/ComputerScience/확률과 통계/4.Bayes_theorem/Bayes' Theorem.md",
-    "Obsidian/ComputerScience/확률과 통계/11.joint_RVs/문제 풀이.md",
     "image/Pasted image 20240730101014.png",
     "image/Pasted image 20240730100944.png",
     "image/Pasted image 20240730100923.png",
