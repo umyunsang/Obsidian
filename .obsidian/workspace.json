@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/KNNR.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/KNNR.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/KNNR.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/KNNR.md"
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md"
               }
             }
           }
@@ -148,13 +149,16 @@
   },
   "active": "a2ad01e9336a3fc8",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain_RAG.pdf",
+    "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/LangChain",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/KNNR.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/Decision_Tree.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/SDG/SGDClassifier.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/SDG/06_Regression_Incremental learning.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/SDG",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/07_DecisionTree_before.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/KNNR.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/02_Regression_K-NN.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/03_Regression_Lin&poly.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/Multi_Regression.md",
@@ -162,10 +166,8 @@
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/KNNC/KNNC.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/KNNC",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn",
-    "Obsidian/ComputerScience/인공지능/3. Backpropagation/이론/Backpropagation (이론).pdf",
     "Obsidian/ComputerScience/인공지능/3. Backpropagation/이론/Backpropagation.md",
     "Obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
-    "Obsidian/ComputerScience/인공지능/필기 과제.pdf",
     "Obsidian/ComputerScience/인공지능/중간시험/인공지능_중간고사_엄윤상_1705817.md",
     "Obsidian/ComputerScience/인공지능/기말시험/시험 예상 문제.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
@@ -182,8 +184,6 @@
     "Obsidian/ComputerScience/인공지능/4. Optimization/실습/Adam.md",
     "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
     "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
-    "Obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
-    "Obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/문제 풀이.md",
     "image/Pasted image 20240812142815.png",
     "image/Pasted image 20240812132713.png",
     "image/Pasted image 20240730101014.png",
