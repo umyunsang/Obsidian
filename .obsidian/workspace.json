@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/Decision_Tree.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/KNNR.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/Decision_Tree.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/KNNR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/Decision_Tree.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/KNNR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/Decision_Tree.md"
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/KNNR.md"
               }
             }
           }
@@ -148,15 +148,15 @@
   },
   "active": "a2ad01e9336a3fc8",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/SDG/SGDClassifier.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/Decision_Tree.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/SDG/SGDClassifier.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/SDG/06_Regression_Incremental learning.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/SDG",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/07_DecisionTree_before.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Regression/Regression.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Regression/02_Regression_K-NN.pdf",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Regression/03_Regression_Lin&poly.pdf",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/KNNR.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/02_Regression_K-NN.pdf",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/03_Regression_Lin&poly.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/Multi_Regression.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Logistic/logistic.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/KNNC/KNNC.md",
