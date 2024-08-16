@@ -11,11 +11,9 @@
             "id": "a2ad01e9336a3fc8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain_RAG.pdf"
               }
             }
           }
@@ -69,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -86,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain_RAG.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain_RAG.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md"
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain_RAG.pdf"
               }
             }
           }
@@ -149,8 +146,8 @@
   },
   "active": "a2ad01e9336a3fc8",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain_RAG.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain_RAG.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/LangChain",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/KNNR.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/Decision_Tree.md",
