@@ -11,9 +11,27 @@
             "id": "a2ad01e9336a3fc8",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/ComputerScience/데이터 구조/3. 큐/큐.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "3d1ac6fdbec3a57a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "97e5fd245db93119",
+            "type": "leaf",
+            "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain_RAG.pdf"
+                "file": "Obsidian/ComputerScience/데이터 구조/수업pdf/6주차(큐).pdf"
               }
             }
           }
@@ -83,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain_RAG.pdf",
+                "file": "Obsidian/ComputerScience/데이터 구조/3. 큐/큐.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain_RAG.pdf",
+                "file": "Obsidian/ComputerScience/데이터 구조/3. 큐/큐.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain_RAG.pdf"
+                "file": "Obsidian/ComputerScience/데이터 구조/3. 큐/큐.md"
               }
             }
           }
@@ -146,50 +164,51 @@
   },
   "active": "a2ad01e9336a3fc8",
   "lastOpenFiles": [
+    "image/Pasted image 20240816191129.png",
+    "Obsidian/ComputerScience/데이터 구조/3. 큐/Queue.md",
+    "Obsidian/ComputerScience/데이터 구조/3. 큐/큐.md",
+    "Pasted image 20240816191129.png",
+    "Obsidian/ComputerScience/데이터 구조/수업pdf/6주차(큐).pdf",
+    "Obsidian/ComputerScience/데이터 구조/수업pdf/스택과 큐.pdf",
+    "image/Pasted image 20240816190547.png",
+    "Obsidian/ComputerScience/데이터 구조/2. 스택/전위, 후위 표기법.md",
+    "Obsidian/ComputerScience/데이터 구조/2. 스택/스택.md",
+    "Pasted image 20240816190547.png",
+    "Obsidian/ComputerScience/데이터 구조/2. 스택/Stack.md",
+    "Obsidian/ComputerScience/데이터 구조/수업pdf/12-2주차_con't(정렬).pdf",
+    "Obsidian/ComputerScience/데이터 구조/1. 리스트/리스트.md",
+    "Obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
+    "image/Pasted image 20240816182453.png",
+    "image/Pasted image 20240816182437.png",
+    "image/Pasted image 20240816182200.png",
+    "image/Pasted image 20240816182139.png",
+    "image/Pasted image 20240816182123.png",
+    "image/Pasted image 20240816182019.png",
+    "image/Pasted image 20240816181958.png",
+    "Obsidian/ComputerScience/데이터 구조/1. 리스트/단순 연결 리스트.md",
+    "Obsidian/ComputerScience/데이터 구조/수업pdf/6주차(중위표기법을 전위표기법,후위표기법 변환 ).pdf",
+    "Obsidian/ComputerScience/데이터 구조/수업pdf/6주차(스택응용문제).pdf",
+    "Obsidian/ComputerScience/데이터 구조/수업pdf/5주차(스택).pdf",
+    "Obsidian/ComputerScience/데이터 구조/수업pdf/5주차.pdf",
+    "Obsidian/ComputerScience/데이터 구조/수업pdf/4주차.pdf",
+    "Obsidian/ComputerScience/데이터 구조/수업pdf/3주차_1.pdf",
+    "Obsidian/ComputerScience/데이터 구조/수업pdf/2주차_리스트.pdf",
+    "Obsidian/ComputerScience/데이터 구조/1. 리스트/원형 연결 리스트.md",
+    "Obsidian/ComputerScience/데이터 구조/1. 리스트/이중 연결 리스트.md",
+    "Obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
+    "Obsidian/ComputerScience/데이터 구조/4. 트리/AVL.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/bar 막대 그래프.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/크기조정 및 그리드.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/기본 그래프.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/그래프 스타일.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain_RAG.pdf",
-    "Obsidian/ComputerScience/머신러닝프로젝트/LangChain",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/KNNR.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/Decision_Tree.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/SDG/SGDClassifier.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/SDG/06_Regression_Incremental learning.pdf",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/SDG",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/07_DecisionTree_before.pdf",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/02_Regression_K-NN.pdf",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/03_Regression_Lin&poly.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/Multi_Regression.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Logistic/logistic.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/KNNC/KNNC.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/KNNC",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn",
     "Obsidian/ComputerScience/인공지능/3. Backpropagation/이론/Backpropagation.md",
-    "Obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
-    "Obsidian/ComputerScience/인공지능/중간시험/인공지능_중간고사_엄윤상_1705817.md",
-    "Obsidian/ComputerScience/인공지능/기말시험/시험 예상 문제.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGDense.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/UMNet.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/pooling.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/LR control.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/LeNet/CNN 모듈.md",
-    "Obsidian/ComputerScience/인공지능/4. Optimization/실습/LearningRateControl.md",
-    "Obsidian/ComputerScience/인공지능/4. Optimization/실습/Momentum.md",
-    "Obsidian/ComputerScience/인공지능/4. Optimization/실습/Adam.md",
-    "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
-    "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
-    "image/Pasted image 20240812142815.png",
-    "image/Pasted image 20240812132713.png",
-    "image/Pasted image 20240730101014.png",
-    "image/Pasted image 20240730100944.png",
-    "image/Pasted image 20240730100923.png",
-    "image/Pasted image 20240730101033.png",
-    "Pasted image 20240730101033.png",
-    "Pasted image 20240730101014.png",
-    "Pasted image 20240730100944.png",
-    "Pasted image 20240730100923.png"
+    "Obsidian/ComputerScience/인공지능/중간시험/인공지능_중간고사_엄윤상_1705817.md"
   ]
 }
