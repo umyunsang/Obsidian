@@ -8,14 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a2ad01e9336a3fc8",
+            "id": "d8357e3e17ae2468",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/3. 레지스터.md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1.논리 게이트.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/3. 레지스터.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1.논리 게이트.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/3. 레지스터.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1.논리 게이트.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/3. 레지스터.md"
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1.논리 게이트.pdf"
               }
             }
           }
@@ -146,53 +144,52 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ba9e23474eb62275",
+  "active": "d8357e3e17ae2468",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/데이터의 표현.pdf",
+    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/5. 에러 검출 코드.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/5.에러 검출 코드.pdf",
+    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/4.디지털 코드.pdf",
+    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/3.실수 표현.pdf",
+    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/2.정수 표현.pdf",
+    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1.진법과 진법 변환.pdf",
+    "image/Pasted image 20240817164559.png",
+    "image/Pasted image 20240817164030.png",
+    "image/Pasted image 20240817163942.png",
+    "image/Pasted image 20240817163708.png",
+    "image/Pasted image 20240817163439.png",
+    "image/Pasted image 20240817164749.png",
+    "Pasted image 20240817164749.png",
+    "Pasted image 20240817164559.png",
+    "Pasted image 20240817164030.png",
+    "Pasted image 20240817163942.png",
+    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/4. 디지털 코드.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1. 진법과 진법 변환.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/3. 실수 표현.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/2. 정수 표현.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/무제 폴더",
+    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/2.불 대수.pdf",
+    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/6. CISC와 RISC.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/3. 레지스터.md",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/1705817_AI학과_엄윤상.pdf",
+    "Obsidian/ComputerScience/컴퓨터 구조/서론.pdf",
+    "Obsidian/ComputerScience/컴퓨터 구조/중간 시험 범위.md",
     "Obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
     "Obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
     "Obsidian/ComputerScience/데이터 구조/3. 큐/큐.md",
-    "image/Pasted image 20240816191129.png",
     "Obsidian/ComputerScience/데이터 구조/3. 큐/Queue.md",
-    "Pasted image 20240816191129.png",
-    "Obsidian/ComputerScience/데이터 구조/수업pdf/6주차(큐).pdf",
-    "Obsidian/ComputerScience/데이터 구조/수업pdf/스택과 큐.pdf",
-    "image/Pasted image 20240816190547.png",
     "Obsidian/ComputerScience/데이터 구조/2. 스택/전위, 후위 표기법.md",
     "Obsidian/ComputerScience/데이터 구조/2. 스택/스택.md",
-    "Pasted image 20240816190547.png",
     "Obsidian/ComputerScience/데이터 구조/2. 스택/Stack.md",
-    "Obsidian/ComputerScience/데이터 구조/수업pdf/12-2주차_con't(정렬).pdf",
     "Obsidian/ComputerScience/데이터 구조/1. 리스트/리스트.md",
     "Obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
-    "image/Pasted image 20240816182453.png",
-    "image/Pasted image 20240816182437.png",
-    "image/Pasted image 20240816182200.png",
-    "image/Pasted image 20240816182139.png",
-    "image/Pasted image 20240816182123.png",
-    "image/Pasted image 20240816182019.png",
     "Obsidian/ComputerScience/데이터 구조/1. 리스트/단순 연결 리스트.md",
-    "Obsidian/ComputerScience/데이터 구조/수업pdf/6주차(중위표기법을 전위표기법,후위표기법 변환 ).pdf",
-    "Obsidian/ComputerScience/데이터 구조/수업pdf/6주차(스택응용문제).pdf",
-    "Obsidian/ComputerScience/데이터 구조/수업pdf/5주차(스택).pdf",
-    "Obsidian/ComputerScience/데이터 구조/수업pdf/5주차.pdf",
-    "Obsidian/ComputerScience/데이터 구조/수업pdf/4주차.pdf",
-    "Obsidian/ComputerScience/데이터 구조/수업pdf/3주차_1.pdf",
-    "Obsidian/ComputerScience/데이터 구조/수업pdf/2주차_리스트.pdf",
     "Obsidian/ComputerScience/데이터 구조/1. 리스트/원형 연결 리스트.md",
     "Obsidian/ComputerScience/데이터 구조/1. 리스트/이중 연결 리스트.md",
     "Obsidian/ComputerScience/데이터 구조/5. 정렬/정렬.md",
-    "Obsidian/ComputerScience/데이터 구조/4. 트리/AVL.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/bar 막대 그래프.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/크기조정 및 그리드.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/기본 그래프.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/그래프 스타일.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/KNNR.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/Decision_Tree.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/SDG/SGDClassifier.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/Multi_Regression.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Logistic/logistic.md"
+    "Obsidian/ComputerScience/데이터 구조/4. 트리/AVL.md"
   ]
 }
