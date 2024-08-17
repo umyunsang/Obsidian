@@ -13,25 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터 구조/3. 큐/큐.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/3. 레지스터.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "3d1ac6fdbec3a57a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "97e5fd245db93119",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/데이터 구조/수업pdf/6주차(큐).pdf"
               }
             }
           }
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터 구조/3. 큐/큐.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/3. 레지스터.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터 구조/3. 큐/큐.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/3. 레지스터.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터 구조/3. 큐/큐.md"
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/3. 레지스터.md"
               }
             }
           }
@@ -162,11 +146,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a2ad01e9336a3fc8",
+  "active": "ba9e23474eb62275",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
+    "Obsidian/ComputerScience/데이터 구조/3. 큐/큐.md",
     "image/Pasted image 20240816191129.png",
     "Obsidian/ComputerScience/데이터 구조/3. 큐/Queue.md",
-    "Obsidian/ComputerScience/데이터 구조/3. 큐/큐.md",
     "Pasted image 20240816191129.png",
     "Obsidian/ComputerScience/데이터 구조/수업pdf/6주차(큐).pdf",
     "Obsidian/ComputerScience/데이터 구조/수업pdf/스택과 큐.pdf",
@@ -184,7 +172,6 @@
     "image/Pasted image 20240816182139.png",
     "image/Pasted image 20240816182123.png",
     "image/Pasted image 20240816182019.png",
-    "image/Pasted image 20240816181958.png",
     "Obsidian/ComputerScience/데이터 구조/1. 리스트/단순 연결 리스트.md",
     "Obsidian/ComputerScience/데이터 구조/수업pdf/6주차(중위표기법을 전위표기법,후위표기법 변환 ).pdf",
     "Obsidian/ComputerScience/데이터 구조/수업pdf/6주차(스택응용문제).pdf",
@@ -206,9 +193,6 @@
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/Decision_Tree.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/SDG/SGDClassifier.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/Multi_Regression.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Logistic/logistic.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/KNNC/KNNC.md",
-    "Obsidian/ComputerScience/인공지능/3. Backpropagation/이론/Backpropagation.md",
-    "Obsidian/ComputerScience/인공지능/중간시험/인공지능_중간고사_엄윤상_1705817.md"
+    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Logistic/logistic.md"
   ]
 }
