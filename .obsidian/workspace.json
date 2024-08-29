@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1. 논리 게이트.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4. 조합 논리 회로.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1.논리 게이트.pdf"
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4.조합 논리 회로.pdf"
               }
             }
           }
@@ -85,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1. 논리 게이트.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4. 조합 논리 회로.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1. 논리 게이트.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4. 조합 논리 회로.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1. 논리 게이트.md"
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4. 조합 논리 회로.md"
               }
             }
           }
@@ -164,19 +165,24 @@
   },
   "active": "d8357e3e17ae2468",
   "lastOpenFiles": [
-    "image/Pasted image 20240817193412.png",
-    "image/Pasted image 20240817193133.png",
-    "image/Pasted image 20240817192923.png",
-    "image/Pasted image 20240817192623.png",
-    "image/Pasted image 20240817192358.png",
-    "image/Pasted image 20240817192306.png",
-    "image/Pasted image 20240817192216.png",
-    "image/Pasted image 20240817192000.png",
-    "image/Pasted image 20240817191838.png",
-    "image/Pasted image 20240817191800.png",
-    "image/Pasted image 20240817191716.png",
-    "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1.논리 게이트.pdf",
+    "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4.조합 논리 회로.pdf",
+    "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/3.카르노 맵.pdf",
+    "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4. 조합 논리 회로.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/3. 카르노 맵.md",
+    "image/Pasted image 20240829181358.png",
+    "image/Pasted image 20240829181209.png",
+    "image/Pasted image 20240829181152.png",
+    "image/Pasted image 20240829181127.png",
+    "image/Pasted image 20240829181003.png",
+    "image/Pasted image 20240829180936.png",
+    "image/Pasted image 20240829180914.png",
+    "image/Pasted image 20240829180831.png",
+    "image/Pasted image 20240829180513.png",
+    "image/Pasted image 20240829181555.png",
+    "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/2.불 대수.pdf",
+    "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/2. 불 대수.md",
     "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1. 논리 게이트.md",
+    "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1.논리 게이트.pdf",
     "Obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf",
     "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터.md",
     "Obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
@@ -187,8 +193,6 @@
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/5.에러 검출 코드.pdf",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/4.디지털 코드.pdf",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/3.실수 표현.pdf",
-    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/2.정수 표현.pdf",
-    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1.진법과 진법 변환.pdf",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/4. 디지털 코드.md",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1. 진법과 진법 변환.md",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/3. 실수 표현.md",
@@ -206,9 +210,6 @@
     "Obsidian/ComputerScience/데이터 구조/2. 스택/전위, 후위 표기법.md",
     "Obsidian/ComputerScience/데이터 구조/2. 스택/스택.md",
     "Obsidian/ComputerScience/데이터 구조/2. 스택/Stack.md",
-    "Obsidian/ComputerScience/데이터 구조/1. 리스트/리스트.md",
-    "Obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
-    "Obsidian/ComputerScience/데이터 구조/1. 리스트/단순 연결 리스트.md",
-    "Obsidian/ComputerScience/데이터 구조/1. 리스트/원형 연결 리스트.md"
+    "Obsidian/ComputerScience/데이터 구조/1. 리스트/리스트.md"
   ]
 }
