@@ -13,25 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4. 조합 논리 회로.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "f5fb3d866c9af479",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b54503dc05cfc72f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4.조합 논리 회로.pdf"
               }
             }
           }
@@ -102,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4. 조합 논리 회로.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4. 조합 논리 회로.md",
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4. 조합 논리 회로.md"
+                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md"
               }
             }
           }
@@ -165,9 +149,9 @@
   },
   "active": "d8357e3e17ae2468",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4. 조합 논리 회로.md",
     "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4.조합 논리 회로.pdf",
     "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/3.카르노 맵.pdf",
-    "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4. 조합 논리 회로.md",
     "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/3. 카르노 맵.md",
     "image/Pasted image 20240829181358.png",
     "image/Pasted image 20240829181209.png",
@@ -192,7 +176,6 @@
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/5. 에러 검출 코드.md",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/5.에러 검출 코드.pdf",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/4.디지털 코드.pdf",
-    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/3.실수 표현.pdf",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/4. 디지털 코드.md",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1. 진법과 진법 변환.md",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/3. 실수 표현.md",
