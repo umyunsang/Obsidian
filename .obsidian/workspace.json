@@ -8,12 +8,30 @@
         "type": "tabs",
         "children": [
           {
+            "id": "d5afd95c71276c4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "8699b7d5c057e2e0",
+        "type": "tabs",
+        "children": [
+          {
             "id": "1b5bcd000aa5fe0a",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/3. 신호 처리.pdf"
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/1.통신과 컴퓨터네트워크.pdf"
               }
             }
           }
@@ -67,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -83,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/3. 신호 처리.pdf",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/3. 신호 처리.pdf",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/3. 신호 처리.pdf"
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md"
               }
             }
           }
@@ -144,8 +163,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ba9e23474eb62275",
+  "active": "d5afd95c71276c4c",
   "lastOpenFiles": [
+    "image/Pasted image 20240904172749.png",
+    "image/Pasted image 20240904174136.png",
+    "Pasted image 20240904174136.png",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/1.통신과 컴퓨터네트워크.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
+    "Pasted image 20240904172749.png",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/3. 신호 처리.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/14. TCP와 소켓 프로그래밍.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍",
     "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그램이",
@@ -154,9 +180,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층",
     "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜",
     "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
     "image/Pasted image 20240904104950.png",
     "image/Pasted image 20240904103832.png",
@@ -169,9 +192,6 @@
     "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4. 조합 논리 회로.md",
     "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/3. 카르노 맵.md",
     "image/Pasted image 20240829181358.png",
-    "image/Pasted image 20240829181209.png",
-    "image/Pasted image 20240829181152.png",
-    "image/Pasted image 20240829181127.png",
     "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/2. 불 대수.md",
     "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1. 논리 게이트.md",
     "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터.md",
@@ -190,7 +210,6 @@
     "Obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
     "Obsidian/ComputerScience/데이터 구조/3. 큐/큐.md",
     "Obsidian/ComputerScience/데이터 구조/3. 큐/Queue.md",
-    "Obsidian/ComputerScience/데이터 구조/2. 스택/전위, 후위 표기법.md",
-    "Obsidian/ComputerScience/데이터 구조/2. 스택/스택.md"
+    "Obsidian/ComputerScience/데이터 구조/2. 스택/전위, 후위 표기법.md"
   ]
 }
