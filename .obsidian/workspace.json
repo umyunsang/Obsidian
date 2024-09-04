@@ -8,14 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d8357e3e17ae2468",
+            "id": "1b5bcd000aa5fe0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
+                "file": "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "ed8fb792d79db1da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8357e3e17ae2468",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/1. 운영체제의 시작과 발전.pdf"
               }
             }
           }
@@ -85,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
+                "file": "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
+                "file": "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md"
+                "file": "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md"
               }
             }
           }
@@ -146,37 +162,40 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d8357e3e17ae2468",
+  "active": "1b5bcd000aa5fe0a",
   "lastOpenFiles": [
+    "image/Pasted image 20240904104950.png",
+    "image/Pasted image 20240904103832.png",
+    "image/Pasted image 20240904111128.png",
+    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1. 진법과 진법 변환.md",
+    "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
+    "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/1. 운영체제의 시작과 발전.pdf",
+    "Pasted image 20240904111128.png",
+    "Pasted image 20240904104950.png",
+    "Pasted image 20240904103832.png",
+    "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전",
+    "Obsidian/ComputerScience/데이터베이스/1. 기본 개념.pdf",
+    "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리.pdf",
+    "Obsidian/ComputerScience/운영체제/11. 파일 시스템 관리.pdf",
+    "Obsidian/ComputerScience/운영체제/10. 가상 메모리 관리.pdf",
+    "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리.pdf",
+    "Obsidian/ComputerScience/운영체제/8. 메모리관리.pdf",
+    "Obsidian/ComputerScience/운영체제/7. 교착상태.pdf",
+    "Obsidian/ComputerScience/운영체제/6. 스레드 동기화.pdf",
+    "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
     "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4. 조합 논리 회로.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4.조합 논리 회로.pdf",
-    "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/3.카르노 맵.pdf",
     "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/3. 카르노 맵.md",
     "image/Pasted image 20240829181358.png",
     "image/Pasted image 20240829181209.png",
     "image/Pasted image 20240829181152.png",
     "image/Pasted image 20240829181127.png",
     "image/Pasted image 20240829181003.png",
-    "image/Pasted image 20240829180936.png",
-    "image/Pasted image 20240829180914.png",
-    "image/Pasted image 20240829180831.png",
-    "image/Pasted image 20240829180513.png",
-    "image/Pasted image 20240829181555.png",
-    "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/2.불 대수.pdf",
     "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/2. 불 대수.md",
     "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1. 논리 게이트.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1.논리 게이트.pdf",
-    "Obsidian/ComputerScience/선형대수학/04. 역행렬/04. 역행렬.pdf",
     "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터.md",
     "Obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
-    "Obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/1장_확인문제.pdf",
-    "Obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초.pdf",
-    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/데이터의 표현.pdf",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/5. 에러 검출 코드.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/5.에러 검출 코드.pdf",
-    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/4.디지털 코드.pdf",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/4. 디지털 코드.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1. 진법과 진법 변환.md",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/3. 실수 표현.md",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/2. 정수 표현.md",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
@@ -190,8 +209,6 @@
     "Obsidian/ComputerScience/데이터 구조/3. 큐/큐.md",
     "Obsidian/ComputerScience/데이터 구조/3. 큐/Queue.md",
     "Obsidian/ComputerScience/데이터 구조/2. 스택/전위, 후위 표기법.md",
-    "Obsidian/ComputerScience/데이터 구조/2. 스택/스택.md",
-    "Obsidian/ComputerScience/데이터 구조/2. 스택/Stack.md",
-    "Obsidian/ComputerScience/데이터 구조/1. 리스트/리스트.md"
+    "Obsidian/ComputerScience/데이터 구조/2. 스택/스택.md"
   ]
 }
