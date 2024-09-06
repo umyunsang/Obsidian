@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8afa9bc1cd6e45a0",
+        "id": "dd56b66b623ebee1",
         "type": "tabs",
         "children": [
           {
-            "id": "11146dfa73c9d83b",
+            "id": "d5afd95c71276c4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
+                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "dd56b66b623ebee1",
+        "id": "1dd1953ce8b5a568",
         "type": "tabs",
         "children": [
           {
-            "id": "d5afd95c71276c4c",
+            "id": "c2dcd6124128acdf",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/2. 관리 시스템.pdf"
+                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/ossai2024_0장_확인문제_내용추가예정.pdf"
               }
             }
           }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/2. 관리 시스템.pdf",
+                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/2. 관리 시스템.pdf",
+                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/2. 관리 시스템.pdf"
+                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md"
               }
             }
           }
@@ -162,8 +162,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ba9e23474eb62275",
+  "active": "d5afd95c71276c4c",
   "lastOpenFiles": [
+    "Pasted image 20240906112326.png",
+    "Pasted image 20240906112005.png",
+    "Obsidian/ComputerScience/OSS/Html. javascript 기초/ossai2024_0장_확인문제_내용추가예정.pdf",
+    "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
+    "Obsidian/ComputerScience/OSS/Html. javascript 기초",
+    "Obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
+    "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
+    "Obsidian/ComputerScience/OSS/Html. javascript 기초/ossai2024_0장_내용추가예정.pdf",
+    "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/2. 관리 시스템.pdf",
+    "Obsidian/ComputerScience/OSS",
     "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템",
     "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/1. 기본 개념.pdf",
     "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
@@ -179,14 +189,7 @@
     "image/Pasted image 20240904174136.png",
     "Pasted image 20240904174136.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/1.통신과 컴퓨터네트워크.pdf",
-    "Pasted image 20240904172749.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/3. 신호 처리.pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/14. TCP와 소켓 프로그래밍.pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그램이",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/새 폴더",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1. 진법과 진법 변환.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
@@ -206,9 +209,6 @@
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md",
     "Obsidian/ComputerScience/컴퓨터 구조/중간 시험 범위.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/1. 제어 장치의 기능.md",
-    "Obsidian/ComputerScience/데이터 구조/3. 큐/큐.md",
-    "Obsidian/ComputerScience/데이터 구조/3. 큐/Queue.md"
+    "Obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md"
   ]
 }
