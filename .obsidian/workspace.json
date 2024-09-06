@@ -13,25 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "1dd1953ce8b5a568",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c2dcd6124128acdf",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/ossai2024_0장_확인문제_내용추가예정.pdf"
               }
             }
           }
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md"
+                "file": "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md"
               }
             }
           }
@@ -164,10 +148,16 @@
   },
   "active": "d5afd95c71276c4c",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/1. 기본 개념.pdf",
+    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/UMNet.md",
+    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md",
+    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md",
+    "Obsidian/ComputerScience/인공지능/기말시험/시험 예상 문제.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain_RAG.pdf",
+    "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
     "Pasted image 20240906112326.png",
     "Pasted image 20240906112005.png",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/ossai2024_0장_확인문제_내용추가예정.pdf",
-    "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초",
     "Obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
@@ -175,7 +165,6 @@
     "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/2. 관리 시스템.pdf",
     "Obsidian/ComputerScience/OSS",
     "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템",
-    "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/1. 기본 개념.pdf",
     "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
     "image/Pasted image 20240905104710.png",
     "image/Pasted image 20240905104509.png",
@@ -187,9 +176,7 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
     "image/Pasted image 20240904172749.png",
     "image/Pasted image 20240904174136.png",
-    "Pasted image 20240904174136.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/1.통신과 컴퓨터네트워크.pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/3. 신호 처리.pdf",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/1. 진법과 진법 변환.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
@@ -205,10 +192,6 @@
     "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/2. 정수 표현.md",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
     "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/6. CISC와 RISC.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/3. 레지스터.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/2. 산술 논리 연산 장치.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/1. 프로세스 구성과 동작.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/중간 시험 범위.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/4. 제어 장치/3. 명령어 사이클.md"
+    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/3. 레지스터.md"
   ]
 }
