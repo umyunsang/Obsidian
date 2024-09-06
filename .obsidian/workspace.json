@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
+                "file": "Obsidian/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
+                "file": "Obsidian/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
+                "file": "Obsidian/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md"
+                "file": "Obsidian/무제 파일.md"
               }
             }
           }
@@ -148,6 +148,17 @@
   },
   "active": "d5afd95c71276c4c",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/데이터 구조/1. 리스트/원형 연결 리스트.md",
+    "Obsidian/무제 파일.md",
+    "Obsidian/ComputerScience/데이터 구조/2. 스택/Stack.md",
+    "Obsidian/ComputerScience/데이터 구조/4. 트리/트리 (TREE).md",
+    "Obsidian/ComputerScience/데이터 구조/3. 큐/Queue.md",
+    "Obsidian/ComputerScience/데이터 구조/1. 리스트/이중 연결 리스트.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Python 기초/실력과제.md",
+    "Obsidian/ComputerScience/데이터 구조/2. 스택/스택.md",
+    "Obsidian/ComputerScience/Python(basic)/중간/답지.md",
+    "Obsidian/ComputerScience/Python(basic)/4. 조건문.md",
+    "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
     "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/1. 기본 개념.pdf",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/UMNet.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md",
@@ -165,7 +176,6 @@
     "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/2. 관리 시스템.pdf",
     "Obsidian/ComputerScience/OSS",
     "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템",
-    "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
     "image/Pasted image 20240905104710.png",
     "image/Pasted image 20240905104509.png",
     "image/Pasted image 20240905105258.png",
@@ -183,15 +193,6 @@
     "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/4. 조합 논리 회로.md",
     "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/3. 카르노 맵.md",
     "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/2. 불 대수.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1. 논리 게이트.md",
-    "Obsidian/ComputerScience/선형대수학/06. 벡터/6. 벡터.md",
-    "Obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/5. 에러 검출 코드.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/4. 디지털 코드.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/3. 실수 표현.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/2. 정수 표현.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/4. 컴퓨터 명령어.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/6. CISC와 RISC.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/3. 레지스터.md"
+    "Obsidian/ComputerScience/컴퓨터 구조/2. 디지털 논리 회로/1. 논리 게이트.md"
   ]
 }
