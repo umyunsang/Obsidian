@@ -31,7 +31,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/1. 기본 개념.pdf"
+                "file": "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/2. 관리 시스템.pdf"
               }
             }
           }
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/2. 관리 시스템.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/2. 관리 시스템.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md"
+                "file": "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/2. 관리 시스템.pdf"
               }
             }
           }
@@ -163,13 +162,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "11146dfa73c9d83b",
+  "active": "ba9e23474eb62275",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템",
     "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/1. 기본 개념.pdf",
+    "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
     "image/Pasted image 20240905104710.png",
     "image/Pasted image 20240905104509.png",
     "image/Pasted image 20240905105258.png",
-    "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
     "Pasted image 20240905105258.png",
     "Pasted image 20240905104710.png",
     "Pasted image 20240905104509.png",
