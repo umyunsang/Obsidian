@@ -1,9 +1,7 @@
 
 
 ---
-## QUIZ.1
-
-### HTML 부분
+# QUIZ.1
 
 ```html
 <!DOCTYPE html>
@@ -28,12 +26,6 @@
     <button onclick="checkAnswers()">제출하기</button> <br><br>
     <h3 id="result"></h3>
 </body>
-</html>
-```
-
-### JavaScript 부분
-
-```javascript
 <script>
     function checkAnswers() {
         let score = 0;
@@ -52,6 +44,7 @@
         document.getElementById('result').textContent = score + "개 맞았습니다.";
     }
 </script>
+</html>
 ```
 
 #### 주요 설명:
@@ -78,14 +71,6 @@ let userInput = document.getElementById('a1').value;
 
 위 코드에서 `.value`는 사용자가 `<input>` 필드에 입력한 값을 가져옵니다.
 
-#### 예시:
-```html
-<input type="text" id="a1" value="hello">
-```
-```javascript
-let inputValue = document.getElementById('a1').value;  // "hello" 반환
-```
-
 #### 2. `.textContent`
 - **용도**: 요소의 **텍스트 내용을 가져오거나 설정**할 때 사용.
 - **적용 대상**: 주로 **일반적인 HTML 요소들**(`<div>`, `<span>`, `<p>`, `<h1>`, `<h3>` 등)에 적용. 해당 요소 내부의 텍스트 내용을 가져오거나 설정함.
@@ -97,14 +82,6 @@ document.getElementById('result').textContent = "점수: 3개";
 
 위 코드에서 `.textContent`는 `<h3>` 요소의 텍스트 내용을 변경하여 화면에 표시합니다.
 
-#### 예시:
-```html
-<h3 id="result">초기 값</h3>
-```
-```javascript
-document.getElementById('result').textContent = "새로운 값";  // "새로운 값"으로 변경됨
-```
-
 ---
 ### 1. **`let` 키워드**
 
@@ -114,3 +91,74 @@ document.getElementById('result').textContent = "새로운 값";  // "새로운 
 - **변경 불가능성**: `const`로 선언된 변수는 재할당이 불가능합니다. 한 번 값을 할당하면, 이후에 값을 변경할 수 없습니다.
 
 ---
+# who.html
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>예제 2</title>
+    <style>
+        body {text-align: center}
+        img {max-width: 300px; max-height: 300px;}
+    </style>
+</head>
+<body>
+    <h1>사진 가져오기</h1>
+    <input type="text" id="who">
+    <button onclick="showImage()">사진</button>
+    <br><br>
+    <img id="image" src="static/나는.png" alt="사진을 가져오지 못했습니다.">
+    <script>
+        function showImage() {
+            const image = document.getElementById('image');
+            const who = document.getElementById('who').value.trim();
+
+            if (who == "당근" || who == "당") 
+            image.src = 'static/당근.png';
+            else if (who == "양파" || who == "양") 
+            image.src = 'static/양파.png';
+            else if (who == "식빵" || who == "식") 
+            image.src = 'static/식빵.png';
+            else image.src = 'static/쏘리.png';
+        }
+    </script>
+</body>
+</html>
+```
+### 1. **HTML 구조**
+
+- **`<input type="text" id="who">`**: 사용자가 텍스트를 입력할 수 있는 입력 필드입니다. 여기서 사용자가 입력한 값에 따라 특정 이미지를 변경하게 됩니다.
+- **`<button onclick="showImage()">사진</button>`**: "사진" 버튼을 클릭하면 `showImage()` 함수가 실행됩니다.
+- **`<img id="image" src="static/나는.png" alt="사진을 가져오지 못했습니다.">`**: 초기 이미지를 표시하는 요소입니다. `id="image"`는 자바스크립트에서 이 요소에 접근할 수 있도록 해줍니다. `src` 속성은 이미지 파일의 경로를 지정하며, `alt` 속성은 이미지를 불러올 수 없을 때 대신 표시될 텍스트를 정의합니다.
+
+### 2. **자바스크립트 코드 (`<script>` 섹션)**
+
+```js
+function showImage() {     const image = document.getElementById('image');      const who = document.getElementById('who').value.trim();
+```
+
+- **`document.getElementById('image')`**: `id`가 "image"인 `<img>` 요소에 접근하여 변수 `image`에 저장합니다.
+- **`document.getElementById('who').value.trim()`**: 사용자가 입력한 텍스트 값을 가져와 `who` 변수에 저장합니다. `trim()` 메서드는 사용자가 입력한 값의 앞뒤 공백을 제거합니다.
+
+```js
+if (who == "당근" || who == "당")          
+image.src = 'static/당근.png';      
+else if (who == "양파" || who == "양")          
+image.src = 'static/양파.png';      
+else if (who == "식빵" || who == "식")          
+image.src = 'static/식빵.png';     
+else          
+image.src = 'static/쏘리.png'; }
+```
+
+- **조건문**: 사용자가 입력한 값(`who`)에 따라 `image` 요소의 `src` 속성을 변경합니다.
+    - `who`가 "당근" 또는 "당"일 경우 `image.src = 'static/당근.png'`로 설정하여 "당근" 이미지로 변경합니다.
+    - `who`가 "양파" 또는 "양"일 경우 `image.src = 'static/양파.png'`로 설정합니다.
+    - `who`가 "식빵" 또는 "식"일 경우 `image.src = 'static/식빵.png'`로 설정합니다.
+    - 위의 조건에 맞지 않으면 `image.src = 'static/쏘리.png'`로 설정하여 기본적으로 "쏘리" 이미지를 표시합니다.
+
+### 3. **이미지의 동적 변경**
+
+- 사용자가 특정 값을 입력하고 버튼을 클릭하면, 그 입력에 따라 이미지가 동적으로 변경됩니다. 이는 `image.src` 속성의 값을 변경함으로써 이루어집니다. `src` 속성에 새로운 이미지 파일 경로를 설정하면, 웹 페이지에 표시되는 이미지는 해당 경로의 이미지로 바뀝니다.

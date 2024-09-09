@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
+                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
+                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
+                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md"
+                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md"
               }
             }
           }
@@ -164,6 +164,7 @@
   },
   "active": "ebb9e4c858ba9293",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
     "image/Pasted image 20240909103639.png",
     "image/Pasted image 20240909093327.png",
     "image/Pasted image 20240909113156.png",
@@ -174,11 +175,9 @@
     "image/Pasted image 20240909105818.png",
     "image/Pasted image 20240909105643.png",
     "image/Pasted image 20240909105119.png",
-    "image/Pasted image 20240909104810.png",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/ossai2024_0장_확인문제_내용추가예정.pdf",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/ossai2024_0장_내용추가예정.pdf",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
-    "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
     "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/2. 컴퓨터 시스템과 운영체제.pdf",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
