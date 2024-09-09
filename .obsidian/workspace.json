@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/2. 관리 시스템.pdf"
+                "file": "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/3. 시스템.pdf"
               }
             }
           }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md"
+                "file": "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md"
               }
             }
           }
@@ -165,19 +165,22 @@
   },
   "active": "506425efbe3b1751",
   "lastOpenFiles": [
+    "image/Pasted image 20240909173818.png",
+    "Pasted image 20240909173818.png",
+    "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/3. 시스템.pdf",
+    "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md",
+    "image/Pasted image 20240909173025.png",
+    "image/Pasted image 20240909173230.png",
+    "Pasted image 20240909173230.png",
+    "Pasted image 20240909173025.png",
+    "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
+    "Obsidian/ComputerScience/데이터베이스/3. DB 시스템",
+    "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/2. 관리 시스템.pdf",
     "image/Pasted image 20240909170645.png",
     "Pasted image 20240909170645.png",
-    "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/2. 관리 시스템.pdf",
-    "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
     "image/Pasted image 20240909165257.png",
     "Pasted image 20240909165257.png",
     "image/Pasted image 20240909164608.png",
-    "image/Pasted image 20240909164846.png",
-    "Pasted image 20240909164846.png",
-    "Pasted image 20240909164608.png",
-    "image/Pasted image 20240909162744.png",
-    "image/Pasted image 20240909164231.png",
-    "Pasted image 20240909164231.png",
     "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
@@ -193,8 +196,6 @@
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/2. 컴퓨터 시스템과 운영체제.pdf",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/1. 운영체제의 시작과 발전.pdf",
-    "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain_RAG.pdf",
-    "Obsidian/ComputerScience/이산수학/1 이산수학 소개.pdf",
     "Obsidian/ComputerScience/데이터 구조/1. 리스트/단순 연결 리스트.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
     "Obsidian/ComputerScience/데이터 구조/1. 리스트/원형 연결 리스트.md",
@@ -209,7 +210,6 @@
     "Obsidian/ComputerScience/Python(basic)/4. 조건문.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/UMNet.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md",
-    "Obsidian/ComputerScience/인공지능/기말시험/시험 예상 문제.md"
+    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md"
   ]
 }
