@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/2. 네트워크 분류와 계층 모델.pdf"
+                "file": "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/2. 관리 시스템.pdf"
               }
             }
           }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md"
+                "file": "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md"
               }
             }
           }
@@ -165,35 +165,37 @@
   },
   "active": "506425efbe3b1751",
   "lastOpenFiles": [
+    "image/Pasted image 20240909170645.png",
+    "Pasted image 20240909170645.png",
+    "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/2. 관리 시스템.pdf",
+    "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
+    "image/Pasted image 20240909165257.png",
+    "Pasted image 20240909165257.png",
+    "image/Pasted image 20240909164608.png",
+    "image/Pasted image 20240909164846.png",
+    "Pasted image 20240909164846.png",
+    "Pasted image 20240909164608.png",
+    "image/Pasted image 20240909162744.png",
+    "image/Pasted image 20240909164231.png",
+    "Pasted image 20240909164231.png",
+    "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
+    "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
+    "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/2. 네트워크 분류와 계층 모델.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
-    "image/Pasted image 20240909155833.png",
-    "image/Pasted image 20240909160737.png",
-    "Pasted image 20240909160737.png",
-    "Pasted image 20240909155833.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/1.통신과 컴퓨터네트워크.pdf",
-    "image/Pasted image 20240909153145.png",
-    "Pasted image 20240909153145.png",
-    "image/Pasted image 20240909150953.png",
-    "Pasted image 20240909150953.png",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
-    "image/Pasted image 20240909103639.png",
-    "image/Pasted image 20240909093327.png",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/ossai2024_0장_확인문제_내용추가예정.pdf",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/ossai2024_0장_내용추가예정.pdf",
     "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/2. 컴퓨터 시스템과 운영체제.pdf",
-    "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
-    "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/1. 운영체제의 시작과 발전.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain_RAG.pdf",
     "Obsidian/ComputerScience/이산수학/1 이산수학 소개.pdf",
-    "Obsidian/ComputerScience/이산수학/2 수학적 모델과 논리.pdf",
     "Obsidian/ComputerScience/데이터 구조/1. 리스트/단순 연결 리스트.md",
-    "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
     "Obsidian/ComputerScience/데이터 구조/1. 리스트/원형 연결 리스트.md",
     "Obsidian/무제 파일.md",
@@ -208,7 +210,6 @@
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/UMNet.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md",
-    "Obsidian/ComputerScience/인공지능/기말시험/시험 예상 문제.md",
-    "Obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md"
+    "Obsidian/ComputerScience/인공지능/기말시험/시험 예상 문제.md"
   ]
 }
