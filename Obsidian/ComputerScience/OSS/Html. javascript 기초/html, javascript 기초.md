@@ -31,14 +31,6 @@
 </html>
 ```
 
-#### 주요 설명:
-1. **DOCTYPE 선언**: 웹 페이지가 HTML5로 작성되었음을 명시.
-2. **meta charset="UTF-8"**: HTML 문서에서 사용할 문자 인코딩을 UTF-8로 지정. (한글 포함 다양한 문자를 표현 가능)
-3. **h1**: "영어 퀴즈"라는 큰 제목을 표시.
-4. **input**: 텍스트 입력 필드. `id`를 통해 각 입력 필드의 고유 식별자를 지정 (JavaScript에서 해당 요소를 선택할 때 사용).
-5. **button**: 버튼을 클릭하면 JavaScript 함수 `checkAnswers()`가 실행됨.
-6. **h3**: 점수를 출력할 위치를 나타내며, `id="result"`로 지정하여 JavaScript로 텍스트를 삽입 가능.
-
 ### JavaScript 부분
 
 ```javascript
@@ -71,21 +63,6 @@
    - **trim()**: 사용자가 입력한 값에서 앞뒤 공백을 제거하는 메서드.
 4. **if 문**: 사용자가 입력한 값이 정답과 일치하는지 확인. `toLowerCase()`는 대소문자 구분 없이 비교할 수 있도록 입력을 소문자로 변환.
 5. **document.getElementById('result').textContent**: `result`라는 id를 가진 요소의 내용을 변경하여 점수를 표시.
-
----
-
-### 필기 예시
-
-1. **HTML과 JavaScript 연동**: HTML에서 요소를 클릭할 때 자바스크립트 함수가 실행되도록 할 수 있음.
-   - `onclick="checkAnswers()"`: 버튼을 클릭하면 `checkAnswers()` 함수 실행.
-  
-2. **DOM 접근**: `document.getElementById()`를 사용하여 HTML의 특정 요소에 접근하고, 해당 요소의 속성을 가져오거나 변경할 수 있음.
-
-3. **조건문 사용**: `if` 문을 사용하여 조건에 따라 특정 코드를 실행할 수 있음.
-   - `if (a1.toLowerCase() === "cat") score++;`: 사용자의 입력이 "cat"인지 확인한 후 점수를 증가시킴.
-
-4. **결과 출력**: HTML 요소의 내용을 변경하는 방법으로 `textContent`를 사용함.
-   - `document.getElementById('result').textContent = score + "개 맞았습니다."`: 점수를 화면에 출력.
 
 ---
 ### `.value` vs `.textContent` 비교
@@ -127,5 +104,13 @@ document.getElementById('result').textContent = "점수: 3개";
 ```javascript
 document.getElementById('result').textContent = "새로운 값";  // "새로운 값"으로 변경됨
 ```
+
+---
+### 1. **`let` 키워드**
+
+- **변경 가능성**: `let`으로 선언한 변수는 재할당이 가능합니다. 즉, 변수를 초기화한 후에 다른 값으로 변경할 수 있습니다.
+### 2. **`const` 키워드**
+
+- **변경 불가능성**: `const`로 선언된 변수는 재할당이 불가능합니다. 한 번 값을 할당하면, 이후에 값을 변경할 수 없습니다.
 
 ---
