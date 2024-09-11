@@ -13,25 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/Quiz/QUIZ.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "ef1a3abbbb2ef4ec",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7da8c32152b35d18",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/3. 신호 처리.pdf"
               }
             }
           }
@@ -85,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -102,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/Quiz/QUIZ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/Quiz/QUIZ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md"
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/Quiz/QUIZ.md"
               }
             }
           }
@@ -165,20 +148,23 @@
   },
   "active": "40e73ed06ac1a725",
   "lastOpenFiles": [
+    "image/Pasted image 20240911174537.png",
+    "image/Pasted image 20240911174523.png",
+    "image/Pasted image 20240911172915.png",
+    "image/Pasted image 20240911172632.png",
+    "image/Pasted image 20240911172611.png",
+    "image/Pasted image 20240911174556.png",
+    "Pasted image 20240911174556.png",
+    "Pasted image 20240911174537.png",
+    "Pasted image 20240911174523.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/Quiz/QUIZ.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/Quiz",
     "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/3. 신호 처리.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/2. 네트워크 분류와 계층 모델.pdf",
     "Pasted image 20240911172915.png",
     "Pasted image 20240911172611.png",
-    "Pasted image 20240911172632.png",
-    "image/Pasted image 20240911164355.png",
-    "image/Pasted image 20240911170708.png",
-    "Pasted image 20240911170708.png",
-    "Pasted image 20240911164355.png",
-    "image/Pasted image 20240911163431.png",
-    "image/Pasted image 20240911163608.png",
-    "Pasted image 20240911163608.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/2 수학적 모델과 논리.pdf",
@@ -194,7 +180,6 @@
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/2. 컴퓨터 시스템과 운영체제.pdf",
     "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/3. 시스템.pdf",
     "Obsidian/ComputerScience/데이터베이스/3. DB 시스템",
-    "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/2. 관리 시스템.pdf",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
     "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
     "Obsidian/ComputerScience/데이터 구조/1. 리스트/단순 연결 리스트.md",
@@ -208,8 +193,6 @@
     "Obsidian/ComputerScience/머신러닝프로젝트/Python 기초/실력과제.md",
     "Obsidian/ComputerScience/데이터 구조/2. 스택/스택.md",
     "Obsidian/ComputerScience/Python(basic)/중간/답지.md",
-    "Obsidian/ComputerScience/Python(basic)/4. 조건문.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/UMNet.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/VGGNet/VGG.md"
+    "Obsidian/ComputerScience/Python(basic)/4. 조건문.md"
   ]
 }
