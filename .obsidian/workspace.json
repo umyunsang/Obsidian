@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "509ae3794b263808",
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
+                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
+                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md"
+                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md"
               }
             }
           }
@@ -176,8 +175,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c9bc68558f114842",
+  "active": "3528c044318e2d32",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
     "image/Pasted image 20240913112801.png",
     "image/Pasted image 20240913105622.png",
@@ -185,7 +185,6 @@
     "image/Pasted image 20240913105309.png",
     "image/Pasted image 20240913112937.png",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/0장_확인문제.pdf",
-    "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
     "Pasted image 20240913112937.png",
     "Pasted image 20240913112801.png",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/0장.pdf",

@@ -4,20 +4,6 @@
 # QUIZ.1
 
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>오늘 실습</title>
-    <style>
-        body {
-            padding: 20px;
-        }
-        h1 {
-            color: blue;
-        }
-    </style>
-</head>
 <body>
     <h1>영어 퀴즈</h1>
     고양이 영어로? <input type="text" id="a1"> <br><br>
@@ -127,13 +113,9 @@ document.getElementById('result').textContent = "점수: 3개";
 </body>
 </html>
 ```
-### 1. **HTML 구조**
-
 - **`<input type="text" id="who">`**: 사용자가 텍스트를 입력할 수 있는 입력 필드입니다. 여기서 사용자가 입력한 값에 따라 특정 이미지를 변경하게 됩니다.
 - **`<button onclick="showImage()">사진</button>`**: "사진" 버튼을 클릭하면 `showImage()` 함수가 실행됩니다.
 - **`<img id="image" src="static/나는.png" alt="사진을 가져오지 못했습니다.">`**: 초기 이미지를 표시하는 요소입니다. `id="image"`는 자바스크립트에서 이 요소에 접근할 수 있도록 해줍니다. `src` 속성은 이미지 파일의 경로를 지정하며, `alt` 속성은 이미지를 불러올 수 없을 때 대신 표시될 텍스트를 정의합니다.
-
-### 2. **자바스크립트 코드 (`<script>` 섹션)**
 
 ```js
 function showImage() {     const image = document.getElementById('image');      const who = document.getElementById('who').value.trim();
@@ -159,9 +141,6 @@ image.src = 'static/쏘리.png'; }
     - `who`가 "식빵" 또는 "식"일 경우 `image.src = 'static/식빵.png'`로 설정합니다.
     - 위의 조건에 맞지 않으면 `image.src = 'static/쏘리.png'`로 설정하여 기본적으로 "쏘리" 이미지를 표시합니다.
 
-### 3. **이미지의 동적 변경**
-
-- 사용자가 특정 값을 입력하고 버튼을 클릭하면, 그 입력에 따라 이미지가 동적으로 변경됩니다. 이는 `image.src` 속성의 값을 변경함으로써 이루어집니다. `src` 속성에 새로운 이미지 파일 경로를 설정하면, 웹 페이지에 표시되는 이미지는 해당 경로의 이미지로 바뀝니다.
 
 ---
 # ex3.js
