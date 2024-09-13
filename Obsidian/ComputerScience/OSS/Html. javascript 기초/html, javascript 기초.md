@@ -162,3 +162,85 @@ image.src = 'static/쏘리.png'; }
 ### 3. **이미지의 동적 변경**
 
 - 사용자가 특정 값을 입력하고 버튼을 클릭하면, 그 입력에 따라 이미지가 동적으로 변경됩니다. 이는 `image.src` 속성의 값을 변경함으로써 이루어집니다. `src` 속성에 새로운 이미지 파일 경로를 설정하면, 웹 페이지에 표시되는 이미지는 해당 경로의 이미지로 바뀝니다.
+
+---
+# ex3.js
+
+```js
+function calculate(op) {
+    // html에서 입력한 숫자 2개 가져와서 숫자로 변환 후 num1, num2에 넣음
+    const num1 = parseFloat(document.getElementById('number1').value);
+    const num2 = parseFloat(document.getElementById('number2').value);
+    let result = 0;
+
+    // 숫자 아니면 리턴(종료)
+    if (isNaN(num1) || isNaN(num2)) {
+        alert("두 개 모두 숫자로 입력해 주세요!");
+        return;
+    }
+
+    switch (op) {
+        case '+': result = num1 + num2; break;
+        case '-': result = num1 - num2; break;
+        case '*': result = num1 * num2; break;
+        case '/': if (num2 === 0) {
+                alert("0으로 나눌 수 없어요!"); return;
+            }
+            result = num1 / num2; break;
+    }
+
+    // 결과 보여줌
+    document.getElementById('result').value = result;
+}
+
+```
+### 1. **`parseFloat()`**
+`parseFloat()` 함수는 문자열을 실수(float)로 변환하는 역할을 합니다. 문자열 안에 숫자 형식이 있을 경우, 그 숫자를 반환하며, 문자열에 포함된 숫자 외의 문자는 무시됩니다.
+
+#### 예시:
+```javascript
+parseFloat("123.45");    // 123.45
+parseFloat("123.45abc"); // 123.45 (문자 'abc'는 무시)
+parseFloat("abc123.45"); // NaN (숫자가 앞에 없으므로 변환 불가)
+```
+
+- **역할:** 문자열을 실수로 변환. 숫자가 포함된 문자열만을 처리하며, 숫자로 변환할 수 없는 경우 `NaN`을 반환합니다.
+
+#### 주의점:
+- `parseFloat()`은 정수도 변환할 수 있지만, 항상 실수로 처리합니다.
+- 숫자 이외의 문자가 뒤에 붙어있으면 그 문자는 무시되지만, 앞에 있으면 변환할 수 없습니다.
+
+### 2. **`isNaN()`**
+`isNaN()` 함수는 주어진 값이 `NaN`(Not-a-Number)인지 확인하는 역할을 합니다. 이 함수는 숫자가 아닌 값이나, 숫자로 변환할 수 없는 값을 만나면 `true`를 반환합니다.
+
+#### 예시:
+```javascript
+isNaN(123);          // false (숫자이므로)
+isNaN("123");        // false (숫자로 변환 가능하므로)
+isNaN("abc");        // true (숫자가 아니므로)
+isNaN(NaN);          // true (NaN은 자신도 NaN이므로)
+isNaN(parseFloat("abc")); // true (변환 실패로 NaN 반환)
+```
+
+- **역할:** 입력값이 숫자가 아닌지를 검사하여, `NaN`일 경우 `true`를 반환합니다.
+
+#### 주의점:
+- `isNaN()`은 숫자가 아닌 값인지 확인할 때만 사용해야 합니다. 예를 들어, `isNaN(null)`은 `false`를 반환합니다. 이는 자바스크립트의 암묵적 타입 변환으로 `null`이 `0`으로 변환되기 때문입니다.
+
+---
+# ex4.js
+```js
+let n, sum;
+
+n = prompt("숫자를 입력하세요.");
+document.write("n ==> " + n + "<hr>");
+
+sum = n + 100;
+document.write("n + 100 ==> " + sum + "<hr>");
+
+sum = parseInt(n) + 100;
+document.write("정수변환n + 100 ==> " + sum + "<hr>");
+```
+- `document.write()`는 HTML 문서에 실시간으로 내용을 출력합니다.
+- `prompt()`는 사용자의 입력을 받고, 그 결과는 문자열입니다.
+- 문자열과 숫자를 더하면 문자열 연결이 되고, `parseInt()`를 사용하면 문자열을 정수로 변환할 수 있습니다.
