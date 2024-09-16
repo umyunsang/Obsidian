@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "15608bc1bb2ecef1",
+        "id": "14f67ca9b0a1dc41",
         "type": "tabs",
         "children": [
           {
-            "id": "3528c044318e2d32",
+            "id": "f9cec43addcc8c52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
+                "file": "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +22,18 @@
         ]
       },
       {
-        "id": "14f67ca9b0a1dc41",
+        "id": "26857661a251335b",
         "type": "tabs",
         "children": [
           {
-            "id": "f9cec43addcc8c52",
+            "id": "f282fd06e9aa848e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf"
+                "file": "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -102,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
+                "file": "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
+                "file": "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md"
+                "file": "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md"
               }
             }
           }
@@ -163,13 +165,24 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3528c044318e2d32",
+  "active": "f9cec43addcc8c52",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf",
-    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
-    "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/2. 컴퓨터 시스템과 운영체제.pdf",
+    "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/1. 운영체제의 시작과 발전.pdf",
+    "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/3. 시스템.pdf",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
+    "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md",
+    "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/2. 관리 시스템.pdf",
+    "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
+    "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/1. 기본 개념.pdf",
+    "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain_RAG.pdf",
+    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf",
+    "image/Pasted image 20240916164935.png",
+    "Pasted image 20240916164935.png",
+    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
+    "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/2. 컴퓨터 시스템과 운영체제.pdf",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
     "image/Pasted image 20240913112801.png",
@@ -187,24 +200,13 @@
     "Obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
     "Obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
     "Pasted image 20240913105622.png",
-    "Pasted image 20240913105606.png",
-    "Pasted image 20240913105309.png",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/ossai2024_0장_확인문제_내용추가예정.pdf",
-    "Obsidian/ComputerScience/OSS/Html. javascript 기초/ossai2024_0장_내용추가예정.pdf",
-    "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링.pdf",
-    "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md",
-    "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/3. 시스템.pdf",
-    "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/Quiz/QUIZ.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/Quiz",
     "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
-    "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
-    "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
     "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
     "Obsidian/ComputerScience/데이터 구조/1. 리스트/단순 연결 리스트.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
     "Obsidian/ComputerScience/데이터 구조/1. 리스트/원형 연결 리스트.md",
     "Obsidian/무제 파일.md",
     "Obsidian/ComputerScience/데이터 구조/2. 스택/Stack.md",
