@@ -13,25 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
-                "mode": "source",
+                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
+                "mode": "preview",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "eee49309a04cf04a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8438c990e41c6fc8",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/2. 네트워크 분류와 계층 모델.pdf"
               }
             }
           }
@@ -85,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -101,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
+                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
+                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md"
+                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md"
               }
             }
           }
@@ -164,10 +149,13 @@
   },
   "active": "f9cec43addcc8c52",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/3. 신호 처리.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/2. 네트워크 분류와 계층 모델.pdf",
     "image/Pasted image 20240918143123.png",
     "Pasted image 20240918143123.png",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/2. 네트워크 분류와 계층 모델.pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/1.통신과 컴퓨터네트워크.pdf",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
@@ -195,16 +183,12 @@
     "image/Pasted image 20240913105606.png",
     "image/Pasted image 20240913105309.png",
     "image/Pasted image 20240913112937.png",
-    "Obsidian/ComputerScience/OSS/Html. javascript 기초/0장_확인문제.pdf",
     "Pasted image 20240913112937.png",
-    "Pasted image 20240913112801.png",
     "Obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
     "Obsidian/ComputerScience/웹프로그래밍/4. 쿠키와 세션/쿠키와 세션.md",
     "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
     "Obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
     "Obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/Quiz/QUIZ.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
     "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
     "Obsidian/ComputerScience/데이터 구조/1. 리스트/단순 연결 리스트.md",
     "Obsidian/ComputerScience/데이터 구조/1. 리스트/원형 연결 리스트.md",
