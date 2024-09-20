@@ -223,3 +223,25 @@ document.write("정수변환n + 100 ==> " + sum + "<hr>");
 - `document.write()`는 HTML 문서에 실시간으로 내용을 출력합니다.
 - `prompt()`는 사용자의 입력을 받고, 그 결과는 문자열입니다.
 - 문자열과 숫자를 더하면 문자열 연결이 되고, `parseInt()`를 사용하면 문자열을 정수로 변환할 수 있습니다.
+
+# ex5.js
+```js
+function changeColor() {
+    const co = document.getElementById("co").value;
+    // 입력된 색상을 body의 글자색으로 설정
+    document.body.style.color = co;
+    // 입력된 색상이 잘못되었을 경우 팝업창
+    if (!isValidColor(co)) {
+      alert(co + "는 존재하지 않는 색입니다. 다시 작성해 주세요 ^^");
+    }
+  }
+  
+  function isValidColor(color) {
+    // 유효한 색상인지 확인
+    const st = new Option().style;
+    st.color = color;
+    if (st.color == "") return false;
+    else return true;
+  }
+```
+- 
