@@ -13,9 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
+                "file": "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "59e81bc0433176a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cba1426da6845e20",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf"
               }
             }
           }
@@ -86,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
+                "file": "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
+                "file": "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md"
+                "file": "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md"
               }
             }
           }
@@ -149,20 +165,23 @@
   },
   "active": "f9cec43addcc8c52",
   "lastOpenFiles": [
+    "image/Pasted image 20240920133551.png",
+    "image/Pasted image 20240920133516.png",
+    "image/Pasted image 20240920132919.png",
+    "image/Pasted image 20240920132851.png",
+    "image/Pasted image 20240920132429.png",
+    "image/Pasted image 20240920132411.png",
+    "image/Pasted image 20240920132218.png",
+    "image/Pasted image 20240920131405.png",
+    "image/Pasted image 20240920131318.png",
+    "image/Pasted image 20240920131113.png",
+    "image/Pasted image 20240920131045.png",
+    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf",
+    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
+    "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.pdf",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
-    "image/Pasted image 20240920112345.png",
-    "image/Pasted image 20240920112018.png",
-    "image/Pasted image 20240920111458.png",
-    "image/Pasted image 20240920111245.png",
-    "image/Pasted image 20240920110327.png",
-    "image/Pasted image 20240920105617.png",
-    "image/Pasted image 20240920112809.png",
-    "Pasted image 20240920112809.png",
-    "Pasted image 20240920112345.png",
-    "Pasted image 20240920112018.png",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/0장_확인문제.pdf",
-    "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, css, javascript 기초.pdf",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/1. 운영체제의 시작과 발전.pdf",
@@ -173,9 +192,7 @@
     "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain_RAG.pdf",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
-    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
     "Obsidian/ComputerScience/이산수학/3 집합 및 집합연산.pdf",
-    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
