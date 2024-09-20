@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -22,11 +22,11 @@
         ]
       },
       {
-        "id": "59e81bc0433176a0",
+        "id": "20d776b843b5a1ca",
         "type": "tabs",
         "children": [
           {
-            "id": "cba1426da6845e20",
+            "id": "36cb08a4fa70f3b0",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -165,6 +165,11 @@
   },
   "active": "f9cec43addcc8c52",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf",
+    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
+    "Pasted image 20240920154548.png",
+    "Pasted image 20240920154524.png",
+    "Pasted image 20240920153023.png",
     "image/Pasted image 20240920133551.png",
     "image/Pasted image 20240920133516.png",
     "image/Pasted image 20240920132919.png",
@@ -172,12 +177,6 @@
     "image/Pasted image 20240920132429.png",
     "image/Pasted image 20240920132411.png",
     "image/Pasted image 20240920132218.png",
-    "image/Pasted image 20240920131405.png",
-    "image/Pasted image 20240920131318.png",
-    "image/Pasted image 20240920131113.png",
-    "image/Pasted image 20240920131045.png",
-    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf",
-    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.pdf",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
