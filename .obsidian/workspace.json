@@ -11,27 +11,9 @@
             "id": "f9cec43addcc8c52",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "20d776b843b5a1ca",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "36cb08a4fa70f3b0",
-            "type": "leaf",
-            "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf"
+                "file": "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf"
               }
             }
           }
@@ -102,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
+                "file": "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
+                "file": "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md"
+                "file": "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf"
               }
             }
           }
@@ -165,8 +147,9 @@
   },
   "active": "f9cec43addcc8c52",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
+    "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf",
+    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf",
     "Pasted image 20240920154548.png",
     "Pasted image 20240920154524.png",
     "Pasted image 20240920153023.png",
@@ -198,7 +181,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/3. 신호 처리.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/2. 네트워크 분류와 계층 모델.pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/1.통신과 컴퓨터네트워크.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Data_analysis.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Dataframe.md",
     "Obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
