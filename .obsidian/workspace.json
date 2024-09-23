@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "14f67ca9b0a1dc41",
+        "id": "30512bda5bbc3661",
         "type": "tabs",
         "children": [
           {
-            "id": "c87ac28b8f8a1517",
+            "id": "20e4af3af4267deb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
+                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "1b0642c09e2e2ef3",
+        "id": "dfe33043b51ff569",
         "type": "tabs",
         "children": [
           {
-            "id": "f9cec43addcc8c52",
+            "id": "c87ac28b8f8a1517",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3. 프로세스와 프로세스 관리.pdf"
+                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_확인문제_내용추가예정.pdf"
               }
             }
           }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
+                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
+                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md"
+                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md"
               }
             }
           }
@@ -163,38 +163,41 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c87ac28b8f8a1517",
+  "active": "20e4af3af4267deb",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3. 프로세스와 프로세스 관리.pdf",
+    "Pasted image 20240923112147.png",
+    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_확인문제_내용추가예정.pdf",
+    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_내용추가예정.pdf",
+    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
+    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
+    "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, javascript 기초.md",
+    "Pasted image 20240923111354.png",
+    "Pasted image 20240923111033.png",
+    "Pasted image 20240923110059.png",
+    "Pasted image 20240923105755.png",
+    "Pasted image 20240923105221.png",
+    "Pasted image 20240923105031.png",
+    "Pasted image 20240923104950.png",
+    "Pasted image 20240923104250.png",
     "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
+    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기",
+    "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3. 프로세스와 프로세스 관리.pdf",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
     "image/Pasted image 20240923100633.png",
     "Pasted image 20240923100633.png",
     "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/2. 컴퓨터 시스템과 운영체제.pdf",
-    "image/Pasted image 20240923093401.png",
-    "image/Pasted image 20240923092655.png",
-    "image/Pasted image 20240923094511.png",
-    "Pasted image 20240923094511.png",
-    "Pasted image 20240923093401.png",
-    "Pasted image 20240923092655.png",
-    "image/Pasted image 20240923091038.png",
-    "image/Pasted image 20240920154548.png",
     "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf",
-    "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
-    "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.pdf",
-    "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
+    "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.pdf",
+    "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/0장_확인문제.pdf",
-    "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, css, javascript 기초.pdf",
-    "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/1. 운영체제의 시작과 발전.pdf",
     "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
     "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
     "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/imshow 이미지 그래프.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain_RAG.pdf",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
@@ -207,8 +210,6 @@
     "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
     "Obsidian/ComputerScience/웹프로그래밍/6. HTML 기초2/HTML 기초 실습2.md",
     "Obsidian/ComputerScience/웹프로그래밍/3. Spring Boot 기초/Spring Boot 기초 실습.md",
-    "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md",
-    "Obsidian/ComputerScience/데이터 구조/1. 리스트/단순 연결 리스트.md",
-    "Obsidian/ComputerScience/데이터 구조/1. 리스트/원형 연결 리스트.md"
+    "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/문제 풀이.md"
   ]
 }
