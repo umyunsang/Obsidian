@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
+                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
+                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
+                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md"
+                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md"
               }
             }
           }
@@ -165,33 +164,32 @@
   },
   "active": "20e4af3af4267deb",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
+    "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md",
+    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
+    "image/Pasted image 20240923112147.png",
+    "image/Pasted image 20240923111354.png",
+    "image/Pasted image 20240923111033.png",
+    "image/Pasted image 20240923110059.png",
+    "image/Pasted image 20240923105755.png",
+    "image/Pasted image 20240923105221.png",
+    "image/Pasted image 20240923105031.png",
+    "image/Pasted image 20240923104950.png",
+    "image/Pasted image 20240923104250.png",
     "Pasted image 20240923112147.png",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_확인문제_내용추가예정.pdf",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_내용추가예정.pdf",
-    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
-    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, javascript 기초.md",
-    "Pasted image 20240923111354.png",
-    "Pasted image 20240923111033.png",
-    "Pasted image 20240923110059.png",
-    "Pasted image 20240923105755.png",
-    "Pasted image 20240923105221.png",
-    "Pasted image 20240923105031.png",
-    "Pasted image 20240923104950.png",
-    "Pasted image 20240923104250.png",
     "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기",
     "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3. 프로세스와 프로세스 관리.pdf",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
-    "image/Pasted image 20240923100633.png",
-    "Pasted image 20240923100633.png",
     "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/2. 컴퓨터 시스템과 운영체제.pdf",
     "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.pdf",
-    "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/0장_확인문제.pdf",
     "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
     "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
