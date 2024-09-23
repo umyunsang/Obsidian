@@ -8,12 +8,30 @@
         "type": "tabs",
         "children": [
           {
+            "id": "c87ac28b8f8a1517",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1b0642c09e2e2ef3",
+        "type": "tabs",
+        "children": [
+          {
             "id": "f9cec43addcc8c52",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf"
+                "file": "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/2. 컴퓨터 시스템과 운영체제.pdf"
               }
             }
           }
@@ -84,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf",
+                "file": "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf",
+                "file": "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf"
+                "file": "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md"
               }
             }
           }
@@ -145,27 +163,28 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f9cec43addcc8c52",
+  "active": "c87ac28b8f8a1517",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
+    "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/2. 컴퓨터 시스템과 운영체제.pdf",
+    "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
+    "image/Pasted image 20240923093401.png",
+    "image/Pasted image 20240923092655.png",
+    "image/Pasted image 20240923094511.png",
+    "Pasted image 20240923094511.png",
+    "Pasted image 20240923093401.png",
+    "Pasted image 20240923092655.png",
+    "image/Pasted image 20240923091038.png",
+    "image/Pasted image 20240920154548.png",
+    "image/Pasted image 20240920154524.png",
+    "image/Pasted image 20240920153023.png",
     "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf",
+    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf",
-    "Pasted image 20240920154548.png",
-    "Pasted image 20240920154524.png",
-    "Pasted image 20240920153023.png",
-    "image/Pasted image 20240920133551.png",
-    "image/Pasted image 20240920133516.png",
-    "image/Pasted image 20240920132919.png",
-    "image/Pasted image 20240920132851.png",
-    "image/Pasted image 20240920132429.png",
-    "image/Pasted image 20240920132411.png",
-    "image/Pasted image 20240920132218.png",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, javascript 기초.md",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.pdf",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/연습문제.md",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/0장_확인문제.pdf",
     "Obsidian/ComputerScience/OSS/Html. javascript 기초/html, css, javascript 기초.pdf",
-    "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/1. 운영체제의 시작과 발전.pdf",
     "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
     "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
@@ -180,7 +199,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/3. 신호 처리.pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/2. 네트워크 분류와 계층 모델.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Data_analysis.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Dataframe.md",
     "Obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
