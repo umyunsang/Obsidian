@@ -11,11 +11,9 @@
             "id": "20e4af3af4267deb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
+                "file": "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
+                "file": "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md"
+                "file": "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf"
               }
             }
           }
@@ -148,8 +146,8 @@
   },
   "active": "20e4af3af4267deb",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md",
     "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
+    "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md",
     "image/Pasted image 20240923173300.png",
     "image/Pasted image 20240923172819.png",
     "image/Pasted image 20240923172750.png",
