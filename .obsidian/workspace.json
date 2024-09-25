@@ -4,16 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "30512bda5bbc3661",
+        "id": "8cfe3a1bd6ab352c",
         "type": "tabs",
         "children": [
           {
             "id": "20e4af3af4267deb",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "19f0fe65170b4e95",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7685194a9438ca5",
+            "type": "leaf",
+            "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf"
+                "file": "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3. 프로세스와 프로세스 관리.pdf"
               }
             }
           }
@@ -67,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -83,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf",
+                "file": "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf",
+                "file": "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf"
+                "file": "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md"
               }
             }
           }
@@ -146,18 +165,21 @@
   },
   "active": "20e4af3af4267deb",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3. 프로세스와 프로세스 관리.pdf",
+    "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
+    "image/Pasted image 20240925111914.png",
+    "image/Pasted image 20240925110152.png",
+    "image/Pasted image 20240925105115.png",
+    "image/Pasted image 20240925104529.png",
+    "image/Pasted image 20240925104001.png",
+    "image/Pasted image 20240925112326.png",
+    "Pasted image 20240925112326.png",
+    "Pasted image 20240925111914.png",
+    "Pasted image 20240925110152.png",
+    "Pasted image 20240925105115.png",
+    "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf",
     "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
     "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md",
-    "image/Pasted image 20240923173300.png",
-    "image/Pasted image 20240923172819.png",
-    "image/Pasted image 20240923172750.png",
-    "image/Pasted image 20240923172720.png",
-    "image/Pasted image 20240923171727.png",
-    "image/Pasted image 20240923171709.png",
-    "image/Pasted image 20240923171706.png",
-    "image/Pasted image 20240923171556.png",
-    "image/Pasted image 20240923170901.png",
-    "image/Pasted image 20240923170626.png",
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델.pdf",
     "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/4. 데이터 모델링.pdf",
     "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링",
@@ -166,14 +188,11 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/3. 신호 처리.pdf",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
-    "Obsidian/ComputerScience/운영체제/자동채점기 사용 방법 안내.pdf",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_확인문제_내용추가예정.pdf",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_내용추가예정.pdf",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, javascript 기초.md",
-    "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기",
-    "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3. 프로세스와 프로세스 관리.pdf",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
     "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
