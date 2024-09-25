@@ -76,9 +76,9 @@
 - 사용자와 데이터베이스 관리 시스템 간의 통신 수단 
 - 사용 목적에 따라 데이터 정의어, 데이터 조작어, 데이터 제어어로 구분
 	![](../../../../image/Pasted%20image%2020240912112357.png)
-- 데이터 정의어(DDL; Data Definition Language) 
+- **데이터 정의어(DDL; Data Definition Language)** 
 	- 스키마를 정의하거나, 수정 또는 삭제하기 위해 사용 
-- 데이터 조작어(DML; Data Manipulation Language) 
+- **데이터 조작어(DML; Data Manipulation Language)** 
 	- 데이터의 삽입·삭제·수정·검색 등의 처리를 요구하기 위해 사용 
 	- 절차적 데이터 조작어와 비절차적 데이터 조작어로 구분 
 		- **절차적 데이터 조작어**(procedural DML) 
@@ -86,7 +86,7 @@
 		- **비절차적 데이터 조작어**(nonprocedural DML) 
 			- 사용자가 어떤(what) 데이터를 원하는지만 설명 
 			- 선언적 언어(declarative language)라고도 함
-- 데이터 제어어(DCL; Data Control Language) 
+- **데이터 제어어(DCL; Data Control Language)** 
 	- 내부적으로 필요한 규칙이나 기법을 정의하기 위해 사용 
 	- 사용 목적 
 		- 무결성 : 정확하고 유효한 데이터만 유지 
