@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9151ecd595524279",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,8 +147,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9151ecd595524279",
+  "active": "2b7d5620f4078758",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
+    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
     "image/Pasted image 20240927112615.png",
     "image/Pasted image 20240927111327.png",
     "image/Pasted image 20240927110822.png",
@@ -170,19 +159,16 @@
     "image/Pasted image 20240927104308.png",
     "image/Pasted image 20240927103748.png",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
-    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
     "Pasted image 20240927112615.png",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_확인문제_내용추가예정 (1).pdf",
     "Pasted image 20240927111327.png",
     "Pasted image 20240927110822.png",
-    "Pasted image 20240927110408.png",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_내용추가예정.pdf",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_확인문제_내용추가예정.pdf",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/5. 관계 데이터 모델.pdf",
     "2024-09-26.md",
-    "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
     "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
     "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/4. 데이터 모델링.pdf",
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델",
