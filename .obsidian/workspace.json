@@ -19,16 +19,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2b7d5620f4078758",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf"
-              }
-            }
           }
         ]
       },
@@ -97,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -177,6 +166,8 @@
   },
   "active": "baa0b47daffced8c",
   "lastOpenFiles": [
+    "image/Pasted image 20240927153310.png",
+    "image/Pasted image 20240927153937.png",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
     "Pasted image 20240927153937.png",
@@ -191,7 +182,6 @@
     "image/Pasted image 20240927104308.png",
     "image/Pasted image 20240927103748.png",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
-    "Pasted image 20240927112615.png",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_확인문제_내용추가예정 (1).pdf",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_내용추가예정.pdf",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_확인문제_내용추가예정.pdf",
