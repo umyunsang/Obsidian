@@ -14,24 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "f196280efc5da4f0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6f1a97d430d0833f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/5. 관계 데이터 모델.pdf"
               }
             }
           }
