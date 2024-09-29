@@ -13,9 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.md",
                 "mode": "preview",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "5509005742deb52c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2b6a33f047b1f01",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.pdf"
               }
             }
           }
@@ -69,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -85,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md"
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.md"
               }
             }
           }
@@ -148,9 +165,17 @@
   },
   "active": "baa0b47daffced8c",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/3. 신호 처리.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/2. 네트워크 분류와 계층 모델.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/1.통신과 컴퓨터네트워크.pdf",
+    "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/5. 관계 데이터 모델.pdf",
     "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/4. 데이터 모델링.pdf",
-    "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
     "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
     "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md",
     "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
@@ -174,14 +199,7 @@
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_내용추가예정.pdf",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_확인문제_내용추가예정.pdf",
     "2024-09-26.md",
-    "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/3. 신호 처리.pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, javascript 기초.md",
     "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
