@@ -13,25 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "5509005742deb52c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b2b6a33f047b1f01",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.pdf"
               }
             }
           }
@@ -102,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.md"
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md"
               }
             }
           }
@@ -165,18 +149,22 @@
   },
   "active": "baa0b47daffced8c",
   "lastOpenFiles": [
+    "image/Pasted image 20240930161110.png",
+    "image/Pasted image 20240930161055.png",
+    "image/Pasted image 20240930161123.png",
+    "image/Pasted image 20240930155712.png",
+    "image/Pasted image 20240930155648.png",
+    "image/Pasted image 20240930155451.png",
+    "image/Pasted image 20240930155015.png",
+    "image/Pasted image 20240930154058.png",
+    "image/Pasted image 20240930153108.png",
+    "image/Pasted image 20240930152003.png",
+    "image/Pasted image 20240930151621.png",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/유선 및 무선 데이터 전송.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/5. 통신망과 특징.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.md",
-    "Pasted image 20240930155712.png",
-    "Pasted image 20240930155648.png",
-    "Pasted image 20240930155451.png",
-    "Pasted image 20240930155015.png",
-    "Pasted image 20240930154058.png",
-    "Pasted image 20240930153108.png",
-    "Pasted image 20240930152003.png",
-    "Pasted image 20240930151621.png",
-    "Pasted image 20240930151412.png",
-    "Pasted image 20240930151352.png",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_확인문제_내용추가예정 (2).pdf",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
@@ -190,7 +178,6 @@
     "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3. 프로세스와 프로세스 관리.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/3. 신호 처리.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/2. 네트워크 분류와 계층 모델.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
@@ -200,7 +187,6 @@
     "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
     "2024-09-26.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, javascript 기초.md",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
@@ -208,7 +194,6 @@
     "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Data_analysis.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Dataframe.md",
-    "Obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md"
+    "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Dataframe.md"
   ]
 }
