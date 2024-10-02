@@ -6,6 +6,7 @@
       {
         "id": "1fd0640d524f6406",
         "type": "tabs",
+        "dimension": 53.447223917022576,
         "children": [
           {
             "id": "d5247297dfc7b334",
@@ -13,9 +14,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/유선 및 무선 데이터 전송.md",
-                "mode": "preview",
+                "file": "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
+                "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1bd2a159ae952426",
+        "type": "tabs",
+        "dimension": 46.552776082977424,
+        "children": [
+          {
+            "id": "04c7591424941ede",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/4. 스레드와 멀티테스킹.pdf"
               }
             }
           }
@@ -69,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -85,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/유선 및 무선 데이터 전송.md",
+                "file": "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/유선 및 무선 데이터 전송.md",
+                "file": "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/유선 및 무선 데이터 전송.md"
+                "file": "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md"
               }
             }
           }
@@ -148,8 +167,21 @@
   },
   "active": "d5247297dfc7b334",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
+    "image/Pasted image 20241002110952.png",
+    "image/Pasted image 20241002110849.png",
+    "image/Pasted image 20241002111330.png",
+    "image/Pasted image 20241002110705.png",
+    "image/Pasted image 20241002110312.png",
+    "image/Pasted image 20241002105957.png",
+    "image/Pasted image 20241002105727.png",
+    "image/Pasted image 20241002105709.png",
+    "image/Pasted image 20241002105008.png",
+    "image/Pasted image 20241002104530.png",
+    "image/Pasted image 20241002104509.png",
+    "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/4. 스레드와 멀티테스킹.pdf",
+    "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/유선 및 무선 데이터 전송.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/5. 통신망과 특징.pdf",
@@ -159,23 +191,11 @@
     "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md",
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/5. 관계 데이터 모델.pdf",
-    "image/Pasted image 20240930173028.png",
-    "image/Pasted image 20240930172950.png",
-    "image/Pasted image 20240930173451.png",
-    "image/Pasted image 20240930172926.png",
-    "image/Pasted image 20240930172851.png",
-    "image/Pasted image 20240930171610.png",
-    "image/Pasted image 20240930165852.png",
-    "image/Pasted image 20240930165818.png",
-    "image/Pasted image 20240930164449.png",
-    "image/Pasted image 20240930164135.png",
     "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 sql.pdf",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_확인문제_내용추가예정 (2).pdf",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
-    "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/4. 스레드와 멀티테스킹.pdf",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_확인문제_내용추가예정 (1).pdf",
-    "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
     "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
