@@ -6,7 +6,6 @@
       {
         "id": "1fd0640d524f6406",
         "type": "tabs",
-        "dimension": 46.67480170835876,
         "children": [
           {
             "id": "d5247297dfc7b334",
@@ -14,26 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "1bd2a159ae952426",
-        "type": "tabs",
-        "dimension": 53.32519829164124,
-        "children": [
-          {
-            "id": "04c7591424941ede",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/5. 통신망과 특징.pdf"
               }
             }
           }
@@ -87,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -104,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md"
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md"
               }
             }
           }
@@ -167,8 +148,14 @@
   },
   "active": "d5247297dfc7b334",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/5. 통신망과 특징.pdf",
+    "image/Pasted image 20241002174243.png",
+    "image/Pasted image 20241002174227.png",
+    "image/Pasted image 20241002174258.png",
+    "Pasted image 20241002174258.png",
+    "Pasted image 20241002174243.png",
+    "Pasted image 20241002174227.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/5. 통신망과 특징.pdf",
     "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
     "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/4. 스레드와 멀티테스킹.pdf",
     "image/Pasted image 20241002110952.png",
@@ -176,11 +163,6 @@
     "image/Pasted image 20241002111330.png",
     "image/Pasted image 20241002110705.png",
     "image/Pasted image 20241002110312.png",
-    "image/Pasted image 20241002105957.png",
-    "image/Pasted image 20241002105727.png",
-    "image/Pasted image 20241002105709.png",
-    "image/Pasted image 20241002105008.png",
-    "image/Pasted image 20241002104530.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/유선 및 무선 데이터 전송.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.pdf",
