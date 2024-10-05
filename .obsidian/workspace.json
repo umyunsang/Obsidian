@@ -29,9 +29,11 @@
             "id": "d5247297dfc7b334",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습문제.pdf"
+                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -102,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
+                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
+                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md"
+                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md"
               }
             }
           }
@@ -163,13 +165,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c24003adebfdb73d",
+  "active": "d5247297dfc7b334",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습문제.pdf",
+    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
     "image/Pasted image 20241005094409.png",
     "Pasted image 20241005094409.png",
-    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습문제.pdf",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
-    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.pdf",
     "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산/집합 및 집합 연산.md",
     "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산/3 집합 및 집합연산.pdf",
@@ -181,7 +183,6 @@
     "image/Pasted image 20241004112324.png",
     "image/Pasted image 20241004111055.png",
     "image/Pasted image 20241004151402.png",
-    "Pasted image 20241004151402.png",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
     "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf",
