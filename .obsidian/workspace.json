@@ -6,6 +6,7 @@
       {
         "id": "1fd0640d524f6406",
         "type": "tabs",
+        "dimension": 58.60805860805861,
         "children": [
           {
             "id": "c24003adebfdb73d",
@@ -13,8 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
-                "mode": "source",
+                "file": "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -22,18 +23,17 @@
         ]
       },
       {
-        "id": "5dcc22b947ceed9e",
+        "id": "d70d0ea8f306e023",
         "type": "tabs",
+        "dimension": 41.39194139194139,
         "children": [
           {
-            "id": "d5247297dfc7b334",
+            "id": "40f94a5475f223f6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/1. 운영체제의 시작과 발전.pdf"
               }
             }
           }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
+                "file": "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
+                "file": "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md"
+                "file": "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md"
               }
             }
           }
@@ -165,16 +165,28 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d5247297dfc7b334",
+  "active": "c24003adebfdb73d",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습문제.pdf",
+    "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/1. 운영체제의 시작과 발전.pdf",
+    "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/4. 데이터 모델링.pdf",
+    "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
+    "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
+    "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
+    "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md",
+    "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
+    "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/5. 관계 데이터 모델.pdf",
+    "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
+    "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/6. 관계 데이터 연산.pdf",
+    "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md",
+    "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산/집합 및 집합연산.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
+    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
+    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습문제.pdf",
     "image/Pasted image 20241005094409.png",
     "Pasted image 20241005094409.png",
-    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.pdf",
     "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산/집합 및 집합 연산.md",
-    "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산/3 집합 및 집합연산.pdf",
     "image/Pasted image 20241004113652.png",
     "image/Pasted image 20241004113244.png",
     "image/Pasted image 20241004113118.png",
@@ -188,29 +200,18 @@
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/ossai2024_1장_내용추가예정 (1).pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/5. 통신망과 특징.pdf",
     "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
-    "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/4. 스레드와 멀티테스킹.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/유선 및 무선 데이터 전송.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/4. 유선 및 무선 데이터 전송.pdf",
-    "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/6. 관계 데이터 연산.pdf",
-    "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md",
-    "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
     "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
-    "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
-    "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md",
-    "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
-    "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
     "2024-09-26.md",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, javascript 기초.md",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/imshow 이미지 그래프.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md",
-    "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md"
+    "Obsidian/ComputerScience/머신러닝프로젝트/LangChain/LangChain.md"
   ]
 }
