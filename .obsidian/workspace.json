@@ -13,21 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "cc46e44e0a677a61",
+        "type": "tabs",
+        "children": [
           {
-            "id": "8713ba7f89566094",
+            "id": "e5458a396c7c77b9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, javascript 기초.md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/5. 통신망과 특징.pdf"
               }
             }
           }
@@ -98,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md"
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md"
               }
             }
           }
@@ -161,11 +165,13 @@
   },
   "active": "f5406c04edf88d62",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/5. 통신망과 특징.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
+    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, javascript 기초.md",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, css, javascript 기초.pdf",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.pdf",
-    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
     "Pasted image 20241007110645.png",
     "Pasted image 20241007110006.png",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습문제.pdf",
@@ -189,7 +195,6 @@
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
     "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/6. 관계 데이터 연산.pdf",
     "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
     "image/Pasted image 20241005094409.png",
     "Pasted image 20241005094409.png",
     "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산/집합 및 집합 연산.md",
