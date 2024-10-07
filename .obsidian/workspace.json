@@ -25,41 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
+                "file": "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, javascript 기초.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "b1d6c0bb42965cf0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b1f9e631bd20edad",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습문제.pdf"
-              }
-            }
-          },
-          {
-            "id": "fb4bc288dc78c072",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.pdf"
-              }
-            }
-          }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
+                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
+                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md"
+                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md"
               }
             }
           }
@@ -187,10 +159,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8713ba7f89566094",
+  "active": "f5406c04edf88d62",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, javascript 기초.md",
+    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
+    "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, css, javascript 기초.pdf",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.pdf",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
+    "Pasted image 20241007110645.png",
+    "Pasted image 20241007110006.png",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습문제.pdf",
     "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
     "Pasted image 20241007100617.png",
@@ -200,8 +177,6 @@
     "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링",
     "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/4. 스레드와 멀티테스킹.pdf",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md",
-    "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, javascript 기초.md",
-    "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, css, javascript 기초.pdf",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/1. 운영체제의 시작과 발전.pdf",
@@ -214,9 +189,7 @@
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
     "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/6. 관계 데이터 연산.pdf",
     "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md",
-    "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산/집합 및 집합연산.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
-    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
     "image/Pasted image 20241005094409.png",
     "Pasted image 20241005094409.png",
     "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산/집합 및 집합 연산.md",
@@ -224,8 +197,6 @@
     "image/Pasted image 20241004113244.png",
     "image/Pasted image 20241004113118.png",
     "image/Pasted image 20241004112900.png",
-    "image/Pasted image 20241004112630.png",
-    "image/Pasted image 20241004112324.png",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/유선 및 무선 데이터 전송.md",
