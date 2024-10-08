@@ -19,4 +19,5 @@ revoke grant commit rollback
 - 데이터 제어어(DCL) 
 	- 보안을 위해 데이터에 대한 접근 및 사용 권한을 사용자별로 부여하거나 취소 하는 기능을 제공
 
+#### ==아마 시험 ?==
 ![[Pasted image 20241007173812.png]]
