@@ -25,7 +25,7 @@ revoke grant commit rollback
 	- 보안을 위해 데이터에 대한 접근 및 사용 권한을 사용자별로 부여하거나 취소 하는 기능을 제공
 
 #### ==아마 시험 ?==
-![[Pasted image 20241007173812.png]]
+![](../../../../image/Pasted%20image%2020241007173812.png)
 ## 2. SQL을 이용한 데이터 정의
 #### ==테이블 생성 : CREATE TABLE 문 (암기)==
 ```SQL
@@ -51,7 +51,7 @@ CREATE TABLE 테이블_이름 (
 		- 예) 적립금 INT DEFAULT 0 
 		- 예) 담당자 VARCHAR(10) DEFAULT ‘방경아'
 - 속성의 데이터 타입
-	![[Pasted image 20241010104327.png]]
+	![](../../../../image/Pasted%20image%2020241010104327.png)
 - **키의 정의** 
 	- PRIMARY KEY 
 		- 기본키를 지정하는 키워드 
@@ -83,13 +83,13 @@ CREATE TABLE 테이블_이름 (
 		- 예) CONSTRAINT CHK_CPY CHECK(제조업체 = ‘한빛제과’)
 
 #### 참조 무결성 제약조건 유지를 위한 투플 삭제 예
-![[Pasted image 20241010104711.png]]
+![](../../../../image/Pasted%20image%2020241010104711.png)
 - ON DELETE NO ACTION : 부서 테이블의 투플을 삭제하지 못하게 함 
 - ON DELETE CASCADE : 사원 테이블에서 홍보부에 근무하는 정소화 사원 투플도 함께 삭제 
 - ON DELETE SET NULL : 사원 테이블에서 정소화 사원의 소속부서 속성 값을 NULL로 변경 
 - ON DELETE SET DEFAULT : 사원 테이블에서 정소화 사원의 소속부서 속성 값을 기본 값으로 변경
 #### 고객 테이블 생성을 위한 CREATE TABLE 문 작성 예
-![[Pasted image 20241010104947.png]]
+![](../../../../image/Pasted%20image%2020241010104947.png)
 ```sql
 CREATE TABLE 고객 (
 	고객아이디 VARCHAR(20) NOT NULL,
@@ -102,7 +102,7 @@ CREATE TABLE 고객 (
 );
 ```
 
-![[Pasted image 20241010105005.png]]
+![](../../../../image/Pasted%20image%2020241010105005.png)
 ```sql
 CREATE TABLE 제품 (
 	제품번호 CHAR(3) NOT NULL,
@@ -115,7 +115,7 @@ CREATE TABLE 제품 (
 );
 ```
 
-![[Pasted image 20241010105048.png]]
+![](../../../../image/Pasted%20image%2020241010105048.png)
 ```sql
 CREATE TABLE 주문 (
 	주문번호 CHAR(3) NOT NULL,
@@ -130,7 +130,7 @@ CREATE TABLE 주문 (
 );
 ```
 
-![[Pasted image 20241010105104.png]]
+![](../../../../image/Pasted%20image%2020241010105104.png)
 ```sql
 CREATE TABLE 배송업체 (
 	업체번호 CHAR(3) NOT NULL,
@@ -156,7 +156,7 @@ ALTER TABLE 테이블이름
 ALTER TABLE 테이블_이름
 	ADD 속성_이름 데이터_타입 [NOT NULL] [DEFAULT 기본_값];
 ```
-![[Pasted image 20241010111745.png]]
+![](../../../../image/Pasted%20image%2020241010111745.png)
 ```SQL
 ALTER TABLE 고객 ADD 가입날짜 DATETIME;
 ```
@@ -169,7 +169,7 @@ ALTER TABLE 테이블_이름 DROP COLUMN 속성_이름;
 	- 속성 삭제가 수행되지 않음 
 	- 관련된 제약조건이나 참조하는 다른 속성을 먼저 삭제해야 함
 
-![[Pasted image 20241010112120.png]]
+![](../../../../image/Pasted%20image%2020241010112120.png)
 ```SQL
 ALTER TABLE 고객 DROP COLUMN 가입날짜;
 ```
@@ -205,31 +205,32 @@ FROM 테이블_리스트;
 		- 결과 테이블에서만 계산된 결과 값이 출력됨 
 			- 속성의 값이 실제로 변경되는 것은 아님
 
-![[Pasted image 20241010112625.png]]
+![](../../../../image/Pasted%20image%2020241010112625.png)
 ```SQL
 SELECT 고객아이디, 고객이름, 등급 FROM 고객;
 ```
-![[Pasted image 20241010112720.png]]
+![](../../../../image/Pasted%20image%2020241010112720.png)
 ```SQL
 SELECT * FROM 고객;
 ```
-![[Pasted image 20241010112812.png]]
+![](../../../../image/Pasted%20image%2020241010112812.png)
 ```SQL
 SELECT ALL 제조업체 FROM 제품;
 ```
-![[Pasted image 20241010112928.png]]
+![](../../../../image/Pasted%20image%2020241010112928.png)
 ```SQL
 SELECT DISTINCT 제조업체 FROM 제품;
 ```
-![[Pasted image 20241010113120.png]]
+![](../../../../image/Pasted%20image%2020241010113120.png)
 ```SQL
 SELECT 제품명, 단가 AS 가격 FROM 제품;
 ```
-![[Pasted image 20241010113356.png]]
+![](../../../../image/Pasted%20image%2020241010113356.png)
 ```SQL
 SELECT 제품명, 단가 +500 AS "조정 단가" FROM 제품;
 ```
 ---
+#### 조건 검색
 ```SQL
 SELECT [ALL; DISTINCT] 속성_리스트
 FROM 테이블_리스트
@@ -243,19 +244,19 @@ FROM 테이블_리스트
 			- 예) ‘2022-12-01’ < ‘2022-12-02’ 
 		- 조건에서 문자나 날짜 값은 작은따옴표로 묶어서 표현
 
-![[Pasted image 20241010113729.png]]
+![](../../../../image/Pasted%20image%2020241010113729.png)
 ```SQL
 SELECT 제품명, 재고량, 단가 FROM 제품 WHERE 제조업체='한빛제과';
 ```
-![[Pasted image 20241010113822.png]]
+![](../../../../image/Pasted%20image%2020241010113822.png)
 ```SQL
 SELECT 주문제품, 수량, 주문일자 FROM 주문 WHERE 주문고객='apple' AND 수량>=15;
 ```
-![[Pasted image 20241010113932.png]]
+![](../../../../image/Pasted%20image%2020241010113932.png)
 ```sql
 SELECT 주문제품, 수량, 주문일자, 주문고객 FROM 주문 WHERE 주문고객='apple' OR 수량>=15;
 ```
-![[Pasted image 20241010114055.png]]
+![](../../../../image/Pasted%20image%2020241010114055.png)
 ```sql
 SELECT 제품명, 단가, 제조업체 FROM 제품 WHERE 단가>=2000 AND 단가<=3000;
 ```
