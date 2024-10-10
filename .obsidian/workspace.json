@@ -20,22 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "ad30b12a926eb88c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f5406c04edf88d62",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습문제.pdf"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
