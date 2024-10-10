@@ -181,7 +181,7 @@ ALTER TABLE 테이블
 
 ---
 ## ==3. SQL을 이용한 데이터 조작(시험)==
-#### 데이터 검색 : SELECT 문
+#### 데이터 검색 : SELECT 문 (기본검색)
 ```SQL
 SELECT [ALL; DISTINCT] 속성_리스트
 FROM 테이블_리스트;
@@ -230,7 +230,7 @@ SELECT 제품명, 단가 AS 가격 FROM 제품;
 SELECT 제품명, 단가 +500 AS "조정 단가" FROM 제품;
 ```
 ---
-#### 조건 검색
+#### 데이터 검색 : SELECT 문 (조건 검색)
 ```SQL
 SELECT [ALL; DISTINCT] 속성_리스트
 FROM 테이블_리스트
