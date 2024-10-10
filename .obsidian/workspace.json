@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -22,11 +22,11 @@
         ]
       },
       {
-        "id": "2e8244125320fe05",
+        "id": "30ac230e61cd15f9",
         "type": "tabs",
         "children": [
           {
-            "id": "dc2b3fb73c517e07",
+            "id": "75087920baeedeb4",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/7. 데이터베이스 언어 sql.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/7. 데이터베이스 언어 sql.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md"
+                "file": "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/7. 데이터베이스 언어 sql.pdf"
               }
             }
           }
@@ -163,14 +162,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f5406c04edf88d62",
+  "active": "75087920baeedeb4",
   "lastOpenFiles": [
-    "image/Pasted image 20241007173812.png",
-    "Pasted image 20241007173812.png",
-    "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/7. 데이터베이스 언어 sql.pdf",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
+    "Obsidian/ComputerScience/데이터베이스/0. 레포트/학생(학번, 이름, 학년).pdf",
+    "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/7. 데이터베이스 언어 sql.pdf",
+    "Obsidian/ComputerScience/데이터베이스/0. 레포트",
     "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/6. 관계 데이터 연산.pdf",
     "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md",
+    "image/Pasted image 20241007173812.png",
+    "Pasted image 20241007173812.png",
     "image/Pasted image 20241007171553.png",
     "image/Pasted image 20241007171523.png",
     "image/Pasted image 20241007171508.png",
@@ -179,7 +180,6 @@
     "image/Pasted image 20241007171129.png",
     "image/Pasted image 20241007171104.png",
     "image/Pasted image 20241007171034.png",
-    "image/Pasted image 20241007170948.png",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
@@ -193,9 +193,7 @@
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.pdf",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습문제.pdf",
     "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
-    "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/5. CPU 스케줄링.pdf",
     "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
-    "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
