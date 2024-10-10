@@ -20,22 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "30ac230e61cd15f9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "75087920baeedeb4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/7. 데이터베이스 언어 sql.pdf"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
