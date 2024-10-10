@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md"
+                "file": "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md"
               }
             }
           }
@@ -164,9 +164,9 @@
   },
   "active": "f5406c04edf88d62",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/7. 데이터베이스 언어 sql.pdf",
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/5. 관계 데이터 모델.pdf",
-    "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
     "image/Pasted image 20241010112720.png",
     "image/Pasted image 20241010112625.png",
