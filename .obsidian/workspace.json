@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/연습문제.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/연습문제.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/연습문제.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/연습문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/연습문제.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/연습문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/연습문제.md"
+                "file": "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/연습문제.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "564510f428c37141",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/연습문제.md",
     "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/연습문제.md",
+    "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/연습문제.md",
+    "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/연습문제.md",
     "Obsidian/ComputerScience/데이터 구조/시험/중간/중간_데이터구조 답지.md",
     "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
@@ -192,7 +193,6 @@
     "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
     "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산/집합 및 집합 연산.md",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/유선 및 무선 데이터 전송.md",
-    "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md"
+    "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/유선 및 무선 데이터 전송.md"
   ]
 }
