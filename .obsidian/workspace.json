@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/연습문제.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/연습문제.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산/집합 및 집합연산.pdf"
+                "file": "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf"
               }
             }
           }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/연습문제.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/연습문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/연습문제.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/연습문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/연습문제.md"
+                "file": "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/연습문제.md"
               }
             }
           }
@@ -165,9 +165,15 @@
   },
   "active": "564510f428c37141",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산/집합 및 집합 연산.md",
+    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
+    "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/연습문제.md",
+    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf",
+    "Obsidian/ComputerScience/이산수학/3. 관계와 함수",
     "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산/집합 및 집합연산.pdf",
+    "Pasted image 20241011153825.png",
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/연습문제.md",
+    "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산/집합 및 집합 연산.md",
+    "Pasted image 20241011153812.png",
     "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/연습문제.md",
     "Pasted image 20241011152622.png",
     "Pasted image 20241011152609.png",
@@ -181,8 +187,6 @@
     "image/Pasted image 20241011111313.png",
     "image/Pasted image 20241011104138.png",
     "image/Pasted image 20241011104029.png",
-    "image/Pasted image 20241011103543.png",
-    "image/Pasted image 20241011103530.png",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장_내용추가예정.pdf",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기",
@@ -195,8 +199,6 @@
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/5. 관계 데이터 모델.pdf",
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
     "Obsidian/ComputerScience/데이터베이스/0. 레포트/학생(학번, 이름, 학년).pdf",
-    "Obsidian/ComputerScience/데이터베이스/0. 레포트",
-    "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/6. 관계 데이터 연산.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/데이터 링크 계층의 작업 (2 계층).md",
@@ -208,7 +210,6 @@
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
     "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
     "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md",
-    "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
-    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md"
+    "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md"
   ]
 }
