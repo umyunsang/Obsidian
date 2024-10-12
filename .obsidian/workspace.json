@@ -11,9 +11,11 @@
             "id": "eed13e76607c5b28",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/스케줄링의 예.pdf"
+                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/스케줄링의 예.pdf",
+                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/스케줄링의 예.pdf",
+                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/스케줄링의 예.pdf"
+                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md"
               }
             }
           }
@@ -147,6 +149,7 @@
   },
   "active": "eed13e76607c5b28",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/스케줄링의 예.pdf",
     "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
     "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/5. CPU 스케줄링.pdf",
     "image/Pasted image 20241012130824.png",
@@ -159,7 +162,6 @@
     "image/Pasted image 20241012132530.png",
     "Pasted image 20241012132530.png",
     "Pasted image 20241012130824.png",
-    "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/스케줄링의 예.pdf",
     "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/4. 스레드와 멀티테스킹.pdf",
     "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화.pdf",
