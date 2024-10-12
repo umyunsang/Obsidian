@@ -11,27 +11,9 @@
             "id": "eed13e76607c5b28",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "b4c668c4bbb88b13",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "58e6ef857559b77a",
-            "type": "leaf",
-            "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/5. CPU 스케줄링.pdf"
+                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/스케줄링의 예.pdf"
               }
             }
           }
@@ -85,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -101,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
+                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/스케줄링의 예.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
+                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/스케줄링의 예.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md"
+                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/스케줄링의 예.pdf"
               }
             }
           }
@@ -164,6 +147,8 @@
   },
   "active": "eed13e76607c5b28",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
+    "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/5. CPU 스케줄링.pdf",
     "image/Pasted image 20241012130824.png",
     "image/Pasted image 20241012125429.png",
     "image/Pasted image 20241012125223.png",
@@ -172,12 +157,9 @@
     "image/Pasted image 20241012122320.png",
     "image/Pasted image 20241012121203.png",
     "image/Pasted image 20241012132530.png",
-    "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/5. CPU 스케줄링.pdf",
-    "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
     "Pasted image 20241012132530.png",
     "Pasted image 20241012130824.png",
     "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/스케줄링의 예.pdf",
-    "Pasted image 20241012125429.png",
     "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/4. 스레드와 멀티테스킹.pdf",
     "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화.pdf",
