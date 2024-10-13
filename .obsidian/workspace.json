@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md"
+                "file": "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "eed13e76607c5b28",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
     "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md",
     "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
     "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
-    "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
     "Obsidian/ComputerScience/데이터베이스/0. 시험/연습문제.md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/연습문제.md",
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/연습문제.md",
