@@ -13,25 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "7d4fd5aa164e02b0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "eed13e76607c5b28",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장_확인문제.pdf"
               }
             }
           }
@@ -85,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -102,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md"
+                "file": "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md"
               }
             }
           }
@@ -165,8 +148,12 @@
   },
   "active": "9cd4b17df035a5ef",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장_확인문제.pdf",
+    "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
+    "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md",
+    "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md",
+    "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
+    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장_확인문제.pdf",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장.pdf",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/6. 스레드 동기화.pdf",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
@@ -187,11 +174,7 @@
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화",
     "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
     "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/스케줄링의 예.pdf",
-    "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md",
-    "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/5. 관계 데이터 모델.pdf",
-    "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
-    "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md",
     "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
     "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/기본 개념.md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/연습문제.md",
