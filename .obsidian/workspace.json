@@ -4,9 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "7e5bfd34320a41e8",
+        "id": "dccf21511b83128f",
         "type": "tabs",
-        "dimension": 49.81684981684982,
         "children": [
           {
             "id": "9cd4b17df035a5ef",
@@ -14,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
+                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +24,6 @@
       {
         "id": "7d4fd5aa164e02b0",
         "type": "tabs",
-        "dimension": 50.18315018315018,
         "children": [
           {
             "id": "eed13e76607c5b28",
@@ -33,7 +31,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장_확인문제.pdf"
+                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장.pdf"
               }
             }
           }
@@ -104,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
+                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
+                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md"
+                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md"
               }
             }
           }
@@ -167,12 +165,12 @@
   },
   "active": "9cd4b17df035a5ef",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장.pdf",
+    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
+    "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/6. 스레드 동기화.pdf",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장_확인문제.pdf",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
     "Obsidian/ComputerScience/데이터베이스/0. 시험/연습문제.md",
-    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
-    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장.pdf",
-    "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/6. 스레드 동기화.pdf",
     "Pasted image 20241014103307.png",
     "Pasted image 20241014103248.png",
     "Obsidian/ComputerScience/Python(basic)/ossai2024_2장_내용추가예정.pdf",
