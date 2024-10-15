@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
+                "file": "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
+                "file": "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
+                "file": "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md"
+                "file": "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "9cd4b17df035a5ef",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
@@ -174,7 +175,6 @@
     "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/스케줄링의 예.pdf",
     "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
     "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
-    "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
