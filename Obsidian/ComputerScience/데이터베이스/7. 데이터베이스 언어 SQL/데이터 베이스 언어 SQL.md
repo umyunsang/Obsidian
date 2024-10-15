@@ -256,11 +256,15 @@ SELECT 제품명, 재고량, 단가 FROM 제품 WHERE 제조업체='한빛제과
 ```
 ![](../../../../image/Pasted%20image%2020241010113822.png)
 ```SQL
-SELECT 주문제품, 수량, 주문일자 FROM 주문 WHERE 주문고객='apple' AND 수량>=15;
+SELECT 주문제품, 수량, 주문일자 
+FROM 주문 
+WHERE 주문고객='apple' AND 수량>=15;
 ```
 ![](../../../../image/Pasted%20image%2020241010113932.png)
 ```sql
-SELECT 주문제품, 수량, 주문일자, 주문고객 FROM 주문 WHERE 주문고객='apple' OR 수량>=15;
+SELECT 주문제품, 수량, 주문일자, 주문고객 
+FROM 주문 
+WHERE 주문고객='apple' OR 수량>=15;
 ```
 ![](../../../../image/Pasted%20image%2020241010114055.png)
 ```sql
