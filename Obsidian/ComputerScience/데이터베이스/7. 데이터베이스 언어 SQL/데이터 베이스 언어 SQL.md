@@ -181,7 +181,7 @@ ALTER TABLE 테이블
 
 ---
 ## ==3. SQL을 이용한 데이터 조작(시험)==
-#### 데이터 검색 : SELECT 문 (기본검색)
+#### 데이터 검색 : SELECT 문 
 ```SQL
 SELECT [ALL; DISTINCT] 속성_리스트
 FROM 테이블_리스트;
@@ -213,14 +213,20 @@ SELECT 고객아이디, 고객이름, 등급 FROM 고객;
 ```SQL
 SELECT * FROM 고객;
 ```
+- 모든 속성을 검색할 때는 속성의 이름을 전부 나열하지 않고 * 사용 가능
+
 ![](../../../../image/Pasted%20image%2020241010112812.png)
 ```SQL
 SELECT ALL 제조업체 FROM 제품;
 ```
+- 결과 테이블에서 제조업체가 중복 됨
+
 ![](../../../../image/Pasted%20image%2020241010112928.png)
 ```SQL
 SELECT DISTINCT 제조업체 FROM 제품;
 ```
+- 결과 테이블에서 제조업체가 한 번씩만 나타남
+
 ![](../../../../image/Pasted%20image%2020241010113120.png)
 ```SQL
 SELECT 제품명, 단가 AS 가격 FROM 제품;
@@ -265,8 +271,20 @@ SELECT 제품명, 단가, 제조업체 FROM 제품 WHERE 단가>=2000 AND 단가
 	- LIKE 키워드를 이용해 **부분적으로 일치하는 데이터** 검색 
 	- 문자열을 이용하는 조건에만 LIKE 키워드 사용 가능
 
-![[Pasted image 20241014163042.png]]
-![[Pasted image 20241014163024.png]]
+![](../../../../image/Pasted%20image%2020241014163042.png)
+![](../../../../image/Pasted%20image%2020241014163024.png)
+![](../../../../image/Pasted%20image%2020241015155755.png)
+```sql
+SELECT 고객이름, 나이, 등급, 적립금
+FROM 고객
+WHERE 고객이름 LIKE '김%';
+```
+![](../../../../image/Pasted%20image%2020241015155857.png)
+```SQL
+SELECT 고객아이디, 고객이름, 등급
+FROM 고객
+WHERE 고객아이디 LIKE '_____'; /* Access 에서는 '?????'
+```
 
 ---
 - NULL을 이용한 검색
@@ -274,7 +292,25 @@ SELECT 제품명, 단가, 제조업체 FROM 제품 WHERE 단가>=2000 AND 단가
 	- IS NOT NULL 키워드를 이용해 특정 속성의 값이 널 값이 아닌지를 비교 
 	- 검색 조건에서 널 값은 다른 값과 크기를 비교하면 결과가 모두 거짓이 됨
 
+![](../../../../image/Pasted%20image%2020241015160037.png)
+```SQL
+SELECT 고객이름
+FROM 고객
+WHERE 나이 IS NULL;
+```
+![](../../../../image/Pasted%20image%2020241015160113.png)
+```SQL
+SELECT 고객이름
+FROM 고객
+WHERE 나이 IS NOT NULL;
+```
 ---
+```SQL
+SELECT [ ALL ; DISTINCT ] 속성_리스트
+FROM 테이블_리스트
+[ WHERE 조건 ]
+[ ORDER BY 속성_리스트 [ ASC ; DESC ]]
+```
 - 정렬 검색 
 	- ORDER BY 키워드를 이용해 결과 테이블 내용을 사용자가 원하는 순서로 출력 
 	- ORDER BY 키워드와 함께 정렬 기준이 되는 속성과 정렬 방식을 지정 
@@ -282,12 +318,55 @@ SELECT 제품명, 단가, 제조업체 FROM 제품 WHERE 단가>=2000 AND 단가
 		-  널 값은 오름차순에서는 맨 마지막에 출력되고, 내림차순에서는 맨 먼저 출력됨 
 		-  여러 기준에 따라 정렬하려면 정렬 기준이 되는 속성들을 차례대로 제시
 
+![](../../../../image/Pasted%20image%2020241015160255.png)
+```SQL
+SELECT 고객이름, 등급, 나이
+FROM 고객
+ORDER BY 나이 DESC; /* DESC : 내림차순
+```
+![](../../../../image/Pasted%20image%2020241015160349.png)
+```SQL
+SELECT 주문고객, 주문제품, 수량, 주문일자
+FROM 주문
+WHERE 수량 >= 10
+ORDER BY 주문제품 ASC, 수량 DESC; /* ASC : 오름차순, DESC : 내림차순
+```
+- P01 제품이 맨 먼저 출력되고, P03 제품 중에는 수량이 22인 제품이 먼저 출력됨됨
 ---
+![](../../../../image/Pasted%20image%2020241014165859.png)
 - 집계 함수를 이용한 검색
-	![[Pasted image 20241014165859.png]]
 	- 집계 함수 사용 시 주의 사항 
 		- 집계 함수는 널인 속성 값은 제외하고 계산함 
 		- 집계 함수는 WHERE 절에서는 사용할 수 없고, SELECT 절이나 HAVING 절에서만 사용 가능
+
+![](../../../../image/Pasted%20image%2020241015160558.png)
+```SQL
+SELECT AVG(단가) FROM 제품; /* AVG : 속성 값의 평균
+```
+![](../../../../image/Pasted%20image%2020241015160652.png)
+```SQL
+SELECT SUM(재고량) AS '재고량 합계'
+FROM 제품
+WHERE 제조업체 = '한빛제과'; /* SUM : 속성 값의 합계 , AS : 속성명 지정 */
+```
+![](../../../../image/Pasted%20image%2020241015160833.png)
+```SQL
+/* 1. 고객아이디 속성을 이용해 계산하는 경우 */
+SELECT COUNT(고객아이디)  AS 고객수 FROM 고객;
+/* 2. 나이 속성을 이용해 계산하는 경우 */
+SELECT COUNT(나이) AS 고객수 FROM 고객;
+/* 3. *를 이용해 계산하는 경우 */
+SELECT COUNT(*) AS 고객수 FROM 고객;
+```
+- 널인 속성 값은 제외하고 개수 계산
+- 정확한 개수를 계산하기 위해서는 보통 **기본키 속성이나 별을 주로 사용**
+
+![](../../../../image/Pasted%20image%2020241015161105.png)
+```SQL
+SELECT COUNT(DISTINCT 제조업체) AS '제조업체 수' FROM 제품;
+```
+- DISTNCT 키워드를 이용해 중복을 없애고 서로 다른 제조업체의 개수만 계산
+
 ---
 ```sql
 SELECT [ALL;DISTINCT] 속성_리스트
@@ -302,6 +381,42 @@ FROM 테이블_리스트
 	- HAVING 키워드와 함께 그룹에 대한 조건 작성 가능 
 	- 그룹을 나누는 기준이 되는 속성을 SELECT 절에도 작성하는 것이 좋음
 
+![](../../../../image/Pasted%20image%2020241015161222.png)
+```SQL
+SELECT 주문제품, SUM(수량) AS 총주문수량
+FROM 주문
+GROUP BY 주문제품;
+```
+- 그룹을 나누는 기준이 되는 '주문제품' 속성을 SELECT 절에도 작성하는 것이 좋음
+- 동일 제품을 주문한 투플을 모아 그룹으로 만들고, 그룹별로 수량의 합계를 계산
+
+![](../../../../image/Pasted%20image%2020241015162146.png)
+```SQL
+SELECT 제조업체, COUNT(*) AS 제품수, MAX(단가) AS 최고가
+FROM 제품
+GROUP BY 제조업체;
+```
+![](../../../../image/Pasted%20image%2020241015162306.png)
+```SQL
+SELECT 제조업체, COUNT(*) AS 제품수, MAX(단가) AS 최고가
+FROM 제품
+GROUP BY 제조업체 HAVING COUNT(*) >= 3;
+```
+- 집계 함수를 이용한 조건은 WHERE 절에는 작성할 수 없고, HAVING 절에서 작성 가능
+
+![](../../../../image/Pasted%20image%2020241015162438.png)
+```SQL
+SELECT 등급, COUNT(*) AS 고객수, AVG(적립금) AS 평균적립금
+FROM 고객
+GROUP BY 등급 HAVING AVG(적립금) >= 1000;
+```
+![](../../../../image/Pasted%20image%2020241015162538.png)
+```SQL
+SELECT 주문제품, 주문고객, SUM(수량) AS 총주문수량
+FROM 주문
+GROUP BY 주문제품, 주문고객;
+```
+- 집계 함수나 GROUP BY 절에 명시된 속성 외의 속성은 SELECT 절에 작성 불가
 ---
 - 여러 테이블에 대한 조인 검색 
 	- 조인 검색: 여러 개의 테이블을 연결하여 데이터를 검색하는 것 
@@ -313,3 +428,48 @@ FROM 테이블_리스트
 	- 속성 이름 앞에 해당 속성이 소속된 테이블의 이름을 표시 
 		- 같은 이름의 속성이 서로 다른 테이블에 존재할 수 있기 때문 
 		- 예) 주문.주문고객
+	- 표준 SQL에서는 INNER JOIN과 ON 키워드를 이용해 작성하는 방법도 제공
+```SQL
+SELECT 속성_리스트
+FROM 테이블1 INNER JOIN 테이블2 ON 조인조건
+[ WHERE 검색조건 ]
+```
+
+![](../../../../image/Pasted%20image%2020241015162656.png)
+```SQL
+SELECT 제품.제품명
+FROM 제품, 주문
+WHERE 주문.주문고객 ='banana' AND 제품.제품번호 = 주문.주문제품;
+```
+![](../../../../image/Pasted%20image%2020241015162841.png)
+```SQL
+SELECT 주문.주문제품, 주문.주문일자
+FROM 고객, 주문
+WHERE 고객.나이 >= 30 AND 고객.고객아이디 = 주문.주문고객;
+/* 다른 방법 */
+SELECT o.주문제품, o.주문일자
+FROM 고객 c, 주문 o
+WHERE c.나이 >= 30 AND c.고객아이디 = o.주문고객;
+```
+- FROM 절에서 테이블의 이름을 대신하는 단순한 별명을 제시하여 질의문을 작성하는 것도 좋음
+
+![](../../../../image/Pasted%20image%2020241015163302.png)
+```SQL
+SELECT 제품.제품명
+FROM 고객, 제품, 주문
+WHERE 고객.고객이름 ='고명석' 
+AND 고객.고객아이디 = 주문.주문고객 
+AND 제품.제품번호 = 주문.주문제품;
+```
+---
+```SQL
+SELECT 속성_리스트
+FROM 테이블1 LEFT; RIGHT; FULL OUTER JOIN 테이블2 ON 조인조건
+[ WHERE 검색조건]
+```
+- 외부 조인 검색
+	- 조인 조건을 만족하지 않는 투플에 대해서도 검색을 수행 
+	- OUTER JOIN과 ON 키워드를 이용해 작성
+	- 분류 
+		- 모든 투플을 검색 대상으로 하는 테이블이 무엇이냐에 따라 분류 
+		- 왼쪽 외부 조인, 오른쪽 외부 조인, 완전 외부 조인
