@@ -13,6 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/데이터 링크 계층의 작업 (2 계층).md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "fe863778a27e5daf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2121d5f53a529dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
                 "mode": "source",
                 "source": false
@@ -146,8 +164,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9cd4b17df035a5ef",
+  "active": "b2121d5f53a529dd",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/6. 데이터 링크 계층의 작업.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/데이터 링크 계층의 작업 (2 계층).md",
+    "Pasted image 20241016163104.png",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
     "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
     "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3장문제.md",
@@ -180,7 +202,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/유선 및 무선 데이터 전송.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/데이터 링크 계층의 작업 (2 계층).md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/5. 통신망과 특징.pdf",
     "image/Pasted image 20241015161222.png",
     "image/Pasted image 20241015161105.png",
@@ -189,10 +210,6 @@
     "image/Pasted image 20241015160558.png",
     "image/Pasted image 20241015162146.png",
     "image/Pasted image 20241015162841.png",
-    "image/Pasted image 20241015162656.png",
-    "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/7. 데이터베이스 언어 sql.pdf",
-    "Obsidian/ComputerScience/데이터베이스/0. 시험/연습문제.md",
-    "Obsidian/ComputerScience/데이터베이스/0. 시험/1705817 엄윤상 1.docx",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md"
+    "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/7. 데이터베이스 언어 sql.pdf"
   ]
 }
