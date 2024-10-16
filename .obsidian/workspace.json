@@ -13,25 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3장문제.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "1c941bab5dbec357",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "488c6822a6ce1c6f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3. 프로세스와 프로세스 관리.pdf"
               }
             }
           }
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3장문제.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3장문제.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3장문제.md"
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md"
               }
             }
           }
@@ -164,9 +148,10 @@
   },
   "active": "9cd4b17df035a5ef",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3. 프로세스와 프로세스 관리.pdf",
-    "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3장문제.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
     "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
+    "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3장문제.md",
+    "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3. 프로세스와 프로세스 관리.pdf",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
     "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md",
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
