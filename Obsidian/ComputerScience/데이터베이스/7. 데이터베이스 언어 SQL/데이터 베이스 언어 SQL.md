@@ -326,14 +326,14 @@ FROM 테이블_리스트
 ```SQL
 SELECT 고객이름, 등급, 나이
 FROM 고객
-ORDER BY 나이 DESC; /* DESC : 내림차순
+ORDER BY 나이 DESC; /* DESC : 내림차순 */
 ```
 ![](../../../../image/Pasted%20image%2020241015160349.png)
 ```SQL
 SELECT 주문고객, 주문제품, 수량, 주문일자
 FROM 주문
 WHERE 수량 >= 10
-ORDER BY 주문제품 ASC, 수량 DESC; /* ASC : 오름차순, DESC : 내림차순
+ORDER BY 주문제품 ASC, 수량 DESC; /* ASC : 오름차순, DESC : 내림차순 */
 ```
 - P01 제품이 맨 먼저 출력되고, P03 제품 중에는 수량이 22인 제품이 먼저 출력됨됨
 ---
@@ -345,7 +345,7 @@ ORDER BY 주문제품 ASC, 수량 DESC; /* ASC : 오름차순, DESC : 내림차�
 
 ![](../../../../image/Pasted%20image%2020241015160558.png)
 ```SQL
-SELECT AVG(단가) FROM 제품; /* AVG : 속성 값의 평균
+SELECT AVG(단가) FROM 제품; /* AVG : 속성 값의 평균 */
 ```
 ![](../../../../image/Pasted%20image%2020241015160652.png)
 ```SQL
