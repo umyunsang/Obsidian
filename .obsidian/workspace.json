@@ -13,9 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
-                "mode": "preview",
+                "file": "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
+                "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "db00ccfca26333b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7325c07627bb09a6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/6. 스레드 동기화.pdf"
               }
             }
           }
@@ -86,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
+                "file": "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
+                "file": "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md"
+                "file": "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md"
               }
             }
           }
@@ -149,11 +165,15 @@
   },
   "active": "9cd4b17df035a5ef",
   "lastOpenFiles": [
+    "Pasted image 20241016105347.png",
+    "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/6. 스레드 동기화.pdf",
+    "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
+    "Pasted image 20241016104701.png",
+    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습문제.pdf",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
-    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
@@ -165,7 +185,6 @@
     "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
     "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
     "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
-    "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
     "Obsidian/ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
     "image/Pasted image 20241015161222.png",
@@ -177,7 +196,6 @@
     "image/Pasted image 20241015162841.png",
     "image/Pasted image 20241015162656.png",
     "image/Pasted image 20241015162538.png",
-    "image/Pasted image 20241015162438.png",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/7. 데이터베이스 언어 sql.pdf",
     "Obsidian/ComputerScience/데이터베이스/0. 시험/연습문제.md",
     "Obsidian/ComputerScience/데이터베이스/0. 시험/1705817 엄윤상 1.docx",
@@ -192,8 +210,6 @@
     "Obsidian/ComputerScience/데이터베이스/1. 기본 개념/1. 기본 개념.pdf",
     "Obsidian/ComputerScience/데이터베이스/2. 관리 시스템/관리 시스템.md",
     "Obsidian/ComputerScience/데이터베이스/5. 관계 데이터 모델/관계 데이터 모델 (용어 암기).md",
-    "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md",
-    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장_확인문제.pdf",
-    "Obsidian/ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/6. CISC와 RISC.md"
+    "Obsidian/ComputerScience/데이터베이스/3. DB 시스템/DB 시스템.md"
   ]
 }
