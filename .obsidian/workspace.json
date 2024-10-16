@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/데이터 링크 계층의 작업 (2 계층).md",
-                "mode": "preview",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -29,9 +29,19 @@
             "id": "b2121d5f53a529dd",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/7. LAN의 특징과 규격.pdf"
+              }
+            }
+          },
+          {
+            "id": "b21dfc29e27bb1b5",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/5. 에러 검출 코드.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "샘플링",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -103,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md"
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md"
               }
             }
           }
@@ -164,12 +175,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b2121d5f53a529dd",
+  "active": "9cd4b17df035a5ef",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/6. 데이터 링크 계층의 작업.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/7. LAN의 특징과 규격.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
+    "Pasted image 20241016173259.png",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/데이터 링크 계층의 작업 (2 계층).md",
-    "Pasted image 20241016163104.png",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/6. 데이터 링크 계층의 작업.pdf",
+    "Pasted image 20241016171337.png",
+    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/5. 에러 검출 코드.md",
+    "Pasted image 20241016170451.png",
+    "Pasted image 20241016165654.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
+    "Pasted image 20241016163104.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
     "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
     "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3장문제.md",
@@ -199,17 +218,9 @@
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/유선 및 무선 데이터 전송.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/5. 통신망과 특징.pdf",
     "image/Pasted image 20241015161222.png",
     "image/Pasted image 20241015161105.png",
-    "image/Pasted image 20241015160833.png",
-    "image/Pasted image 20241015160652.png",
-    "image/Pasted image 20241015160558.png",
-    "image/Pasted image 20241015162146.png",
-    "image/Pasted image 20241015162841.png",
-    "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/7. 데이터베이스 언어 sql.pdf"
+    "image/Pasted image 20241015160833.png"
   ]
 }
