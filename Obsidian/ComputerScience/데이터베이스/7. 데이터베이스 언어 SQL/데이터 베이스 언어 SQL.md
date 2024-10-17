@@ -479,7 +479,7 @@ FROM 테이블1 LEFT; RIGHT; FULL OUTER JOIN 테이블2 ON 조인조건
 		- 왼쪽 외부 조인, 오른쪽 외부 조인, 완전 외부 조인
 
 ---
-![[Pasted image 20241017103926.png]]
+![](../../../../image/Pasted%20image%2020241017103926.png)
 - 부속 질의문을 이용한 검색
 	- SELECT 문 안에 또 다른 SELECT 문을 포함하는 **질의**
 		- 상위 질의문(주 질의문): 다른 SELECT 문을 포함하는 SELECT 문 
@@ -492,7 +492,7 @@ FROM 테이블1 LEFT; RIGHT; FULL OUTER JOIN 테이블2 ON 조인조건
 		- 단일 행 부속 질의문은 비교 연산자(=, <>, >, >=, <, <=) 사용 가능 
 		- 다중 행 부속 질의문은 비교 연산자 사용 불가
 
-![[Pasted image 20241017103944.png]]
+![](../../../../image/Pasted%20image%2020241017103944.png)
 ```sql
 SELECT 제품명, 단가
 FROM 제품
@@ -501,7 +501,7 @@ WHERE 제조업체 = (SELECT 제조업체 FROM 제품 WHERE 제품명 ='달콤�
 ```
 - ‘달콤비스킷’의 제조업체는 ‘한빛제과’만 존재 → **단일 행 부속 질의문 (비교 연산자 = 이용)**
 
-![[Pasted image 20241017104135.png]]
+![](../../../../image/Pasted%20image%2020241017104135.png)
 ```SQL
 SELECT 고객이름, 적립금
 FROM 고객
@@ -509,7 +509,7 @@ WHERE 적립금 = (SELECT MAX(적립금) FROM 고객);
 ```
 - 최대 적립금은 단일 값이므로 단일 행 부속 질의문 **(비교 연산자 = 이용)**
 
-![[Pasted image 20241017104237.png]]
+![](../../../../image/Pasted%20image%2020241017104237.png)
 ```SQL
 SELECT 제품명, 제조업체
 FROM 제품
@@ -517,7 +517,7 @@ WHERE 제품번호 IN (SELECT 주문제품 FROM 주문 WHERE 주문고객 ='bana
 ```
 - ‘banana’ 고객이 주문한 제품은 여러 개이므로 → **다중 행 부속 질의문 (IN 연산자 이용)**
 
-![[Pasted image 20241017104504.png]]
+![](../../../../image/Pasted%20image%2020241017104504.png)
 ```SQL
 SELECT 제품명, 제조업체
 FROM 제품
@@ -525,7 +525,7 @@ WHERE 제품번호 NOT IN (SELECT 주문제품 FROM 주문 WHERE 주문고객 ='
 ```
 - 부속 질의문의 결과 값 중에서 일치하는 것이 없어야 조건이 참이 되는 **NOT IN** 연산자 이용
 
-![[Pasted image 20241017105135.png]]
+![](../../../../image/Pasted%20image%2020241017105135.png)
 ```SQL
 SELECT 제품명, 단가, 제조업체
 FROM 제품
@@ -535,7 +535,7 @@ WHERE 단가 > ANY (SELECT 단가 FROM 제품 WHERE 제조업체='대한식품')
 ```
 - 대한식품이 제조한 제품은 단가가 4,500원인 그냥만두와 1,200원인 얼큰라면
 
-![[Pasted image 20241017105753.png]]
+![](../../../../image/Pasted%20image%2020241017105753.png)
 ```SQL
 SELECT 고객이름
 FROM 고객
@@ -561,7 +561,7 @@ VALUES (속성값_리스트);
 	- VALUES 키워드와 함께 삽입할 속성 값들을 나열 
 	- **INTO 절의 속성 이름과 VALUES 절의 값은 순서대로 일대일 대응되어야 함**
 
-![[Pasted image 20241017110724.png]]
+![](../../../../image/Pasted%20image%2020241017110724.png)
 ```SQL
 INSERT
 INTO 고객(고객아이디, 고객이름, 나이, 등급, 직업, 적립금)
@@ -572,7 +572,7 @@ INTO 고객
 VALUES ('strawberry', '최유경', 30, 'vip', '공무원', 100);
 ```
 
-![[Pasted image 20241017111052.png]]
+![](../../../../image/Pasted%20image%2020241017111052.png)
 ```SQL
 INSERT 
 INTO 고객(고객아이디, 고객이름, 나이, 등급, 적립금)
@@ -621,6 +621,26 @@ SET 속성_이름1 = 값1, ...
 - WHERE 절에 제시된 조건을 만족하는 투플만 속성 값을 수정 
 	- WHERE 절을 생략하면 테이블에 존재하는 모든 투플을 대상으로 수정
 
+![](../../../../image/Pasted%20image%2020241017133217.png)
+```sql
+UPDATE 제품
+SET 제품명='통큰파이'
+WHERE 제품번호='p03';
+```
+
+![](../../../../image/Pasted%20image%2020241017133337.png)
+```SQL
+UPDATE 제품
+SET 단가 = 단가 *1.1;
+```
+
+![](../../../../image/Pasted%20image%2020241017133416.png)
+```SQL
+UPDATE 주문 
+SET 수량 = 5
+WHERE 주문고객 IN (SELECT 고객아이디 FROM 고객 WHERE 고객이름='정소화');
+```
+- 부속 질의문을 포함한 UPDATE 문
 ---
 #### 데이터 삭제 : DELETE 문(UPDATE문과 구조가 다르니 꼭 기억)
 ```SQL
@@ -631,6 +651,28 @@ FROM 테이블_이름
 - 테이블에 저장된 데이터를 삭제
 - WHERE 절에 제시한 조건을 만족하는 투플만 삭제 
 	- WHERE 절을 생략하면 테이블에 존재하는 모든 투플을 삭제해 빈 테이블이 됨
+
+![](../../../../image/Pasted%20image%2020241017133525.png)
+```SQL
+DELETE
+FROM 주문
+WHERE 주문일자='2022-05-22';
+```
+
+![](../../../../image/Pasted%20image%2020241017133607.png)
+```SQL
+DELETE
+FROM 주문
+WHERE 주문고객 IN (SELECT 고객아이디 FROM 고객 WHERE 고객이름='정소화');
+```
+- 부속 질의문을 포함한 DELETE 문
+
+![](../../../../image/Pasted%20image%2020241017133703.png)
+```SQL
+DELETE
+FROM 주문;
+```
+- 빈 테이블이 남게 됨, DROP TABLE과는 다름
 
 ---
 관계대수 SQL(SELECT?) 문장 
