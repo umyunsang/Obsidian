@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
+                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "자바스크립트 객체 다루기"
+              "title": "연습문제"
             }
           }
         ]
@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장.pdf"
+                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장_확인문제 (1).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "ossai2024_2장"
+              "title": "ossai2024_2장_확인문제 (1)"
             }
           }
         ]
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
+                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "자바스크립트 객체 다루기의 백링크"
+              "title": "연습문제의 백링크"
             }
           },
           {
@@ -131,12 +131,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
+                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "자바스크립트 객체 다루기의 나가는 링크"
+              "title": "연습문제의 나가는 링크"
             }
           },
           {
@@ -158,10 +158,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md"
+                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md"
               },
               "icon": "lucide-list",
-              "title": "자바스크립트 객체 다루기 개요"
+              "title": "연습문제 개요"
             }
           }
         ]
@@ -183,24 +183,23 @@
   },
   "active": "a3325484f4079dc4",
   "lastOpenFiles": [
-    "image/Pasted image 20241018110442.png",
-    "image/Pasted image 20241018104240.png",
-    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장.pdf",
-    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
-    "Pasted image 20241018110442.png",
-    "Pasted image 20241018104240.png",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장_확인문제 (1).pdf",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
+    "Pasted image 20241018113122.png",
+    "Pasted image 20241018112414.png",
+    "Pasted image 20241018111854.png",
+    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
+    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장.pdf",
+    "image/Pasted image 20241018110442.png",
+    "image/Pasted image 20241018104240.png",
+    "Pasted image 20241018110442.png",
+    "Pasted image 20241018104240.png",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장_확인문제.pdf",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
     "image/Pasted image 20241017133607.png",
     "image/Pasted image 20241017133525.png",
     "image/Pasted image 20241017133416.png",
-    "image/Pasted image 20241017133337.png",
-    "image/Pasted image 20241017133217.png",
-    "image/Pasted image 20241017133703.png",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/7. 데이터베이스 언어 sql.pdf",
-    "Pasted image 20241017133703.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/데이터 링크 계층의 작업 (2 계층).md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
