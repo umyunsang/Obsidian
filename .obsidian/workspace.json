@@ -13,14 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/0. 시험/7장 문제.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/0. 시험/중간 주관식 예상.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7장 문제"
+              "title": "중간 주관식 예상"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "4186b91803180ae5",
+        "type": "tabs",
+        "children": [
           {
             "id": "63f5c295f720503c",
             "type": "leaf",
@@ -91,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -176,11 +183,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6a970cddc0418eb7",
+  "active": "63f5c295f720503c",
   "lastOpenFiles": [
     "Obsidian/ComputerScience/데이터베이스/0. 시험/중간 주관식 예상.md",
-    "Obsidian/ComputerScience/데이터베이스/0. 시험/7장 문제.md",
     "Obsidian/ComputerScience/데이터베이스/0. 시험/중간 주관식 예상(답).md",
+    "Obsidian/ComputerScience/데이터베이스/0. 시험/7장 문제.md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/1. 운영체제의 시작과 발전.pdf",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
