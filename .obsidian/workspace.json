@@ -4,41 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "e813e4dc485aeb3f",
+        "id": "18ec2941b94ee098",
         "type": "tabs",
         "children": [
           {
-            "id": "6a970cddc0418eb7",
+            "id": "c686c3c1bb9b5461",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/0. 시험/중간 주관식 예상.md",
-                "mode": "source",
+                "file": "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "중간 주관식 예상"
+              "title": "스레드와 멀티테스킹"
             }
           }
         ]
       },
       {
-        "id": "4186b91803180ae5",
+        "id": "69fdcce9359157ee",
         "type": "tabs",
         "children": [
           {
-            "id": "63f5c295f720503c",
+            "id": "303e679889b5b7f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/0. 시험/중간 주관식 예상(답).md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/4. 스레드와 멀티테스킹.pdf"
               },
-              "icon": "lucide-file",
-              "title": "중간 주관식 예상(답)"
+              "icon": "lucide-file-text",
+              "title": "4. 스레드와 멀티테스킹"
             }
           }
         ]
@@ -97,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -183,14 +180,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "63f5c295f720503c",
+  "active": "303e679889b5b7f5",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
+    "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
+    "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/4. 스레드와 멀티테스킹.pdf",
+    "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3. 프로세스와 프로세스 관리.pdf",
+    "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
+    "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/2. 컴퓨터 시스템과 운영체제.pdf",
+    "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/1. 운영체제의 시작과 발전.pdf",
+    "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
     "Obsidian/ComputerScience/데이터베이스/0. 시험/중간 주관식 예상.md",
     "Obsidian/ComputerScience/데이터베이스/0. 시험/중간 주관식 예상(답).md",
     "Obsidian/ComputerScience/데이터베이스/0. 시험/7장 문제.md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
-    "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/1. 운영체제의 시작과 발전.pdf",
-    "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
     "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/데이터 링크 계층의 작업 (2 계층).md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
@@ -199,7 +202,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
-    "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
     "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/스케줄링의 예.pdf",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
     "Obsidian/ComputerScience/데이터베이스/0. 시험/answer_4577.pdf",
@@ -222,14 +224,8 @@
     "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/bar 막대 그래프.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/scatter 산점도 그래프.md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
-    "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3. 프로세스와 프로세스 관리.pdf",
-    "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
-    "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/4. 스레드와 멀티테스킹.pdf",
     "Obsidian/커잉.md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장_확인문제 (1).pdf",
-    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
-    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장.pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
-    "Obsidian/ComputerScience/컴퓨터 구조/1. 데이터의 표현/5. 에러 검출 코드.md"
+    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md"
   ]
 }
