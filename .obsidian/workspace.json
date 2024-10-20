@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
-                "mode": "preview",
+                "file": "Obsidian/ComputerScience/데이터베이스/0. 시험/중간 주관식 예상.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "스레드와 멀티테스킹"
+              "title": "중간 주관식 예상"
             }
           }
         ]
@@ -31,12 +31,14 @@
             "id": "303e679889b5b7f5",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/4. 스레드와 멀티테스킹.pdf"
+                "file": "Obsidian/ComputerScience/데이터베이스/0. 시험/중간 주관식 예상(답).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "4. 스레드와 멀티테스킹"
+              "icon": "lucide-file",
+              "title": "중간 주관식 예상(답)"
             }
           }
         ]
@@ -95,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -180,31 +183,32 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "303e679889b5b7f5",
+  "active": "c686c3c1bb9b5461",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/데이터베이스/0. 시험/중간 주관식 예상(답).md",
+    "Obsidian/ComputerScience/데이터베이스/0. 시험/answer_4577.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/6. 데이터 링크 계층의 작업.pdf",
+    "Obsidian/ComputerScience/데이터베이스/0. 시험/중간 주관식 예상.md",
+    "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/데이터 링크 계층의 작업 (2 계층).md",
+    "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
+    "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
     "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/스레드와 멀티테스킹.md",
-    "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
+    "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/스케줄링의 예.pdf",
     "Obsidian/ComputerScience/운영체제/4. 스레드와 멀티테스킹/4. 스레드와 멀티테스킹.pdf",
+    "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/프로세스와 프로세스 관리.md",
     "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3. 프로세스와 프로세스 관리.pdf",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/컴퓨터 시스템과 OS.md",
     "Obsidian/ComputerScience/운영체제/2. 컴퓨터 시스템과 운영체제/2. 컴퓨터 시스템과 운영체제.pdf",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/1. 운영체제의 시작과 발전.pdf",
     "Obsidian/ComputerScience/운영체제/1. OS의 시작과 발전/OS의 시작과 발전.md",
-    "Obsidian/ComputerScience/데이터베이스/0. 시험/중간 주관식 예상.md",
-    "Obsidian/ComputerScience/데이터베이스/0. 시험/중간 주관식 예상(답).md",
     "Obsidian/ComputerScience/데이터베이스/0. 시험/7장 문제.md",
-    "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
-    "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/데이터 링크 계층의 작업 (2 계층).md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/유선 및 무선 데이터 전송.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
-    "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/스케줄링의 예.pdf",
-    "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
-    "Obsidian/ComputerScience/데이터베이스/0. 시험/answer_4577.pdf",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/7. 데이터베이스 언어 sql.pdf",
     "Obsidian/2024-2+중간고사+시간표_업로드용_변동.pdf",
     "image/Pasted image 20241019123324.png",
@@ -225,7 +229,6 @@
     "Obsidian/ComputerScience/머신러닝프로젝트/Matplotlib/scatter 산점도 그래프.md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
     "Obsidian/커잉.md",
-    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장_확인문제 (1).pdf",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md"
   ]
 }
