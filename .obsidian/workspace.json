@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
+                "file": "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "데이터베이스 설계"
+              "title": "스레드 동기화"
             }
           }
         ]
@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf"
+                "file": "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/6. 스레드 동기화.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "8. 데이터베이스 설계"
+              "title": "6. 스레드 동기화"
             }
           }
         ]
@@ -183,6 +183,12 @@
   },
   "active": "42731395adb68e80",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/6. 스레드 동기화.pdf",
+    "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
+    "Pasted image 20241031143326.png",
+    "Pasted image 20241031143034.png",
+    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf",
+    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
     "image/Pasted image 20241031142816.png",
     "image/Pasted image 20241031142714.png",
     "image/Pasted image 20241031142626.png",
@@ -191,11 +197,6 @@
     "image/Pasted image 20241031114133.png",
     "image/Pasted image 20241031142832.png",
     "Pasted image 20241031142832.png",
-    "Pasted image 20241031142816.png",
-    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf",
-    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
-    "Pasted image 20241031142714.png",
-    "Pasted image 20241031142626.png",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/뷰(view).md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/8. 무선통신 시스템.pdf",
@@ -206,8 +207,6 @@
     "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/5. CPU 스케줄링.pdf",
     "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
     "Obsidian/ComputerScience/운영체제/7. 교착상태.pdf",
-    "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/6. 스레드 동기화.pdf",
-    "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/7. 데이터베이스 언어 sql.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/데이터 링크 계층의 작업 (2 계층).md",
