@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무선통신 시스템"
+              "title": "네트워크 계층"
             }
           }
         ]
@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/8. 무선통신 시스템.pdf"
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/9. 네트워크 계층.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "8. 무선통신 시스템"
+              "title": "9. 네트워크 계층"
             }
           }
         ]
@@ -183,22 +183,26 @@
   },
   "active": "1f8d50624f04a65f",
   "lastOpenFiles": [
-    "Pasted image 20241104134053.png",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/8. 무선통신 시스템.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/9. 네트워크 계층.pdf",
+    "image/Pasted image 20241104134956.png",
+    "image/Pasted image 20241104134205.png",
+    "image/Pasted image 20241104134053.png",
+    "image/Pasted image 20241104125601.png",
+    "image/Pasted image 20241104135010.png",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
+    "Pasted image 20241104135010.png",
+    "Pasted image 20241104134956.png",
+    "Pasted image 20241104134205.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/8. 무선통신 시스템.pdf",
+    "Pasted image 20241104134053.png",
     "Pasted image 20241104125601.png",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_고객님의추가요구사항 (1).pdf",
-    "image/Pasted image 20241104103609.png",
-    "image/Pasted image 20241031143326.png",
-    "image/Pasted image 20241031143034.png",
-    "image/Pasted image 20241104104341.png",
     "Obsidian/ComputerScience/OSS/무제 폴더/ossai2024_3장_확인문제_현재5문제.pdf",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/음성인식.md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/TTS.md",
     "Obsidian/ComputerScience/OSS/무제 폴더/연습문제.md",
-    "Pasted image 20241104104341.png",
-    "Pasted image 20241104103609.png",
     "Obsidian/ComputerScience/OSS/무제 폴더 1",
     "Obsidian/ComputerScience/OSS/무제 폴더",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장_확인문제 (2).pdf",
@@ -206,11 +210,7 @@
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/음성인식 시스템.pdf",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장_확인문제 (1).pdf",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
-    "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
-    "Pasted image 20241031143326.png",
-    "Pasted image 20241031143034.png",
     "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
-    "image/Pasted image 20241031142816.png",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/뷰(view).md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
@@ -227,7 +227,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/유선 및 무선 데이터 전송.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/2. 네트워크 분류와 계층 모델/네트워크 분류와 계층 모델.md"
+    "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md"
   ]
 }
