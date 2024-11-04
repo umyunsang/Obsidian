@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "42731395adb68e80",
+            "id": "11c5600b380812b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -24,19 +24,19 @@
         ]
       },
       {
-        "id": "6b0f7bff29d98e06",
+        "id": "f8abe50a39a415fd",
         "type": "tabs",
         "children": [
           {
-            "id": "47d447abb3c0ce42",
+            "id": "42731395adb68e80",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/6. 스레드 동기화.pdf"
+                "file": "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "6. 스레드 동기화"
+              "title": "7. 교착상태"
             }
           }
         ]
@@ -183,8 +183,10 @@
   },
   "active": "42731395adb68e80",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/6. 스레드 동기화.pdf",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
+    "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
+    "Obsidian/ComputerScience/운영체제/7. 교착상태",
+    "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/6. 스레드 동기화.pdf",
     "Pasted image 20241031143326.png",
     "Pasted image 20241031143034.png",
     "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf",
@@ -206,13 +208,11 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
     "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/5. CPU 스케줄링.pdf",
     "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
-    "Obsidian/ComputerScience/운영체제/7. 교착상태.pdf",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/7. 데이터베이스 언어 sql.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/데이터 링크 계층의 작업 (2 계층).md",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/9. 정규화.pdf",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화",
-    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/음성인식.md",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
