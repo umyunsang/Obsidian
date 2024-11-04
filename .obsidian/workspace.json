@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "데이터베이스 설계"
+              "title": "정규화"
             }
           }
         ]
@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -180,20 +181,22 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "31ca4340263d1af2",
+  "active": "1f8d50624f04a65f",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf",
+    "Obsidian/ComputerScience/데이터베이스/9. 정규화/9. 정규화.pdf",
+    "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
+    "Pasted image 20241104171021.png",
+    "Pasted image 20241104170835.png",
+    "Pasted image 20241104170540.png",
+    "Pasted image 20241104170419.png",
+    "Pasted image 20241104170358.png",
+    "Pasted image 20241104170231.png",
+    "Pasted image 20241104165354.png",
     "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
+    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf",
     "image/Pasted image 20241104164211.png",
     "image/Pasted image 20241104164151.png",
     "image/Pasted image 20241104164131.png",
-    "image/Pasted image 20241104164111.png",
-    "image/Pasted image 20241104163800.png",
-    "image/Pasted image 20241104163109.png",
-    "image/Pasted image 20241104164237.png",
-    "Pasted image 20241104164237.png",
-    "Pasted image 20241104164211.png",
-    "Pasted image 20241104164151.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/9. 네트워크 계층.pdf",
@@ -209,7 +212,6 @@
     "Obsidian/ComputerScience/OSS/무제 폴더",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장_확인문제 (2).pdf",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_2장.pdf",
-    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/음성인식 시스템.pdf",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/뷰(view).md",
@@ -225,7 +227,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/4. 유선 및 무선 데이터 전송/유선 및 무선 데이터 전송.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/3. 신호 처리/신호 처리.md"
+    "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md"
   ]
 }
