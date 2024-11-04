@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf"
+                "file": "Obsidian/ComputerScience/데이터베이스/9. 정규화/9. 정규화.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "8. 데이터베이스 설계"
+              "title": "9. 정규화"
             }
           }
         ]
@@ -180,8 +180,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1f8d50624f04a65f",
+  "active": "31ca4340263d1af2",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf",
+    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
     "image/Pasted image 20241104164211.png",
     "image/Pasted image 20241104164151.png",
     "image/Pasted image 20241104164131.png",
@@ -189,12 +191,9 @@
     "image/Pasted image 20241104163800.png",
     "image/Pasted image 20241104163109.png",
     "image/Pasted image 20241104164237.png",
-    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf",
-    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
     "Pasted image 20241104164237.png",
     "Pasted image 20241104164211.png",
     "Pasted image 20241104164151.png",
-    "Pasted image 20241104164131.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/9. 네트워크 계층.pdf",
