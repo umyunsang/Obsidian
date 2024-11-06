@@ -13,12 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "데이터베이스 설계"
+              "title": "네트워크 계층"
+            }
+          }
+        ]
+      },
+      {
+        "id": "8ecf62e9f58e7f16",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49051e4f5a6226f7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/9. 네트워크 계층.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "9. 네트워크 계층"
             }
           }
         ]
@@ -163,10 +181,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "31ca4340263d1af2",
+  "active": "49051e4f5a6226f7",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
+    "Obsidian/ComputerScience/데이터베이스/0. 시험/레포트.md",
     "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
+    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/9. 정규화.pdf",
@@ -181,7 +201,6 @@
     "image/Pasted image 20241104170419.png",
     "image/Pasted image 20241104170358.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/9. 네트워크 계층.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/8. 무선통신 시스템.pdf",
