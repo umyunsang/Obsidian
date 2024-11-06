@@ -22,24 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "b561978ac8a8e1da",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e89373cf29881422",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "8. 데이터베이스 설계"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
