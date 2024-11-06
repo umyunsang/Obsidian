@@ -11,12 +11,32 @@
             "id": "31ca4340263d1af2",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "데이터베이스 설계"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b561978ac8a8e1da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e89373cf29881422",
+            "type": "leaf",
+            "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf"
+                "file": "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "7. 교착상태"
+              "title": "8. 데이터베이스 설계"
             }
           }
         ]
@@ -75,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -162,8 +183,10 @@
   },
   "active": "31ca4340263d1af2",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
+    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf",
+    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
+    "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/9. 정규화.pdf",
     "image/Pasted image 20241104171816.png",
     "image/Pasted image 20241104171656.png",
@@ -175,8 +198,6 @@
     "image/Pasted image 20241104170540.png",
     "image/Pasted image 20241104170419.png",
     "image/Pasted image 20241104170358.png",
-    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
-    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/9. 네트워크 계층.pdf",
