@@ -22,24 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "8ecf62e9f58e7f16",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "49051e4f5a6226f7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/10. 라우팅 알고리즘.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "10. 라우팅 알고리즘"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -183,28 +165,29 @@
   },
   "active": "31ca4340263d1af2",
   "lastOpenFiles": [
+    "image/Pasted image 20241106173540.png",
+    "image/Pasted image 20241106173200.png",
+    "image/Pasted image 20241106172921.png",
+    "image/Pasted image 20241106172801.png",
+    "image/Pasted image 20241106172316.png",
+    "image/Pasted image 20241106171443.png",
+    "image/Pasted image 20241106171251.png",
+    "image/Pasted image 20241106170012.png",
+    "image/Pasted image 20241106165443.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/10. 라우팅 알고리즘.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
-    "Pasted image 20241106172316.png",
-    "Pasted image 20241106171443.png",
-    "Pasted image 20241106171251.png",
+    "Pasted image 20241106173540.png",
+    "Pasted image 20241106173200.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/9. 네트워크 계층.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/10. 라우팅 알고리즘/10. 라우팅 알고리즘.pdf",
-    "Pasted image 20241106170012.png",
-    "Pasted image 20241106165443.png",
     "Obsidian/ComputerScience/데이터베이스/0. 시험/레포트.md",
     "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
     "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/9. 정규화.pdf",
-    "image/Pasted image 20241104171816.png",
-    "image/Pasted image 20241104171656.png",
-    "image/Pasted image 20241104172629.png",
-    "image/Pasted image 20241104171438.png",
-    "image/Pasted image 20241104171421.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/8. 무선통신 시스템.pdf",
