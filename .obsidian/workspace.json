@@ -22,24 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "c36a5a4f5c1e41d2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "947fad3027975a83",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/9. 정규화/9. 정규화.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "9. 정규화"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
