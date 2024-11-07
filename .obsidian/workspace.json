@@ -13,12 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "데이터베이스 설계"
+              "title": "정규화"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c36a5a4f5c1e41d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "947fad3027975a83",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/데이터베이스/9. 정규화/9. 정규화.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "9. 정규화"
             }
           }
         ]
@@ -163,9 +181,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "31ca4340263d1af2",
+  "active": "947fad3027975a83",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
+    "Obsidian/ComputerScience/데이터베이스/9. 정규화/9. 정규화.pdf",
+    "Pasted image 20241107104756.png",
+    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
+    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf",
     "image/Pasted image 20241106174223.png",
     "image/Pasted image 20241106174205.png",
     "image/Pasted image 20241106174148.png",
@@ -176,18 +199,13 @@
     "Pasted image 20241106174148.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
     "image/Pasted image 20241106173540.png",
-    "image/Pasted image 20241106173200.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/10. 라우팅 알고리즘.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/9. 네트워크 계층.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/10. 라우팅 알고리즘/10. 라우팅 알고리즘.pdf",
     "Obsidian/ComputerScience/데이터베이스/0. 시험/레포트.md",
-    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
-    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
-    "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
-    "Obsidian/ComputerScience/데이터베이스/9. 정규화/9. 정규화.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/8. 무선통신 시스템.pdf",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/ossai2024_고객님의추가요구사항 (1).pdf",
