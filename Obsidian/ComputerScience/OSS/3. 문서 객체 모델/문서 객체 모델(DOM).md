@@ -156,6 +156,116 @@ icearr[0] = ice
 >[!출력결과]
 >![[Pasted image 20241108110531.png]]
 - st : textarea를 가르키는게 아니고 textarea 안에 내용물을 가져온다
+- textarea의 문자열은 getElementById로 받는다
 ---
 #### 예제6. 체크박스 값 1개 읽기
-
+```html
+<body>
+    <input type="checkbox" id="myCheckbox">본인 맞습니다.<br>
+    <input type="button" value="다음" onClick="getCheckbox()">
+    <hr>
+    <p id="result"></p>
+    
+    <script>
+        function getCheckbox() {
+            if (document.getElementById("myCheckbox").checked == true) {
+                document.getElementById("result").innerHTML = "작업을 진행하겠습니다.";
+            } else {
+                document.getElementById("result").innerHTML = "본인 인증 해주세요.";
+            }
+        }
+    </script>
+</body>
+```
+>[!출력결과]
+>![[Pasted image 20241108110924.png]]
+- 체크박스 값 1개를 읽을 때는 getElemnetById로 받는다
+---
+#### 예제7. 체크박스 값 여러 개 읽기
+```html
+<body>
+    <input type="checkbox" name="myAdd" value="3000">추가샐러드 3000원<br>
+    <input type="checkbox" name="myAdd" value="2000">추가음료수 2000원<br>
+    <input type="checkbox" name="myAdd" value="500">추가피클 500원<br>
+    <input type="button" value="계산" onClick="getCheckbox()">
+    <hr>
+    <p id="result"></p>
+    
+    <script>
+        function getCheckbox() {
+            let sum = 0;
+            const addarr = document.getElementsByName("myAdd");
+            for (let a of addarr) {
+                if (a.checked) sum = sum + parseInt(a.value);
+            }
+            document.getElementById("result").innerHTML = `추가금액: ${sum}원`;
+        }
+    </script>
+</body>
+```
+>[!출력결과]
+>![[Pasted image 20241108111310.png]]
+- name속성은 getElementsByName으로 받는다
+---
+#### 예제8. 리디오버튼에서 값 읽기
+```html
+<body>
+    <input type="radio" name="color" value="red" checked>RED<br>
+    <input type="radio" name="color" value="green">GREEN<br>
+    <input type="radio" name="color" value="blue">BLUE<br>
+    <input type="button" value="choice" onClick="getRadio()">
+    <hr>
+    <h2 id="result"></h2>
+    
+    <script>
+        function getRadio() {
+            const colorarr = document.querySelectorAll("[type='radio']");
+            for (let c of colorarr) {
+                if (c.checked) {
+                    document.getElementById("result").innerHTML = `${c.value}`;
+                    break;
+                }
+            }
+        }
+    </script>
+</body>
+```
+>[!출력결과]
+>![[Pasted image 20241108111706.png]]
+- getElementsByName("color") 로 받을 수 도 있음
+- querySelectorAll("[type='radio']")
+	- 대괄호([])를 사용해서 type전부를 가져 올 수 있음
+---
+#### 예제9. 드롭박스에서 값 읽기
+```html
+<body>
+    <p>키우고 싶은 동물은</p>
+    <select id="selectBox">
+        <option>==선택==</option>
+        <option>dog</option>
+        <option>cat</option>
+        <option>duck</option>
+        <option>koala</option>
+    </select>
+    <h2 id="result"></h2>
+    
+    <script>
+        const s = document.getElementById("selectBox");
+        s.addEventListener("change", getSelect);
+        s.options[0].hidden = true;
+        
+        function getSelect() {
+            const i = s.selectedIndex;
+            document.getElementById("result").innerHTML = s.options[i].value;
+        }
+    </script>
+</body>
+```
+>[!출력결과]
+>![[Pasted image 20241108111909.png]]
+- s.addEventListener("change", getSelect);
+	- on change 아님, getSelect() 괄호 필요없다
+- 옵션태그에 별도로 value값이 없으면 태그 옆의 값이 value가 된다
+- const i = s.selectedIndex;
+	- 인덱스 번호를 가져옴
+---
