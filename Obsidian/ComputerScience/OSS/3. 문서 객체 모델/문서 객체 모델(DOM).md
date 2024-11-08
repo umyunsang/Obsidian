@@ -157,4 +157,5 @@ icearr[0] = ice
 >![[Pasted image 20241108110531.png]]
 - st : textarea를 가르키는게 아니고 textarea 안에 내용물을 가져온다
 ---
+#### 예제6. 체크박스 값 1개 읽기
 
