@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
+                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "문서 객체 모델(DOM)"
+              "title": "연습문제"
             }
           }
         ]
@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/3장_내용추가예정.pdf"
+                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/확인문제_현재10문제.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "3장_내용추가예정"
+              "title": "확인문제_현재10문제"
             }
           }
         ]
@@ -183,27 +183,28 @@
   },
   "active": "31ca4340263d1af2",
   "lastOpenFiles": [
-    "Pasted image 20241108111909.png",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/3장_내용추가예정.pdf",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
-    "Pasted image 20241108111706.png",
-    "Pasted image 20241108111310.png",
-    "Pasted image 20241108110924.png",
-    "Pasted image 20241108110531.png",
-    "Pasted image 20241108110347.png",
-    "Pasted image 20241108104431.png",
-    "Pasted image 20241108104046.png",
+    "image/Pasted image 20241108113305.png",
+    "image/Pasted image 20241108112724.png",
+    "image/Pasted image 20241108112632.png",
+    "image/Pasted image 20241108112347.png",
+    "image/Pasted image 20241108113652.png",
+    "image/Pasted image 20241108111706.png",
+    "image/Pasted image 20241108111310.png",
+    "image/Pasted image 20241108110924.png",
+    "image/Pasted image 20241108110531.png",
+    "image/Pasted image 20241108110347.png",
+    "image/Pasted image 20241108104431.png",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/확인문제_현재10문제.pdf",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/3장_내용추가예정.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/레포트.md",
     "Obsidian/ComputerScience/OSS/무제 폴더/ossai2024_3장_확인문제_현재5문제.pdf",
-    "Pasted image 20241107171107.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
     "Obsidian/ComputerScience/데이터베이스/0. 시험/레포트.md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
-    "image/Pasted image 20241107112915.png",
-    "image/Pasted image 20241107112504.png",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/9. 정규화.pdf",
     "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
@@ -217,7 +218,6 @@
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/음성인식.md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/TTS.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/뷰(view).md",
