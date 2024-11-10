@@ -1846,7 +1846,7 @@ I*   10.0.0.0/8 [100/8576] via 172.16.245.1, 00:00:55, Serial0
                 [100/8576] via 172.16.246.1, 00:00:55, Serial1
 ```
 
-Note that it is also possible to set up one router (say, _core1_) as primary and the second router ([core2](mailto:core2)) as backup. To do this, set up the default from _core2_ with a _worse_ metric, as shown in line 7:
+Note that it is also possible to set up one router (say, _core1_) as primary and the second router as backup. To do this, set up the default from _core2_ with a _worse_ metric, as shown in line 7:
 
 ```
    hostname core2
@@ -1866,3 +1866,91 @@ Note that it is also possible to set up one router (say, _core1_) as primary an
    ip default-network 10.0.0.0
    ip route 10.0.0.0 255.0.0.0 Null0
 ```
+
+# Classful Route Lookups
+
+Router _branch1_ is configured to perform classful route lookups (see line 7 in the previous code block). A classful route lookup works as follows:
+
+1. Upon receiving a packet, the router first determines the major network number for the destination. If the destination IP address is `172.16.1.1`, the major network number is `172.16.0.0`. If the destination IP address is `192.168.1.1`, the major network number is `192.168.1.0`.
+    
+2. Next, the router checks to see if this major network number exists in the routing table. If the major network number exists in the routing table (`172.16.0.0` does), the router checks for the destination’s subnet. In our example, _branch1_ would look for the subnet `172.16.1.0`. If this subnet exists in the table, the packet will be forwarded to the next hop specified in the table. If the subnet does not exist in the table, the packet will be dropped.
+    
+3. If the major network number does not exist in the routing table, the router looks for a default route. If a default route exists, the packet will be forwarded as specified by the default route. If there is no default route in the routing table, the packet will be dropped.
+    
+
+Router _branch1_ is able to ping `192.168.1.1` as a consequence of rule 3:
+
+```
+branch1#ping 192.168.1.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.1.1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 40/50/80 ms
+```
+
+However, let’s define a new subnet of `172.16.0.0` on _core1_ (and then block the advertisement of this subnet with an access list on lines 8 and 9) and see if _branch1_ can reach it using a default route:
+
+```
+   hostname core1
+   !
+   interface Ethernet0
+    ip address 192.168.1.1 255.255.255.0
+   !
+   interface Ethernet1
+   ip address 172.16.10.1 255.255.255.0
+   ...
+   interface Serial0
+   ip address 172.16.245.1 255.255.255.0
+   ...
+   router igrp 10
+    redistribute static
+    network 172.16.0.0
+    default-metric 10000 100 255 1 1500
+    distribute-list 1 out serial0
+   !
+   no ip classless
+   ip default-network 10.0.0.0
+   ip route 10.0.0.0 255.0.0.0 Null0
+   !
+8  access-list 1 deny 172.16.10.0 0.0.0.255   
+9  access-list 1 permit 0.0.0.0 255.255.255.255
+
+
+   branch1#sh ip route
+   ...
+   Gateway of last resort is 172.16.245.1 to network 10.0.0.0
+
+        172.16.0.0/24 is subnetted, 1 subnets
+   C       172.16.245.0 is directly connected, Serial0
+   I*   10.0.0.0/8 [100/8576] via 172.16.245.1, 00:00:26, Serial0
+
+
+   branch1#ping 192.168.1.1
+
+   Type escape sequence to abort.
+   Sending 5, 100-byte ICMP Echos to 172.16.10.1, timeout is 2 seconds:
+   !!!!!
+   Success rate is 100 percent (5/5), round-trip min/avg/max = 40/50/80 ms
+```
+
+This demonstrates the use of rule 2, which causes the packet for `172.16.10.1` to be dropped. Note that in this example `172.16.10.1` did not match the default route, whereas `192.168.1.1` did match the default.
+
+Classless route lookup, the other option, is discussed in [Chapter 5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch05.html "Chapter 5. Routing Information Protocol Version 2 (RIP-2)").
+
+# Summing Up
+
+IGRP has the robustness of RIP but adds a major new feature -- route metrics based on bandwidth and delay. This feature -- along with the ease with which it can be configured and deployed -- has made IGRP tremendously popular for small to mid-sized networks. However, IGRP does not address several problems that also affect RIP:
+
+- The exchange of full routing updates does not scale for large networks -- the overhead of generating and processing all routes in the AS can be high.
+    
+- IGRP convergence times can be too long.
+    
+- Subnet mask information is not exchanged in IGRP updates, so Variable Length Subnet Masks (VLSM) and discontiguous address spaces are not supported.
+    
+
+These issues may be too significant to overlook in large IP networks in which address-space conservation may necessitate VLSM, full route updates would be so large that they would consume significant network resources (serial links to branches tend to saturate quickly, and smaller routers may consume a lot of CPU power just to process all the routes at every update interval), and the convergence times may be too long because of the network diameter. Even small to mid-sized networks may choose not to implement IGRP if convergence time is an issue.
+
+---
+The definition of small, medium, and large IP networks can be discussed ad nauseam because of the number of variables involved (number of routers and routes, network bandwidth/utilization, network delay/latency, etc.), but rough measures are as follows: small -- a few dozen routers with up to a few hundred routes; medium -- a few hundred routers with a few thousand routes; large -- anything bigger than medium.
+
