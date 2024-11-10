@@ -981,11 +981,11 @@ Getting IGRP started is fairly straightforward. However, if you compare the rout
 
 A key difference in this configuration is that, unlike in RIP, each IGRP process is identified by an autonomous system (AS) number. AS numbers are described in detail in the next section.
 
-# How IGRP Works
+## How IGRP Works
 
 Since IGRP is such a close cousin of RIP, we will not repeat the details of how DV algorithms work, how updates are sent, and how route convergence is achieved. However, because IGRP employs a much more comprehensive metric, I’ll discuss the IGRP metric in detail. I’ll begin this discussion with AS numbers.
 
-## IGRP Autonomous System Number
+### IGRP Autonomous System Number
 
 Each IGRP process requires an autonomous system number:
 
@@ -1008,7 +1008,7 @@ In the meantime, all I will say is to use good judgment when breaking networks i
 
 The boundary between domains is often geographic or organizational.
 
-## IGRP Metric
+### IGRP Metric
 
 The RIP metric was designed for small, homogenous networks. Paths were selected based on the number of hops to a destination; the lowest hop-count path was installed in the routing table. IGRP is designed for more complex networks. Cisco’s implementation of IGRP allows the network engineer to customize the metric based on bandwidth, delay, reliability, load, and MTU. In order to compare metrics between paths and select the least-cost path, IGRP converts bandwidth, delay, reliability, delay, and MTU into a scalar quantity -- a _composite_ metric that expresses the desirability of a path. Just as in the case of RIP, a path with a lower composite metric is preferred to a path with a higher composite metric.
 
@@ -1016,7 +1016,7 @@ The computation of the IGRP composite metric is user-configurable; i.e., the net
 
 The following sections define bandwidth, delay, reliability, load, and MTU. We will then see how these variables can be used to compute the composite metric for a path.
 
-### Interface bandwidth, delay, reliability, load, and MTU
+#### Interface bandwidth, delay, reliability, load, and MTU
 
 The IGRP metric for a path is derived from the bandwidth, delay, reliability, load, and MTU values of every media in the path to the destination network.
 
@@ -1084,7 +1084,7 @@ Table 3-1. Default bandwidth and delay values
  
 The reliability and load values are dynamically computed by the router as five-minute exponentially weighted averages.
 
-### Modifying interface bandwidth, delay, and MTU
+#### Modifying interface bandwidth, delay, and MTU
 
 The default bandwidth and delay values may be overridden by the following interface commands:
 
@@ -1121,7 +1121,7 @@ However, the MTU size has no bearing on IGRP route selection. The MTU size shoul
 
 Later in this chapter we will see how modifications to the bandwidth and delay parameters on an interface can affect route selection.
 
-### IGRP routing update
+#### IGRP routing update
 
 IGRP updates are directly encapsulated in IP with the protocol field (in the IP header) set to 9. The format of an IGRP packet is shown in [Figure 3-3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03s02.html#iprouting-CHP-3-FIG-3 "Figure 3-3. Format of an IGRP update packet").
 
@@ -1159,7 +1159,7 @@ Just like RIP, IGRP updates do not contain subnet mask information. This classif
 
 When an update is received for a route, it contains the bandwidth, delay, reliability, load, and MTU values for the path to the destination network via the source of the update. I already defined bandwidth, delay, reliability, load, and MTU for an interface. Now let’s define these parameters again for a path.
 
-### Path bandwidth, delay, reliability, load, and MTU
+#### Path bandwidth, delay, reliability, load, and MTU
 
 The following list defines bandwidth, delay, reliability, load, and MTU for a path:
 
@@ -1204,7 +1204,7 @@ Routing entry for 172.16.100.0 255.255.255.0
       Reliability 255/255, minimum MTU 1500 bytes
       Loading 1/255, Hops 2
 ```
-### IGRP composite metric
+#### IGRP composite metric
 
 The path metric of bandwidth, delay, reliability, load, and MTU needs to be expressed as a composite metric for you to be able to compare paths. The default behavior of Cisco routers considers only bandwidth and delay in computing the composite metric (the parameters reliability, load, and MTU are ignored):
 
@@ -1307,11 +1307,11 @@ Instead of selecting the best path based on load, you may consider load balancin
 
 To make the metric sensitive to network reliability (in addition to bandwidth and delay), set k1 = k3 = k5 =1 and k2 = k4 = 0. In the event of link errors, this will cause the metric on the path to increase, and IGRP will select an alternative path when the metric has worsened enough. A typical action in today’s networks is to turn a line down until the transmission problem is resolved, not to base routing decisions on how badly the line is running.
 
-### Warning
+#### Warning
 
 Cisco strongly recommends _not_ modifying the k1, k2, k3, k4, and k5 values for IGRP.
 
-### Modifying IGRP metrics
+#### Modifying IGRP metrics
 
 TraderMary’s network was still using the 56-kbps path between _NewYork_ and _Ames_, even when IGRP was running on the routers (refer to [Section 3.1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03.html#iprouting-CHP-3-SECT-1 "Getting IGRP Running")). Why is it that _NewYork_ and _Ames_ did not pick up the lower bandwidth for the 56-kbps link?
 
@@ -1450,7 +1450,7 @@ I       172.16.252.0 [100/1] via 172.16.250.2, 0:00:31, Serial0
 
 Let’s corroborate IGRP’s selection of the two-hop T-1 path in preference to the one-hop 56-kbps link by comparing the transmission delay for a 1,000-octet packet. A 1,000-octet packet will take 143 ms (1,000 x 8/56,000 second) over a 56-kbps link and 5 ms (1,000 x 8/1,544,000 second) over a T-1 link. Neglecting buffering and processing delays, two T-1 hops will cost 10 ms in comparison to 143 ms via the 56-kbps link.
 
-### Processing IGRP updates
+#### Processing IGRP updates
 
 The processing of IGRP updates is very similar to the processing of RIP updates, described in [Chapter 2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch02.html "Chapter 2. Routing Information Protocol (RIP)"). The IGRP update comes with an autonomous system number. If this does not match the IGRP AS number configured on the router receiving the update, the entire upgrade is disregarded. Thus, routers _NewYork_ and _Nairobi_ in TraderMary’s network will receive updates from each other but will discard them.
 
@@ -1469,13 +1469,13 @@ The rules for processing IGRP updates are:
 5. If the destination network number is known to the router and the update contains the same metric from a different next hop, install the route as long as the maximum number of paths to the same destination is not exceeded. These parallel paths are then used for load balancing. Note that the default maximum number of paths to a single destination is six in IOS Releases 11.0 or later.
     
 
-## Parallel Paths
+### Parallel Paths
 
 For the routing table to be able to install multiple paths to the same destination, the IGRP metric for all the paths must be equal. The routing table will install several parallel paths to the same destination (the default maximum is six in current releases of IOS).
 
 Load-sharing over parallel paths depends on the switching mode. If the router is configured for _process switching_ , load balancing will be on a packet-by-packet basis. If the router is configured for _fast switching_, load balancing will be on a per-destination basis. For a more detailed discussion of switching mode and load balancing, see [Chapter 2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch02.html "Chapter 2. Routing Information Protocol (RIP)").
 
-### Unequal metric (cost) load balancing
+#### Unequal metric (cost) load balancing
 
 The default behavior of IGRP installs parallel routes to a destination only if all routes have identical metric values. Traffic to the destination is load-balanced over all installed routes, as described earlier.
 
@@ -1611,7 +1611,7 @@ Traffic from _NewYork_ to _London_ will be divided between _Serial2_ and 
 
 The default value of variance is 1. A danger with using a variance value of greater than 1 is the possibility of introducing a routing loop. Thus, _NewYork_ may start routing to _London_ via _Chicago_ if the variance is made sufficiently large. IGRP checks that the paths it chooses to install are always downstream (toward the destination) by choosing only next hops with lower metrics to the destination.
 
-## Steady State
+### Steady State
 
 It is important for you as the network administrator to be familiar with the state of the network during normal conditions. Deviations from this state will be your clue to troubleshooting the network during times of network outage. This output shows the values of the IGRP timers:
 
@@ -1666,7 +1666,7 @@ You should also be familiar with the number of major network numbers (two in the
 ---
  The concept of an _outgoing_ interface is best illustrated with an example. In TraderMary’s network, the outgoing interfaces from _NewYork_ to 172.16.100.0 will be _NewYork_ interface _Serial0_, _Chicago_ interface _Serial_, and _Ames_ interface _Ethernet0_. When computing the metric for _NewYork_ to 172.16.100.0, we will use the IGRP parameters of bandwidth, delay, load, reliability, and MTU for these interfaces. We will not use the IGRP parameters from interfaces. However, unless they have been modified, the parameters on this second set of interfaces would be identical to the first.
  
-# Speeding Up Convergence
+## Speeding Up Convergence
 
 Like RIP, IGRP implements hold-downs, split horizon, triggered updates, and poison reverse (see [Chapter 2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch02.html "Chapter 2. Routing Information Protocol (RIP)") for details on these convergence methods). Like RIP, IGRP also maintains an update timer, an invalid timer, a hold-down timer, and a flush timer for every route in the routing table:
 
@@ -1682,7 +1682,7 @@ Hold-down timer (default value: 280 seconds)
 Flush timer (default value: 630 seconds)
 	Every time a router receives an update for a route, it sets the flush timer to 0. When the flush timer expires, the route is removed from the routing table and the router is ready to receive a new route update. Note that the flush timer overrides the hold-down timer.
 
-## Setting Timers
+### Setting Timers
 
 IGRP timers can be modified to allow faster convergence. The configuration:
 
@@ -1697,11 +1697,11 @@ However, IGRP timers should not be modified without a detailed understanding of 
 
 Changing timers also presents the danger that sooner or later someone will configure a router with default timers. This may cause _route flapping_; i.e., routes to some network numbers may become intermittently invisible.
 
-### Warning
+#### Warning
 
 Do not modify IGRP timers unless absolutely necessary. If you modify IGRP timers, make sure that all routers have the same timers.
 
-## Disabling IGRP Hold-Downs
+### Disabling IGRP Hold-Downs
 
 IGRP hold-downs can be disabled with the command:
 
@@ -1714,7 +1714,7 @@ thus speeding up convergence when a route fails. However, the problem with turni
 
 Split horizon, triggered updates, and poison reverse are implemented in IGRP much like they are in RIP.
 
-# Route Summarization
+## Route Summarization
 
 IGRP summarizes network numbers when crossing a major network-number boundary, just like RIP does. Route summarization reduces the number of routes that need to be exchanged, processed, and stored.
 
@@ -1725,7 +1725,7 @@ Figure 3-5. Contiguous and discontiguous networks
 
 Both IGRP and RIP networks must be designed in contiguous blocks of major network numbers.
 
-# Default Routes
+## Default Routes
 
 IGRP tracks default routes in the exterior section of its routing updates. A router receiving `10.0.0.0` in the exterior section of a routing update would mark `10.0.0.0` as a default route and install its next hop to `10.0.0.0` as the _gateway of last resort_ . Consider the network in [Figure 3-6](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03s05.html#iprouting-CHP-3-FIG-6 "Figure 3-6. Branch offices only need a default route") as an example in which a core router connects to several branch routers in remote sites.
 
@@ -1809,7 +1809,7 @@ Here are the steps we followed in the creation of the default route:
 
 There are a few things to note when creating default routes in IGRP. First, IGRP does not use `0.0.0.0` as a default route. Thus, if `0.0.0.0` were defined in place of `10.0.0.0`, IGRP would not convey it. Second, how should one choose which network number to flag as a default route? In the previous example, the network `10.0.0.0` does not need to be a real network number configured on an interface; it could just be a fictitious number (that does not exist as a real number in the network) to which all default traffic will be sent. Using a fictitious number instead of a real network number as the default route can have certain advantages. For example, a fictitious network number will not go down if an interface goes down. Further, changing the ideal candidate for the default route can be much easier with fictitious network numbers than with real network numbers.
 
-## Multiple Default Routes
+### Multiple Default Routes
 
 To increase the reliability of the connection to branches, each branch may be connected to two core routers:
 
@@ -1867,7 +1867,7 @@ Note that it is also possible to set up one router (say, _core1_) as primary an
    ip route 10.0.0.0 255.0.0.0 Null0
 ```
 
-# Classful Route Lookups
+## Classful Route Lookups
 
 Router _branch1_ is configured to perform classful route lookups (see line 7 in the previous code block). A classful route lookup works as follows:
 
@@ -1938,7 +1938,7 @@ This demonstrates the use of rule 2, which causes the packet for `172.16.10.1`�
 
 Classless route lookup, the other option, is discussed in [Chapter 5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch05.html "Chapter 5. Routing Information Protocol Version 2 (RIP-2)").
 
-# Summing Up
+## Summing Up
 
 IGRP has the robustness of RIP but adds a major new feature -- route metrics based on bandwidth and delay. This feature -- along with the ease with which it can be configured and deployed -- has made IGRP tremendously popular for small to mid-sized networks. However, IGRP does not address several problems that also affect RIP:
 
@@ -1954,3 +1954,164 @@ These issues may be too significant to overlook in large IP networks in which ad
 ---
 The definition of small, medium, and large IP networks can be discussed ad nauseam because of the number of variables involved (number of routers and routes, network bandwidth/utilization, network delay/latency, etc.), but rough measures are as follows: small -- a few dozen routers with up to a few hundred routes; medium -- a few hundred routers with a few thousand routes; large -- anything bigger than medium.
 
+# Chapter 4. Enhanced Interior Gateway Routing Protocol (EIGRP)
+
+The Enhanced Interior Gateway Routing Protocol (EIGRP), referred to as an advanced Distance Vector protocol, offers radical improvements over IGRP. Traditional DV protocols such as RIP and IGRP exchange periodic routing updates with all their neighbors, saving the best distance (or metric) and the vector (or next hop) for each destination. EIGRP differs in that it saves not only the best (least-cost) route but all routes, allowing convergence to be much quicker. Further, EIGRP updates are sent only upon a network topology change; updates are not periodic.
+
+Getting EIGRP running is not much more difficult than getting IGRP running, as we will see in Section 4.1.
+
+Even though EIGRP offers radical improvements over IGRP, there are similarities between the protocols. Like IGRP, EIGRP bases its metric on bandwidth, delay, reliability, load, and MTU (see Section 4.2).
+
+The fast convergence feature in EIGRP is due to the Diffusing Update Algorithm (DUAL), discussed in Section 4.3.
+
+EIGRP updates carry subnet mask information. This allows EIGRP to summarize routes on arbitrary bit boundaries, support classless route lookups, and allow the support of Variable Length Subnet Masks (VLSM). This is discussed in Section 4.4 and Section 4.5.
+
+Setting up default routes in EIGRP is discussed in [Section 4.6](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s06.html "Default Routes").
+
+Troubleshooting EIGRP can be tricky. This chapter ends with some troubleshooting tips in [Section 4.7](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s07.html "Troubleshooting EIGRP").
+
+EIGRP is a Cisco proprietary protocol; other router vendors do not support EIGRP. Keep this in mind if you are planning a multivendor router environment.
+
+This chapter focuses on EIGRP’s enhancements over IGRP: the use of DUAL; and the use of subnet masks in updates, which in turn allow VLSM and route summarization at arbitrary bit boundaries. This chapter does not cover router metrics in detail or the concept of parallel paths. Those concepts have not changed much in EIGRP. I assume that the reader is familiar with IGRP.
+
+# Getting EIGRP Running
+
+TraderMary’s network, shown in [Figure 4-1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04.html#iprouting-CHP-4-FIG-1 "Figure 4-1. TraderMary’s network"), can be configured to run EIGRP as follows.
+
+![[Pasted image 20241110174232.png]]
+Figure 4-1. TraderMary’s network
+
+Just like RIP and IGRP, EIGRP is a distributed protocol that needs to be configured on every router in the network:
+
+hostname NewYork
+...
+interface Ethernet0
+ip address 172.16.1.1 255.255.255.0
+!
+interface Ethernet1
+ip address 192.168.1.1 255.255.255.0
+!
+interface Serial0
+description New York to Chicago link
+ip address 172.16.250.1 255.255.255.0
+!
+interface Serial1
+description New York to Ames link
+bandwidth 56
+ip address 172.16.251.1 255.255.255.0
+...
+**`router eigrp 10`**
+**`network 172.16.0.0`**
+
+hostname Chicago
+...
+interface Ethernet0
+ip address 172.16.50.1 255.255.255.0
+!
+interface Serial0
+description Chicago to New York link
+ip address 172.16.250.2 255.255.255.0
+!
+interface Serial1
+description Chicago to Ames link
+ip address 172.16.252.1 255.255.255.0
+...
+
+**`router eigrp 10`**
+**`network 172.16.0.0`**
+
+hostname Ames
+...
+interface Ethernet0
+ip address 172.16.100.1 255.255.255.0
+!
+interface Serial0
+description Ames to Chicago link
+ip address 172.16.252.2 255.255.255.0
+!
+interface Serial1
+description Ames to New York link
+bandwidth 56
+ip address 172.16.251.2 255.255.255.0
+...
+
+**`router eigrp 10`**
+**`network 172.16.0.0`**
+
+The syntax of the EIGRP command is:
+
+router eigrp _`autonomous-system-number`_
+
+in global configuration mode. The networks that will be participating in the EIGRP process are then listed:
+
+network 172.16.0.0
+
+What does it mean to list the network numbers participating in EIGRP?
+
+1. Router _NewYork_ will include directly connected `172.16.0.0` subnets in its updates to neighboring routers. For example, `172.16.1.0` will now be included in updates to the routers _Chicago_ and _Ames_.
+    
+2. _NewYork_ will receive and process EIGRP updates on its `172.16.0.0` interfaces from other routers running EIGRP 10. For example, _NewYork_ will receive EIGRP updates from _Chicago_ and _Ames_.
+    
+3. By exclusion, network `192.168.1.0`, connected to _NewYork,_ will not be advertised to _Chicago_ or _Ames_, and _NewYork_ will not process any EIGRP updates received on _Ethernet0_ (if there is another router on that segment).
+    
+
+The routing tables for _NewYork_, _Chicago_, and _Ames_ will show all `172.16.0.0` subnets. Here is _NewYork_’s table:
+
+  NewYork#sh ip route
+  Codes: C - connected, S - static, I - IGRP, R - RIP, M - mobile, B - BGP
+         D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+         N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+         E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP
+         i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, * - candidate default
+       
+  Gateway of last resort is not set
+
+1      **`172.16.0.0/24 is subnetted, 6 subnets`** 
+  D       172.16.252.0 [90/2681856] via 172.16.250.2, 00:18:54, Ethernet0/0
+  C       172.16.250.0 is directly connected, Ethernet0/0
+  C       172.16.251.0 is directly connected, Ethernet0/1
+  D       172.16.50.0 [90/2195456] via 172.16.250.2, 00:18:54, Ethernet0/0
+  C       172.16.1.0 is directly connected, Loopback0
+  D       172.16.100.0 [90/2707456] via 172.16.250.2, 00:18:54, Ethernet0/0
+  C    192.168.1.0/24 is directly connected, Loopback1
+
+The EIGRP-derived routes in this table are labeled with a “D” in the left margin. Note that the routing table provides summary information (as in line 1). Line 1 contains subnet mask information (24 bits, or `255.255.255.0`) and the number of subnets in `172.16.0.0` (6).
+
+In addition to the routing table, EIGRP builds another table called the _topology table_ :
+
+   NewYork#sh ip eigrp topology
+   IP-EIGRP Topology Table for process 10
+
+   Codes: P - Passive, A - Active, U - Update, Q - Query, R - Reply,
+          r - Reply status
+
+   P 172.16.252.0/24, 1 successors, FD is 2681856
+            via 172.16.250.2 (2681856/2169856), Serial0
+            via 172.16.251.2 (46738176/2169856), Serial1
+   P 172.16.250.0/24, 1 successors, FD is 2169856
+            via Connected, Serial0
+   P 172.16.251.0/24, 1 successors, FD is 46226176
+            via Connected, Serial1
+   P 172.16.50.0/24, 1 successors, FD is 2195456
+            via 172.16.250.2 (2195456/281600), Serial0
+   P 172.16.1.0/24, 1 successors, FD is 128256
+            via Connected, Ethernet0
+2   **`P 172.16.100.0/24, 1 successors, FD is 2707456`**
+3            **`via 172.16.250.2 (2707456/2195456), Serial0`**
+4            **`via 172.16.251.2 (46251776/281600), Serial1`**
+
+This topology table shows two entries for _Ames_’s subnet, `172.16.100.0` (line 2). Only the lower-cost route (line 3) is installed in the routing table, but the second entry in the topology table (line 4) allows _NewYork_ to quickly converge on the less preferred path if the primary path fails.
+
+Note that network `192.168.1.0`, defined on _NewYork_ interface _Ethernet1_, did not appear in the routing tables of _Chicago_ and _Ames_. To be propagated, `192.168.1.0` would have to be defined in a network statement under the EIGRP configuration on _NewYork_:
+
+hostname NewYork
+...
+router eigrp 10
+network 172.16.0.0
+network 192.168.1.0
+
+Each EIGRP process is identified by an autonomous system (AS) number, just like IGRP processes. Routers with the _same_ AS numbers will exchange routing information with each other, resulting in a _routing domain_ . Routers with dissimilar AS numbers will not exchange any routing information by default. However, routes from one routing domain can be leaked into another domain through the redistribution commands -- this is covered in [Chapter 8](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch08.html "Chapter 8. Administrative Controls").
+
+Compare the routing table in this section with the corresponding table for IGRP in [Chapter 3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03.html "Chapter 3. Interior Gateway Routing Protocol (IGRP)"). The essential contents are identical: the same routes with the same next hops. However, the route metrics look much bigger and the route update times are very high. IGRP routes would have timed out a while ago.
+
+EIGRP metrics are essentially derived from IGRP metrics. The following section provides a quick summary.
