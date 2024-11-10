@@ -4208,3 +4208,465 @@ ip ospf demand-circuit
 ```
 
 LSA updates will bring up the demand circuit only if there is a change in topology.
+
+# Stub, Totally Stubby, and Not So Stubby Areas
+
+External LSAs are flooded through the OSPF backbone as well as through all regular areas. Let’s test this using TraderMary’s network of [Figure 6-10](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-FIG-10 "Figure 6-10. TraderMary’s network with a French extension"). A static route for `192.168.3.0` is defined (pointing to _null0_) on _Chicago_ and redistributed into OSPF. Router _Chicago_ then advertises an external LSA with a link state ID of `192.168.3.0`:
+
+```
+hostname Chicago
+!
+router ospf 10
+ **`redistribute static metric 100 metric-type 1 subnets`**
+ network 172.16.0.0 0.0.255.255 area 0
+!
+**`ip route 192.168.3.0 255.255.255.0 Null0`**
+```
+
+The LSA is flooded to all routers in the network. Let’s check _Paris_ as an instance:
+
+```
+Paris#sh ip ospf database external
+
+       OSPF Router with ID (192.168.1.5) (Process ID 10)
+
+
+           AS External Link States
+
+  Routing Bit Set on this LSA
+  LS age: 158
+  Options: (No TOS-capability)
+  LS Type: AS External Link
+  **`Link State ID: 192.168.3.0 (External Network Number )`**
+  Advertising Router: 192.168.1.3
+  LS Seq Number: 80000001
+  Checksum: 0x8F67
+  Length: 36
+  Network Mask: /24
+    Metric Type: 1 (Comparable directly to link state metric)
+    TOS: 0 
+    Metric: 100 
+    Forward Address: 0.0.0.0
+    External Route Tag: 0
+```
+
+The route to `192.168.3.0` also appears in the routing table:
+
+```
+Paris#sh ip route
+...
+Gateway of last resort is not set
+...
+**`O E1 192.168.3.0/24 [110/302] via 10.0.1.2, 00:02:08, Serial1`**
+...
+```
+
+Flooding external LSAs throughout an OSPF network may be a waste of resources. Stub areas block the flooding of external LSAs, as we will see in the next section.
+
+## Stub Areas
+
+Referring to [Figure 6-1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06.html#iprouting-CHP-6-FIG-1 "Figure 6-1. Overview of OSPF areas"), the router in area 1 that connects to the RIP network floods external LSAs into the network. It appears that nothing is gained by importing external LSAs into areas 2 and 3, which can point all external routes to their ABRs using default routes. Representing every external LSA in areas 2 and 3 would be a waste of resources. With this in mind, OSPF defines _stub areas_ . When an area is defined as a stub area, all external LSAs are blocked at the ABRs, and, in place, the ABRs source a single default route into the stub area.
+
+All routers in a stub area must be configured as stub routers. Stub routers form adjacencies only with other stub routers and do not propagate external LSAs. (How does a router know if its neighbor is a stub router? The E bit in the hello packet is turned to zero if the router is a stub router).
+
+Area 1 in TraderMary’s network can be made stubby via the following configuration changes:
+
+```
+hostname NewYork2
+...
+router ospf 10
+network 172.16.0.0 0.0.255.255 area 0
+network 10.0.0.0 0.255.255.255 area 1
+**`area 1 stub`**
+
+hostname Paris
+...
+router ospf 10
+ redistribute rip
+ network 10.0.0.0 0.255.255.255 area 1
+ **`area 1 stub`**
+```
+
+The routing table for _Paris_ now shows a default route pointing to the ABR (_NewYork2_) but does not show the external route to 192.168.3.0 (sourced by _Chicago_):
+
+```
+Paris#sh ip route
+...
+Gateway of last resort is 10.0.1.2 to network 0.0.0.0
+...
+O*IA 0.0.0.0/0 [110/65] via 10.0.1.2, 00:00:35, Serial1
+O IA 172.16.0.0/16 [110/74] via 10.0.1.2, 1d23h, Serial1
+...
+```
+
+After making this change, however, we will find that the network has lost connectivity to `10.0.3.0`, which represents the RIP external network connecting to router _Paris_. The reason for this is rather obvious: stub areas do not propagate external LSAs. In other words, an ASBR cannot belong to a stub area.
+
+The other major restriction with stub areas is that they cannot support virtual links, because they don’t have the complete routing table. An area that needs to support a VL cannot be a stub area.
+
+Any area that does not contain an ASBR (i.e., does not support a connection to an external network) and is not a candidate for supporting a virtual link should be made a stub area.
+
+There is one major disadvantage to configuring an area as a stub area. When multiple ABRs source a default route, the routers in the stub area may fail to recognize the shortest path to the destination network. This may help determine whether you choose to implement an area as a regular area or as a stub area.
+
+## Totally Stubby Areas
+
+Totally stubby areas carry the concept of stub areas further by blocking all summary LSAs in addition to external LSAs.
+
+In the configuration in the previous section, where _Paris_ is configured as a stub area, the LS database for _Paris_ will not show external LSAs but will still show all summary LSAs, so _Paris_’s routing table still shows the summarized inter-area route to `172.16.0.0/16`. If _NewYork2_ did not summarize the `172.16.0.0` subnets, _Paris_ would show all six `172.16.0.0` subnets: `172.16.1.0/24`, `172.16.50.0/24`, `172.16.100.0/24`, `172.16.250.0/24`, `172.16.251.0/24`, and `172.16.252.0/24`. Totally stubby areas, unlike stub areas, replace all inter-area routes (in addition to external routes) with a default route.
+
+Area 1 can be configured as a totally stubby area by modifying the configuration of _NewYork2_ as follows. No change is required to router _Paris_.
+
+```
+hostname NewYork2
+!
+router ospf 10
+ redistribute static metric 10
+ network 172.16.0.0 0.0.255.255 area 0
+ network 10.0.0.0 0.255.255.255 area 1
+ **`area 1 stub no-summary`**
+```
+
+_Paris_’s routing table now does not contain any IA routes (other than the default sourced by _NewYork2_):
+
+```
+Paris#sh ip route
+...
+Gateway of last resort is 10.0.1.2 to network 0.0.0.0
+
+     10.0.0.0/24 is subnetted, 2 subnets
+C       10.0.2.0 is directly connected, Ethernet0
+C       10.0.1.0 is directly connected, Serial1
+     192.168.1.0/32 is subnetted, 1 subnets
+C       192.168.1.5 is directly connected, Loopback0
+O*IA 0.0.0.0/0 [110/65] via 10.0.1.2, 00:00:23, Serial1
+```
+
+Totally stubby areas have the same restrictions as stub areas -- no ASBRs (no external LSAs) and no virtual links. Also, like stub areas, totally stubby areas see all ABRs as equidistant to all destinations that match the default route. When multiple ABRs source a default route, the routers in the totally stubby area may not recognize the shortest path to the destination network.
+
+## NSSAs
+
+What if a stub area needs to learn routes from another routing protocol? For example, _Paris_ -- in area 1 -- may need to learn some RIP routes from a legacy network. NSSAs -- as specified in RFC 1587 -- allow external routes to be imported into an area without losing the character of a stub area (i.e., without importing any external routes from the backbone area).
+
+NSSAs import external routes through an ASBR in type 7 LSAs. Type 7 LSAs are flooded within the NSSA. Type 7 LSAs may optionally be flooded into the entire OSPF domain as a type 5 LSAs by the ABR(s) or be blocked at the ABR(s). As with any stub area, NSSAs do not import type 5 LSAs from the ABR.
+
+The option (of whether or not to translate a type 7 LSA into a type 5 LSA at the NSSA ABR) is indicated in the P bit (in the options field) of the type 7 LSA. If this bit is set to 1, the LSA is translated by the ABR into a type 5 LSA to be flooded throughout the OSPF domain. If this bit is set to 0, the LSA is not advertised outside the NSSA area.
+
+All routers in the NSSA must be configured with the _nssa_ keyword (line 48):
+
+```
+    hostname NewYork2
+    !
+    router ospf 10
+     redistribute static metric 10
+     network 172.16.0.0 0.0.255.255 area 0
+     network 10.0.0.0 0.255.255.255 area 1
+48   **`area 1 nssa`**
+```
+
+There are three optional keywords for NSSA configuration:
+
+```
+   area 1 nssa ?
+49   **`default-information-originate`** 
+50   **`no-redistribution`**                                
+51   **`no-summary`**
+```
+
+When configured on the NSSA ABR, the _default-information-originate_ keyword (line 49) causes the ABR to source a default route into the NSSA.
+
+The _no-redistribution_ keyword (line 50) is useful on NSSA ABRs that are also ASBRs. The _no-redistribution_ keyword stops the redistribution of external LSAs (from the other AS) into the NSSA.
+
+The _no-summary_ keyword (line 51) gives you another oxymoron -- it makes the NSSA a totally stubby NSSA, so no type 3 or 4 LSAs are sent into the area.
+
+NSSAs are thus a variant of stub areas with one less restriction -- external connections are allowed. In all other respects, NSSAs are just stub areas.
+
+# NBMA Networks
+
+Remember how a DR is elected -- basic to DR election is the broadcast or multicast capability of the underlying network. NBMA networks such as Frame Relay or X.25 have no inherent broadcast or multicast capability, but they can simulate a broadcast network if fully meshed. However, a fully meshed network with _n_ nodes requires _n_ x (_n_-1)/2 virtual circuits. The cost of _n_ x (_n_-1)/2 virtual circuits may be unpalatable, and besides, the failure of a single virtual circuit would disrupt this full mesh.
+
+One option around a fully meshed network is to (statically) configure the DR for the network. The DR will then advertise the NBMA network as a multi-access network using a single IP subnet in a network LSA.
+
+Another option is to configure the network as a set of point-to-point networks. This is simpler to configure, manage, and understand. However, each point-to-point network wastes an IP subnet. So what? You can use VLSM in OSPF, with a two-bit subnet for each point-to-point network. That is a good argument. However, the trade-off is the processing overhead of an LSA for each point-to-point network.
+
+Let’s look at examples of each of these options.
+
+_NewYork2_ is set up with a serial interface to support Frame Relay PVCs to offices in Miami and New Orleans, as shown in [Figure 6-12](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s10.html#iprouting-CHP-6-FIG-12 "Figure 6-12. TraderMary’s Frame Relay network").
+
+![[Pasted image 20241110184849.png]]
+Figure 6-12. TraderMary’s Frame Relay network
+
+The command **ip ospf network broadcast** (lines 52, 53, and 55) makes OSPF believe that the attached network is multi-access, like an Ethernet segment. However, since the network has no true broadcast capability, the priorities on _NewYork2_, _Miami_, and _NewOrleans_ must be specified to force _NewYork2_ to be the DR on the NBMA network. _NewYork2_ will become the DR while the state of the interface on _Miami_ and _NewOrleans_ will be DRother (implying that the interface has not been elected the DR). _NewYork2_ uses the default priority of 1. _Miami_ and _NewOrleans_ are configured with a priority value of (lines 54 and 56), which makes them ineligible for DR election.
+
+```
+   hostname NewYork2
+   !
+   interface Serial3
+    ip address 192.168.10.2 255.255.255.0     
+    encapsulation frame-relay
+52  **`ip ospf network broadcast`**                 
+    ip ospf hello-interval 30
+    keepalive 15
+    frame-relay lmi-type ansi
+   !
+   router ospf 10
+   network 192.168.10.0 0.0.0.255 area 0
+
+
+   hostname Miami
+   !
+   interface Serial0
+    no ip address
+    encapsulation frame-relay
+    keepalive 15
+    frame-relay lmi-type ansi
+   !
+   interface Serial0.1 point-to-point
+    ip address 192.168.10.3 255.255.255.0
+53  **`ip ospf network broadcast`** 
+    ip ospf hello-interval 30
+54  **`ip ospf priority 0`**                             
+    frame-relay interface-dlci 100   
+   !
+   router ospf 10
+    network 192.168.10.0 0.0.0.255 area 0
+
+
+   hostname NewOrleans
+   !
+   interface Serial0
+    no ip address
+    encapsulation frame-relay
+    bandwidth 1544
+    keepalive 15
+    lat enabled
+    frame-relay lmi-type ansi
+   !
+   interface Serial0.1 point-to-point
+    ip address 192.168.10.1 255.255.255.0
+55  **`ip ospf network broadcast`**                          
+    ip ospf hello-interval 30
+56  **`ip ospf priority 0`**                        
+    frame-relay interface-dlci 200   
+   !
+   router ospf 10
+   network 192.168.10.0 0.0.0.255 area 0
+```
+
+IOS releases prior to 10.0 did not support the command **ip ospf network broadcast** and required the static configuration of neighbors and their priorities:
+
+```
+neighbor _`ip-address`_ [priority _`number`_] [poll-interval _`seconds`_]
+```
+
+where _ip-address_ is the IP address of the neighbor, _number_ is the neighbor’s priority (0-255), and _seconds_ is the dead router poll interval.
+
+The NBMA network may be modeled as a collection of point-to-point networks. Configure the routers the same way, but configure the interfaces as point-to-multipoint instead of broadcast and do not specify the OSPF priority, since a point-to-multipoint network does not elect a DR (the hello protocol is used to find neighbors):
+
+```
+ip ospf network point-to-multipoint
+```
+
+The point-to-multipoint network consumes only one IP subnet but creates multiple host routes.
+
+You can also use subinterfaces to model the NBMA network as a collection of point-to-point networks. Routers at the ends of a point-to-point subinterface always form adjacency, much like routers at the ends of a serial interface. No DR election takes place. Since OSPF supports VLSM, one cannot argue that this will waste IP address space. However, using point-to-point subinterfaces in lieu of a single broadcast network generates LSAs for every subinterface, which adds to the processing overhead.
+
+# OSPF Design Heuristics
+
+The following sections provide a partial and ad hoc checklist to use when executing an OSPF design. As with any other discipline, the engineer will do best if he spends time understanding the details of OSPF and then designs his network as simply as possible.
+
+## OSPF Hierarchy
+
+Building a large, unstructured OSPF network is courting disaster. The design of the OSPF network must be clearly defined: all changes in the OSPF environment must bear the imprint of the OSPF architecture. For example, when adding a new router, the network engineer must answer the following questions:
+
+- Will the router be an area router, a stub router, or an ABR?
+    
+- If the router is an ABR or an ASBR, what routes should the router summarize?
+    
+- What impact would the failure of the router have on OSPF routing?
+    
+- Will this router be a DR/BDR?
+    
+- How will this router affect the performance of other OSPF routers?
+    
+
+## IP Addressing
+
+IP addresses must be allocated in blocks that allow route summarization at ABRs. The address blocks must take into account the number of users in the area, leaving room for growth. VLSM should be considered when planning IP address allocation.
+
+## Router ID
+
+Use loopback addresses to assign router IDs. Choose the router IDs carefully -- the router ID will impact DR/BDR election on all attached multi-access networks. Keep handy a list of router IDs and router names. This will make it easier to troubleshoot the network.
+
+## DR/BDR
+
+Routers with low processor/memory/bandwidth resources should be made DR-ineligible. A router that becomes the DR/BDR on multiple networks may see high memory/CPU utilization.
+
+## Backbone Area
+
+Since all inter-area traffic will traverse the backbone, ensure that there is adequate bandwidth on the backbone links. The backbone area will typically be composed of the highest-bandwidth links in the network, with multiple paths between routers.
+
+The backbone should have multiple paths between any pair of nonbackbone areas. A partitioned backbone will disrupt inter-area traffic -- ensure that there is adequate redundancy in the backbone.
+
+Use the backbone solely for inter-area traffic -- do not place users or servers on the backbone.
+
+## Number of Routers in an Area
+
+The maximum number of routers in an area depends on a number of factors -- number of networks, router CPU, router memory, etc. -- but Cisco documentation suggests that between 40 and 50 is a reasonable number. However, it is not uncommon to have a couple of hundred routers in an area, although problems such as flaky links may overload the CPU of the routers in the area. As a corollary of the previous argument, if you think that the total number of routers in your network will not exceed 50, all the routers can be in area 0.
+
+## Number of Neighbors
+
+If the number of routers on a multi-access network exceeds 12 to 15 and the DR/BDR is having performance problems, look into a higher-horsepower router for the DR/BDR. Note that having up to 50 routers on a broadcast network is not uncommon. The total number of neighbors on all networks should not exceed 50 or so.
+
+## Route Summarization
+
+To summarize the routes:
+
+- Allocate address blocks for each area based on bit boundaries. As areas grow, keep in mind that the area may ultimately need to be split into two. If possible, allocate addresses within an area in contiguous blocks to allow summarization at the time of the split.
+    
+- Summarize into the backbone at the ABR (as opposed to summarizing into the nonbackbone area). This reduces the sizes of the LS database in the backbone area and the LS databases in the nonbackbone areas.
+    
+- Route summarization has the advantage that a route-flap in a subnet (that has been summarized) does not trigger an LSA to be flooded, reducing the OSPF processing overhead.
+    
+- If an area has multiple ABRs and one ABR announces more specific routes, all the traffic will flow to that router. This is good if this is the desired effect. Otherwise, if you intend to use all ABRs equally, all ABRs must have identical summary statements.
+    
+- Summarize external routes at the ASBR.
+    
+- Golden rule: summarize, summarize, summarize.
+    
+
+## VLSM
+
+OSPF LSA records carry subnet masks; the use of VLSM is encouraged to conserve the available IP address space.
+
+## Stub Areas
+
+An area with only one ABR is an ideal candidate for a stub area. Changing the area into a stub area will reduce the size of the LS database without the loss of any useful routing information. Remember that stub areas cannot support VLs or type 5 LSAs.
+
+## Virtual Links
+
+Design the network so that virtual links are not required. VLs should be used only as emergency fixes, not as a part of the design.
+
+## OSPF Timers
+
+In an all-Cisco network environment, the OSPF timers (hello-interval, dead-interval, etc.) can be left to their default values; in a multivendor environment, however, the network engineer may need to adjust the timers to make sure they match.
+
+# Troubleshooting OSPF
+
+OSPF is a complex organism and hence can be difficult to troubleshoot. However, since the operation of OSPF has been described in great detail by the standards bodies, the network engineer would do well to become familiar with its internal workings. The following sections describe some of the more common OSPF troubles.
+
+## OSPF Area IDs
+
+When you’re using multiple network area statements under the OSPF configuration, the order of the statements is critical. Check that the networks have been assigned the desired area IDs by checking the output of the **show ip ospf interface** command.
+
+## OSPF Does Not Start
+
+The OSPF process cannot start on a router if a router ID cannot be established. Check the output of **show ip ospf** to see if a router ID has been established. If a router ID has not been established, check to see if the router has an active interface (preferably a loopback interface) with an IP address.
+
+## Verifying Neighbor Relationships
+
+Once a router has been able to start OSPF, it will establish an interface data structure for each interface configured to run OSPF. Check the output of **show ip ospf interface** to ensure that OSPF is active on the intended interfaces. If OSPF is active, check for the parameters described in the section [Section 6.4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html "How OSPF Works"). Many OSPF problems may be traced to an incorrectly configured interface.
+
+```
+   NewYork#sh ip ospf interface
+   ...
+   Ethernet0 is up, line protocol is up 
+57   **`Internet Address 172.16.1.1/24, Area 0`** 
+58   **`Process ID 10, Router ID 172.16.251.1, Network Type BROADCAST, Cost: 10`**
+     Transmit Delay is 1 sec, State DR, Priority 1 
+     Designated Router (ID) 172.16.251.1, Interface address 172.16.1.1
+     No backup designated router on this network
+     Timer intervals configured, Hello 10, Dead 40, Wait 40, Retransmit 5
+       Hello due in 00:00:02
+     Neighbor Count is 0, Adjacent neighbor count is 0 
+     Suppress hello for 0 neighbor(s)
+   Serial0 is up, line protocol is up 
+59   **`Internet Address 172.16.250.1/24, Area 0`** 
+60   **`Process ID 10, Router ID 172.16.251.1, Network Type POINT_TO_POINT, Cost: 64`**
+     Transmit Delay is 1 sec, State POINT_TO_POINT,
+     Timer intervals configured, Hello 10, Dead 40, Wait 40, Retransmit 5
+       Hello due in 00:00:01
+     Neighbor Count is 1, Adjacent neighbor count is 1 
+       Adjacent with neighbor 69.1.1.1
+     Suppress hello for 0 neighbor(s)
+```
+
+Remember that two routers will not form a neighbor relationship unless the parameters specified in the hello protocol match.
+
+```
+NewYork#show ip ospf neighbor
+
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+192.168.1.2      1   FULL/  -        00:00:31    172.16.250.2    Serial0
+192.168.1.3      1   FULL/  -        00:00:32    172.16.251.2    Serial1
+```
+
+If two routers have not been able to establish a neighbor relationship and both are active on the multi-access network (i.e., they are able to ping each other), it is likely that their hello parameters do not match. Use the **debug ip ospf adjacency** command to get details on hello parameter mismatches.
+
+## Route Summarization
+
+If an area has multiple ABRs and one ABR announces more specific routes than the others, all the traffic will flow to that router. This is good if this is the desired effect. Otherwise, if you intend to use all ABRs equally, all ABRs must have identical summary statements.
+
+## Overloaded Routers
+
+The design engineer should be familiar with OSPF -- ABRs do more work than internal routers, and DRs/BDRs do more work than other routers. A router that becomes the DR/BDR on multiple networks does even more work. Routers in stub areas and NSSA areas do less work.
+
+## SPF Overrun
+
+To check the number of times the SPF algorithm has executed, use the command **show ip ospf**. A flapping interface may result in frequent executions of the SPF algorithm that, in turn, may take CPU time away from other critical router processes.
+
+```
+   NewYork#sh ip ospf 
+61  **`Routing Process "ospf 10" with ID 172.16.251.1`**    
+    Supports only single TOS(TOS0) routes
+62  **`SPF schedule delay 5 secs, Hold time between two SPFs 10 secs`**     
+    Number of DoNotAge external LSA 0
+    Number of areas in this router is 1. 1 normal 0 stub 0 nssa
+       Area BACKBONE(0)
+       Number of interfaces in this area is 3
+       Area has no authentication
+63     **`SPF algorithm executed 24 times`**
+       Area ranges are
+       Link State Update Interval is 00:30:00 and due in 00:11:48
+       Link State Age Interval is 00:20:00 and due in 00:11:48
+       Number of DCbitless LSA 1
+       Number of indication LSA 0
+       Number of DoNotAge LSA 0
+```
+
+In this example, the SPF algorithm has been executed 24 times since the router was rebooted (line 63). Note that SPF is scheduled to delay its execution for 5 seconds after the receipt of an LSA update and the minimum time between SPF executions is set to 10 seconds (line 61). This keeps SPF from using up all the processor resources in the event that an interface is flapping.
+
+To change these timers, use the following command under the OSPF configuration:
+
+```
+timers spf <_`schedule delay in seconds`_> <_`hold-time in seconds`_>
+```
+## Using the LS Database
+
+Since the LS database is the input to the SPF algorithm, you can analyze it to troubleshoot missing routes. Analyzing the LS database can be particularly useful when you’re working with stub areas, totally stubby areas, or NSSAs, since these areas block certain LSAs.
+
+The output of **show ip ospf database database-summary** is a useful indicator of the size of the LS database and its components. The command **show ip ospf database** shows the header information from each LSA.
+
+## Network Logs
+
+The output of the command **show log** contains useful historical data and may be used to analyze a network outage.
+
+## Debug Commands
+
+The most useful **debug** commands are **debug ip ospf adjacency** and **debug ip ospf events** . These commands are useful in troubleshooting neighbor relationships. Other **debug** commands available are **debug ip ospf flood**, **debug ip ospf lsa-generation**, **debug ip ospf packet**, **debug ip ospf retransmission**, **debug ip ospf spf**, and **debug ip ospf tree**.
+
+# Summing Up
+
+OSPF can support very large networks -- the OSPF hierarchy allows almost unlimited growth because new areas can be added to the network without impacting other areas. Dijkstra’s SPF algorithm leads to radical improvements in convergence time, and OSPF does not suffer from the routing loop issues that DV protocols manifest.
+
+OSPF exhibits all the advantages of a classless routing protocol. Variable Length Subnet Masks permit efficient use of IP addresses. Discontiguous networks can be supported since LSAs carry subnet mask information, and routes can be summarized at arbitrary bit boundaries. Summarization reduces routing protocol overhead and simplifies network management.
+
+Furthermore, OSPF does not tie up network bandwidth and CPU resources in periodic routing updates. Only small hello packets are transmitted on a regular basis.
+
+These OSPF benefits come at a price:
+
+- OSPF is a complex protocol requiring a structured topology. A haphazard environment, without a plan for network addresses, route summarization, LS database sizes, and router performance, will yield a real mess.
+    
+- A highly trained staff is required to engineer and operate a large OSPF network.
+    
+- OSPF maintains an LS database that requires sizeable memory, and the SPF algorithm can hog CPU resources if the size of the topology database has grown out of bounds. Splitting an area to reduce the size of the LS database may not be straightforward, depending on the topology of the area.
+    
+- OSPF assumes a hierarchical network topology -- migrating a network from another protocol to OSPF requires extensive planning.
