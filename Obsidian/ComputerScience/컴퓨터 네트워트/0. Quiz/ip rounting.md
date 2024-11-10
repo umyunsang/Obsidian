@@ -307,7 +307,6 @@ NewYork>sh ip route
    R       172.16.252.0 [120/1] via 172.16.250.2, 0:00:11, Serial0
                         [120/1] via 172.16.251.2, 0:00:19, Serial1
 
-## Parallel Paths
 ```
 
 ### Parallel Paths
@@ -1983,6 +1982,7 @@ Figure 4-1. TraderMary’s network
 
 Just like RIP and IGRP, EIGRP is a distributed protocol that needs to be configured on every router in the network:
 
+```
 hostname NewYork
 ...
 interface Ethernet0
@@ -2037,14 +2037,19 @@ ip address 172.16.251.2 255.255.255.0
 
 **`router eigrp 10`**
 **`network 172.16.0.0`**
+```
 
 The syntax of the EIGRP command is:
 
+```
 router eigrp _`autonomous-system-number`_
+```
 
 in global configuration mode. The networks that will be participating in the EIGRP process are then listed:
 
+```
 network 172.16.0.0
+```
 
 What does it mean to list the network numbers participating in EIGRP?
 
@@ -2057,6 +2062,7 @@ What does it mean to list the network numbers participating in EIGRP?
 
 The routing tables for _NewYork_, _Chicago_, and _Ames_ will show all `172.16.0.0` subnets. Here is _NewYork_’s table:
 
+```
   NewYork#sh ip route
   Codes: C - connected, S - static, I - IGRP, R - RIP, M - mobile, B - BGP
          D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
@@ -2074,11 +2080,13 @@ The routing tables for _NewYork_, _Chicago_, and _Ames_ will show all `172.
   C       172.16.1.0 is directly connected, Loopback0
   D       172.16.100.0 [90/2707456] via 172.16.250.2, 00:18:54, Ethernet0/0
   C    192.168.1.0/24 is directly connected, Loopback1
+```
 
 The EIGRP-derived routes in this table are labeled with a “D” in the left margin. Note that the routing table provides summary information (as in line 1). Line 1 contains subnet mask information (24 bits, or `255.255.255.0`) and the number of subnets in `172.16.0.0` (6).
 
 In addition to the routing table, EIGRP builds another table called the _topology table_ :
 
+```
    NewYork#sh ip eigrp topology
    IP-EIGRP Topology Table for process 10
 
@@ -2099,19 +2107,438 @@ In addition to the routing table, EIGRP builds another table called the _topolo
 2   **`P 172.16.100.0/24, 1 successors, FD is 2707456`**
 3            **`via 172.16.250.2 (2707456/2195456), Serial0`**
 4            **`via 172.16.251.2 (46251776/281600), Serial1`**
+```
 
 This topology table shows two entries for _Ames_’s subnet, `172.16.100.0` (line 2). Only the lower-cost route (line 3) is installed in the routing table, but the second entry in the topology table (line 4) allows _NewYork_ to quickly converge on the less preferred path if the primary path fails.
 
 Note that network `192.168.1.0`, defined on _NewYork_ interface _Ethernet1_, did not appear in the routing tables of _Chicago_ and _Ames_. To be propagated, `192.168.1.0` would have to be defined in a network statement under the EIGRP configuration on _NewYork_:
 
+```
 hostname NewYork
 ...
 router eigrp 10
 network 172.16.0.0
 network 192.168.1.0
+```
 
 Each EIGRP process is identified by an autonomous system (AS) number, just like IGRP processes. Routers with the _same_ AS numbers will exchange routing information with each other, resulting in a _routing domain_ . Routers with dissimilar AS numbers will not exchange any routing information by default. However, routes from one routing domain can be leaked into another domain through the redistribution commands -- this is covered in [Chapter 8](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch08.html "Chapter 8. Administrative Controls").
 
 Compare the routing table in this section with the corresponding table for IGRP in [Chapter 3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03.html "Chapter 3. Interior Gateway Routing Protocol (IGRP)"). The essential contents are identical: the same routes with the same next hops. However, the route metrics look much bigger and the route update times are very high. IGRP routes would have timed out a while ago.
 
 EIGRP metrics are essentially derived from IGRP metrics. The following section provides a quick summary.
+
+# EIGRP Metric
+
+The EIGRP composite metric is computed exactly as the IGRP metric is and then multiplied by 256. Thus, the default expression for the EIGRP composite metric is:
+
+_Metric =_ [_BandW +Delay_]x 256
+
+where _BandW_ and _Delay_ are computed exactly as for IGRP (see [Section 3.2.2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03s02.html#iprouting-CHP-3-SECT-2.2 "IGRP Metric") in [Chapter 3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03.html "Chapter 3. Interior Gateway Routing Protocol (IGRP)")). In summary, _BandW_ is computed by taking the smallest bandwidth (expressed in kbits/s) from all outgoing interfaces to the destination (including the destination) and dividing 10,000,000 by this number (the smallest bandwidth), and _Delay_ is the sum of all the delay values to the destination network (expressed in tens of microseconds).
+
+Further, note that the total delay (line 6), minimum bandwidth (line 6), reliability (line 7), minimum MTU (line 7), and load (line 8) for a path, which are used to compute the composite metric (line 5), are shown as output of the **show ip route destination-network-number** command:
+
+```
+   NewYork#sh ip route 172.16.50.0
+   Routing entry for 172.16.50.0 255.255.255.0
+     Known via "eigrp 10", distance 90, metric 2195456, type internal
+     Redistributing via eigrp 10
+     Last update from 172.16.250.2 on Serial0, 00:00:21 ago
+     Routing Descriptor Blocks:
+     * 172.16.50.0, from 172.16.250.2, 00:00:21 ago, via Serial0
+5        **`Route metric is 2195456, traffic share count is 1`**
+6        **`Total delay is 21000 microseconds, minimum bandwidth is 1544 Kbit`** 
+7        **`Reliability 255/255, minimum MTU 1500 bytes`**
+8        **`Loading 1/255, Hops 1`**
+```
+
+Converting route metrics between EIGRP and IGRP is very straightforward: EIGRP metrics are 256 times larger than IGRP metrics. This easy conversion becomes important when a network is running both IGRP and EIGRP, such as during a migration from IGRP to EIGRP.
+
+Just like IGRP, EIGRP can be made to use load and reliability in its metric by modifying the parameters k1, k2, k3, k4, and k5 (see [Section 3.2.2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03s02.html#iprouting-CHP-3-SECT-2.2 "IGRP Metric") in [Chapter 3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03.html "Chapter 3. Interior Gateway Routing Protocol (IGRP)")).
+
+The constants k1, k2, k3, k4, and k5 can be modified with the following command:
+
+```
+metric weights tos k1 k2 k3 k4 k5
+```
+### Warning
+
+Cisco strongly recommends _not_ modifying the k1, k2, k3, k4, and k5 values for EIGRP.
+
+# How EIGRP Works
+
+Unlike traditional DV protocols such as RIP and IGRP, EIGRP does not rely on _periodic_ updates: routing updates are sent only when there is a change. Remember that RIP and IGRP reset the invalid and flush timers upon receiving a route update. When a route is lost, the updates stop; the invalid and flush timers grow and grow (the timers are not reset), and, ultimately, the route is flushed from the routing table. This process of convergence assumes periodic updates. EIGRP’s approach has the advantage that network resources are not consumed by periodic updates. However, if a router dies, taking away all its downstream routes, how would EIGRP detect the loss of these routes? EIGRP relies on small _hello packets_ to establish neighbor relationships and to detect the loss of a neighbor. Neighbor relationships are discussed in detail in the next section.
+
+RIP and IGRP suffer from a major flaw: _routing loops_ . Routing loops happen when information about the loss of a route does not reach all routers in the network because an update packet gets dropped or corrupted. These routers (that have not received the information about the loss of the route) inject bad routing information back into the network by telling their neighbors about the route they know. EIGRP uses _reliable_ transmission for all updates between neighbors. Neighbors acknowledge the receipt of updates, and if an acknowledgment is not received, EIGRP retransmits the update.
+
+RIP and IGRP employ a battery of techniques to reduce the likelihood of routing loops: split horizon, hold-down timers, and poison reverse. These techniques do not guarantee that loops will not occur and, in any case, result in long convergence times. EIGRP uses the Diffusing Update Algorithm (DUAL) for all route computations. DUAL’s convergence times are an order of magnitude lower than those of traditional DV algorithms. DUAL is able to achieve such low convergence times by maintaining a table of loop-free paths to every destination, in addition to the least-cost path. DUAL is described in more detail later in this chapter.
+
+DUAL can support IP, IPX, and AppleTalk. A protocol-dependent module encapsulates DUAL messages and handles interactions with the routing table. In summary, DUAL requires:
+
+1. A method for the discovery of new neighbors and their loss (see the next section, [Section 4.3.1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.1 "Neighbor Relationship")).
+    
+2. Reliable transmission of update packets between neighbors (see the later section [Section 4.3.2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.2 "Reliable Transport Protocol")).
+    
+3. Protocol-dependent modules that can encapsulate DUAL traffic in IP, IPX, or AppleTalk. This text will deal only with EIGRP in IP networks (see the later section [Section 4.3.4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.4 "Protocol-Dependent Module")).
+    
+
+I’ll end this section with a discussion of EIGRP packet formats.
+
+## Neighbor Relationship
+
+A router discovers a neighbor when it receives its first hello packet on a directly connected network. The router requests DUAL to send a full route update to the new neighbor. In response, the neighbor sends its full route update. Thus, a new neighbor relationship is established in the following steps:
+
+1. When a router _A_ receives a hello packet from a new neighbor _B_, _A_ sends its topology table to router _B_ in unicast updates with the _initialization bit_ turned on.
+    
+2. When router _B_ receives a packet with the initialization bit on, it sends its topology table to router _A_.
+    
+
+The interval between hello packets from any EIGRP-speaking router on a network is five seconds (by default) on most media types. Each hello packet advertises _hold-time_ _--_ the length of time the neighbor should consider the sender up. The default hold-time is 15 seconds. If no hellos are received for the duration of the hold-time, DUAL is informed that the neighbor is down. Thus, in addition to detecting a new neighbor, hello packets are also used to detect the loss of a neighbor.
+
+The hello-interval can be changed with the following command in interface configuration mode:
+
+```
+ip hello-interval eigrp _`autonomous-system-number seconds`_
+```
+
+Lengthening the hello-interval will also lengthen the route convergence time. However, a longer hello-interval may be desirable on a congested network with many EIGRP routers.
+
+If the hello-interval is changed, the hold-time should also be modified. A rule of thumb is to keep the hold-time at three times the hello-interval.
+
+```
+ip hold-time eigrp _`autonomous-system-number seconds`_
+```
+
+Note that the hello-interval and hold-time need _not_ be the same for all routers on a network. Each router advertises its own hold-time, which is recorded in the neighbor’s neighbor table.
+
+The default hello-interval is 60 seconds (with a hold-time of 180 seconds) on multipoint interfaces (such as ATM, Frame Relay, and X.25) with link speeds of T-1 or less. Hello packets are multicast; no acknowledgments are expected.
+
+The following output shows _NewYork_’s neighbors. The first column -- labeled H -- is the order in which the neighbors were learned. The hold-time for `172.16.251.2` (_Ames_) is 10 seconds, from which we can deduce that the last hello was received 5 seconds ago. The hold-time for `172.16.250.2` (_Chicago_) is 13 seconds, from which we can deduce that the last hello was received 2 seconds ago. The hold-time for a neighbor should not exceed 15 seconds or fall below 10 seconds (if the hold-time fell below 10 s, that would indicate the loss of one or more hello packets).
+
+```
+NewYork#sh ip eigrp neighbor
+IP-EIGRP neighbors for process 10
+H   Address                 Interface   Hold Uptime   SRTT   RTO  Q  Seq
+                                        (sec)         (ms)       Cnt Num
+1   172.16.251.2            Se0/1         10 00:17:08   28  2604  0  7
+0   172.16.250.2            Se0/0         13 00:24:43   12  2604  0  14.
+```
+
+After a neighbor relationship has been established between A and B the only EIGRP overhead is the exchange of hello packets, unless there is a topological change in the network.
+
+## Reliable Transport Protocol
+
+The EIGRP transport mechanism uses a mix of multicast and unicast packets, using reliable delivery when necessary. All transmissions use IP with the protocol type field set to 88. The IP multicast address used is `224.0.0.10`.
+
+DUAL requires guaranteed and sequenced delivery for some transmissions. This is achieved using acknowledgments and sequence numbers. So, for example, _update packets_ (containing routing table data) are delivered reliably (with sequence numbers) to all neighbors using multicast. _Acknowledgment packets_ _--_ with the correct sequence number -- are expected from every neighbor. If the correct acknowledgment number is not received from a neighbor, the update is retransmitted as a unicast.
+
+The sequence number (seq num) in the last packet from the neighbor is recorded to ensure that packets are received in sequence. The number of packets in the queue that might need retransmission is shown as a queue count (QCnt), and the smoothed round trip time (SRTT) is used to estimate how long to wait before retransmitting to the neighbor. The retransmission timeout (RTO) is the time the router will wait for an acknowledgment before retransmitting the packet in the queue.
+
+Some transmissions do not require reliable delivery. For example, hello packets are multicast to all neighbors on an Ethernet segment, whereas acknowledgments are unicast. Neither hellos nor acknowledgments are sent reliably.
+
+EIGRP also uses _queries_ and _replies_ as part of DUAL. Queries are multicast or unicast using reliable delivery, whereas replies are always reliably unicast. Query and reply packets are discussed in more detail in the next section.
+
+## Diffusing Update Algorithm (DUAL)
+
+All route computations in EIGRP are handled by DUAL. One of DUAL’s tasks is maintaining a table of loop-free paths to every destination. This table is referred to as the _topology table_ . Unlike traditional DV protocols that save only the best (least-cost) path for every destination, DUAL saves all paths in the topology table. The least-cost path(s) is copied from the topology table to the routing table. In the event of a failure, the topology table allows for very quick convergence if another loop-free path is available. If a loop-free path is not found in the topology table, a route recomputation must occur, during which DUAL queries its neighbors, who, in turn, may query their neighbors, and so on... hence the name “Diffusing” Update Algorithm.
+
+These processes are described in detail in the following sections.
+
+### Reported distance
+
+Just like RIP and IGRP, EIGRP calculates the lowest cost to reach a destination based on updates[[4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#ftn.ch04-FTNOTE-1)] from neighbors. An update from a router _R_ contains the cost to reach the destination network _N_ from _R_. This cost is referred to as the _reported distance_ (RD). _NewYork_ receives an update from _Ames_ with a cost of 281,600, which is _Ames_’s cost to reach `172.16.100.0`. In other words, the RD for _Ames_ to reach `172.160.100.0` as reported to _NewYork_ is 281,600. Just like _Ames_, _Chicago_ will report its cost to reach `172.16.100.0`. _Chicago_’s RD is 2,195,456 (see [Figure 4-2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-2 "Figure 4-2. Ames is a feasible successor for 172.16.100.0")).
+
+![[Pasted image 20241110174908.png]]
+Figure 4-2. Ames is a feasible successor for 172.16.100.0
+
+### Feasible distance and successor
+
+_NewYork_ will compute its cost to reach `172.16.100.0` via _Ames_ and _Chicago_. _NewYork_ will then compare the metrics for the two paths. _NewYork_’s cost via _Ames_ is 46,251,776. _NewYork_’s cost via _Chicago_ is 2,707,456. The lowest cost to reach a destination is referred to as the _feasible distance_ (FD) for that destination. _NewYork_’s FD to `172.16.100.0` is 2,707,456 (_BandW_ = 1,544 and _Delay_ = 4,100). The next-hop router in the lowest-cost path to the destination is referred to as the _successor_ . _NewYork_’s successor for `172.16.100.0` is `172.16.50.1` (_Chicago_).
+
+### Feasibility condition and feasible successor
+
+If a reported distance for a destination is less than the feasible distance for the same destination, the router that advertised the RD is said to satisfy the _feasibility condition_ (FC) and is referred to as a _feasible successor_ (FS). _NewYork_ sees an RD of 281,600 via _Ames_, which is lower than _NewYork_’s FD of 2,707,456. _Ames_ satisfies the FC. _Ames_ is an FS for _NewYork_ to reach `172.16.100.0`.
+
+### Loop freedom
+
+The feasibility condition is a test for _loop freedom_ : if the FC is met, the router advertising the RD must have a path to the destination not through the router checking the FC -- if it did, the RD would have been higher than the FD.
+
+Let’s illustrate this concept with another example. Consider the network in [Figure 4-3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-3 "Figure 4-3. Loop freedom"). The metric values used in this example have been simplified to small numbers to make it easier to follow the concept.
+
+![[Pasted image 20241110174948.png]]
+Figure 4-3. Loop freedom
+
+Router _A_’s best route to network _N_ is via router _B_, and the cost of this path is 100 (_A_’s FD to _N_ is 100). Router _X_ also knows how to get to network _N_; _X_ advertises _N_ to _A_ in an update packet (_A_ copies this information into its topology table). In the event that _A_’s link to _B_ fails, _A_ can use the route to _N_ via _X_ if _X_ does not use _A_ to get to _N_ (in other words, if the path is loop-free). Thus, the key question for _A_ to answer is whether or not the path that _X_ advertises is loop-free.
+
+Here is how _A_ answers this question. Let’s say that _X_ advertises _N_ with a metric of 90 (_X_’s RD for _N_). _A_ compares 90 (RD) with 100 (FD). Is RD < FD? This comparison is the FC check. Since _A_’s FD is 100, _X_’s path to _N_ must not be via _A_ (and is loop-free). If _X_ advertises _N_ with a metric of 110, _X_’s path to _N_ could be via _A_ (the RD is not less than the FD, so the FC check fails) -- 110 could be _A_’s cost added to the metric of the link between _A_ and _X_ (and, hence, is not guaranteed to be free of a loop).
+
+### Topology table
+
+All destinations advertised by neighbors are copied into the topology table. Each destination is listed along with the neighbors that advertised the destination, the RD, and the metric to reach the destination via that neighbor. Let’s look at _NewYork_’s topology table and zoom in on destination `172.16.100.0`. There are two neighbors that sent updates with this destination: _Chicago_ (`172.16.250.2`) and _Ames_ (`172.16.251.2`), as shown on lines 9 and 10, respectively:
+
+```
+    NewYork#sh ip eigrp topology
+    IP-EIGRP Topology Table for process 10
+
+    Codes: P - Passive, A - Active, U - Update, Q - Query, R - Reply,
+           r - Reply status
+
+    ...
+    P 172.16.100.0/24, 1 successors, FD is 2,707,456
+9            **`via 172.16.250.2 (2,707,456/2,195,456), Serial0`**
+10            **`via 172.16.251.2 (46,251,776/281,600), Serial1`**
+```
+
+_Chicago_ sent an update with an RD of 2,195,456, and _Ames_ sent an update with an RD _of_ 281,600. _NewYork_ computes its own metric to 172.16.100.0: 2,707,456 and 46,251,776 via _Chicago_ and _Ames_, respectively. _NewYork_ uses the lower-cost path via _Chicago_. _NewYork_’s FD to 172.16.100.0 is thus 2,707,456, and _Chicago_ is the successor. Next _NewYork_ checks to see if _Ames_ qualifies as a feasible successor. _Ames_’s RD is 281,600. This is checked against the FD. Since the RD < FD (281,600 < 2,707,456), _Ames_ is a feasible successor (see [Figure 4-2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-2 "Figure 4-2. Ames is a feasible successor for 172.16.100.0")).
+
+Note that not all loop-free paths satisfy the FC. Thus, _NewYork_’s topology table does not contain the alternate path to 172.16.50.0 (via _Ames_). The FC guarantees that the paths that satisfy the condition are loop-free; however, not all loop-free paths satisfy the FC.
+
+Let’s take a closer look at 172.16.50.0 (_Chicago_) in _NewYork_’s topology table:
+
+```
+NewYork#sh ip eigrp topology
+IP-EIGRP Topology Table for process 10
+
+Codes: P - Passive, A - Active, U - Update, Q - Query, R - Reply,
+       r - Reply status
+
+...
+P 172.16.50.0/24, 1 successors, FD is 2195456
+         via 172.16.250.2 (2195456/281600), Serial0
+```
+
+Notice that _Ames_ (`172.16.251.2`) did not become a feasible successor, even though _Ames_ offers a valid loop-free path. The condition that _Ames_ would have to satisfy to become a feasible successor is for its RD to be less than _NewYork_’s FD to `172.16.50.0`. _Ames_’s RD can be seen from _Ames’s_ routing table:
+
+```
+    Ames#sh ip route
+    ...
+         172.16.0.0/24 is subnetted, 6 subnets
+    C       172.16.252.0 is directly connected, Serial0
+    D       172.16.250.0 [90/2681856] via 172.16.252.1, 00:21:10, Serial0
+    C       172.16.251.0 is directly connected, Serial1
+11  D       172.16.50.0 [90/2195456] via 172.16.252.1, 00:21:10, Serial0
+    D       172.16.1.0 [90/2707456] via 172.16.252.1, 00:15:36, Serial0
+    C       172.16.100.0 is directly connected, Ethernet0
+```
+
+_Ames_’s metric to `172.16.50.0` is 2,195,456 (line 11). This will be the metric that _Ames_ reports to _NewYork_. The RD is thus 2,195,456. _NewYork_’s FD to `172.16.50.0` is 2,195,456. The RD and the FD are equal, which is not surprising given the topology: both _NewYork_ and _Ames_ have identical paths to `172.16.50.0` -- a T-1 link, a router, and the destination Ethernet segment. Since the condition for feasible successor is that RD < FD, _Ames_ is not an FS for `172.16.50.0` (see [Figure 4-4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-4 "Figure 4-4. Ames is not a feasible successor for 172.16.50.0")).
+
+![[Pasted image 20241110175112.png]]
+Figure 4-4. Ames is not a feasible successor for 172.16.50.0
+
+The output of **show ip eigrp topology** shows only feasible successors. The output of **show ip eigrp topology all-links** shows all neighbors, whether feasible successors or not.
+
+Note the “P” for “passive state” in the left margin of each route entry in _NewYork_’s topology table. _Passive state_ indicates that the route is in quiescent mode, implying that the route is known to be good and that no activities are taking place with respect to the route.
+
+Any of the following events can cause DUAL to reevaluate its feasible successors:
+
+- The transition in the state of a directly connected link
+    
+- A change in the metric of a directly connected link
+    
+- An update from a neighbor
+    
+
+If DUAL finds a feasible successor in its own topology table after one of these events, the route remains in passive state. If DUAL cannot find a feasible successor in its topology table, it will send a query to all its neighbors and the route will transition to _active state_ .
+
+The next section contains two examples of DUAL reevaluating its topology table. In the first example, the route remains passive; in the second example, the route becomes active before returning to the passive state.
+
+### Convergence in DUAL -- local computation
+
+Let’s say that the _NewYork_ → _Chicago_ link fails ([Figure 4-5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-5 "Figure 4-5. Link failure")).
+
+![[Pasted image 20241110175153.png]]
+Figure 4-5. Link failure
+
+_NewYork_’s routing table shows that `172.16.100.0` and `172.16.50.0` are learned via this link (_Serial0_):
+
+```
+NewYork#sh ip route
+...
+     172.16.0.0/24 is subnetted, 6 subnets
+...
+D       172.16.50.0 [90/2195456] via 172.16.250.2, 00:18:54, Serial0
+D       172.16.100.0 [90/2707456] via 172.16.250.2, 00:18:54, Serial0
+...
+```
+
+These routes become invalid. DUAL attempts to find new successors for both destinations -- `172.16.50.0` and `172.16.100.0`.
+
+Let’s start with `172.16.100.0`. DUAL checks the topology table for `172.16.100.0`:
+
+```
+    NewYork#sh ip eigrp topology
+    ...
+    P 172.16.100.0/24, 1 successors, FD is 2707456
+12            **`via 172.16.250.2 (2707456/2195456), Serial0`** 
+13            **`via 172.16.251.2 (46251776/281600), Serial1`** 
+```
+
+Since _Serial0_ is down, the only feasible successor is `172.16.251.2` (_Ames_). Let’s review how _Ames_ qualifies as an FS. The FS check is:
+
+- RD < FD.
+    
+- RD=281,600 (line 13).
+    
+- FD=2,707,456 (line 12).
+    
+- Since 281,600 < 2,707,456, _Ames_ qualifies as an FS.
+    
+
+In plain words, this implies that the path available to _NewYork_ via _Ames_ (the FS) is independent of the primary path that just failed. DUAL installs _Ames_ as the new successor for `172.16.100.0`.
+
+In our case study, only one FS was available. In general, multiple FSs may be available, all of which satisfy the condition that their RD < FD, where FD is the cost of the route to the destination via the successor that was just lost.
+
+DUAL will compute its metric to reach the destination via each FS. Since DUAL is searching for the successor(s) for this destination, it will choose the minimum from this set of metrics via each FS. Let the lowest metric be _Dmin_. If only one FS yields this metric of _Dmin_, that FS becomes the new successor. If multiple FSs yield metrics equal to _Dmin_, they all become successors (subject to the limitation in the maximum number of parallel paths allowed -- four or six, depending on the IOS version number). Since the new successor(s) is found locally (without querying any other router), the route stays in passive state. After DUAL has installed the new successor, it sends an update to all its neighbors regarding this change.
+
+How long does this computation take? We simulated the failure of the _NewYork_ → _Chicago_ link in our laboratory. To measure how long EIGRP would take to converge after the failure of the link, we started a long ping test just before failing the _NewYork_ → _Chicago_ link:
+
+```
+NewYork#ping 
+Protocol [ip]: 
+Target IP address: 172.16.100.1
+Repeat count [5]: 1000
+...
+Sending 1000, 100-byte ICMP Echos to 172.16.100.1, timeout is 2 seconds:
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Success rate is 99 percent (999/1000), round-trip min/avg/max = 1/3/92 ms
+```
+
+Note that only one ping packet was lost during this computation, implying that the convergence time (including the time to detect the failure of the link) was in the range of two to four seconds.
+
+### Convergence in DUAL -- diffusing computation
+
+Let’s next follow the steps that DUAL would take for `172.16.50.0`. Notice that this is a different case in that when _Serial0_ is down, _NewYork_ has no feasible successors in its topology table (see line 14).
+
+```
+   NewYork#sh ip eigrp topology
+   ...
+   P 172.16.50.0/24, 1 successors, FD is 2195456
+14           **`via 172.16.250.2 (2195456/281600), Serial0`**    
+   ...
+```
+
+DUAL knows of no feasible successors, but _NewYork_ has a neighbor that may know of a feasible successor. DUAL places the route in active state (see line 15) and sends a query to all its neighbors:
+
+```
+    NewYork#sh ip eigrp topology
+    IP-EIGRP Topology Table for process 10
+
+    Codes: P - Passive, A - Active, U - Update, Q - Query, R - Reply,
+           r - Reply status
+
+    ...
+15   **`A 172.16.50.0/24, 0 successors, FD is 2195456, Q`**
+        1 replies, active 00:00:06, query-origin: Local origin
+        Remaining replies:
+16            **`via 172.16.251.2, r, Serial1`**
+```
+
+which in this case is only `172.16.251.2` (_Ames_, as in line 16). _NewYork_ sets the reply flag on (line 16), which indicates that _NewYork_ expects a reply to the query. _Ames_ receives the query and marks its topology table entry for `172.16.50.0` via _NewYork_ as down. Next, _Ames_ checks its topology table for a feasible successor:
+
+```
+    Ames#sh ip eigrp topology
+    IP-EIGRP Topology Table for process 10
+
+    Codes: P - Passive, A - Active, U - Update, Q - Query, R - Reply,
+           r - Reply status
+
+    ...
+17   **`P 172.16.50.0/24, 1 successors, FD is 2195456`**   
+             via 172.16.252.1 (2195456/281600), Serial0
+    ...
+```
+
+and finds that it has a successor (`172.16.252.1`). _Ames_ sends a reply packet to _NewYork_ with an RD of 2,195,456 (line 17). _NewYork_ marks the route as passive and installs a route for `172.16.50.0` via `172.16.251.2` (_Ames_).
+
+In general, if DUAL does not find a feasible successor, it forwards the query to its neighbors. The query thus propagates (“diffuses”) until a reply is received. Routers that did not find a feasible successor would return an unreachable message. So, if _Ames_ did not have a feasible successor in its topology table, it would mark the route as active and propagate the query to its neighbor, if it had another neighbor. If _Ames_ had no other neighbor (and no feasible successor) it would return an unreachable message to _NewYork_ and mark the route as unreachable in its own table.
+
+When DUAL marks a route as active and sets the _r_ flag on, it sets a timer for how long it will wait for a reply. The default value of the timer is three minutes. DUAL waits for a reply from all the neighbors it queries. If a neighbor does not respond to a query, the route is marked as _stuck-in-active_ and DUAL deletes all routes in its topology table that point to the unresponsive neighbor as a feasible successor.
+
+## Protocol-Dependent Module
+
+The successors in the DUAL topology table are eligible for installation in the routing table. Successors represent the best path to the destination known to DUAL. However, whether the successor is copied into the routing table is another matter. The router may be aware of a route to the same destination from another source (such as another routing protocol or via a static route) with a lower _distance_. The IP protocol-dependent module (PDM) handles this task. The PDM may also carry information in the reverse direction -- from the routing table to the topology table. This will occur if routes are being redistributed into EIGRP from another protocol.
+
+The PDM is also responsible for encapsulating EIGRP messages in IP packets.
+
+## EIGRP Packet Format
+
+EIGRP packets are encapsulated directly in IP with the protocol field set to 88. The destination IP address in EIGRP depends on the packet type -- some packets are sent as multicast (with an address of `224.0.0.10`) and others are sent as unicast (see the earlier section [Section 4.3.2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.2 "Reliable Transport Protocol") for more details). The source IP address is the IP address of the interface from which the packet is issued.
+
+Following the IP header is an EIGRP header. Key fields in the EIGRP header are as follows, and are also shown in [Figure 4-6](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-6 "Figure 4-6. Format of EIGRP packets"):
+
+- The _opcode_ field specifies the EIGRP packet type (update, query, reply, hello).
+    
+- The _checksum_ applies to the entire EIGRP packet, excluding the IP header.
+    
+- The rightmost bit in the _flags_ field is the initialization bit and is used in establishing a new neighbor relationship (see [Section 4.3.1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.1 "Neighbor Relationship") earlier in this chapter).
+    
+- The _sequence_ and _ack_ fields are used to send messages reliably (see [Section 4.3.2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.2 "Reliable Transport Protocol") earlier in this chapter).
+    
+- The _AS number_ identifies the EIGRP process issuing the packet. The EIGRP process receiving the packet will process the packet only if the receiving EIGRP process has the same AS number; otherwise, the packet will be discarded.
+    
+
+![[Pasted image 20241110175413.png]]
+Figure 4-6. Format of EIGRP packets
+
+The fields following the EIGRP header depend on the opcode field. Of particular interest to routing engineers is the information in updates. We will ignore the other types of EIGRP messages and focus on IP internal route updates and IP external route updates.
+
+_Internal_ routes contain destination network numbers learned within this EIGRP AS. For example, _NewYork_ learns `172.16.50.0` from EIGRP 10 on _Chicago_ as an internal route.
+
+_External_ routes contain destination network numbers that were not learned within this EIGRP AS but rather derived from another routing process and redistributed into this EIGRP AS.
+
+Internal and external routes are represented differently in the EIGRP update.
+
+### Internal routes
+
+Internal routes have a _type_ field of 0x0102. The metric information contained with the route is much like IGRP’s (see [Chapter 3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03.html "Chapter 3. Interior Gateway Routing Protocol (IGRP)")). However, there are two new fields: _next hop_ and _prefix length_. [Figure 4-7](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-7 "Figure 4-7. EIGRP internal route") shows the value field for the IP internal route.
+
+![[Pasted image 20241110175451.png]]
+Figure 4-7. EIGRP internal route
+
+The next hop identifies the router to send packets destined for _destination_, the network number of the destination. In general, the next hop field for internal routes will be the IP address of the router on the interface on which it is issuing the update.
+
+The prefix length field signifies the subnet mask to be associated with the network number specified in the destination field. Thus, if an EIGRP router is configured as follows:
+
+```
+ip address 172.16.1.1 255.255.255.0
+```
+
+it will advertise `172.16.1.0` with a prefix length of 24.
+
+Likewise, if the router is configured as follows:
+
+```
+ip address 172.16.250.1 255.255.255.252
+```
+
+it will advertise `172.16.250.0` with a prefix length of 30.
+
+### External routes
+
+Additional fields are required to represent the source from which external routes are derived, as shown in [Figure 4-8](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-8 "Figure 4-8. EIGRP external route").
+
+![[Pasted image 20241110175542.png]]
+Figure 4-8. EIGRP external route
+
+The next hop field identifies the router to send packets destined for _destination_, the network number of the destination. This field was absent in the IGRP update. Let’s look at what this field signifies.
+
+In IGRP, if router _X_ sends an update to router _A_ with a destination network number of _N_, router _A_’s next hop for packets to _N_ will be _X_. In EIGRP, router _X_ can send an update to router _A_ with a destination network number of _N_ and a next hop field of _Y_. This is useful, say, in a scenario where _X_ and _Y_ are running RIP and _X_ is redistributing routes from RIP to IGRP. When _X_ sends an update to its neighbors on a shared network, _X_ can tell them to send traffic for network _N_ directly to _Y_ and not to _X_. This saves _X_ from having to accept traffic on a shared network and then reroute it to _Y_.
+
+The _originating router, originating AS, external protocol metric_, and _external protocol ID_ fields specify information about the router and the routing process from which this route was derived. The external protocol ID specifies the routing protocol from which this route was derived. Here is a partial list of external protocol IDs: IGRP -- 0x01; EIGRP -- 0x02; RIP -- 0x04; OSPF -- 0x06; BGP -- 0x09. Thus, if a route was learned from RIP with a hop count of 3 and redistributed into EIGRP, the originating router field would contain the address of the RIP router, the originating AS field would be empty, the external protocol metric would be 3, and the external protocol ID would be 0x04.
+
+The _arbitrary tag_ field is used to carry route maps.
+
+Candidate default routes are marked by setting the flags field to 0x02. A flags field of 0x01 indicates an external route (but not a candidate default route).
+
+The other parameters in the external route packet are similar to those in IGRP.
+
+  
+
+---
+
+ Unlike RIP and IGRP, EIGRP updates are _not_ periodic. EIGRP updates are sent only when there is a topological change in the network.
+
+You may ask why this cannot be handled by ICMP redirects. Cisco does not support redirects between routers.
