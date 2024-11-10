@@ -1,6 +1,6 @@
 
 ---
-# Chapter 2. Routing Information Protocol (RIP)
+# Chapter 1. Routing Information Protocol (RIP)
 
 RIP is the first in a family of dynamic routing protocols that we will look at closely. Dynamic routing protocols _automatically_ compute routing tables_,_ freeing the network administrator from the task of specifying routes to every network using static routes. Indeed, given the complexity of and number of routes in most networks, static routing usually is not even an option.
 
@@ -810,7 +810,7 @@ RIP is a relatively simple protocol, easy to configure and very reliable. The ro
     
 - The RIP metric restricts the network diameter to 15 hops.
 
-# Chapter 3. Interior Gateway Routing Protocol (IGRP)
+# Chapter 2. Interior Gateway Routing Protocol (IGRP)
 
 The second Distance Vector protocol that we will examine is the Interior Gateway Routing Protocol, or IGRP. IGRP and RIP are close cousins: both are based on the Bellman-Ford Distance Vector (DV) algorithms. DV algorithms propagate routing information from neighbor to neighbor; if a router receives the same route from multiple neighbors, it chooses the route with the lowest metric. All DV protocols need robust strategies to cope with _bad_ routing information. Bad routes can linger in a network when information about the loss of a route does not reach some router (for instance, because of the loss of a route update packet), which then inserts the bad route back into the network. IGRP uses the same convergence strategies as RIP: triggered updates, route hold-downs, split horizon, and poison reverse.
 
@@ -1953,7 +1953,7 @@ These issues may be too significant to overlook in large IP networks in which ad
 ---
 The definition of small, medium, and large IP networks can be discussed ad nauseam because of the number of variables involved (number of routers and routes, network bandwidth/utilization, network delay/latency, etc.), but rough measures are as follows: small -- a few dozen routers with up to a few hundred routes; medium -- a few hundred routers with a few thousand routes; large -- anything bigger than medium.
 
-# Chapter 4. Enhanced Interior Gateway Routing Protocol (EIGRP)
+# Chapter 3. Enhanced Interior Gateway Routing Protocol (EIGRP)
 
 The Enhanced Interior Gateway Routing Protocol (EIGRP), referred to as an advanced Distance Vector protocol, offers radical improvements over IGRP. Traditional DV protocols such as RIP and IGRP exchange periodic routing updates with all their neighbors, saving the best distance (or metric) and the vector (or next hop) for each destination. EIGRP differs in that it saves not only the best (least-cost) route but all routes, allowing convergence to be much quicker. Further, EIGRP updates are sent only upon a network topology change; updates are not periodic.
 
@@ -1973,7 +1973,7 @@ EIGRP is a Cisco proprietary protocol; other router vendors do not support EIGRP
 
 This chapter focuses on EIGRP’s enhancements over IGRP: the use of DUAL; and the use of subnet masks in updates, which in turn allow VLSM and route summarization at arbitrary bit boundaries. This chapter does not cover router metrics in detail or the concept of parallel paths. Those concepts have not changed much in EIGRP. I assume that the reader is familiar with IGRP.
 
-# Getting EIGRP Running
+## Getting EIGRP Running
 
 TraderMary’s network, shown in [Figure 4-1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04.html#iprouting-CHP-4-FIG-1 "Figure 4-1. TraderMary’s network"), can be configured to run EIGRP as follows.
 
@@ -2127,7 +2127,7 @@ Compare the routing table in this section with the corresponding table for IGRP 
 
 EIGRP metrics are essentially derived from IGRP metrics. The following section provides a quick summary.
 
-# EIGRP Metric
+## EIGRP Metric
 
 The EIGRP composite metric is computed exactly as the IGRP metric is and then multiplied by 256. Thus, the default expression for the EIGRP composite metric is:
 
@@ -2164,7 +2164,7 @@ metric weights tos k1 k2 k3 k4 k5
 
 Cisco strongly recommends _not_ modifying the k1, k2, k3, k4, and k5 values for EIGRP.
 
-# How EIGRP Works
+## How EIGRP Works
 
 Unlike traditional DV protocols such as RIP and IGRP, EIGRP does not rely on _periodic_ updates: routing updates are sent only when there is a change. Remember that RIP and IGRP reset the invalid and flush timers upon receiving a route update. When a route is lost, the updates stop; the invalid and flush timers grow and grow (the timers are not reset), and, ultimately, the route is flushed from the routing table. This process of convergence assumes periodic updates. EIGRP’s approach has the advantage that network resources are not consumed by periodic updates. However, if a router dies, taking away all its downstream routes, how would EIGRP detect the loss of these routes? EIGRP relies on small _hello packets_ to establish neighbor relationships and to detect the loss of a neighbor. Neighbor relationships are discussed in detail in the next section.
 
@@ -2183,7 +2183,7 @@ DUAL can support IP, IPX, and AppleTalk. A protocol-dependent module encapsulate
 
 I’ll end this section with a discussion of EIGRP packet formats.
 
-## Neighbor Relationship
+### Neighbor Relationship
 
 A router discovers a neighbor when it receives its first hello packet on a directly connected network. The router requests DUAL to send a full route update to the new neighbor. In response, the neighbor sends its full route update. Thus, a new neighbor relationship is established in the following steps:
 
@@ -2225,7 +2225,7 @@ H   Address                 Interface   Hold Uptime   SRTT   RTO  Q  Seq
 
 After a neighbor relationship has been established between A and B the only EIGRP overhead is the exchange of hello packets, unless there is a topological change in the network.
 
-## Reliable Transport Protocol
+### Reliable Transport Protocol
 
 The EIGRP transport mechanism uses a mix of multicast and unicast packets, using reliable delivery when necessary. All transmissions use IP with the protocol type field set to 88. The IP multicast address used is `224.0.0.10`.
 
@@ -2237,28 +2237,28 @@ Some transmissions do not require reliable delivery. For example, hello packets 
 
 EIGRP also uses _queries_ and _replies_ as part of DUAL. Queries are multicast or unicast using reliable delivery, whereas replies are always reliably unicast. Query and reply packets are discussed in more detail in the next section.
 
-## Diffusing Update Algorithm (DUAL)
+### Diffusing Update Algorithm (DUAL)
 
 All route computations in EIGRP are handled by DUAL. One of DUAL’s tasks is maintaining a table of loop-free paths to every destination. This table is referred to as the _topology table_ . Unlike traditional DV protocols that save only the best (least-cost) path for every destination, DUAL saves all paths in the topology table. The least-cost path(s) is copied from the topology table to the routing table. In the event of a failure, the topology table allows for very quick convergence if another loop-free path is available. If a loop-free path is not found in the topology table, a route recomputation must occur, during which DUAL queries its neighbors, who, in turn, may query their neighbors, and so on... hence the name “Diffusing” Update Algorithm.
 
 These processes are described in detail in the following sections.
 
-### Reported distance
+#### Reported distance
 
 Just like RIP and IGRP, EIGRP calculates the lowest cost to reach a destination based on updates[[4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#ftn.ch04-FTNOTE-1)] from neighbors. An update from a router _R_ contains the cost to reach the destination network _N_ from _R_. This cost is referred to as the _reported distance_ (RD). _NewYork_ receives an update from _Ames_ with a cost of 281,600, which is _Ames_’s cost to reach `172.16.100.0`. In other words, the RD for _Ames_ to reach `172.160.100.0` as reported to _NewYork_ is 281,600. Just like _Ames_, _Chicago_ will report its cost to reach `172.16.100.0`. _Chicago_’s RD is 2,195,456 (see [Figure 4-2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-2 "Figure 4-2. Ames is a feasible successor for 172.16.100.0")).
 
 ![[Pasted image 20241110174908.png]]
 Figure 4-2. Ames is a feasible successor for 172.16.100.0
 
-### Feasible distance and successor
+#### Feasible distance and successor
 
 _NewYork_ will compute its cost to reach `172.16.100.0` via _Ames_ and _Chicago_. _NewYork_ will then compare the metrics for the two paths. _NewYork_’s cost via _Ames_ is 46,251,776. _NewYork_’s cost via _Chicago_ is 2,707,456. The lowest cost to reach a destination is referred to as the _feasible distance_ (FD) for that destination. _NewYork_’s FD to `172.16.100.0` is 2,707,456 (_BandW_ = 1,544 and _Delay_ = 4,100). The next-hop router in the lowest-cost path to the destination is referred to as the _successor_ . _NewYork_’s successor for `172.16.100.0` is `172.16.50.1` (_Chicago_).
 
-### Feasibility condition and feasible successor
+#### Feasibility condition and feasible successor
 
 If a reported distance for a destination is less than the feasible distance for the same destination, the router that advertised the RD is said to satisfy the _feasibility condition_ (FC) and is referred to as a _feasible successor_ (FS). _NewYork_ sees an RD of 281,600 via _Ames_, which is lower than _NewYork_’s FD of 2,707,456. _Ames_ satisfies the FC. _Ames_ is an FS for _NewYork_ to reach `172.16.100.0`.
 
-### Loop freedom
+#### Loop freedom
 
 The feasibility condition is a test for _loop freedom_ : if the FC is met, the router advertising the RD must have a path to the destination not through the router checking the FC -- if it did, the RD would have been higher than the FD.
 
@@ -2271,7 +2271,7 @@ Router _A_’s best route to network _N_ is via router _B_, and the cost of 
 
 Here is how _A_ answers this question. Let’s say that _X_ advertises _N_ with a metric of 90 (_X_’s RD for _N_). _A_ compares 90 (RD) with 100 (FD). Is RD < FD? This comparison is the FC check. Since _A_’s FD is 100, _X_’s path to _N_ must not be via _A_ (and is loop-free). If _X_ advertises _N_ with a metric of 110, _X_’s path to _N_ could be via _A_ (the RD is not less than the FD, so the FC check fails) -- 110 could be _A_’s cost added to the metric of the link between _A_ and _X_ (and, hence, is not guaranteed to be free of a loop).
 
-### Topology table
+#### Topology table
 
 All destinations advertised by neighbors are copied into the topology table. Each destination is listed along with the neighbors that advertised the destination, the RD, and the metric to reach the destination via that neighbor. Let’s look at _NewYork_’s topology table and zoom in on destination `172.16.100.0`. There are two neighbors that sent updates with this destination: _Chicago_ (`172.16.250.2`) and _Ames_ (`172.16.251.2`), as shown on lines 9 and 10, respectively:
 
@@ -2342,7 +2342,7 @@ If DUAL finds a feasible successor in its own topology table after one of these 
 
 The next section contains two examples of DUAL reevaluating its topology table. In the first example, the route remains passive; in the second example, the route becomes active before returning to the passive state.
 
-### Convergence in DUAL -- local computation
+#### Convergence in DUAL -- local computation
 
 Let’s say that the _NewYork_ → _Chicago_ link fails ([Figure 4-5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-5 "Figure 4-5. Link failure")).
 
@@ -2408,7 +2408,7 @@ Success rate is 99 percent (999/1000), round-trip min/avg/max = 1/3/92 ms
 
 Note that only one ping packet was lost during this computation, implying that the convergence time (including the time to detect the failure of the link) was in the range of two to four seconds.
 
-### Convergence in DUAL -- diffusing computation
+#### Convergence in DUAL -- diffusing computation
 
 Let’s next follow the steps that DUAL would take for `172.16.50.0`. Notice that this is a different case in that when _Serial0_ is down, _NewYork_ has no feasible successors in its topology table (see line 14).
 
@@ -2457,13 +2457,13 @@ In general, if DUAL does not find a feasible successor, it forwards the query to
 
 When DUAL marks a route as active and sets the _r_ flag on, it sets a timer for how long it will wait for a reply. The default value of the timer is three minutes. DUAL waits for a reply from all the neighbors it queries. If a neighbor does not respond to a query, the route is marked as _stuck-in-active_ and DUAL deletes all routes in its topology table that point to the unresponsive neighbor as a feasible successor.
 
-## Protocol-Dependent Module
+### Protocol-Dependent Module
 
 The successors in the DUAL topology table are eligible for installation in the routing table. Successors represent the best path to the destination known to DUAL. However, whether the successor is copied into the routing table is another matter. The router may be aware of a route to the same destination from another source (such as another routing protocol or via a static route) with a lower _distance_. The IP protocol-dependent module (PDM) handles this task. The PDM may also carry information in the reverse direction -- from the routing table to the topology table. This will occur if routes are being redistributed into EIGRP from another protocol.
 
 The PDM is also responsible for encapsulating EIGRP messages in IP packets.
 
-## EIGRP Packet Format
+### EIGRP Packet Format
 
 EIGRP packets are encapsulated directly in IP with the protocol field set to 88. The destination IP address in EIGRP depends on the packet type -- some packets are sent as multicast (with an address of `224.0.0.10`) and others are sent as unicast (see the earlier section [Section 4.3.2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.2 "Reliable Transport Protocol") for more details). The source IP address is the IP address of the interface from which the packet is issued.
 
@@ -2491,7 +2491,7 @@ _External_ routes contain destination network numbers that were not learned wit
 
 Internal and external routes are represented differently in the EIGRP update.
 
-### Internal routes
+#### Internal routes
 
 Internal routes have a _type_ field of 0x0102. The metric information contained with the route is much like IGRP’s (see [Chapter 3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03.html "Chapter 3. Interior Gateway Routing Protocol (IGRP)")). However, there are two new fields: _next hop_ and _prefix length_. [Figure 4-7](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-7 "Figure 4-7. EIGRP internal route") shows the value field for the IP internal route.
 
@@ -2516,7 +2516,7 @@ ip address 172.16.250.1 255.255.255.252
 
 it will advertise `172.16.250.0` with a prefix length of 30.
 
-### External routes
+#### External routes
 
 Additional fields are required to represent the source from which external routes are derived, as shown in [Figure 4-8](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-8 "Figure 4-8. EIGRP external route").
 
@@ -2542,3 +2542,650 @@ The other parameters in the external route packet are similar to those in IGRP.
  Unlike RIP and IGRP, EIGRP updates are _not_ periodic. EIGRP updates are sent only when there is a topological change in the network.
 
 You may ask why this cannot be handled by ICMP redirects. Cisco does not support redirects between routers.
+
+## Variable Length Subnet Masks
+
+Unlike RIP and IGRP, EIGRP updates carry subnet mask information. The network architect now has the responsibility of using addresses wisely. Reviewing TraderMary’s configuration, a mask of `255.255.255.0` on the serial links is wasteful: there are only two devices on the link, so a 24-bit mask will waste 252 addresses. A 30-bit mask (`255.255.255.252`) allows two usable IP addresses in each subnet, which fits a serial line exactly.
+
+Let’s say that the network architect decided to subdivide `172.16.250.0` using a 30-bit mask for use on up to 64 possible subnets. The subnets that thus become available are:
+
+1. `172.16.250.0`
+2. `172.16.250.4`
+3. `172.16.250.8`
+4. ...
+
+1. `172.16.250.252`
+
+The serial links in TraderMary’s network can be readdressed using these subnets:
+
+```
+hostname NewYork
+...
+interface Ethernet0
+ip address 172.16.1.1 255.255.255.0
+!
+interface Ethernet1
+ip address 192.168.1.1 255.255.255.0
+!
+interface Serial0
+description New York to Chicago link
+**`ip address 172.16.250.1 255.255.255.252`**
+!
+interface Serial1
+description New York to Ames link
+bandwidth 56
+**`ip address 172.16.250.5 255.255.255.252`**
+...
+router eigrp 10
+network 172.16.0.0
+
+
+hostname Chicago
+...
+interface Ethernet0
+ip address 172.16.50.1 255.255.255.0
+!
+interface Serial0
+description Chicago to New York link
+**`ip address 172.16.250.2 255.255.255.252`**
+!
+interface Serial1
+description Chicago to Ames link
+**`ip address 172.16.250.9 255.255.255.0`**
+...
+
+router eigrp 10
+network 172.16.0.0
+
+
+hostname Ames
+...
+interface Ethernet0
+ip address 172.16.100.1 255.255.255.0
+!
+interface Serial0
+description Ames to Chicago link
+ip address 172.16.250.10 255.255.255.0
+!
+interface Serial1
+description Ames to New York link
+bandwidth 56
+ip address 172.16.250.6 255.255.255.0
+...
+
+router eigrp 10
+network 172.16.0.0
+```
+
+_NewYork_’s routing table now looks like this:
+
+```
+NewYork#sh ip route
+...
+     172.16.0.0/16 is variably subnetted, 6 subnets, 2 masks
+D       172.16.250.8/30 [90/2681856] via 172.16.250.2, 00:18:54, Serial0
+C       172.16.250.0/30 is directly connected, Serial0
+C       172.16.250.4/30 is directly connected, Serial1
+D       172.16.50.0/24 [90/2195456] via 172.16.250.2, 00:18:54, Serial00
+C       172.16.1.0/24 is directly connected, Ethernet0
+D       172.16.100.0/24 [90/2707456] via 172.16.250.2, 00:18:54, Serial0
+C    192.168.1.0/24 is directly connected, Ethernet1
+```
+
+Note that each route is now accompanied by its mask. When `172.16.0.0` had uniform masking, the routing table did not show the mask.
+
+Further, let’s say that Casablanca is a small office with only a dozen people on the staff. We may safely assign Casablanca a mask of `255.255.255.192` (a limit of 62 usable addresses). Forward-thinking is important when assigning addresses. When running IGRP, the network architect may have had the foresight to assign addresses from the beginning of the range. Excess addresses should not be squandered, such as by randomly choosing addresses for hosts. A general rule is to start assigning addresses from the beginning or the bottom of an address range. When a site is shrinking, again keep all addresses at one end.
+
+Using subnet masks that reflect the size of the host population conserves addresses. Put on your plate only as much as you will eat.
+
+## Route Summarization
+
+The default behavior of EIGRP is to summarize on network-number boundaries. This is similar to RIP and IGRP and is a prudent way for a routing protocol to reduce the number of routes that are propagated between routers. However, there are some enhancements in the way EIGRP summarizes routes that merit a closer look.
+
+### Automatic Summarization
+
+Say TraderMary’s network expands again, this time with a node in Shannon. Shannon gets connected to the London office via a 56-kbps link, as shown in [Figure 4-9](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s05.html#iprouting-CHP-4-FIG-9 "Figure 4-9. Route summarization").
+
+![[Pasted image 20241110180531.png]]
+Figure 4-9. Route summarization
+
+Shannon has three Ethernet segments with an IP subnet on each: `172.20.100.0/24`, `172.20.101.0/24`, and `172.20.102.0/24`. The routers in London and Shannon are configured to run EIGRP 10 in keeping with the routing protocol in use in the U.S. _Shannon_ will advertise `172.20.0.0/16` to _London_ because the serial link from _London_ to _Shannon_ represents a network-number boundary (`172.20.0.0/172.16.0.0`). _Shannon_ itself will see all `172.16.0.0` subnets (without summarization) because it has a directly connected `172.16.0.0` network.
+
+In EIGRP, the router doing the summarization will build a route to _null0_ (line 18) for the summarized address. Let’s check _Shannon_’s routing table:
+
+```
+    Shannon#sh ip route 172.20.0.0
+    ...
+         172.20.0.0/16 is subnetted, 6 subnets
+    C       172.20.100.0/24 is directly connected, Ethernet0
+    C       172.20.101.0/24 is directly connected, Ethernet1
+18  **`D       172.20.0.0/16 is a summary, 00:12:11, Null0`**
+    C       172.20.102.0/24 is directly connected, Ethernet2
+```
+
+The route to _null0_ ensures that if _Shannon_ receives a packet for which it has no route (e.g., `172.20.1.1`), it will route the packet using the null interface, thereby dropping the packet, rather than using some other route for the packet (such as a default route).
+
+Now, let’s muddy the picture up a bit. TraderMary acquires a small company in Ottawa which also happens to use a `172.20.0.0` subnet -- `172.20.1.0`! The new picture looks something like [Figure 4-10](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s05.html#iprouting-CHP-4-FIG-10 "Figure 4-10. TraderMary’s networks in Shannon and Ottawa").
+
+![[Pasted image 20241110180607.png]]
+Figure 4-10. TraderMary’s networks in Shannon and Ottawa
+
+Ottawa is also configured to run EIGRP 10 with a link from _NewYork_. Since the IP address on the link is `172.16.0.0`, _Ottawa_ will send a summary update of `172.20.0.0` to _NewYork_.
+
+We have a problem now. There are two sources advertising `172.20.0.0`, and depending on where we are in the network, we will be able to route only to _Ottawa_ or _Shannon_. Thus, _NewYork_ will install `172.20.0.0` only via _Ottawa_, and _London_ will install `172.20.0.0` only via _Shannon_.
+
+Unlike RIP and IGRP, EIGRP provides the option of disabling route summarization. Thus, _Shannon_ and _Ottawa_ can be configured as follows:
+
+```
+hostname Shannon
+...
+router eigrp 10
+network 172.16.0.0
+network 172.20.0.0
+no auto-summary 
+
+
+hostname Ottawa
+...
+router eigrp 10
+network 172.16.0.0
+network 172.20.0.0
+no auto-summary
+```
+
+When _no auto-summary_ is turned on, _Shannon_ and _Ottawa_ will advertise their subnets to the rest of the network. The subnets happen to be unique, so any router will be able to route to any destination in the network.
+
+Note that _no auto-summary_ was required only on the _Shannon_ and _Ottawa_ routers. _NewYork_ and _London_ and other routers will pass these subnets through (without summarizing them). Summarization happens only at a border between major network numbers, not at other routers.
+
+The moral of this story is that EIGRP networks do not have to be contiguous with respect to major network numbers. However, I do not recommend deliberately building discontiguous networks. Summarizing on network-number boundaries is an easy way to reduce the size of routing tables and the complexity of the network. Disabling route summarization should be undertaken only when necessary.
+
+### Manual Summarization
+
+EIGRP allows for the summarization of (external or internal) routes on any bit boundary. Manual summarization can be used to reduce the size of routing tables.
+
+In our example, the network architect may decide to allocate blocks of addresses to _NewYork_, _Ames_, _Chicago_, etc. _NewYork_ is allocated the block `172.16.1.0` through `172.16.15.0`. This may also be represented as `172.16.0.0/20`, signifying that the first four bits of the third octet in this range are all zeros, as is true for `172.16.1.0` through `172.16.15.0`.
+
+```
+    hostname NewYork
+    ...
+19  **`interface Ethernet0`**
+    **`ip address 172.16.1.1 255.255.255.0`**
+    !
+    interface Ethernet1
+    ip address 192.168.1.1 255.255.255.0
+    !
+20  **`interface Ethernet2`**
+    **`ip address 172.16.2.1 255.255.255.0`**
+    !
+    interface Serial0
+    description New York to Chicago link
+    ip address 172.16.250.1 255.255.255.0
+    ip summary-address eigrp 10 172.16.0.0 255.255.240.0
+    !
+    interface Serial1
+    description New York to Ames link
+    bandwidth 56
+    ip address 172.16.251.1 255.255.255.0
+21  **`ip summary-address eigrp 10 172.16.0.0 255.255.240.0`**
+    ...
+    router eigrp 10
+    network 172.16.0.0
+```
+
+_NewYork_ now has two Ethernet segments (lines 19 and 20) from this block and has also been configured to send a summary route for this block (line 21) to its neighbors. The configuration of these routers is as shown in [Figure 4-1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04.html#iprouting-CHP-4-FIG-1 "Figure 4-1. TraderMary’s network"). Here’s _NewYork_’s routing table:
+
+```
+    NewYork#sh ip route
+    ...
+         172.16.0.0/16 is variably subnetted, 8 subnets, 2 masks
+    D       172.16.252.0/24 [90/2681856] via 172.16.250.2, 00:01:44, Serial0
+    C       172.16.250.0/24 is directly connected, Serial0
+    C       172.16.251.0/24 is directly connected, Serial1
+22  D       172.16.0.0/20 is a summary, 00:03:22, Null0 
+    C       172.16.1.0/24 is directly connected, Ethernet0
+    C       172.16.2.0/24 is directly connected, Ethernet2
+    D       172.16.50.0/20 [90/2195456] via 172.16.250.2, 00:01:45, Serial0
+    D       172.16.100.0/20 [90/2707456] via 172.16.250.2, 00:01:45, Serial0
+    C    192.168.1.0/24 is directly connected, Ethernet1
+```
+
+Note that _NewYork_ installs a route to the null interface for the summarized address (`172.16.0.0/20`, as in line 22). Further, routers _Ames_ and _Chicago_ install this aggregated route (line 23) and not the individual `172.16.1.0/24` and `172.16.2.0/24` routes:
+
+```
+    Chicago#sh ip route
+    ...
+         172.16.0.0/16 is variably subnetted, 8 subnets, 2 masks
+    C       172.16.252.0/24 is directly connected, Serial1
+    C       172.16.250.0/24 is directly connected, Serial0
+    D       172.16.251.0/24 [90/2681856] via 172.16.250.1, 00:02:30, Serial0
+                            [90/2681856] via 172.16.252.2, 00:02:30, Serial1
+    C       172.16.50.0/24 is directly connected, Ethernet0
+23  D       172.16.0.0/20 [90/2195456] via 172.16.250.1, 00:02:12, Serial0   
+    D       172.16.100.0/20 [90/2195456] via 172.16.252.2, 00:02:10, Serial1
+```
+
+The address aggregation commands on _NewYork_ reduce the routing-table size in the rest of the network. Note that address aggregation plans need to be laid out ahead of time so that network numbers can be allocated accordingly. Thus, in the previous example, _NewYork_ was allocated a block of 16 subnets:
+
+`172.16.96.0` through `172.16.15.0`
+
+Continuing this scheme, _Ames_ may be allocated a block of 16 addresses that envelop the network number it is currently using (`172.16.100.0`):
+
+`172.16.96.0` through `172.16.111.0`
+
+and _Chicago_ may be allocated a block of 16 addresses that envelop the network number it is currently using (`172.16.50.0`):
+
+`172.16.48.0` through `172.16.63.0`
+
+_Ames_ could now be configured to summarize its block using the statement on its serial interfaces:
+
+```
+ip summary-address eigrp 10 172.16.0.0 255.255.240.0
+```
+
+and _Chicago_ could be configured to summarize its block using the statement on its serial interfaces:
+
+```
+ip summary-address eigrp 10 172.16.0.0 255.255.240.0
+```
+
+
+---
+
+If the subnets overlapped, disabling route summarization would not do us any good. There are other methods to tackle duplicate address problems, such as Network Address Translation (NAT).
+
+## Default Routes
+
+EIGRP tracks default routes in the external section of its routing updates. Candidate default routes are marked by setting the flags field to 0x02.
+
+Default routes are most often used to support branch offices that have only one or two connections to the core network (see [Figure 4-11](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s06.html#iprouting-CHP-4-FIG-11 "Figure 4-11. Branch offices only need a default route")).
+
+![[Pasted image 20241110180948.png]]
+Figure 4-11. Branch offices only need a default route
+
+The core router is configured as follows:
+
+```
+    hostname core1
+    !
+    interface Ethernet0
+     ip address 192.168.1.1 255.255.255.0
+    ...
+    interface Serial0
+    ip address 172.16.245.1 255.255.255.0
+    ...
+    router eigrp 10
+24   **`redistribute static metric 56 100 255 1 255`**   
+     network 172.16.0.0
+    !
+    ip classless
+25  **`ip route 0.0.0.0 0.0.0.0 Null0`** 
+```
+
+The branch router is configured as follows:
+
+```
+    hostname branch1
+    ...
+    interface Serial0
+    ip address 172.16.245.2 255.255.255.0
+    ...
+26  **`router eigrp 10`**                                    
+    network 172.16.0.0
+```
+
+An examination of _branch1_’s routing table would show:
+
+```
+    branch1#sh ip route
+    ...
+    Gateway of last resort is 172.16.251.1 to network 0.0.0.0
+
+         172.16.0.0/24 is subnetted, 6 subnets
+    C       172.16.245.0 is directly connected, Serial0
+    ...
+27  **`D*EX 0.0.0.0/0 [170/46251776] via 172.16.245.1, 00:01:47, Serial0`**
+```
+
+Since the default route is an external route, it is tagged with a distance of 170 (line 27).
+
+The following steps were followed in the creation of this default route:
+
+1. Network `0.0.0.0` was defined as a static route on _core1_ (see line 25).
+2. Network `0.0.0.0` was redistributed into EIGRP 10 (see line 24).
+3. A default metric was attached to the redistribution (line 24).
+4. EIGRP 10 was turned on in _branch1_ (line 26).
+
+To increase the reliability of the connection to branches, each branch may be connected to two core routers. _branch1_ will now receive two default routes. One router (say, _core1_) may be set up as the primary, and the second router (_core2_) as backup. To do this, set up the default from _core2_ with a _worse_ metric, as we did for IGRP in [Chapter 3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03.html "Chapter 3. Interior Gateway Routing Protocol (IGRP)").
+
+## Troubleshooting EIGRP
+
+EIGRP can be difficult to troubleshoot because of its complexity. As a reminder, the best preparation for troubleshooting a network is to be familiar with the network and its state during normal (trouble-free) conditions. Become familiar with the routing tables, their sizes, the summarization points, routing timers, etc. Also, plan ahead with “what-if” scenarios. What if router _X_ failed or link _Y_ dropped? How would connectivity recover? Will all the routes still be in every router’s table? Will the routes still be summarized?
+
+Perhaps the second-best preparation for troubleshooting a network is the ability to track network implementations and changes. If network implementations/changes are made in a haphazard way with no central control, an implementation team may walk away from a change (unaware that their change caused an outage) and it may take the troubleshooting team hours, or even days, to unravel the events that led to the outage. Besides making the network more vulnerable, such loose methods of network operation create bad relationships between teams.
+
+The following sections are a partial list of network states/conditions to check when looking for clues to routing problems in EIGRP.
+
+### Verifying Neighbor Relationships
+
+If a router is unable to establish a stable relationship with its neighbors, it cannot exchange routes with those neighbors. The neighbor table can help check the integrity of neighbor relationships. Here is a sample of _NewYork_’s neighbor table:
+
+```
+NewYork#sh ip eigrp neighbor
+IP-EIGRP neighbors for process 10
+H   Address                 Interface   Hold Uptime   SRTT   RTO  Q  Seq
+                                        (sec)         (ms)       Cnt Num
+1   172.16.251.2            Se0/1         10 00:17:08   28  2604  0  7
+0   172.16.250.2            Se0/0         13 00:24:43   12  2604  0  14
+```
+
+First, check that the neighbor count matches the number of EIGRP speakers. If routers _A_, _B_, and _C_ share an Ethernet segment and run EIGRP 10, all four routers should see each other in their neighbor tables. If router _C_ is consistently missing from _A_ and _B_’s tables, there may be a physical problem with _C_ or _C_ may be misconfigured (check _C_’s IP address and EIGRP configuration). Next, look for one-way neighbor relationships. Is _C_ in _A_ and _B_’s tables, but are _A_ and _B_ not in _C_’s table? This could indicate a physical problem with _C_’s connection or a filter that is blocking EIGRP packets.
+
+If the hold-time exceeds 15 seconds (or the configured hold-time), the network may be congested and losing hellos. Increasing the hello-interval/hold-time may be a quick fix to the problem.
+
+The uptime should reflect the duration that the routers have been up. A low uptime indicates that the neighbor relationship is being lost and reestablished.
+
+The QCnt should be (or at least should not exceed on a consistent basis).
+
+In summary, if a problem is found in the neighbor relationship, you should do the following:
+
+1. Check for bad physical infrastructure.
+2. Ensure that router ports are plugged into the correct hubs.
+3. Check for filters blocking EIGRP packets.
+4. Verify router configurations -- check IP addresses, masks, EIGRP AS numbers, and the network numbers defined under EIGRP.
+5. Increase the hello-interval/hold-time on congested networks.
+
+The command to clear and reestablish neighbor relationships is:
+
+```
+clear ip eigrp neighbors [_`ip address`_ | _`interface`_]
+```
+#### Tip
+
+Repeatedly clearing all neighbor relationships causes the loss of routes (and the loss of packets to those routes). Besides, repeatedly issuing **clear** commands usually does not fix the problem.
+
+### Stuck-in-Active
+
+A route is regarded as stuck-in-active (SIA) when DUAL does not receive a response to a query from a neighbor for three minutes, which is the default value of the active timer. DUAL then deletes all routes from that neighbor, acting as if the neighbor had responded with an unreachable message for all routes.
+
+Routers propagate queries through the network if feasible successors are not found, so it can be difficult to catch the culprit router (i.e., the router that is not responding to the query in time). The culprit may be running high on CPU utilization or may be connected via low-bandwidth links. Going back to TraderMary’s network, when _NewYork_ queries _Ames_ for `172.16.50.0`, it marks the route as active and lists the neighbor from which it is expecting a reply (line 28):
+
+```
+   NewYork#sh ip eigrp topology
+   IP-EIGRP Topology Table for process 10
+
+   Codes: P - Passive, A - Active, U - Update, Q - Query, R - Reply,
+       r - Reply status
+
+   ...
+   A 172.16.50.0/24, 0 successors, FD is 2195456, Q
+       1 replies, active 00:00:06, query-origin: Local origin
+       Remaining replies:
+28          via 172.16.251.2, r, Serial1
+```
+
+If this route were to become SIA, the network engineer should trace the path of the queries to see which router has been queried, has no outstanding queries itself, and yet is taking a long time to answer.
+
+Starting from _NewYork_, the next router to check for SIA routes would be `172.16.251.2` (line 28). Finding the culprit router in large networks is a difficult task, because queries fan out to a large number of routers. Checking the router logs would give a clue as to which router(s) had the SIA condition.
+
+#### Increase active timer
+
+Another option is to increase the active timer. The default value of the active timer is three minutes. If you think the SIA condition is occurring because the network diameter is too large, with several slow-speed links (such as Frame Relay PVCs), it is possible that increasing the active timer will allow enough time for responses to return. The following command shows how to increase the active timer:
+
+```
+router eigrp 10
+timers active-time minutes
+```
+
+For the change to be effective, the active timer must be modified on every router in the path of the query.
+
+### EIGRP Bandwidth on Low-Speed Links
+
+EIGRP limits itself to using no more than 50% of the configured bandwidth on router interfaces. There are two reasons for this:
+
+1. Generating more traffic than the interface can handle would cause drops, thereby impairing EIGRP performance.
+2. Generating a lot of EIGRP traffic would result in little bandwidth remaining for user data.
+
+EIGRP uses the bandwidth that is configured on an interface to decide how much EIGRP traffic to generate. If the bandwidth configured on an interface does not match the physical bandwidth (the network architect may have put in an artificially low or high bandwidth value to influence routing decisions), EIGRP may be generating too little or too much traffic. In either case, EIGRP can encounter problems as a result of this. If it is difficult to change the **bandwidth** command on an interface because of such constraints, allocate a higher or lower percentage to EIGRP with the following command in interface configuration mode:
+
+```
+ip bandwidth percent eigrp _`AS-number percentage`_
+```
+### Network Logs
+
+Check the output of the **show logging** command for EIGRP/DUAL messages. For example, the following message:
+
+```
+%DUAL-3-SIA: Route XXX stuck-in-active state in IP-EIGRP
+```
+
+indicates that the route _XXX_ was SIA.
+
+### IOS Version Check, Bug Lists
+
+The EIGRP implementation was enhanced in IOS Releases 10.3(11), 11.0(8), and 11.1(3) with respect to its performance on Frame Relay and other low-speed networks. In the event of chronic network problems, check the IOS versions in use in your network. Also use the bug navigation tools available on the Cisco web site.
+
+### Debug Commands
+
+As always, use **debug** commands in a production network only after careful thought. Having to resort to rebooting the router can be very unappetizing. The following is a list of EIGRP **debug** commands:
+
+- **debug eigrp neighbors** (for neighbor-relationship activity)
+- **debug eigrp packet** (all EIGRP packets)
+- **debug eigrp ip neighbor** (if the previous two commands are used together, only EIGRP packets for the specified neighbor are shown)
+
+## Summing Up
+
+EIGRP offers the following radical improvements over RIP and IGRP:
+
+- Fast convergence -- convergence is almost instantaneous when a feasible successor is available.
+- Variable Length Subnet Masks are supported -- subnet mask information is exchanged in EIGRP updates. This allows for efficient use of the address space, as well as support for discontiguous networks.
+- Route summarization at arbitrary bit boundaries, reducing routing-table size.
+- No regular routing updates -- network bandwidth and router CPU resources are not tied up in periodic routing updates, leading to improved network manageability.
+- Ease of configuration -- EIGRP can be configured with almost the same ease as IGRP. However, troubleshooting DUAL can be difficult.
+
+These EIGRP benefits come at the price of higher memory requirements (in addition to the routing table, EIGRP requires memory for the topology table and the neighbor table). DUAL is complex and can be very CPU-intensive, especially during periods of network instability when CPU resources are already scarce. Also, don’t forget that the EIGRP is a Cisco proprietary protocol.
+
+EIGRP is in use today in several mid-sized networks.
+
+# Chapter 4. Open Shortest Path First (OSPF)
+
+Last year I flew from New York to Osaka for a conference. My journey began when I hailed a cab on Broadway in downtown New York. “JFK,” I told the cabbie, telling her my destination was John F. Kennedy Airport. I was still pushing my luggage down the seat so I could pull my door shut when the cab started to move. The cabbie changed lanes twice before I got it shut. I did make it to JFK in one piece, where I presented my ticket and boarded a flight to Osaka. At Osaka Airport, the taxi driver bowed to me as he took my luggage from my hand. Once the luggage was properly stowed, he asked for my destination. “New Otani Hotel,” I told him, and he bowed again and closed my side door.
+
+This everyday story of a passenger in transit illustrates how a traveler is able to complete a journey in spite of the fact that the whereabouts of his destination are not known to every element in the system. The cabbie in New York knows only local destinations and so knows how to get to JFK but not to the New Otani Hotel. The airline routes passengers between major airports. The taxi driver in Osaka also knows only local destinations, so, when returning to New York, I tell the driver that my destination is “Osaka Airport,” not “New York.” Any single element of the transportation system knows only the _local_ geography. This leads to obvious efficiencies: the cabbie in New York needs to know only the New York metropolitan area, and the taxi driver in Osaka needs to know only the area in and around Osaka; the airline is the backbone linking JFK to Osaka.
+
+Much like the transportation system just described, Open Shortest Path First (OSPF) is a _hierarchical_ routing protocol, implying that the IP network has a geography with each _area_ possessing only local routing information. In contrast, RIP and IGRP are _flat,_ implying that there is no hierarchy in the network -- every router possesses routes to every destination in the network. Right away, you can see that a flat routing protocol has inherent inefficiencies -- in our analogy, if the architecture of the transportation system was flat, the cabbie in New York would have to learn directions to the New Otani Hotel.
+
+A hierarchical architecture, whether that of a transportation system or that of OSPF, allows the support of large systems because each area is responsible only for its local routes. RIP and IGRP cannot support very large networks because the routing overhead increases linearly with the size of the network.
+
+Another radical difference from RIP and IGRP is that OSPF is not a DV protocol -- OSPF is based on a Link State algorithm, Dijkstra. What is a Link State algorithm? _Link_ refers to a router interface; in other words, the attached network. _State_ refers to characteristics of the link such as its IP address, subnet mask, cost (or metric), and operational status (up or down). Routers executing OSPF describe the state of their directly connected links in _link state advertisement_ (LSA) packets that are then flooded to all other routers. Using all the LSAs it receives, each router builds a topology of the network. The network topology is described mathematically in the form of a graph.
+
+This topological database is the input to Dijkstra’s Shortest Path First (SPF) algorithm. With itself as the root, each router runs the SPF algorithm to compute the shortest path to each network in the graph. Each router then uses its shortest-path tree to build its routing table. Compare this with DV protocols: DV protocols propagate routes from router to router (this is sometimes called routing by rumor) and each router chooses the best route (to each destination) from all the routes (to that destination) that it hears.
+
+DV protocols have to set up special mechanisms to guard against bad routing information that could propagate from router to router. In contrast, routers running the SPF algorithm need to ensure the accuracy of their LS databases; as long as each router has the correct topology information, it can use the SPF algorithm to find the shortest path.
+
+Dijkstra’s algorithm is a wonderful tool but, as we shall see in more detail later, the SPF algorithm is expensive in terms of CPU utilization. The cost of running the algorithm increases quickly as the network topology grows. This would be a problem but, given OSPF’s hierarchical structure, the network is divided into “small” areas, and the SPF algorithm is executed by each router only on its intra-area topology. So how do routers in two different areas communicate with each other? All areas summarize their routes to a special area called the _backbone area_ or _area 0_. The backbone area in turn summarizes routes to all attached areas. Hence, traffic between any two areas must pass through the backbone area (see [Figure 6-1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06.html#iprouting-CHP-6-FIG-1 "Figure 6-1. Overview of OSPF areas")).
+
+![[Pasted image 20241110181931.png]]
+Figure 6-1. Overview of OSPF areas
+
+OSPF derives its name from Dijkstra’s SPF algorithm; the prefix “O” signifies that it’s an “open” protocol and so is described in an “open” book that everyone can access. That open book is RFC 2328, thanks to John Moy. In contrast, IGRP and EIGRP are Cisco _proprietary_ protocols. Multiple vendors support OSPF.
+
+# Getting OSPF Running
+
+Getting RIP, IGRP, and EIGRP running is easy, as we saw in earlier chapters. When TraderMary’s network grew to London, Shannon, Ottawa, etc., the DV routing protocols adapted easily to the additions. Getting OSPF running on a small network is also easy, as we will see in this chapter. However, unlike RIP, IGRP, and EIGRP, OSPF is a hierarchical protocol. OSPF does not work well if the network topology grows as a haphazard mesh.
+
+In this section, we will configure OSPF on a small network. In later sections, we will learn how to build hierarchical OSPF networks.
+
+TraderMary’s network, shown in [Figure 6-2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06.html#iprouting-CHP-6-FIG-2 "Figure 6-2. TraderMary’s network"), can be configured to run OSPF as follows.
+
+![[Pasted image 20241110181957.png]]
+Figure 6-2. TraderMary’s network
+
+Like RIP and IGRP, OSPF is a distributed protocol that needs to be configured on every router in the network:
+
+```
+   hostname NewYork
+   ...
+   interface Ethernet0
+   ip address 172.16.1.1 255.255.255.0
+   !
+   interface Serial0
+   description New York to Chicago link
+   ip address 172.16.250.1 255.255.255.0
+   !
+   interface Serial1
+   description New York to Ames link
+1  **`bandwidth 56`**                            
+   ip address 172.16.251.1 255.255.255.0
+   ...
+   **`router ospf 10`**
+   **`network 172.16.0.0 0.0.255.255 area 0`**
+```
+
+The **router ospf** command starts the OSPF process on the router. The syntax of this command is:
+
+```
+router ospf _`process-id`_
+```
+
+The _process-id_ , which should be between 1 and 65,535, is used to identify the instance of the OSPF process. The _process-id_ configured in the previous example is 10. Router _Chicago_ is similarly configured with the same _process-id_:
+
+```
+hostname Chicago
+...
+interface Ethernet0
+ip address 172.16.50.1 255.255.255.0
+!
+interface Serial0
+description Chicago to New York link
+ip address 172.16.250.2 255.255.255.0
+!
+interface Serial1
+description Chicago to Ames link
+ip address 172.16.252.1 255.255.255.0
+...
+
+**`router ospf 10`**
+**`network 172.16.0.0 0.0.255.255 area 0`**
+```
+
+Router _Ames_ is also configured with OSPF:
+
+```
+   hostname Ames
+   ...
+   interface Ethernet0
+   ip address 172.16.100.1 255.255.255.0
+   !
+   interface Serial0
+   description Ames to Chicago link
+   ip address 172.16.252.2 255.255.255.0
+   !
+   interface Serial1
+   description Ames to New York link
+2  **`bandwidth 56`**                               
+   ip address 172.16.251.2 255.255.255.0
+   ...
+
+   **`router ospf 10`**
+   **`network 172.16.0.0 0.0.255.255 area 0`**
+```
+
+We next identify the networks that will be participating in the OSPF process and associate an area ID with each network. The syntax of this command is:
+
+```
+network _`address wildcard-mask`_ area _`area-id`_
+```
+
+The _address_ and _wildcard-mask_ fields identify a network by its IP address. Networks that match the _address_ and _wildcard-mask_ fields are associated with the area _area-id_. How is a network’s IP address matched against _address_ and _wildcard-mask_?
+
+_wildcard-mask_ is a string of zeros and ones. An occurrence of a zero in _wildcard-mask_ implies that the IP address being checked must exactly match the corresponding bit in _address_. An occurrence of a one in _wildcard-mask_ implies that the corresponding bit in the IP address field is a “don’t care bit” -- the match is already successful.
+
+Thus, the following clause can be read as stating that the first 16 bits of an IP address must be exactly “172.16” for the address to match the clause and be associated with area and that the next 16 bits of the IP address are “don’t care bits”:
+
+```
+network 172.16.0.0 0.0.255.255 area 0
+```
+
+Any IP address, such as `172.16.x.y`, will match this _address/wildcard-mask_ and be assigned the area ID of 0. Any other address, such as `10.9.x.y`, will not match this _address/wildcard-mask_.
+
+If an interface IP address does not match the _address/wildcard-mask_ on a network statement, OSPF will check for a match against the next network statement, if there is another statement. Hence, the order of network statements is important. If an interface IP address does not match the _address/wildcard-mask_ on any network statement, that interface will not participate in OSPF.
+
+There is more than one method of assigning area IDs to networks. The most rigorous method specifically lists every network when making a match. The wildcard mask contains only zeros:
+
+```
+hostname NewYork
+...
+**`router ospf 10`**
+            
+**`network 172.16.1.1 0.0.0.0 area 0`**
+            
+**`network 172.16.250.1 0.0.0.0 area 0`**
+            
+**`network 172.16.251.1 0.0.0.0 area 0`**
+```
+
+The most loose method is an all-ones wildcard mask:
+
+```
+hostname NewYork
+...
+**`router ospf 10`**
+            
+**`network 0.0.0.0 255.255.255.255 area 0`**
+```
+
+Note that in the second (loose) method, network 192.168.1.1 also belongs to area 0.
+
+If an IP address does not match an area-ID specification, the match continues to the next statement. So, for example, a router may be configured as follows:
+
+```
+network 172.16.0.0 0.0.255.255 area 0
+network 192.0.0.0 0.255.255.255 area 1
+```
+
+An IP address of `192.168.1.1` will not match the first statement. The match will then continue to the next statement. All IP addresses with “192” in the first 8 bits will match the second clause and hence will fall into area 1. A network with the address `10.9.1.1` will not match either statement and hence will not participate in OSPF.
+
+The _area-id_ field is 32 bits in length. You can specify the area ID in the decimal number system, as we did earlier, or in the dotted-decimal notation that we use for expressing IP addresses. Thus, the area ID `0.0.0.0` (in dotted decimal) is identical to the area ID (in decimal); the area ID `0.0.0.100` (in dotted decimal) is identical to 100 (in decimal); and the area ID `0.0.1.0` (in dotted decimal) is identical to 256 (in decimal). The area ID of is reserved for the backbone area. The area ID for nonbackbone areas can be in the range 1 to 4,294,967,295 (or, equivalently, `0.0.0.1` to `255.255.255.255`).
+
+The **show ip ospf interface** command shows the assignment of area IDs to network interfaces:
+
+```
+   NewYork#sh ip ospf interface
+   ...
+   Ethernet0 is up, line protocol is up 
+3    **`Internet Address 172.16.1.1/24, Area 0`** 
+4    **`Process ID 10, Router ID 172.16.251.1, Network Type BROADCAST, Cost: 10`**
+     ...
+   Serial0 is up, line protocol is up 
+     **`Internet Address 172.16.250.1/24, Area 0`** 
+     Process ID 10, Router ID 172.16.251.1, Network Type POINT_TO_POINT, Cost: 64 
+   ...
+   Serial1 is up, line protocol is up 
+     **`Internet Address 172.16.251.1/24, Area 0`** 
+
+     Process ID 10, Router ID 172.16.251.1, Network Type POINT_TO_POINT, Cost: 1785  
+   ...
+```
+
+The routing tables for _NewYork_, _Chicago_, and _Ames_ will show all `172.16.0.0` subnets. Here is _NewYork_’s table:
+
+```
+   NewYork#sh ip route
+   Codes: C - connected, S - static, I - IGRP, R - RIP, M - mobile, B - BGP
+          D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+          N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+          E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP
+          i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, * - candidate default
+       
+   Gateway of last resort is not set
+
+5       172.16.0.0/16 is variably subnetted, 6 subnets, 2 masks      
+6  O       172.16.252.0/24 [110/128] via 172.16.250.2, 01:50:18, Serial0
+   C       172.16.250.0/24 is directly connected, Serial0
+   C       172.16.251.0/24 is directly connected, Serial1
+7  O       172.16.50.1/32 [110/74] via 172.16.250.2, 01:50:18, Serial0   
+   C       172.16.1.0/24 is directly connected, Ethernet0
+8  O       172.16.100.1/32 [110/138] via 172.16.250.2, 01:50:18, Serial0
+```
+
+The OSPF-derived routes in this table are labeled with an “O” in the left margin. Note that the routing table provides summary information (as in line 5). This line contains subnet mask information (24 bits, or `255.255.255.0`) and the number of subnets in `172.16.0.0` (6).
