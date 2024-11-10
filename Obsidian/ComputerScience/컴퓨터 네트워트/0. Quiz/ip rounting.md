@@ -1210,7 +1210,7 @@ The path metric of bandwidth, delay, reliability, load, and MTU needs to be expr
 
 _Metric = BandW + Delay_
 
-_BandW_ is computed by taking the smallest bandwidth (expressed in kbits/s) from all outgoing[[2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03s02.html#ftn.ch03-FTNOTE-2)] interfaces to the destination (including the destination) and dividing 10,000,000 by this number (the smallest bandwidth). For example, if the path from a router to a destination Ethernet segment is via a T-1 link, then:
+_BandW_ is computed by taking the smallest bandwidth (expressed in kbits/s) from all outgoing interfaces to the destination (including the destination) and dividing 10,000,000 by this number (the smallest bandwidth). For example, if the path from a router to a destination Ethernet segment is via a T-1 link, then:
 
 _BandW =_ 10,000,000/1,544 = 6,476
 
@@ -1224,13 +1224,16 @@ _Metric = BandW + Delay_ = 1,000 + 2,100 = 3,100
 
 Let’s now go back to TraderMary’s network to see why router _NewYork_ selected the direct 56-kbps link to route to 172.16.100.0 and not the two-hop T-1 path via _Chicago_:
 
+```
 NewYork>sh ip route
 ...
 I       172.16.100.0 [100/**`8576`**] via 172.16.251.2, 0:00:31, Serial0
 ...
+```
 
 The values of the IGRP metrics for these paths can be seen here:
 
+```
 Ames#sh interface Ethernet 0
 Ethernet0 is up, line protocol is up 
   Hardware is Lance, address is 00e0.b056.1b8e (bia 00e0.b056.1b8e)
@@ -1247,36 +1250,25 @@ Internet address is 172.16.250.1, subnet mask is 255.255.255.0
 MTU 1500 bytes, BW 1544 Kbit, DLY 20000 usec, rely 255/255, load 1/255
 Encapsulation HDLC, loopback not set, keepalive set (10 sec)
 ...
+```
 
 There are two paths to consider:
 
 1. _NewYork_ → _Ames_ → `172.16.100.0`.
-    
     Bandwidth values in the path: (serial link) 1,544 kbits/s, (Ethernet segment) 10,000 kbits/s
-    
     Delay values in the path: (serial link) 2,000, (Ethernet segment) 100
-    
     Smallest bandwidth in the path: 1,544
-    
-    |   |
-    |---|
-    |_BandW_ = 10,000,000/1,544 = 6,476|
-    |_Delay_ = 2,000 + 100 = 2,100|
-    |_Metric_ = _BandW_ + _Delay_ = 8,576|
+    _BandW_ = 10,000,000/1,544 = 6,476
+    _Delay_ = 2,000 + 100 = 2,100
+    _Metric_ = _BandW_ + _Delay_ = 8,576
     
 2. _NewYork_ → _Chicago_ → _Ames_ to `172.16.100.0`.
-    
     Bandwidth values in the path: (serial link) 1,544 kbits/s, (serial link) 1,544 kbits/s, (Ethernet segment) 10,000 kbits/s
-    
     Delay values in the path: (serial link) 2,000, (serial link) 2,000, (Ethernet segment) 100
-    
     Smallest bandwidth in the path: 1,544
-    
-    |   |
-    |---|
-    |_BandW_ = 10,000,000/56 = 6,476|
-    |_Delay_ = 2,000 + 2,000 + 100 = 4,100|
-    |_Metric_ = _BandW_ + _Delay_ = 10,576|
+    _BandW_ = 10,000,000/56 = 6,476
+    _Delay_ = 2,000 + 2,000 + 100 = 4,100
+    _Metric_ = _BandW_ + _Delay_ = 10,576
     
 
 _NewYork_ will prefer to route via the first path because the metric is smaller. Why does _NewYork_ use a bandwidth of 1,544 for the 56-kbps link to _Ames_? Go back to [Table 3-1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03s02.html#iprouting-CHP-3-TABLE-1 "Table 3-1. Default bandwidth and delay values") and you will see that the default bandwidth and delay values of 1,544 kbps and 20,000 ms apply to all serial interfaces, regardless of the speed of the modem device attached to the router port.
@@ -1293,7 +1285,9 @@ _Metric = Metric_ x [_k5_/(_reliability + k4_)]
 
 The constants k1, k2, k3, k4, and k5 can be modified with the command:
 
+```
 metric weights tos k1 k2 k3 k4 k5
+```
 
 where _tos_ identifies the type of service and must be set to zero (because only one type of service has been defined).
 
@@ -1325,6 +1319,7 @@ TraderMary’s network was still using the 56-kbps path between _NewYork_ and�
 
 In order to utilize the 56-kbps link only as backup, we need to modify TraderMary’s network as follows:
 
+```
 hostname NewYork
 ...
 interface Ethernet0
@@ -1381,9 +1376,11 @@ ip address 172.16.251.2 255.255.255.0
 
 router igrp 10
 network 172.16.0.0
+```
 
 The new routing tables look like this:
 
+```
 NewYork#show ip route
 ...
 Gateway of last resort is 0.0.0.0 to network 0.0.0.0
@@ -1423,41 +1420,33 @@ C       172.16.251.0 is directly connected, Serial1
 I       172.16.50.0 [100/8576] via 172.16.252.1, 00:00:24, Serial0
 I       172.16.1.0 [100/10576] via 172.16.252.1, 00:00:24, Serial0
 C       172.16.100.0 is directly connected, Ethernet0
+```
 
 Let’s now go back to TraderMary’s network and corroborate the metric values seen for `172.16.100.0` in router _NewYork’s_ routing table. The following calculations show TraderMary’s network as in [Figure 3-1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03.html#iprouting-CHP-3-FIG-1 "Figure 3-1. TraderMary’s network") but with IGRP bandwidth and delay values for each interface. There are two paths to consider:
 
 1. _NewYork_ → _Ames_ → `172.16.100.0`.
-    
     Bandwidth values in the path: (serial link) 56 kbits/s, (Ethernet segment) 10,000 kbits/s
-    
     Smallest bandwidth in the path: 56
-    
-    |   |
-    |---|
-    |_BandW_ = 10,000,000/56 = 178,571|
-    |_Delay_ = 2,000 + 100 = 2100|
-    |_Metric_ = _BandW_ + _Delay_ = 180,671|
+    _BandW_ = 10,000,000/56 = 178,571
+    _Delay_ = 2,000 + 100 = 2100
+    _Metric_ = _BandW_ + _Delay_ = 180,671
     
 2. _NewYork_ → _Chicago_ → _Ames_ → `172.16.100.0`
-    
     Bandwidth values in the path: (serial link) 1,544 kbits/s, (serial link) 1,544 kbits/s, (Ethernet segment) 10,000 kbits/s
-    
     Smallest bandwidth in the path: 1,544
-    
-    |   |
-    |---|
-    |_BandW_ = 10,000,000/1,544 = 6,476|
-    |_Delay_ = 2,000 + 2,000 + 100 = 4,100|
-    |_Metric_ = _BandW_ + _Delay_ = 10,576|
-    
+    _BandW_ = 10,000,000/1,544 = 6,476
+    _Delay_ = 2,000 + 2,000 + 100 = 4,100
+    _Metric_ = _BandW_ + _Delay_ = 10,576
 
 Using the lower metric for the path via _Chicago_, _NewYork_’s route to `172.16.100.0` shows as:
 
+```
 NewYork>sh ip route
 ...
 I       172.16.50.0 [100/1] via 172.16.250.2, 0:00:31, Serial0
 I       172.16.100.0 [100/**`10576`**] via 172.16.250.2, 0:00:31, Serial0
 I       172.16.252.0 [100/1] via 172.16.250.2, 0:00:31, Serial0
+```
 
 Let’s corroborate IGRP’s selection of the two-hop T-1 path in preference to the one-hop 56-kbps link by comparing the transmission delay for a 1,000-octet packet. A 1,000-octet packet will take 143 ms (1,000 x 8/56,000 second) over a 56-kbps link and 5 ms (1,000 x 8/1,544,000 second) over a T-1 link. Neglecting buffering and processing delays, two T-1 hops will cost 10 ms in comparison to 143 ms via the 56-kbps link.
 
@@ -1492,12 +1481,12 @@ The default behavior of IGRP installs parallel routes to a destination only if a
 
 Equal-cost load balancing works well almost all the time. However, consider TraderMary’s network again. Say that TraderMary adds a node in London. Since traffic to London is critical, the network is engineered with two links from New York: one running at 128 kbps and another running at 56 kbps. [Figure 3-4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03s02.html#iprouting-CHP-3-FIG-4 "Figure 3-4. Unequal-cost load balancing") shows unequal-cost load balancing.
 
-![Unequal-cost load balancing](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:0596002750/files/tagoreillycom20070221oreillyimages86157.png)
-
+![[Pasted image 20241110172138.png]]
 Figure 3-4. Unequal-cost load balancing
 
 The routers are first configured as follows:
 
+```
 hostname NewYork
 ...
 interface Ethernet0
@@ -1533,41 +1522,50 @@ ip address 172.16.284.2 255.255.255.0
 ...
 router igrp 10
 network 172.16.0.0
+```
 
 However, if you check _NewYork_’s routing table you will see that all traffic to London is being routed via the 128-kbps link:
 
+```
 NewYork>sh ip route
 ...
 172.16.0.0/24 is subnetted, ...
 I       172.16.180.0 [100/80225] via 172.16.249.2, 00:01:07, Serial2
 ...
+```
 
 This is because the _NewYork_ → _London_ metric is 80,225 via the 128-kbps path and 180,671 via the 56-kbps path.
 
 The problem with this routing scenario is that the 56-kbps link is entirely unused, even when the 128-kbps link is congested. Overseas links are expensive: the network design ought to try to utilize all links. One way around this problem is to modify the IGRP parameters to make both links look equally attractive. This can be accomplished by modifying the 56-kbps path as follows:
 
+```
 hostname NewYork
 ...
 interface Serial3
 bandwidth 128
 ip address 172.16.248.1 255.255.255.0
 ...
+```
 
 With this approach, both links would appear equally attractive. The routing table for _NewYork_ will look like this:
 
+```
 NewYork>sh ip route
 ...
 172.16.0.0/24 is subnetted, ...
 I       172.16.180.0 [100/80225] via 172.16.249.2, 00:01:00, Serial2
                      [100/80225] via 172.16.248.2, 00:01:00, Serial3
+```
 
 However, traffic will now be evenly distributed over the two links, which may congest the 56-kbps link while leaving the 128-kbps link underutilized.
 
 Another solution is to modify IGRP’s default behavior and have it install unequal-cost links in its table, balancing traffic over the links in proportion to the metrics on the links. The variance that is permitted between the lowest and highest metrics is specified by an integer in the **variance** command. For example:
 
+```
 router igrp 10
 network 172.16.0.0
 variance 2
+```
 
 specifies that IGRP will install routes with different metrics as long as the largest metric is less than twice the lowest metric. In other words, if the variance is v, then:
 
@@ -1577,6 +1575,7 @@ The maximum number of routes that IGRP will install will still be four, by defau
 
 Going back to TraderMary’s network, the metric value for the 128-kbps path to London is 80,225 while the metric value for the 56-kbps path is 180,671. The ratio 180,671/80,225 is 2.25; hence, a variance of 3 will be adequate. _NewYork_ may now be configured as follows:
 
+```
 hostname NewYork
 ...
 interface Ethernet0
@@ -1596,14 +1595,17 @@ ip address 172.16.248.1 255.255.255.0
 router igrp 10
 network 172.16.0.0
 variance 3
+```
 
 And the routing table for _NewYork_ will look like this:
 
+```
 NewYork>sh ip route
 ...
 172.16.0.0/24 is subnetted, ...
 I       172.16.180.0 [100/80225] via 172.16.249.2, 00:01:00, Serial2
                      [100/180671] via 172.16.248.2, 00:01:00, Serial3
+```
 
 Traffic from _NewYork_ to _London_ will be divided between _Serial2_ and _Serial3_ in the inverse ratio of their metrics: _Serial2_ will receive 2.25 times as much traffic as _Serial3_.
 
@@ -1613,6 +1615,7 @@ The default value of variance is 1. A danger with using a variance value of grea
 
 It is important for you as the network administrator to be familiar with the state of the network during normal conditions. Deviations from this state will be your clue to troubleshooting the network during times of network outage. This output shows the values of the IGRP timers:
 
+```
    NewYork#sh ip protocol
    Routing Protocol is "igrp 10"
      **`Sending updates every 90 seconds, next due in 61 seconds`**
@@ -1629,27 +1632,30 @@ It is important for you as the network administrator to be familiar with the sta
        172.16.0.0
      Routing Information Sources:
        Gateway         Distance      Last Update
-1      **`172.16.250.2         100      00:00:40`**
-2      **`172.16.251.2         100      00:00:09`**
+1      172.16.250.2         100      00:00:40
+2      172.16.251.2         100      00:00:09
      Distance: (default is 100)
+```
 
 Note that IGRP updates are sent every 90 seconds and the next update is due in 61 seconds, which means that an update was issued about 29 seconds ago.
 
 Further, lines 1 and 2 show the gateways from which router _NewYork_ has been receiving updates. This list is valuable in troubleshooting -- missing routes from a routing table could be because the last update from a gateway was too long ago. Check the time of the last update to ensure that it is within the IGRP update timer:
 
+```
 NewYork#show ip route
 ...
 Gateway of last resort is not set
 
-     **`172.16.0.0/24 is subnetted, 6 subnets`**
-I       172.16.252.0 [100/10476] via 172.16.251.2, **`00:00:26`**, Serial1
-                     [100/10476] via 172.16.250.2, **`00:00:37`**, Serial0
+     172.16.0.0/24 is subnetted, 6 subnets
+I       172.16.252.0 [100/10476] via 172.16.251.2, 00:00:26, Serial1
+                     [100/10476] via 172.16.250.2, 00:00:37, Serial0
 C       172.16.250.0 is directly connected, Serial0
 C       172.16.251.0 is directly connected, Serial1
-I       172.16.50.0 [100/8576] via 172.16.250.2, **`00:00:37`**, Serial0
+I       172.16.50.0 [100/8576] via 172.16.250.2, 00:00:37, Serial0
 C       172.16.1.0 is directly connected, Ethernet0
-I       172.16.100.0 [100/8576] via 172.16.251.2, **`00:00:26`**, Serial1
-**`C    192.168.1.0/24 is directly connected, Ethernet1`**
+I       172.16.100.0 [100/8576] via 172.16.251.2, 00:00:26, Serial1
+C    192.168.1.0/24 is directly connected, Ethernet1
+```
 
 One key area to look at in the routing table is the timer values. The format that Cisco uses for timers is _hh:mm:ss_ (hours:minutes:seconds). You would expect the time against each route to be between 00:00:00 (0 seconds) and 00:01:30 (90 seconds). If a route was received more than 90 seconds ago, that indicates a problem in the network. You should begin by checking to see if the next hop for the route is reachable.
 
@@ -1658,5 +1664,205 @@ You should also be familiar with the number of major network numbers (two in the
   
 
 ---
+ The concept of an _outgoing_ interface is best illustrated with an example. In TraderMary’s network, the outgoing interfaces from _NewYork_ to 172.16.100.0 will be _NewYork_ interface _Serial0_, _Chicago_ interface _Serial_, and _Ames_ interface _Ethernet0_. When computing the metric for _NewYork_ to 172.16.100.0, we will use the IGRP parameters of bandwidth, delay, load, reliability, and MTU for these interfaces. We will not use the IGRP parameters from interfaces. However, unless they have been modified, the parameters on this second set of interfaces would be identical to the first.
+ 
+# Speeding Up Convergence
 
-[[2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03s02.html#ch03-FTNOTE-2)] The concept of an _outgoing_ interface is best illustrated with an example. In TraderMary’s network, the outgoing interfaces from _NewYork_ to 172.16.100.0 will be _NewYork_ interface _Serial0_, _Chicago_ interface _Serial_, and _Ames_ interface _Ethernet0_. When computing the metric for _NewYork_ to 172.16.100.0, we will use the IGRP parameters of bandwidth, delay, load, reliability, and MTU for these interfaces. We will not use the IGRP parameters from interfaces. However, unless they have been modified, the parameters on this second set of interfaces would be identical to the first.
+Like RIP, IGRP implements hold-downs, split horizon, triggered updates, and poison reverse (see [Chapter 2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch02.html "Chapter 2. Routing Information Protocol (RIP)") for details on these convergence methods). Like RIP, IGRP also maintains an update timer, an invalid timer, a hold-down timer, and a flush timer for every route in the routing table:
+
+Update timer (default value: 90 seconds)
+	After sending a routing update, IGRP sets the update timer to 0. When the timer expires, IGRP issues another routing update.
+
+Invalid timer (default value: 270 seconds)
+	Every time a router receives an update for a route, it sets the invalid timer to 0. The expiration of the invalid timer indicates that the source of the routing information is suspect. Even though the route is declared invalid, packets are still forwarded to the next hop specified in the routing table. Note that prior to the expiration of the invalid timer, IGRP would process any updates received by updating the route’s timers.
+
+Hold-down timer (default value: 280 seconds)
+	When the invalid timer expires, the route automatically enters the hold-down phase. During hold-down all updates regarding the route are disregarded -- it is assumed that the network may not have converged and that there may be bad routing information circulating in the network. The hold-down timer is started when the invalid timer expires.
+
+Flush timer (default value: 630 seconds)
+	Every time a router receives an update for a route, it sets the flush timer to 0. When the flush timer expires, the route is removed from the routing table and the router is ready to receive a new route update. Note that the flush timer overrides the hold-down timer.
+
+## Setting Timers
+
+IGRP timers can be modified to allow faster convergence. The configuration:
+
+```
+router igrp 10
+timers basic 30 90 90 180
+```
+
+would generate IGRP updates every 30 seconds, mark a route invalid in 90 seconds, keep the route in hold-down for 90 seconds, and flush the route in 180 seconds.
+
+However, IGRP timers should not be modified without a detailed understanding of route convergence in Distance Vector protocols (see [Chapter 2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch02.html "Chapter 2. Routing Information Protocol (RIP)")). Selecting too short a hold-down period, for example, may cause bad routing information to persist in a network. Selecting too long a hold-down period would increase the time it takes to learn a route via a different path after a failure.
+
+Changing timers also presents the danger that sooner or later someone will configure a router with default timers. This may cause _route flapping_; i.e., routes to some network numbers may become intermittently invisible.
+
+### Warning
+
+Do not modify IGRP timers unless absolutely necessary. If you modify IGRP timers, make sure that all routers have the same timers.
+
+## Disabling IGRP Hold-Downs
+
+IGRP hold-downs can be disabled with the command:
+
+```
+router igrp 10
+no metric holddown
+```
+
+thus speeding up convergence when a route fails. However, the problem with turning off hold-downs is that if a triggered update regarding the failure does not reach some router, that router could insert bad routing information into the network. Doesn’t this seem like a dangerous thing to do?
+
+Split horizon, triggered updates, and poison reverse are implemented in IGRP much like they are in RIP.
+
+# Route Summarization
+
+IGRP summarizes network numbers when crossing a major network-number boundary, just like RIP does. Route summarization reduces the number of routes that need to be exchanged, processed, and stored.
+
+However, route summarization does not work well in discontiguous networks. Consider the discontiguous network in [Figure 3-5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03s04.html#iprouting-CHP-3-FIG-5 "Figure 3-5. Contiguous and discontiguous networks"). Router _X_ will receive advertisements for `10.0.0.0` from both routers _A_ and _B_. If _X_ sent packets with the destination `10.1.1.1` to _B_, the packet would be lost -- _B_ would have to drop the packet because it would not have a route for `10.1.1.1` in its table. Likewise, if _X_ sent packets with the destination `10.2.1.1` to _A_, the packet would be lost -- _A_ would have to drop the packet because it would not have a route for `10.2.1.1`.
+
+![[Pasted image 20241110172649.png]]
+Figure 3-5. Contiguous and discontiguous networks
+
+Both IGRP and RIP networks must be designed in contiguous blocks of major network numbers.
+
+# Default Routes
+
+IGRP tracks default routes in the exterior section of its routing updates. A router receiving `10.0.0.0` in the exterior section of a routing update would mark `10.0.0.0` as a default route and install its next hop to `10.0.0.0` as the _gateway of last resort_ . Consider the network in [Figure 3-6](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03s05.html#iprouting-CHP-3-FIG-6 "Figure 3-6. Branch offices only need a default route") as an example in which a core router connects to several branch routers in remote sites.
+
+![[Pasted image 20241110172821.png]]
+Figure 3-6. Branch offices only need a default route
+
+The core router is configured as follows:
+
+```
+   hostname core1
+   !
+   interface Ethernet0
+    ip address 192.168.1.1 255.255.255.0
+   ...
+   interface Serial0
+   ip address 172.16.245.1 255.255.255.0
+   ...
+   router igrp 10
+3   redistribute static                
+    network 172.16.0.0
+4   default-metric 10000 100 255 1 1500             
+   !
+   no ip classless
+5  ip default-network 10.0.0.0
+6  ip route 10.0.0.0 255.0.0.0 Null0
+```
+
+The branch router is configured as follows:
+
+```
+hostname branch1
+...
+interface Serial0
+ip address 172.16.245.2 255.255.255.0
+...
+router igrp 10
+redistribute static
+network 172.16.0.0
+!
+no ip classless
+```
+
+An examination of _branch1_’s routing table would show:
+
+```
+branch1#sh ip route
+Codes: C - connected, S - static, I - IGRP, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP
+       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, * - candidate default
+
+Gateway of last resort is 172.16.245.1 to network 10.0.0.0
+
+     172.16.0.0/24 is subnetted, 1 subnets
+C       172.16.245.0 is directly connected, Serial0
+I*   10.0.0.0/8 [100/8576] via 172.16.245.1, 00:00:26, Serial0
+```
+
+Note that network 10.0.0.0 has been flagged as a default route (*). To ensure that the default route works, let’s do a test to see if _branch1_ can ping 192.168.1.1, even though 192.168.1.0 is not in _branch1_’s routing table:
+
+```
+branch1#ping 192.168.1.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.1.1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 40/50/80 ms
+```
+
+Here are the steps we followed in the creation of the default route:
+
+1. Network `10.0.0.0` was flagged as a default route by _core1_ (line 5).
+    
+2. Network `10.0.0.0` was defined via a static route (line 6).
+    
+3. The default route was redistributed into IGRP, which then placed the route in the exterior section of its update message to _branch1_ (line 3).
+    
+4. A default metric was attached to the redistribution (line 4).
+    
+
+There are a few things to note when creating default routes in IGRP. First, IGRP does not use `0.0.0.0` as a default route. Thus, if `0.0.0.0` were defined in place of `10.0.0.0`, IGRP would not convey it. Second, how should one choose which network number to flag as a default route? In the previous example, the network `10.0.0.0` does not need to be a real network number configured on an interface; it could just be a fictitious number (that does not exist as a real number in the network) to which all default traffic will be sent. Using a fictitious number instead of a real network number as the default route can have certain advantages. For example, a fictitious network number will not go down if an interface goes down. Further, changing the ideal candidate for the default route can be much easier with fictitious network numbers than with real network numbers.
+
+## Multiple Default Routes
+
+To increase the reliability of the connection to branches, each branch may be connected to two core routers:
+
+```
+hostname core2
+!
+interface Ethernet0
+ ip address 192.168.1.1 255.255.255.0
+...
+interface Serial0
+ip address 172.16.246.1 255.255.255.0
+...
+router igrp 10
+ redistribute static
+ network 172.16.0.0
+ default-metric 10000 100 255 1 1500
+!
+no ip classless
+ip default-network 10.0.0.0
+ip route 10.0.0.0 255.0.0.0 Null0
+```
+
+_branch1_ will now receive two default routes:
+
+```
+branch1>sh ip route
+...
+Gateway of last resort is 172.16.250.1 to network 10.0.0.0
+
+     172.16.0.0/24 is subnetted, 2 subnets
+C       172.16.245.0 is directly connected, Serial1
+C       172.16.246.0 is directly connected, Serial0
+I*   10.0.0.0/8 [100/8576] via 172.16.245.1, 00:00:55, Serial0
+                [100/8576] via 172.16.246.1, 00:00:55, Serial1
+```
+
+Note that it is also possible to set up one router (say, _core1_) as primary and the second router ([core2](mailto:core2)) as backup. To do this, set up the default from _core2_ with a _worse_ metric, as shown in line 7:
+
+```
+   hostname core2
+   !
+   interface Ethernet0
+    ip address 192.168.1.1 255.255.255.0
+   ...
+   interface Serial0
+   ip address 172.16.246.1 255.255.255.0
+   ...
+   router igrp 10
+    redistribute static
+    network 172.16.0.0
+7   default-metric 1544 2000 255 1 1500           
+   !
+   no ip classless
+   ip default-network 10.0.0.0
+   ip route 10.0.0.0 255.0.0.0 Null0
+```
