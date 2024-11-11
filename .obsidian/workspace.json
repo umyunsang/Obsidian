@@ -6,17 +6,39 @@
       {
         "id": "9859235dee996395",
         "type": "tabs",
+        "dimension": 44.111111111111114,
         "children": [
           {
             "id": "31ca4340263d1af2",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "라우팅 알고리즘"
+            }
+          }
+        ]
+      },
+      {
+        "id": "dccca69e6e069faa",
+        "type": "tabs",
+        "dimension": 55.888888888888886,
+        "children": [
+          {
+            "id": "a582bca4725af90c",
+            "type": "leaf",
+            "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf"
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/10. 라우팅 알고리즘.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "7. 교착상태"
+              "title": "10. 라우팅 알고리즘"
             }
           }
         ]
@@ -163,6 +185,14 @@
   },
   "active": "31ca4340263d1af2",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/10. 라우팅 알고리즘.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
+    "Pasted image 20241111152952.png",
+    "Pasted image 20241111152141.png",
+    "Pasted image 20241111152001.png",
+    "Pasted image 20241111151753.png",
+    "Pasted image 20241111150527.png",
+    "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/확인문제_현재10문제.pdf",
@@ -170,18 +200,11 @@
     "Obsidian/ComputerScience/운영체제/8. 메모리관리/8. 메모리관리.pdf",
     "Pasted image 20241111095511.png",
     "Obsidian/ComputerScience/운영체제/8. 메모리관리",
-    "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
     "image/Pasted image 20241111091225.png",
     "image/Pasted image 20241111090811.png",
     "image/Pasted image 20241111093135.png",
     "Pasted image 20241111093135.png",
-    "Pasted image 20241111091225.png",
-    "Pasted image 20241111090811.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/ip rounting.md",
-    "image/Pasted image 20241110184849.png",
-    "image/Pasted image 20241110184415.png",
-    "image/Pasted image 20241110181931.png",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/레포트_수정.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/레포트.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/양식.md",
@@ -191,7 +214,6 @@
     "Obsidian/ComputerScience/이산수학/7 지식그래프 소개.pdf",
     "Obsidian/ComputerScience/이산수학/Appendix 1 Floyd Warshall Algorithm.pdf",
     "Obsidian/ComputerScience/이산수학/Appendix 2 Welch-Powell Algorithms.pdf",
-    "Obsidian/ComputerScience/이산수학/5 그래프.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
