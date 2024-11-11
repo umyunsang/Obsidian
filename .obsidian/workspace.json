@@ -13,12 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/ip rounting.md",
+                "file": "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ip rounting"
+              "title": "교착상태"
+            }
+          }
+        ]
+      },
+      {
+        "id": "39cc40bbc90001a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0ea8b37b7513443",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "7. 교착상태"
             }
           }
         ]
@@ -165,18 +183,21 @@
   },
   "active": "31ca4340263d1af2",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
+    "Pasted image 20241111091225.png",
+    "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
+    "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
+    "Pasted image 20241111090811.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/ip rounting.md",
-    "Pasted image 20241110184849.png",
-    "Pasted image 20241110184415.png",
-    "Pasted image 20241110183827.png",
-    "Pasted image 20241110183753.png",
-    "Pasted image 20241110183651.png",
-    "Pasted image 20241110183339.png",
-    "Pasted image 20241110183201.png",
-    "Pasted image 20241110183137.png",
-    "Pasted image 20241110182638.png",
-    "Pasted image 20241110182537.png",
+    "image/Pasted image 20241110184849.png",
+    "image/Pasted image 20241110184415.png",
+    "image/Pasted image 20241110181931.png",
+    "image/Pasted image 20241110180948.png",
+    "image/Pasted image 20241110180607.png",
+    "image/Pasted image 20241110180531.png",
+    "image/Pasted image 20241110175542.png",
+    "image/Pasted image 20241110175451.png",
+    "image/Pasted image 20241110175413.png",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/레포트_수정.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/레포트.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/양식.md",
@@ -197,7 +218,6 @@
     "Obsidian/ComputerScience/데이터베이스/0. 시험/레포트.md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
-    "Obsidian/ComputerScience/데이터베이스/9. 정규화/9. 정규화.pdf",
     "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md",
@@ -208,7 +228,6 @@
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/뷰(view).md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
-    "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/데이터 링크 계층의 작업 (2 계층).md"
+    "Obsidian/ComputerScience/운영체제/5. CPU 스케줄링/CPU 스케줄링.md"
   ]
 }
