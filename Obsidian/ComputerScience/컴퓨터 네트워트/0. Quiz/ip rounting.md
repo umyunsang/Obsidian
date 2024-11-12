@@ -467,7 +467,7 @@ We couldn’t illustrate the details of the invalid, hold-down, and flush timers
 
 #### Split horizon
 
-Consider a simple network with two routers connected to each other ([Figure 2-5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch02s03.html#iprouting-CHP-2-FIG-5 "Figure 2-5. Split horizon")).
+Consider a simple network with two routers connected to each other (Figure 2-5).
 
 ![[Pasted image 20241110164154.png]]
 Figure 2-5. Split horizon
