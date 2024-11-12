@@ -33,7 +33,6 @@ ip address 172.16.251.1 255.255.255.0
 router rip
 network 172.16.0.0
 
-
 hostname Chicago
 ...
 interface Ethernet0
@@ -48,7 +47,6 @@ ip address 172.16.252.1 255.255.255.0
 
 router rip
 network 172.16.0.0
-
 
 hostname Ames
 ...
@@ -137,7 +135,7 @@ Next, let’s verify that all the routers are seeing all the `172.16.0.0` subn
 
    Gateway of last resort is not set
 
-1       **`172.16.0.0/16 is subnetted, 6 subnets`**
+1       `172.16.0.0/16 is subnetted, 6 subnets`
    C       172.16.100.0 is directly connected, Ethernet0
    C       172.16.252.0 is directly connected, Serial0
    C       172.16.251.0 is directly connected, Serial1
