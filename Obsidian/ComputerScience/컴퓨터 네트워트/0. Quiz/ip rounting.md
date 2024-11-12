@@ -982,7 +982,7 @@ A key difference in this configuration is that, unlike in RIP, each IGRP proces
 
 Since IGRP is such a close cousin of RIP, we will not repeat the details of how DV algorithms work, how updates are sent, and how route convergence is achieved. However, because IGRP employs a much more comprehensive metric, I’ll discuss the IGRP metric in detail. I’ll begin this discussion with AS numbers.
 
-### IGRP Autonomous System Number
+### 2.2.1 IGRP Autonomous System Number
 
 Each IGRP process requires an autonomous system number:
 
@@ -1005,7 +1005,7 @@ In the meantime, all I will say is to use good judgment when breaking networks i
 
 The boundary between domains is often geographic or organizational.
 
-### IGRP Metric
+### 2.2.2 IGRP Metric
 
 The RIP metric was designed for small, homogenous networks. Paths were selected based on the number of hops to a destination; the lowest hop-count path was installed in the routing table. IGRP is designed for more complex networks. Cisco’s implementation of IGRP allows the network engineer to customize the metric based on bandwidth, delay, reliability, load, and MTU. In order to compare metrics between paths and select the least-cost path, IGRP converts bandwidth, delay, reliability, delay, and MTU into a scalar quantity -- a _composite_ metric that expresses the desirability of a path. Just as in the case of RIP, a path with a lower composite metric is preferred to a path with a higher composite metric.
 
@@ -1013,7 +1013,7 @@ The computation of the IGRP composite metric is user-configurable; i.e., the net
 
 The following sections define bandwidth, delay, reliability, load, and MTU. We will then see how these variables can be used to compute the composite metric for a path.
 
-#### Interface bandwidth, delay, reliability, load, and MTU
+#### 2.2.2.1 Interface bandwidth, delay, reliability, load, and MTU
 
 The IGRP metric for a path is derived from the bandwidth, delay, reliability, load, and MTU values of every media in the path to the destination network.
 
@@ -1081,7 +1081,7 @@ Table 3-1. Default bandwidth and delay values
  
 The reliability and load values are dynamically computed by the router as five-minute exponentially weighted averages.
 
-#### Modifying interface bandwidth, delay, and MTU
+#### 2.2.2.2 Modifying interface bandwidth, delay, and MTU
 
 The default bandwidth and delay values may be overridden by the following interface commands:
 
@@ -1118,7 +1118,7 @@ However, the MTU size has no bearing on IGRP route selection. The MTU size shoul
 
 Later in this chapter we will see how modifications to the bandwidth and delay parameters on an interface can affect route selection.
 
-#### IGRP routing update
+#### 2.2.2.3 IGRP routing update
 
 IGRP updates are directly encapsulated in IP with the protocol field (in the IP header) set to 9. The format of an IGRP packet is shown in [Figure 3-3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03s02.html#iprouting-CHP-3-FIG-3 "Figure 3-3. Format of an IGRP update packet").
 
@@ -1156,7 +1156,7 @@ Just like RIP, IGRP updates do not contain subnet mask information. This classif
 
 When an update is received for a route, it contains the bandwidth, delay, reliability, load, and MTU values for the path to the destination network via the source of the update. I already defined bandwidth, delay, reliability, load, and MTU for an interface. Now let’s define these parameters again for a path.
 
-#### Path bandwidth, delay, reliability, load, and MTU
+#### 2.2.2.4 Path bandwidth, delay, reliability, load, and MTU
 
 The following list defines bandwidth, delay, reliability, load, and MTU for a path:
 
@@ -1201,7 +1201,7 @@ Routing entry for 172.16.100.0 255.255.255.0
       Reliability 255/255, minimum MTU 1500 bytes
       Loading 1/255, Hops 2
 ```
-#### IGRP composite metric
+#### 2.2.2.5 IGRP composite metric
 
 The path metric of bandwidth, delay, reliability, load, and MTU needs to be expressed as a composite metric for you to be able to compare paths. The default behavior of Cisco routers considers only bandwidth and delay in computing the composite metric (the parameters reliability, load, and MTU are ignored):
 
@@ -1308,7 +1308,7 @@ To make the metric sensitive to network reliability (in addition to bandwidth an
 
 Cisco strongly recommends _not_ modifying the k1, k2, k3, k4, and k5 values for IGRP.
 
-#### Modifying IGRP metrics
+#### 2.2.2.6 Modifying IGRP metrics
 
 TraderMary’s network was still using the 56-kbps path between _NewYork_ and _Ames_, even when IGRP was running on the routers (refer to [Section 3.1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03.html#iprouting-CHP-3-SECT-1 "Getting IGRP Running")). Why is it that _NewYork_ and _Ames_ did not pick up the lower bandwidth for the 56-kbps link?
 
@@ -1447,7 +1447,7 @@ I       172.16.252.0 [100/1] via 172.16.250.2, 0:00:31, Serial0
 
 Let’s corroborate IGRP’s selection of the two-hop T-1 path in preference to the one-hop 56-kbps link by comparing the transmission delay for a 1,000-octet packet. A 1,000-octet packet will take 143 ms (1,000 x 8/56,000 second) over a 56-kbps link and 5 ms (1,000 x 8/1,544,000 second) over a T-1 link. Neglecting buffering and processing delays, two T-1 hops will cost 10 ms in comparison to 143 ms via the 56-kbps link.
 
-#### Processing IGRP updates
+#### 2.2.2.7 Processing IGRP updates
 
 The processing of IGRP updates is very similar to the processing of RIP updates, described in [Chapter 2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch02.html "Chapter 2. Routing Information Protocol (RIP)"). The IGRP update comes with an autonomous system number. If this does not match the IGRP AS number configured on the router receiving the update, the entire upgrade is disregarded. Thus, routers _NewYork_ and _Nairobi_ in TraderMary’s network will receive updates from each other but will discard them.
 
@@ -1466,7 +1466,7 @@ The rules for processing IGRP updates are:
 5. If the destination network number is known to the router and the update contains the same metric from a different next hop, install the route as long as the maximum number of paths to the same destination is not exceeded. These parallel paths are then used for load balancing. Note that the default maximum number of paths to a single destination is six in IOS Releases 11.0 or later.
     
 
-### Parallel Paths
+### 2.2.3 Parallel Paths
 
 For the routing table to be able to install multiple paths to the same destination, the IGRP metric for all the paths must be equal. The routing table will install several parallel paths to the same destination (the default maximum is six in current releases of IOS).
 
@@ -1608,7 +1608,7 @@ Traffic from _NewYork_ to _London_ will be divided between _Serial2_ and 
 
 The default value of variance is 1. A danger with using a variance value of greater than 1 is the possibility of introducing a routing loop. Thus, _NewYork_ may start routing to _London_ via _Chicago_ if the variance is made sufficiently large. IGRP checks that the paths it chooses to install are always downstream (toward the destination) by choosing only next hops with lower metrics to the destination.
 
-### Steady State
+### 2.2.4 Steady State
 
 It is important for you as the network administrator to be familiar with the state of the network during normal conditions. Deviations from this state will be your clue to troubleshooting the network during times of network outage. This output shows the values of the IGRP timers:
 
