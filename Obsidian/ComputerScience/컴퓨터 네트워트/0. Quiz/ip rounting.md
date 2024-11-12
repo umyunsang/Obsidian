@@ -818,9 +818,9 @@ IGRP is a Cisco proprietary protocol; other router vendors do not support IGRP. 
 
 The following section gets us started with configuring IGRP.
 
-## Getting IGRP Running
+## 2.1 Getting IGRP Running
 
-TraderMary’s network, shown in [Figure 3-1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03.html#iprouting-CHP-3-FIG-1 "Figure 3-1. TraderMary’s network"), can be configured to run IGRP as follows.
+TraderMary’s network, shown in Figure 3-1
 
 ![[Pasted image 20241110170001.png]]
 Figure 3-1. TraderMary’s network
@@ -974,11 +974,11 @@ network 172.16.0.0
 network 192.168.1.0
 ```
 
-Getting IGRP started is fairly straightforward. However, if you compare the routing tables in this section to those in the previous chapter on RIP, there is no difference in the next-hop information. More importantly, the route from _NewYork_ to network `172.16.100.0` is still over the direct 56-kbps path rather than the two-hop T-1 path. The two-hop T-1 path is better than the one-hop 56-kbps link. As an example, take a 512-byte packet; it would take 73 ms to copy this packet over a 56-kbits/s link versus 5 ms over two T-1 links. Our expectation is that IGRP should install this two-hop T-1 path, since IGRP has been touted for its metric that includes link bandwidth and delay. [Section 3.2.2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03s02.html#iprouting-CHP-3-SECT-2.2 "IGRP Metric") explains why IGRP installs the slower path. [Section 3.2.2.6](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03s02.html#iprouting-CHP-3-SECT-2.2.6 "Modifying IGRP metrics") leads us through the configuration changes required to make IGRP install the faster path.
+Getting IGRP started is fairly straightforward. However, if you compare the routing tables in this section to those in the previous chapter on RIP, there is no difference in the next-hop information. More importantly, the route from _NewYork_ to network `172.16.100.0` is still over the direct 56-kbps path rather than the two-hop T-1 path. The two-hop T-1 path is better than the one-hop 56-kbps link. As an example, take a 512-byte packet; it would take 73 ms to copy this packet over a 56-kbits/s link versus 5 ms over two T-1 links. Our expectation is that IGRP should install this two-hop T-1 path, since IGRP has been touted for its metric that includes link bandwidth and delay. Section 2.2.2 explains why IGRP installs the slower path. Section 2.2.2.6 leads us through the configuration changes required to make IGRP install the faster path.
 
 A key difference in this configuration is that, unlike in RIP, each IGRP process is identified by an autonomous system (AS) number. AS numbers are described in detail in the next section.
 
-## How IGRP Works
+## 2.2 How IGRP Works
 
 Since IGRP is such a close cousin of RIP, we will not repeat the details of how DV algorithms work, how updates are sent, and how route convergence is achieved. However, because IGRP employs a much more comprehensive metric, I’ll discuss the IGRP metric in detail. I’ll begin this discussion with AS numbers.
 
@@ -1663,7 +1663,7 @@ You should also be familiar with the number of major network numbers (two in the
 ---
  The concept of an _outgoing_ interface is best illustrated with an example. In TraderMary’s network, the outgoing interfaces from _NewYork_ to 172.16.100.0 will be _NewYork_ interface _Serial0_, _Chicago_ interface _Serial_, and _Ames_ interface _Ethernet0_. When computing the metric for _NewYork_ to 172.16.100.0, we will use the IGRP parameters of bandwidth, delay, load, reliability, and MTU for these interfaces. We will not use the IGRP parameters from interfaces. However, unless they have been modified, the parameters on this second set of interfaces would be identical to the first.
  
-## Speeding Up Convergence
+## 2.3 Speeding Up Convergence
 
 Like RIP, IGRP implements hold-downs, split horizon, triggered updates, and poison reverse (see [Chapter 2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch02.html "Chapter 2. Routing Information Protocol (RIP)") for details on these convergence methods). Like RIP, IGRP also maintains an update timer, an invalid timer, a hold-down timer, and a flush timer for every route in the routing table:
 
@@ -1711,7 +1711,7 @@ thus speeding up convergence when a route fails. However, the problem with turni
 
 Split horizon, triggered updates, and poison reverse are implemented in IGRP much like they are in RIP.
 
-## Route Summarization
+## 2.4 Route Summarization
 
 IGRP summarizes network numbers when crossing a major network-number boundary, just like RIP does. Route summarization reduces the number of routes that need to be exchanged, processed, and stored.
 
@@ -1722,7 +1722,7 @@ Figure 3-5. Contiguous and discontiguous networks
 
 Both IGRP and RIP networks must be designed in contiguous blocks of major network numbers.
 
-## Default Routes
+## 2.5 Default Routes
 
 IGRP tracks default routes in the exterior section of its routing updates. A router receiving `10.0.0.0` in the exterior section of a routing update would mark `10.0.0.0` as a default route and install its next hop to `10.0.0.0` as the _gateway of last resort_ . Consider the network in [Figure 3-6](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03s05.html#iprouting-CHP-3-FIG-6 "Figure 3-6. Branch offices only need a default route") as an example in which a core router connects to several branch routers in remote sites.
 
@@ -1864,7 +1864,7 @@ Note that it is also possible to set up one router (say, _core1_) as primary an
    ip route 10.0.0.0 255.0.0.0 Null0
 ```
 
-## Classful Route Lookups
+## 2.6 Classful Route Lookups
 
 Router _branch1_ is configured to perform classful route lookups (see line 7 in the previous code block). A classful route lookup works as follows:
 
@@ -1935,7 +1935,7 @@ This demonstrates the use of rule 2, which causes the packet for `172.16.10.1`�
 
 Classless route lookup, the other option, is discussed in [Chapter 5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch05.html "Chapter 5. Routing Information Protocol Version 2 (RIP-2)").
 
-## Summing Up
+## 2.7 Summing Up
 
 IGRP has the robustness of RIP but adds a major new feature -- route metrics based on bandwidth and delay. This feature -- along with the ease with which it can be configured and deployed -- has made IGRP tremendously popular for small to mid-sized networks. However, IGRP does not address several problems that also affect RIP:
 
