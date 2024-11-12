@@ -540,7 +540,7 @@ Do not modify RIP timers unless absolutely necessary. If you modify RIP timers, 
 
 If an interface on a router goes down, the router sends a RIP request out to the other, up interfaces. This speeds up convergence if any of the other neighbors can reach the destinations that were missed in the first request.
 
-## Subnet Masks
+## 1.4 Subnet Masks
 
 Looking closely at [Figure 2-2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch02s02.html#iprouting-CHP-2-FIG-2 "Figure 2-2. Format of RIP update packet"), we see that there is no field for subnet masks in RIP. Let’s say that router _SantaFe_ received an update with the following routes in the IP address field:
 
@@ -594,7 +594,7 @@ _SantaFe_ represents `192.100.1.48` and `192.100.1.64` with a 28-bit mask e
 
 _SantaFe_ represents `192.100.2.0` and `10.0.0.0` with their natural 24-bit and 8-bit masks, respectively, because it has no interfaces on those networks. [Chapter 5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch05.html "Chapter 5. Routing Information Protocol Version 2 (RIP-2)") covers RIP-2, an extension of RIP that supports VLSM.
 
-## Route Summarization
+## 1.5 Route Summarization
 
 Consider the router _Phoenix_, which connects to _SantaFe_ and sends the RIP updates shown earlier:
 
@@ -640,7 +640,7 @@ network 10.0.0.0
 
 _Phoenix_ did not send detailed routes for `192.100.2.0` or `10.0.0.0` when advertising to _SantaFe_ because _Phoenix_ summarized those routes. As I stated earlier, since _Phoenix_ did not have interfaces on those networks, it couldn’t have made sense of those routes anyway.
 
-## Default Route
+## 1.6 Default Route
 
 A routing table need not contain all routes in the network to reach all destinations. This simplification is arrived at through the use of a _default route_ . When a router does not have an explicit route to a destination IP address, it looks to see if it has a default route in its routing table and, if so, forwards packets for this destination via the default route.
 
@@ -710,7 +710,7 @@ Some host machines listen to RIP updates in “quiet” or “silent” mode ([F
 ![[Pasted image 20241110164753.png]]
 Figure 2-8. RIP routes to hosts
 
-## Fine-Tuning RIP
+## 1.7 Fine-Tuning RIP
 
 We saw in the section on RIP metrics that the preferred path between _NewYork_ and _Ames_ would be the two-hop path via _Chicago_ rather than the one-hop 56-kbps path that RIP selects. The RIP metrics can be manipulated to disfavor the one-hop path through the use of offset lists:
 
@@ -794,7 +794,7 @@ access-list 30 permit 0.0.0.0 0.0.0.0
 
 _Portland_ would prefer the default via _core1_ because the metric from _core1_ would be lower by 3. _Portland_ would use the default from _core2_ if _core1_ or the link to _core1_ went down.
 
-## Summing Up
+## 1.8 Summing Up
 
 RIP is a relatively simple protocol, easy to configure and very reliable. The robustness of RIP is evident from the fact that various implementations of RIP differ in details and yet work well together. A standard for RIP wasn’t put forth until 1988 (by Charles Hedrick, in RFC 1058). Small, homogeneous networks are a good match for RIP. However, as networks grow, other routing protocols may look more attractive for several reasons:
 
