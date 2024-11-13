@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/인터넷 프로토콜(IP).md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "인터넷 프로토콜(IP)"
+              "title": "네트워크 계층 작업과 프로토콜"
             }
           }
         ]
@@ -35,10 +35,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/11. 인터넷 프로토콜라우팅 알고리즘.pdf"
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/12. 네트워크 계층 작업과 프로토콜.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "11. 인터넷 프로토콜라우팅 알고리즘"
+              "title": "12. 네트워크 계층 작업과 프로토콜"
             }
           }
         ]
@@ -185,6 +185,11 @@
   },
   "active": "ca6b87df154344b4",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/12. 네트워크 계층 작업과 프로토콜.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
+    "Pasted image 20241113173513.png",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/인터넷 프로토콜(IP).md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/11. 인터넷 프로토콜라우팅 알고리즘.pdf",
     "image/Pasted image 20241113172550.png",
     "image/Pasted image 20241113172005.png",
     "image/Pasted image 20241113171517.png",
@@ -194,10 +199,6 @@
     "image/Pasted image 20241113170341.png",
     "image/Pasted image 20241113170212.png",
     "image/Pasted image 20241113165934.png",
-    "image/Pasted image 20241113165520.png",
-    "image/Pasted image 20241113165044.png",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/11. 인터넷 프로토콜라우팅 알고리즘.pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/인터넷 프로토콜(IP).md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/ip rounting.md",
     "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
     "Obsidian/ComputerScience/운영체제/8. 메모리관리/8. 메모리관리.pdf",
@@ -219,7 +220,6 @@
     "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
     "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf",
     "Obsidian/ComputerScience/이산수학/6 트리.pdf",
-    "Obsidian/ComputerScience/이산수학/7 지식그래프 소개.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
@@ -229,7 +229,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
-    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/음성인식.md",
-    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/TTS.md"
+    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/음성인식.md"
   ]
 }
