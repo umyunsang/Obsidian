@@ -2241,22 +2241,22 @@ All route computations in EIGRP are handled by DUAL. One of DUAL’s tasks is ma
 
 These processes are described in detail in the following sections.
 
-#### Reported distance
+#### 3.3.3.1 Reported distance
 
-Just like RIP and IGRP, EIGRP calculates the lowest cost to reach a destination based on updates[[4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#ftn.ch04-FTNOTE-1)] from neighbors. An update from a router _R_ contains the cost to reach the destination network _N_ from _R_. This cost is referred to as the _reported distance_ (RD). _NewYork_ receives an update from _Ames_ with a cost of 281,600, which is _Ames_’s cost to reach `172.16.100.0`. In other words, the RD for _Ames_ to reach `172.160.100.0` as reported to _NewYork_ is 281,600. Just like _Ames_, _Chicago_ will report its cost to reach `172.16.100.0`. _Chicago_’s RD is 2,195,456 (see [Figure 4-2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-2 "Figure 4-2. Ames is a feasible successor for 172.16.100.0")).
+Just like RIP and IGRP, EIGRP calculates the lowest cost to reach a destination based on updates from neighbors. An update from a router _R_ contains the cost to reach the destination network _N_ from _R_. This cost is referred to as the _reported distance_ (RD). _NewYork_ receives an update from _Ames_ with a cost of 281,600, which is _Ames_’s cost to reach `172.16.100.0`. In other words, the RD for _Ames_ to reach `172.160.100.0` as reported to _NewYork_ is 281,600. Just like _Ames_, _Chicago_ will report its cost to reach `172.16.100.0`. _Chicago_’s RD is 2,195,456 (see [Figure 4-2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-2 "Figure 4-2. Ames is a feasible successor for 172.16.100.0")).
 
 ![[Pasted image 20241110174908.png]]
 Figure 4-2. Ames is a feasible successor for 172.16.100.0
 
-#### Feasible distance and successor
+#### 3.3.3.2 Feasible distance and successor
 
 _NewYork_ will compute its cost to reach `172.16.100.0` via _Ames_ and _Chicago_. _NewYork_ will then compare the metrics for the two paths. _NewYork_’s cost via _Ames_ is 46,251,776. _NewYork_’s cost via _Chicago_ is 2,707,456. The lowest cost to reach a destination is referred to as the _feasible distance_ (FD) for that destination. _NewYork_’s FD to `172.16.100.0` is 2,707,456 (_BandW_ = 1,544 and _Delay_ = 4,100). The next-hop router in the lowest-cost path to the destination is referred to as the _successor_ . _NewYork_’s successor for `172.16.100.0` is `172.16.50.1` (_Chicago_).
 
-#### Feasibility condition and feasible successor
+#### 3.3.3.3 Feasibility condition and feasible successor
 
 If a reported distance for a destination is less than the feasible distance for the same destination, the router that advertised the RD is said to satisfy the _feasibility condition_ (FC) and is referred to as a _feasible successor_ (FS). _NewYork_ sees an RD of 281,600 via _Ames_, which is lower than _NewYork_’s FD of 2,707,456. _Ames_ satisfies the FC. _Ames_ is an FS for _NewYork_ to reach `172.16.100.0`.
 
-#### Loop freedom
+#### 3.3.3.4 Loop freedom
 
 The feasibility condition is a test for _loop freedom_ : if the FC is met, the router advertising the RD must have a path to the destination not through the router checking the FC -- if it did, the RD would have been higher than the FD.
 
@@ -2269,7 +2269,7 @@ Router _A_’s best route to network _N_ is via router _B_, and the cost of 
 
 Here is how _A_ answers this question. Let’s say that _X_ advertises _N_ with a metric of 90 (_X_’s RD for _N_). _A_ compares 90 (RD) with 100 (FD). Is RD < FD? This comparison is the FC check. Since _A_’s FD is 100, _X_’s path to _N_ must not be via _A_ (and is loop-free). If _X_ advertises _N_ with a metric of 110, _X_’s path to _N_ could be via _A_ (the RD is not less than the FD, so the FC check fails) -- 110 could be _A_’s cost added to the metric of the link between _A_ and _X_ (and, hence, is not guaranteed to be free of a loop).
 
-#### Topology table
+#### 3.3.3.5 Topology table
 
 All destinations advertised by neighbors are copied into the topology table. Each destination is listed along with the neighbors that advertised the destination, the RD, and the metric to reach the destination via that neighbor. Let’s look at _NewYork_’s topology table and zoom in on destination `172.16.100.0`. There are two neighbors that sent updates with this destination: _Chicago_ (`172.16.250.2`) and _Ames_ (`172.16.251.2`), as shown on lines 9 and 10, respectively:
 
@@ -2340,7 +2340,7 @@ If DUAL finds a feasible successor in its own topology table after one of these 
 
 The next section contains two examples of DUAL reevaluating its topology table. In the first example, the route remains passive; in the second example, the route becomes active before returning to the passive state.
 
-#### Convergence in DUAL -- local computation
+#### 3.3.3.6 Convergence in DUAL -- local computation
 
 Let’s say that the _NewYork_ → _Chicago_ link fails ([Figure 4-5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-5 "Figure 4-5. Link failure")).
 
@@ -2406,7 +2406,7 @@ Success rate is 99 percent (999/1000), round-trip min/avg/max = 1/3/92 ms
 
 Note that only one ping packet was lost during this computation, implying that the convergence time (including the time to detect the failure of the link) was in the range of two to four seconds.
 
-#### Convergence in DUAL -- diffusing computation
+#### 3.3.3.7 Convergence in DUAL -- diffusing computation
 
 Let’s next follow the steps that DUAL would take for `172.16.50.0`. Notice that this is a different case in that when _Serial0_ is down, _NewYork_ has no feasible successors in its topology table (see line 14).
 
