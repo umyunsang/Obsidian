@@ -2640,7 +2640,7 @@ Using subnet masks that reflect the size of the host population conserves addres
 
 The default behavior of EIGRP is to summarize on network-number boundaries. This is similar to RIP and IGRP and is a prudent way for a routing protocol to reduce the number of routes that are propagated between routers. However, there are some enhancements in the way EIGRP summarizes routes that merit a closer look.
 
-### Automatic Summarization
+### 3.5.1 Automatic Summarization
 
 Say TraderMary’s network expands again, this time with a node in Shannon. Shannon gets connected to the London office via a 56-kbps link, as shown in [Figure 4-9](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s05.html#iprouting-CHP-4-FIG-9 "Figure 4-9. Route summarization").
 
@@ -2697,7 +2697,7 @@ Note that _no auto-summary_ was required only on the _Shannon_ and _Ottawa_
 
 The moral of this story is that EIGRP networks do not have to be contiguous with respect to major network numbers. However, I do not recommend deliberately building discontiguous networks. Summarizing on network-number boundaries is an easy way to reduce the size of routing tables and the complexity of the network. Disabling route summarization should be undertaken only when necessary.
 
-### Manual Summarization
+### 3.5.2 Manual Summarization
 
 EIGRP allows for the summarization of (external or internal) routes on any bit boundary. Manual summarization can be used to reduce the size of routing tables.
 
