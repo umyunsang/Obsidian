@@ -1679,7 +1679,7 @@ Hold-down timer (default value: 280 seconds)
 Flush timer (default value: 630 seconds)
 	Every time a router receives an update for a route, it sets the flush timer to 0. When the flush timer expires, the route is removed from the routing table and the router is ready to receive a new route update. Note that the flush timer overrides the hold-down timer.
 
-### Setting Timers
+### 2.3.1 Setting Timers
 
 IGRP timers can be modified to allow faster convergence. The configuration:
 
@@ -1698,7 +1698,7 @@ Changing timers also presents the danger that sooner or later someone will confi
 
 Do not modify IGRP timers unless absolutely necessary. If you modify IGRP timers, make sure that all routers have the same timers.
 
-### Disabling IGRP Hold-Downs
+### 2.3.2 Disabling IGRP Hold-Downs
 
 IGRP hold-downs can be disabled with the command:
 
@@ -1806,7 +1806,7 @@ Here are the steps we followed in the creation of the default route:
 
 There are a few things to note when creating default routes in IGRP. First, IGRP does not use `0.0.0.0` as a default route. Thus, if `0.0.0.0` were defined in place of `10.0.0.0`, IGRP would not convey it. Second, how should one choose which network number to flag as a default route? In the previous example, the network `10.0.0.0` does not need to be a real network number configured on an interface; it could just be a fictitious number (that does not exist as a real number in the network) to which all default traffic will be sent. Using a fictitious number instead of a real network number as the default route can have certain advantages. For example, a fictitious network number will not go down if an interface goes down. Further, changing the ideal candidate for the default route can be much easier with fictitious network numbers than with real network numbers.
 
-### Multiple Default Routes
+### 2.5.1 Multiple Default Routes
 
 To increase the reliability of the connection to branches, each branch may be connected to two core routers:
 
