@@ -2463,7 +2463,7 @@ The PDM is also responsible for encapsulating EIGRP messages in IP packets.
 
 ### 3.3.5 EIGRP Packet Format
 
-EIGRP packets are encapsulated directly in IP with the protocol field set to 88. The destination IP address in EIGRP depends on the packet type -- some packets are sent as multicast (with an address of `224.0.0.10`) and others are sent as unicast (see the earlier section [Section 4.3.2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.2 "Reliable Transport Protocol") for more details). The source IP address is the IP address of the interface from which the packet is issued.
+EIGRP packets are encapsulated directly in IP with the protocol field set to 88. The destination IP address in EIGRP depends on the packet type -- some packets are sent as multicast (with an address of `224.0.0.10`) and others are sent as unicast (see the earlier section [Section 3.3.2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.2 "Reliable Transport Protocol") for more details). The source IP address is the IP address of the interface from which the packet is issued.
 
 Following the IP header is an EIGRP header. Key fields in the EIGRP header are as follows, and are also shown in [Figure 4-6](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-6 "Figure 4-6. Format of EIGRP packets"):
 
@@ -2471,9 +2471,9 @@ Following the IP header is an EIGRP header. Key fields in the EIGRP header are a
     
 - The _checksum_ applies to the entire EIGRP packet, excluding the IP header.
     
-- The rightmost bit in the _flags_ field is the initialization bit and is used in establishing a new neighbor relationship (see [Section 4.3.1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.1 "Neighbor Relationship") earlier in this chapter).
+- The rightmost bit in the _flags_ field is the initialization bit and is used in establishing a new neighbor relationship (see [Section 3.3.1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.1 "Neighbor Relationship") earlier in this chapter).
     
-- The _sequence_ and _ack_ fields are used to send messages reliably (see [Section 4.3.2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.2 "Reliable Transport Protocol") earlier in this chapter).
+- The _sequence_ and _ack_ fields are used to send messages reliably (see [Section 3.3.2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.2 "Reliable Transport Protocol") earlier in this chapter).
     
 - The _AS number_ identifies the EIGRP process issuing the packet. The EIGRP process receiving the packet will process the packet only if the receiving EIGRP process has the same AS number; otherwise, the packet will be discarded.
     
@@ -2489,9 +2489,9 @@ _External_ routes contain destination network numbers that were not learned wit
 
 Internal and external routes are represented differently in the EIGRP update.
 
-#### Internal routes
+#### 3.3.5.1 Internal routes
 
-Internal routes have a _type_ field of 0x0102. The metric information contained with the route is much like IGRP’s (see [Chapter 3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03.html "Chapter 3. Interior Gateway Routing Protocol (IGRP)")). However, there are two new fields: _next hop_ and _prefix length_. [Figure 4-7](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-7 "Figure 4-7. EIGRP internal route") shows the value field for the IP internal route.
+Internal routes have a _type_ field of 0x0102. The metric information contained with the route is much like IGRP’s (see [Chapter 2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03.html "Chapter 3. Interior Gateway Routing Protocol (IGRP)")). However, there are two new fields: _next hop_ and _prefix length_. [Figure 4-7](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-7 "Figure 4-7. EIGRP internal route") shows the value field for the IP internal route.
 
 ![[Pasted image 20241110175451.png]]
 Figure 4-7. EIGRP internal route
@@ -2514,7 +2514,7 @@ ip address 172.16.250.1 255.255.255.252
 
 it will advertise `172.16.250.0` with a prefix length of 30.
 
-#### External routes
+#### 3.3.5.2 External routes
 
 Additional fields are required to represent the source from which external routes are derived, as shown in [Figure 4-8](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-FIG-8 "Figure 4-8. EIGRP external route").
 
