@@ -2131,7 +2131,7 @@ The EIGRP composite metric is computed exactly as the IGRP metric is and then m
 
 _Metric =_ [_BandW +Delay_]x 256
 
-where _BandW_ and _Delay_ are computed exactly as for IGRP (see [Section 3.2.2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03s02.html#iprouting-CHP-3-SECT-2.2 "IGRP Metric") in [Chapter 3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03.html "Chapter 3. Interior Gateway Routing Protocol (IGRP)")). In summary, _BandW_ is computed by taking the smallest bandwidth (expressed in kbits/s) from all outgoing interfaces to the destination (including the destination) and dividing 10,000,000 by this number (the smallest bandwidth), and _Delay_ is the sum of all the delay values to the destination network (expressed in tens of microseconds).
+where _BandW_ and _Delay_ are computed exactly as for IGRP (see [Section 2.2.2] in [Chapter 2]. In summary, _BandW_ is computed by taking the smallest bandwidth (expressed in kbits/s) from all outgoing interfaces to the destination (including the destination) and dividing 10,000,000 by this number (the smallest bandwidth), and _Delay_ is the sum of all the delay values to the destination network (expressed in tens of microseconds).
 
 Further, note that the total delay (line 6), minimum bandwidth (line 6), reliability (line 7), minimum MTU (line 7), and load (line 8) for a path, which are used to compute the composite metric (line 5), are shown as output of the **show ip route destination-network-number** command:
 
@@ -2151,7 +2151,7 @@ Further, note that the total delay (line 6), minimum bandwidth (line 6), reliabi
 
 Converting route metrics between EIGRP and IGRP is very straightforward: EIGRP metrics are 256 times larger than IGRP metrics. This easy conversion becomes important when a network is running both IGRP and EIGRP, such as during a migration from IGRP to EIGRP.
 
-Just like IGRP, EIGRP can be made to use load and reliability in its metric by modifying the parameters k1, k2, k3, k4, and k5 (see [Section 3.2.2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03s02.html#iprouting-CHP-3-SECT-2.2 "IGRP Metric") in [Chapter 3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03.html "Chapter 3. Interior Gateway Routing Protocol (IGRP)")).
+Just like IGRP, EIGRP can be made to use load and reliability in its metric by modifying the parameters k1, k2, k3, k4, and k5 (see [Section 2.2.2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03s02.html#iprouting-CHP-3-SECT-2.2 "IGRP Metric") in [Chapter 2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03.html "Chapter 3. Interior Gateway Routing Protocol (IGRP)")).
 
 The constants k1, k2, k3, k4, and k5 can be modified with the following command:
 
@@ -2172,16 +2172,16 @@ RIP and IGRP employ a battery of techniques to reduce the likelihood of routing 
 
 DUAL can support IP, IPX, and AppleTalk. A protocol-dependent module encapsulates DUAL messages and handles interactions with the routing table. In summary, DUAL requires:
 
-1. A method for the discovery of new neighbors and their loss (see the next section, [Section 4.3.1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.1 "Neighbor Relationship")).
+1. A method for the discovery of new neighbors and their loss (see the next section, [Section 3.3.1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.1 "Neighbor Relationship")).
     
-2. Reliable transmission of update packets between neighbors (see the later section [Section 4.3.2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.2 "Reliable Transport Protocol")).
+2. Reliable transmission of update packets between neighbors (see the later section [Section 3.3.2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.2 "Reliable Transport Protocol")).
     
-3. Protocol-dependent modules that can encapsulate DUAL traffic in IP, IPX, or AppleTalk. This text will deal only with EIGRP in IP networks (see the later section [Section 4.3.4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.4 "Protocol-Dependent Module")).
+3. Protocol-dependent modules that can encapsulate DUAL traffic in IP, IPX, or AppleTalk. This text will deal only with EIGRP in IP networks (see the later section [Section 3.3.4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.4 "Protocol-Dependent Module")).
     
 
 I’ll end this section with a discussion of EIGRP packet formats.
 
-### Neighbor Relationship
+### 3.3.1 Neighbor Relationship
 
 A router discovers a neighbor when it receives its first hello packet on a directly connected network. The router requests DUAL to send a full route update to the new neighbor. In response, the neighbor sends its full route update. Thus, a new neighbor relationship is established in the following steps:
 
@@ -2223,7 +2223,7 @@ H   Address                 Interface   Hold Uptime   SRTT   RTO  Q  Seq
 
 After a neighbor relationship has been established between A and B the only EIGRP overhead is the exchange of hello packets, unless there is a topological change in the network.
 
-### Reliable Transport Protocol
+### 3.3.2 Reliable Transport Protocol
 
 The EIGRP transport mechanism uses a mix of multicast and unicast packets, using reliable delivery when necessary. All transmissions use IP with the protocol type field set to 88. The IP multicast address used is `224.0.0.10`.
 
@@ -2235,7 +2235,7 @@ Some transmissions do not require reliable delivery. For example, hello packets 
 
 EIGRP also uses _queries_ and _replies_ as part of DUAL. Queries are multicast or unicast using reliable delivery, whereas replies are always reliably unicast. Query and reply packets are discussed in more detail in the next section.
 
-### Diffusing Update Algorithm (DUAL)
+### 3.3.3 Diffusing Update Algorithm (DUAL)
 
 All route computations in EIGRP are handled by DUAL. One of DUAL’s tasks is maintaining a table of loop-free paths to every destination. This table is referred to as the _topology table_ . Unlike traditional DV protocols that save only the best (least-cost) path for every destination, DUAL saves all paths in the topology table. The least-cost path(s) is copied from the topology table to the routing table. In the event of a failure, the topology table allows for very quick convergence if another loop-free path is available. If a loop-free path is not found in the topology table, a route recomputation must occur, during which DUAL queries its neighbors, who, in turn, may query their neighbors, and so on... hence the name “Diffusing” Update Algorithm.
 
@@ -2455,13 +2455,13 @@ In general, if DUAL does not find a feasible successor, it forwards the query to
 
 When DUAL marks a route as active and sets the _r_ flag on, it sets a timer for how long it will wait for a reply. The default value of the timer is three minutes. DUAL waits for a reply from all the neighbors it queries. If a neighbor does not respond to a query, the route is marked as _stuck-in-active_ and DUAL deletes all routes in its topology table that point to the unresponsive neighbor as a feasible successor.
 
-### Protocol-Dependent Module
+### 3.3.4 Protocol-Dependent Module
 
 The successors in the DUAL topology table are eligible for installation in the routing table. Successors represent the best path to the destination known to DUAL. However, whether the successor is copied into the routing table is another matter. The router may be aware of a route to the same destination from another source (such as another routing protocol or via a static route) with a lower _distance_. The IP protocol-dependent module (PDM) handles this task. The PDM may also carry information in the reverse direction -- from the routing table to the topology table. This will occur if routes are being redistributed into EIGRP from another protocol.
 
 The PDM is also responsible for encapsulating EIGRP messages in IP packets.
 
-### EIGRP Packet Format
+### 3.3.5 EIGRP Packet Format
 
 EIGRP packets are encapsulated directly in IP with the protocol field set to 88. The destination IP address in EIGRP depends on the packet type -- some packets are sent as multicast (with an address of `224.0.0.10`) and others are sent as unicast (see the earlier section [Section 4.3.2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s03.html#iprouting-CHP-4-SECT-3.2 "Reliable Transport Protocol") for more details). The source IP address is the IP address of the interface from which the packet is issued.
 
