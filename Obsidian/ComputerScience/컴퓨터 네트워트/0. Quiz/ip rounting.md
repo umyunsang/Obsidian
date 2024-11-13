@@ -1963,15 +1963,15 @@ The fast convergence feature in EIGRP is due to the Diffusing Update Algorithm (
 
 EIGRP updates carry subnet mask information. This allows EIGRP to summarize routes on arbitrary bit boundaries, support classless route lookups, and allow the support of Variable Length Subnet Masks (VLSM). This is discussed in Section 4.4 and Section 4.5.
 
-Setting up default routes in EIGRP is discussed in [Section 4.6](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s06.html "Default Routes").
+Setting up default routes in EIGRP is discussed in [Section 3.6]
 
-Troubleshooting EIGRP can be tricky. This chapter ends with some troubleshooting tips in [Section 4.7](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04s07.html "Troubleshooting EIGRP").
+Troubleshooting EIGRP can be tricky. This chapter ends with some troubleshooting tips in [Section 3.7]
 
 EIGRP is a Cisco proprietary protocol; other router vendors do not support EIGRP. Keep this in mind if you are planning a multivendor router environment.
 
 This chapter focuses on EIGRP’s enhancements over IGRP: the use of DUAL; and the use of subnet masks in updates, which in turn allow VLSM and route summarization at arbitrary bit boundaries. This chapter does not cover router metrics in detail or the concept of parallel paths. Those concepts have not changed much in EIGRP. I assume that the reader is familiar with IGRP.
 
-## Getting EIGRP Running
+## 3.1 Getting EIGRP Running
 
 TraderMary’s network, shown in [Figure 4-1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch04.html#iprouting-CHP-4-FIG-1 "Figure 4-1. TraderMary’s network"), can be configured to run EIGRP as follows.
 
@@ -2119,13 +2119,13 @@ network 172.16.0.0
 network 192.168.1.0
 ```
 
-Each EIGRP process is identified by an autonomous system (AS) number, just like IGRP processes. Routers with the _same_ AS numbers will exchange routing information with each other, resulting in a _routing domain_ . Routers with dissimilar AS numbers will not exchange any routing information by default. However, routes from one routing domain can be leaked into another domain through the redistribution commands -- this is covered in [Chapter 8](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch08.html "Chapter 8. Administrative Controls").
+Each EIGRP process is identified by an autonomous system (AS) number, just like IGRP processes. Routers with the _same_ AS numbers will exchange routing information with each other, resulting in a _routing domain_ . Routers with dissimilar AS numbers will not exchange any routing information by default. However, routes from one routing domain can be leaked into another domain through the redistribution commands 
 
-Compare the routing table in this section with the corresponding table for IGRP in [Chapter 3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03.html "Chapter 3. Interior Gateway Routing Protocol (IGRP)"). The essential contents are identical: the same routes with the same next hops. However, the route metrics look much bigger and the route update times are very high. IGRP routes would have timed out a while ago.
+Compare the routing table in this section with the corresponding table for IGRP in [Chapter 2]. The essential contents are identical: the same routes with the same next hops. However, the route metrics look much bigger and the route update times are very high. IGRP routes would have timed out a while ago.
 
 EIGRP metrics are essentially derived from IGRP metrics. The following section provides a quick summary.
 
-## EIGRP Metric
+## 3.2 EIGRP Metric
 
 The EIGRP composite metric is computed exactly as the IGRP metric is and then multiplied by 256. Thus, the default expression for the EIGRP composite metric is:
 
@@ -2162,7 +2162,7 @@ metric weights tos k1 k2 k3 k4 k5
 
 Cisco strongly recommends _not_ modifying the k1, k2, k3, k4, and k5 values for EIGRP.
 
-## How EIGRP Works
+## 3.3 How EIGRP Works
 
 Unlike traditional DV protocols such as RIP and IGRP, EIGRP does not rely on _periodic_ updates: routing updates are sent only when there is a change. Remember that RIP and IGRP reset the invalid and flush timers upon receiving a route update. When a route is lost, the updates stop; the invalid and flush timers grow and grow (the timers are not reset), and, ultimately, the route is flushed from the routing table. This process of convergence assumes periodic updates. EIGRP’s approach has the advantage that network resources are not consumed by periodic updates. However, if a router dies, taking away all its downstream routes, how would EIGRP detect the loss of these routes? EIGRP relies on small _hello packets_ to establish neighbor relationships and to detect the loss of a neighbor. Neighbor relationships are discussed in detail in the next section.
 
@@ -2541,7 +2541,7 @@ The other parameters in the external route packet are similar to those in IGRP.
 
 You may ask why this cannot be handled by ICMP redirects. Cisco does not support redirects between routers.
 
-## Variable Length Subnet Masks
+## 3.4 Variable Length Subnet Masks
 
 Unlike RIP and IGRP, EIGRP updates carry subnet mask information. The network architect now has the responsibility of using addresses wisely. Reviewing TraderMary’s configuration, a mask of `255.255.255.0` on the serial links is wasteful: there are only two devices on the link, so a 24-bit mask will waste 252 addresses. A 30-bit mask (`255.255.255.252`) allows two usable IP addresses in each subnet, which fits a serial line exactly.
 
@@ -2636,7 +2636,7 @@ Further, let’s say that Casablanca is a small office with only a dozen people 
 
 Using subnet masks that reflect the size of the host population conserves addresses. Put on your plate only as much as you will eat.
 
-## Route Summarization
+## 3.5 Route Summarization
 
 The default behavior of EIGRP is to summarize on network-number boundaries. This is similar to RIP and IGRP and is a prudent way for a routing protocol to reduce the number of routes that are propagated between routers. However, there are some enhancements in the way EIGRP summarizes routes that merit a closer look.
 
@@ -2791,7 +2791,7 @@ ip summary-address eigrp 10 172.16.0.0 255.255.240.0
 
 If the subnets overlapped, disabling route summarization would not do us any good. There are other methods to tackle duplicate address problems, such as Network Address Translation (NAT).
 
-## Default Routes
+## 3.6 Default Routes
 
 EIGRP tracks default routes in the external section of its routing updates. Candidate default routes are marked by setting the flags field to 0x02.
 
@@ -2855,7 +2855,7 @@ The following steps were followed in the creation of this default route:
 
 To increase the reliability of the connection to branches, each branch may be connected to two core routers. _branch1_ will now receive two default routes. One router (say, _core1_) may be set up as the primary, and the second router (_core2_) as backup. To do this, set up the default from _core2_ with a _worse_ metric, as we did for IGRP in [Chapter 3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch03.html "Chapter 3. Interior Gateway Routing Protocol (IGRP)").
 
-## Troubleshooting EIGRP
+## 3.7 Troubleshooting EIGRP
 
 EIGRP can be difficult to troubleshoot because of its complexity. As a reminder, the best preparation for troubleshooting a network is to be familiar with the network and its state during normal (trouble-free) conditions. Become familiar with the routing tables, their sizes, the summarization points, routing timers, etc. Also, plan ahead with “what-if” scenarios. What if router _X_ failed or link _Y_ dropped? How would connectivity recover? Will all the routes still be in every router’s table? Will the routes still be summarized?
 
@@ -2970,7 +2970,7 @@ As always, use **debug** commands in a production network only after careful t
 - **debug eigrp packet** (all EIGRP packets)
 - **debug eigrp ip neighbor** (if the previous two commands are used together, only EIGRP packets for the specified neighbor are shown)
 
-## Summing Up
+## 3.8 Summing Up
 
 EIGRP offers the following radical improvements over RIP and IGRP:
 
