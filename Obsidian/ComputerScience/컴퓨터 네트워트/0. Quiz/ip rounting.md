@@ -3394,7 +3394,7 @@ OSPF routers must first discover each other before they can exchange their topol
 
 Let’s begin at the beginning. OSPF packets are encapsulated directly in IP with the protocol field set to 89. The destination IP address in OSPF depends on the network type. OSPF uses two IP multicast addresses on broadcast and point-to-point networks: `225.0.0.5` for all OSPF routers and `224.0.0.6` for all DR/BDR (designated router/backup designated router) routers. Using IP multicast addresses is more efficient than using broadcast addresses. If broadcast addresses are used, all attached devices must receive the broadcast packet, unwrap it, and then discard the contents if they are not running OSPF. NBMA networks and virtual links use unicast addresses because they do not support multicast addresses.
 
-Following the IP header is the OSPF header (see [Figure 6-5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-FIG-5 "Figure 6-5. Format of an OSPF header")). The OSPF header is common to all types of OSPF packets. The following list defines the format of the OSPF header and the five types of OSPF packets:
+Following the IP header is the OSPF header (see [Figure 4-5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-FIG-5 "Figure 6-5. Format of an OSPF header")). The OSPF header is common to all types of OSPF packets. The following list defines the format of the OSPF header and the five types of OSPF packets:
 
 _Version_
 The OSPF version in use. The current version number is 2.
@@ -3402,45 +3402,45 @@ The OSPF version in use. The current version number is 2.
 _Type_
 There are five types of OSPF packets:
 	Type 1 : Hello packets, described in the next section.
-	Type 2 : Database description packets, described later under [Section 6.4.5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-SECT-4.5 "Database Exchange").
-	Type 3 : Link state requests, described in [Section 6.4.5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-SECT-4.5 "Database Exchange").
-	Type 4 : Link state updates, described in [Section 6.4.5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-SECT-4.5 "Database Exchange").
-	Type 5 : Link state acknowledgments, described in [Section 6.4.5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-SECT-4.5 "Database Exchange").
+	Type 2 : Database description packets, described later under [Section 4.4.5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-SECT-4.5 "Database Exchange").
+	Type 3 : Link state requests, described in [Section 4.4.5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-SECT-4.5 "Database Exchange").
+	Type 4 : Link state updates, described in [Section 4.4.5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-SECT-4.5 "Database Exchange").
+	Type 5 : Link state acknowledgments, described in [Section 4.4.5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-SECT-4.5 "Database Exchange").
 
 _Packet length_
-The length of the OSPF packet, including the header.
+	The length of the OSPF packet, including the header.
 
 _Router ID_
-The router ID of the router originating the OSPF packet.
+	The router ID of the router originating the OSPF packet.
 
 _Area ID_
-The area ID of the network on which this packet is being sent.
+	The area ID of the network on which this packet is being sent.
 
 _Checksum_
-The checksum for the entire packet, including the header.
+	The checksum for the entire packet, including the header.
 
 _Au type_
-The type of authentication scheme in use. The possible values for this field are:
-	0 : No authentication
-	1 : Clear-text password authentication
-	2 : MD5 checksum
+	The type of authentication scheme in use. The possible values for this field are:
+		0 : No authentication
+		1 : Clear-text password authentication
+		2 : MD5 checksum
 
 _Authentication data_
-The authentication data.
+	The authentication data.
 
 ![[Pasted image 20241110183137.png]]
-Figure 6-5. Format of an OSPF header
+Figure 4-5. Format of an OSPF header
 
-### Neighbor Discovery: The Hello Protocol
+### 3.4.1 Neighbor Discovery: The Hello Protocol
 
 Every router generates OSPF hello packets on every OSPF-enabled interface. Hello packets are sent every 10 seconds on broadcast media and every 30 seconds on nonbroadcast media. Routers discover their neighbors by listening to hellos. The output of the command **show ip ospf neighbor** lists the neighbors that have been discovered.
 
-Each hello packet contains the fields described in the following sections. The format of a hello packet is shown in [Figure 6-6](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-FIG-6 "Figure 6-6. Format of hello packet").
+Each hello packet contains the fields described in the following sections. The format of a hello packet is shown in [Figure 4-6](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-FIG-6 "Figure 6-6. Format of hello packet").
 
 ![[Pasted image 20241110183201.png]]
-Figure 6-6. Format of hello packet
+Figure 4-6. Format of hello packet
 
-#### Router ID
+#### 3.4.1.1 Router ID
 
 When the OSPF process first starts on a router (e.g., when the router is powered up) it attempts to establish a _router ID._ The router ID is the name or label that will be attached to the node representing the router in the SPF topology graph. If OSPF cannot establish a router ID, the OSPF process aborts.
 
@@ -3492,19 +3492,19 @@ Note the following points:
 3. If the router ID is not advertised, any unique address can be used to represent the router ID -- the use of nonreserved IP addresses will not cause any routing-table conflicts.
     
 
-#### Area ID
+#### 3.4.1.2 Area ID
 The area ID of the interface on which the OSPF packet is being sent.
 
-#### Checksum
+#### 3.4.1.3 Checksum
 The checksum pertaining to the hello packet.
 
-#### Authentication
+#### 3.4.1.4 Authentication
 The authentication method and authentication data.
 
-#### Network mask
+#### 3.4.1.5 Network mask
 The network mask of the interface on which the hello packet is being sent.
 
-#### Hello-interval
+#### 3.4.1.6 Hello-interval
 The duration between hello packets. The default value of hello-interval is 10 seconds on most interfaces.
 
 The hello-interval can be modified with the following command in interface configuration mode:
@@ -3512,7 +3512,7 @@ The hello-interval can be modified with the following command in interface conf
 ```
 ip ospf hello-interval _`seconds`_
 ```
-#### Options
+#### 3.4.1.7 Options
 
 OSPF defines several optional capabilities that a router may or may not support. The options field is one octet long, as shown in [Figure 6-7](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-FIG-7 "Figure 6-7. Format of the options field").
 
@@ -3521,24 +3521,24 @@ Figure 6-7. Format of the options field
 
 Routers that support demand circuits set the DC bit; NSSA support is signified using the N bit. The E bit signifies that the router accepts external LSAs -- stub routers turn off this bit. The T bit signifies the support of multiple types of service.
 
-#### Router priority
+#### 3.4.1.8 Router priority
 A router with a higher priority takes precedence in the DR election algorithm. A value of makes the router ineligible for DR/BDR election. The default value of this field is 1.
 
-#### Router dead-interval
+#### 3.4.1.9 Router dead-interval
 If no hello packets are received for the duration of the dead-interval_,_ the neighbor is declared dead. This value can be altered with the following command in interface configuration mode:
 
 ```
 ip ospf dead-interval _`value`_
 ```
-#### Designated router (DR)
+#### 3.4.1.10 Designated router (DR)
 
 The designated router for multi-access networks. This field is set to `0.0.0.0` if no DR has been elected on the network.
 
-#### Backup designated router
+#### 3.4.1.11 Backup designated router
 
 The IP address of the backup designated router’s interface on this network.This field is set to `0.0.0.0` if no BDR has been elected on the network.
 
-#### Neighbor router ID list
+#### 3.4.1.12 Neighbor router ID list
 
 The neighbor router ID list is the list of neighboring routers from which this router has received hellos within the last dead-interval seconds. Before a router lists its neighbor in its hello packet, the two routers must agree on the following: area ID, authentication mechanism, network mask, hello-interval, router dead-interval, and options fields. If these values match, the routers become neighbors and start listing each other in their hello packets.
 
@@ -3556,7 +3556,7 @@ Note that the state of _NewYork_’s relationship with both neighbors is “Ful
 
 Then there are the problem states. “Down” indicates that a hello packet has not been received from the neighbor in the last router dead-interval. “Attempt” applies to NBMA networks and indicates that a hello has not yet been received from the neighbor. “Init” implies that a hello was received from the neighbor but its neighbor router ID list did not include the router ID of this router.
 
-### DR/BDR Election
+### 3.4.2 DR/BDR Election
 
 Consider _n_ routers on a broadcast network (such as Ethernet). If a router exchanged its topological database with every other router on the network, (_n_ x (_n_ - 1)) / 2 adjacencies would be formed on the segment. This would create a lot of OSPF overhead traffic. OSPF solves this problem by electing a _designated router_ (DR) and a _backup designated router_ (BDR) on each broadcast network. Each router on a broadcast network establishes an adjacency with only the DR and the BDR. The DR and the BDR flood this topology information to all other routers on the segment.
 
@@ -3609,7 +3609,7 @@ The state of an OSPF interface (including the result of the DR/BDR election proc
 
 Note that _NewYork_ is the DR on _Ethernet0_. Since there is no other router on this network, there is no BDR (line 10) and the router has not established any adjacencies (line 11).
 
-### Interface State
+### 3.4.3 Interface State
 
 The state of an interface can have one of the following values:
 
@@ -3649,7 +3649,7 @@ As an example, the state of _NewYork_’s interface to _Chicago_ is point-to-
 14      **`Adjacent with neighbor 69.1.1.1`** 
       Suppress hello for 0 neighbor(s)
 ```
-### Neighbor Relationship
+### 3.4.4 Neighbor Relationship
 
 Not all neighbors establish adjacency. Neighbors may stay at “2-way” or enter into a “Full” relationship, depending on the type of network, as follows:
 
@@ -3665,7 +3665,7 @@ Routers on NBMA networks establish adjacency only with the DR and the BDR.
 Virtual links
 Routers on virtual links always establish adjacency.
 
-### Database Exchange
+### 3.4.5 Database Exchange
 
 The _database description (DD) packet_ is used to describe the contents of the LS database to a peer OSPF router. Only LSA headers are sent in DD packets; the peer router responds by sending its own LSA headers in DD packets.
 
