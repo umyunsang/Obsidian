@@ -11,12 +11,14 @@
             "id": "ca6b87df154344b4",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.pdf"
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/ip rounting.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "회복과 병행 제어"
+              "icon": "lucide-file",
+              "title": "ip rounting"
             }
           }
         ]
@@ -75,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -162,8 +165,8 @@
   },
   "active": "ca6b87df154344b4",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/데이터베이스/9. 정규화/9-1. 고급 정규형.pdf",
     "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.pdf",
+    "Obsidian/ComputerScience/데이터베이스/9. 정규화/9-1. 고급 정규형.pdf",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/고급 정규형.md",
     "Pasted image 20241114110314.png",
     "Pasted image 20241114105556.png",

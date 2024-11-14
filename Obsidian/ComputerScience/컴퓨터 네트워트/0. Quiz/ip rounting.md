@@ -3241,9 +3241,9 @@ The developers of OSPF envisaged (as an optional feature) multiple _types of se
 
 ## 3.3 Definitions and Concepts
 
-Dijkstra’s algorithm solves the problem of discovering the shortest path from a single source to all vertices in a graph where the edges are each represented with a cost. For example, a car driver could use Dijkstra’s algorithm to find the shortest paths from New York to major cities in the northeastern U.S. and Canada. The input to Dijkstra would be a graph that could be represented by a matrix like that shown in [Table 6-2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s03.html#iprouting-CHP-6-TABLE-2 "Table 6-2. Driving distances").
+Dijkstra’s algorithm solves the problem of discovering the shortest path from a single source to all vertices in a graph where the edges are each represented with a cost. For example, a car driver could use Dijkstra’s algorithm to find the shortest paths from New York to major cities in the northeastern U.S. and Canada. The input to Dijkstra would be a graph that could be represented by a matrix like that shown in [Table 4-2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s03.html#iprouting-CHP-6-TABLE-2 "Table 6-2. Driving distances").
 
-Table 6-2. Driving distances
+Table 4-2. Driving distances
 
 |Town name|Town name|Driving distance (miles)|
 |---|---|---|
@@ -3257,7 +3257,7 @@ Table 6-2. Driving distances
 |Boston|Toronto|555|
 |Toronto|Detroit|292|
 
-The output would be the shortest paths from New York to all other cities in the graph. A geographical view of [Table 6-2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s03.html#iprouting-CHP-6-TABLE-2 "Table 6-2. Driving distances") is contained in [Figure 6-3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s03.html#iprouting-CHP-6-FIG-3 "Figure 6-3. Geographical view of driving distances").
+The output would be the shortest paths from New York to all other cities in the graph. A geographical view of [Table 4-2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s03.html#iprouting-CHP-6-TABLE-2 "Table 6-2. Driving distances") is contained in [Figure 6-3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s03.html#iprouting-CHP-6-FIG-3 "Figure 6-3. Geographical view of driving distances").
 
 ![[Pasted image 20241110182537.png]]
 Figure 6-3. Geographical view of driving distances
@@ -3271,9 +3271,9 @@ There are six nodes in this graph: New York, Chicago, Boston, Toronto, Detroit, 
 
 The algorithm continues, as in step 2, and the composite list is sorted in increasing order with distances from the source node: New York → Washington (236), New York → Toronto (496), New York → Boston → Toronto (194 + 555 = 749), and New York → Boston → Chicago (194 + 996 = 1,190). In step 3, the shortest path is again picked from the top of the list and Washington is added to the list of vertices for which the shortest path has been identified. The algorithm continues until the shortest paths to all cities have been identified.
 
-OSPF employs Dijkstra’s SPF algorithm to compute the shortest path from a router to every network in the graph. In OSPF terminology, this graph of the network topology (similar to [Table 6-2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s03.html#iprouting-CHP-6-TABLE-2 "Table 6-2. Driving distances")) is referred to as the topological database or the _link state database_ . Each router executes the SPF algorithm with itself as the source node. The results of the SPF algorithm are the shortest paths to each IP network from the source node; hence, this constitutes the IP routing table for the router.
+OSPF employs Dijkstra’s SPF algorithm to compute the shortest path from a router to every network in the graph. In OSPF terminology, this graph of the network topology (similar to [Table 4-2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s03.html#iprouting-CHP-6-TABLE-2 "Table 6-2. Driving distances")) is referred to as the topological database or the _link state database_ . Each router executes the SPF algorithm with itself as the source node. The results of the SPF algorithm are the shortest paths to each IP network from the source node; hence, this constitutes the IP routing table for the router.
 
-Although the database of [Table 6-2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s03.html#iprouting-CHP-6-TABLE-2 "Table 6-2. Driving distances") is relatively static -- driving distances change only when new roads are built or old roads are closed -- the LS database for a network is quite dynamic because of changes in the state of subnetworks. A link may go down or come up. A network administrator may make changes to the status of a link, such as shutting it down or changing its cost. Every time there is any change in a router’s LS database, Dijkstra’s SPF algorithm needs to be run again. It can be shown that the SPF algorithm takes ElogE time to run, where E is the number of edges in the graph.
+Although the database of [Table 4-2](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s03.html#iprouting-CHP-6-TABLE-2 "Table 6-2. Driving distances") is relatively static -- driving distances change only when new roads are built or old roads are closed -- the LS database for a network is quite dynamic because of changes in the state of subnetworks. A link may go down or come up. A network administrator may make changes to the status of a link, such as shutting it down or changing its cost. Every time there is any change in a router’s LS database, Dijkstra’s SPF algorithm needs to be run again. It can be shown that the SPF algorithm takes ElogE time to run, where E is the number of edges in the graph.
 
 As the size of a network grows, Dijkstra will consume more and more memory and CPU resources at each router. In other words, Dijkstra does not scale for large topologies. Fortunately, OSPF has a clever solution to this problem: break the network into _areas_ and execute Dijkstra only on each _intra-area_ topology.
 
@@ -3285,30 +3285,30 @@ Before a router can execute the SPF algorithm, it must have the most recent topo
 
 Unlike flat networks such as RIP and IGRP in which each router has the same responsibilities and tasks, OSPF’s hierarchy imposes a structure in which routers and even areas are differentiated with respect to their roles.
 
-### Backbone Area
+### 3.3.1 Backbone Area
 
 The _backbone area_ is of special significance in OSPF because all other areas must connect to it. The area ID of (or `0.0.0.0`) is reserved for the backbone. [Figure 6-4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s03.html#iprouting-CHP-6-FIG-4 "Figure 6-4. OSPF architecture: a high-level view") shows an OSPF network comprised of a backbone area and three other areas -- areas 1, 2, and 3. Note that all inter-area traffic must pass through the backbone area, which implies that backbone routers must possess the complete topological database for the network.
 
 ![[Pasted image 20241110182638.png]]
 Figure 6-4. OSPF architecture: a high-level view
 
-### Backbone Router
+### 3.3.2 Backbone Router
 
 A router with an interface in area is referred to as a _backbone router_ . A backbone router may also have interfaces in other areas. Routers _R1_, _R2_, _R3_, _R4_, and _R5_ in [Figure 6-4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s03.html#iprouting-CHP-6-FIG-4 "Figure 6-4. OSPF architecture: a high-level view") are backbone routers.
 
 The backbone routers hold a topological database that describes the state of all backbone links_,_ summary links describing IP networks in areas 1, 2, and 3, and external links that describe the IP network in the RIP network.
 
-### Area or Regular Area
+### 3.3.3 Area or Regular Area
 
 A _regular area_ has a unique area ID in the range 1 (or `0.0.0.1`) to 4,294,967,295 (`255.255.255.255`).
 
 A router in, say, area 1 will hold topological information for the state of all area 1 links, summary links that describe IP networks in areas 0, 2, and 3, and external links that describe IP networks in those networks.
 
-### Internal Router
+### 3.3.4 Internal Router
 
 An _internal router_ has interfaces in one area only. Routers _R6_, _R7_, and _R8_ in [Figure 6-4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s03.html#iprouting-CHP-6-FIG-4 "Figure 6-4. OSPF architecture: a high-level view") are internal routers in area 1.
 
-### Area Border Router (ABR)
+### 3.3.5 Area Border Router (ABR)
 
 An _area border router_ has interfaces in more than one area. Routers _R3_, _R4_, and _R5_ in [Figure 6-4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s03.html#iprouting-CHP-6-FIG-4 "Figure 6-4. OSPF architecture: a high-level view") are ABRs.
 
@@ -3316,13 +3316,13 @@ An ABR has topological information for multiple areas. Router _R3_ is an ABR t
 
 An ABR can summarize the topological database for one of its areas. Router _R3_ may summarize the topological database for area 1 into area 0. Summarization is key in reducing the computational complexity of the OSPF process.
 
-### Autonomous System Boundary Router (ASBR)
+### 3.3.6 Autonomous System Boundary Router (ASBR)
 
 An _autonomous system boundary router_ imports routing information from another AS into OSPF. The routes imported into OSPF from the other AS are referred to as _external routes_ .
 
 Router _R9_ in [Figure 6-4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s03.html#iprouting-CHP-6-FIG-4 "Figure 6-4. OSPF architecture: a high-level view") is an ASBR. _R9_ imports RIP routes from an external network into OSPF. An ASBR may be configured to summarize external routes into OSPF.
 
-### Stub Area
+### 3.3.7 Stub Area
 
 Consider an area with no direct connections to any external networks. Importing external records into this area may be unnecessary because all traffic to external networks must be routed to the ABRs. Such an area can use a default route (in place of external routes) to send all external IP traffic to its ABRs.
 
@@ -3332,7 +3332,7 @@ Routers in a stub area hold a topological database that describes the state of a
 
 There is a potential disadvantage to configuring an area as a stub area. For example, if area 3 in [Figure 6-4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s03.html#iprouting-CHP-6-FIG-4 "Figure 6-4. OSPF architecture: a high-level view") is configured as a stub area, _R4_ and _R5_ will each advertise a default route into the stub area. An external route may be closer to _R4_, but routers in the stub area will lose that information and route all external traffic to _R4_ or _R5_, depending on which one is closer. Stub areas cannot support external connections since stub routers do not carry external LSAs. Stub areas cannot support virtual links, which I’ll discuss later in this chapter, for similar reasons.
 
-### Totally Stubby Area
+### 3.3.8 Totally Stubby Area
 
 A _totally stubby area_ carries the concept of a stub area further by blocking summary records for IP networks in other areas at the ABRs. All inter-area and external traffic is matched to the default route announced by the ABR(s).
 
@@ -3340,13 +3340,13 @@ In terms of LSA types, routers in totally stubby areas hold a topological databa
 
 Just like a stub area, a totally stubby area cannot support connections to external networks.
 
-### Not So Stubby Area (NSSA)
+### 3.3.9 Not So Stubby Area (NSSA)
 
 _Not so stubby areas_ are stub areas with one less restriction: NSSAs can support external connections. In all other respects, NSSAs are just like stub areas -- routers in NSSAs do not carry external LSAs, nor do they support virtual links.
 
 Any area that can be configured as a stub area but needs to support an external network can be changed into an NSSA.
 
-### OSPF Topological Database
+### 3.3.10 OSPF Topological Database
 
 The OSPF topological database is composed of link state advertisements (LSAs). OSPF routers originate LSAs describing a piece of the network topology; these LSAs are flooded to other routers that then compose a database of LSAs. There are several types of LSAs, each originating at a different router and describing a different component of the network topology. The various types of LSAs are:
 
@@ -3368,7 +3368,7 @@ External LSA (type 5)
 NSSA external LSA (type 7)
 	NSSA external LSAs describe routes to external networks (in another autonomous system) connected to the NSSA. Unlike type 5 external LSAs, NSSA external LSAs are flooded only within the NSSA. Optionally, type 7 LSAs may be translated to type 5 LSAs at the ABR and flooded as type 5 LSAs.
 
-### OSPF Route Types
+### 3.3.11 OSPF Route Types
 
 Every router in OSPF uses its local topological database as input to the SPF algorithm. The SPF algorithm yields the shortest path to every known destination, which is then used to populate the IP routing table as one of four route types:
 
