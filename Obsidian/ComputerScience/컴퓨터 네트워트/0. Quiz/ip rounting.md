@@ -3669,12 +3669,12 @@ Routers on virtual links always establish adjacency.
 
 The _database description (DD) packet_ is used to describe the contents of the LS database to a peer OSPF router. Only LSA headers are sent in DD packets; the peer router responds by sending its own LSA headers in DD packets.
 
-The LSA header ([Figure 6-8](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-FIG-8 "Figure 6-8. Format of an LSA header")) uniquely identifies a piece of the OSPF network topology. The key fields in the LSA header are the _advertising router_ , _LS type_ , and _link state ID_ . The advertising router is the router ID of the originator of the LSA. The LS type identifies the type of the LSA that follows. The link state ID depends on the LS type, as shown in [Table 6-3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-TABLE-3 "Table 6-3. LS type and link state ID").
+The LSA header ([Figure 4-8](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-FIG-8 "Figure 6-8. Format of an LSA header")) uniquely identifies a piece of the OSPF network topology. The key fields in the LSA header are the _advertising router_ , _LS type_ , and _link state ID_ . The advertising router is the router ID of the originator of the LSA. The LS type identifies the type of the LSA that follows. The link state ID depends on the LS type, as shown in [Table 4-3](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-TABLE-3 "Table 6-3. LS type and link state ID").
 
 ![[Pasted image 20241110183651.png]]
-Figure 6-8. Format of an LSA header
+Figure 4-8. Format of an LSA header
 
-Table 6-3. LS type and link state ID
+Table 4-3. LS type and link state ID
 
 |LS type|Link state ID|
 |---|---|
@@ -3690,15 +3690,15 @@ Upon receiving LSA headers in DD packets, both routers check to see if this piec
 
 In response to a link state request, a router issues a link state update containing the LSA. The LSA completely describes the piece of OSPF topology in question. LS updates are issued (a) in response to an LS request, as just described; (b) because of a change in the state of the link; and (c) every 30 minutes, with a new sequence number and the age field set to 0.
 
-All LS updates are acknowledged in _link state acknowledgment packets_ (see [Figure 6-9](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-FIG-9 "Figure 6-9. Database description, link state request, link state update, and link state acknowledgment packets")).
+All LS updates are acknowledged in _link state acknowledgment packets_ (see [Figure 4-9](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-FIG-9 "Figure 6-9. Database description, link state request, link state update, and link state acknowledgment packets")).
 
 ![[Pasted image 20241110183753.png]]
-Figure 6-9. Database description, link state request, link state update, and link state acknowledgment packets
+Figure 4-9. Database description, link state request, link state update, and link state acknowledgment packets
 
-There are six types of LSA records, each representing a different piece of the network topology. We’ll use TraderMary’s network with a French extension ([Figure 6-10](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-FIG-10 "Figure 6-10. TraderMary’s network with a French extension")) to take a closer look at the various LSA types.
+There are six types of LSA records, each representing a different piece of the network topology. We’ll use TraderMary’s network with a French extension ([Figure 4-10](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-FIG-10 "Figure 6-10. TraderMary’s network with a French extension")) to take a closer look at the various LSA types.
 
 ![[Pasted image 20241110183827.png]]
-Figure 6-10. TraderMary’s network with a French extension
+Figure 4-10. TraderMary’s network with a French extension
 
 TraderMary’s network in New York is configured as follows. _NewYork2_ is an ABR with a serial link in area 1 to router _Paris_ (line 15).
 
