@@ -3767,7 +3767,7 @@ The `10.0.0.0` subnets -- `10.0.1.0`, `10.0.2.0`, and `10.0.3.0` -- are kn
 
 Note that the routing table shows that _NewYork_ learns `10.0.3.0` as an external route whereas `10.0.1.0` and `10.0.2.0` are learned as inter-area routes (lines 17-19) -- this is because inter-area routes are preferred over external routes. The OSPF order of route preference, from most preferred to least preferred, is as follows: intra-area, inter-area, type 1 external, type 2 external.
 
-#### Router LSA (type 1)
+#### 3.4.5.1 Router LSA (type 1)
 
 A router LSA describes the advertising router’s directly connected links. Routers _Chicago_, _Ames_, _NewYork_, and _NewYork2_ advertise router LSAs that are flooded throughout area 0. _NewYork_’s LS database holds router LSAs from all these routers, but for the sake of brevity I’ll show only the contents of the LSA from _NewYork2_.
 
@@ -3775,22 +3775,22 @@ The number of links (as in line 20 in the upcoming code block) described in the 
 
 The link described is a _transit network_ (line 21), implying that there are multiple routers on the link. Other link types are point-to-point (for serial links), stub network (for a network with only one router), and virtual link (for OSPF virtual links).
 
-The value of the link ID field depends on the type of link being described, as shown in [Table 6-4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-TABLE-4 "Table 6-4. Link type and link ID").
+The value of the link ID field depends on the type of link being described, as shown in [Table 4-4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-TABLE-4 "Table 6-4. Link type and link ID").
 
-Table 6-4. Link type and link ID
+Table 4-4. Link type and link ID
 
-|Link type|Link ID|
-|---|---|
-|Point-to-point|Neighbor’s router ID|
-|Transit network|DR’s IP address on network|
-|Stub network|IP network number or subnet number|
-|Virtual link|Neighbor’s router ID|
+| Link type       | Link ID                            |
+| --------------- | ---------------------------------- |
+| Point-to-point  | Neighbor’s router ID               |
+| Transit network | DR’s IP address on network         |
+| Stub network    | IP network number or subnet number |
+| Virtual link    | Neighbor’s router ID               |
 
 In our example, the DR is _NewYork_, so the link ID (in line 22) contains _NewYork_’s IP address.
 
-The contents of the link data field also depend on the link type, as shown in [Table 6-5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-TABLE-5 "Table 6-5. Link type and link data").
+The contents of the link data field also depend on the link type, as shown in [Table 4-5](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-TABLE-5 "Table 6-5. Link type and link data").
 
-Table 6-5. Link type and link data
+Table 4-5. Link type and link data
 
 |Link type|Link data|
 |---|---|
@@ -3829,7 +3829,7 @@ In our example, the link data field (in line 23) specifies the IP address of _N
          Number of TOS metrics: 0
           TOS 0 Metrics: 10
 ```
-#### Network LSA (type 2)
+#### 3.4.5.2 Network LSA (type 2)
 
 A network LSA describes broadcast/NBMA networks. The network LSA is originated by the DR and describes all attached routers.
 
@@ -3856,7 +3856,7 @@ The LSA in the following example is self-originated, as seen in the advertising 
 26    **`Attached Router: 192.168.1.1`**  
 27    **`Attached Router: 192.168.1.4`**
 ```
-#### Summary LSA (type 3)
+#### 3.4.5.3 Summary LSA (type 3)
 
 A summary LSA is advertised by an ABR and describes inter-area routes.
 
@@ -3894,7 +3894,7 @@ The summary LSAs in the following example are originated by _NewYork2_ (`192.1
 33   **`Network Mask: /24`**                                
     TOS: 0     Metric: 1795
 ```
-#### ASBR summary LSA (type 4)
+#### 3.4.5.4 ASBR summary LSA (type 4)
 
 An ASBR summary LSA describes the route to the ASBR. The mask associated with a type 4 LSA is 32 bits long because the route advertised is to a host -- the host being the ASBR. ASBR summary LSAs are originated by ABRs.
 
@@ -3920,7 +3920,7 @@ The link state ID (line 34) in this example describes the router ID of _Paris_,
      Network Mask: /0
        TOS: 0     Metric: 1785
 ```
-#### External LSA (type 5)
+#### 3.4.5.5 External LSA (type 5)
 
 External LSAs originate at ASBRs and describe routes external to the OSPF process. External LSAs are flooded throughout the OSPF network, with the exception of stub areas.
 
@@ -3953,7 +3953,7 @@ Network `10.0.1.0` is learned via RIP from _NewYork2_, which floods an extern
 
 Note that _NewYork_’s external database contains two other LSAs -- with link state IDs of `10.0.2.0` and `10.0.3.0` -- which were not shown here.
 
-#### NSSA external LSA (type 7)
+#### 3.4.5.6 NSSA external LSA (type 7)
 
 NSSA external LSAs describe routes external to the OSPF process. However, unlike type 5 external LSAs, NSSA external LSAs are flooded only within the NSSA.
 
@@ -3967,7 +3967,7 @@ NewYork#sh ip  ospf database nssa-external
 
 The format of the NSSA external LSA is identical to that of the AS external LSA, except for the forwarding address field. The forwarding address field in an NSSA external LSA always indicates the address to which traffic should be forwarded.
 
-#### Flooding of LSAs
+#### 3.4.5.7 Flooding of LSAs
 
 LSAs are generated every 30 minutes, or sooner if there is a change in the state of a link. LSAs are exchanged between routers that have established _adjacency_, as was described earlier.
 
