@@ -3514,10 +3514,10 @@ ip ospf hello-interval _`seconds`_
 ```
 #### 3.4.1.7 Options
 
-OSPF defines several optional capabilities that a router may or may not support. The options field is one octet long, as shown in [Figure 6-7](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-FIG-7 "Figure 6-7. Format of the options field").
+OSPF defines several optional capabilities that a router may or may not support. The options field is one octet long, as shown in [Figure 4-7](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html#iprouting-CHP-6-FIG-7 "Figure 6-7. Format of the options field").
 
 ![[Pasted image 20241110183339.png]]
-Figure 6-7. Format of the options field
+Figure 4-7. Format of the options field
 
 Routers that support demand circuits set the DC bit; NSSA support is signified using the N bit. The E bit signifies that the router accepts external LSAs -- stub routers turn off this bit. The T bit signifies the support of multiple types of service.
 
@@ -3614,25 +3614,25 @@ Note that _NewYork_ is the DR on _Ethernet0_. Since there is no other router 
 The state of an interface can have one of the following values:
 
 Down
-The interface state is down as indicated by lower-level protocols, and no OSPF traffic has been sent or received yet.
+	The interface state is down as indicated by lower-level protocols, and no OSPF traffic has been sent or received yet.
 
 Loopback
-The interface is looped and will be advertised in LSAs as a host route.
+	The interface is looped and will be advertised in LSAs as a host route.
 
 Point-to-point
-The interface is up and is recognized as a serial interface or a virtual link. After entering the point-to-point state, the neighbors will attempt to establish adjacency.
+	The interface is up and is recognized as a serial interface or a virtual link. After entering the point-to-point state, the neighbors will attempt to establish adjacency.
 
 Waiting
-This state applies only to broadcast/NBMA networks on which the router is attempting to identify the DR/BDR.
+	This state applies only to broadcast/NBMA networks on which the router is attempting to identify the DR/BDR.
 
 DR
-This router is the DR on the attached network.
+	This router is the DR on the attached network.
 
 Backup
-This router is the BDR on the attached network.
+	This router is the BDR on the attached network.
 
 DRother
-This router is neither the DR nor the BDR on the attached network. The router will form adjacencies with the DR and BDR (if they exist).
+	This router is neither the DR nor the BDR on the attached network. The router will form adjacencies with the DR and BDR (if they exist).
 
 As an example, the state of _NewYork_’s interface to _Chicago_ is point-to-point (line 12) and _NewYork_ and _Chicago_ have established adjacency (lines 13 and 14):
 
