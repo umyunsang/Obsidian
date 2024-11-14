@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "ip rounting"
             }
+          },
+          {
+            "id": "217ec9d0e8098250",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +176,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ca6b87df154344b4",
+  "active": "217ec9d0e8098250",
   "lastOpenFiles": [
     "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.pdf",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/9-1. 고급 정규형.pdf",

@@ -4263,7 +4263,7 @@ Gateway of last resort is not set
 
 Flooding external LSAs throughout an OSPF network may be a waste of resources. Stub areas block the flooding of external LSAs, as we will see in the next section.
 
-### Stub Areas
+### 4.9.1 Stub Areas
 
 Referring to [Figure 6-1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06.html#iprouting-CHP-6-FIG-1 "Figure 6-1. Overview of OSPF areas"), the router in area 1 that connects to the RIP network floods external LSAs into the network. It appears that nothing is gained by importing external LSAs into areas 2 and 3, which can point all external routes to their ABRs using default routes. Representing every external LSA in areas 2 and 3 would be a waste of resources. With this in mind, OSPF defines _stub areas_ . When an area is defined as a stub area, all external LSAs are blocked at the ABRs, and, in place, the ABRs source a single default route into the stub area.
 
@@ -4307,7 +4307,7 @@ Any area that does not contain an ASBR (i.e., does not support a connection to a
 
 There is one major disadvantage to configuring an area as a stub area. When multiple ABRs source a default route, the routers in the stub area may fail to recognize the shortest path to the destination network. This may help determine whether you choose to implement an area as a regular area or as a stub area.
 
-### Totally Stubby Areas
+### 4.9.2 Totally Stubby Areas
 
 Totally stubby areas carry the concept of stub areas further by blocking all summary LSAs in addition to external LSAs.
 
@@ -4342,7 +4342,7 @@ O*IA 0.0.0.0/0 [110/65] via 10.0.1.2, 00:00:23, Serial1
 
 Totally stubby areas have the same restrictions as stub areas -- no ASBRs (no external LSAs) and no virtual links. Also, like stub areas, totally stubby areas see all ABRs as equidistant to all destinations that match the default route. When multiple ABRs source a default route, the routers in the totally stubby area may not recognize the shortest path to the destination network.
 
-### NSSAs
+### 4.9.3 NSSAs
 
 What if a stub area needs to learn routes from another routing protocol? For example, _Paris_ -- in area 1 -- may need to learn some RIP routes from a legacy network. NSSAs -- as specified in RFC 1587 -- allow external routes to be imported into an area without losing the character of a stub area (i.e., without importing any external routes from the backbone area).
 
