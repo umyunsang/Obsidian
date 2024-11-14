@@ -3194,17 +3194,19 @@ Each OSPF router executes Dijkstra’s SPF algorithm to compute the shortest-pat
 
 _Cost =_ 10^8/_bandwidth of interface in bits per second_
 
-Using this definition, the OSPF cost for some common media types is shown in [Table 6-1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s02.html#iprouting-CHP-6-TABLE-1 "Table 6-1. Default OSPF costs"). [Table 6-1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s02.html#iprouting-CHP-6-TABLE-1 "Table 6-1. Default OSPF costs") assumes default interface bandwidth. Note that the cost is rounded down to the nearest integer.
+Using this definition, the OSPF cost for some common media types is shown in [Table 4-1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s02.html#iprouting-CHP-6-TABLE-1 "Table 6-1. Default OSPF costs"). [Table 4-1](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s02.html#iprouting-CHP-6-TABLE-1 "Table 6-1. Default OSPF costs") assumes default interface bandwidth. Note that the cost is rounded down to the nearest integer.
 
-Table 6-1. Default OSPF costs
+Table 4-1. Default OSPF costs
 
-| Media type                                                                                                                   | Default bandwidth | Default OSPF cost |
-| --------------------------------------------------------------------------------------------------------------------------- | ----------------- | ----------------- |
-| Ethern                                                                                                                       | 10 Mbps           | 10                |
-| Fast Ether                                                                                                                   | 100 Mbps          | 1                 |
-|                                                                                                                              | 100 Mbps          | 1                 |
-| T-1 (serial interface)[[a](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s02.html#ftn.ch06-FTNOT       | 1,544 kbps        | 64                |
-| 56 kbps (serial inte                                                                                                         | 1,544 kbps        | 64                |                                                                                                                                | 45,045 kbps       | 2                                                                                                                                         ameters. |                   |                   |
+| Media type                 | Default bandwidth | Default OSPF cost |
+| -------------------------- | ----------------- | ----------------- |
+| Ethernet                   | 10 Mbps           | 10                |
+| Fast Ethernet              | 100 Mbps          | 1                 |
+| FDDI                       | 100 Mbps          | 1                 |
+| T-1 (serial interface)     | 1,544 kbps        | 64                |
+| 56 kbps (serial interface) | 1,544 kbps        | 64                |
+| HSSI                       | 45,045 kbps       | 2                 |
+
 All serial interfaces on Cisco routers are configured with the same default bandwidth (1,544 kbits/s) and delay (20,000 ms) parameters.
 
 The OSPF cost computed by a router can be checked with the command **show ip ospf interface** , as in line 4 in the code block in the previous section, where the cost of the Ethernet segment is 10. The composite cost of reaching a destination is the sum of the individual costs of all networks in the path to the destination and can be seen as output of the **show ip route** command in lines 6, 7, and 8.
@@ -3221,7 +3223,7 @@ Keep in mind that modifying the interface bandwidth impacts other protocols that
 ip ospf cost _`value`_
 ```
 
-where _value_ is an integer in the range 1 to 65,535 (OSPF sets aside two octets to represent interface cost, as we will see later in the section [Section 6.4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html "How OSPF Works")).
+where _value_ is an integer in the range 1 to 65,535 (OSPF sets aside two octets to represent interface cost, as we will see later in the section [Section 4.4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html "How OSPF Works")).
 
 This approach to calculating OSPF costs does not work well for network speeds greater than 100 Mbps. The OSPF cost for all speeds greater than the reference bandwidth is rounded up to 1, and there is no way to distinguish between one network and another. The network engineer has two approaches to choose from here. First, manually configure the OSPF cost for all interfaces equal to or faster than 100 Mbps. For example, all FE interfaces may be configured with a cost of 8, OC-3 interfaces with a cost of 6, and GE interfaces with a cost of 4. Second, redefine the reference bandwidth with the following command:
 
