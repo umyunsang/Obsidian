@@ -4473,7 +4473,7 @@ You can also use subinterfaces to model the NBMA network as a collection of poin
 
 The following sections provide a partial and ad hoc checklist to use when executing an OSPF design. As with any other discipline, the engineer will do best if he spends time understanding the details of OSPF and then designs his network as simply as possible.
 
-### OSPF Hierarchy
+### 4.11.1 OSPF Hierarchy
 
 Building a large, unstructured OSPF network is courting disaster. The design of the OSPF network must be clearly defined: all changes in the OSPF environment must bear the imprint of the OSPF architecture. For example, when adding a new router, the network engineer must answer the following questions:
 
@@ -4488,19 +4488,19 @@ Building a large, unstructured OSPF network is courting disaster. The design of 
 - How will this router affect the performance of other OSPF routers?
     
 
-### IP Addressing
+### 4.11.2 IP Addressing
 
 IP addresses must be allocated in blocks that allow route summarization at ABRs. The address blocks must take into account the number of users in the area, leaving room for growth. VLSM should be considered when planning IP address allocation.
 
-### Router ID
+### 4.11.3 Router ID
 
 Use loopback addresses to assign router IDs. Choose the router IDs carefully -- the router ID will impact DR/BDR election on all attached multi-access networks. Keep handy a list of router IDs and router names. This will make it easier to troubleshoot the network.
 
-### DR/BDR
+### 4.11.4 DR/BDR
 
 Routers with low processor/memory/bandwidth resources should be made DR-ineligible. A router that becomes the DR/BDR on multiple networks may see high memory/CPU utilization.
 
-### Backbone Area
+### 4.11.5 Backbone Area
 
 Since all inter-area traffic will traverse the backbone, ensure that there is adequate bandwidth on the backbone links. The backbone area will typically be composed of the highest-bandwidth links in the network, with multiple paths between routers.
 
@@ -4508,15 +4508,15 @@ The backbone should have multiple paths between any pair of nonbackbone areas. A
 
 Use the backbone solely for inter-area traffic -- do not place users or servers on the backbone.
 
-### Number of Routers in an Area
+### 4.11.6 Number of Routers in an Area
 
 The maximum number of routers in an area depends on a number of factors -- number of networks, router CPU, router memory, etc. -- but Cisco documentation suggests that between 40 and 50 is a reasonable number. However, it is not uncommon to have a couple of hundred routers in an area, although problems such as flaky links may overload the CPU of the routers in the area. As a corollary of the previous argument, if you think that the total number of routers in your network will not exceed 50, all the routers can be in area 0.
 
-### Number of Neighbors
+### 4.11.7 Number of Neighbors
 
 If the number of routers on a multi-access network exceeds 12 to 15 and the DR/BDR is having performance problems, look into a higher-horsepower router for the DR/BDR. Note that having up to 50 routers on a broadcast network is not uncommon. The total number of neighbors on all networks should not exceed 50 or so.
 
-### Route Summarization
+### 4.11.8 Route Summarization
 
 To summarize the routes:
 
@@ -4533,19 +4533,19 @@ To summarize the routes:
 - Golden rule: summarize, summarize, summarize.
     
 
-### VLSM
+### 4.11.9 VLSM
 
 OSPF LSA records carry subnet masks; the use of VLSM is encouraged to conserve the available IP address space.
 
-### Stub Areas
+### 4.11.10 Stub Areas
 
 An area with only one ABR is an ideal candidate for a stub area. Changing the area into a stub area will reduce the size of the LS database without the loss of any useful routing information. Remember that stub areas cannot support VLs or type 5 LSAs.
 
-### Virtual Links
+### 4.11.11 Virtual Links
 
 Design the network so that virtual links are not required. VLs should be used only as emergency fixes, not as a part of the design.
 
-### OSPF Timers
+### 4.11.12 OSPF Timers
 
 In an all-Cisco network environment, the OSPF timers (hello-interval, dead-interval, etc.) can be left to their default values; in a multivendor environment, however, the network engineer may need to adjust the timers to make sure they match.
 
@@ -4553,17 +4553,17 @@ In an all-Cisco network environment, the OSPF timers (hello-interval, dead-inter
 
 OSPF is a complex organism and hence can be difficult to troubleshoot. However, since the operation of OSPF has been described in great detail by the standards bodies, the network engineer would do well to become familiar with its internal workings. The following sections describe some of the more common OSPF troubles.
 
-### OSPF Area IDs
+### 4.12.1 OSPF Area IDs
 
 When you’re using multiple network area statements under the OSPF configuration, the order of the statements is critical. Check that the networks have been assigned the desired area IDs by checking the output of the **show ip ospf interface** command.
 
-### OSPF Does Not Start
+### 4.12.2 OSPF Does Not Start
 
 The OSPF process cannot start on a router if a router ID cannot be established. Check the output of **show ip ospf** to see if a router ID has been established. If a router ID has not been established, check to see if the router has an active interface (preferably a loopback interface) with an IP address.
 
-### Verifying Neighbor Relationships
+### 4.12.3 Verifying Neighbor Relationships
 
-Once a router has been able to start OSPF, it will establish an interface data structure for each interface configured to run OSPF. Check the output of **show ip ospf interface** to ensure that OSPF is active on the intended interfaces. If OSPF is active, check for the parameters described in the section [Section 6.4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html "How OSPF Works"). Many OSPF problems may be traced to an incorrectly configured interface.
+Once a router has been able to start OSPF, it will establish an interface data structure for each interface configured to run OSPF. Check the output of **show ip ospf interface** to ensure that OSPF is active on the intended interfaces. If OSPF is active, check for the parameters described in the section [Section 4.4](https://learning.oreilly.com/library/view/ip-routing/0596002750/ch06s04.html "How OSPF Works"). Many OSPF problems may be traced to an incorrectly configured interface.
 
 ```
    NewYork#sh ip ospf interface
@@ -4601,15 +4601,15 @@ Neighbor ID     Pri   State           Dead Time   Address         Interface
 
 If two routers have not been able to establish a neighbor relationship and both are active on the multi-access network (i.e., they are able to ping each other), it is likely that their hello parameters do not match. Use the **debug ip ospf adjacency** command to get details on hello parameter mismatches.
 
-### Route Summarization
+### 4.12.4 Route Summarization
 
 If an area has multiple ABRs and one ABR announces more specific routes than the others, all the traffic will flow to that router. This is good if this is the desired effect. Otherwise, if you intend to use all ABRs equally, all ABRs must have identical summary statements.
 
-### Overloaded Routers
+### 4.12.5 Overloaded Routers
 
 The design engineer should be familiar with OSPF -- ABRs do more work than internal routers, and DRs/BDRs do more work than other routers. A router that becomes the DR/BDR on multiple networks does even more work. Routers in stub areas and NSSA areas do less work.
 
-### SPF Overrun
+### 4.12.6 SPF Overrun
 
 To check the number of times the SPF algorithm has executed, use the command **show ip ospf**. A flapping interface may result in frequent executions of the SPF algorithm that, in turn, may take CPU time away from other critical router processes.
 
@@ -4639,17 +4639,17 @@ To change these timers, use the following command under the OSPF configuration:
 ```
 timers spf <_`schedule delay in seconds`_> <_`hold-time in seconds`_>
 ```
-### Using the LS Database
+### 4.12.7 Using the LS Database
 
 Since the LS database is the input to the SPF algorithm, you can analyze it to troubleshoot missing routes. Analyzing the LS database can be particularly useful when you’re working with stub areas, totally stubby areas, or NSSAs, since these areas block certain LSAs.
 
 The output of **show ip ospf database database-summary** is a useful indicator of the size of the LS database and its components. The command **show ip ospf database** shows the header information from each LSA.
 
-### Network Logs
+### 4.12.8 Network Logs
 
 The output of the command **show log** contains useful historical data and may be used to analyze a network outage.
 
-### Debug Commands
+### 4.12.9 Debug Commands
 
 The most useful **debug** commands are **debug ip ospf adjacency** and **debug ip ospf events** . These commands are useful in troubleshooting neighbor relationships. Other **debug** commands available are **debug ip ospf flood**, **debug ip ospf lsa-generation**, **debug ip ospf packet**, **debug ip ospf retransmission**, **debug ip ospf spf**, and **debug ip ospf tree**.
 
