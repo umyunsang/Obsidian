@@ -269,3 +269,217 @@ icearr[0] = ice
 - const i = s.selectedIndex;
 	- 인덱스 번호를 가져옴
 ---
+#### 예제10. 문자열 회전시키기
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>예10</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #hone {
+            color: blue;
+        }
+    </style>
+</head>
+<body style="text-align: center">
+    <h1 id="hone">Hello,Bye!</h1>
+    <script>
+        const h = document.getElementById("hone");
+        setInterval(rotateString, 500);
+
+        function rotateString() {
+            h.textContent = h.textContent.slice(1) + h.textContent[0];
+        }
+    </script>
+</body>
+</html>
+```
+- h 변수 : string이 아니라 \<h1> 객체 자체를 가르킴
+- setInterval(rotateString, 500) : rotateString() 함수를 0.5초 마다 실행함
+	- 콜백함수 (매개인자로 함수명 괄호없이 이름만 사용)
+
+---
+#### 예제11. 속성 변경 (사진 체인지)
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>예11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="text-align: center">
+    <img id="image" src="/static/photo1.jpg">
+    <br>
+    <button onclick="changeImage()">사진 변경</button>
+    <script>
+        let toggle = 1;
+        const i = document.getElementById("image");
+
+        function changeImage() {
+            if (++toggle % 2 == 0)
+                i.src = "/static/photo2.jpg";
+            else
+                i.src = "/static/photo1.jpg";
+        }
+    </script>
+</body>
+</html>
+```
+
+
+---
+#### 예제12. 스타일 변경 (색, 모서리)
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>예12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box" style="width:200px; height:200px; margin:auto;"></div>
+    <script>
+        const box = document.getElementById("box");
+        const letters = "0123456789ABCDEF";
+        let count = 0;
+        const intervalID = setInterval(changeFigure, 300);
+
+        function changeFigure() {
+            if (count > 10) clearInterval(intervalID);
+            const a = letters[Math.floor(Math.random() * 16)];
+            const b = letters[Math.floor(Math.random() * 16)];
+            box.style.background = '#00' + a + b + '00';
+            box.style.borderRadius = `${count * 5}%`;
+            count++;
+        }
+    </script>
+</body>
+</html>
+```
+
+
+---
+#### 예제13. 노드 추가하기
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>예13</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 id="h">사이트 추가하기</h3>
+    <input type="button" value="add" onClick="addNode()">
+    <script>
+        const urlarr = ['https://www.daum.net', 'https://www.naver.com', 'https://www.donga.ac.kr'];
+        const namearr = ['다음', '네이버', '동아대학교'];
+        let i = 0;
+
+        function addNode() {
+            const node = document.createElement("a");
+            node.href = urlarr[i];
+            node.innerHTML = `<hr>${namearr[i]}`;
+            document.getElementById("h").appendChild(node);
+            if (++i >= urlarr.length) i = 0;
+        }
+    </script>
+</body>
+</html>
+```
+
+---
+#### 예제14. 노드 삭제하기
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>예14</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #b4 {
+            background: pink;
+        }
+    </style>
+</head>
+<body>
+    <div id="d">
+        <button id="b1">첫 번째</button>
+        <button id="b2">두 번째</button>
+        <button id="b3">세 번째</button>
+    </div>
+    <button id="b4" onClick="removeNode()">노드 지우기</button>
+    <script>
+        let num = 1;
+
+        function removeNode() {
+            const parent = document.getElementById("d");
+            const child = document.getElementById(`b${num}`);
+            if (child) {
+                parent.removeChild(child);
+                num++;
+            }
+        }
+    </script>
+</body>
+</html>
+
+```
+
+
+---
+#### 예제15. 행 추가 및 삭제
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>예15</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table, td {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table id="tbl">
+        <tr>
+            <td>원래 셀</td>
+            <td>원래 셀</td>
+        </tr>
+    </table>
+    <br>
+    <button onClick="changeTable(1)">행 추가</button>
+    <button onClick="changeTable(-1)">행 삭제</button>
+    <script>
+        const t = document.getElementById("tbl");
+
+        function changeTable(gubun) {
+            const num = t.rows.length;
+            if (gubun == 1) {
+                const newRow = t.insertRow(num);
+                const cell1 = newRow.insertCell(0);
+                const cell2 = newRow.insertCell(1);
+                cell1.innerHTML = `추가 셀 ${num}`;
+                cell2.innerHTML = `추가 셀 ${num}`;
+            } else {
+                if (num > 1) {
+                    t.deleteRow(num - 1);
+                } else {
+                    alert("맨 위 행은 삭제 안 해 드림!!");
+                }
+            }
+        }
+    </script>
+</body>
+</html>
+
+```
+
+---
