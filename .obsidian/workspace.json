@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
+                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "문서 객체 모델(DOM)"
+              "title": "연습문제"
             }
           }
         ]
@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장.pdf"
+                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제_현재13문제.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "ossai2024_3장"
+              "title": "ossai2024_3장_확인문제_현재13문제"
             }
           }
         ]
@@ -183,11 +183,11 @@
   },
   "active": "ca6b87df154344b4",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장.pdf",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제_현재13문제.pdf",
-    "Pasted image 20241118111456.png",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제_현재13문제.pdf",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장.pdf",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
+    "Pasted image 20241118111456.png",
     "Pasted image 20241118104951.png",
     "Pasted image 20241118104252.png",
     "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/9. 페이징 메모리 관리.pdf",
