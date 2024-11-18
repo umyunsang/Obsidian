@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
+                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "연습문제"
+              "title": "문서 객체 모델(DOM)"
             }
           }
         ]
@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제_현재13문제.pdf"
+                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "ossai2024_3장_확인문제_현재13문제"
+              "title": "ossai2024_3장"
             }
           }
         ]
@@ -183,11 +183,13 @@
   },
   "active": "ca6b87df154344b4",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장.pdf",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제_현재13문제.pdf",
+    "Pasted image 20241118111456.png",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Pasted image 20241118104951.png",
     "Pasted image 20241118104252.png",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제_현재13문제.pdf",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장.pdf",
     "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/9. 페이징 메모리 관리.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/확인문제_현재10문제.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/3장_내용추가예정.pdf",
@@ -203,8 +205,6 @@
     "Pasted image 20241118091851.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/ip rounting.md",
     "image/Pasted image 20241114110314.png",
-    "image/Pasted image 20241114105556.png",
-    "image/Pasted image 20241114105258.png",
     "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.pdf",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/9-1. 고급 정규형.pdf",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/고급 정규형.md",
@@ -218,7 +218,6 @@
     "Obsidian/ComputerScience/운영체제/7. 교착상태/무제 파일.md",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/레포트_수정.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/레포트.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/양식.md",

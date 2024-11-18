@@ -311,7 +311,7 @@ icearr[0] = ice
     <link rel="stylesheet" href="style.css">
 </head>
 <body style="text-align: center">
-    <img id="image" src="/static/photo1.jpg">
+    <img id="image" src="./static/photo1.jpg">
     <br>
     <button onclick="changeImage()">사진 변경</button>
     <script>
@@ -320,9 +320,9 @@ icearr[0] = ice
 
         function changeImage() {
             if (++toggle % 2 == 0)
-                i.src = "/static/photo2.jpg";
+                i.src = "./static/photo2.jpg";
             else
-                i.src = "/static/photo1.jpg";
+                i.src = "./static/photo1.jpg";
         }
     </script>
 </body>
@@ -360,6 +360,7 @@ icearr[0] = ice
 </body>
 </html>
 ```
+- 
 
 
 ---
