@@ -13,12 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/ip rounting.md",
+                "file": "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ip rounting"
+              "title": "메모리 관리"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2b4e59fd4e71df0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e72ca9dd480dbd7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/운영체제/8. 메모리관리/8. 메모리관리.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "8. 메모리관리"
             }
           }
         ]
@@ -77,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -164,6 +183,10 @@
   },
   "active": "ca6b87df154344b4",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/운영체제/8. 메모리관리/8. 메모리관리.pdf",
+    "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
+    "Pasted image 20241118091851.png",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/ip rounting.md",
     "image/Pasted image 20241114110314.png",
     "image/Pasted image 20241114105556.png",
     "image/Pasted image 20241114105258.png",
@@ -176,19 +199,14 @@
     "Pasted image 20241114105556.png",
     "Pasted image 20241114105258.png",
     "Pasted image 20241114104959.png",
-    "Pasted image 20241114104925.png",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/9. 정규화.pdf",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
     "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/ip rounting.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
-    "image/Pasted image 20241113174529.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/인터넷 프로토콜(IP).md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/12. 네트워크 계층 작업과 프로토콜.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/11. 인터넷 프로토콜라우팅 알고리즘.pdf",
-    "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
-    "Obsidian/ComputerScience/운영체제/8. 메모리관리/8. 메모리관리.pdf",
     "Obsidian/ComputerScience/운영체제/0. 과제/Simulator for Memory Allocation Algorithm.md",
     "Obsidian/ComputerScience/운영체제/무제 파일.md",
     "Obsidian/ComputerScience/운영체제/0. 과제",
