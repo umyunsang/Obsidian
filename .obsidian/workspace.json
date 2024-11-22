@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "회복과 병행 제어"
             }
+          },
+          {
+            "id": "3aacbe57b6463f86",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "941849d514c453b6",
@@ -181,7 +194,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ca6b87df154344b4",
+  "active": "3aacbe57b6463f86",
   "lastOpenFiles": [
     "image/Pasted image 20241121112615.png",
     "image/Pasted image 20241121112437.png",
