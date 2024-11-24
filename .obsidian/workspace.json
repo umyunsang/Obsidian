@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
+                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "문서 객체 모델(DOM)"
+              "title": "연습문제"
             }
           }
         ]
@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장.pdf"
+                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제_현재13문제.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "ossai2024_3장"
+              "title": "ossai2024_3장_확인문제_현재13문제"
             }
           }
         ]
@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -180,19 +181,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ec52d0a5ab2a1b43",
+  "active": "119f85ea9d9fdb95",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장.pdf",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "image/Pasted image 20241124154902.png",
     "image/20241124-0653-54.0598573.mp4",
     "image/20241124-0652-05.0386461.mp4",
     "image/20241124-0649-55.3171642.mp4",
     "20241124-0653-54.0598573.mp4",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "20241124-0652-05.0386461.mp4",
     "20241124-0649-55.3171642.mp4",
     "Pasted image 20241124154902.png",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제_현재13문제.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/요구사항.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/TTS 요구 사항.md",
@@ -208,7 +209,6 @@
     "image/Pasted image 20241124144817.png",
     "image/Pasted image 20241124143245.png",
     "image/Pasted image 20241124152258.png",
-    "Pasted image 20241124152258.png",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/고객님의추가요구사항.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
