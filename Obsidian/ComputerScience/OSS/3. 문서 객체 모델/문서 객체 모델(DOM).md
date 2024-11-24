@@ -2,9 +2,9 @@
 ---
 ## DOM 이해하기
 #### HTML 태그가 객체 형태인 이유
-![[Pasted image 20241108104046.png]]
+![](../../../../image/Pasted%20image%2020241108104046.png)
 #### 웹 시스템 관련 객체 (가장 상위 객체는 window)
-- **Array, String, Math, Date 객체 **
+- **Array, String, Math, Date 객체**
 	- 데이터를 보관하고 처리하도록 자바스크립트에서 제공하는 기본 객체 (수업자료 2장 참고) 
 - **문서 객체모델(DOM)의 객체** 
 	- 자바스크립트가 손쉽게 객체에 접근하여 읽고 조작하도록 제공됨
@@ -15,7 +15,7 @@
 	- 웹브라우저와 관련된 내용을 객체 형태로 만든 것 (soon)
 
 ## DOM 객체 다루기 : HTML 요소 접근하기
-![[Pasted image 20241108104431.png]]
+![](../../../../image/Pasted%20image%2020241108104431.png)
 
 ---
 #### 예제1. HTML 요소 1개에 접근하기 (화면 결과는?)
@@ -134,7 +134,7 @@ icearr[0] = ice
 </body>
 ```
 >[!출력결과]
->![[Pasted image 20241108110347.png]]
+>![](../../../../image/Pasted%20image%2020241108110347.png)
 - const id = document.myform.userId , const pw = document.myform.password 가능하다
 ---
 #### 예제5. textarea 문자열 읽기
@@ -154,7 +154,7 @@ icearr[0] = ice
 </body>
 ```
 >[!출력결과]
->![[Pasted image 20241108110531.png]]
+>![](../../../../image/Pasted%20image%2020241108110531.png)
 - st : textarea를 가르키는게 아니고 textarea 안에 내용물을 가져온다
 - textarea의 문자열은 getElementById로 받는다
 ---
@@ -178,7 +178,7 @@ icearr[0] = ice
 </body>
 ```
 >[!출력결과]
->![[Pasted image 20241108110924.png]]
+>![](../../../../image/Pasted%20image%2020241108110924.png)
 - 체크박스 값 1개를 읽을 때는 getElemnetById로 받는다
 ---
 #### 예제7. 체크박스 값 여러 개 읽기
@@ -204,7 +204,7 @@ icearr[0] = ice
 </body>
 ```
 >[!출력결과]
->![[Pasted image 20241108111310.png]]
+>![](../../../../image/Pasted%20image%2020241108111310.png)
 - name속성은 getElementsByName으로 받는다
 ---
 #### 예제8. 리디오버튼에서 값 읽기
@@ -231,7 +231,7 @@ icearr[0] = ice
 </body>
 ```
 >[!출력결과]
->![[Pasted image 20241108111706.png]]
+>![](../../../../image/Pasted%20image%2020241108111706.png)
 - getElementsByName("color") 로 받을 수 도 있음
 - querySelectorAll("[type='radio']")
 	- 대괄호([])를 사용해서 type전부를 가져 올 수 있음
@@ -262,7 +262,7 @@ icearr[0] = ice
 </body>
 ```
 >[!출력결과]
->![[Pasted image 20241108111909.png]]
+>![](../../../../image/Pasted%20image%2020241108111909.png)
 - s.addEventListener("change", getSelect);
 	- on change 아님, getSelect() 괄호 필요없다
 - 옵션태그에 별도로 value값이 없으면 태그 옆의 값이 value가 된다
