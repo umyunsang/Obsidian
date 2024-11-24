@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/9. 정규화/고급 정규형.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "고급 정규형"
+              "title": "회복과 병행 제어"
             }
           }
         ]
@@ -164,8 +164,8 @@
   },
   "active": "ec52d0a5ab2a1b43",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/고급 정규형.md",
+    "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
     "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
     "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/뷰(view).md",
