@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
-                "mode": "source",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LAN의 특징과 규격"
+              "title": "무선통신 시스템"
             }
           }
         ]
@@ -35,10 +35,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/7. LAN의 특징과 규격.pdf"
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/8. 무선통신 시스템.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "7. LAN의 특징과 규격"
+              "title": "8. 무선통신 시스템"
             }
           }
         ]
@@ -185,12 +185,13 @@
   },
   "active": "ca6b87df154344b4",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/8. 무선통신 시스템.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/7. LAN의 특징과 규격.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/데이터 링크 계층의 작업 (2 계층).md",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/6. 스레드 동기화.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
     "Pasted image 20241123174104.png",
     "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf",
