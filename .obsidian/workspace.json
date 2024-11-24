@@ -11,14 +11,12 @@
             "id": "ca6b87df154344b4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/TTS 요구 사항.md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/요구사항.pdf"
               },
-              "icon": "lucide-file",
-              "title": "TTS 요구 사항"
+              "icon": "lucide-file-text",
+              "title": "요구사항"
             }
           }
         ]
@@ -77,8 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -165,6 +162,8 @@
   },
   "active": "ca6b87df154344b4",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/배경사진 요구사항.md",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/요구사항.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/고객님의추가요구사항.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/TTS 요구 사항.md",
     "Pasted image 20241124151009.png",
@@ -196,8 +195,6 @@
     "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
     "image/스크린샷 2024-11-22 150830.png",
     "image/스크린샷 2024-11-22 150802.png",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/배경사진.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_고객님의추가요구사항 (2).pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
