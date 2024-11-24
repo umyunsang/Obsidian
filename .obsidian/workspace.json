@@ -6,7 +6,6 @@
       {
         "id": "91ef42792fc5fe5f",
         "type": "tabs",
-        "dimension": 47.38888888888889,
         "children": [
           {
             "id": "ca6b87df154344b4",
@@ -14,31 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/음성인식.md",
+                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/TTS 요구 사항.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "음성인식"
-            }
-          }
-        ]
-      },
-      {
-        "id": "941849d514c453b6",
-        "type": "tabs",
-        "dimension": 52.61111111111111,
-        "children": [
-          {
-            "id": "de26802194fb9dc7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/고객님의추가요구사항.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "고객님의추가요구사항"
+              "title": "TTS 요구 사항"
             }
           }
         ]
@@ -185,12 +165,17 @@
   },
   "active": "ca6b87df154344b4",
   "lastOpenFiles": [
-    "Pasted image 20241124143245.png",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/고객님의추가요구사항.pdf",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/음성인식.md",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/TTS 요구 사항.md",
+    "Pasted image 20241124151009.png",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/음성 인식 요구 사항.md",
+    "Pasted image 20241124150338.png",
+    "Pasted image 20241124145843.png",
+    "Pasted image 20241124145434.png",
+    "Pasted image 20241124144817.png",
+    "Pasted image 20241124143245.png",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/TTS.md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/2장.pdf",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/2장_확인문제.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/10. 라우팅 알고리즘.pdf",
@@ -211,12 +196,6 @@
     "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
     "image/스크린샷 2024-11-22 150830.png",
     "image/스크린샷 2024-11-22 150802.png",
-    "image/Pasted image 20241122160927.png",
-    "image/Pasted image 20241122160906.png",
-    "image/Pasted image 20241122160849.png",
-    "image/Pasted image 20241122155311.png",
-    "image/Pasted image 20241122155237.png",
-    "image/Pasted image 20241122155047.png",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/배경사진.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_고객님의추가요구사항 (2).pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
