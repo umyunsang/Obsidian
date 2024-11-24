@@ -8,15 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ca6b87df154344b4",
+            "id": "119f85ea9d9fdb95",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/요구사항.pdf"
+                "file": "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "요구사항"
+              "icon": "lucide-file",
+              "title": "자바스크립트 객체 다루기"
             }
           }
         ]
@@ -160,19 +162,25 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ca6b87df154344b4",
+  "active": "119f85ea9d9fdb95",
   "lastOpenFiles": [
+    "image/Pasted image 20241124152253.png",
+    "image/Pasted image 20241124151009.png",
+    "image/Pasted image 20241124150338.png",
+    "image/Pasted image 20241124145843.png",
+    "image/Pasted image 20241124145434.png",
+    "image/Pasted image 20241124144817.png",
+    "image/Pasted image 20241124143245.png",
+    "image/Pasted image 20241124152258.png",
+    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/배경사진 요구사항.md",
+    "Pasted image 20241124152258.png",
+    "Pasted image 20241124152253.png",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/요구사항.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/고객님의추가요구사항.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/TTS 요구 사항.md",
     "Pasted image 20241124151009.png",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/음성 인식 요구 사항.md",
-    "Pasted image 20241124150338.png",
-    "Pasted image 20241124145843.png",
-    "Pasted image 20241124145434.png",
-    "Pasted image 20241124144817.png",
-    "Pasted image 20241124143245.png",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/2장.pdf",
@@ -181,7 +189,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/9. 네트워크 계층.pdf",
-    "image/Pasted image 20241123174104.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/8. 무선통신 시스템.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/7. LAN의 특징과 규격.pdf",
@@ -190,11 +197,8 @@
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/6. 스레드 동기화.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
-    "Pasted image 20241123174104.png",
     "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf",
     "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
-    "image/스크린샷 2024-11-22 150830.png",
-    "image/스크린샷 2024-11-22 150802.png",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
@@ -205,7 +209,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/ip rounting.md",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/고급 정규형.md",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/인터넷 프로토콜(IP).md",
-    "Obsidian/ComputerScience/운영체제/0. 과제/Simulator for Memory Allocation Algorithm.md"
+    "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/인터넷 프로토콜(IP).md"
   ]
 }
