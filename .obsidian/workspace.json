@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/11. 보안과 권한 관리/11. 보안과 권한 관리.pdf"
+                "file": "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터/13. 데이터 과학과 빅데이터.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "11. 보안과 권한 관리"
+              "title": "13. 데이터 과학과 빅데이터"
             }
           }
         ]
@@ -180,17 +180,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ba9e23474eb62275",
+  "active": "aac4406844bb1ed3",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/데이터베이스/무제 폴더 2",
+    "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터/13. 데이터 과학과 빅데이터.pdf",
+    "Obsidian/ComputerScience/데이터베이스/12. 데이터베이스 응용 기술/12. 데이터베이스 응용 기술.pdf",
+    "Obsidian/ComputerScience/데이터베이스/12. 데이터베이스 응용 기술",
+    "Obsidian/ComputerScience/데이터베이스/11. 보안과 권한 관리/11. 보안과 권한 관리.pdf",
+    "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터",
     "Obsidian/ComputerScience/데이터베이스/무제 폴더 1",
     "Obsidian/ComputerScience/데이터베이스/11. 보안과 권한 관리",
     "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.pdf",
     "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
-    "Obsidian/ComputerScience/데이터베이스/무제 폴더 2/13. 데이터 과학과 빅데이터.pdf",
-    "Obsidian/ComputerScience/데이터베이스/무제 폴더 1/12. 데이터베이스 응용 기술.pdf",
-    "Obsidian/ComputerScience/데이터베이스/11. 보안과 권한 관리/11. 보안과 권한 관리.pdf",
     "image/Pasted image 20241125160919.png",
     "image/Pasted image 20241125160933.png",
     "Pasted image 20241125160933.png",
@@ -208,7 +209,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/12. 네트워크 계층 작업과 프로토콜.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제.pdf",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
     "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
