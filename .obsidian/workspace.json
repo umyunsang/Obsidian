@@ -8,35 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1886283eb395dc4e",
+            "id": "d083e27687fd4ec2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "연습문제"
+              "title": "네트워크 계층 작업과 프로토콜"
             }
           }
         ]
       },
       {
-        "id": "0cfc7b6bcf41e9c9",
+        "id": "4fac731a671dc5b2",
         "type": "tabs",
         "children": [
           {
-            "id": "d083e27687fd4ec2",
+            "id": "1886283eb395dc4e",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제.pdf"
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/12. 네트워크 계층 작업과 프로토콜.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "ossai2024_3장_확인문제"
+              "title": "12. 네트워크 계층 작업과 프로토콜"
             }
           }
         ]
@@ -183,8 +183,11 @@
   },
   "active": "1886283eb395dc4e",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/12. 네트워크 계층 작업과 프로토콜.pdf",
+    "Pasted image 20241125150624.png",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "image/Pasted image 20241125112601.png",
@@ -196,7 +199,6 @@
     "image/Pasted image 20241125105754.png",
     "image/Pasted image 20241125105754 1.png",
     "image/Pasted image 20241125105509.png",
-    "image/Pasted image 20241125105456.png",
     "image/20241125-0227-34.0973394.mp4",
     "image/20241125-0158-35.1867824.mp4",
     "20241125-0227-34.0973394.mp4",
@@ -205,7 +207,6 @@
     "20241125-0146-43.5711252.mp4",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/10. 가상 메모리 관리.pdf",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제_현재13문제.pdf",
     "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/고급 정규형.md",
@@ -226,7 +227,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/데이터 링크 계층의 작업 (2 계층).md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
-    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md"
+    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md"
   ]
 }
