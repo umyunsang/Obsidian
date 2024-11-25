@@ -367,6 +367,13 @@ icearr[0] = ice
 >![](../../../../image/20241124-0649-55.3171642.mp4)
 
 ---
+## HTML 노드 추가 및 삭제
+![[Pasted image 20241125104329.png]]
+- document.
+	- createElement()
+- 부모.
+	- appendChild(node)
+	- removeChild(node)
 #### 예제13. 노드 추가하기
 ```html
 <!DOCTYPE html>
@@ -395,6 +402,16 @@ icearr[0] = ice
 </body>
 </html>
 ```
+>[!출력]
+>![](../../../../image/20241125-0146-43.5711252.mp4)
+-  태그 객체 생성 (아직 화면에 띄운것은 아님)
+	- const node = document.createElement("a");
+- 속성을 채우기
+	- node.href = urlarr[i];
+    - node.innerHTML = `<hr>${namearr[i]}`;
+- 화면에 띄우기
+	- document.getElementById("h").appendChild(node);
+		- 부모.appendChild(node);
 
 ---
 #### 예제14. 노드 삭제하기
@@ -424,17 +441,17 @@ icearr[0] = ice
         function removeNode() {
             const parent = document.getElementById("d");
             const child = document.getElementById(`b${num}`);
-            if (child) {
-                parent.removeChild(child);
-                num++;
-            }
+            parent.removeChild(child);
+            num++;
         }
     </script>
 </body>
 </html>
-
 ```
-
+>[!출력]
+>![[20241125-0158-35.1867824.mp4]]
+- 코딩 상 'b4 삭제하라' 인데 b4는 삭제 안되었다 왜그럴까 ?
+	- 부모노드가 달라서 (div의 자식이 아니여서)
 
 ---
 #### 예제15. 행 추가 및 삭제

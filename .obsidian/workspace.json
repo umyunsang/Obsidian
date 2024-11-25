@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
+                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "가상 메모리"
+              "title": "연습문제"
             }
           }
         ]
@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/10. 가상 메모리/10. 가상 메모리 관리.pdf"
+                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "10. 가상 메모리 관리"
+              "title": "ossai2024_3장_확인문제"
             }
           }
         ]
@@ -183,19 +183,26 @@
   },
   "active": "ec52d0a5ab2a1b43",
   "lastOpenFiles": [
-    "image/Pasted image 20241125100811.png",
-    "image/Pasted image 20241125100756.png",
-    "image/Pasted image 20241125100042.png",
-    "image/Pasted image 20241125100022.png",
-    "image/Pasted image 20241125095925.png",
-    "image/Pasted image 20241125095823.png",
-    "image/Pasted image 20241125095552.png",
-    "Obsidian/ComputerScience/운영체제/10. 가상 메모리/10. 가상 메모리 관리.pdf",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제.pdf",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
+    "Pasted image 20241125110927.png",
+    "Pasted image 20241125110415.png",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장.pdf",
+    "20241125-0158-35.1867824.mp4",
+    "Pasted image 20241125105757.png",
+    "Pasted image 20241125105754 1.png",
+    "Pasted image 20241125105754.png",
+    "Pasted image 20241125105509.png",
+    "Pasted image 20241125105456.png",
+    "image/Pasted image 20241125104329.png",
+    "image/20241125-0146-43.5711252.mp4",
+    "20241125-0146-43.5711252.mp4",
+    "Pasted image 20241125104329.png",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
-    "Pasted image 20241125100811.png",
-    "Pasted image 20241125100756.png",
-    "Pasted image 20241125100042.png",
-    "Pasted image 20241125100022.png",
+    "Obsidian/ComputerScience/운영체제/10. 가상 메모리/10. 가상 메모리 관리.pdf",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제_현재13문제.pdf",
+    "image/Pasted image 20241125100811.png",
     "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
     "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/9. 페이징 메모리 관리.pdf",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리",
@@ -205,18 +212,10 @@
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/6. 스레드 동기화.pdf",
     "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.md",
-    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8. 데이터베이스 설계.pdf",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/뷰(view).md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/10. 라우팅 알고리즘.pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/11. 인터넷 프로토콜라우팅 알고리즘.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/인터넷 프로토콜(IP).md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제_현재13문제.pdf",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장.pdf",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
-    "image/20241124-0653-54.0598573.mp4",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/TTS 요구 사항.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/음성 인식 요구 사항.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/배경사진 요구사항.md",
