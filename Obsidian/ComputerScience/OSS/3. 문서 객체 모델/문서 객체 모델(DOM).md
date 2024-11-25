@@ -454,26 +454,27 @@ icearr[0] = ice
 	- 부모노드가 달라서 (div의 자식이 아니여서)
 
 ---
+## 테이블 요소 추가/삭제
+![[Pasted image 20241125112601.png]]
+- insertRow() : tr 추가
+- insertCell() : td 추가
+- deleteRow() : tr 삭제
 #### 예제15. 행 추가 및 삭제
 ```html
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>예15</title>
+    <meta charset="UTF-8"><title>예15</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        table, td {
-            border-collapse: collapse;
-        }
+        table, td {border-collapse: collapse;}
     </style>
 </head>
 <body>
     <table id="tbl">
         <tr>
-            <td>원래 셀</td>
-            <td>원래 셀</td>
-        </tr>
+            <td>원래 셀
+            <td>원래 셀
     </table>
     <br>
     <button onClick="changeTable(1)">행 추가</button>
@@ -502,5 +503,7 @@ icearr[0] = ice
 </html>
 
 ```
+>[!출력]
+>![[20241125-0227-34.0973394.mp4]]
 
 ---
