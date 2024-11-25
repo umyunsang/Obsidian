@@ -13,12 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
+                "file": "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "정규화"
+              "title": "페이징 메모리 관리"
+            }
+          }
+        ]
+      },
+      {
+        "id": "403e723264735004",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d083e27687fd4ec2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/9. 페이징 메모리 관리.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "9. 페이징 메모리 관리"
             }
           }
         ]
@@ -77,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -164,8 +183,13 @@
   },
   "active": "ec52d0a5ab2a1b43",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/데이터베이스/9. 정규화/고급 정규형.md",
+    "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/9. 페이징 메모리 관리.pdf",
+    "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
+    "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
+    "Obsidian/ComputerScience/운영체제/10. 가상 메모리/10. 가상 메모리 관리.pdf",
+    "Obsidian/ComputerScience/운영체제/10. 가상 메모리",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
+    "Obsidian/ComputerScience/데이터베이스/9. 정규화/고급 정규형.md",
     "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/6. 스레드 동기화.pdf",
@@ -183,9 +207,6 @@
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "image/Pasted image 20241124154902.png",
     "image/20241124-0653-54.0598573.mp4",
-    "image/20241124-0652-05.0386461.mp4",
-    "image/20241124-0649-55.3171642.mp4",
-    "20241124-0653-54.0598573.mp4",
     "Pasted image 20241124154902.png",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/TTS 요구 사항.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/음성 인식 요구 사항.md",
@@ -206,8 +227,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/데이터 링크 계층의 작업 (2 계층).md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
-    "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md"
+    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md"
   ]
 }
