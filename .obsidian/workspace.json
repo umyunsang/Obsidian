@@ -6,6 +6,7 @@
       {
         "id": "403e723264735004",
         "type": "tabs",
+        "dimension": 47.72267206477733,
         "children": [
           {
             "id": "aac4406844bb1ed3",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.md",
+                "file": "Obsidian/ComputerScience/데이터베이스/11. 보안과 권한 관리/보안과 권한 관리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "회복과 병행 제어"
+              "title": "보안과 권한 관리"
             }
           }
         ]
@@ -26,6 +27,7 @@
       {
         "id": "f5f7a8cea8aade92",
         "type": "tabs",
+        "dimension": 52.27732793522267,
         "children": [
           {
             "id": "d083e27687fd4ec2",
@@ -33,10 +35,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터/13. 데이터 과학과 빅데이터.pdf"
+                "file": "Obsidian/ComputerScience/데이터베이스/11. 보안과 권한 관리/11. 보안과 권한 관리.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "13. 데이터 과학과 빅데이터"
+              "title": "11. 보안과 권한 관리"
             }
           }
         ]
@@ -95,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -182,33 +185,34 @@
   },
   "active": "aac4406844bb1ed3",
   "lastOpenFiles": [
+    "Pasted image 20241125165316.png",
+    "Pasted image 20241125165226.png",
+    "Obsidian/ComputerScience/데이터베이스/11. 보안과 권한 관리/11. 보안과 권한 관리.pdf",
+    "Obsidian/ComputerScience/데이터베이스/11. 보안과 권한 관리/보안과 권한 관리.md",
+    "Pasted image 20241125164857.png",
+    "Pasted image 20241125164847.png",
+    "Pasted image 20241125164553.png",
+    "Pasted image 20241125164539.png",
+    "Pasted image 20241125164523.png",
+    "Pasted image 20241125164448.png",
+    "Pasted image 20241125164126.png",
+    "Pasted image 20241125163341.png",
+    "Pasted image 20241125163211.png",
+    "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.md",
     "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터/13. 데이터 과학과 빅데이터.pdf",
     "Obsidian/ComputerScience/데이터베이스/12. 데이터베이스 응용 기술/12. 데이터베이스 응용 기술.pdf",
     "Obsidian/ComputerScience/데이터베이스/12. 데이터베이스 응용 기술",
-    "Obsidian/ComputerScience/데이터베이스/11. 보안과 권한 관리/11. 보안과 권한 관리.pdf",
     "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터",
     "Obsidian/ComputerScience/데이터베이스/무제 폴더 1",
     "Obsidian/ComputerScience/데이터베이스/11. 보안과 권한 관리",
     "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.pdf",
-    "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
-    "image/Pasted image 20241125160919.png",
-    "image/Pasted image 20241125160933.png",
-    "Pasted image 20241125160933.png",
-    "Pasted image 20241125160919.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
-    "image/Pasted image 20241125160511.png",
-    "image/Pasted image 20241125155701.png",
-    "image/Pasted image 20241125155123.png",
-    "image/Pasted image 20241125154331.png",
-    "image/Pasted image 20241125152932.png",
-    "image/Pasted image 20241125152723.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/13. 전송 계층.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/12. 네트워크 계층 작업과 프로토콜.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
     "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
@@ -226,7 +230,6 @@
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md"
+    "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md"
   ]
 }
