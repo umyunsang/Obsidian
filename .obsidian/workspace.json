@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
+                "file": "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "페이징 메모리 관리"
+              "title": "가상 메모리"
             }
           }
         ]
@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/9. 페이징 메모리 관리.pdf"
+                "file": "Obsidian/ComputerScience/운영체제/10. 가상 메모리/10. 가상 메모리 관리.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "9. 페이징 메모리 관리"
+              "title": "10. 가상 메모리 관리"
             }
           }
         ]
@@ -183,10 +183,10 @@
   },
   "active": "ec52d0a5ab2a1b43",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/9. 페이징 메모리 관리.pdf",
-    "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
-    "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/10. 가상 메모리 관리.pdf",
+    "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
+    "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
+    "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/9. 페이징 메모리 관리.pdf",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/고급 정규형.md",
