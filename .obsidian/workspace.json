@@ -6,7 +6,6 @@
       {
         "id": "403e723264735004",
         "type": "tabs",
-        "dimension": 47.72267206477733,
         "children": [
           {
             "id": "aac4406844bb1ed3",
@@ -14,31 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/12. 데이터베이스 응용 기술/데이터베이스 응용 기술.md",
+                "file": "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "데이터베이스 응용 기술"
+              "title": "교착상태"
             }
           }
         ]
       },
       {
-        "id": "f5f7a8cea8aade92",
+        "id": "3bbae6fbc5791403",
         "type": "tabs",
-        "dimension": 52.27732793522267,
         "children": [
           {
-            "id": "d083e27687fd4ec2",
+            "id": "154bf2e61b6bdf6e",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/12. 데이터베이스 응용 기술/12. 데이터베이스 응용 기술.pdf"
+                "file": "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "12. 데이터베이스 응용 기술"
+              "title": "7. 교착상태"
             }
           }
         ]
@@ -183,11 +181,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "aac4406844bb1ed3",
+  "active": "154bf2e61b6bdf6e",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
+    "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
+    "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
+    "Obsidian/ComputerScience/이산수학/5 그래프.pdf",
+    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
+    "Obsidian/ComputerScience/데이터베이스/12. 데이터베이스 응용 기술/데이터베이스 응용 기술.md",
     "image/Pasted image 20241125170401.png",
     "Obsidian/ComputerScience/데이터베이스/12. 데이터베이스 응용 기술/12. 데이터베이스 응용 기술.pdf",
-    "Obsidian/ComputerScience/데이터베이스/12. 데이터베이스 응용 기술/데이터베이스 응용 기술.md",
     "Pasted image 20241125170401.png",
     "Obsidian/ComputerScience/데이터베이스/11. 보안과 권한 관리/보안과 권한 관리.md",
     "Obsidian/ComputerScience/데이터베이스/11. 보안과 권한 관리/11. 보안과 권한 관리.pdf",
@@ -199,7 +202,6 @@
     "image/Pasted image 20241125164857.png",
     "image/Pasted image 20241125164847.png",
     "image/Pasted image 20241125164553.png",
-    "image/Pasted image 20241125164539.png",
     "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.md",
     "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터/13. 데이터 과학과 빅데이터.pdf",
     "Obsidian/ComputerScience/데이터베이스/12. 데이터베이스 응용 기술",
@@ -211,8 +213,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/13. 전송 계층.pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/12. 네트워크 계층 작업과 프로토콜.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
@@ -220,7 +220,6 @@
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/고급 정규형.md",
     "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
-    "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/뷰(view).md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
@@ -228,8 +227,6 @@
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/TTS 요구 사항.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/음성 인식 요구 사항.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/배경사진 요구사항.md",
-    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md",
-    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md"
+    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/연습문제.md"
   ]
 }
