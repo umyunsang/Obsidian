@@ -13,30 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "전송 계층"
-            }
-          }
-        ]
-      },
-      {
-        "id": "3bbae6fbc5791403",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "154bf2e61b6bdf6e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/13. 전송 계층.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "13. 전송 계층"
+              "title": "기말 퀴즈"
             }
           }
         ]
@@ -183,22 +165,23 @@
   },
   "active": "aac4406844bb1ed3",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/13. 전송 계층.pdf",
+    "image/Pasted image 20241127174021.png",
+    "image/Pasted image 20241127174007.png",
+    "image/Pasted image 20241127173944.png",
+    "image/Pasted image 20241127173925.png",
+    "image/Pasted image 20241127173912.png",
+    "Pasted image 20241127174021.png",
+    "Pasted image 20241127174007.png",
+    "Pasted image 20241127173944.png",
+    "Pasted image 20241127173925.png",
+    "Pasted image 20241127173912.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
-    "Pasted image 20241127164545.png",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/13. 전송 계층.pdf",
+    "image/Pasted image 20241127172657.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/12. 네트워크 계층 작업과 프로토콜.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/10. 가상 메모리 관리.pdf",
-    "image/Pasted image 20241127113948.png",
-    "Pasted image 20241127113948.png",
-    "image/Pasted image 20241127113150.png",
-    "image/Pasted image 20241127111257.png",
-    "image/Pasted image 20241127105642.png",
-    "image/Pasted image 20241127104244.png",
-    "Pasted image 20241127113150.png",
-    "Pasted image 20241127111257.png",
-    "Pasted image 20241127105642.png",
     "Obsidian/ComputerScience/운영체제/8. 메모리관리/8. 메모리관리.pdf",
     "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
