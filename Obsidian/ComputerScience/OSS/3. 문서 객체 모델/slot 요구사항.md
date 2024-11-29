@@ -77,3 +77,21 @@ function A(){
 }
 ```
 - 버튼 onclick하면 A()함수가 돌아감 하지만 0.1초마다 반복되는 부분은 a()
+
+#### 요구사항 1
+```html
+<body>
+	<h4 id="icount">&nbsp;</h4> 
+<script>
+function spinSlots() {
+	iterationCount++;
+	document.getElementById("icount").textContent = iterationCount; //추가
+```
+
+#### 요구사항 2
+```js
+function spinSlots() { }
+/* spinSlots함수를 화살표 함수로 변경 */
+const spinSlots = () => {}
+```
+#### 요구사항 3

@@ -4,26 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "403e723264735004",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bfbeb4a0c16b54ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/slot 요구사항.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "slot 요구사항"
-            }
-          }
-        ]
-      },
-      {
         "id": "768134bc2a162ea1",
         "type": "tabs",
         "children": [
@@ -181,13 +161,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "bfbeb4a0c16b54ad",
+  "active": "aac4406844bb1ed3",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제.pdf",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_고객님의추가요구사항 (3).pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/slot 요구사항.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/요구사항.pdf",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제.pdf",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
     "image/Pasted image 20241128105501.png",
     "image/Pasted image 20241128105027.png",
