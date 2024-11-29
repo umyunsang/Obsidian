@@ -35,10 +35,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf"
+                "file": "Obsidian/ComputerScience/이산수학/Appendix 1 Floyd Warshall Algorithm.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "4 관계 및 함수"
+              "title": "Appendix 1 Floyd Warshall Algorithm"
             }
           }
         ]
@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -183,37 +182,37 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "aac4406844bb1ed3",
+  "active": "affc77ca6dda2816",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/이산수학/Appendix 1 Floyd Warshall Algorithm.pdf",
     "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
+    "Obsidian/ComputerScience/이산수학/Appendix 2 Welch-Powell Algorithms.pdf",
     "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf",
-    "Pasted image 20241129152258.png",
+    "image/Pasted image 20241129153943.png",
+    "image/Pasted image 20241129153815.png",
+    "image/Pasted image 20241129153804.png",
+    "image/Pasted image 20241129153752.png",
+    "image/Pasted image 20241129153733.png",
+    "image/Pasted image 20241129153104.png",
+    "image/Pasted image 20241129152258.png",
+    "Pasted image 20241129153943.png",
+    "Pasted image 20241129153815.png",
+    "Pasted image 20241129153804.png",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_고객님의추가요구사항 (3).pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/slot 요구사항.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/요구사항.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
-    "image/Pasted image 20241128105501.png",
-    "image/Pasted image 20241128105027.png",
-    "image/Pasted image 20241128104718.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/12. 네트워크 계층 작업과 프로토콜.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/인터넷 프로토콜(IP).md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/11. 인터넷 프로토콜라우팅 알고리즘.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/10. 라우팅 알고리즘.pdf",
     "Obsidian/ComputerScience/데이터베이스/12. 데이터베이스 응용 기술/데이터베이스 응용 기술.md",
-    "Obsidian/ComputerScience/데이터베이스/12. 데이터베이스 응용 기술/12. 데이터베이스 응용 기술.pdf",
-    "Pasted image 20241128105501.png",
-    "Pasted image 20241128105027.png",
-    "Pasted image 20241128104718.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
-    "image/Pasted image 20241127174021.png",
-    "image/Pasted image 20241127174007.png",
-    "image/Pasted image 20241127173944.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/13. 전송 계층.pdf",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
     "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
