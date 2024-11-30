@@ -6,7 +6,7 @@
       {
         "id": "768134bc2a162ea1",
         "type": "tabs",
-        "dimension": 42.00404858299595,
+        "dimension": 52.32793522267206,
         "children": [
           {
             "id": "affc77ca6dda2816",
@@ -27,7 +27,7 @@
       {
         "id": "fcf821b9e8081c42",
         "type": "tabs",
-        "dimension": 57.99595141700404,
+        "dimension": 47.67206477732793,
         "children": [
           {
             "id": "aac4406844bb1ed3",
@@ -35,10 +35,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/이산수학/Appendix 1 Floyd Warshall Algorithm.pdf"
+                "file": "Obsidian/ComputerScience/이산수학/과제/Discrete_Mathematics__Homework_I (1).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Appendix 1 Floyd Warshall Algorithm"
+              "title": "Discrete_Mathematics__Homework_I (1)"
             }
           }
         ]
@@ -97,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -182,12 +183,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "affc77ca6dda2816",
+  "active": "aac4406844bb1ed3",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/이산수학/Appendix 1 Floyd Warshall Algorithm.pdf",
+    "Obsidian/ComputerScience/이산수학/과제/과제 번역.md",
     "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
-    "Obsidian/ComputerScience/이산수학/Appendix 2 Welch-Powell Algorithms.pdf",
+    "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산/집합 및 집합 연산.md",
+    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
     "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf",
+    "Obsidian/ComputerScience/이산수학/5 그래프.pdf",
+    "Obsidian/ComputerScience/이산수학/과제/Discrete_Mathematics__Homework_I (1).pdf",
+    "Obsidian/ComputerScience/이산수학/과제",
+    "Obsidian/ComputerScience/이산수학/Appendix 1 Floyd Warshall Algorithm.pdf",
+    "Obsidian/ComputerScience/이산수학/Appendix 2 Welch-Powell Algorithms.pdf",
     "image/Pasted image 20241129153943.png",
     "image/Pasted image 20241129153815.png",
     "image/Pasted image 20241129153804.png",
@@ -204,11 +211,8 @@
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/slot 요구사항.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/요구사항.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/12. 네트워크 계층 작업과 프로토콜.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/인터넷 프로토콜(IP).md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/11. 인터넷 프로토콜라우팅 알고리즘.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/10. 라우팅 알고리즘.pdf",
     "Obsidian/ComputerScience/데이터베이스/12. 데이터베이스 응용 기술/데이터베이스 응용 기술.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
@@ -226,8 +230,6 @@
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/고급 정규형.md",
     "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
-    "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/뷰(view).md",
-    "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/TTS 요구 사항.md"
+    "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/뷰(view).md"
   ]
 }
