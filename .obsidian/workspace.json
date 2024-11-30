@@ -6,18 +6,20 @@
       {
         "id": "768134bc2a162ea1",
         "type": "tabs",
-        "dimension": 52.32793522267206,
+        "dimension": 48.78542510121457,
         "children": [
           {
             "id": "affc77ca6dda2816",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf"
+                "file": "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "4 관계 및 함수"
+              "icon": "lucide-file",
+              "title": "관계와 함수"
             }
           }
         ]
@@ -25,7 +27,7 @@
       {
         "id": "fcf821b9e8081c42",
         "type": "tabs",
-        "dimension": 47.67206477732793,
+        "dimension": 51.21457489878543,
         "children": [
           {
             "id": "aac4406844bb1ed3",
@@ -185,10 +187,10 @@
   },
   "active": "affc77ca6dda2816",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
-    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf",
     "Obsidian/ComputerScience/이산수학/과제/과제 번역.md",
     "Obsidian/ComputerScience/이산수학/과제/Discrete_Mathematics__Homework_I (1).pdf",
+    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
+    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf",
     "Obsidian/ComputerScience/이산수학/5 그래프.pdf",
     "Obsidian/ComputerScience/이산수학/Appendix 1 Floyd Warshall Algorithm.pdf",
     "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산/집합 및 집합 연산.md",
