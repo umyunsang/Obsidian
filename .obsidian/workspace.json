@@ -4,21 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "768134bc2a162ea1",
+        "id": "1a8ceb0c6151e47d",
         "type": "tabs",
         "children": [
           {
-            "id": "affc77ca6dda2816",
+            "id": "cdca1f36d25c933b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/이산수학/과제/Discrete mathematics Assignment.md",
+                "file": "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Discrete mathematics Assignment"
+              "title": "페이징 메모리 관리"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ed288271da557bc6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c12dc1e7b6203ee9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/9. 페이징 메모리 관리.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "9. 페이징 메모리 관리"
             }
           }
         ]
@@ -77,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -162,10 +181,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "affc77ca6dda2816",
+  "active": "cdca1f36d25c933b",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
+    "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
+    "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/9. 페이징 메모리 관리.pdf",
+    "Obsidian/ComputerScience/운영체제/8. 메모리관리/8. 메모리관리.pdf",
+    "Pasted image 20241130171656.png",
+    "Pasted image 20241130171627.png",
+    "Pasted image 20241130171319.png",
+    "Pasted image 20241130171257.png",
+    "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/인터넷 프로토콜(IP).md",
     "Obsidian/ComputerScience/이산수학/과제/Discrete mathematics Assignment.md",
+    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Dataframe.md",
     "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf",
     "Obsidian/ComputerScience/이산수학/과제/과제 번역.md",
@@ -182,25 +211,15 @@
     "image/Pasted image 20241129153752.png",
     "image/Pasted image 20241129153733.png",
     "image/Pasted image 20241129153104.png",
-    "image/Pasted image 20241129152258.png",
-    "Pasted image 20241129153943.png",
-    "Pasted image 20241129153815.png",
-    "Pasted image 20241129153804.png",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_고객님의추가요구사항 (3).pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제.pdf",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/slot 요구사항.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/요구사항.pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/인터넷 프로토콜(IP).md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
     "Obsidian/ComputerScience/데이터베이스/12. 데이터베이스 응용 기술/데이터베이스 응용 기술.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
-    "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
-    "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
     "Obsidian/ComputerScience/데이터베이스/11. 보안과 권한 관리/보안과 권한 관리.md",
     "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.md",
@@ -208,7 +227,6 @@
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
-    "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
-    "Obsidian/ComputerScience/데이터베이스/9. 정규화/고급 정규형.md"
+    "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md"
   ]
 }
