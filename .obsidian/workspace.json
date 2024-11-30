@@ -12,14 +12,12 @@
             "id": "affc77ca6dda2816",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf"
               },
-              "icon": "lucide-file",
-              "title": "관계와 함수"
+              "icon": "lucide-file-text",
+              "title": "4 관계 및 함수"
             }
           }
         ]
@@ -185,14 +183,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "affc77ca6dda2816",
+  "active": "aac4406844bb1ed3",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/이산수학/과제/과제 번역.md",
     "Obsidian/ComputerScience/이산수학/과제/Discrete_Mathematics__Homework_I (1).pdf",
-    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
-    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf",
-    "Obsidian/ComputerScience/이산수학/5 그래프.pdf",
     "Obsidian/ComputerScience/이산수학/Appendix 1 Floyd Warshall Algorithm.pdf",
+    "Obsidian/ComputerScience/이산수학/과제/과제 번역.md",
+    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf",
+    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
+    "Obsidian/ComputerScience/이산수학/5 그래프.pdf",
     "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산/집합 및 집합 연산.md",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
     "Obsidian/ComputerScience/이산수학/과제",
