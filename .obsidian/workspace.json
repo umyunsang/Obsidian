@@ -6,7 +6,6 @@
       {
         "id": "1a8ceb0c6151e47d",
         "type": "tabs",
-        "dimension": 47.368421052631575,
         "children": [
           {
             "id": "cdca1f36d25c933b",
@@ -14,31 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
+                "file": "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "메모리 관리"
-            }
-          }
-        ]
-      },
-      {
-        "id": "ed288271da557bc6",
-        "type": "tabs",
-        "dimension": 52.63157894736842,
-        "children": [
-          {
-            "id": "c12dc1e7b6203ee9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/운영체제/8. 메모리관리/8. 메모리관리.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "8. 메모리관리"
+              "title": "페이징 메모리 관리"
             }
           }
         ]
@@ -183,11 +163,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c12dc1e7b6203ee9",
+  "active": "cdca1f36d25c933b",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/9. 페이징 메모리 관리.pdf",
+    "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
     "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
-    "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
     "Obsidian/ComputerScience/운영체제/8. 메모리관리/8. 메모리관리.pdf",
+    "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/10. 가상 메모리 관리.pdf",
@@ -196,8 +178,6 @@
     "image/Pasted image 20241130171319.png",
     "image/Pasted image 20241130171257.png",
     "Obsidian/ComputerScience/운영체제/11. 파일 시스템 관리.pdf",
-    "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
-    "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/9. 페이징 메모리 관리.pdf",
     "Pasted image 20241130171656.png",
     "Pasted image 20241130171627.png",
     "Pasted image 20241130171319.png",
