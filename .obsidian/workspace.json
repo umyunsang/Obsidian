@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
+                "file": "Obsidian/ComputerScience/운영체제/과제/Banker/banker.c.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "가상 메모리"
-            }
-          },
-          {
-            "id": "495125e5da8161d3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/운영체제/10. 가상 메모리/10. 가상 메모리 관리.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "10. 가상 메모리 관리"
+              "title": "banker.c"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -175,21 +163,32 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "495125e5da8161d3",
+  "active": "cdca1f36d25c933b",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/운영체제/과제/FCFS/fcfs.c.md",
+    "Obsidian/ComputerScience/운영체제/과제/Banker/banker.c.md",
+    "Obsidian/ComputerScience/운영체제/과제/MemoryAlloc/allocation.c.md",
+    "Obsidian/ComputerScience/운영체제/과제/SJF/sjf.c.md",
+    "Obsidian/ComputerScience/운영체제/과제/SRTF/srtf.c.md",
+    "Obsidian/ComputerScience/운영체제/과제/Banker/BankerAlgorithm.pdf",
+    "Obsidian/ComputerScience/운영체제/과제/MemoryAlloc/MemoryAlloc.pdf",
+    "Obsidian/ComputerScience/운영체제/과제/FCFS/FCFS 과제.pdf",
+    "Obsidian/ComputerScience/운영체제/과제/SJF/SJF 과제.pdf",
+    "Obsidian/ComputerScience/운영체제/과제/sum/sum.c.md",
+    "Obsidian/ComputerScience/운영체제/과제/SRTF/SRTF 과제.pdf",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
+    "Obsidian/ComputerScience/운영체제/과제/Disk",
+    "Obsidian/ComputerScience/운영체제/과제/Page",
+    "Obsidian/ComputerScience/운영체제/과제/MemoryAlloc",
+    "Obsidian/ComputerScience/운영체제/과제/Banker",
+    "Obsidian/ComputerScience/운영체제/과제/FCFS",
     "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
-    "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/9. 페이징 메모리 관리.pdf",
     "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
-    "Obsidian/ComputerScience/운영체제/8. 메모리관리/8. 메모리관리.pdf",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
-    "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
-    "Obsidian/ComputerScience/운영체제/10. 가상 메모리/10. 가상 메모리 관리.pdf",
     "image/Pasted image 20241130171656.png",
     "image/Pasted image 20241130171627.png",
     "image/Pasted image 20241130171319.png",
     "image/Pasted image 20241130171257.png",
-    "Obsidian/ComputerScience/운영체제/11. 파일 시스템 관리.pdf",
     "Pasted image 20241130171656.png",
     "Pasted image 20241130171627.png",
     "Pasted image 20241130171319.png",
@@ -199,14 +198,9 @@
     "Obsidian/ComputerScience/이산수학/과제/Discrete mathematics Assignment.md",
     "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Dataframe.md",
-    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf",
     "Obsidian/ComputerScience/이산수학/과제/과제 번역.md",
-    "Obsidian/ComputerScience/이산수학/과제/Discrete_Mathematics__Homework_I (1).pdf",
-    "Obsidian/ComputerScience/이산수학/Appendix 1 Floyd Warshall Algorithm.pdf",
-    "Obsidian/ComputerScience/이산수학/5 그래프.pdf",
     "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산/집합 및 집합 연산.md",
     "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
-    "Obsidian/ComputerScience/이산수학/과제",
     "image/Pasted image 20241129153943.png",
     "image/Pasted image 20241129153815.png",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/slot 요구사항.md",
@@ -216,11 +210,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
-    "Obsidian/ComputerScience/데이터베이스/11. 보안과 권한 관리/보안과 권한 관리.md",
-    "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/QUIZ.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
-    "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md"
+    "Obsidian/ComputerScience/데이터베이스/11. 보안과 권한 관리/보안과 권한 관리.md"
   ]
 }
