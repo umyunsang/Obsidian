@@ -11,12 +11,14 @@
             "id": "cdca1f36d25c933b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_고객님의추가요구사항 (4).pdf"
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "ossai2024_고객님의추가요구사항 (4)"
+              "icon": "lucide-file",
+              "title": "네트워크 계층 작업과 프로토콜"
             }
           }
         ]
@@ -75,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -163,9 +164,9 @@
   },
   "active": "cdca1f36d25c933b",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_고객님의추가요구사항 (4).pdf",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, javascript 기초.md",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_고객님의추가요구사항 (4).pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/slot 요구사항.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_3장_확인문제.pdf",
@@ -207,7 +208,6 @@
     "Obsidian/ComputerScience/머신러닝프로젝트/Pandas/Dataframe.md",
     "Obsidian/ComputerScience/이산수학/과제/과제 번역.md",
     "Obsidian/ComputerScience/이산수학/2. 집합 및 집합 연산/집합 및 집합 연산.md",
-    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md"
+    "Obsidian/ComputerScience/이산수학/1. 수학적 모델과 논리/수학적 모델과 논리.md"
   ]
 }
