@@ -13,12 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/11. 파일 시스템 관리/파일 시스템 관리.md",
-                "mode": "source",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "파일 시스템 관리"
+              "title": "기말 퀴즈"
+            }
+          }
+        ]
+      },
+      {
+        "id": "7d059540fb72dc57",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b5e2c72485245a3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/13. 전송 계층.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "13. 전송 계층"
             }
           }
         ]
@@ -77,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -165,6 +182,15 @@
   },
   "active": "cdca1f36d25c933b",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/인터넷 프로토콜(IP).md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/TCP와 소켓 프로그래밍.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/13. 전송 계층.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/14. TCP와 소켓 프로그래밍.pdf",
+    "Obsidian/ComputerScience/운영체제/11. 파일 시스템 관리/파일 시스템 관리.md",
     "Pasted image 20241204112142.png",
     "Pasted image 20241204111929.png",
     "Pasted image 20241204111800.png",
@@ -185,12 +211,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/6. 데이터 링크 계층의 작업/데이터 링크 계층의 작업 (2 계층).md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/5. 통신망과 특징/통신망과 특징.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/인터넷 프로토콜(IP).md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/TCP와 소켓 프로그래밍.md",
     "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
@@ -205,11 +225,7 @@
     "image/Pasted image 20241202160808.png",
     "Pasted image 20241202160838.png",
     "Pasted image 20241202160823.png",
-    "Pasted image 20241202160808.png",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/14. TCP와 소켓 프로그래밍.pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/13. 전송 계층.pdf",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, javascript 기초.md",
-    "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_고객님의추가요구사항 (3).pdf"
   ]
 }

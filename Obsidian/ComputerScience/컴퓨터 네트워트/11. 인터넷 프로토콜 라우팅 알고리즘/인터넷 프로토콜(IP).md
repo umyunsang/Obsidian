@@ -86,7 +86,7 @@
 - Version : IP 버전 번호, IPv4임으로 4가 들어가 있음
 - **IHL** : IHL은 **IP Header Length**의 약자. 옵션을 포함한 IP 헤더 길이를 나타냄. 언제나 4바이트 기준. 옵션이 없는 경우 IHL에는 **5가 들어가 있음** -> 1줄이 4바이트임으로 20바이트 크기의 헤더가 됨
 - Services(QoS) : 1번 줄의 8번에서 15번 비트까지는 원래 Quality of Service를 명시. 일반적인 인터넷에 서는 **무시**
-- ECN : **14번과 15번 비트**는 ECNExplicit Congestion Notification 필드이다. ECN은 **혼잡제어**와 관련된 필드. ECN은 ECT 비트와 CE 비트 두 개로 구성. ECN는 TCP의 요청에 의해 사용되는 필드이며 14장 TCP와 소켓 프로그래밍에서 자세히 설명
+- ECN : **14번과 15번 비트**는 ECN 필드이다. ECN은 **혼잡제어**와 관련된 필드. ECN은 ECT 비트와 CE 비트 두 개로 구성. ECN는 TCP의 요청에 의해 사용되는 필드이며 14장 TCP와 소켓 프로그래밍에서 자세히 설명
 - Total Length : Total Length는 **헤더를 포함하여 전체 패킷의 크기**를 나타냄 -> IHL과 달리 Total Length에 있는 값은 바이트를 의미. 200이면 헤더를 포함하여 전체 크기가 200바이트라는 의미
 
 ![](../../../../image/Pasted%20image%2020241113171517.png)
