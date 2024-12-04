@@ -11,12 +11,14 @@
             "id": "cdca1f36d25c933b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델.pdf"
+                "file": "Obsidian/ComputerScience/운영체제/11. 파일 시스템 관리/파일 시스템 관리.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "문서 객체 모델"
+              "icon": "lucide-file",
+              "title": "파일 시스템 관리"
             }
           }
         ]
@@ -75,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -162,6 +165,7 @@
   },
   "active": "cdca1f36d25c933b",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습 문제.pdf",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/ossai2024_고객님의추가요구사항 (4).pdf",
@@ -205,8 +209,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/13. 전송 계층.pdf",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, javascript 기초.md",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/slot 요구사항.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_고객님의추가요구사항 (3).pdf"
   ]
 }
