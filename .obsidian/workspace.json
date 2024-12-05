@@ -11,14 +11,30 @@
             "id": "cdca1f36d25c933b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/6. 관계 데이터 연산.pdf"
               },
-              "icon": "lucide-file",
-              "title": "기말 퀴즈"
+              "icon": "lucide-file-text",
+              "title": "6. 관계 데이터 연산"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0558bb1a04dd6754",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1755239bfdbdbed4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터/13. 데이터 과학과 빅데이터.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "13. 데이터 과학과 빅데이터"
             }
           }
         ]
@@ -77,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -165,6 +180,9 @@
   },
   "active": "cdca1f36d25c933b",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터/데이터 과학과 빅데이터.md",
+    "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터/13. 데이터 과학과 빅데이터.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
     "image/Pasted image 20241204173850.png",
     "image/Pasted image 20241204173836.png",
     "image/Pasted image 20241204173822.png",
@@ -176,7 +194,6 @@
     "image/Pasted image 20241204173050.png",
     "image/Pasted image 20241204172926.png",
     "image/Pasted image 20241204172056.png",
-    "image/Pasted image 20241204171107.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/14. TCP와 소켓 프로그래밍.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/13. 전송 계층.pdf",
@@ -185,7 +202,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/인터넷 프로토콜(IP).md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습 문제.pdf",
@@ -206,8 +222,6 @@
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/10. 가상 메모리 관리.pdf",
     "Obsidian/ComputerScience/운영체제/과제/Page/page.c.md",
     "Obsidian/ComputerScience/운영체제/과제/Page/페이지교체 알고리즘.pdf",
-    "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터/13. 데이터 과학과 빅데이터.pdf",
-    "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터/데이터 과학과 빅데이터.md",
     "Obsidian/ComputerScience/데이터베이스/12. 데이터베이스 응용 기술/데이터베이스 응용 기술.md",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, javascript 기초.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_고객님의추가요구사항 (3).pdf"
