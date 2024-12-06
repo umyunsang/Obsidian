@@ -61,9 +61,18 @@
 #### 다른방법도 가능 (시험예상)
 ```js
 const slotarr = document.querySelectorAll('.slot');
-/* 1. getElementsByClassName() */
+/* 1. getElementsByClassName('slot') */
 /* 2. getElementsTag__() */
+
+
+for(let s of slotarr)
+	s.innerHTML = getRandomSymbol();
+
+for(let i=0; i<slotarr.lenth; i++)
+	slotarr[i].innerHTML = finalSymbols[i];
 ```
+- forEach는 querySelectorAll()로 가져온 배열만 호환 됨
+- forof나 for문을 사용해야 함
 #### 함수 A 안에 함수 a를 설정할 수 있습니다.
 ```js
 function A(){

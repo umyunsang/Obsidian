@@ -13,28 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/6. 관계 데이터 연산.pdf"
+                "file": "Obsidian/ComputerScience/OSS/고객님 요구사항/ossai2024_고객님의추가요구사항 (5).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "6. 관계 데이터 연산"
-            }
-          }
-        ]
-      },
-      {
-        "id": "0558bb1a04dd6754",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1755239bfdbdbed4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터/13. 데이터 과학과 빅데이터.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "13. 데이터 과학과 빅데이터"
+              "title": "ossai2024_고객님의추가요구사항 (5)"
             }
           }
         ]
@@ -93,7 +75,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -178,10 +161,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1755239bfdbdbed4",
+  "active": "cdca1f36d25c933b",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/slot 요구사항.md",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/ossai2024_고객님의추가요구사항 (5).pdf",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/올림픽 요구사항.md",
     "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터/13. 데이터 과학과 빅데이터.pdf",
     "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/6. 관계 데이터 연산.pdf",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/ossai2024_고객님의추가요구사항 (4).pdf",
     "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터/데이터 과학과 빅데이터.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
     "image/Pasted image 20241204173850.png",
@@ -206,7 +193,6 @@
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습 문제.pdf",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/ossai2024_고객님의추가요구사항 (4).pdf",
     "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/중간 퀴즈.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/ip rounting.md",
@@ -222,9 +208,6 @@
     "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/10. 가상 메모리 관리.pdf",
     "Obsidian/ComputerScience/운영체제/과제/Page/page.c.md",
-    "Obsidian/ComputerScience/운영체제/과제/Page/페이지교체 알고리즘.pdf",
-    "Obsidian/ComputerScience/데이터베이스/12. 데이터베이스 응용 기술/데이터베이스 응용 기술.md",
-    "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/html, javascript 기초.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/ossai2024_고객님의추가요구사항 (3).pdf"
+    "Obsidian/ComputerScience/데이터베이스/12. 데이터베이스 응용 기술/데이터베이스 응용 기술.md"
   ]
 }
