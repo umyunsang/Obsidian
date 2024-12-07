@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cdca1f36d25c933b",
+            "id": "59b237c439bfd481",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,6 +19,24 @@
               },
               "icon": "lucide-file",
               "title": "올림픽 요구사항"
+            }
+          }
+        ]
+      },
+      {
+        "id": "9a6d201e73f46789",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cdca1f36d25c933b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/OSS/고객님 요구사항/ossai2024_고객님의추가요구사항 (5).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "ossai2024_고객님의추가요구사항 (5)"
             }
           }
         ]
@@ -162,11 +180,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "cdca1f36d25c933b",
+  "active": "59b237c439bfd481",
   "lastOpenFiles": [
+    "Pasted image 20241207102453.png",
+    "Pasted image 20241207102432.png",
+    "Pasted image 20241207102357.png",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/ossai2024_고객님의추가요구사항 (5).pdf",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/slot 요구사항.md",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/올림픽 요구사항.md",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/slot 요구사항.md",
     "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터/13. 데이터 과학과 빅데이터.pdf",
     "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/6. 관계 데이터 연산.pdf",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/ossai2024_고객님의추가요구사항 (4).pdf",
@@ -181,8 +202,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/TCP와 소켓 프로그래밍.md",
     "image/Pasted image 20241204173203.png",
     "image/Pasted image 20241204173050.png",
-    "image/Pasted image 20241204172926.png",
-    "image/Pasted image 20241204172056.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/14. TCP와 소켓 프로그래밍.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/13. 전송 계층.pdf",
