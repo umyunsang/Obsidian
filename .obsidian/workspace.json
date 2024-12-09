@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5b1fa1736a79e304",
+        "id": "8e1e243b60da5c15",
         "type": "tabs",
         "children": [
           {
-            "id": "642910cb3bd933ec",
+            "id": "8d98f091e6a4ad01",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "id": "8e1e243b60da5c15",
+        "id": "167124653ccbb2ff",
         "type": "tabs",
         "children": [
           {
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "isNan",
+                "query": "onclick",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,10 +181,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "642910cb3bd933ec",
+  "active": "8d98f091e6a4ad01",
   "lastOpenFiles": [
     "Obsidian/ComputerScience/OSS/고객님 요구사항/ossai2024_고객님의추가요구사항 (6).pdf",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/Framework.md",
+    "Obsidian/ComputerScience/OSS/2. 자바스크립트 객체 다루기/자바스크립트 객체 다루기.md",
+    "Obsidian/ComputerScience/웹프로그래밍/7. 웹 시스템 제작/웹 시스템 제작.md",
+    "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md",
+    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
+    "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/올림픽 요구사항.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델.pdf",
@@ -219,12 +224,7 @@
     "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/뷰(view).md",
     "Obsidian/ComputerScience/데이터베이스/7. 데이터베이스 언어 SQL/데이터 베이스 언어 SQL.md",
-    "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
     "image/Pasted image 20241207141445.png",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/인터넷 프로토콜(IP).md",
     "Obsidian/ComputerScience/운영체제/8. 메모리관리/8. 메모리관리.pdf",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
     "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터/13. 데이터 과학과 빅데이터.pdf"
