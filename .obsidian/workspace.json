@@ -11,12 +11,14 @@
             "id": "81cba46310c60eb2",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/16. 보안/16장 보안.pdf"
+                "file": "Obsidian/ComputerScience/데이터베이스/0. 시험/final.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "16장 보안"
+              "icon": "lucide-file",
+              "title": "final"
             }
           }
         ]
@@ -75,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -92,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/16. 보안/16장 보안.pdf",
+                "file": "Obsidian/ComputerScience/데이터베이스/0. 시험/final.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "16장 보안의 백링크"
+              "title": "final의 백링크"
             }
           },
           {
@@ -163,8 +164,9 @@
   },
   "active": "81cba46310c60eb2",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/컴퓨터 네트워트/16. 보안/보안.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/16. 보안/16장 보안.pdf",
+    "Obsidian/ComputerScience/데이터베이스/0. 시험/final.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/16. 보안/보안.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/TCP와 소켓 프로그래밍.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/14. TCP와 소켓 프로그래밍.pdf",
@@ -206,7 +208,6 @@
     "Obsidian/Welcome.md",
     "Obsidian/index.md",
     "Pasted image 20241207162426.png",
-    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
     "image/Pasted image 20241207141445.png"
   ]
 }
