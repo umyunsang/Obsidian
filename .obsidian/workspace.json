@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md",
+                "file": "Obsidian/ComputerScience/OSS/고객님 요구사항/Framework.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "대용량 저장 장치 관리"
+              "title": "Framework"
             }
           }
         ]
@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/12. 저장 장치 관리.pdf"
+                "file": "Obsidian/ComputerScience/OSS/고객님 요구사항/ossai2024_고객님의추가요구사항 (6).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "12. 저장 장치 관리"
+              "title": "ossai2024_고객님의추가요구사항 (6)"
             }
           }
         ]
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md",
+                "file": "Obsidian/ComputerScience/OSS/고객님 요구사항/Framework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "대용량 저장 장치 관리의 백링크"
+              "title": "Framework의 백링크"
             }
           },
           {
@@ -183,8 +183,18 @@
   },
   "active": "642910cb3bd933ec",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/12. 저장 장치 관리.pdf",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/ossai2024_고객님의추가요구사항 (6).pdf",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/Framework.md",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/올림픽 요구사항.md",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델.pdf",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/ossai2024_고객님의추가요구사항 (5).pdf",
     "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md",
+    "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/12. 저장 장치 관리.pdf",
+    "image/Pasted image 20241209093548.png",
+    "image/Pasted image 20241209092316.png",
+    "image/Pasted image 20241209091225.png",
+    "image/Pasted image 20241208111456.png",
     "Obsidian/ComputerScience/운영체제/11. 파일 시스템 관리/파일 시스템 관리.md",
     "Pasted image 20241209093548.png",
     "Pasted image 20241209092316.png",
@@ -212,21 +222,11 @@
     "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/관계 데이터 연산.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
     "image/Pasted image 20241207141445.png",
-    "image/Pasted image 20241207134248.png",
-    "image/Pasted image 20241207112943.png",
-    "image/Pasted image 20241207111752.png",
-    "image/Pasted image 20241207110924.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/인터넷 프로토콜(IP).md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
-    "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
-    "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
     "Obsidian/ComputerScience/운영체제/8. 메모리관리/8. 메모리관리.pdf",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/ossai2024_고객님의추가요구사항 (5).pdf",
-    "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터/13. 데이터 과학과 빅데이터.pdf",
-    "Obsidian/ComputerScience/데이터베이스/6. 관계 데이터 연산/6. 관계 데이터 연산.pdf",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/ossai2024_고객님의추가요구사항 (4).pdf"
+    "Obsidian/ComputerScience/데이터베이스/13. 데이터 과학과 빅데이터/13. 데이터 과학과 빅데이터.pdf"
   ]
 }
