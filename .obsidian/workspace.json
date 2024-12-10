@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 암기 정리.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/TCP와 소켓 프로그래밍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "기말 암기 정리의 백링크"
+              "title": "TCP와 소켓 프로그래밍의 백링크"
             }
           },
           {
@@ -185,10 +185,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "81cba46310c60eb2",
+  "active": "2fbe13acd0b4664b",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/TCP와 소켓 프로그래밍.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 암기 정리.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/TCP와 소켓 프로그래밍.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/14. TCP와 소켓 프로그래밍.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
