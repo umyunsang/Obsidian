@@ -6,7 +6,7 @@
       {
         "id": "167124653ccbb2ff",
         "type": "tabs",
-        "dimension": 56.364647026125624,
+        "dimension": 49.91662034463591,
         "children": [
           {
             "id": "81cba46310c60eb2",
@@ -27,7 +27,7 @@
       {
         "id": "0b8d93e82eb758f0",
         "type": "tabs",
-        "dimension": 43.635352973874376,
+        "dimension": 50.08337965536409,
         "children": [
           {
             "id": "2fbe13acd0b4664b",
@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/TCP와 소켓 프로그래밍.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "전송 계층"
+              "title": "TCP와 소켓 프로그래밍"
             }
           }
         ]
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 암기 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "전송 계층의 백링크"
+              "title": "기말 암기 정리의 백링크"
             }
           },
           {
@@ -185,10 +185,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2fbe13acd0b4664b",
+  "active": "81cba46310c60eb2",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/TCP와 소켓 프로그래밍.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 암기 정리.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/14. TCP와 소켓 프로그래밍.pdf",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/12. 네트워크 계층 작업과 프로토콜.pdf",
     "image/Pasted image 20241210163011.png",
     "Pasted image 20241210163011.png",
@@ -204,9 +208,6 @@
     "Obsidian/ComputerScience/데이터베이스/0. 시험/final.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/16. 보안/16장 보안.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/16. 보안/보안.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/TCP와 소켓 프로그래밍.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/14. TCP와 소켓 프로그래밍.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/16. 보안",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/Framework.md",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/ossai2024_고객님의추가요구사항 (6).pdf",
@@ -229,7 +230,6 @@
     "Pasted image 20241209092316.png",
     "Pasted image 20241209091225.png",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
     "Pasted image 20241208111456.png"
   ]
