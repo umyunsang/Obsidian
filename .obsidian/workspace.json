@@ -6,39 +6,17 @@
       {
         "id": "167124653ccbb2ff",
         "type": "tabs",
-        "dimension": 45.358532518065594,
         "children": [
           {
             "id": "81cba46310c60eb2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "대용량 저장 장치 관리"
-            }
-          }
-        ]
-      },
-      {
-        "id": "0b8d93e82eb758f0",
-        "type": "tabs",
-        "dimension": 54.641467481934406,
-        "children": [
-          {
-            "id": "2fbe13acd0b4664b",
-            "type": "leaf",
-            "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/12. 저장 장치 관리.pdf"
+                "file": "Obsidian/[공지용]+2024-2+기말고사+시간표.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "12. 저장 장치 관리"
+              "title": "[공지용]+2024-2+기말고사+시간표"
             }
           }
         ]
@@ -114,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md",
+                "file": "Obsidian/[공지용]+2024-2+기말고사+시간표.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "대용량 저장 장치 관리의 백링크"
+              "title": "[공지용]+2024-2+기말고사+시간표의 백링크"
             }
           },
           {
@@ -185,8 +163,9 @@
   },
   "active": "81cba46310c60eb2",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/12. 저장 장치 관리.pdf",
     "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md",
+    "Obsidian/[공지용]+2024-2+기말고사+시간표.pdf",
+    "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/12. 저장 장치 관리.pdf",
     "Pasted image 20241211111413.png",
     "Pasted image 20241211111302.png",
     "Pasted image 20241211111140.png",
@@ -228,7 +207,6 @@
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/연습 문제.md",
     "Obsidian/ComputerScience/OSS/1. 이벤트 이해하기/이벤트 이해하기.md",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/올림픽 요구사항.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델.pdf"
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md"
   ]
 }
