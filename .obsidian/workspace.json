@@ -6,7 +6,7 @@
       {
         "id": "167124653ccbb2ff",
         "type": "tabs",
-        "dimension": 49.91662034463591,
+        "dimension": 45.358532518065594,
         "children": [
           {
             "id": "81cba46310c60eb2",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
+                "file": "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "교착상태"
+              "title": "대용량 저장 장치 관리"
             }
           }
         ]
@@ -27,20 +27,18 @@
       {
         "id": "0b8d93e82eb758f0",
         "type": "tabs",
-        "dimension": 50.08337965536409,
+        "dimension": 54.641467481934406,
         "children": [
           {
             "id": "2fbe13acd0b4664b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/TCP와 소켓 프로그래밍.md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/12. 저장 장치 관리.pdf"
               },
-              "icon": "lucide-file",
-              "title": "TCP와 소켓 프로그래밍"
+              "icon": "lucide-file-text",
+              "title": "12. 저장 장치 관리"
             }
           }
         ]
@@ -99,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.51240158081055
+    "width": 295.51240158081055,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
+                "file": "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "교착상태의 백링크"
+              "title": "대용량 저장 장치 관리의 백링크"
             }
           },
           {
@@ -186,11 +185,18 @@
   },
   "active": "81cba46310c60eb2",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/12. 저장 장치 관리.pdf",
+    "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md",
+    "Pasted image 20241211110658.png",
+    "Pasted image 20241211110044.png",
+    "Pasted image 20241211105908.png",
+    "Pasted image 20241211104502.png",
+    "Pasted image 20241211105610.png",
+    "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/TCP와 소켓 프로그래밍.md",
     "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
     "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
-    "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 암기 정리.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/TCP와 소켓 프로그래밍.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/14. TCP와 소켓 프로그래밍.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
@@ -221,16 +227,8 @@
     "Obsidian/ComputerScience/OSS/고객님 요구사항/올림픽 요구사항.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델.pdf",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/ossai2024_고객님의추가요구사항 (5).pdf",
-    "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md",
     "image/Pasted image 20241209093548.png",
     "image/Pasted image 20241209092316.png",
-    "image/Pasted image 20241209091225.png",
-    "image/Pasted image 20241208111456.png",
-    "Obsidian/ComputerScience/운영체제/11. 파일 시스템 관리/파일 시스템 관리.md",
-    "Pasted image 20241209093548.png",
-    "Pasted image 20241209092316.png",
-    "Pasted image 20241209091225.png",
-    "Pasted image 20241208111456.png"
+    "image/Pasted image 20241209091225.png"
   ]
 }
