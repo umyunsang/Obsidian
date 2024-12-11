@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/11. 파일 시스템 관리/파일 시스템 관리.md",
+                "file": "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "파일 시스템 관리"
+              "title": "대용량 저장 장치 관리"
             }
           }
         ]
@@ -185,10 +185,10 @@
   },
   "active": "3708b839a494b4a2",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/운영체제/11. 파일 시스템 관리/파일 시스템 관리.md",
-    "Obsidian/ComputerScience/운영체제/시험/기말 정리.md",
-    "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
     "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md",
+    "Obsidian/ComputerScience/운영체제/시험/기말 정리.md",
+    "Obsidian/ComputerScience/운영체제/11. 파일 시스템 관리/파일 시스템 관리.md",
+    "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
     "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
     "Pasted image 20241211133659.png",
     "Pasted image 20241211133011.png",
