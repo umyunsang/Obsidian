@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
+                "file": "Obsidian/ComputerScience/운영체제/시험/기말 정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "메모리 관리"
+              "title": "기말 정리"
             }
           }
         ]
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.51240158081055,
-    "collapsed": true
+    "width": 295.51240158081055
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
+                "file": "Obsidian/ComputerScience/운영체제/시험/기말 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "메모리 관리의 백링크"
+              "title": "기말 정리의 백링크"
             }
           },
           {
@@ -165,10 +164,12 @@
   },
   "active": "81cba46310c60eb2",
   "lastOpenFiles": [
-    "Pasted image 20241211131414.png",
     "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
-    "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
+    "Pasted image 20241211133659.png",
+    "Pasted image 20241211133011.png",
     "Obsidian/ComputerScience/운영체제/시험/기말 정리.md",
+    "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
+    "Pasted image 20241211131414.png",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
     "Obsidian/ComputerScience/데이터베이스/0. 시험/final.md",
@@ -182,11 +183,8 @@
     "image/Pasted image 20241211110658.png",
     "image/Pasted image 20241211110044.png",
     "image/Pasted image 20241211105908.png",
-    "image/Pasted image 20241211104502.png",
     "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md",
     "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/12. 저장 장치 관리.pdf",
-    "Pasted image 20241211111413.png",
-    "Pasted image 20241211111302.png",
     "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/TCP와 소켓 프로그래밍.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/14. TCP와 소켓 프로그래밍.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
