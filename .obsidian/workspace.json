@@ -11,12 +11,32 @@
             "id": "c0c0dfec3056e326",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/ComputerScience/이산수학/4. 그래프/그래프.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "그래프"
+            }
+          }
+        ]
+      },
+      {
+        "id": "05dafc23e2634907",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c87b93e19da4e4f",
+            "type": "leaf",
+            "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf"
+                "file": "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "7. 교착상태"
+              "title": "4 관계 및 함수"
             }
           }
         ]
@@ -162,21 +182,23 @@
   },
   "active": "c0c0dfec3056e326",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/이산수학/4. 그래프/그래프.md",
-    "image/Pasted image 20241213161256.png",
-    "image/Pasted image 20241213160528.png",
-    "image/Pasted image 20241213155433.png",
-    "image/Pasted image 20241213155237.png",
-    "image/Pasted image 20241213154815.png",
-    "image/Pasted image 20241213154401.png",
-    "image/Pasted image 20241213153654.png",
-    "image/Pasted image 20241213152949.png",
-    "image/Pasted image 20241213152414.png",
-    "image/Pasted image 20241213152044.png",
-    "Obsidian/ComputerScience/이산수학/4. 그래프/5 그래프.pdf",
-    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
-    "Obsidian/ComputerScience/이산수학/4. 그래프",
+    "Pasted image 20241214133318.png",
+    "Pasted image 20241214133259.png",
+    "Pasted image 20241214133245.png",
+    "Pasted image 20241214133056.png",
+    "Pasted image 20241214133041.png",
+    "Pasted image 20241214133031.png",
+    "Pasted image 20241214133013.png",
+    "Pasted image 20241214132953.png",
+    "Pasted image 20241214132941.png",
+    "Pasted image 20241214132929.png",
+    "Pasted image 20241214132844.png",
     "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf",
+    "Obsidian/ComputerScience/이산수학/4. 그래프/그래프.md",
+    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
+    "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
+    "Obsidian/ComputerScience/이산수학/4. 그래프/5 그래프.pdf",
+    "Obsidian/ComputerScience/이산수학/4. 그래프",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
     "Obsidian/ComputerScience/운영체제/시험/기말 정리.md",
@@ -195,7 +217,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/8. 무선통신 시스템.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/7. LAN의 특징과 규격.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 암기 정리.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말.md",
