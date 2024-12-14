@@ -11,14 +11,12 @@
             "id": "c0c0dfec3056e326",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/이산수학/4. 그래프/그래프.md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf"
               },
-              "icon": "lucide-file",
-              "title": "그래프"
+              "icon": "lucide-file-text",
+              "title": "4 관계 및 함수"
             }
           }
         ]
@@ -77,7 +75,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.51240158081055
+    "width": 295.51240158081055,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -164,8 +163,21 @@
   },
   "active": "c0c0dfec3056e326",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/이산수학/4. 그래프/그래프.md",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/slot 요구사항.md",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/배경사진 요구사항.md",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/1. 음성 인식 요구 사항.md",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/Framework.md",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/올림픽 요구사항.md",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/TTS 요구 사항.md",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/고객님의추가요구사항.pdf",
+    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
+    "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.md",
+    "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
+    "Obsidian/ComputerScience/데이터베이스/9. 정규화/고급 정규형.md",
+    "Obsidian/ComputerScience/데이터베이스/0. 시험/final.md",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "image/Pasted image 20241214134644.png",
     "image/Pasted image 20241214134114.png",
     "image/Pasted image 20241214134047.png",
@@ -196,19 +208,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/9. 네트워크 계층.pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/8. 무선통신 시스템.pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 퀴즈.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 암기 정리.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/16. 보안/보안.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
-    "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md",
-    "Obsidian/ComputerScience/운영체제/11. 파일 시스템 관리/파일 시스템 관리.md",
-    "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
-    "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
-    "Obsidian/ComputerScience/데이터베이스/0. 시험/final.md",
-    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md"
+    "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md"
   ]
 }
