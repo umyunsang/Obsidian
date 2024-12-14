@@ -22,24 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "05dafc23e2634907",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0c87b93e19da4e4f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "4 관계 및 함수"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -182,22 +164,22 @@
   },
   "active": "c0c0dfec3056e326",
   "lastOpenFiles": [
-    "Pasted image 20241214133318.png",
-    "Pasted image 20241214133259.png",
-    "Pasted image 20241214133245.png",
-    "Pasted image 20241214133056.png",
-    "Pasted image 20241214133041.png",
-    "Pasted image 20241214133031.png",
-    "Pasted image 20241214133013.png",
-    "Pasted image 20241214132953.png",
-    "Pasted image 20241214132941.png",
-    "Pasted image 20241214132929.png",
-    "Pasted image 20241214132844.png",
-    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/이산수학/4. 그래프/그래프.md",
+    "image/Pasted image 20241214134644.png",
+    "image/Pasted image 20241214134114.png",
+    "image/Pasted image 20241214134047.png",
+    "image/Pasted image 20241214133517.png",
+    "image/Pasted image 20241214133503.png",
+    "image/Pasted image 20241214133448.png",
+    "image/Pasted image 20241214133432.png",
+    "image/Pasted image 20241214132941.png",
+    "image/Pasted image 20241214132929.png",
+    "image/Pasted image 20241214132844.png",
+    "Obsidian/ComputerScience/이산수학/4. 그래프/5 그래프.pdf",
+    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf",
     "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
-    "Obsidian/ComputerScience/이산수학/4. 그래프/5 그래프.pdf",
     "Obsidian/ComputerScience/이산수학/4. 그래프",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
