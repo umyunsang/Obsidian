@@ -11,12 +11,14 @@
             "id": "c0c0dfec3056e326",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/데이터베이스/0. 시험/answer_4577.pdf"
+                "file": "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "answer_4577"
+              "icon": "lucide-file",
+              "title": "정규화"
             }
           }
         ]
@@ -162,6 +164,7 @@
   },
   "active": "c0c0dfec3056e326",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/데이터베이스/0. 시험/answer_4577.pdf",
     "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습 문제.pdf",
