@@ -11,12 +11,14 @@
             "id": "c0c0dfec3056e326",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf"
+                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "4 관계 및 함수"
+              "icon": "lucide-file",
+              "title": "연습문제"
             }
           }
         ]
@@ -75,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.51240158081055,
-    "collapsed": true
+    "width": 295.51240158081055
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -163,6 +164,11 @@
   },
   "active": "c0c0dfec3056e326",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습 문제.pdf",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
+    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
+    "Obsidian/ComputerScience/이산수학/4. 그래프/5 그래프.pdf",
+    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf",
     "Obsidian/ComputerScience/이산수학/4. 그래프/그래프.md",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/slot 요구사항.md",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/배경사진 요구사항.md",
@@ -172,12 +178,10 @@
     "Obsidian/ComputerScience/OSS/고객님 요구사항/올림픽 요구사항.md",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/TTS 요구 사항.md",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/고객님의추가요구사항.pdf",
-    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
     "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.md",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/고급 정규형.md",
     "Obsidian/ComputerScience/데이터베이스/0. 시험/final.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "image/Pasted image 20241214134644.png",
     "image/Pasted image 20241214134114.png",
     "image/Pasted image 20241214134047.png",
@@ -188,8 +192,6 @@
     "image/Pasted image 20241214132941.png",
     "image/Pasted image 20241214132929.png",
     "image/Pasted image 20241214132844.png",
-    "Obsidian/ComputerScience/이산수학/4. 그래프/5 그래프.pdf",
-    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/4 관계 및 함수.pdf",
     "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
     "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
     "Obsidian/ComputerScience/이산수학/4. 그래프",
@@ -207,7 +209,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/10. 라우팅 알고리즘.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/9. 네트워크 계층.pdf",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md"
+    "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/9. 네트워크 계층.pdf"
   ]
 }
