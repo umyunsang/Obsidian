@@ -11,12 +11,14 @@
             "id": "557cb46006fed8ca",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/시험/서술 예상.pdf"
+                "file": "Obsidian/ComputerScience/운영체제/시험/기말 정리.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "서술 예상"
+              "icon": "lucide-file",
+              "title": "기말 정리"
             }
           }
         ]
@@ -182,8 +184,9 @@
   },
   "active": "557cb46006fed8ca",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/운영체제/시험/서술 예상.md",
+    "Obsidian/ComputerScience/운영체제/시험/기말 정리.pdf",
     "Obsidian/ComputerScience/운영체제/시험/서술 예상.pdf",
+    "Obsidian/ComputerScience/운영체제/시험/서술 예상.md",
     "image/Pasted image 20241217153127.png",
     "image/Pasted image 20241217153126.png",
     "image/Pasted image 20241217153124.png",
