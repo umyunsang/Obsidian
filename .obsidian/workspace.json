@@ -13,32 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/운영체제/시험/기말 정리.md",
+                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "기말 정리"
-            }
-          }
-        ]
-      },
-      {
-        "id": "8af98d2b2e71655b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1acba4ee19d8729e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "대용량 저장 장치 관리"
+              "title": "LAN의 특징과 규격"
             }
           }
         ]
@@ -184,6 +164,16 @@
   },
   "active": "557cb46006fed8ca",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/인터넷 프로토콜(IP).md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/TCP와 소켓 프로그래밍.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 암기 정리.md",
+    "Obsidian/ComputerScience/운영체제/시험/기말 정리.md",
     "Obsidian/ComputerScience/운영체제/시험/기말 정리.pdf",
     "Obsidian/ComputerScience/운영체제/시험/서술 예상.pdf",
     "Obsidian/ComputerScience/운영체제/시험/서술 예상.md",
@@ -198,7 +188,6 @@
     "image/Pasted image 20241217153008.png",
     "image/Pasted image 20241217153006.png",
     "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md",
-    "Obsidian/ComputerScience/운영체제/시험/기말 정리.md",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
     "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
     "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
@@ -218,17 +207,8 @@
     "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8장 연습문제.md",
     "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습 문제.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/이산수학/4. 그래프/그래프.md",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/slot 요구사항.md",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/배경사진 요구사항.md",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/1. 음성 인식 요구 사항.md",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/Framework.md",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/올림픽 요구사항.md",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/TTS 요구 사항.md",
-    "Obsidian/ComputerScience/데이터베이스/9. 정규화/고급 정규형.md",
-    "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/TCP와 소켓 프로그래밍.md"
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/slot 요구사항.md"
   ]
 }
