@@ -11,12 +11,14 @@
             "id": "c8de93c6a94bf820",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/OSS/고객님 요구사항/고객님의추가요구사항.pdf"
+                "file": "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "고객님의추가요구사항"
+              "icon": "lucide-file",
+              "title": "문서 객체 모델(DOM)"
             }
           }
         ]
@@ -50,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "onclick",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,16 +164,19 @@
   },
   "active": "c8de93c6a94bf820",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/Framework.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
-    "Obsidian/ComputerScience/OSS/ossai2024_기말고사_시험지.pdf",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/고객님의추가요구사항.pdf",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/slot 요구사항.md",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/Framework.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
+    "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md",
+    "Obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/확인문제.md",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습 문제.pdf",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/올림픽 요구사항.md",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/배경사진 요구사항.md",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/slot 요구사항.md",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/TTS 요구 사항.md",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/배경사진 요구사항.md",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/1. 음성 인식 요구 사항.md",
+    "Obsidian/ComputerScience/OSS/ossai2024_기말고사_시험지.pdf",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
     "Obsidian/[공지용]+2024-2+기말고사+시간표.pdf",
@@ -201,11 +206,8 @@
     "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
     "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/페이징 메모리 관리.md",
-    "Obsidian/ComputerScience/운영체제/8. 메모리관리/메모리 관리.md",
-    "Obsidian/ComputerScience/운영체제/7. 교착상태/교착상태.md",
     "Obsidian/ComputerScience/운영체제/10. 가상 메모리/10. 가상 메모리 관리.pdf",
     "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/9. 페이징 메모리 관리.pdf",
-    "Obsidian/ComputerScience/운영체제/8. 메모리관리/8. 메모리관리.pdf",
-    "Obsidian/ComputerScience/운영체제/11. 파일 시스템 관리/11. 파일 시스템 관리.pdf"
+    "Obsidian/ComputerScience/운영체제/8. 메모리관리/8. 메모리관리.pdf"
   ]
 }
