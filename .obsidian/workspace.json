@@ -6,19 +6,39 @@
       {
         "id": "352dc7d8453875d6",
         "type": "tabs",
+        "dimension": 55.71862348178138,
+        "children": [
+          {
+            "id": "c8de93c6a94bf820",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/ComputerScience/OSS/고객님 요구사항/slot 요구사항.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "slot 요구사항"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ced1654029809244",
+        "type": "tabs",
+        "dimension": 44.28137651821862,
         "children": [
           {
             "id": "557cb46006fed8ca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/ComputerScience/OSS/고객님 요구사항/고객님의추가요구사항.pdf"
               },
-              "icon": "lucide-file",
-              "title": "LAN의 특징과 규격"
+              "icon": "lucide-file-text",
+              "title": "고객님의추가요구사항"
             }
           }
         ]
@@ -77,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.51240158081055
+    "width": 295.51240158081055,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -162,10 +183,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "557cb46006fed8ca",
+  "active": "c8de93c6a94bf820",
   "lastOpenFiles": [
-    "Obsidian/[공지용]+2024-2+기말고사+시간표.pdf",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/고객님의추가요구사항.pdf",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/slot 요구사항.md",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/배경사진 요구사항.md",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/TTS 요구 사항.md",
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/1. 음성 인식 요구 사항.md",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델.pdf",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
+    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
+    "Obsidian/[공지용]+2024-2+기말고사+시간표.pdf",
     "Obsidian/커잉.md",
     "Pasted image 20241217185022.png",
     "Pasted image 20241217184905.png",
@@ -199,16 +228,7 @@
     "Obsidian/ComputerScience/운영체제/8. 메모리관리/8. 메모리관리.pdf",
     "Obsidian/ComputerScience/운영체제/11. 파일 시스템 관리/11. 파일 시스템 관리.pdf",
     "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/12. 저장 장치 관리.pdf",
-    "Obsidian/ComputerScience/운영체제/7. 교착상태/7. 교착상태.pdf",
-    "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/6. 스레드 동기화.pdf",
     "Obsidian/ComputerScience/운영체제/6. 스레드 동기화/스레드 동기화.md",
-    "Obsidian/ComputerScience/데이터베이스/0. 시험/answer_4577.pdf",
-    "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.md",
-    "Obsidian/ComputerScience/데이터베이스/0. 시험/final.md",
-    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/데이터베이스 설계.md",
-    "Obsidian/ComputerScience/데이터베이스/8. 데이터베이스 설계/8장 연습문제.md",
-    "Obsidian/ComputerScience/데이터베이스/9. 정규화/정규화.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
-    "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md"
+    "Obsidian/ComputerScience/데이터베이스/10. 회복과 병행제어/회복과 병행 제어.md"
   ]
 }
