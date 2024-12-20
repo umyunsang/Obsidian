@@ -117,8 +117,8 @@ function A(){
   </style>
 </head>
 <body>
-  <span id="money"></span>
-  <div class="slot-machine">
+  <span id="money"></span> <!-- 요구사항 5 -->
+  <div class="slot-machine"> <!-- 요구사항 3 -->
     <img class="slot" id="slot1" src="/3. 문서 객체 모델/static/cat.jpg">
     <img class="slot" id="slot2" src="/3. 문서 객체 모델/static/dog.jpg">
     <img class="slot" id="slot3" src="/3. 문서 객체 모델/static/duck.jpg">
@@ -133,7 +133,7 @@ function A(){
     const slotarr = document.querySelectorAll(".slot");
     const r = document.getElementById("result");
   
-    while (1){
+    while (1){ // 요구사항 4
       money = parseInt(prompt("배팅 금액을 입력하세요 (버튼 1회에 비용 1000원)"));
       if (isNaN(money)) alert("숫자를 입력하세요.");
       else if (money < 1000) alert("1000원 이상을 입력해주세요.");
@@ -146,18 +146,18 @@ function A(){
     }
   
     function startSlotMachine() {
-      if (money == 0){
+      if (money == 0){ // 요구사항 6
         alert("잔액이 부족합니다. 처음부터 다시 시작하세요.");
-        location.reload();
+        location.reload(); 
         return;  
       }
-      else if (money < cost){
+      else if (money < cost){ // 요구사항 6
         alert("잔액이 부족합니다. 처음부터 다시 시작하세요 (잔액 500원은 카운터에서 환불받으실 수 있습니다.)");
         location.reload();
         return;
       }
   
-      money -= cost;
+      money -= cost; // 요구사항 5
       document.getElementById("money").textContent = `잔액 : ${money.toLocaleString()} 원`;
   
       const finalSymbols = [];
@@ -181,16 +181,16 @@ function A(){
           /* 결과 출력 */
           if (finalSymbols[0] == finalSymbols[1] && finalSymbols[1] == finalSymbols[2]){
             r.textContent = "Congratulation!!";
-            money += cost * 10;
+            money += cost * 10; // 요구사항 5
           }
           else if (finalSymbols[0] == finalSymbols[1] || finalSymbols[1] == finalSymbols[2] || finalSymbols[0] == finalSymbols[2]) {
             r.textContent = "2개 맞았음";
-            money += cost;
+            money += cost; // 요구사항 5
           }  
           else
             r.textContent = "꽝!";
         }
-        document.getElementById("money").textContent = `잔액 : ${money.toLocaleString()} 원`;
+        document.getElementById("money").textContent = `잔액 : ${money.toLocaleString()} 원`; // 요구사항 5
       }
   
       const intervalId = setInterval(spinSlots, 100); // 0.1초
