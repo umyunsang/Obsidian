@@ -11,12 +11,32 @@
             "id": "c8de93c6a94bf820",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/ComputerScience/리눅스시스템/2주차.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2주차"
+            }
+          }
+        ]
+      },
+      {
+        "id": "6b3d15c839ddab2d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ea9cc61734e23a2",
+            "type": "leaf",
+            "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-1주차.pdf"
+                "file": "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-2주차.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "리눅스시스템-1주차"
+              "title": "리눅스시스템-2주차"
             }
           }
         ]
@@ -75,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.51240158081055
+    "width": 295.51240158081055,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -162,9 +183,10 @@
   },
   "active": "c8de93c6a94bf820",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/이산수학/과제/Discrete_Mathematics__Homework_I (1).pdf",
     "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-2주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/2주차.md",
     "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-1주차.pdf",
+    "Obsidian/ComputerScience/이산수학/과제/Discrete_Mathematics__Homework_I (1).pdf",
     "Obsidian/ComputerScience/리눅스시스템",
     "Obsidian/ComputerScience/이산수학/과제/과제 번역.md",
     "Obsidian/ComputerScience/이산수학/과제/Discrete mathematics Assignment.md",
@@ -205,8 +227,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/0. Quiz/기말 암기 정리.md",
     "Obsidian/ComputerScience/운영체제/시험/기말 정리.md",
     "Obsidian/ComputerScience/운영체제/시험/기말 정리.pdf",
-    "Obsidian/ComputerScience/운영체제/시험/서술 예상.pdf",
-    "Obsidian/ComputerScience/운영체제/시험/서술 예상.md",
-    "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md"
+    "Obsidian/ComputerScience/운영체제/시험/서술 예상.md"
   ]
 }
