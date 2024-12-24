@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/이산수학/과제/Discrete_Mathematics__Homework_I (1).pdf"
+                "file": "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-1주차.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Discrete_Mathematics__Homework_I (1)"
+              "title": "리눅스시스템-1주차"
             }
           }
         ]
@@ -162,6 +162,10 @@
   },
   "active": "c8de93c6a94bf820",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/이산수학/과제/Discrete_Mathematics__Homework_I (1).pdf",
+    "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-2주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-1주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템",
     "Obsidian/ComputerScience/이산수학/과제/과제 번역.md",
     "Obsidian/ComputerScience/이산수학/과제/Discrete mathematics Assignment.md",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/1. 음성 인식 요구 사항.md",
@@ -203,10 +207,6 @@
     "Obsidian/ComputerScience/운영체제/시험/기말 정리.pdf",
     "Obsidian/ComputerScience/운영체제/시험/서술 예상.pdf",
     "Obsidian/ComputerScience/운영체제/시험/서술 예상.md",
-    "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md",
-    "Obsidian/ComputerScience/운영체제/10. 가상 메모리/가상 메모리.md",
-    "Obsidian/ComputerScience/운영체제/10. 가상 메모리/10. 가상 메모리 관리.pdf",
-    "Obsidian/ComputerScience/운영체제/9. 페이징 메모리 관리/9. 페이징 메모리 관리.pdf",
-    "Obsidian/ComputerScience/운영체제/8. 메모리관리/8. 메모리관리.pdf"
+    "Obsidian/ComputerScience/운영체제/12. 저장 장치 관리/대용량 저장 장치 관리.md"
   ]
 }
