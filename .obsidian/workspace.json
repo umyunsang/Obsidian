@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/리눅스시스템/4주차.md",
+                "file": "Obsidian/ComputerScience/리눅스시스템/리눅스 셸 (4주차).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4주차"
+              "title": "리눅스 셸 (4주차)"
             }
           }
         ]
@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-4주차 추가자료.pdf"
+                "file": "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-4주차.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "리눅스시스템-4주차 추가자료"
+              "title": "리눅스시스템-4주차"
             }
           }
         ]
@@ -182,9 +182,12 @@
   },
   "active": "0ea9cc61734e23a2",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-4주차 추가자료.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/4주차.md",
+    "Obsidian/ComputerScience/리눅스시스템/리눅스 VI (3주차).md",
+    "Obsidian/ComputerScience/리눅스시스템/리눅스의 기본 (2주차).md",
+    "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-3주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/리눅스 셸 (4주차).md",
     "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-4주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-4주차 추가자료.pdf",
     "Pasted image 20241230123741.png",
     "image/Pasted image 20241227121345.png",
     "image/Pasted image 20241227120913.png",
@@ -192,11 +195,8 @@
     "Pasted image 20241227121345.png",
     "Pasted image 20241227122253.png",
     "README.md",
-    "Obsidian/ComputerScience/리눅스시스템/3주차.md",
-    "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-3주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/오픈소스.pdf",
     "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-2주차.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/리눅스의 기본 (2주차).md",
     "image/Pasted image 20241227114942.png",
     "image/Pasted image 20241227114920.png",
     "image/Pasted image 20241227114848.png",
