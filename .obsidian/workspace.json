@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/리눅스시스템/리눅스 셸 (4주차).md",
+                "file": "Obsidian/ComputerScience/리눅스시스템/5. 리눅스 권한.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "리눅스 셸 (4주차)"
+              "title": "5. 리눅스 권한"
             }
           }
         ]
@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-4주차.pdf"
+                "file": "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-6주차.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "리눅스시스템-4주차"
+              "title": "리눅스시스템-6주차"
             }
           }
         ]
@@ -182,12 +182,24 @@
   },
   "active": "0ea9cc61734e23a2",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/리눅스시스템/리눅스 VI (3주차).md",
-    "Obsidian/ComputerScience/리눅스시스템/리눅스의 기본 (2주차).md",
-    "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-3주차.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/리눅스 셸 (4주차).md",
-    "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-4주차.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-4주차 추가자료.pdf",
+    "Pasted image 20241231124022.png",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-6주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/5. 리눅스 권한.md",
+    "Pasted image 20241231123823.png",
+    "Pasted image 20241231122702.png",
+    "Obsidian/ComputerScience/리눅스시스템/4. 리눅스 시큐어 셸.md",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-5주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/3. 리눅스 셸.md",
+    "Obsidian/ComputerScience/리눅스시스템/2. 리눅스 VI.md",
+    "Obsidian/ComputerScience/리눅스시스템/1. 리눅스의 기본.md",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/오픈소스.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-4주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-4주차 추가자료.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-3주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-2주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-1주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-2주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/pdf",
     "Pasted image 20241230123741.png",
     "image/Pasted image 20241227121345.png",
     "image/Pasted image 20241227120913.png",
@@ -195,16 +207,8 @@
     "Pasted image 20241227121345.png",
     "Pasted image 20241227122253.png",
     "README.md",
-    "Obsidian/ComputerScience/리눅스시스템/오픈소스.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-2주차.pdf",
     "image/Pasted image 20241227114942.png",
     "image/Pasted image 20241227114920.png",
-    "image/Pasted image 20241227114848.png",
-    "image/Pasted image 20241227114728.png",
-    "Obsidian/ComputerScience/리눅스시스템/무제 폴더",
-    "Obsidian/ComputerScience/리눅스시스템/리눅스시스템-1주차.pdf",
-    "Obsidian/ComputerScience/이산수학/과제/Discrete_Mathematics__Homework_I (1).pdf",
-    "Obsidian/ComputerScience/리눅스시스템",
     "Obsidian/ComputerScience/이산수학/과제/과제 번역.md",
     "Obsidian/ComputerScience/이산수학/과제/Discrete mathematics Assignment.md",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/1. 음성 인식 요구 사항.md",
@@ -212,7 +216,6 @@
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/slot 요구사항.md",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/고객님의추가요구사항.pdf",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/Framework.md",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md",
     "Obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/확인문제.md",
@@ -224,8 +227,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/9. 네트워크 계층/네트워크 계층.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/10. 라우팅 알고리즘/라우팅 알고리즘.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/11. 인터넷 프로토콜 라우팅 알고리즘/인터넷 프로토콜(IP).md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/13. 전송 계층/전송 계층.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/14. TCP와 소켓 프로그래밍/TCP와 소켓 프로그래밍.md"
+    "Obsidian/ComputerScience/컴퓨터 네트워트/12. 네트워크 계층 작업과 프로토콜/네트워크 계층 작업과 프로토콜.md"
   ]
 }
