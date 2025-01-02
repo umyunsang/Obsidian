@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6b3d15c839ddab2d",
+        "id": "e6ed2387594f1458",
         "type": "tabs",
         "children": [
           {
-            "id": "0ea9cc61734e23a2",
+            "id": "c8de93c6a94bf820",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "id": "e6ed2387594f1458",
+        "id": "c4c5542e18cdcbd3",
         "type": "tabs",
         "children": [
           {
-            "id": "c8de93c6a94bf820",
+            "id": "9060f0d5afae3b49",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -183,8 +183,8 @@
   },
   "active": "c8de93c6a94bf820",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/리눅스시스템/7주차.md",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-7주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/7주차.md",
     "Obsidian/ComputerScience/리눅스시스템/5. 리눅스 권한.md",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-6주차.pdf",
     "image/Pasted image 20241231124022.png",
