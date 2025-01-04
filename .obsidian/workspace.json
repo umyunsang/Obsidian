@@ -31,12 +31,14 @@
             "id": "b7ed2ae99562e695",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경.pdf"
+                "file": "Obsidian/ComputerScience/자바/무제 파일.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Spring Boot 개발 환경"
+              "icon": "lucide-file",
+              "title": "무제 파일"
             }
           }
         ]
@@ -182,6 +184,8 @@
   },
   "active": "b7ed2ae99562e695",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경.pdf",
+    "Obsidian/ComputerScience/자바/무제 파일.md",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-7주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-6주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/3. 리눅스 셸.md",
@@ -225,7 +229,6 @@
     "Obsidian/ComputerScience/OSS/고객님 요구사항/올림픽 요구사항.md",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/배경사진 요구사항.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md",
-    "Obsidian/커잉.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/8. 무선통신 시스템/무선통신 시스템.md"
+    "Obsidian/커잉.md"
   ]
 }
