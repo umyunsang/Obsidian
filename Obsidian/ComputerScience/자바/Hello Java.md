@@ -48,3 +48,15 @@ public class Hello {
 	- **매개변수**입니다.
 	- 실행 시 명령줄에서 전달된 문자열을 배열 형태로 받습니다.
 	    - 예: `java HelloWorld arg1 arg2` → `args[0] = "arg1", args[1] = "arg2"`
+#### JAVA 주석 달기
+```java
+// 한줄 주석
+
+/*
+여러줄 주석
+*/
+
+/**
+ * Java Doc
+ */
+```
