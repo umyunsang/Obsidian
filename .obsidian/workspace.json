@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-7주차.pdf"
+                "file": "Obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "리눅스시스템-7주차"
+              "title": "Spring Boot 개발 환경"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "b7ed2ae99562e695",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-6주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-7주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-6주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/3. 리눅스 셸.md",
     "Obsidian/ComputerScience/리눅스시스템/4. 리눅스 권한.md",
     "Obsidian/ComputerScience/자바",
