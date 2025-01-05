@@ -60,3 +60,39 @@ public class Hello {
  * Java Doc
  */
 ```
+
+---
+## 출력하기
+#### 1. **`print`**
+- 내용을 출력하고 **줄 바꿈을 하지 않음**.
+- 다음 출력이 같은 줄에 이어서 나옵니다.
+
+```java
+System.out.print("Hello");
+System.out.print("World!");
+// 출력: HelloWorld!
+```
+
+---
+#### 2. **`println`**
+- 내용을 출력한 후 **줄 바꿈**을 수행.
+- 다음 출력은 새 줄에서 시작합니다.
+```java
+System.out.println("Hello");
+System.out.println("World!");
+// 출력:
+// Hello
+// World!
+```
+
+---
+#### 3. **`printf`**
+- **형식 지정 문자열**을 사용해 출력.
+- 문자열 안에 **포맷 지정자**(`%d`, `%s`, `%f` 등)를 사용해 값을 삽입할 수 있음.
+- 줄 바꿈을 자동으로 하지 않으므로 필요하면 `\n`을 명시적으로 추가해야 함.
+```java
+System.out.printf("이름: %s, 나이: %d\n", "윤상", 25);
+// 출력: 이름: 윤상, 나이: 25
+```
+
+---
