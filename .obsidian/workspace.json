@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/리눅스시스템/6. REST.md",
+                "file": "Obsidian/ComputerScience/리눅스시스템/3. 리눅스 셸.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. REST"
+              "title": "3. 리눅스 셸"
             }
           }
         ]
@@ -182,17 +182,18 @@
   },
   "active": "6eb6edce08fb13a6",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/리눅스시스템/5. 플라스크.md",
-    "Obsidian/ComputerScience/리눅스시스템/6. REST.md",
     "Obsidian/ComputerScience/리눅스시스템/4. 리눅스 권한.md",
+    "Obsidian/ComputerScience/리눅스시스템/5. 플라스크.md",
+    "Obsidian/ComputerScience/리눅스시스템/7. 회원 가입 및 로그인.md",
+    "Obsidian/ComputerScience/리눅스시스템/6. REST.md",
+    "Obsidian/ComputerScience/리눅스시스템/2. 리눅스 VI.md",
+    "Obsidian/ComputerScience/리눅스시스템/1. 리눅스의 기본.md",
+    "Obsidian/ComputerScience/리눅스시스템/0. 리눅스 소개.md",
     "Obsidian/ComputerScience/리눅스시스템/3. 리눅스 셸.md",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-4주차 추가자료.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-4주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-2주차.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/2. 리눅스 VI.md",
-    "Obsidian/ComputerScience/리눅스시스템/1. 리눅스의 기본.md",
     "Obsidian/ComputerScience/리눅스시스템/pdf/오픈소스.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/0. 리눅스 소개.md",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-1주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-3주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-5주차.pdf",
@@ -201,7 +202,6 @@
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-7주차.pdf",
     "Obsidian/ComputerScience/자바/변수와 자료형.md",
     "Obsidian/ComputerScience/자바/Hello Java.md",
-    "Obsidian/ComputerScience/리눅스시스템/8. 회원 가입 및 로그인.md",
     "Obsidian/ComputerScience/자바/Open JDK, VSCode 설치.md",
     "Pasted image 20250103134353.png",
     "Obsidian/ComputerScience/리눅스시스템/4. 리눅스 시큐어 셸.md",
