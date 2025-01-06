@@ -8,17 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1c9b30fc3183384a",
+            "id": "6eb6edce08fb13a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/자바/변수와 자료형.md",
-                "mode": "source",
+                "file": "Obsidian/ComputerScience/리눅스시스템/6. REST.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "변수와 자료형"
+              "title": "6. REST"
+            }
+          }
+        ]
+      },
+      {
+        "id": "219b17cbe601daa9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c9b30fc3183384a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-4주차 추가자료.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "리눅스-4주차 추가자료"
             }
           }
         ]
@@ -77,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.51240158081055
+    "width": 289.51240158081055
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -162,27 +180,31 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1c9b30fc3183384a",
+  "active": "6eb6edce08fb13a6",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/자바/Hello Java.md",
-    "Obsidian/ComputerScience/자바/변수와 자료형.md",
+    "Obsidian/ComputerScience/리눅스시스템/5. 플라스크.md",
+    "Obsidian/ComputerScience/리눅스시스템/6. REST.md",
+    "Obsidian/ComputerScience/리눅스시스템/4. 리눅스 권한.md",
+    "Obsidian/ComputerScience/리눅스시스템/3. 리눅스 셸.md",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-4주차 추가자료.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-4주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-2주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/2. 리눅스 VI.md",
     "Obsidian/ComputerScience/리눅스시스템/1. 리눅스의 기본.md",
-    "Obsidian/ComputerScience/리눅스시스템/3. 리눅스 셸.md",
-    "Obsidian/ComputerScience/리눅스시스템/4. 리눅스 권한.md",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/오픈소스.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/0. 리눅스 소개.md",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-1주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-3주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-5주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-6주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-8주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-7주차.pdf",
+    "Obsidian/ComputerScience/자바/변수와 자료형.md",
+    "Obsidian/ComputerScience/자바/Hello Java.md",
     "Obsidian/ComputerScience/리눅스시스템/8. 회원 가입 및 로그인.md",
-    "Obsidian/ComputerScience/리눅스시스템/6. 플라스크.md",
     "Obsidian/ComputerScience/자바/Open JDK, VSCode 설치.md",
-    "Obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/Spring Boot 개발 환경.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-7주차.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-6주차.pdf",
-    "Obsidian/ComputerScience/자바",
     "Pasted image 20250103134353.png",
     "Obsidian/ComputerScience/리눅스시스템/4. 리눅스 시큐어 셸.md",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-5주차.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-4주차 추가자료.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-4주차.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-3주차.pdf",
     "image/Pasted image 20250103132725.png",
     "image/Pasted image 20250103132705.png",
     "image/Pasted image 20250103132649.png",
@@ -192,10 +214,7 @@
     "image/Pasted image 20250103132520.png",
     "image/Pasted image 20250103132451.png",
     "image/Pasted image 20250103132435.png",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-2주차.pdf",
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스시스템-1주차.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/7. REST.md",
     "README.md",
     "Obsidian/ComputerScience/이산수학/과제/과제 번역.md",
     "Obsidian/ComputerScience/이산수학/과제/Discrete mathematics Assignment.md",
@@ -207,8 +226,6 @@
     "Obsidian/ComputerScience/OSS/고객님 요구사항/Framework.md",
     "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md",
     "Obsidian/ComputerScience/웹프로그래밍/2. Spring Boot 개발 환경 세팅/확인문제.md",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/올림픽 요구사항.md",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/배경사진 요구사항.md",
-    "Obsidian/ComputerScience/컴퓨터 네트워트/7. LAN의 특징과 규격/LAN의 특징과 규격.md"
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/올림픽 요구사항.md"
   ]
 }
