@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-10주차.pdf"
+                "file": "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "리눅스-10주차"
+              "title": "리눅스-11주차"
             }
           }
         ]
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "프로그램 프로세스",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,13 +180,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1c9b30fc3183384a",
+  "active": "6eb6edce08fb13a6",
   "lastOpenFiles": [
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/9. 프로세스.md",
+    "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3장문제.md",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-10주차.pdf",
     "Pasted image 20250109115702.png",
     "Obsidian/ComputerScience/리눅스시스템/8. 데이터베이스.md",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-10주차.pdf",
     "image/Pasted image 20250108131858.png",
     "image/Pasted image 20250108131840.png",
     "image/Pasted image 20250108131752.png",
@@ -225,7 +226,6 @@
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
     "Obsidian/ComputerScience/OSS/고객님 요구사항/slot 요구사항.md",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/Framework.md",
-    "Obsidian/ComputerScience/OSS/0. Html. javascript 기초/연습문제.md"
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/Framework.md"
   ]
 }
