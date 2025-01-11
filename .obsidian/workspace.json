@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/자바/변수와 자료형.md",
+                "file": "Obsidian/ComputerScience/자바/Scanner.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "변수와 자료형"
+              "title": "Scanner"
             }
           }
         ]
@@ -164,6 +164,8 @@
   },
   "active": "1c9b30fc3183384a",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/자바/변수와 자료형.md",
+    "Obsidian/ComputerScience/자바/Scanner.md",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-10주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf",
     "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3장문제.md",
@@ -193,7 +195,6 @@
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-3주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-5주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-6주차.pdf",
-    "Obsidian/ComputerScience/자바/변수와 자료형.md",
     "Obsidian/ComputerScience/자바/Hello Java.md",
     "Obsidian/ComputerScience/자바/Open JDK, VSCode 설치.md",
     "Pasted image 20250103134353.png",
