@@ -11,12 +11,14 @@
             "id": "1c9b30fc3183384a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf"
+                "file": "Obsidian/ComputerScience/리눅스시스템/9. 프로세스.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "리눅스-11주차"
+              "icon": "lucide-file",
+              "title": "9. 프로세스"
             }
           }
         ]
@@ -75,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.51240158081055
+    "width": 289.51240158081055,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -162,11 +165,11 @@
   },
   "active": "1c9b30fc3183384a",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-10주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/8. 데이터베이스.md",
     "Obsidian/ComputerScience/자바/Scanner.md",
     "Obsidian/ComputerScience/자바/변수와 자료형.md",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-10주차.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf",
     "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3장문제.md",
     "Obsidian/ComputerScience/리눅스시스템/9. 프로세스.md",
     "Pasted image 20250109115702.png",
@@ -206,7 +209,6 @@
     "Obsidian/ComputerScience/OSS/고객님 요구사항/TTS 요구 사항.md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/문서 객체 모델(DOM).md",
     "Obsidian/ComputerScience/OSS/3. 문서 객체 모델/연습문제.md",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/slot 요구사항.md",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/Framework.md"
+    "Obsidian/ComputerScience/OSS/고객님 요구사항/slot 요구사항.md"
   ]
 }
