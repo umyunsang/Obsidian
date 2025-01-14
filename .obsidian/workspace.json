@@ -8,17 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1c9b30fc3183384a",
+            "id": "3274584c36146b93",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/리눅스시스템/8. 데이터베이스.md",
+                "file": "Obsidian/ComputerScience/리눅스시스템/10. 도커.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. 데이터베이스"
+              "title": "10. 도커"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3c690051db4fdcbd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c9b30fc3183384a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-13주차.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "리눅스-13주차"
             }
           }
         ]
@@ -77,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.51240158081055
+    "width": 258.51240158081055
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -162,17 +180,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1c9b30fc3183384a",
+  "active": "3274584c36146b93",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-13주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/10. 도커.md",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/9. 프로세스.md",
+    "Obsidian/ComputerScience/리눅스시스템/8. 데이터베이스.md",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-10주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/7. 회원 가입 및 로그인.md",
     "Obsidian/ComputerScience/리눅스시스템/6. REST.md",
-    "Obsidian/ComputerScience/리눅스시스템/8. 데이터베이스.md",
-    "Obsidian/ComputerScience/리눅스시스템/9. 프로세스.md",
     "Obsidian/ComputerScience/도커와 쿠버네스트/도커 특강.md",
     "Obsidian/ComputerScience/도커와 쿠버네스트/도커.md",
-    "Obsidian/ComputerScience/리눅스시스템/10. 도커.md",
     "Obsidian/ComputerScience/도커와 쿠버네스트",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-13주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-4주차-2.pdf",
     "image/Pasted image 20250113123400.png",
     "image/Pasted image 20250113123320.png",
@@ -189,8 +209,6 @@
     "Obsidian/ComputerScience/자바/Scanner.md",
     "Obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/HTML 기초 실습.md",
     "Obsidian/ComputerScience/웹프로그래밍/1. HTML 기초/연습문제.md",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-10주차.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-8주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-7주차.pdf",
     "Pasted image 20250113123400.png",
@@ -208,7 +226,6 @@
     "Obsidian/ComputerScience/리눅스시스템/4. 리눅스 시큐어 셸.md",
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
     "README.md",
-    "Obsidian/ComputerScience/이산수학/과제/과제 번역.md",
-    "Obsidian/ComputerScience/이산수학/과제/Discrete mathematics Assignment.md"
+    "Obsidian/ComputerScience/이산수학/과제/과제 번역.md"
   ]
 }
