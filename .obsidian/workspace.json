@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/리눅스시스템/10. 도커.md",
+                "file": "Obsidian/ComputerScience/리눅스시스템/9. 프로세스.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10. 도커"
+              "title": "9. 프로세스"
             }
           }
         ]
@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-13주차.pdf"
+                "file": "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "리눅스-13주차"
+              "title": "리눅스-11주차"
             }
           }
         ]
@@ -180,14 +180,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3274584c36146b93",
+  "active": "ba9e23474eb62275",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-13주차.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/10. 도커.md",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-10주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/9. 프로세스.md",
     "Obsidian/ComputerScience/리눅스시스템/8. 데이터베이스.md",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-10주차.pdf",
+    "image/Pasted image 20250114122425.png",
+    "Pasted image 20250114122425.png",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-13주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf",
+    "Obsidian/ComputerScience/리눅스시스템/10. 도커.md",
     "Obsidian/ComputerScience/리눅스시스템/7. 회원 가입 및 로그인.md",
     "Obsidian/ComputerScience/리눅스시스템/6. REST.md",
     "Obsidian/ComputerScience/도커와 쿠버네스트/도커 특강.md",
@@ -214,10 +216,8 @@
     "Pasted image 20250113123400.png",
     "Pasted image 20250113123320.png",
     "Pasted image 20250113123251.png",
-    "Pasted image 20250113120838.png",
     "Obsidian/ComputerScience/자바/변수와 자료형.md",
     "Obsidian/ComputerScience/운영체제/3. 프로세스와 프로세스 관리/3장문제.md",
-    "Pasted image 20250109115702.png",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-4주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-2주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/오픈소스.pdf",
