@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/도커와 쿠버네스트/도커.md",
+                "file": "Obsidian/ComputerScience/도커와 쿠버네스트/도커 특강.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "도커"
+              "title": "도커 특강"
             }
           }
         ]
@@ -165,8 +165,9 @@
   },
   "active": "1c9b30fc3183384a",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/리눅스시스템/10. 도커.md",
     "Obsidian/ComputerScience/도커와 쿠버네스트/도커.md",
+    "Obsidian/ComputerScience/도커와 쿠버네스트/도커 특강.md",
+    "Obsidian/ComputerScience/리눅스시스템/10. 도커.md",
     "Obsidian/ComputerScience/도커와 쿠버네스트",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-13주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-4주차-2.pdf",
@@ -209,7 +210,6 @@
     "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
     "README.md",
     "Obsidian/ComputerScience/이산수학/과제/과제 번역.md",
-    "Obsidian/ComputerScience/이산수학/과제/Discrete mathematics Assignment.md",
-    "Obsidian/ComputerScience/OSS/고객님 요구사항/1. 음성 인식 요구 사항.md"
+    "Obsidian/ComputerScience/이산수학/과제/Discrete mathematics Assignment.md"
   ]
 }
