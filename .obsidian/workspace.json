@@ -11,12 +11,14 @@
             "id": "3274584c36146b93",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf"
+                "file": "Obsidian/ComputerScience/도커와 쿠버네스트/쿠버네티스 설치.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "리눅스-11주차"
+              "icon": "lucide-file",
+              "title": "쿠버네티스 설치"
             }
           }
         ]
@@ -75,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.51240158081055
+    "width": 258.51240158081055,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -162,12 +165,12 @@
   },
   "active": "3274584c36146b93",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-10주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/8. 데이터베이스.md",
     "Obsidian/ComputerScience/리눅스시스템/10. 도커.md",
     "Obsidian/ComputerScience/리눅스시스템/9. 프로세스.md",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-13주차.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf",
     "Obsidian/ComputerScience/도커와 쿠버네스트/쿠버네티스 설치.md",
     "Obsidian/ComputerScience/리눅스시스템/시험/10. 도커.pdf",
     "Obsidian/ComputerScience/리눅스시스템/시험/9. 프로세스.pdf",
