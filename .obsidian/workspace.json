@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/도커와 쿠버네티스/Ingress.md",
+                "file": "Obsidian/ComputerScience/도커와 쿠버네티스/Kubernetes Ingress 설정 정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ingress"
+              "title": "Kubernetes Ingress 설정 정리"
             }
           }
         ]
@@ -166,7 +166,7 @@
   "active": "3274584c36146b93",
   "lastOpenFiles": [
     "Obsidian/ComputerScience/도커와 쿠버네티스/LoadBalancer 설치 및 설정 가이드.md",
-    "Obsidian/ComputerScience/도커와 쿠버네티스/Ingress.md",
+    "Obsidian/ComputerScience/도커와 쿠버네티스/Kubernetes Ingress 설정 정리.md",
     "Obsidian/ComputerScience/도커와 쿠버네티스/ClusterIP 서비스 설정 및 가이드.md",
     "Obsidian/ComputerScience/도커와 쿠버네티스/쿠버네티스  기초.md",
     "Obsidian/ComputerScience/도커와 쿠버네티스/NodePort 서비스 설정 및 가이드.md",
