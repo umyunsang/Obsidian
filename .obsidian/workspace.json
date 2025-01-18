@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/코딩테스트/자료구조/1.배열과 리스트.md",
+                "file": "Obsidian/ComputerScience/코딩테스트/자료구조/2.구간 합.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.배열과 리스트"
+              "title": "2.구간 합"
             }
           }
         ]
@@ -165,8 +165,8 @@
   },
   "active": "3274584c36146b93",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/코딩테스트/자료구조/2.구간 합.md",
     "Obsidian/ComputerScience/코딩테스트/자료구조/1.배열과 리스트.md",
+    "Obsidian/ComputerScience/코딩테스트/자료구조/2.구간 합.md",
     "무제 파일.md",
     "Obsidian/ComputerScience/도커와 쿠버네티스/Ingress 설정 정리.md",
     "Obsidian/ComputerScience/코딩테스트/자료구조",
