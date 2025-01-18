@@ -1,6 +1,6 @@
 
 ---
-### **Kubernetes Ingress 설정 정리**
+### **Ingress 설정 정리**
 
 ### 1. **Ingress-NGINX 설치**
 
