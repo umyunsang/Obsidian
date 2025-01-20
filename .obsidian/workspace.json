@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dd915ab2722220aa",
+        "id": "ecb39fd92f9bd971",
         "type": "tabs",
         "children": [
           {
-            "id": "a82fd44872ba1be3",
+            "id": "d0dd3191fe7dd8a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "id": "ecb39fd92f9bd971",
+        "id": "c9716ab363090a7f",
         "type": "tabs",
         "children": [
           {
@@ -181,10 +181,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a82fd44872ba1be3",
+  "active": "d0dd3191fe7dd8a0",
   "lastOpenFiles": [
     "Obsidian/ComputerScience/LLM 이해와 활용/LLM 이해와 활용(OpenAI API).pdf",
     "Obsidian/ComputerScience/LLM 이해와 활용/ChapGPT API.md",
+    "Obsidian/ComputerScience/LLM 이해와 활용/환경 구성.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT 모델 이해와 활용.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/LLM 모델 이해.md",
     "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
@@ -201,7 +202,6 @@
     "Pasted image 20250120103621.png",
     "Pasted image 20250120112057.png",
     "Obsidian/ComputerScience/도커와 쿠버네티스/Pasted image 20250114143924.png",
-    "Obsidian/ComputerScience/LLM 이해와 활용/환경 구성.md",
     "Obsidian/ComputerScience/코딩테스트/정렬/1. 버블 정렬.md",
     "Obsidian/ComputerScience/LLM 이해와 활용",
     "Obsidian/ComputerScience/코딩테스트/자료구조/3. 투 포인터.md",

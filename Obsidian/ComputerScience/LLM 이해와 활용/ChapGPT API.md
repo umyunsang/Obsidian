@@ -169,28 +169,178 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 
 response = client.chat.completions.create(
     model="gpt-4o",
-    messages=[
-        {
-            "role": "user",
-            "content": [
-                {"type": "text", "text": "What's in this image?"},
-                {
-                    "type": "image_url",
-                    "image_url": {
-                        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Gfp-wisconsin-madison-the-nature-boardwalk.jpg/2560px-Gfp-wisconsin-madison-the-nature-boardwalk.jpg",
-                    },
-                },
-            ],
-        }
-    ],
-    max_tokens=300,
-)
+    messages=[{"role": "user",
+	    "content": [{"type": "text", "text": "What's in this image?"},
+            {"type": "image_url","image_url": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Gfp-wisconsin-madison-the-nature-boardwalk.jpg/2560px-Gfp-wisconsin-madison-the-nature-boardwalk.jpg",},},],}],
+    max_tokens=300,)
 
 print(response.choices[0])
 ```
 
 >[!출력결과]
->```
+>```JSON
 >Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='The image shows a wooden boardwalk leading through a green field or wetland area. The sky is blue with some clouds, and there are trees and bushes in the background. It looks like a peaceful natural landscape.', refusal=None, role='assistant', audio=None, function_call=None, tool_calls=None))
 >```
 
+---
+#### 스트리밍 방식으로 대화형 AI 모델의 응답 처리
+- 스트리밍 옵션 모델의 응답을 실시간으로 여러 부분으로 나뉘어서 받을 수 있으며,각 부분이 준비되는 즉시 처리할 수 있습니다.
+- 특히 긴 대화나 실시간 인터랙션이 필요한 애플리케이션에 유용합니다.
+```python
+from openai import OpenAI
+
+OPENAI_API_KEY = "YOUR_API_KEY"
+client = OpenAI(api_key=OPENAI_API_KEY)
+
+completion = client.chat.completions.create(
+    model="gpt-4o",
+    messages=[
+        {"role": "developer", "content": "You are a helpful assistant."},
+        {"role": "user", "content": "HELLO!"}
+    ],
+    stream=True  # 응답이 스트리밍 방식으로 전달
+)
+
+# 응답이 준비되는 대로 바로 받아볼 수 있습니다.
+# completion은 반복 가능한 객체로, 생성된 각 응답 조각(chunk)을 순회
+for chunk in completion:
+    print(chunk.choices[0].delta)  # delta는 모델이 생성한 변경 사항(응답의 일부분)을 포함합니다.
+```
+
+>[!출력결과]
+>```JSON
+>ChoiceDelta(content='', function_call=None, refusal=None, role='assistant', tool_calls=None)
+>ChoiceDelta(content='Hello', function_call=None, refusal=None, role=None, tool_calls=None)
+>ChoiceDelta(content='!', function_call=None, refusal=None, role=None, tool_calls=None)
+>ChoiceDelta(content=' How', function_call=None, refusal=None, role=None, tool_calls=None)
+>ChoiceDelta(content=' can', function_call=None, refusal=None, role=None, tool_calls=None)
+>ChoiceDelta(content=' I', function_call=None, refusal=None, role=None, tool_calls=None)
+>ChoiceDelta(content=' assist', function_call=None, refusal=None, role=None, tool_calls=None)
+>ChoiceDelta(content=' you', function_call=None, refusal=None, role=None, tool_calls=None)
+>ChoiceDelta(content=' today', function_call=None, refusal=None, role=None, tool_calls=None)
+>ChoiceDelta(content='?', function_call=None, refusal=None, role=None, tool_calls=None)
+>ChoiceDelta(content=None, function_call=None, refusal=None, role=None, tool_calls=None)
+>```
+
+---
+#### 특정 도구(tools)를 활용하는 채팅 세션 생성
+```PYTHON
+from openai import OpenAI
+
+OPENAI_API_KEY = "YOUR_API_KEY"
+client = OpenAI(api_key=OPENAI_API_KEY)
+
+tools = [{"type": "function",
+    "function": {
+    "name": "get_current_weather",        
+    "description": "Get the current weather in a given location",
+    "parameters": {"type": "object",
+        "properties": {"location": {
+            "type": "string",
+            "description": "The city and state, e.g. San Francisco, CA"},
+            "unit": {"type": "string",
+                "enum": ["celsius", "fahrenheit"]}},
+            "required": ["location"]}}}]
+
+messages = [
+    {"role": "user", "content": "What's the weather like in Boston today?"}
+]
+
+completion = client.chat.completions.create(
+    model="gpt-4o",
+    messages=messages,
+    tools=tools,
+    tool_choice="auto"
+)
+
+print(completion)
+```
+
+>[!출력결과]
+>```JSON
+>ChatCompletion(id='chatcmpl-ArfhMUARdUH3iaivxerHbcS2G0FON', choices=[Choice(finish_reason='tool_calls', index=0, logprobs=None, message=ChatCompletionMessage(content=None, refusal=None, role='assistant', audio=None, function_call=None, tool_calls=[ChatCompletionMessageToolCall(id='call_SmIyiHCcTn6LOrk1ob424YcV', function=Function(arguments='{"location":"Boston, MA"}', name='get_current_weather'), type='function')]))], created=1737355036, model='gpt-4o-2024-08-06', object='chat.completion', service_tier='default', system_fingerprint='fp_4691090a87', usage=CompletionUsage(completion_tokens=18, prompt_tokens=80, total_tokens=98, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)))
+>```
+
+---
+#### 프로프트 엔지니어링
+:모델로부터 올바른 출력을 얻기 위해 프롬프트를 제작하는 과정
+
+>모델에 정확한 지시사항, 예시 및 필요한 맥락 정보(모델의 훈련 데이터에 포함되지 않은 개인적이거나 전문적인 정보 등)를 제공함으로써 모델의 출력 품질과 정확성을 향상시킬 수 있습니다.
+
+- Completion.create() 매개변수
+
+|매개변수|설명|기본값|사용 사례 및 옵션|
+|---|---|---|---|
+|**`model`**|사용할 모델 이름 (예: `text-davinci-003`, `gpt-3.5-turbo`)|없음|생성할 텍스트의 모델을 지정|
+|**`prompt`**|프롬프트 텍스트 생성의 시작점|없음|텍스트 생성의 기준이 되는 입력 문장|
+|**`temperature`**|출력 텍스트의 창의성 조정 (0~2)|`1`|창의성 조정, 값이 낮을수록 예측 가능하고, 높을수록 창의적|
+|**`max_tokens`**|생성할 텍스트의 최대 길이 (토큰 수)|없음|최대 토큰 수를 설정, 응답 길이를 제한하는 데 사용|
+|**`frequency_penalty`**|이미 생성된 단어의 반복 억제 (범위: -2.0 ~ 2.0)|`0`|단어 반복을 억제하거나 허용하는 정도|
+|**`presence_penalty`**|새로운 단어 또는 아이디어 도입을 증가시키는 값 (범위: -2.0 ~ 2.0)|`0`|새로운 단어나 아이디어의 도입 정도|
+|**`top_p`**|확률 분포 상위 p%에 해당하는 토큰만 사용 (0~1)|없음|모델이 선택할 수 있는 단어를 제한하는 방식|
+|**`n`**|생성할 결과 수|`1`|여러 개의 결과를 생성하고 그 중 하나를 선택|
+|**`stream`**|응답을 스트리밍 방식으로 받을지 여부|`false`|`true`로 설정하면 응답을 실시간으로 받아볼 수 있음|
+|**`logprobs`**|확률 분포 상위 p%에 해당하는 토큰만 사용|없음|확률이 높은 토큰들만 선택하여 생성된 응답에 대한 확률 정보 제공|
+|**`echo`**|결과와 함께 프롬프트를 에코백|`false`|`true`로 설정하면 프롬프트도 함께 출력|
+|**`stop`**|텍스트 생성 중지 토큰, 이 토큰이 나오면 생성이 중단됩니다. 최대 4개까지 설정 가능|없음|문장 생성 중지 조건 설정, 예: `["\n", "stop"]`|
+|**`best_of`**|서버 측에서 `best_of` 개만큼 결과를 생성하고 가장 좋은 결과를 반환|`1`|더 나은 결과를 원할 경우 `best_of` 값을 증가시켜 더 많은 결과 생성|
+|**`logit_bias`**|지정한 토큰의 생성 가능성을 감소시키는 값 (토큰 ID에 대해 설정)|없음|특정 토큰을 더 적게 생성하게 하여 필터링|
+|**`user`**|최종 사용자 ID, 이 값을 설정하면 특정 사용자와 관련된 데이터를 추적할 수 있음|없음|사용자 맞춤형 응답을 제공하기 위해 사용자의 ID를 설정|
+##### 질의 응답 실습
+```python
+from openai import OpenAI
+
+OPENAI_API_KEY = "YOUR_API_KEY"
+client = OpenAI(api_key=OPENAI_API_KEY)
+
+prompt = "인공지능에 대해 알려주세요"
+
+response = client.completions.create(
+    model="gpt-3.5-turbo-instruct", 
+    prompt=prompt, 
+    temperature=0, 
+    max_tokens=50
+)
+
+#prompt 문자열의 끝에 모델에게 텍스트 요약 작업을 명확하게 지시
+response_text = response.choices[0].text
+print("응답 텍스트:", response_text.strip())
+```
+##### 요약 실습
+```PYTHON
+from openai import OpenAI
+
+OPENAI_API_KEY = "YOUR_API_KEY"
+client = OpenAI(api_key=OPENAI_API_KEY)
+
+prompt = """인공지능(Artificial Intelligence, AI)은 인간의 지능을 모방하거나 대체하는 기술을 말합니다. 인공지능은 컴퓨터 프로그램이나 시스템을 통해 인간의 학습, 추론, 문제 해결 등의 지능적인 작업을 수행할 수 있도록 만들어진 기술입니다.인공지능은 크게 강한 인공지능과 약한 인공지능으로 나뉩니다. 강한 인공지능은 인간과 동일하거나 그 이상의 지능을 가지며, 모든 종류의 작업을 수행할 수 있습니다. 반면 약한 인공지능은 특정한 작업에만 특화된 지능을 가지며, 인간의 지능과는 차이가 있습니다. 인공지능은 다양한 분야에서 활용되고 있습니다. 예를 들어 음성 인식 기술을 이용한 인공지능 스피커, 이미지 인식 기술을 이용한 얼굴 인식 소프트웨어, 자율주행 자동차 등이 있습니다. 또한 인공지능은 의료, 금융, 교육 등 다양한 분야에서도 활용되고 있으며, 더 나은 서비스를 제공하기 위해 계속 발전하고 있습니다. 하지만 인공지능은 아직 완벽하지 않으며, 인간의 지능을 완전히 대체할 수는 없습니다. 따라서 인공지능을 개발하고 활용하는 과정에서 윤리적인 문제나 안전 문제 등을 고려해야 합니다. \n\n Summarize the above text. """
+
+response = client.completions.create(
+    model="gpt-3.5-turbo-instruct", 
+    prompt=prompt, 
+    temperature=0, 
+    max_tokens=500
+) 
+
+# prompt 문자열의 끝에 모델에게 텍스트 요약 작업을 명확하게 지시
+response_text = response.choices[0].text
+print("요약 텍스트:", response_text.strip())
+```
+##### 번역 실습
+```PYTHON
+from openai import OpenAI
+
+OPENAI_API_KEY = "YOUR_API_KEY"
+client = OpenAI(api_key=OPENAI_API_KEY)
+
+prompt = """ 한국어를 영어로 번역합니다. 한국어 : 대한민국의 민주주의는 국민이 지킵니다. 영어 : """
+
+response = client.completions.create(
+    model="gpt-3.5-turbo-instruct", 
+    prompt=prompt, 
+    temperature=0, 
+)
+
+response_text = response.choices[0].text
+print("번역 텍스트:", response_text.strip())
+```
