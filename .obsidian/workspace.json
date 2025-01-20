@@ -13,12 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/LLM 이해와 활용/환경 구성.md",
+                "file": "Obsidian/ComputerScience/LLM 이해와 활용/이론.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "환경 구성"
+              "title": "이론"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ecb39fd92f9bd971",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d77fa78b3b4086f8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Obsidian/ComputerScience/LLM 이해와 활용/LLM 이해와 활용(OpenAI API).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "LLM 이해와 활용(OpenAI API)"
             }
           }
         ]
@@ -163,9 +181,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a82fd44872ba1be3",
+  "active": "d77fa78b3b4086f8",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/LLM 이해와 활용/이론.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/LLM 이해와 활용(OpenAI API).pdf",
+    "Pasted image 20250120103633.png",
+    "Pasted image 20250120103626.png",
+    "Pasted image 20250120103621.png",
+    "Pasted image 20250120101836.png",
     "Obsidian/ComputerScience/LLM 이해와 활용/환경 구성.md",
     "Obsidian/ComputerScience/코딩테스트/정렬/1. 버블 정렬.md",
     "Obsidian/ComputerScience/LLM 이해와 활용",
@@ -195,7 +218,6 @@
     "Obsidian/ComputerScience/자바/3. Scanner.md",
     "Obsidian/ComputerScience/자바/2. 변수와 자료형.md",
     "Obsidian/ComputerScience/자바/1. Hello Java.md",
-    "Obsidian/ComputerScience/도커와 쿠버네티스/도커.md",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-10주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/시험/10. 도커.pdf",
@@ -205,10 +227,6 @@
     "Pasted image 20250114122425.png",
     "image/Pasted image 20250113123400.png",
     "image/Pasted image 20250113123320.png",
-    "image/Pasted image 20250113123251.png",
-    "image/Pasted image 20250113120838.png",
-    "image/Pasted image 20250109115702.png",
-    "Pasted image 20250113123400.png",
-    "Pasted image 20250113123320.png"
+    "image/Pasted image 20250113123251.png"
   ]
 }
