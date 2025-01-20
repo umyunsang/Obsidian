@@ -436,3 +436,199 @@ print("Original Text:\n", file_content)
 print(response.choices[0].message.content)
 
 ```
+####  Image generation 실습
+```python
+from openai import OpenAI
+
+client = OpenAI(api_key=OPENAI_API_KEY)
+
+response = client.images.generate(
+    model="dall-e-2",
+    prompt="A futuristic cityscape with flying cars and neon lights",
+    size="512x512",
+    quality="standard",
+    n=1,
+)
+
+print(response.data[0].url)
+```
+#### masked Image edit 실습
+```python
+from openai import OpenAI
+
+client = OpenAI(api_key=OPENAI_API_KEY)
+
+response = client.images.edit(
+    model="dall-e-2",
+    image=open("image.png", "rb"),
+    mask=open("mask.png", "rb"),
+    prompt="the box is full of red apples",
+    n=1,
+    size="512x512",
+)
+
+print(response.data[0].url)
+```
+#### Image Variation 실습
+```python
+from openai import OpenAI
+
+client = OpenAI(api_key=OPENAI_API_KEY)
+
+response = client.images.create_variation(
+    model="dall-e-2",
+    image=open("image.png", "rb"),
+    n=1,
+    size="512x512"
+)
+
+print(response.data[0].url)
+```
+
+### Tokenizer
+
+- LLM에서는 텍스트를 토큰이라는 최소 단위로 분할해서 처리합니다. 
+- tiktoken은 OpenAI 모델과 사용할 수 있는 빠른 BPE 토크나이저 라이브러리입니다 
+	- https://github.com/openai/tiktoken 
+- BPE(Byte Pair Encoding) 특성 
+	- 역변환이 가능하고 손실이 없어 원본 텍스트로 토큰을 다시 변환할 수 있다. 
+	- 토크나이저의 훈련 데이터에 없는 임의의 텍스트에서도 작동함 
+	- 텍스트를 압축(토큰 시퀀스는 원본 텍스트에 해당하는 바이트보다 짧으며 각 토큰은 평균적으로약 4바이트에 해당함) 
+	- 모델이 일반적인 부분 단어를 인식할 수 있도록 합니다. (예 : "ing"는 영어에서 흔한 부분 단어이므로 BPE 인코딩은 종종 "encoding"을 "encod"와 "ing"와 같은 토큰으로 분리)
+#### Tokenizer 인코딩 방식
+
+1. **Byte-Pair Encoding (BPE)**
+    - **설명**: 데이터 압축 기법으로 사용되며, 자연어 처리에서 자주 등장하는 바이트 쌍을 반복적으로 병합하여 보다 큰 블록을 형성합니다.
+    - **사용 모델**: GPT 시리즈에서 주로 사용됩니다.
+2. **WordPiece**
+    - **설명**: 구글의 번역 시스템에서 사용된 방식으로, 자주 등장하는 문자의 조합을 식별하고 이를 단일 토큰으로 결합하여 어휘 사전을 구성합니다.
+    - **사용 모델**: BERT 및 관련 모델에서 널리 채택됩니다.
+3. **Unigram Language Model Tokenizer**
+    - **설명**: 토큰의 확률적 언어 모델을 기반으로 가장 가능성이 높은 토큰을 선택합니다.
+    - **사용 모델**: 주로 SentencePiece 라이브러리에서 구현되어 있으며, 다양한 언어에 대해 효과적으로 작동합니다.
+4. **Character-Level Tokenization**
+    - **설명**: 텍스트를 개별 문자로 분리하여 언어의 구조적 복잡성을 최대한 단순화합니다. 그러나 모델이 더 많은 데이터를 처리해야 하기 때문에 계산 비용이 더 높을 수 있습니다.
+5. **Subword Regularization**
+    - **설명**: 훈련 중에 입력 문장의 토큰화 방법을 무작위로 변형하여 모델이 다양한 토큰화 패턴에 적응하도록 합니다. 기계 번역과 같은 분야에서 모델의 일반화 능력을 향상시킵니다.
+
+#### Tokenizer 인코딩 모델
+
+- **cl100k_base**  
+    - **설명**: "cl100k" 시리즈에 속하는 기본 설정으로, 큰 언어 모델이나 복잡한 언어 처리 작업을 위해 설계되었습니다. "100k"는 사용되는 토큰의 수나 다양성을 의미합니다.
+- **p50_base**
+    - **설명**: "p50" 시리즈의 기본 인코딩 설정으로, 특정 도메인이나 용도에 맞춰 최적화된 텍스트 인코딩 방식입니다.
+- **gpt2**
+    - **설명**: OpenAI의 GPT-2 언어 모델의 인코딩 모델로, BPE(Byte Pair Encoding)를 사용하여 텍스트를 효율적으로 압축하고, 모델이 언어의 구조를 더 잘 학습할 수 있게 돕습니다.
+#### titoken 라이브러리 주요 함수
+
+- **get_encoding(name)**
+    - **설명**: 인코딩 이름을 매개변수로 전달하면, 해당 인코딩 설정에 따라 초기화된 `Encoding` 객체를 반환합니다.
+- **Encoding 클래스**
+    - **설명**: 텍스트를 토큰으로 변환하는 데 필요한 모든 설정을 포함하는 클래스입니다. 특정 패턴, 특수 토큰, 병합 가능한 순위 등을 설정하여 인스턴스를 생성할 수 있습니다. 기본 제공 인코딩 외에 사용자 정의 인코딩을 생성할 수 있습니다.
+- **encode(text)**
+    - **설명**: 텍스트 문자열을 입력받아 해당 인코딩 방식에 따라 토큰의 시퀀스로 변환합니다.
+- **decode(tokens)**
+    - **설명**: 토큰의 시퀀스를 입력으로 받아 원래의 텍스트 문자열로 복원합니다.
+- **add_special_token(token, id)**
+    - **설명**: 새로운 특수 토큰을 인코딩 설정에 추가합니다. 특수 토큰은 텍스트 내에서 특별한 의미를 가지는 문자열을 처리할 때 사용되며, 고유한 식별자(id)와 함께 등록됩니다.
+---
+#### Tokenizer 실습
+```python
+#pip install tiktoken
+import tiktoken
+
+# 인코딩 모델 로드
+enc = tiktoken.get_encoding("cl100k_base")
+
+# 인코딩 실행
+tokens = enc.encode("Good Morning")
+print(len(tokens))
+print(tokens)
+
+# 디코딩 실행
+print(enc.decode(tokens))
+
+# 분할된 상태로 디코딩을 실행
+print(enc.decode_tokens_bytes(tokens))
+```
+#### 한국어 tokenizer 인토딩 실습
+```python
+# cl100k_base
+ko_tokens = enc.encode("독도는 우리땅")
+print(len(ko_tokens))
+print(ko_tokens)
+print(enc.decode(ko_tokens))
+```
+### Embedding
+- Embedding은 자연어 처리 및 머신러닝 분야에서 클러스터링, 추천 등 데이터 분석에 활용 
+- 텍스트를 벡터(부동소수점 배열) 표현으로 변환 
+- 벡터 표현은 유사한 의미를 가진 단어나 문장은 벡터 거리가 가깝고, 유사하지 않은 의미 를 가진 단어나 문장은 벡터 거리가 멀어지도록 설계되어 있습니다 
+- https://platform.openai.com/docs/guides/embeddings
+#### Embedding 클래스 및 함수
+- **Embedding**
+    - **설명**: 주어진 입력 텍스트에 대해 고차원 벡터 표현(임베딩)을 생성합니다.
+    - **용도**:
+        - 텍스트를 고차원 벡터 공간에서 의미론적으로 유사한 텍스트끼리 가까운 위치에 배치합니다.
+        - 입력 텍스트의 의미와 구조를 벡터로 변환하여 컨텍스트를 캡처합니다.
+    - **응용 사례**:
+        - 유사도 비교, 검색 최적화, 추천 엔진, 군집화, 주제 분석 등 다양한 분야에서 사용됩니다.
+#### Embedding.create()
+- **설명**: 주어진 입력 텍스트에 대해 임베딩을 생성하는 함수입니다.
+- **매개변수**:
+    - `model` (필수): 사용할 모델의 이름 (예: `"text-embedding-3-small"`).
+    - `input` (필수): 임베딩을 생성할 텍스트 또는 텍스트 리스트.
+    - `user` (선택적): 사용자 정의 데이터를 제공할 때 사용.
+    - `**kwargs` (선택적): 추가적인 선택적 매개변수들을 키워드 인자로 전달, 특정 API 기능을 설정하거나 구성할 때 사용.
+#### Embedding 기반 유사도 검색 실습
+- 페이스북이 개발한 오픈소스 벡터 데이터베이스 Faiss를 이용해 유사도 검색을 수행
+
+```python
+import openai
+
+# openai apikey 입력
+OPENAI_API_KEY = "sk-proj-hbsi47ndwg_2I1zuYAa0p9ODzEM 4vApXF27cJkcA............."
+
+client = openai.OpenAI(api_key=OPENAI_API_KEY)
+
+in_text = "오늘은 눈이 오지 않아서 다행입니다"
+
+response = client.embeddings.create(
+    input=in_text,
+    model="text-embedding-3-sm"
+)
+
+import numpy as np
+
+in_embeds = [record.embedding for record in response.data]
+ndarray_embeds = np.array(in_embeds).astype("float32")  # 임베딩을 다양한 수치 계산과 머신러닝 라이브러리에서 효율적으로 사용하기 위해 np.array로 변환
+
+target_texts = [
+    "좋아하는 음식은 무엇인가요?", 
+    "어디에 살고 계신가요?", 
+    "아침 전철은 혼잡하네요", 
+    "오늘 날씨가 화창합니다", 
+    "요즘 경기가 좋지 않습니다."
+]
+
+response2 = client.embeddings.create(
+    input=target_texts,
+    model="text-embedding-3-small"
+)
+
+target_embeds = [record.embedding for record in response2.data]
+ndarray_embeds2 = np.array(target_embeds).astype("float32")
+
+import faiss  # Faiss의 인덱스 생성
+index = faiss.IndexFlatL2(1536)
+
+# 인덱스에 추가하는 임베딩은 numpy의 float32여야 합니다.
+index.add(ndarray_embeds2)
+
+# 유사도 검색 수행
+D, I = index.search(ndarray_embeds, 1)
+
+print(D)  # D (Distances): 쿼리 벡터와 해당 가장 가까운 이웃들 간의 거리를 포함한 배열
+print(I)  # I (Indices): 쿼리 벡터와 가장 가까운 이웃 벡터의 인덱스를 포함한 배열
+print(target_texts[I[0][0]])  # 가장 가까운 이웃에 해당하는 텍스트 출력
+
+```
