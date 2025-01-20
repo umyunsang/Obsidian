@@ -344,3 +344,95 @@ response = client.completions.create(
 response_text = response.choices[0].text
 print("번역 텍스트:", response_text.strip())
 ```
+
+---
+#### ChatCompletion 클래스와 함수
+
+- **ChatCompletion.create()의 장점**
+	- **대화 문맥 유지**: 이전 대화 내용을 바탕으로 연속적인 대화가 가능, 복잡한 대화 기반 작업에 적합.
+	- **다양한 파라미터 제어**: 여러 파라미터를 통해 출력 텍스트의 성격과 길이를 제어할 수 있음.
+	- **간단한 API 호출**: 간단한 API 호출로 강력한 자연어 생성 성능을 제공.
+
+- **ChatCompletion.create()의 한계**
+	- **문맥 손실**: 높은 토큰 수 제한(4096~32,768 토큰)을 초과할 경우 문맥이 손실될 수 있음.
+	- **정보 반복**: 반복적인 대화에서는 모델이 불필요한 정보를 반복할 가능성 있음.
+	- **응답 시간 및 비용**: 사용량에 따라 응답 시간이 길어지고, 비용이 증가할 수 있음.
+
+
+```python
+import openai
+OPENAI_API_KEY = "YOUR_API_KEY"
+client = OpenAI(api_key=OPENAI_API_KEY)
+response = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[
+        {"role": "system", "content": "당신은 유용한 조수입니다."},
+    	{"role": "user", "content": "AI가 무엇인가요??"}
+    ],
+    temperature=0.2,
+    max_tokens=150,
+)
+print("Assistant Response:")
+print(response.choices[0].message)
+```
+
+#### Chat 대화 실습
+```PYTHON
+import openai
+
+context = [
+    {"role": "system", "content": "당신은 유용한 조수입니다."},
+    {"role": "user", "content": "지도학습은 무엇인가요?"}
+]  # 첫 번째 질문
+
+OPENAI_API_KEY = "YOUR_API_KEY"
+client = OpenAI(api_key=OPENAI_API_KEY)
+
+response = client.chat.completions.create(
+    model="gpt-4o-mini", 
+    messages=context, 
+    max_tokens=150
+)
+
+print(response.choices[0].message.content)
+
+context.append({"role": "assistant", "content": response.choices[0].message.content})  
+# 두 번째 질문
+context.append({"role": "user", "content": "지도 학습에 대해 예제 코드를 만들어 주세요"})
+
+response = openai.chat.completions.create(
+    model="gpt-4", 
+    messages=context, 
+    max_tokens=150
+)
+
+print("Assistant Response:")
+print(response.choices[0].message.content)
+```
+#### ChatCompletion으로 문장 교정 실습
+```python
+import openai
+
+OPENAI_API_KEY = "YOUR_API_KEY"
+client = OpenAI(api_key=OPENAI_API_KEY)
+
+with open('./data/sample.txt', 'r', encoding='utf-8') as file:
+    file_content = file.read()
+
+response = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[
+        {"role": "system", "content": "You are a creative writer."},
+        {"role": "user", "content": f"Correct the grammar: {file_content}"}
+    ],
+    temperature=0.2,
+    max_tokens=150,
+    top_p=1.0,
+    frequency_penalty=0.0,
+    presence_penalty=0.0
+)
+
+print("Original Text:\n", file_content)
+print(response.choices[0].message.content)
+
+```
