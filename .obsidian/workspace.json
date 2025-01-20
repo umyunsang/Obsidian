@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT 모델 이해와 활용.md",
+                "file": "Obsidian/ComputerScience/LLM 이해와 활용/ChapGPT API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ChatGPT 모델 이해와 활용"
+              "title": "ChapGPT API"
             }
           }
         ]
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "requir",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,10 +181,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d77fa78b3b4086f8",
+  "active": "a82fd44872ba1be3",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT 모델 이해와 활용.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/LLM 이해와 활용(OpenAI API).pdf",
+    "Obsidian/ComputerScience/LLM 이해와 활용/ChapGPT API.md",
+    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT 모델 이해와 활용.md",
+    "Obsidian/ComputerScience/LLM 이해와 활용/LLM 모델 이해.md",
+    "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
+    "Obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120112057.png",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120111923.png",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120103633.png",
@@ -193,7 +197,6 @@
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120101836.png",
     "Obsidian/ComputerScience/LLM 이해와 활용/image",
     "Obsidian/ComputerScience/LLM 이해와 활용/새 폴더",
-    "Obsidian/ComputerScience/LLM 이해와 활용/LLM 모델 이해.md",
     "Pasted image 20250120101836.png",
     "Pasted image 20250120103621.png",
     "Pasted image 20250120112057.png",
@@ -223,9 +226,6 @@
     "Obsidian/ComputerScience/리눅스시스템/9. 프로세스.md",
     "Obsidian/ComputerScience/리눅스시스템/5. 플라스크.md",
     "Obsidian/ComputerScience/자바/5. 조건문.md",
-    "Obsidian/ComputerScience/자바/4. 연산자.md",
-    "Obsidian/ComputerScience/자바/3. Scanner.md",
-    "Obsidian/ComputerScience/자바/2. 변수와 자료형.md",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-10주차.pdf"
   ]

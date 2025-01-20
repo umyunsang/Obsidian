@@ -1,0 +1,22 @@
+
+---
+#### ChatGPT의 API 연동
+- 요청 매개변수 설정 
+	- model : 사용할 모델 지정. " gpt‐3.5‐turbo" 모델 사용 
+	- content : ChatGPT에 전달할 입력 텍스트 
+- API 응답 처리 
+	- API 요청에 대한 응답은 JSON 형식으로 반환 됨 
+	- 응답에서 `response.choices[0].content`를 사용하여 생성된 텍스트를 추출 
+- 다양한 요청 및 응답 처리 
+	- 다양한 유형의 대화와 작업을 수행 가능 
+- 예외 처리 
+	- API 요청 중에 발생할 수 있는 예외 상황을 처리하는 코드 추가 
+- 보안 및 비용 관리 
+	- API 키를 보안 유지하고, 사용량을 모니터링하고 비용을 관리 
+- 테스트 및 디버깅 
+	- 요청과 응답을 테스트하고 디버그하여 ChatGPT를 올바르게 통합
+- OpenAI 계정 및 API 키 생성 
+	- OpenAI 웹사이트(https://openai.com/blog/openai-api)에 가입하고 로그인 
+	- 대시보드에서 API 키를 생성하고 해당 키를 안전한 곳에 보관
+- 필요한 라이브러리 설치 
+	- `pip install openai`
