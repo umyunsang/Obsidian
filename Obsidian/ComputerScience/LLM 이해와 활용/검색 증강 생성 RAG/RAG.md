@@ -91,92 +91,151 @@
 
 ### RAG: 데이터 로딩 및 텍스트 분할
 
+RAG(Retrieval-Augmented Generation)은 정보를 검색한 뒤 이를 활용해 자연어 생성 모델의 응답을 향상시키는 기술입니다. 이 과정에서 데이터 로딩과 텍스트 분할은 매우 중요한 초기 단계입니다. 아래 코드는 이 두 과정을 예제와 함께 설명합니다.
+
 #### 데이터 로딩 (Data Load)
 
-- **WebBaseLoader** 클래스를 사용하여 웹페이지의 텍스트 데이터를 추출하고 Document 객체 리스트로 변환.
+먼저, 웹페이지에서 텍스트 데이터를 추출해 문서 객체 리스트로 변환하는 과정을 살펴봅니다.
 
 ```python
-# RAG : Load Data
-# pip install langchain_community
-
+# 필요한 라이브러리 임포트
 from langchain_community.document_loaders import WebBaseLoader
+
+# 데이터 로드할 URL 지정
 url = 'https://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EC%A0%95%EC%B1%85%EA%B3%BC_%EC%A7%80%EC%B9%A8'
+
+# WebBaseLoader를 사용하여 URL에서 데이터 로드
 loader = WebBaseLoader(url)
 docs = loader.load()
-print(len(docs))
-print(len(docs[0].page_content))
-print(docs[0].page_content[5000:6000])
+
+# 로드된 문서 정보 출력
+print(len(docs))  # 문서 객체의 개수
+print(len(docs[0].page_content))  # 첫 번째 문서의 내용 길이
+print(docs[0].page_content[5000:6000])  # 첫 번째 문서의 일부 내용 출력
 ```
 
+- `WebBaseLoader(url)`: 주어진 URL의 내용을 텍스트로 로드하는 클래스입니다.
+- `docs`: 로드된 문서 리스트입니다. 각 문서는 `Document` 객체로 저장됩니다.
+    - `docs[0].page_content`: 첫 번째 문서의 전체 텍스트 내용입니다.
+    - `docs[0].metadata`: 문서의 메타데이터(예: URL, 제목 등)를 포함합니다.
+
+---
 #### 텍스트 분할 (Text Split)
 
-- **RecursiveCharacterTextSplitter**를 사용하여 긴 문서를 작은 청크로 분할.
-- 청크 크기: 1000자, 200자 중복하여 문맥 유지.
+긴 텍스트 문서를 일정한 크기의 청크(chunk)로 분할합니다. 이렇게 하면 각 청크를 독립적으로 처리할 수 있어 검색과 생성 단계에서 더 효율적입니다.
+
 
 ```python
-# RAG : 텍스트 분할(Text Split)
+# 텍스트 분할을 위한 클래스 임포트
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
+# 텍스트 분할기 설정: 1000자 크기의 청크 생성, 200자 중복 유지
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000,
-											   chunk_overlap=200)
+                                               chunk_overlap=200)
+
+# 로드된 문서를 작은 청크로 분할
 splits = text_splitter.split_documents(docs)
 
-print(len(splits))
-print(splits[10].page_content)
-print(splits[10].metadata)
+# 결과 확인
+print(len(splits))  # 생성된 청크 개수
+print(splits[10].page_content)  # 11번째 청크의 텍스트 내용
+print(splits[10].metadata)  # 11번째 청크의 메타데이터
 ```
 
----
+- **`chunk_size=1000`**: 각 청크의 최대 길이를 1000자로 설정합니다.
+- **`chunk_overlap=200`**: 청크 간 200자를 중복시켜 문맥 연결을 유지합니다.
+    - 중복은 청크를 연결했을 때 문맥이 끊기지 않도록 돕습니다.
+- **`text_splitter.split_documents(docs)`**: `docs` 리스트에 있는 문서를 지정된 설정에 따라 청크로 분할합니다.
+- **`splits`**: 분할된 청크 리스트입니다.
 
+---
 ### RAG: 인덱싱 및 임베딩 생성
 
-#### 인덱싱 (Indexing)
+RAG(Retrieval-Augmented Generation)에서 **인덱싱과 임베딩 생성**은 텍스트 데이터를 검색하기 쉽게 변환하는 과정입니다. 이를 통해 모델이 필요한 정보를 빠르게 찾고, 질문에 적절히 응답할 수 있습니다.
 
-- 텍스트를 임베딩으로 변환하고 벡터 저장소에 저장 후 유사성 검색을 수행.
+#### 1. 인덱싱 (Indexing)
+
+텍스트 데이터를 임베딩(벡터 표현)으로 변환하고 벡터 저장소에 저장하여 유사성 검색(similarity search)을 수행합니다.
+
 
 ```python
-# RAG : 인덱싱(Indexing)
-# pip install langchain_openai
-# pip install chromadb
+# 필요한 라이브러리 임포트
+from langchain_community.vectorstores import Chroma  # 벡터 저장소 관리
+from langchain_openai import OpenAIEmbeddings        # 임베딩 생성
 
-from langchain_community.vectorstores import Chroma
-from langchain_openai import OpenAIEmbeddings
-
+# Chroma 벡터 저장소에 문서 저장 (임베딩 생성 및 저장 과정 포함)
 vectorstore = Chroma.from_documents(documents=splits,
-									embedding=OpenAIEmbeddings())
+                                    embedding=OpenAIEmbeddings())
 
-# Vector Database에 저장된 내용을 유사도 검색으로 확인
+# 유사성 검색: 질문과 가장 관련 있는 문서 검색
 docs = vectorstore.similarity_search("격하 과정에 대해서 설명해주세요.")
-print(len(docs))
-print(docs[0].page_content)
+
+# 검색 결과 확인
+print(len(docs))  # 검색 결과로 나온 문서 개수
+print(docs[0].page_content)  # 가장 관련 있는 문서 내용 출력
 ```
 
-#### **벡터 임베딩 전략**
-
-- **모델 선택**: 고성능 모델(text-embedding-ada-002 등) 활용.
-- **차원 최적화**: 1536 차원이 표준.
-- **정규화 및 배치 처리**: 대규모 데이터의 효율적 처리.
+1. **`OpenAIEmbeddings`**: 텍스트 데이터를 벡터(숫자 배열)로 변환하는 도구입니다.
+    - 예: 텍스트 `["hello"]` → 벡터 `[0.1, 0.3, ...]` (1536차원 배열)
+2. **`Chroma`**: 벡터 데이터를 저장하고 검색할 수 있는 벡터 저장소입니다.
+    - `from_documents`: 텍스트를 임베딩으로 변환한 뒤, 저장소에 저장합니다.
+3. **유사성 검색**: `similarity_search`는 입력 질문과 가장 유사한 문서를 반환합니다.
+    - 입력 질문과 저장된 벡터 간의 유사도를 계산합니다(코사인 유사도 등 사용).
 
 ---
+#### 2. 벡터 임베딩 전략
 
-### RAG: 검색 및 생성
+##### **임베딩이란?**
 
-#### 검색 및 생성 (Retrieval & Generation)
+임베딩은 텍스트를 숫자 벡터로 변환하여 컴퓨터가 의미를 이해하고 비교할 수 있도록 돕는 과정입니다. 이를 효율적으로 처리하기 위한 전략은 다음과 같습니다:
 
-- 사용자 질문에 관련된 정보를 검색하고 LLM에 입력하여 답변을 생성.
+1. **모델 선택**:
+    
+    - 고성능 모델 사용: 예를 들어 `text-embedding-ada-002`는 OpenAI에서 제공하는 강력한 임베딩 생성 모델입니다.
+    - 이 모델은 일반적으로 1536차원의 벡터를 생성하며, 높은 품질의 유사성 검색을 지원합니다.
+2. **차원 최적화**:
+    
+    - 1536차원은 임베딩 생성에 자주 사용되는 표준입니다.
+    - 차원 수가 너무 크거나 작으면 검색 성능이 저하될 수 있으므로, 적절한 차원을 유지하는 것이 중요합니다.
+3. **정규화 및 배치 처리**:
+    
+    - **정규화**: 벡터를 크기(길이)가 1이 되도록 정규화하여 계산 안정성을 확보합니다.
+    - **배치 처리**: 대규모 데이터셋을 처리할 때는 데이터를 나누어(배치) 임베딩을 생성해 메모리 사용량을 최적화합니다.
+
+---
+### RAG: 검색 및 생성 (Retrieval & Generation)
+
+**RAG**의 검색 및 생성 과정은 사용자 질문에 대해 관련 정보를 먼저 검색한 후, 이를 기반으로 LLM(Large Language Model)을 활용하여 답변을 생성하는 단계입니다. 이 과정을 통해 질문에 맞는 정확한 답변을 제공할 수 있습니다.
+
+---
+1. **검색 (Retrieval)**:
+    - 사용자의 질문과 관련된 정보를 벡터 데이터베이스(VectorDB)에서 검색.
+    - 검색된 문서(문맥)를 바탕으로 질문에 대한 배경 정보를 제공합니다.
+    
+2. **생성 (Generation)**:
+    - 검색된 문서를 LLM에 입력하여 자연스럽고 명확한 답변을 생성.
 
 ```python
+# RAG : 검색 및 생성 (Retrieval & Generation)
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.runnables import RunnablePassthrough
+from langchain_core.output_parsers import StrOutputParser
+from langchain_openai import ChatOpenAI
+
 template = '''Answer the question based only on the following context: 
 {context} 
 
-
 Question: {question}'''
 # Template기반의 Prompt객체 (사용자의 질문 포함)
-prompt = ChatPromptTemplate.from_template(template)   
+prompt = ChatPromptTemplate.from_template(template) 
 # 검색결과 기반으로 응답 텍스트 생성할 LLM모델 생성
 model = ChatOpenAI(model='gpt-4o-mini', temperature=0) 
 # VectorDB의 검색 엔진 객체 생성
 retriever = vectorstore.as_retriever()                 
+
+def format_docs(docs):
+    return '\n\n'.join(doc.page_content for doc in docs)
+    
 rag_chain = (
     {'context': retriever | format_docs, 'question': RunnablePassthrough()}
     | prompt 
@@ -190,13 +249,77 @@ rag_chain.invoke("격하 과정에 대해서 설명해주세요.")
 
 ### RAG: 검색기(Retriever) 최적화
 
-#### 검색기 최적화 전략
+**검색기 최적화**는 사용자가 제시한 질문에 대해 더 적절하고 관련성이 높은 문서를 반환하는 것을 목표로 합니다. 각 검색기 전략은 검색 요구사항에 맞게 활용할 수 있는 특성을 가지고 있습니다. 아래에서 각 전략을 상세히 설명하겠습니다.
 
-- **BM25 Retriever**: 정확한 단어 매칭에 강점.
-- **Vector Store Retriever**: 의미론적 유사성을 기반으로 검색.
-- **MultiQuery Retriever**: 여러 질의 생성으로 더 많은 관련 문서 검색.
-- **Ensemble Retriever**: 다양한 검색 방법 결합으로 더 정확한 검색.
-- **MMR (Maximal Marginal Relevance)**: 결과의 다양성과 관련성 균형.
+---
+#### `BM25 Retriever`
+- **특징**:
+    - 고전적인 정보 검색 알고리즘으로 정확한 단어 매칭에 강점.
+    - 단어 빈도(TF)와 역문서 빈도(IDF)를 활용하여 질의와 문서의 관련성을 계산.
+- **장점**:
+    - 검색 대상과 사용자의 질문이 단어 수준에서 일치하는 경우 높은 성능을 발휘.
+- **적용 예**:
+    - 법률 문서나 기술 문서처럼 정확한 용어가 중요한 데이터.
+
+---
+#### `Vector Store Retriever`
+- **특징**:
+    - 텍스트 데이터를 벡터로 변환한 후, 의미론적 유사성을 기반으로 검색.
+    - 임베딩 모델(예: `text-embedding-ada-002`)을 사용하여 문장의 의미를 벡터로 표현.
+- **장점**:
+    - 질의와 문서가 정확히 일치하지 않아도 유사한 의미를 가지는 문서를 검색 가능.
+- **적용 예**:
+    - 사용자 질의가 자연어 형태로 다양하게 표현될 때 유용.
+
+---
+#### `MultiQuery Retriever`
+- **특징**:
+    - 단일 질의를 다양한 방식으로 변형하여 다수의 질의를 생성.
+    - 여러 질의를 사용해 더 많은 관련 문서를 검색.
+- **장점**:
+    - 질문의 뉘앙스나 표현 방식이 다양할 때도 고유한 관련 문서를 찾을 수 있음.
+- **적용 예**:
+    - 동일한 질문에 대해 다양한 측면의 답변이 필요할 때.
+
+---
+#### `Ensemble Retriever`
+- **특징**:
+    - 여러 검색 방법(BM25, Vector Store 등)을 결합하여 복합적으로 검색.
+    - 각 검색기의 결과를 조합하여 최종 순위를 결정.
+- **장점**:
+    - 다양한 검색 방식의 장점을 통합하여 높은 검색 품질 제공.
+- **적용 예**:
+    - 다중 도메인 데이터나 복잡한 검색 시나리오에서 최적.
+
+---
+#### `MMR (Maximal Marginal Relevance)`
+- **특징**:
+    - 검색된 문서의 **다양성**과 **관련성** 사이의 균형을 유지.
+    - 이미 선택된 문서와의 중복을 피하면서 새로운 정보를 포함하는 문서를 선택.
+- **장점**:
+    - 중복된 정보 없이 다각도의 정보를 제공.
+- **적용 예**:
+    - 뉴스 기사 검색, 요약 생성, 다중 문서 분석.
+
+---
+
+|전략|주된 사용 사례|장점|한계|
+|---|---|---|---|
+|**BM25 Retriever**|정확한 단어 기반 매칭이 중요한 경우|높은 정확도|단어 수준의 검색 한계|
+|**Vector Store Retriever**|의미론적 검색이 중요한 경우|자연어 질의에 강점|임베딩 품질에 의존|
+|**MultiQuery Retriever**|질의 변형이 필요한 경우|다양한 각도의 정보 제공 가능|추가 연산 비용 발생|
+|**Ensemble Retriever**|복합적인 검색 요구사항|검색 품질 최적화|구현 복잡성 증가|
+|**MMR**|중복 없는 결과가 중요한 경우|정보 다양성과 관련성 조화|연산 비용 증가|
+
+---
+
+#### 추천 활용 시나리오
+
+1. **BM25**: 법률 문서, 데이터베이스 검색처럼 구조화된 데이터 검색.
+2. **Vector Store**: 자연어 기반 대화형 검색.
+3. **MultiQuery**: 질의가 추상적이거나 모호할 때.
+4. **Ensemble**: 이종 데이터셋을 통합 검색해야 할 때.
+5. **MMR**: 뉴스, 학술 연구에서 다각도 분석이 필요할 때.
 
 ---
 
@@ -225,7 +348,6 @@ pip install langchain langchain_openai chromadb streamlit Wikipedia langchain_co
 - `PromptTemplate` : 사용자 정의 프롬프트를 생성합니다.
 
 ---
-
 #### 2. Streamlit 예제
 
 Streamlit을 사용하면 파이썬 코드를 이용해 간단하게 웹 애플리케이션을 만들 수 있습니다. 예를 들어, 아래와 같은 코드를 사용하여 랜덤 데이터를 표시하고, 간단한 차트를 그릴 수 있습니다.
