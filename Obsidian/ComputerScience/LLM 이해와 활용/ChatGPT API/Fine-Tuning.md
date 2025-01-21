@@ -80,6 +80,14 @@ Fine-Tuning은 사전 학습된 LLM(Large Language Model)을 특정 작업이나
 
 ---
 
+### Fine-Tuning의 한계
+
+- 고품질의 레이블링된 데이터가 필요 
+- 높은 학습 비용과 시간이 필요 
+- 소량의 데이터로 파인튜닝 시 모델이 특정 데이터에 과적합될 수 있음 
+- 모델의 범용성 저하
+
+---
 ### Fine-Tuning API 사용법
 
 #### FineTune 클래스
