@@ -73,7 +73,7 @@
 
 ---
 
-### Data Load 클래스
+### Data Load 클래스 (참고)
 
 **데이터 소스에서 정보를 읽어 들여 처리하는 다양한 클래스들**
 
@@ -89,3 +89,181 @@
 
 ---
 
+### RAG: 데이터 로딩 및 텍스트 분할
+
+#### 데이터 로딩 (Data Load)
+
+- **WebBaseLoader** 클래스를 사용하여 웹페이지의 텍스트 데이터를 추출하고 Document 객체 리스트로 변환.
+
+```python
+# RAG : Load Data
+# pip install langchain_community
+
+from langchain_community.document_loaders import WebBaseLoader
+url = 'https://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EC%A0%95%EC%B1%85%EA%B3%BC_%EC%A7%80%EC%B9%A8'
+loader = WebBaseLoader(url)
+docs = loader.load()
+print(len(docs))
+print(len(docs[0].page_content))
+print(docs[0].page_content[5000:6000])
+```
+
+#### 텍스트 분할 (Text Split)
+
+- **RecursiveCharacterTextSplitter**를 사용하여 긴 문서를 작은 청크로 분할.
+- 청크 크기: 1000자, 200자 중복하여 문맥 유지.
+
+```python
+# RAG : 텍스트 분할(Text Split)
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000,
+											   chunk_overlap=200)
+splits = text_splitter.split_documents(docs)
+
+print(len(splits))
+print(splits[10].page_content)
+print(splits[10].metadata)
+```
+
+---
+
+### RAG: 인덱싱 및 임베딩 생성
+
+#### 인덱싱 (Indexing)
+
+- 텍스트를 임베딩으로 변환하고 벡터 저장소에 저장 후 유사성 검색을 수행.
+
+```python
+# RAG : 인덱싱(Indexing)
+# pip install langchain_openai
+# pip install chromadb
+
+from langchain_community.vectorstores import Chroma
+from langchain_openai import OpenAIEmbeddings
+
+vectorstore = Chroma.from_documents(documents=splits,
+									embedding=OpenAIEmbeddings())
+
+# Vector Database에 저장된 내용을 유사도 검색으로 확인
+docs = vectorstore.similarity_search("격하 과정에 대해서 설명해주세요.")
+print(len(docs))
+print(docs[0].page_content)
+```
+
+#### **벡터 임베딩 전략**
+
+- **모델 선택**: 고성능 모델(text-embedding-ada-002 등) 활용.
+- **차원 최적화**: 1536 차원이 표준.
+- **정규화 및 배치 처리**: 대규모 데이터의 효율적 처리.
+
+---
+
+### RAG: 검색 및 생성
+
+#### 검색 및 생성 (Retrieval & Generation)
+
+- 사용자 질문에 관련된 정보를 검색하고 LLM에 입력하여 답변을 생성.
+
+```python
+template = '''Answer the question based only on the following context: 
+{context} 
+
+
+Question: {question}'''
+# Template기반의 Prompt객체 (사용자의 질문 포함)
+prompt = ChatPromptTemplate.from_template(template)   
+# 검색결과 기반으로 응답 텍스트 생성할 LLM모델 생성
+model = ChatOpenAI(model='gpt-4o-mini', temperature=0) 
+# VectorDB의 검색 엔진 객체 생성
+retriever = vectorstore.as_retriever()                 
+rag_chain = (
+    {'context': retriever | format_docs, 'question': RunnablePassthrough()}
+    | prompt 
+    | model 
+    | StrOutputParser()
+)
+rag_chain.invoke("격하 과정에 대해서 설명해주세요.")
+```
+
+---
+
+### RAG: 검색기(Retriever) 최적화
+
+#### 검색기 최적화 전략
+
+- **BM25 Retriever**: 정확한 단어 매칭에 강점.
+- **Vector Store Retriever**: 의미론적 유사성을 기반으로 검색.
+- **MultiQuery Retriever**: 여러 질의 생성으로 더 많은 관련 문서 검색.
+- **Ensemble Retriever**: 다양한 검색 방법 결합으로 더 정확한 검색.
+- **MMR (Maximal Marginal Relevance)**: 결과의 다양성과 관련성 균형.
+
+---
+
+### RAG: 순위 재조정 (Rerank)
+
+- **Rerank**: 검색된 문서들의 순위를 재조정하여 더 관련성 높은 문서를 상위에 배치.
+- **한국어 특화 Reranker**: 한국어 데이터에 특화된 'Dongjin-kr/ko-reranker' 모델 사용.
+
+---
+### RAG 기반 Q&A 웹서비스 개발
+
+#### 1. 필요한 라이브러리 설치
+
+RAG (Retrieval-Augmented Generation) 기반 Q&A 웹서비스를 개발하려면 필요한 라이브러리들을 설치해야 합니다. 아래 명령어로 필요한 라이브러리들을 설치합니다:
+
+```bash
+pip install langchain langchain_openai chromadb streamlit Wikipedia langchain_community
+```
+
+- `WikipediaLoader` : Wikipedia에서 문서를 로드합니다. 
+- `RecursiveCharacterTextSplitter` : 긴 문서를 작은 청크로 분할합니다. 
+- `OpenAIEmbeddings` : 텍스트를 벡터로 변환합니다. 
+- `Chroma` : 벡터 데이터베이스로 사용됩니다. 
+- `ChatOpenAI` : OpenAI의 GPT 모델을 사용합니다. 
+- `RetrievalQA` : 검색-질문 응답 체인을 생성합니다. 
+- `PromptTemplate` : 사용자 정의 프롬프트를 생성합니다.
+
+---
+
+#### 2. Streamlit 예제
+
+Streamlit을 사용하면 파이썬 코드를 이용해 간단하게 웹 애플리케이션을 만들 수 있습니다. 예를 들어, 아래와 같은 코드를 사용하여 랜덤 데이터를 표시하고, 간단한 차트를 그릴 수 있습니다.
+
+```python
+import streamlit as st  # streamlit 라이브러리 임포트
+import pandas as pd  # 데이터 처리를 위한 pandas 임포트
+import numpy as np  # 숫자 계산을 위한 numpy 임포트
+
+# Streamlit 애플리케이션의 제목 설정
+st.title('Streamlit Example')
+
+# 랜덤 데이터를 생성하여 DataFrame으로 변환
+data = pd.DataFrame(np.random.randn(50, 3), columns=['a', 'b', 'c'])
+
+# 생성된 데이터 표시
+st.write("Here's our random data:")
+st.write(data)
+
+# 생성된 데이터로 라인 차트 그리기
+chart = st.line_chart(data)
+```
+
+- `st.title('Streamlit Example')`: 애플리케이션의 제목을 설정합니다.
+- `pd.DataFrame(np.random.randn(50, 3), columns=['a', 'b', 'c'])`: 랜덤한 숫자 데이터 50개, 3개의 열을 생성하고 DataFrame 형식으로 저장합니다.
+- `st.write(data)`: DataFrame을 웹 페이지에 표시합니다.
+- `st.line_chart(data)`: DataFrame의 데이터를 기반으로 라인 차트를 그립니다.
+
+---
+
+#### 3. Streamlit 애플리케이션 실행
+
+Streamlit 애플리케이션을 실행하려면 아래 명령어를 사용합니다. `your_script.py`는 사용자가 작성한 파이썬 스크립트 파일을 의미합니다.
+
+```bash
+streamlit run your_script.py
+```
+
+위 명령어를 입력하면, Streamlit 웹 애플리케이션이 자동으로 실행되어 웹 브라우저에서 애플리케이션을 확인할 수 있습니다.
+
+---
