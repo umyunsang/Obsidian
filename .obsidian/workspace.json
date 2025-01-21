@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/TTS, STT.md",
+                "file": "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Fine-Tuning 실습.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TTS, STT"
+              "title": "Fine-Tuning 실습"
             }
           }
         ]
@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.51240158081055
+    "width": 258.51240158081055,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -182,18 +183,19 @@
   },
   "active": "d0dd3191fe7dd8a0",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/추론 모델.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Moderation.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Fine-Tuning.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/LLM 이해와 활용(OpenAI API).pdf",
-    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/TTS, STT.md",
+    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Fine-Tuning 실습.md",
+    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Fine-Tuning.md",
+    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/추론 모델.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Audio Generation.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/ChatGPT API.md",
+    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Embedding.md",
+    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Moderation.md",
+    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/TTS, STT.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/LLM 모델 이해.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/openai API 활용.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT 모델 이해와 활용.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/환경 구성.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Embedding.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API",
     "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
@@ -224,7 +226,6 @@
     "Obsidian/ComputerScience/도커와 쿠버네티스/ClusterIP 서비스 설정 및 가이드.md",
     "Obsidian/ComputerScience/도커와 쿠버네티스/쿠버네티스  기초.md",
     "Obsidian/ComputerScience/도커와 쿠버네티스/LoadBalancer 설치 및 설정 가이드.md",
-    "Obsidian/ComputerScience/도커와 쿠버네티스/NodePort 서비스 설정 및 가이드.md",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-13주차.pdf",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf"
   ]
