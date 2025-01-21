@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API.md",
+                "file": "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/TTS, STT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ChatGPT API"
+              "title": "TTS, STT"
             }
           }
         ]
@@ -95,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.51240158081055,
-    "collapsed": true
+    "width": 258.51240158081055
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -181,14 +180,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d0dd3191fe7dd8a0",
+  "active": "d77fa78b3b4086f8",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/TTS, STT.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/LLM 이해와 활용(OpenAI API).pdf",
-    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/openai API 활용.md",
+    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Audio Generation.md",
+    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/ChatGPT API.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/LLM 모델 이해.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/환경 구성.md",
+    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/openai API 활용.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT 모델 이해와 활용.md",
+    "Obsidian/ComputerScience/LLM 이해와 활용/환경 구성.md",
+    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Embedding.md",
+    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API",
     "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
     "Obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120112057.png",
@@ -223,10 +226,6 @@
     "Obsidian/ComputerScience/리눅스시스템/10. 도커.md",
     "Obsidian/ComputerScience/리눅스시스템/7. 회원 가입 및 로그인.md",
     "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-13주차.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/8. 데이터베이스.md",
-    "Obsidian/ComputerScience/리눅스시스템/9. 프로세스.md",
-    "Obsidian/ComputerScience/리눅스시스템/5. 플라스크.md",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf",
-    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-10주차.pdf"
+    "Obsidian/ComputerScience/리눅스시스템/pdf/리눅스-11주차.pdf"
   ]
 }
