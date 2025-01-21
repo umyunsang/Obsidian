@@ -1,37 +1,68 @@
 
 ---
-#### Text to speech
-TTS 모델을 활용하여 텍스트 기반 콘텐츠를 음성으로 변환  https://platform.openai.com/docs/guides/text-to-speech  다양한 언어로 제공하며, 스트리밍 기능을 통해 즉각적인 오디오 피드백을 사용자에게 제 공  6개의 내장된 목소리를 제공 (alloy, ash, coral, echo, fable, onyx, nova, sage and shimmer) 실시간 오디오 스트리밍을 지원합니다. 지원되는 출력 형식 기본 응답 형식은 "mp3"이지만, "opus", "aac", "flac", "pcm"과 같은 다 른 형식도 사용할 수 있습니다. 지원되는 언어 TTS 모델은 일반적으로 Whisper 모델의 언어 지원을 따릅니다.
+### Text to Speech (TTS) 및 Speech to Text (STT) 기능 요약
 
-#### Text to speech 실습
+---
+
+### 1. Text to Speech (TTS)
+
+**TTS 모델**은 텍스트를 음성으로 변환하며, 다양한 언어 및 음성 스타일을 제공합니다.  
+즉각적인 오디오 피드백과 실시간 스트리밍 기능도 지원합니다.
+
+#### 주요 특징
+
+- **지원 음성**: `alloy`, `ash`, `coral`, `echo`, `fable`, `onyx`, `nova`, `sage`, `shimmer`.
+- **지원 출력 형식**: 기본은 `mp3`, 추가적으로 `opus`, `aac`, `flac`, `pcm` 가능.
+- **지원 언어**: Whisper 모델과 동일한 언어 지원.
+
+#### TTS 실습 코드
+
 ```python
 from openai import OpenAI
 
-client = OpenAI(api_key= OPENAI_API_KEY)
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 response = client.audio.speech.create(
     model="tts-1",
     voice="alloy",
-    input="2025년은 푸른 뱀의 해입니다.",
+    input="2025년은 푸른 뱀의 해입니다."
 )
 
+# 음성 파일 저장
 response.stream_to_file("output.mp3")
 ```
-#### Speech to text
-'large-v2 Whisper 모델'을 기반으로 'transcriptions’(오디오 파일의 내용을 듣고 그 내용을 텍스트로 변환)과 'translations’ ( 오디오를 듣고 그 내용을 다른 언어로 변환) 제공  파일 업로드는 현재 최대 25MB로 제한되어 있으며, 지원하는 입력 파일 유형에는 mp3, mp4, mpeg, mpga, m4a, wav, webm이 포함됩니다. 기본적으로 Whisper API는 제공된 오디오를 텍스트로 transcript 합니다  비디오 편집에 단어 수준의 정밀도를 가능하게 하며, 개별 단어에 연결된 특정 프레임의 제거를 허용합니다. timestamp_granularities[] 파라미터를 사용하면 더 구조화되고 타임스탬프가 찍힌 JSON 출 력 형식을 활성화할 수 있습니다 Whisper API는 25MB 이하의 파일만 지원합니다. 만약 25MB보다 큰 오디오 파일이 있다면, 파일을 25MB 이하로 나누거나 압축된 오디오 형식을 사용해야 합니다  PyDub이라는 오픈 소스 파이썬 패키지를 사용하여 오디오를 분할 https://platform.openai.com/docs/guides/speech-to-text
 
-#### Speech to text Ranscriptions 실습
+---
+
+### 2. Speech to Text (STT
+
+**STT 모델**은 Whisper를 기반으로 하며, 오디오를 텍스트로 변환(Transcription)하거나 번역(Translation)합니다.
+
+#### 주요 특징
+
+- **지원 모델**: `large-v2 Whisper`.
+- **파일 크기 제한**: 최대 25MB.
+- **지원 입력 파일 형식**: `mp3`, `mp4`, `mpeg`, `mpga`, `m4a`, `wav`, `webm`.
+- **고급 기능**:
+    - 타임스탬프를 포함한 JSON 구조화된 출력 가능.
+    - PyDub 라이브러리를 통해 큰 파일을 분할 처리.
+
+---
+
+### 2.1. Transcriptions (오디오 -> 텍스트 변환
+
+#### 실습 코드
 
 ```python
 from openai import OpenAI
 
 # OpenAI 클라이언트 초기화
-client = OpenAI(api_key= OPENAI_API_KEY)
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 # 오디오 파일 열기
 audio_file = open("output.mp3", "rb")
 
-# Whisper 모델을 사용하여 오디오 파일의 텍스트 변환
+# Whisper 모델로 텍스트 변환
 transcription = client.audio.transcriptions.create(
     model="whisper-1",
     file=audio_file,
@@ -42,23 +73,42 @@ transcription = client.audio.transcriptions.create(
 print(transcription)
 ```
 
-#### STT 번역
+---
+
+### 2.2. Translations (오디오 -> 번역 텍스트 변환
+
+#### 실습 코드
+
 ```python
 from openai import OpenAI
 
 # OpenAI 클라이언트 초기화
-client = OpenAI(api_key= OPENAI_API_KEY)
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 # 오디오 파일 열기
 audio_file = open("output.mp3", "rb")
 
-# Whisper 모델을 사용하여 오디오 파일 번역
-transcription = client.audio.translations.create(
+# Whisper 모델로 번역 수행
+translation = client.audio.translations.create(
     model="whisper-1",
     file=audio_file,
 )
 
 # 번역된 텍스트 출력
-print(transcription.text)
+print(translation.text)
 ```
 
+---
+
+### 활용 시나리오
+
+1. **TTS 활용**:
+    
+    - 콘텐츠 음성화(예: 뉴스 읽기, 챗봇 음성 응답).
+    - 스트리밍 기반의 실시간 피드백 서비스.
+2. **STT 활용**:
+    
+    - 음성 기록 텍스트화(회의 기록, 강의 녹음).
+    - 멀티언어 오디오 번역(국제 컨퍼런스).
+
+**참고**: [OpenAI TTS/STT Documentation](https://platform.openai.com/docs/guides/text-to-speech)
