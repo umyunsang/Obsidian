@@ -21,3 +21,44 @@ response.stream_to_file("output.mp3")
 'large-v2 Whisper 모델'을 기반으로 'transcriptions’(오디오 파일의 내용을 듣고 그 내용을 텍스트로 변환)과 'translations’ ( 오디오를 듣고 그 내용을 다른 언어로 변환) 제공  파일 업로드는 현재 최대 25MB로 제한되어 있으며, 지원하는 입력 파일 유형에는 mp3, mp4, mpeg, mpga, m4a, wav, webm이 포함됩니다. 기본적으로 Whisper API는 제공된 오디오를 텍스트로 transcript 합니다  비디오 편집에 단어 수준의 정밀도를 가능하게 하며, 개별 단어에 연결된 특정 프레임의 제거를 허용합니다. timestamp_granularities[] 파라미터를 사용하면 더 구조화되고 타임스탬프가 찍힌 JSON 출 력 형식을 활성화할 수 있습니다 Whisper API는 25MB 이하의 파일만 지원합니다. 만약 25MB보다 큰 오디오 파일이 있다면, 파일을 25MB 이하로 나누거나 압축된 오디오 형식을 사용해야 합니다  PyDub이라는 오픈 소스 파이썬 패키지를 사용하여 오디오를 분할 https://platform.openai.com/docs/guides/speech-to-text
 
 #### Speech to text Ranscriptions 실습
+
+```python
+from openai import OpenAI
+
+# OpenAI 클라이언트 초기화
+client = OpenAI(api_key= OPENAI_API_KEY)
+
+# 오디오 파일 열기
+audio_file = open("output.mp3", "rb")
+
+# Whisper 모델을 사용하여 오디오 파일의 텍스트 변환
+transcription = client.audio.transcriptions.create(
+    model="whisper-1",
+    file=audio_file,
+    response_format="text"
+)
+
+# 변환된 텍스트 출력
+print(transcription)
+```
+
+#### STT 번역
+```python
+from openai import OpenAI
+
+# OpenAI 클라이언트 초기화
+client = OpenAI(api_key= OPENAI_API_KEY)
+
+# 오디오 파일 열기
+audio_file = open("output.mp3", "rb")
+
+# Whisper 모델을 사용하여 오디오 파일 번역
+transcription = client.audio.translations.create(
+    model="whisper-1",
+    file=audio_file,
+)
+
+# 번역된 텍스트 출력
+print(transcription.text)
+```
+
