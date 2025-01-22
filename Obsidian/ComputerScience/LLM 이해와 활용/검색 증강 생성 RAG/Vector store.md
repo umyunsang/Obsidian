@@ -47,38 +47,38 @@
 ### Vector Store 알고리즘 설명
 
 - **IndexFlatL2**:
-    
     - 유클리디안 거리(L2)를 사용하여 모든 벡터와의 거리를 계산하는 브루트포스 방식의 검색 인덱스입니다.
     - 정확도는 매우 높지만, 벡터 수가 많을 경우 계산 비용이 증가합니다.
-- **IndexFlatIP**:
     
+- **IndexFlatIP**:
     - 내적(dot product)을 기반으로 검색을 수행하는 인덱스입니다.
     - 벡터 간의 각도 또는 방향성을 비교하는 데 유용합니다.
     - 추천 시스템이나 텍스트 임베딩에서 사용됩니다.
-- **IndexIVFFlat**:
     
+- **IndexIVFFlat**:
     - 데이터베이스를 여러 개의 클러스터로 나누고, 쿼리 벡터는 가장 가까운 클러스터를 빠르게 찾고, 그 안에서 정밀한 검색을 수행합니다.
     - 대규모 데이터셋에 대해 높은 검색 속도와 적당한 정확도를 유지할 수 있습니다.
-- **IndexIVFPQ**:
     
+- **IndexIVFPQ**:
     - **Product Quantization**을 사용하여 데이터를 더 효율적으로 저장합니다.
     - 메모리 사용량을 줄이고 빠른 검색 속도를 제공합니다.
     - 대규모 데이터셋에 적합합니다.
-- **IndexLSH (Locality-Sensitive Hashing)**:
     
+- **IndexLSH (Locality-Sensitive Hashing)**:
     - 고차원 데이터를 저차원 공간으로 해싱하여, 유사한 데이터 포인트가 같은 해시 버킷에 떨어지도록 합니다.
     - 빠른 검색 속도를 제공하지만, 정확도는 다른 방법에 비해 낮을 수 있습니다.
-- **IndexHNSW (Hierarchical Navigable Small World)**:
     
+- **IndexHNSW (Hierarchical Navigable Small World)**:    
     - 그래프 기반 검색 알고리즘으로, 다수의 계층에서 효율적인 경로를 통해 빠르게 근접 이웃을 찾습니다.
     - 높은 차원의 데이터에서도 우수한 검색 성능과 정확도를 제공합니다.
-- **IndexPQ**:
     
+- **IndexPQ**:    
     - 벡터를 여러 부분으로 나누고 각 부분을 양자화하여 저장합니다.
-- **IndexSQ (Scalar Quantizer)**:
     
+- **IndexSQ (Scalar Quantizer)**:
     - 벡터의 각 차원을 독립적으로 양자화하여 저장합니다.
     - 차원별로 양자화를 수행하여 더 세밀한 제어가 가능합니다.
+    
 
 ---
 
