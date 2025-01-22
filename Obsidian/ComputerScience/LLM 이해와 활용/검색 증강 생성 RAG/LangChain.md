@@ -451,4 +451,97 @@ chain.invoke({"user_input": "태양계에서 가장 큰 행성은 무엇인가�
     ```
     
 ---
-Output Parser
+다음은 출력 파서와 체인에 대한 내용을 보기 좋게 정리한 예시입니다:
+
+### 1. **Output Parser**
+
+- **PydanticOutputParser**: 언어 모델의 출력을 더 구조화된 정보로 변환. 단순 텍스트 응답 대신, 필요한 정보를 명확하고 체계적인 형태로 제공.
+    
+- **CommaSeparatedListOutputParser**: 쉼표로 구분된 항목을 리스트 형태로 변환.
+    
+    ```python
+    from langchain_core.prompts import PromptTemplate
+    from langchain_core.output_parsers import CommaSeparatedListOutputParser
+    
+    output_parser = CommaSeparatedListOutputParser()
+    format_instructions = output_parser.get_format_instructions()
+    
+    prompt = PromptTemplate(
+        template="List five {subject}.\n{format_instructions}",
+        input_variables=["subject"],
+        partial_variables={"format_instructions": format_instructions},
+    )
+    
+    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+    chain = prompt | llm | output_parser
+    chain.invoke({"subject": "popular Korean cusine"})
+    ```
+    
+- **JsonOutputParser**: 모델의 출력을 JSON으로 해석하고, 자료구조를 `Pydantic`을 사용해 정의.
+    
+    ```python
+    from langchain_core.output_parsers import JsonOutputParser
+    from langchain_core.pydantic_v1 import BaseModel, Field
+    
+    class CusineRecipe(BaseModel):
+        name: str = Field(description="name of a cusine")
+        recipe: str = Field(description="recipe to cook the cusine")
+    
+    output_parser = JsonOutputParser(pydantic_object=CusineRecipe)
+    format_instructions = output_parser.get_format_instructions()
+    
+    prompt = PromptTemplate(
+        template="Answer the user query.\n{format_instructions}\n{query}\n",
+        input_variables=["query"],
+        partial_variables={"format_instructions": format_instructions},
+    )
+    
+    chain = prompt | model | output_parser
+    chain.invoke({"query": "Let me know how to cook Bibimbap"})
+    ```
+    
+- **PandasDataFrameOutputParser**: 구조화된 데이터를 다루기 위한 도구 세트를 제공하여, 데이터 정제, 변환, 분석에 유용.
+    
+- **DatetimeOutputParser**: 출력을 `datetime` 형식으로 파싱.
+    
+- **EnumOutputParser**: 열거형 값을 처리하는 파서.
+    
+- **OutputFixingParser**: 출력 파싱 중 발생할 수 있는 오류를 자동으로 수정.
+    
+
+---
+
+### 2. **Chain**
+
+여러 개의 LLM(언어 모델)이나 프롬프트의 입출력을 연결할 수 있는 모듈입니다.
+
+- **LLMChain**: 사용자 입력을 기반으로 프롬프트 템플릿을 생성하고, 이를 사용하여 LLM을 호출합니다.
+    
+- **SimpleSequentialChain**: 하나의 입출력에 대해 여러 개의 체인을 순차적으로 연결합니다.
+    
+- **SequentialChain**: 여러 개의 입출력을 가진 체인을 연결합니다.
+    
+- **RetrievalQA**: 질의응답을 수행하는 체인.
+    
+- **RetrievalQAWaithSourceChain**: 소스가 포함된 질의응답을 수행합니다.
+    
+- **SummarizeChain**: 텍스트 요약을 수행하는 체인.
+    
+- **PALChain**: 입력 질문을 파이썬 코드로 변환하여, 파이썬 REPL을 통해 실행합니다.
+    
+- **SQLDatabaseChain**: 데이터베이스 질문을 SQL 쿼리로 변환하고 실행합니다.
+    
+- **LLMMathChain**: 수학 문제를 파이썬 코드로 변환하여 파이썬 REPL로 실행합니다.
+    
+- **LLMBashChain**: 질문을 bash 명령어로 변환하여 터미널에서 실행합니다.
+    
+- **LLMCheckerChain**: 질문에 대한 답변을 다른 LLMChain을 통해 확인하고, 그 정확성을 검증합니다.
+    
+- **LLMRequestsChain**: URL과 파라미터를 입력받아, 이를 기반으로 웹 요청을 생성하고 실행합니다.
+    
+- **OpenAIModerationChain**: OpenAI의 콘텐츠 모더레이션 API를 사용하여 콘텐츠를 모더레이션합니다.
+    
+
+---
+
+이렇게 각 출력 파서와 체인의 기능 및 예시를 정리하여 더욱 이해하기 쉽도록 표현했습니다.
