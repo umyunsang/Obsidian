@@ -4,25 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "ecb39fd92f9bd971",
+        "id": "c9716ab363090a7f",
         "type": "tabs",
         "children": [
           {
-            "id": "d0dd3191fe7dd8a0",
+            "id": "544014a70dc2075d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/LLM 이해와 활용(OpenAI API).pdf"
+                "file": "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/Vector store.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "LLM 이해와 활용(OpenAI API)"
+              "icon": "lucide-file",
+              "title": "Vector store"
             }
           }
         ]
       },
       {
-        "id": "c9716ab363090a7f",
+        "id": "85380b0ef9a7456f",
         "type": "tabs",
         "children": [
           {
@@ -178,10 +180,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d0dd3191fe7dd8a0",
+  "active": "544014a70dc2075d",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/Llama Index.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/RAG_LlamaIndex.pdf",
+    "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/Vector store.md",
+    "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/Llama Index.md",
+    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/LLM 이해와 활용(OpenAI API).pdf",
     "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/RAG 실습.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/RAG.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250121150551.png",
@@ -191,7 +195,6 @@
     "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/ChatGPT 모델 이해와 활용.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Fine-Tuning.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/LLM 이해",
-    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/LLM 이해와 활용(OpenAI API).pdf",
     "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG",
     "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/추론 모델.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Audio Generation.md",
@@ -223,7 +226,6 @@
     "Obsidian/ComputerScience/코딩테스트/자료구조/2. 구간 합.md",
     "Obsidian/ComputerScience/코딩테스트/자료구조/1. 배열과 리스트.md",
     "Obsidian/ComputerScience/코딩테스트/자료구조/5. 스택과 큐.md",
-    "무제 파일.md",
     "Obsidian/ComputerScience/코딩테스트/자료구조"
   ]
 }
