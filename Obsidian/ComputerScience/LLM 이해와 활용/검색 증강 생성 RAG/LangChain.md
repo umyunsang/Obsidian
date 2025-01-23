@@ -349,7 +349,7 @@ chain.invoke({"user_input": "태양계에서 가장 큰 행성은 무엇인가�
 ---
 ### LangChain 개념 정리
 
-#### 1. **MessagePlaceholder**
+#### MessagePlaceholder
 
 - **목적**: 메시지 목록에 변수를 동적으로 삽입하려고 할 때 유용
 - **사용 예시**:
@@ -367,7 +367,7 @@ chain.invoke({"user_input": "태양계에서 가장 큰 행성은 무엇인가�
     ```
     
 
-#### 2. **Few-shotPromptTemplate**
+#### Few-shotPromptTemplate
 
 - **목적**: Few-shot 학습을 통해 모델에 예시를 제공하여 정확하고 일관된 응답 생성
 - **구성 요소**:
@@ -392,7 +392,7 @@ chain.invoke({"user_input": "태양계에서 가장 큰 행성은 무엇인가�
     ```
     
 
-#### 3. **FewShotChatMessagePromptTemplate**
+#### FewShotChatMessagePromptTemplate
 
 - **목적**: 고정 예제를 사용한 Few-shot 프롬프팅 기법
 - **사용 예시**:
@@ -413,7 +413,7 @@ chain.invoke({"user_input": "태양계에서 가장 큰 행성은 무엇인가�
     ```
     
 
-#### 4. **동적 Few-shot 프롬프팅**
+#### 동적 Few-shot 프롬프팅
 
 - **목적**: ExampleSelector를 사용하여 입력에 맞는 예제를 동적으로 선택
 - **사용 예시**:
@@ -431,7 +431,7 @@ chain.invoke({"user_input": "태양계에서 가장 큰 행성은 무엇인가�
     ```
     
 
-#### 5. **ExampleSelector**
+#### ExampleSelector
 
 - **목적**: 여러 개의 답변 예시 중 가장 적합한 예시를 선택하는 클래스
 - **종류**:
@@ -451,9 +451,7 @@ chain.invoke({"user_input": "태양계에서 가장 큰 행성은 무엇인가�
     ```
     
 ---
-다음은 출력 파서와 체인에 대한 내용을 보기 좋게 정리한 예시입니다:
-
-### 1. **Output Parser**
+### Output Parser
 
 - **PydanticOutputParser**: 언어 모델의 출력을 더 구조화된 정보로 변환. 단순 텍스트 응답 대신, 필요한 정보를 명확하고 체계적인 형태로 제공.
     
@@ -511,7 +509,7 @@ chain.invoke({"user_input": "태양계에서 가장 큰 행성은 무엇인가�
 
 ---
 
-### 2. **Chain**
+### Chain
 
 여러 개의 LLM(언어 모델)이나 프롬프트의 입출력을 연결할 수 있는 모듈입니다.
 
@@ -541,7 +539,4 @@ chain.invoke({"user_input": "태양계에서 가장 큰 행성은 무엇인가�
     
 - **OpenAIModerationChain**: OpenAI의 콘텐츠 모더레이션 API를 사용하여 콘텐츠를 모더레이션합니다.
     
-
 ---
-
-이렇게 각 출력 파서와 체인의 기능 및 예시를 정리하여 더욱 이해하기 쉽도록 표현했습니다.
