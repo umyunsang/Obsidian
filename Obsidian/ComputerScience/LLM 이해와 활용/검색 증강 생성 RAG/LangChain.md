@@ -1,3 +1,4 @@
+https://wikidocs.net/book/14314 
 
 ---
 ### LLM 프레임워크: LangChain
