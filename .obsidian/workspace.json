@@ -11,12 +11,14 @@
             "id": "d77fa78b3b4086f8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/RAG_LangChain.pdf"
+                "file": "Obsidian/졸업학점.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "RAG_LangChain"
+              "icon": "lucide-file",
+              "title": "졸업학점"
             }
           }
         ]
@@ -75,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.51240158081055
+    "width": 258.51240158081055,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -162,9 +165,10 @@
   },
   "active": "d77fa78b3b4086f8",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/RAG_LangChain.pdf",
+    "Obsidian/졸업학점.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/LangChain.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/RAG.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/RAG_LangChain.pdf",
     "Obsidian/ComputerScience/LLM 이해와 활용/환경 구성.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/LLM 이해/LLM 모델 이해.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/TTS, STT.md",
@@ -205,7 +209,6 @@
     "Obsidian/ComputerScience/코딩테스트/자료구조/3. 투 포인터.md",
     "Obsidian/ComputerScience/코딩테스트/정렬",
     "Obsidian/ComputerScience/코딩테스트/자료구조/4. 슬라이딩 윈도우.md",
-    "Obsidian/ComputerScience/코딩테스트/자료구조/2. 구간 합.md",
-    "Obsidian/ComputerScience/코딩테스트/자료구조/1. 배열과 리스트.md"
+    "Obsidian/ComputerScience/코딩테스트/자료구조/2. 구간 합.md"
   ]
 }
