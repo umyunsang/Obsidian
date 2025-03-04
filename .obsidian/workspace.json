@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/분산처리/오티.md",
+                "file": "Obsidian/ComputerScience/머신러닝/오티.md",
                 "mode": "source",
                 "source": false
               },
@@ -164,8 +164,10 @@
   },
   "active": "d77fa78b3b4086f8",
   "lastOpenFiles": [
-    "Obsidian/졸업학점.md",
     "Obsidian/ComputerScience/분산처리/오티.md",
+    "Obsidian/ComputerScience/머신러닝/오티.md",
+    "Obsidian/ComputerScience/머신러닝",
+    "Obsidian/졸업학점.md",
     "Obsidian/ComputerScience/분산처리",
     "Obsidian/ComputerScience/자바/1. Hello Java.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/RAG_LangChain.pdf",
@@ -207,8 +209,6 @@
     "Pasted image 20250120101836.png",
     "Pasted image 20250120103621.png",
     "Obsidian/ComputerScience/코딩테스트/정렬/1. 버블 정렬.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용",
-    "Obsidian/ComputerScience/코딩테스트/자료구조/3. 투 포인터.md",
-    "Obsidian/ComputerScience/코딩테스트/자료구조/4. 슬라이딩 윈도우.md"
+    "Obsidian/ComputerScience/코딩테스트/자료구조/3. 투 포인터.md"
   ]
 }
