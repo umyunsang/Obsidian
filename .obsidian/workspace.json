@@ -95,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.51240158081055,
-    "collapsed": true
+    "width": 258.51240158081055
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -181,8 +180,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "24fa5e2d6c1bb414",
+  "active": "ba9e23474eb62275",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/프로그래밍언어론/chap00 강의소개.pdf",
+    "Obsidian/ComputerScience/프로그래밍언어론",
     "Obsidian/ComputerScience/분산처리/무제 파일.md",
     "Obsidian/ComputerScience/분산처리/오티.md",
     "Obsidian/ComputerScience/머신러닝/오티.md",
@@ -225,9 +226,7 @@
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120103626.png",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120103621.png",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120101836.png",
-    "Obsidian/ComputerScience/LLM 이해와 활용/image",
     "Pasted image 20250120101836.png",
-    "Pasted image 20250120103621.png",
-    "Obsidian/ComputerScience/코딩테스트/정렬/1. 버블 정렬.md"
+    "Pasted image 20250120103621.png"
   ]
 }
