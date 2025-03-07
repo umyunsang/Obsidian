@@ -11,14 +11,12 @@
             "id": "24fa5e2d6c1bb414",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/Decision_Tree.md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/ComputerScience/AI시스템개발및설계/[1주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Decision_Tree"
+              "icon": "lucide-file-text",
+              "title": "[1주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포"
             }
           }
         ]
@@ -164,6 +162,9 @@
   },
   "active": "24fa5e2d6c1bb414",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/Decision_Tree.md",
+    "Obsidian/ComputerScience/AI시스템개발및설계/[1주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포.pdf",
+    "Obsidian/ComputerScience/AI시스템개발및설계",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/KNNC/KNNC.md",
     "Obsidian/ComputerScience/머신러닝/오티.md",
     "Obsidian/ComputerScience/분산처리/01_WhyParallelism.pdf",
@@ -195,13 +196,10 @@
     "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/Vector store.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/Llama Index.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/LangChaind.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/OpenAI API.pdf",
-    "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/RAG_LlamaIndex.pdf",
     "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/RAG 실습.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250121150551.png",
     "Pasted image 20250121150551.png",
     "Obsidian/ComputerScience/인공지능/3. Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
-    "Obsidian/ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120112057.png",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120111923.png",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120103633.png",
