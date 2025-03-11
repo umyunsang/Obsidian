@@ -6,7 +6,7 @@
       {
         "id": "85380b0ef9a7456f",
         "type": "tabs",
-        "dimension": 45.482295482295484,
+        "dimension": 58.54700854700855,
         "children": [
           {
             "id": "8677a602cb78e66b",
@@ -14,10 +14,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/프로그래밍언어론/chap00 강의소개.pdf"
+                "file": "Obsidian/ComputerScience/분산처리/01_WhyParallelism.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "chap00 강의소개"
+              "title": "01_WhyParallelism"
             }
           }
         ]
@@ -25,7 +25,7 @@
       {
         "id": "a4b70a608899e33d",
         "type": "tabs",
-        "dimension": 54.517704517704516,
+        "dimension": 41.452991452991455,
         "children": [
           {
             "id": "24fa5e2d6c1bb414",
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/프로그래밍언어론/명령어 집합.md",
+                "file": "Obsidian/ComputerScience/분산처리/WhyParlleism.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "명령어 집합"
+              "title": "WhyParlleism"
             }
           }
         ]
@@ -185,8 +185,10 @@
   },
   "active": "24fa5e2d6c1bb414",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/프로그래밍언어론/chap00 강의소개.pdf",
+    "Obsidian/ComputerScience/분산처리/01_WhyParallelism.pdf",
+    "Obsidian/ComputerScience/분산처리/WhyParlleism.md",
     "Obsidian/ComputerScience/프로그래밍언어론/명령어 집합.md",
+    "Obsidian/ComputerScience/프로그래밍언어론/chap00 강의소개.pdf",
     "Obsidian/ComputerScience/지식재산개론/소개.md",
     "Obsidian/ComputerScience/프로그래밍언어론/chap01 기본사항.pdf",
     "Obsidian/ComputerScience/지식재산개론/1.지식재산과목소개.pdf",
@@ -195,10 +197,8 @@
     "Obsidian/ComputerScience/AI시스템개발및설계",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/KNNC/KNNC.md",
     "Obsidian/ComputerScience/머신러닝/오티.md",
-    "Obsidian/ComputerScience/분산처리/01_WhyParallelism.pdf",
     "Obsidian/ComputerScience/지식재산개론",
     "Obsidian/ComputerScience/프로그래밍언어론",
-    "Obsidian/ComputerScience/분산처리/무제 파일.md",
     "Obsidian/ComputerScience/분산처리/오티.md",
     "Obsidian/ComputerScience/머신러닝",
     "Obsidian/졸업학점.md",
