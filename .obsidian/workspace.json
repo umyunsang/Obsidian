@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "85380b0ef9a7456f",
-        "type": "tabs",
-        "dimension": 46.45909645909646,
-        "children": [
-          {
-            "id": "8677a602cb78e66b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/1. 저작권제도 등록요건.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "1. 저작권제도 등록요건"
-            }
-          }
-        ]
-      },
-      {
         "id": "a4b70a608899e33d",
         "type": "tabs",
-        "dimension": 53.54090354090354,
         "children": [
           {
             "id": "24fa5e2d6c1bb414",
@@ -185,6 +165,8 @@
   },
   "active": "24fa5e2d6c1bb414",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/지식재산개론/이미지",
+    "Obsidian/ComputerScience/지식재산개론/이미지/Pasted image 20250312095722.png",
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/1. 저작권제도 등록요건.pdf",
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
     "Obsidian/ComputerScience/지식재산개론/1. 소개/소개.md",
@@ -228,7 +210,6 @@
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120103626.png",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120103621.png",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120101836.png",
-    "Pasted image 20250120101836.png",
-    "Pasted image 20250120103621.png"
+    "Pasted image 20250120101836.png"
   ]
 }
