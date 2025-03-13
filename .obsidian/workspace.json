@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "a4b70a608899e33d",
-        "type": "tabs",
-        "dimension": 42.857142857142854,
-        "children": [
-          {
-            "id": "24fa5e2d6c1bb414",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/프로그래밍언어론/chap01 기본사항.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "chap01 기본사항"
-            }
-          }
-        ]
-      },
-      {
         "id": "ca49ef7931538a1e",
         "type": "tabs",
-        "dimension": 57.14285714285714,
         "children": [
           {
             "id": "5e5484026abe6ac3",
@@ -33,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/프로그래밍언어론/1. 기본 사항.md",
+                "file": "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. 기본 사항"
+              "title": "논리학 개론"
             }
           }
         ]
@@ -97,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.51240158081055,
-    "collapsed": true
+    "width": 258.51240158081055
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -185,8 +164,10 @@
   },
   "active": "5e5484026abe6ac3",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/프로그래밍언어론/chap01 기본사항.pdf",
     "Obsidian/ComputerScience/프로그래밍언어론/1. 기본 사항.md",
+    "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
+    "Obsidian/ComputerScience/수리논리학",
+    "Obsidian/ComputerScience/프로그래밍언어론/chap01 기본사항.pdf",
     "Obsidian/ComputerScience/프로그래밍언어론/0. 명령어 집합.md",
     "Obsidian/ComputerScience/프로그래밍언어론/chap00 강의소개.pdf",
     "Obsidian/ComputerScience/분산처리/WhyParlleism.md",
@@ -201,7 +182,6 @@
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/2. 저작권제도 등록요건.pdf",
     "Obsidian/ComputerScience/지식재산개론/1. 소개/1.지식재산과목소개.pdf",
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건",
-    "Obsidian/ComputerScience/지식재산개론/2. 저작권/저작권제도 등록요건 2.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/Decision_Tree.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/KNNC/KNNC.md",
     "Obsidian/ComputerScience/분산처리/오티.md",
