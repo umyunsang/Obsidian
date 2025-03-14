@@ -11,14 +11,12 @@
             "id": "5e5484026abe6ac3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/자바/1. Hello Java.md",
-                "mode": "source",
-                "source": false
+                "file": "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/OpenAI API.pdf"
               },
-              "icon": "lucide-file",
-              "title": "1. Hello Java"
+              "icon": "lucide-file-text",
+              "title": "OpenAI API"
             }
           }
         ]
@@ -162,11 +160,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ba9e23474eb62275",
+  "active": "5e5484026abe6ac3",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/RAG_LangChain.pdf",
+    "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
+    "Obsidian/ComputerScience/AI시스템개발및설계/[2주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포 (1).pdf",
+    "Obsidian/ComputerScience/자바/1. Hello Java.md",
     "Obsidian/ComputerScience/자바/2. 변수와 자료형.md",
     "Obsidian/ComputerScience/자바/5. 조건문.md",
-    "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
     "Obsidian/ComputerScience/프로그래밍언어론/pdf",
     "Obsidian/ComputerScience/프로그래밍언어론/1. 기본 사항.md",
     "Obsidian/ComputerScience/수리논리학",
@@ -183,12 +184,10 @@
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/1. 저작권제도 등록요건.pdf",
     "Obsidian/ComputerScience/지식재산개론/1. 소개/소개.md",
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/2. 저작권제도 등록요건.pdf",
-    "Obsidian/ComputerScience/지식재산개론/1. 소개/1.지식재산과목소개.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/Decision_Tree.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/KNNC/KNNC.md",
     "Obsidian/ComputerScience/분산처리/오티.md",
     "Obsidian/졸업학점.md",
-    "Obsidian/ComputerScience/자바/1. Hello Java.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/LangChain.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/RAG.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/환경 구성.md",
@@ -200,7 +199,6 @@
     "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Embedding.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Fine-Tuning.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/ChatGPT API.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/ChatGPT 모델 이해와 활용.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250121150551.png",
     "Pasted image 20250121150551.png",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120112057.png",
