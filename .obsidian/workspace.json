@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/OpenAI API.pdf"
+                "file": "Obsidian/ComputerScience/AI시스템개발및설계/[2주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포 (1).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "OpenAI API"
+              "title": "[2주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포 (1)"
             }
           }
         ]
@@ -162,6 +162,8 @@
   },
   "active": "5e5484026abe6ac3",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/AI시스템개발및설계/[1주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포.pdf",
+    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/OpenAI API.pdf",
     "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/RAG_LangChain.pdf",
     "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
     "Obsidian/ComputerScience/AI시스템개발및설계/[2주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포 (1).pdf",
@@ -176,14 +178,12 @@
     "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap00 강의소개.pdf",
     "Obsidian/ComputerScience/분산처리/WhyParlleism.md",
     "Obsidian/ComputerScience/분산처리/01_WhyParallelism.pdf",
-    "Obsidian/ComputerScience/AI시스템개발및설계/[1주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포.pdf",
     "Obsidian/ComputerScience/머신러닝/오티.md",
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
     "Obsidian/ComputerScience/지식재산개론/image",
     "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250312095722.png",
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/1. 저작권제도 등록요건.pdf",
     "Obsidian/ComputerScience/지식재산개론/1. 소개/소개.md",
-    "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/2. 저작권제도 등록요건.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/Decision_Tree.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/KNNC/KNNC.md",
     "Obsidian/ComputerScience/분산처리/오티.md",
