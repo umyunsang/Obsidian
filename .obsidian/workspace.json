@@ -6,39 +6,37 @@
       {
         "id": "441fcbaa4290ba4d",
         "type": "tabs",
-        "dimension": 41.147741147741144,
         "children": [
           {
-            "id": "76283ba199e80366",
+            "id": "5299989f7ca81875",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/2. 저작권제도 등록요건 2.pdf"
+                "file": "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap01 기본사항.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "2. 저작권제도 등록요건 2"
+              "title": "chap01 기본사항"
             }
           }
         ]
       },
       {
-        "id": "01111a14ff9a2e1a",
+        "id": "fe4d7e0434fe8ce8",
         "type": "tabs",
-        "dimension": 58.852258852258856,
         "children": [
           {
-            "id": "747ee4dddcf618ae",
+            "id": "76283ba199e80366",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
+                "file": "Obsidian/ComputerScience/프로그래밍언어론/요약/기본사항 요약.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "저작권 제도와 등록요건"
+              "title": "기본사항 요약"
             }
           }
         ]
@@ -183,8 +181,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "747ee4dddcf618ae",
+  "active": "76283ba199e80366",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap01 기본사항.pdf",
+    "Obsidian/ComputerScience/프로그래밍언어론/요약/기본사항 요약.md",
+    "Obsidian/ComputerScience/프로그래밍언어론/1. 기본 사항.md",
+    "Obsidian/ComputerScience/프로그래밍언어론/0. 명령어 집합.md",
+    "Obsidian/ComputerScience/프로그래밍언어론/요약",
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/2. 저작권제도 등록요건 2.pdf",
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/1. 저작권제도 등록요건-(1주차-2).pdf",
@@ -199,10 +202,6 @@
     "Obsidian/ComputerScience/자바/1. Hello Java.md",
     "Obsidian/ComputerScience/자바/2. 변수와 자료형.md",
     "Obsidian/ComputerScience/자바/5. 조건문.md",
-    "Obsidian/ComputerScience/프로그래밍언어론/pdf",
-    "Obsidian/ComputerScience/프로그래밍언어론/1. 기본 사항.md",
-    "Obsidian/ComputerScience/수리논리학",
-    "Obsidian/ComputerScience/프로그래밍언어론/0. 명령어 집합.md",
     "Obsidian/ComputerScience/분산처리/WhyParlleism.md",
     "Obsidian/ComputerScience/머신러닝/오티.md",
     "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250312095722.png",
@@ -220,7 +219,6 @@
     "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Moderation.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Fine-Tuning 실습.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Embedding.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Fine-Tuning.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250121150551.png",
     "Pasted image 20250121150551.png",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120112057.png",
