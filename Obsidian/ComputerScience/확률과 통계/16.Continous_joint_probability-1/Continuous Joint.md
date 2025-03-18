@@ -1,4 +1,4 @@
-+
+
 ---
 # Continuous Joint
 

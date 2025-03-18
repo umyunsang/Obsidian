@@ -6,35 +6,39 @@
       {
         "id": "441fcbaa4290ba4d",
         "type": "tabs",
+        "dimension": 42.20314735336195,
         "children": [
           {
-            "id": "5299989f7ca81875",
+            "id": "f443e040f4eac2f8",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/분산처리/01_WhyParallelism.pdf"
+                "file": "Obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "01_WhyParallelism"
+              "title": "20_mle"
             }
           }
         ]
       },
       {
-        "id": "fe4d7e0434fe8ce8",
+        "id": "9e7e9e82b70269d9",
         "type": "tabs",
+        "dimension": 57.79685264663805,
         "children": [
           {
-            "id": "76283ba199e80366",
+            "id": "5299989f7ca81875",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap01 기본사항.pdf"
+                "file": "Obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "chap01 기본사항"
+              "icon": "lucide-file",
+              "title": "19_sampling"
             }
           }
         ]
@@ -93,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.51240158081055,
-    "collapsed": true
+    "width": 240.50418853759766
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -179,15 +182,26 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "76283ba199e80366",
+  "active": "5299989f7ca81875",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Sampling.md",
+    "Obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/Continuous Joint.md",
+    "Obsidian/ComputerScience/확률과 통계/12.Independent_RVs/Independent RVs.md",
+    "Obsidian/ComputerScience/확률과 통계/10.Normal_RV/Normal Distribution.md",
+    "Obsidian/ComputerScience/확률과 통계/7-0.Variance/Variance.md",
+    "Obsidian/ComputerScience/확률과 통계/20.mle/20_mle.md",
+    "Obsidian/ComputerScience/분산처리/01_WhyParallelism.pdf",
+    "Obsidian/ComputerScience/확률과 통계/6.Random_Variables/Random Variables.md",
+    "Obsidian/ComputerScience/확률과 통계/6.Random_Variables/Expectation.md",
+    "Obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md",
+    "Obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
+    "Obsidian/ComputerScience/확률과 통계/20.mle/20_mle.pdf",
+    "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap01 기본사항.pdf",
     "Obsidian/ComputerScience/프로그래밍언어론/요약/기본사항 요약.md",
     "Obsidian/ComputerScience/분산처리/WhyParlleism.md",
-    "Obsidian/ComputerScience/분산처리/01_WhyParallelism.pdf",
     "Obsidian/ComputerScience/분산처리/03_multicore2-ispc.pdf",
     "Obsidian/ComputerScience/분산처리/02_기본아키텍츠.pdf",
     "Obsidian/ComputerScience/프로그래밍언어론/1. 기본 사항.md",
-    "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap01 기본사항.pdf",
     "Obsidian/ComputerScience/프로그래밍언어론/0. 명령어 집합.md",
     "Obsidian/ComputerScience/프로그래밍언어론/요약",
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/2. 저작권제도 등록요건 2.pdf",
@@ -195,7 +209,6 @@
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/1. 저작권제도 등록요건-(1주차-2).pdf",
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/2. 저작권제도 등록요건.pdf",
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/1. 저작권제도 등록요건.pdf",
-    "Obsidian/ComputerScience/AI시스템개발및설계/[2주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포 (1).pdf",
     "Obsidian/ComputerScience/AI시스템개발및설계/발표 스크립트.md",
     "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
     "Obsidian/ComputerScience/자바/1. Hello Java.md",
@@ -208,15 +221,6 @@
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/KNNC/KNNC.md",
     "Obsidian/ComputerScience/분산처리/오티.md",
     "Obsidian/졸업학점.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/LangChain.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/RAG.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/환경 구성.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/LLM 이해/LLM 모델 이해.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/TTS, STT.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/openai API 활용.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Moderation.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Fine-Tuning 실습.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/Embedding.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250121150551.png",
     "Pasted image 20250121150551.png",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120112057.png",
