@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling.md",
+                "file": "Obsidian/ComputerScience/확률과 통계/10.Normal_RV/Normal Distribution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "19_sampling"
+              "title": "Normal Distribution"
             }
           }
         ]
@@ -184,11 +184,12 @@
   },
   "active": "5299989f7ca81875",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Sampling.md",
-    "Obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/Continuous Joint.md",
-    "Obsidian/ComputerScience/확률과 통계/12.Independent_RVs/Independent RVs.md",
-    "Obsidian/ComputerScience/확률과 통계/10.Normal_RV/Normal Distribution.md",
     "Obsidian/ComputerScience/확률과 통계/7-0.Variance/Variance.md",
+    "Obsidian/ComputerScience/확률과 통계/10.Normal_RV/Normal Distribution.md",
+    "Obsidian/ComputerScience/확률과 통계/12.Independent_RVs/Independent RVs.md",
+    "Obsidian/ComputerScience/확률과 통계/16.Continous_joint_probability-1/Continuous Joint.md",
+    "Obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Sampling.md",
+    "Obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling.md",
     "Obsidian/ComputerScience/확률과 통계/20.mle/20_mle.md",
     "Obsidian/ComputerScience/분산처리/01_WhyParallelism.pdf",
     "Obsidian/ComputerScience/확률과 통계/6.Random_Variables/Random Variables.md",
@@ -220,7 +221,6 @@
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/Decision_Tree.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/KNNC/KNNC.md",
     "Obsidian/ComputerScience/분산처리/오티.md",
-    "Obsidian/졸업학점.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250121150551.png",
     "Pasted image 20250121150551.png",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120112057.png",
