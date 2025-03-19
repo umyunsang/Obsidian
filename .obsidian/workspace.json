@@ -6,7 +6,7 @@
       {
         "id": "441fcbaa4290ba4d",
         "type": "tabs",
-        "dimension": 58.023184868822455,
+        "dimension": 52.69594219010562,
         "children": [
           {
             "id": "f443e040f4eac2f8",
@@ -14,10 +14,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/분산처리/pdf/02_기본아키텍츠.pdf"
+                "file": "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap02 프로그램밍언어 발전사.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "02_기본아키텍츠"
+              "title": "chap02 프로그램밍언어 발전사"
             }
           }
         ]
@@ -25,7 +25,7 @@
       {
         "id": "9e7e9e82b70269d9",
         "type": "tabs",
-        "dimension": 41.976815131177545,
+        "dimension": 47.30405780989438,
         "children": [
           {
             "id": "5299989f7ca81875",
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/분산처리/멀티 코어 프로세서.md",
+                "file": "Obsidian/ComputerScience/프로그래밍언어론/요약/2. 프로그래밍 언어 발전사 요약.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "멀티 코어 프로세서"
+              "title": "2. 프로그래밍 언어 발전사 요약"
             }
           }
         ]
@@ -97,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.50418853759766
+    "width": 240.50418853759766,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -182,11 +183,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f443e040f4eac2f8",
+  "active": "5299989f7ca81875",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/프로그래밍언어론/요약/1. 기본사항 요약.md",
+    "Obsidian/ComputerScience/프로그래밍언어론/요약/2. 프로그래밍 언어 발전사 요약.md",
+    "Obsidian/ComputerScience/프로그래밍언어론/2. 프로그래밍 언어의 발전사.md",
+    "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap02 프로그램밍언어 발전사.pdf",
+    "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap01 기본사항.pdf",
+    "Obsidian/ComputerScience/프로그래밍언어론/chap02 프로그램밍언어 발전사.pdf",
     "Obsidian/ComputerScience/분산처리/멀티 코어 프로세서.md",
-    "Obsidian/ComputerScience/분산처리/WhyParlleism.md",
     "Obsidian/ComputerScience/분산처리/pdf/02_기본아키텍츠.pdf",
+    "Obsidian/ComputerScience/분산처리/WhyParlleism.md",
     "Obsidian/ComputerScience/분산처리/pdf",
     "Obsidian/ComputerScience/분산처리/pdf/01_WhyParallelism.pdf",
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
@@ -203,14 +210,10 @@
     "Obsidian/ComputerScience/확률과 통계/6.Random_Variables/Expectation.md",
     "Obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md",
     "Obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
-    "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap01 기본사항.pdf",
-    "Obsidian/ComputerScience/프로그래밍언어론/요약/기본사항 요약.md",
     "Obsidian/ComputerScience/분산처리/pdf/03_multicore2-ispc.pdf",
     "Obsidian/ComputerScience/프로그래밍언어론/1. 기본 사항.md",
     "Obsidian/ComputerScience/프로그래밍언어론/0. 명령어 집합.md",
     "Obsidian/ComputerScience/프로그래밍언어론/요약",
-    "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/1. 저작권제도 등록요건-(1주차-2).pdf",
-    "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/2. 저작권제도 등록요건.pdf",
     "Obsidian/ComputerScience/AI시스템개발및설계/발표 스크립트.md",
     "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
     "Obsidian/ComputerScience/자바/1. Hello Java.md",
@@ -219,7 +222,6 @@
     "Obsidian/ComputerScience/머신러닝/오티.md",
     "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250312095722.png",
     "Obsidian/ComputerScience/지식재산개론/1. 소개/소개.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Classifier/DecisionTree/Decision_Tree.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250121150551.png",
     "Pasted image 20250121150551.png",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120112057.png",
