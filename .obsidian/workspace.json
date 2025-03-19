@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/분산처리/다중 코어 프로세서.md",
+                "file": "Obsidian/ComputerScience/분산처리/멀티 코어 프로세서.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "다중 코어 프로세서"
+              "title": "멀티 코어 프로세서"
             }
           }
         ]
@@ -182,11 +182,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5299989f7ca81875",
+  "active": "f443e040f4eac2f8",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/분산처리/멀티 코어 프로세서.md",
     "Obsidian/ComputerScience/분산처리/WhyParlleism.md",
     "Obsidian/ComputerScience/분산처리/pdf/02_기본아키텍츠.pdf",
-    "Obsidian/ComputerScience/분산처리/다중 코어 프로세서.md",
     "Obsidian/ComputerScience/분산처리/pdf",
     "Obsidian/ComputerScience/분산처리/pdf/01_WhyParallelism.pdf",
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
