@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "441fcbaa4290ba4d",
-        "type": "tabs",
-        "dimension": 52.69594219010562,
-        "children": [
-          {
-            "id": "f443e040f4eac2f8",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap02 프로그램밍언어 발전사.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "chap02 프로그램밍언어 발전사"
-            }
-          }
-        ]
-      },
-      {
         "id": "9e7e9e82b70269d9",
         "type": "tabs",
-        "dimension": 47.30405780989438,
         "children": [
           {
             "id": "5299989f7ca81875",
@@ -33,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/프로그래밍언어론/요약/2. 프로그래밍 언어 발전사 요약.md",
+                "file": "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 프로그래밍 언어 발전사 요약"
+              "title": "논리학 개론"
             }
           }
         ]
@@ -185,9 +165,10 @@
   "active": "5299989f7ca81875",
   "lastOpenFiles": [
     "Obsidian/ComputerScience/프로그래밍언어론/요약/1. 기본사항 요약.md",
+    "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
     "Obsidian/ComputerScience/프로그래밍언어론/요약/2. 프로그래밍 언어 발전사 요약.md",
-    "Obsidian/ComputerScience/프로그래밍언어론/2. 프로그래밍 언어의 발전사.md",
     "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap02 프로그램밍언어 발전사.pdf",
+    "Obsidian/ComputerScience/프로그래밍언어론/2. 프로그래밍 언어의 발전사.md",
     "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap01 기본사항.pdf",
     "Obsidian/ComputerScience/프로그래밍언어론/chap02 프로그램밍언어 발전사.pdf",
     "Obsidian/ComputerScience/분산처리/멀티 코어 프로세서.md",
@@ -214,13 +195,11 @@
     "Obsidian/ComputerScience/프로그래밍언어론/0. 명령어 집합.md",
     "Obsidian/ComputerScience/프로그래밍언어론/요약",
     "Obsidian/ComputerScience/AI시스템개발및설계/발표 스크립트.md",
-    "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
     "Obsidian/ComputerScience/자바/1. Hello Java.md",
     "Obsidian/ComputerScience/자바/2. 변수와 자료형.md",
     "Obsidian/ComputerScience/자바/5. 조건문.md",
     "Obsidian/ComputerScience/머신러닝/오티.md",
     "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250312095722.png",
-    "Obsidian/ComputerScience/지식재산개론/1. 소개/소개.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250121150551.png",
     "Pasted image 20250121150551.png",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120112057.png",
