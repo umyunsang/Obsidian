@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝/머신러닝 핵심 수학 개념.md",
+                "file": "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "머신러닝 핵심 수학 개념"
+              "title": "논리학 개론"
             }
           }
         ]
@@ -164,6 +164,7 @@
   },
   "active": "5299989f7ca81875",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/머신러닝/머신러닝 핵심 수학 개념.md",
     "Obsidian/ComputerScience/확률과 통계/20.mle/20_mle.md",
     "Obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
     "Obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md",
@@ -199,7 +200,6 @@
     "Obsidian/ComputerScience/프로그래밍언어론/1. 기본 사항.md",
     "Obsidian/ComputerScience/프로그래밍언어론/0. 명령어 집합.md",
     "Obsidian/ComputerScience/AI시스템개발및설계/발표 스크립트.md",
-    "Obsidian/ComputerScience/자바/1. Hello Java.md",
     "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250312095722.png",
     "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250121150551.png",
     "Pasted image 20250121150551.png",
