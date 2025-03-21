@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/확률과 통계/20.mle/20_mle.md",
-                "mode": "preview",
+                "file": "Obsidian/ComputerScience/머신러닝/머신러닝 핵심 수학 개념.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20_mle"
+              "title": "머신러닝 핵심 수학 개념"
             }
           }
         ]
@@ -164,10 +164,10 @@
   },
   "active": "5299989f7ca81875",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/확률과 통계/20.mle/20_mle.md",
     "Obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
     "Obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md",
     "Obsidian/ComputerScience/확률과 통계/4.Bayes_theorem/Bayes' Theorem.md",
-    "Obsidian/ComputerScience/확률과 통계/20.mle/20_mle.md",
     "Obsidian/ComputerScience/확률과 통계/22.map/22_MAP.md",
     "Obsidian/ComputerScience/확률과 통계/23.naive_bayes/23_naive_bayes.md",
     "Obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling.md",
