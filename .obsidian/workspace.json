@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/04_Regression_Multiple.pdf"
+                "file": "Obsidian/ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 등록요건(1차시).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "04_Regression_Multiple"
+              "title": "상표제도 등록요건(1차시)"
             }
           }
         ]
@@ -31,12 +31,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/Multi_Regression.md",
+                "file": "Obsidian/ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multi_Regression"
+              "title": "상표제도 및 등록요건"
             }
           }
         ]
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/Multi_Regression.md",
+                "file": "Obsidian/ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Multi_Regression의 백링크"
+              "title": "상표제도 및 등록요건의 백링크"
             }
           },
           {
@@ -183,8 +183,24 @@
   },
   "active": "a2e41210eb84afa1",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/04_Regression_Multiple.pdf",
+    "Obsidian/ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 등록요건(1차시).pdf",
+    "Obsidian/ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
+    "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250326093244.png",
+    "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250326093233.png",
+    "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250326093219.png",
+    "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250326093205.png",
+    "Pasted image 20250326093244.png",
+    "Pasted image 20250326093233.png",
+    "Pasted image 20250326093219.png",
+    "Pasted image 20250326093205.png",
+    "Obsidian/ComputerScience/지식재산개론/무제 폴더",
+    "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/Multi_Regression.md",
+    "무제 파일.md",
+    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/04_Regression_Multiple.pdf",
+    "Obsidian/ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 등록요건(2차시).pdf",
+    "Obsidian/ComputerScience/지식재산개론/3. 상표제도 등록요건",
+    "Obsidian/ComputerScience/지식재산개론/새 폴더",
     "Obsidian/ComputerScience/머신러닝/머신러닝 핵심 수학 개념.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/02_Regression_K-NN.pdf",
     "Obsidian/ComputerScience/분산처리/멀티 코어 프로세서.md",
@@ -195,20 +211,13 @@
     "Obsidian/ComputerScience/프로그래밍언어론/요약/2. 프로그래밍 언어 발전사 요약.md",
     "Obsidian/ComputerScience/프로그래밍언어론/2. 프로그래밍 언어의 발전사.md",
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/2. 저작권제도 등록요건 2.pdf",
-    "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
     "Obsidian/ComputerScience/AI시스템개발및설계/3주차/3주차 발표자료.md",
     "Obsidian/ComputerScience/AI시스템개발및설계/3주차/발표 스크립트.md",
     "Obsidian/ComputerScience/리눅스시스템/6. REST.md",
     "Obsidian/ComputerScience/리눅스시스템/9. 프로세스.md",
     "Obsidian/ComputerScience/리눅스시스템/10. 도커.md",
-    "Obsidian/ComputerScience/AI시스템개발및설계/3주차/[3주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포.pdf",
-    "Obsidian/ComputerScience/AI시스템개발및설계/3주차",
-    "Obsidian/ComputerScience/AI시스템개발및설계/아이디어 리스트.pdf",
-    "Obsidian/ComputerScience/AI시스템개발및설계/[2주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포 (1).pdf",
     "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/환경 구성.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/RAG_LangChain.pdf",
-    "Obsidian/ComputerScience/LLM 이해와 활용/ChatGPT API/OpenAI API.pdf",
     "Obsidian/ComputerScience/확률과 통계/20.mle/20_mle.md",
     "Obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
     "Obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md",
@@ -217,17 +226,7 @@
     "Obsidian/ComputerScience/확률과 통계/23.naive_bayes/23_naive_bayes.md",
     "Obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling.md",
     "Obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Sampling.md",
-    "2025-03-20.md",
-    "Obsidian/ComputerScience/프로그래밍언어론/요약/1. 기본사항 요약.md",
     "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250312095722.png",
-    "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250121150551.png",
-    "Pasted image 20250121150551.png",
-    "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120112057.png",
-    "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120111923.png",
-    "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120103633.png",
-    "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120103626.png",
-    "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120103621.png",
-    "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250120101836.png",
-    "Pasted image 20250120101836.png"
+    "Obsidian/ComputerScience/LLM 이해와 활용/image/Pasted image 20250121150551.png"
   ]
 }
