@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap03-04 구문론과 파싱.pdf"
+                "file": "Obsidian/ComputerScience/프로그래밍언어론/pdf/3장 연습.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "chap03-04 구문론과 파싱"
+              "title": "3장 연습"
             }
           }
         ]
@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.50418853759766
+    "width": 240.50418853759766,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -182,13 +183,19 @@
   },
   "active": "a2e41210eb84afa1",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/프로그래밍언어론/pdf/3장 연습.pdf",
     "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap03-04 구문론과 파싱.pdf",
     "Obsidian/ComputerScience/프로그래밍언어론/3. 구문론.md",
+    "Pasted image 20250326155552.png",
+    "Obsidian/ComputerScience/프로그래밍언어론/1. 기본 사항.md",
+    "Obsidian/ComputerScience/프로그래밍언어론/요약/1. 기본사항 요약.md",
+    "Obsidian/ComputerScience/프로그래밍언어론/요약/2. 프로그래밍 언어 발전사 요약.md",
+    "Obsidian/ComputerScience/프로그래밍언어론/2. 프로그래밍 언어의 발전사.md",
+    "Obsidian/ComputerScience/프로그래밍언어론/0. 명령어 집합.md",
     "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap02 프로그램밍언어 발전사.pdf",
     "Obsidian/ComputerScience/분산처리/images/Pasted image 20250326125902.png",
     "Obsidian/ComputerScience/분산처리/images/Pasted image 20250326124557.png",
     "Obsidian/ComputerScience/분산처리/images/Pasted image 20250326124513.png",
-    "Obsidian/ComputerScience/프로그래밍언어론/pdf/3장 연습.pdf",
     "Obsidian/ComputerScience/분산처리/pdf/02_기본아키텍츠_update.pdf",
     "Obsidian/ComputerScience/분산처리/멀티 코어 프로세서.md",
     "Obsidian/ComputerScience/분산처리/images",
@@ -200,7 +207,6 @@
     "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250326093244.png",
     "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250326093233.png",
     "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250326093219.png",
-    "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250326093205.png",
     "Obsidian/ComputerScience/지식재산개론/무제 폴더",
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/Multi_Regression.md",
@@ -210,8 +216,6 @@
     "Obsidian/ComputerScience/지식재산개론/3. 상표제도 등록요건",
     "Obsidian/ComputerScience/머신러닝/머신러닝 핵심 수학 개념.md",
     "Obsidian/ComputerScience/리눅스시스템/5. 플라스크.md",
-    "Obsidian/ComputerScience/프로그래밍언어론/요약/2. 프로그래밍 언어 발전사 요약.md",
-    "Obsidian/ComputerScience/프로그래밍언어론/2. 프로그래밍 언어의 발전사.md",
     "Obsidian/ComputerScience/AI시스템개발및설계/3주차/3주차 발표자료.md",
     "Obsidian/ComputerScience/AI시스템개발및설계/3주차/발표 스크립트.md",
     "Obsidian/ComputerScience/리눅스시스템/6. REST.md",
@@ -223,9 +227,6 @@
     "Obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
     "Obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md",
     "Obsidian/ComputerScience/확률과 통계/4.Bayes_theorem/Bayes' Theorem.md",
-    "Obsidian/ComputerScience/확률과 통계/22.map/22_MAP.md",
-    "Obsidian/ComputerScience/확률과 통계/23.naive_bayes/23_naive_bayes.md",
-    "Obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/19_sampling.md",
-    "Obsidian/ComputerScience/확률과 통계/19.sampling_bootstrap/Sampling.md"
+    "Obsidian/ComputerScience/확률과 통계/22.map/22_MAP.md"
   ]
 }
