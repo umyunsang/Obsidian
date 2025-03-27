@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Obsidian/ComputerScience/머신러닝/머신러닝 핵심 수학 개념.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -164,6 +164,12 @@
   },
   "active": "2b41d5265049e611",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/머신러닝/images/Pasted image 20250327165759.png",
+    "Obsidian/ComputerScience/머신러닝/images",
+    "Obsidian/ComputerScience/머신러닝/새 폴더",
+    "Pasted image 20250327165759.png",
+    "Obsidian/ComputerScience/머신러닝/머신러닝 핵심 수학 개념.md",
+    "Pasted image 20250327165557.png",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Logistic/logistic.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/Multi_Regression.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Logistic/05_Regression_Logistic.pdf",
@@ -189,17 +195,12 @@
     "Obsidian/ComputerScience/분산처리/images/Pasted image 20250326125902.png",
     "Obsidian/ComputerScience/분산처리/images/Pasted image 20250326124557.png",
     "Obsidian/ComputerScience/분산처리/images/Pasted image 20250326124513.png",
-    "Obsidian/ComputerScience/분산처리/pdf/02_기본아키텍츠_update.pdf",
     "Obsidian/ComputerScience/분산처리/멀티 코어 프로세서.md",
-    "Obsidian/ComputerScience/분산처리/images",
     "Pasted image 20250326125902.png",
     "Pasted image 20250326124557.png",
     "Pasted image 20250326124513.png",
     "Obsidian/ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
-    "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250326093244.png",
-    "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250326093233.png",
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
-    "Obsidian/ComputerScience/머신러닝/머신러닝 핵심 수학 개념.md",
     "Obsidian/ComputerScience/리눅스시스템/5. 플라스크.md",
     "Obsidian/ComputerScience/AI시스템개발및설계/3주차/3주차 발표자료.md",
     "Obsidian/ComputerScience/AI시스템개발및설계/3주차/발표 스크립트.md",
@@ -208,7 +209,6 @@
     "Obsidian/ComputerScience/리눅스시스템/10. 도커.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/환경 구성.md",
     "Obsidian/ComputerScience/확률과 통계/20.mle/20_mle.md",
-    "Obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
-    "Obsidian/ComputerScience/확률과 통계/20.mle/파라미터 추정.md"
+    "Obsidian/ComputerScience/확률과 통계/20.mle/MLE.md"
   ]
 }
