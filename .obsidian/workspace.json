@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/데이터 구조/1. 리스트/단순 연결 리스트.md",
+                "file": "ComputerScience/데이터 구조/1. 리스트/리스트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "단순 연결 리스트"
+              "title": "리스트"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerScience/데이터 구조/1. 리스트/단순 연결 리스트.md",
+                "file": "ComputerScience/데이터 구조/1. 리스트/리스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "단순 연결 리스트의 백링크"
+              "title": "리스트의 백링크"
             }
           },
           {
@@ -162,8 +162,9 @@
       "daily-notes:오늘의 데일리 노트 열기": false
     }
   },
-  "active": "ba9e23474eb62275",
+  "active": "2b41d5265049e611",
   "lastOpenFiles": [
+    "ComputerScience/데이터 구조/1. 리스트/단순 연결 리스트.md",
     "졸업학점.md",
     "2024-2+중간고사+시간표_업로드용_변동.pdf",
     "[공지용]+2024-2+기말고사+시간표.pdf",
@@ -199,7 +200,6 @@
     "ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/애플 M4 CPU/애플 M4 CPU.md",
     "ComputerScience/인공지능/4. Optimization/실습/LearningRateControl.md",
     "ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
-    "ComputerScience/인공지능/4. Optimization/실습/Momentum.md",
     "ComputerScience/분산처리/images/Pasted image 20250326125902.png",
     "ComputerScience/분산처리/images/Pasted image 20250326124557.png",
     "ComputerScience/분산처리/images/Pasted image 20250326124513.png",
