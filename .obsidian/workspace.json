@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝/머신러닝 핵심 수학 개념.md",
-                "mode": "preview",
+                "file": "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "머신러닝 핵심 수학 개념"
+              "title": "논리학 개론"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/머신러닝/머신러닝 핵심 수학 개념.md",
+                "file": "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "머신러닝 핵심 수학 개념의 백링크"
+              "title": "논리학 개론의 백링크"
             }
           },
           {
@@ -164,11 +164,26 @@
   },
   "active": "2b41d5265049e611",
   "lastOpenFiles": [
+    "Obsidian/ComputerScience/분산처리/1. WhyParlleism.md",
+    "Obsidian/ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
+    "Obsidian/ComputerScience/프로그래밍언어론/3. 구문론.md",
+    "Obsidian/ComputerScience/프로그래밍언어론/2. 프로그래밍 언어의 발전사.md",
+    "Obsidian/ComputerScience/프로그래밍언어론/1. 기본 사항.md",
+    "Obsidian/ComputerScience/프로그래밍언어론/0. 명령어 집합.md",
+    "Obsidian/ComputerScience/프로그래밍언어론/요약/2. 프로그래밍 언어 발전사 요약.md",
+    "Obsidian/ComputerScience/프로그래밍언어론/요약/1. 기본사항 요약.md",
+    "Obsidian/ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
+    "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
+    "Obsidian/ComputerScience/컴퓨터 네트워트/1. 통신과 컴퓨터네트워크/통신과 컴퓨터 네트워크.md",
+    "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
+    "Obsidian/ComputerScience/분산처리/오티.md",
+    "Obsidian/ComputerScience/머신러닝/Linear Regression.md",
+    "Obsidian/ComputerScience/머신러닝/무제 폴더",
+    "Obsidian/ComputerScience/머신러닝/머신러닝 핵심 수학 개념.md",
     "Obsidian/ComputerScience/머신러닝/images/Pasted image 20250327165759.png",
     "Obsidian/ComputerScience/머신러닝/images",
     "Obsidian/ComputerScience/머신러닝/새 폴더",
     "Pasted image 20250327165759.png",
-    "Obsidian/ComputerScience/머신러닝/머신러닝 핵심 수학 개념.md",
     "Pasted image 20250327165557.png",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Logistic/logistic.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/Multi_Regression.md",
@@ -176,39 +191,24 @@
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/04_Regression_Multiple.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/KNNR.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/02_Regression_K-NN.pdf",
-    "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
     "1705817_엄윤상_2.md",
     "1705817_엄윤상_1.md",
-    "Obsidian/ComputerScience/프로그래밍언어론/3. 구문론.md",
     "Pasted image 20250326155552.png",
     "Obsidian/ComputerScience/프로그래밍언어론/images/Pasted image 20250326155552.png",
     "Obsidian/ComputerScience/프로그래밍언어론/images",
     "Obsidian/ComputerScience/프로그래밍언어론/새 폴더",
     "Obsidian/ComputerScience/프로그래밍언어론/pdf/3장 연습.pdf",
     "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap03-04 구문론과 파싱.pdf",
-    "Obsidian/ComputerScience/프로그래밍언어론/1. 기본 사항.md",
-    "Obsidian/ComputerScience/프로그래밍언어론/요약/1. 기본사항 요약.md",
-    "Obsidian/ComputerScience/프로그래밍언어론/요약/2. 프로그래밍 언어 발전사 요약.md",
-    "Obsidian/ComputerScience/프로그래밍언어론/2. 프로그래밍 언어의 발전사.md",
-    "Obsidian/ComputerScience/프로그래밍언어론/0. 명령어 집합.md",
-    "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap02 프로그램밍언어 발전사.pdf",
     "Obsidian/ComputerScience/분산처리/images/Pasted image 20250326125902.png",
     "Obsidian/ComputerScience/분산처리/images/Pasted image 20250326124557.png",
     "Obsidian/ComputerScience/분산처리/images/Pasted image 20250326124513.png",
-    "Obsidian/ComputerScience/분산처리/멀티 코어 프로세서.md",
     "Pasted image 20250326125902.png",
     "Pasted image 20250326124557.png",
-    "Pasted image 20250326124513.png",
-    "Obsidian/ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
-    "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
     "Obsidian/ComputerScience/리눅스시스템/5. 플라스크.md",
     "Obsidian/ComputerScience/AI시스템개발및설계/3주차/3주차 발표자료.md",
     "Obsidian/ComputerScience/AI시스템개발및설계/3주차/발표 스크립트.md",
     "Obsidian/ComputerScience/리눅스시스템/6. REST.md",
     "Obsidian/ComputerScience/리눅스시스템/9. 프로세스.md",
-    "Obsidian/ComputerScience/리눅스시스템/10. 도커.md",
-    "Obsidian/ComputerScience/LLM 이해와 활용/환경 구성.md",
-    "Obsidian/ComputerScience/확률과 통계/20.mle/20_mle.md",
-    "Obsidian/ComputerScience/확률과 통계/20.mle/MLE.md"
+    "Obsidian/ComputerScience/리눅스시스템/10. 도커.md"
   ]
 }
