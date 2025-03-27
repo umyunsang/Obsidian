@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "d08daddece1c626f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5607826a6e751a19",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Obsidian/ComputerScience/프로그래밍언어론/pdf/3장 연습.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "3장 연습"
-            }
-          }
-        ]
-      },
-      {
         "id": "38167f35d495d1df",
         "type": "tabs",
         "children": [
@@ -31,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/ComputerScience/프로그래밍언어론/3. 구문론.md",
+                "file": "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. 구문론"
+              "title": "논리학 개론"
             }
           }
         ]
@@ -95,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.50418853759766,
-    "collapsed": true
+    "width": 240.50418853759766
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -112,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/ComputerScience/프로그래밍언어론/3. 구문론.md",
+                "file": "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "3. 구문론의 백링크"
+              "title": "논리학 개론의 백링크"
             }
           },
           {
@@ -183,10 +164,16 @@
   },
   "active": "a2e41210eb84afa1",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/프로그래밍언어론/pdf/3장 연습.pdf",
-    "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap03-04 구문론과 파싱.pdf",
+    "1705817_엄윤상_2.md",
+    "1705817_엄윤상_1.md",
+    "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
     "Obsidian/ComputerScience/프로그래밍언어론/3. 구문론.md",
     "Pasted image 20250326155552.png",
+    "Obsidian/ComputerScience/프로그래밍언어론/images/Pasted image 20250326155552.png",
+    "Obsidian/ComputerScience/프로그래밍언어론/images",
+    "Obsidian/ComputerScience/프로그래밍언어론/새 폴더",
+    "Obsidian/ComputerScience/프로그래밍언어론/pdf/3장 연습.pdf",
+    "Obsidian/ComputerScience/프로그래밍언어론/pdf/chap03-04 구문론과 파싱.pdf",
     "Obsidian/ComputerScience/프로그래밍언어론/1. 기본 사항.md",
     "Obsidian/ComputerScience/프로그래밍언어론/요약/1. 기본사항 요약.md",
     "Obsidian/ComputerScience/프로그래밍언어론/요약/2. 프로그래밍 언어 발전사 요약.md",
@@ -206,14 +193,10 @@
     "Obsidian/ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
     "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250326093244.png",
     "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250326093233.png",
-    "Obsidian/ComputerScience/지식재산개론/image/Pasted image 20250326093219.png",
     "Obsidian/ComputerScience/지식재산개론/무제 폴더",
     "Obsidian/ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/Multi_Regression.md",
-    "무제 파일.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/04_Regression_Multiple.pdf",
-    "Obsidian/ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 등록요건(2차시).pdf",
-    "Obsidian/ComputerScience/지식재산개론/3. 상표제도 등록요건",
     "Obsidian/ComputerScience/머신러닝/머신러닝 핵심 수학 개념.md",
     "Obsidian/ComputerScience/리눅스시스템/5. 플라스크.md",
     "Obsidian/ComputerScience/AI시스템개발및설계/3주차/3주차 발표자료.md",
@@ -221,7 +204,6 @@
     "Obsidian/ComputerScience/리눅스시스템/6. REST.md",
     "Obsidian/ComputerScience/리눅스시스템/9. 프로세스.md",
     "Obsidian/ComputerScience/리눅스시스템/10. 도커.md",
-    "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
     "Obsidian/ComputerScience/LLM 이해와 활용/환경 구성.md",
     "Obsidian/ComputerScience/확률과 통계/20.mle/20_mle.md",
     "Obsidian/ComputerScience/확률과 통계/20.mle/MLE.md",
