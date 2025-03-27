@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/test/test2/tes1/test.md",
+                "file": "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "test"
+              "title": "논리학 개론"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/test/test2/tes1/test.md",
+                "file": "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "test의 백링크"
+              "title": "논리학 개론의 백링크"
             }
           },
           {
@@ -164,8 +164,12 @@
   },
   "active": "2b41d5265049e611",
   "lastOpenFiles": [
-    "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
     "Obsidian/test/test2/tes1/test.md",
+    "test/test2/tes1/test.md",
+    "test/test2/tes1",
+    "test/test2",
+    "test",
+    "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
     "Obsidian/test/test2/tes1",
     "Obsidian/test/test2",
     "Obsidian/test",
@@ -192,14 +196,11 @@
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Logistic/logistic.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/Multi_Regression.md",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Logistic/05_Regression_Logistic.pdf",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/04_Regression_Multiple.pdf",
     "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/KNNR.md",
-    "Obsidian/ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/02_Regression_K-NN.pdf",
     "1705817_엄윤상_2.md",
     "1705817_엄윤상_1.md",
     "Pasted image 20250326155552.png",
     "Obsidian/ComputerScience/프로그래밍언어론/images/Pasted image 20250326155552.png",
-    "Obsidian/ComputerScience/프로그래밍언어론/images",
     "Obsidian/ComputerScience/분산처리/images/Pasted image 20250326125902.png",
     "Obsidian/ComputerScience/분산처리/images/Pasted image 20250326124557.png",
     "Obsidian/ComputerScience/분산처리/images/Pasted image 20250326124513.png",
@@ -208,7 +209,6 @@
     "Obsidian/ComputerScience/리눅스시스템/5. 플라스크.md",
     "Obsidian/ComputerScience/AI시스템개발및설계/3주차/3주차 발표자료.md",
     "Obsidian/ComputerScience/AI시스템개발및설계/3주차/발표 스크립트.md",
-    "Obsidian/ComputerScience/리눅스시스템/6. REST.md",
-    "Obsidian/ComputerScience/리눅스시스템/9. 프로세스.md"
+    "Obsidian/ComputerScience/리눅스시스템/6. REST.md"
   ]
 }
