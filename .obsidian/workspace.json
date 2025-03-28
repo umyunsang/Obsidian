@@ -13,12 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/수리논리학/프로젝트/1차 컨펌.md",
+                "file": "ComputerScience/AI시스템개발및설계/무제 파일.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1차 컨펌"
+              "title": "무제 파일"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c52ae15e04094c9a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f530790bd4d5be5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ComputerScience/AI시스템개발및설계/[4주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "[4주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포"
             }
           }
         ]
@@ -93,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerScience/수리논리학/프로젝트/1차 컨펌.md",
+                "file": "ComputerScience/AI시스템개발및설계/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "1차 컨펌의 백링크"
+              "title": "무제 파일의 백링크"
             }
           },
           {
@@ -164,8 +182,12 @@
   },
   "active": "2b41d5265049e611",
   "lastOpenFiles": [
-    "ComputerScience/수리논리학/프로젝트/ASD Feature 발굴.md",
+    "ComputerScience/AI시스템개발및설계/[4주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포.pdf",
+    "ComputerScience/AI시스템개발및설계/무제 파일.md",
+    "Pasted image 20250328155644.png",
+    "Pasted image 20250328155540.png",
     "ComputerScience/수리논리학/프로젝트/1차 컨펌.md",
+    "ComputerScience/수리논리학/프로젝트/ASD Feature 발굴.md",
     "ComputerScience/수리논리학/프로젝트",
     "ComputerScience/수리논리학/논리학 개론.md",
     "ComputerScience/데이터 구조/1. 리스트/리스트.md",
@@ -197,9 +219,6 @@
     "ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/04_Regression_Multiple.pdf",
     "ComputerScience/머신러닝프로젝트/Sklearn/Classifier/KNNC/01_K-NN.pdf",
     "ComputerScience/머신러닝프로젝트/Sklearn/Regression/SDG/06_Regression_Incremental learning.pdf",
-    "ComputerScience/머신러닝프로젝트/Sklearn/Classifier/KNNC/KNNC.md",
-    "ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/KNNR.md",
-    "ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/03_Regression_Lin&poly.pdf",
     "ComputerScience/분산처리/images/Pasted image 20250326125902.png",
     "ComputerScience/분산처리/images/Pasted image 20250326124557.png",
     "ComputerScience/분산처리/images/Pasted image 20250326124513.png",
@@ -207,8 +226,6 @@
     "ComputerScience/지식재산개론/images/Pasted image 20250326093244.png",
     "ComputerScience/지식재산개론/images/Pasted image 20250326093233.png",
     "ComputerScience/지식재산개론/images/Pasted image 20250326093219.png",
-    "ComputerScience/지식재산개론/images/Pasted image 20250312095722.png",
-    "ComputerScience/지식재산개론/images/Pasted image 20250326093205.png",
-    "ComputerScience/머신러닝/images/Pasted image 20250327165759.png"
+    "ComputerScience/지식재산개론/images/Pasted image 20250312095722.png"
   ]
 }
