@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/데이터 구조/1. 리스트/리스트.md",
+                "file": "ComputerScience/수리논리학/ASD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "리스트"
+              "title": "ASD"
             }
           }
         ]
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.50418853759766
+    "width": 240.50418853759766,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerScience/데이터 구조/1. 리스트/리스트.md",
+                "file": "ComputerScience/수리논리학/ASD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "리스트의 백링크"
+              "title": "ASD의 백링크"
             }
           },
           {
@@ -164,6 +165,9 @@
   },
   "active": "2b41d5265049e611",
   "lastOpenFiles": [
+    "ComputerScience/수리논리학/논리학 개론.md",
+    "ComputerScience/수리논리학/ASD.md",
+    "ComputerScience/데이터 구조/1. 리스트/리스트.md",
     "ComputerScience/데이터 구조/1. 리스트/단순 연결 리스트.md",
     "졸업학점.md",
     "2024-2+중간고사+시간표_업로드용_변동.pdf",
@@ -197,9 +201,6 @@
     "ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/03_Regression_Lin&poly.pdf",
     "ComputerScience/머신러닝프로젝트/Sklearn/Regression/KNNR/02_Regression_K-NN.pdf",
     "ComputerScience/머신러닝프로젝트/Sklearn/Regression/Logistic/logistic.md",
-    "ComputerScience/컴퓨터 구조/3. 중앙 처리 장치/애플 M4 CPU/애플 M4 CPU.md",
-    "ComputerScience/인공지능/4. Optimization/실습/LearningRateControl.md",
-    "ComputerScience/인공지능/2. MLP(Multi Layer Perceptron)/실습/MLP (Multi Layer Perceptron).md",
     "ComputerScience/분산처리/images/Pasted image 20250326125902.png",
     "ComputerScience/분산처리/images/Pasted image 20250326124557.png",
     "ComputerScience/분산처리/images/Pasted image 20250326124513.png",
