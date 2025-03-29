@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
+                "file": "ComputerScience/프로그래밍언어론/과제/3장 연습문제 (과제).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3장 제출용"
+              "title": "3장 연습문제 (과제)"
             }
           }
         ]
@@ -85,65 +85,17 @@
     "type": "split",
     "children": [
       {
-        "id": "591cdf66caacdc0e",
+        "id": "4f6020bd94b0615a",
         "type": "tabs",
         "children": [
           {
-            "id": "a419b531493f0f6a",
+            "id": "d5226e2f2473b12e",
             "type": "leaf",
             "state": {
-              "type": "backlink",
-              "state": {
-                "file": "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "3장 제출용의 백링크"
-            }
-          },
-          {
-            "id": "629294b686e53e5b",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "관계와 함수의 나가는 링크"
-            }
-          },
-          {
-            "id": "26b7a6beaeb2bfed",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "86532e08d94fe6a9",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Obsidian/ComputerScience/이산수학/3. 관계와 함수/관계와 함수.md"
-              },
-              "icon": "lucide-list",
-              "title": "관계와 함수 개요"
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ]
@@ -163,16 +115,17 @@
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "2b41d5265049e611",
   "lastOpenFiles": [
+    "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
+    "ComputerScience/프로그래밍언어론/과제/3장 연습문제 (과제).md",
     "Pasted image 20250329135531.png",
     "ComputerScience/분산처리/pdf/01_WhyParallelism.pdf",
     "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
-    "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
-    "ComputerScience/프로그래밍언어론/과제/3장 연습문제 (과제).md",
     "ComputerScience/프로그래밍언어론/과제",
     "ComputerScience/프로그래밍언어론/1. 기본 사항.md",
     "ComputerScience/프로그래밍언어론/2. 프로그래밍 언어의 발전사.md",
@@ -212,7 +165,6 @@
     "ComputerScience/프로그래밍언어론/images/Pasted image 20250326155552.png",
     "ComputerScience/지식재산개론/images/Pasted image 20250326093244.png",
     "ComputerScience/지식재산개론/images/Pasted image 20250326093233.png",
-    "ComputerScience/지식재산개론/images/Pasted image 20250326093219.png",
-    "ComputerScience/지식재산개론/images/Pasted image 20250312095722.png"
+    "ComputerScience/지식재산개론/images/Pasted image 20250326093219.png"
   ]
 }
