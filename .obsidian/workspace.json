@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/프로그래밍언어론/3장 연습문제.md",
+                "file": "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3장 연습문제"
+              "title": "3장 제출용"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerScience/프로그래밍언어론/3장 연습문제.md",
+                "file": "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "3장 연습문제의 백링크"
+              "title": "3장 제출용의 백링크"
             }
           },
           {
@@ -165,12 +165,14 @@
   },
   "active": "2b41d5265049e611",
   "lastOpenFiles": [
+    "ComputerScience/프로그래밍언어론/과제/3장 연습문제 (과제).md",
+    "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
+    "ComputerScience/프로그래밍언어론/과제",
     "ComputerScience/프로그래밍언어론/1. 기본 사항.md",
     "ComputerScience/프로그래밍언어론/2. 프로그래밍 언어의 발전사.md",
     "ComputerScience/프로그래밍언어론/0. 명령어 집합.md",
     "ComputerScience/프로그래밍언어론/요약/2. 프로그래밍 언어 발전사 요약.md",
     "ComputerScience/프로그래밍언어론/요약/1. 기본사항 요약.md",
-    "ComputerScience/프로그래밍언어론/3장 연습문제.md",
     "ComputerScience/프로그래밍언어론/pdf/3장 연습.pdf",
     "ComputerScience/AI시스템개발및설계/무제 파일.md",
     "ComputerScience/AI시스템개발및설계/[4주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포.pdf",
@@ -198,11 +200,9 @@
     "ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Dropout.md",
     "ComputerScience/인공지능/5. CNN/실습/LeNet/CNN 모듈.md",
     "ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
-    "ComputerScience/인공지능/3. Backpropagation/실습/Vanishing Gradient 해결/활성화 함수 변경.md",
     "ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10 (실습).pdf",
     "ComputerScience/인공지능/3. Backpropagation/실습/Vanishing Gradient 해결/Vanishing Gradient Effect.pdf",
     "ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/04_Regression_Multiple.pdf",
-    "ComputerScience/머신러닝프로젝트/Sklearn/Classifier/KNNC/01_K-NN.pdf",
     "ComputerScience/분산처리/images/Pasted image 20250326125902.png",
     "ComputerScience/분산처리/images/Pasted image 20250326124557.png",
     "ComputerScience/분산처리/images/Pasted image 20250326124513.png",
