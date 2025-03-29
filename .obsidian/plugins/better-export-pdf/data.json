@@ -8,7 +8,7 @@
   "printBackground": false,
   "generateTaggedPDF": false,
   "displayMetadata": false,
-  "debug": false,
+  "debug": true,
   "isTimestamp": false,
   "enabledCss": false,
   "prevConfig": {
@@ -20,12 +20,12 @@
     "landscape": false,
     "marginTop": "10",
     "marginBottom": "10",
-    "marginLeft": "10",
-    "marginRight": "10",
+    "marginLeft": "15",
+    "marginRight": "15",
     "displayHeader": false,
     "displayFooter": false,
     "cssSnippet": "0",
-    "pageHeight": "auto",
-    "pageWidth": "auto"
+    "pageHeight": "4150",
+    "pageWidth": "250"
   }
 }
