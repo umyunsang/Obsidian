@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -77,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.50418853759766,
-    "collapsed": true
+    "width": 240.50418853759766
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -155,18 +155,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
   "active": "2b41d5265049e611",
   "lastOpenFiles": [
-    "ComputerScience/프로그래밍언어론/과제/3장 연습문제 (과제).md",
+    "Pasted image 20250329135531.png",
+    "ComputerScience/분산처리/pdf/01_WhyParallelism.pdf",
+    "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
     "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
+    "ComputerScience/프로그래밍언어론/과제/3장 연습문제 (과제).md",
     "ComputerScience/프로그래밍언어론/과제",
     "ComputerScience/프로그래밍언어론/1. 기본 사항.md",
     "ComputerScience/프로그래밍언어론/2. 프로그래밍 언어의 발전사.md",
@@ -198,11 +204,8 @@
     "ComputerScience/인공지능/5. CNN/실습/ResNet/ResNet.md",
     "ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Overfitting.pdf",
     "ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Dropout.md",
-    "ComputerScience/인공지능/5. CNN/실습/LeNet/CNN 모듈.md",
-    "ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Data Augumentation.md",
     "ComputerScience/인공지능/3. Backpropagation/실습/CIFAR10/CIFAR10 (실습).pdf",
     "ComputerScience/인공지능/3. Backpropagation/실습/Vanishing Gradient 해결/Vanishing Gradient Effect.pdf",
-    "ComputerScience/머신러닝프로젝트/Sklearn/Regression/Multiple/04_Regression_Multiple.pdf",
     "ComputerScience/분산처리/images/Pasted image 20250326125902.png",
     "ComputerScience/분산처리/images/Pasted image 20250326124557.png",
     "ComputerScience/분산처리/images/Pasted image 20250326124513.png",
