@@ -8,5 +8,7 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 80
-  }
+  },
+  "spellcheck": false,
+  "autoConvertHtml": false
 }
