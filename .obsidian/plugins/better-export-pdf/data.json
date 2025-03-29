@@ -16,7 +16,7 @@
     "marginType": "1",
     "showTitle": false,
     "open": true,
-    "scale": 80,
+    "scale": 100,
     "landscape": false,
     "marginTop": "10",
     "marginBottom": "10",
@@ -25,7 +25,7 @@
     "displayHeader": false,
     "displayFooter": false,
     "cssSnippet": "0",
-    "pageHeight": "4150",
+    "pageHeight": "5200",
     "pageWidth": "250"
   }
 }
