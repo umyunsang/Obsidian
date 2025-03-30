@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/수리논리학/프로젝트/2차 컨펌.md",
+                "file": "ComputerScience/AI시스템개발및설계/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2차 컨펌"
+              "title": "무제"
             }
           }
         ]
@@ -182,10 +182,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ffb6032470b10296",
+  "active": "ba9e23474eb62275",
   "lastOpenFiles": [
-    "ComputerScience/수리논리학/프로젝트/ASD Feature 발굴.md",
+    "ComputerScience/AI시스템개발및설계/ot",
+    "ComputerScience/AI시스템개발및설계/ot/[2주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포 (1).pdf",
+    "ComputerScience/AI시스템개발및설계/무제.md",
+    "ComputerScience/AI시스템개발및설계/3주차/[3주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포.pdf",
+    "ComputerScience/AI시스템개발및설계/ot/[4주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포.pdf",
     "ComputerScience/수리논리학/프로젝트/2차 컨펌.md",
+    "ComputerScience/수리논리학/프로젝트/ASD Feature 발굴.md",
     "ComputerScience/수리논리학/프로젝트/1차 컨펌.md",
     "ComputerScience/머신러닝/Linear Regression.md",
     "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
@@ -208,7 +213,6 @@
     "ComputerScience/프로그래밍언어론/0. 명령어 집합.md",
     "ComputerScience/프로그래밍언어론/과제/3장 연습.pdf",
     "ComputerScience/AI시스템개발및설계/무제 파일.md",
-    "ComputerScience/AI시스템개발및설계/[4주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포.pdf",
     "Pasted image 20250328155644.png",
     "Pasted image 20250328155540.png",
     "ComputerScience/수리논리학/프로젝트",
@@ -217,12 +221,8 @@
     "ComputerScience/데이터 구조/1. 리스트/단순 연결 리스트.md",
     "졸업학점.md",
     "2024-2+중간고사+시간표_업로드용_변동.pdf",
-    "[공지용]+2024-2+기말고사+시간표.pdf",
     "Obsidian/ComputerScience/수리논리학/논리학 개론.md",
     "ComputerScience/인공지능/5. CNN/실습/LeNet/pooling.md",
-    "ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md",
-    "ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
-    "ComputerScience/인공지능/3. Backpropagation/실습/Overfitting 해결/Overfitting.pdf",
     "ComputerScience/분산처리/images/Pasted image 20250326125902.png",
     "ComputerScience/분산처리/images/Pasted image 20250326124557.png",
     "ComputerScience/분산처리/images/Pasted image 20250326124513.png",
