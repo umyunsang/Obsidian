@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1dcc293031e6772b",
+        "id": "f7ff0aac927a152c",
         "type": "tabs",
         "children": [
           {
-            "id": "ffb6032470b10296",
+            "id": "3ddaf26a37acd000",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ComputerScience/AI시스템개발및설계/무제 파일.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "무제 파일"
+              "title": "새 탭"
             }
           }
         ]
@@ -89,22 +85,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b0f7d23a3be22ab1",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
-            }
-          },
-          {
             "id": "97d54e5193e38c04",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "3장 제출용 의 백링크"
+              "title": "백링크"
             }
           },
           {
@@ -152,16 +137,26 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "3장 제출용 의 개요"
+              "title": "개요"
+            }
+          },
+          {
+            "id": "26dc6ed33f3a45fb",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -182,9 +177,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ba9e23474eb62275",
+  "active": "3ddaf26a37acd000",
   "lastOpenFiles": [
-    "ComputerScience/AI시스템개발및설계/무제.md",
+    "ComputerScience/AI시스템개발및설계/주문 및 결제 AI 시스템 개발.md",
+    "ComputerScience/AI시스템개발및설계/test.md",
     "ComputerScience/AI시스템개발및설계/ot",
     "ComputerScience/AI시스템개발및설계/ot/[2주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포 (1).pdf",
     "ComputerScience/AI시스템개발및설계/3주차/[3주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포.pdf",
@@ -212,7 +208,6 @@
     "ComputerScience/프로그래밍언어론/과제",
     "ComputerScience/프로그래밍언어론/0. 명령어 집합.md",
     "ComputerScience/프로그래밍언어론/과제/3장 연습.pdf",
-    "ComputerScience/AI시스템개발및설계/무제 파일.md",
     "Pasted image 20250328155644.png",
     "Pasted image 20250328155540.png",
     "ComputerScience/수리논리학/프로젝트",
