@@ -14,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "ComputerScience/머신러닝/Linear_Regression/250401_Linear_Regression_실습.pdf",
-                "page": 18,
-                "left": -10,
-                "top": 485,
-                "zoom": 1.5571550001351673
+                "page": 22,
+                "left": -29,
+                "top": 429,
+                "zoom": 0.5220210698393638
               },
               "icon": "lucide-file-text",
               "title": "250401_Linear_Regression_실습"
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.50418853759766,
-    "collapsed": true
+    "width": 240.50418853759766
   },
   "right": {
     "id": "67c0be972fb46913",
