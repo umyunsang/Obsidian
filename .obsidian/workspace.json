@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "ComputerScience/분산처리/pdf/02_기본아키텍츠_update.pdf",
-                "page": 65,
+                "page": 78,
                 "left": -23,
-                "top": 76,
+                "top": 58,
                 "zoom": 0.6625
               },
               "icon": "lucide-file-text",
@@ -210,11 +210,12 @@
   "lastOpenFiles": [
     "ComputerScience/분산처리/pdf/02_기본아키텍츠_update.pdf",
     "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
+    "ComputerScience/분산처리/pdf/01_WhyParallelism.pdf",
+    "ComputerScience/분산처리/pdf/03_multicore2-ispc.pdf",
     "Pasted image 20250329135531.png",
     "ComputerScience/머신러닝/Linear_Regression/250401_Linear_Regression_실습.pdf",
     "ComputerScience/머신러닝/Linear_Regression/Linear Regression.md",
     "ComputerScience/머신러닝/Linear_Regression",
-    "ComputerScience/분산처리/pdf/03_multicore2-ispc.pdf",
     "ComputerScience/프로그래밍언어론/과제/3장 연습문제 (과제).md",
     "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
     "ComputerScience/AI시스템개발및설계/주문 및 결제 AI 시스템 개발.md",
@@ -228,7 +229,6 @@
     "ComputerScience/수리논리학/프로젝트/1차 컨펌.md",
     "ComputerScience/프로그래밍언어론/과제/Untitled.pdf",
     "ComputerScience/프로그래밍언어론/요약/1. 기본사항 요약.md",
-    "ComputerScience/프로그래밍언어론/pdf/chap01 기본사항.pdf",
     "ComputerScience/프로그래밍언어론/1. 기본 사항.md",
     "무제.md",
     "ComputerScience/프로그래밍언어론/3. 구문론.md",
