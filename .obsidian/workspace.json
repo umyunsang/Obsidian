@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/프로그래밍언어론/필기/5. 이름, 바인딩, 영역.md",
+                "file": "ComputerScience/수리논리학/논리학 개론.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. 이름, 바인딩, 영역"
+              "title": "논리학 개론"
             }
           }
         ]
@@ -185,9 +185,12 @@
   },
   "active": "66a86df30cce2020",
   "lastOpenFiles": [
+    "ComputerScience/프로그래밍언어론/필기/5. 이름, 바인딩, 영역.md",
+    "ComputerScience/수리논리학/논리학 개론.md",
+    "ComputerScience/수리논리학/프로젝트/2차 컨펌.md",
+    "ComputerScience/수리논리학/프로젝트/ASD Feature 발굴.md",
     "ComputerScience/프로그래밍언어론/과제/4장 연습문제.md",
     "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
-    "ComputerScience/프로그래밍언어론/필기/5. 이름, 바인딩, 영역.md",
     "ComputerScience/프로그래밍언어론/필기/4. 재귀 하강 파싱.md",
     "ComputerScience/프로그래밍언어론/필기/2. 프로그래밍 언어의 발전사.md",
     "ComputerScience/프로그래밍언어론/필기/2. 프로그래밍 언어의 발전사.md",
@@ -215,15 +218,12 @@
     "ComputerScience/AI시스템개발및설계/test.md",
     "ComputerScience/AI시스템개발및설계/ot",
     "ComputerScience/AI시스템개발및설계/ot/[2주차] AI시스템설계 및 개발Ⅰ_ 2025 최영림_배포 (1).pdf",
-    "ComputerScience/수리논리학/프로젝트/2차 컨펌.md",
-    "ComputerScience/수리논리학/프로젝트/ASD Feature 발굴.md",
     "ComputerScience/수리논리학/프로젝트/1차 컨펌.md",
     "무제.md",
     "1705817_엄윤상_2.md",
     "1705817_엄윤상_1.md",
     "Pasted image 20250328155644.png",
     "Pasted image 20250328155540.png",
-    "ComputerScience/수리논리학/논리학 개론.md",
     "ComputerScience/분산처리/images/Pasted image 20250326125902.png",
     "ComputerScience/분산처리/images/Pasted image 20250326124557.png",
     "ComputerScience/분산처리/images/Pasted image 20250326124513.png",
