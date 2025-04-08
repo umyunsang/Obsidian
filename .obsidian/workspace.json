@@ -6,7 +6,6 @@
       {
         "id": "8f274b8e77110af4",
         "type": "tabs",
-        "dimension": 51.098901098901095,
         "children": [
           {
             "id": "d033b08192c2db50",
@@ -15,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "ComputerScience/분산처리/pdf/03_multicore2-ispc_update.pdf",
-                "page": 7,
+                "page": 29,
                 "left": -26,
-                "top": 89,
-                "zoom": 0.6140625
+                "top": 459,
+                "zoom": 0.5687500000000001
               },
               "icon": "lucide-file-text",
               "title": "03_multicore2-ispc_update"
@@ -27,12 +26,11 @@
         ]
       },
       {
-        "id": "3ab9a3376c400a8c",
+        "id": "7c4919ce7ced5c2c",
         "type": "tabs",
-        "dimension": 48.9010989010989,
         "children": [
           {
-            "id": "6b313c52c473f3d7",
+            "id": "5fb5caea2604dbc2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -102,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.50418853759766,
-    "collapsed": true
+    "width": 240.50418853759766
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -208,7 +205,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6b313c52c473f3d7",
+  "active": "5fb5caea2604dbc2",
   "lastOpenFiles": [
     "ComputerScience/분산처리/pdf/03_multicore2-ispc_update.pdf",
     "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
