@@ -14,10 +14,8 @@
               "type": "pdf",
               "state": {
                 "file": "ComputerScience/분산처리/pdf/03_multicore2-ispc_update.pdf",
-                "page": 29,
-                "left": -26,
-                "top": 459,
-                "zoom": 0.5687500000000001
+                "page": 1,
+                "zoom": 1
               },
               "icon": "lucide-file-text",
               "title": "03_multicore2-ispc_update"
@@ -205,7 +203,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5fb5caea2604dbc2",
+  "active": "d033b08192c2db50",
   "lastOpenFiles": [
     "ComputerScience/분산처리/pdf/03_multicore2-ispc_update.pdf",
     "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
