@@ -4,45 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "8f274b8e77110af4",
-        "type": "tabs",
-        "dimension": 45.72222222222222,
-        "children": [
-          {
-            "id": "d033b08192c2db50",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 등록요건(2차시).pdf",
-                "page": 7,
-                "left": -19,
-                "top": 175,
-                "zoom": 0.8031250000000001
-              },
-              "icon": "lucide-file-text",
-              "title": "상표제도 등록요건(2차시)"
-            }
-          }
-        ]
-      },
-      {
         "id": "7c4919ce7ced5c2c",
         "type": "tabs",
-        "dimension": 54.27777777777778,
         "children": [
           {
             "id": "5fb5caea2604dbc2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
-                "mode": "source",
-                "source": false
+                "file": "ComputerScience/머신러닝/Linear_Regression/pdf/Linear_Regression_이론.pdf",
+                "page": 1,
+                "left": -201,
+                "top": 598,
+                "zoom": 0.5220210698393639
               },
-              "icon": "lucide-file",
-              "title": "상표제도 및 등록요건"
+              "icon": "lucide-file-text",
+              "title": "Linear_Regression_이론"
             }
           }
         ]
@@ -210,15 +188,21 @@
   },
   "active": "5fb5caea2604dbc2",
   "lastOpenFiles": [
-    "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 등록요건(2차시).pdf",
+    "ComputerScience/머신러닝/Linear_Regression/Linear_Regression_설명.md",
+    "ComputerScience/머신러닝/Linear_Regression/pdf/Linear_Regression_이론.pdf",
+    "ComputerScience/머신러닝/Linear_Regression/pdf",
+    "ComputerScience/머신러닝/Linear_Regression/pdf/250401_Linear_Regression_실습.pdf",
+    "ComputerScience/머신러닝/Linear_Regression/Linear Regression.md",
+    "ComputerScience/머신러닝/머신러닝 핵심 수학 개념.md",
+    "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
+    "ComputerScience/프로그래밍언어론/필기/5. 이름, 바인딩, 영역.md",
     "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
+    "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 등록요건(2차시).pdf",
     "ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
     "ComputerScience/분산처리/pdf/03_multicore2-ispc_update.pdf",
-    "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
     "ComputerScience/분산처리/pdf/03_multicore2-ispc.pdf",
     "ComputerScience/프로그래밍언어론/과제/4장 연습문제.md",
     "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 등록요건(1차시).pdf",
-    "ComputerScience/프로그래밍언어론/필기/5. 이름, 바인딩, 영역.md",
     "ComputerScience/수리논리학/프로젝트/이상 탐지(ASD)를 위한 최적의 Feature Engineering.md",
     "ComputerScience/수리논리학/프로젝트/신호 특징 분석 결과.md",
     "ComputerScience/수리논리학/images/normal_stft_phase.png",
@@ -237,7 +221,6 @@
     "ComputerScience/수리논리학/프로젝트/2차 컨펌.md",
     "ComputerScience/수리논리학/프로젝트/1차 컨펌.md",
     "ComputerScience/수리논리학/논리학 개론.md",
-    "ComputerScience/머신러닝/Linear_Regression/Linear_Regression_이론.pdf",
     "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
     "ComputerScience/프로그래밍언어론/필기/4. 재귀 하강 파싱.md",
     "ComputerScience/프로그래밍언어론/필기/2. 프로그래밍 언어의 발전사.md",
@@ -249,11 +232,6 @@
     "ComputerScience/프로그래밍언어론/필기/3. 구문론.md",
     "ComputerScience/프로그래밍언어론/필기/1. 기본 사항.md",
     "ComputerScience/프로그래밍언어론/3. 구문론.md",
-    "ComputerScience/프로그래밍언어론/필기/0. 명령어 집합.md",
-    "ComputerScience/프로그래밍언어론/요약/2. 프로그래밍 언어 발전사 요약.md",
-    "ComputerScience/프로그래밍언어론/pdf/chap05 이름 바인딩 영역.pdf",
-    "ComputerScience/프로그래밍언어론/pdf/chap03-04 구문론과 파싱.pdf",
-    "ComputerScience/프로그래밍언어론/과제/3장 연습문제 (과제).md",
-    "ComputerScience/머신러닝/Linear_Regression/Linear Regression.md"
+    "ComputerScience/프로그래밍언어론/필기/0. 명령어 집합.md"
   ]
 }
