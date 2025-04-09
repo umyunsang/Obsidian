@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "ComputerScience/분산처리/pdf/03_multicore2-ispc_update.pdf",
-                "page": 34,
+                "page": 35,
                 "left": -23,
-                "top": 63,
+                "top": 141,
                 "zoom": 0.6625
               },
               "icon": "lucide-file-text",
@@ -206,10 +206,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5fb5caea2604dbc2",
+  "active": "aa4504007dbd8d9e",
   "lastOpenFiles": [
-    "ComputerScience/분산처리/pdf/03_multicore2-ispc_update.pdf",
     "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
+    "ComputerScience/분산처리/pdf/03_multicore2-ispc_update.pdf",
     "ComputerScience/머신러닝/Linear_Regression/LSM, GDM 선형 회귀모델.md",
     "ComputerScience/머신러닝/Linear_Regression/Linear Regression.md",
     "ComputerScience/머신러닝/Linear_Regression/Multiple_Linear_Regression.md",
