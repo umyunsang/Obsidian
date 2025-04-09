@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "ComputerScience/분산처리/pdf/03_multicore2-ispc_update.pdf",
-                "page": 29,
+                "page": 34,
                 "left": -23,
-                "top": 482,
+                "top": 63,
                 "zoom": 0.6625
               },
               "icon": "lucide-file-text",
@@ -206,8 +206,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "aa4504007dbd8d9e",
+  "active": "5fb5caea2604dbc2",
   "lastOpenFiles": [
+    "ComputerScience/분산처리/pdf/03_multicore2-ispc_update.pdf",
     "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
     "ComputerScience/머신러닝/Linear_Regression/LSM, GDM 선형 회귀모델.md",
     "ComputerScience/머신러닝/Linear_Regression/Linear Regression.md",
@@ -222,7 +223,6 @@
     "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
     "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 등록요건(2차시).pdf",
     "ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
-    "ComputerScience/분산처리/pdf/03_multicore2-ispc_update.pdf",
     "ComputerScience/분산처리/pdf/03_multicore2-ispc.pdf",
     "ComputerScience/프로그래밍언어론/과제/4장 연습문제.md",
     "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 등록요건(1차시).pdf",
@@ -252,7 +252,6 @@
     "ComputerScience/프로그래밍언어론/필기/1. 기본사항.md",
     "ComputerScience/프로그래밍언어론/요약/1. 기본사항 요약.md",
     "ComputerScience/프로그래밍언어론/요약/1.기본사항.md",
-    "ComputerScience/프로그래밍언어론/필기/3. 구문론.md",
-    "ComputerScience/프로그래밍언어론/필기/1. 기본 사항.md"
+    "ComputerScience/프로그래밍언어론/필기/3. 구문론.md"
   ]
 }
