@@ -4,29 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "7f111668bcc4d909",
+        "id": "66fd4a49f329a7e0",
         "type": "tabs",
         "children": [
           {
-            "id": "95a3d4132b7320f0",
+            "id": "b7575f40cdfc38a6",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ComputerScience/프로그래밍언어론/pdf/chap06 데이터 타입-1.pdf",
-                "page": 18,
+                "file": "ComputerScience/프로그래밍언어론/pdf/chap05 이름 바인딩 영역.pdf",
+                "page": 46,
                 "left": -24,
-                "top": 361,
+                "top": 103,
                 "zoom": 0.675
               },
               "icon": "lucide-file-text",
-              "title": "chap06 데이터 타입-1"
+              "title": "chap05 이름 바인딩 영역"
             }
           }
         ]
       },
       {
-        "id": "66fd4a49f329a7e0",
+        "id": "69f09ae35065bc40",
         "type": "tabs",
         "children": [
           {
@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/프로그래밍언어론/필기/6. 데이터 타입.md",
-                "mode": "source",
+                "file": "ComputerScience/프로그래밍언어론/필기/5. 이름, 바인딩, 영역.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. 데이터 타입"
+              "title": "5. 이름, 바인딩, 영역"
             }
           }
         ]
@@ -205,15 +205,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "95a3d4132b7320f0",
+  "active": "5fb5caea2604dbc2",
   "lastOpenFiles": [
-    "ComputerScience/프로그래밍언어론/필기/6. 데이터 타입.md",
-    "ComputerScience/프로그래밍언어론/필기/4. 재귀 하강 파싱.md",
-    "ComputerScience/프로그래밍언어론/필기/3. 구문론.md",
-    "ComputerScience/프로그래밍언어론/필기/5. 이름, 바인딩, 영역.md",
-    "ComputerScience/프로그래밍언어론/pdf/chap03-04 구문론과 파싱.pdf",
     "ComputerScience/프로그래밍언어론/pdf/chap05 이름 바인딩 영역.pdf",
+    "ComputerScience/프로그래밍언어론/필기/5. 이름, 바인딩, 영역.md",
+    "ComputerScience/프로그래밍언어론/필기/6. 데이터 타입.md",
+    "ComputerScience/프로그래밍언어론/필기/3. 구문론.md",
+    "ComputerScience/프로그래밍언어론/필기/4. 재귀 하강 파싱.md",
     "ComputerScience/프로그래밍언어론/pdf/chap06 데이터 타입-1.pdf",
+    "ComputerScience/프로그래밍언어론/pdf/chap03-04 구문론과 파싱.pdf",
     "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
     "ComputerScience/분산처리/pdf/03_multicore2-ispc_update.pdf",
     "ComputerScience/머신러닝/Linear_Regression/LSM, GDM 선형 회귀모델.md",
