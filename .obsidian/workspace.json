@@ -11,16 +11,14 @@
             "id": "b7575f40cdfc38a6",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ComputerScience/프로그래밍언어론/pdf/chap05 이름 바인딩 영역.pdf",
-                "page": 46,
-                "left": -24,
-                "top": 103,
-                "zoom": 0.675
+                "file": "ComputerScience/AI시스템개발및설계/test.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "chap05 이름 바인딩 영역"
+              "icon": "lucide-file",
+              "title": "test"
             }
           }
         ]
@@ -205,7 +203,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5fb5caea2604dbc2",
+  "active": "b7575f40cdfc38a6",
   "lastOpenFiles": [
     "ComputerScience/프로그래밍언어론/pdf/chap05 이름 바인딩 영역.pdf",
     "ComputerScience/프로그래밍언어론/필기/5. 이름, 바인딩, 영역.md",
