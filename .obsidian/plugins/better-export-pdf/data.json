@@ -14,7 +14,7 @@
   "prevConfig": {
     "pageSize": "Custom",
     "marginType": "1",
-    "showTitle": false,
+    "showTitle": true,
     "open": true,
     "scale": 100,
     "landscape": false,
@@ -25,7 +25,7 @@
     "displayHeader": false,
     "displayFooter": false,
     "cssSnippet": "0",
-    "pageHeight": "1900",
-    "pageWidth": "300"
+    "pageHeight": "300",
+    "pageWidth": "510"
   }
 }
