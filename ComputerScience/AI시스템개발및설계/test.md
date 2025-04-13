@@ -1,62 +1,39 @@
-# Cafe Recommend Backend Architecture
 
-## 1. 시스템 구성도 (Component Diagram)
+---
+# 스마트 오더 플랫폼 'cafe-recommend' - B2B 어드민 기능 제안
 
-**설명:**
+## 소개
 
-*   **User Interface (Frontend):** 사용자와 상호작용하는 프론트엔드 애플리케이션입니다.
-*   **Backend (FastAPI Application):** 핵심 비즈니스 로직을 처리하는 FastAPI 기반 백엔드입니다.
-    *   `main.py`: 애플리케이션 진입점, 라우터 및 미들웨어 설정.
-    *   **Routers:** HTTP 요청을 수신하고 적절한 API 로직으로 전달합니다. (메뉴, 장바구니, 주문, 결제, 채팅/추천, 관리자)
-    *   **API Logic:** 각 기능(장바구니, 주문, 결제 등)에 대한 구체적인 비즈니스 로직을 포함합니다.
-    *   **Dependencies:** 인증, 데이터베이스 세션 등 반복적으로 사용되는 의존성을 관리합니다.
-    *   **Data Access Layer:** 데이터베이스와의 상호작용을 담당합니다.
-        *   `CRUD Operations`: 데이터 생성, 읽기, 업데이트, 삭제 로직.
-        *   `Models & Schemas`: 데이터베이스 테이블 구조(Models) 및 API 데이터 유효성 검사/직렬화(Schemas).
-        *   `Database Interface`: 데이터베이스 연결 및 세션 관리.
-    *   **Core Config:** 애플리케이션 설정 관리.
-*   **Data Storage:** 데이터를 저장하는 공간입니다.
-    *   **SQLite Databases:** 주요 애플리케이션 데이터(사용자, 메뉴, 주문 등) 저장.
-    *   **Vector Store:** AI 기반 추천 기능을 위한 벡터 데이터 저장 (메뉴 임베딩 등).
+본 문서는 웹 기반 AI 스마트 오더 플랫폼 'cafe-recommend'의 B2B 경쟁력 강화를 위한 어드민 기능들을 제안합니다. 사업자들이 매장 운영 효율성을 높이고 매출 증대에 기여할 수 있는 기능들을 중심으로 구성했습니다.
 
-## 2. 주요 데이터 흐름 예시 (Mermaid Flowchart)
+## 추천 어드민 기능 및 기술 스택
 
-### 2.1. 메뉴 조회
+**구현 우선순위 선정 기준:**
 
+현재 시스템 아키텍처(FastAPI, SQLAlchemy, SQLite, Vector Store)를 기반으로 구현 가능성 및 시급성을 고려하여 우선순위를 선정했습니다. SQLite의 특성상 복잡한 분석이나 높은 동시성 처리가 필요한 기능은 우선순위를 조정했으며, 기존에 구현된 기능(메뉴, 주문 등)과 연관성이 높은 관리 기능을 우선적으로 고려했습니다.
 
-### 2.2. 장바구니에 메뉴 추가
+| 우선순위 | 기능                 | 설명                                                                                                | 주요 기술 스택 (예시)                                                                                                                                                                                            | 기대 효과                                                                                                                                                                                           | 비고 (구현 시 고려사항)                                                                                                                                                                                                |
+| :------- | :------------------- | :-------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **높음** | **메뉴 관리**         | 신규 메뉴 등록, 기존 메뉴 정보 (가격, 이미지, 설명, 옵션 등) 수정, 품절 처리 등을 간편하게 관리합니다. | - **Frontend:** React/Next.js (폼 관리, 이미지 업로드) <br> - **Backend:** FastAPI (기존 MenuRouter 확장, CRUD) <br> - **Database:** SQLite (기존 Menu 모델 활용) <br> - **Storage:** AWS S3/Cloudinary (이미지 저장 필요) | 메뉴 정보 최신성 유지, 운영 효율성 증대                                                                                                                                                            | 이미지 저장소 연동 필요.                                                                                                                                                                                   |
+| **높음** | **직원 관리 및 권한 설정** | 직원 계정 생성/관리, 역할(매니저, 직원 등)에 따른 기능 접근 권한 설정 기능을 제공합니다.                | - **Frontend:** React/Next.js (사용자 관리 UI) <br> - **Backend:** FastAPI (AdminRouter 확장, 인증/인가 로직 - RBAC 구현) <br> - **Database:** SQLite (User, Role 모델 추가)                                     | 보안 강화, 운영 효율성 증대                                                                                                                                                                        | 인증/인가 라이브러리 (e.g., FastAPI-Users, JWT) 도입 고려.                                                                                                                                                  |
+| **높음** | **매출 및 데이터 분석 (기본)** | 기간별/일별 매출 현황, 메뉴별 판매량 등 기본적인 데이터를 조회합니다.                                     | - **Frontend:** React/Next.js (간단한 표/차트) <br> - **Backend:** FastAPI (Order/Payment 데이터 기반 집계 API) <br> - **Database:** SQLite (Order, Payment 모델 활용, 기본적인 집계 쿼리)                   | 기본적인 매출 현황 파악, 운영 상태 점검                                                                                                                                                            | SQLite에서 복잡한 분석 쿼리는 성능 저하 유발 가능. 초기에는 간단한 집계 위주로 구현.                                                                                                                            |
+| **중간** | **매장 설정 관리**      | 매장 운영 시간, 테이블 정보, 주문 가능/불가능 상태 등을 설정합니다.                                    | - **Frontend:** React/Next.js (설정 UI) <br> - **Backend:** FastAPI (설정 관리 API 및 모델 추가) <br> - **Database:** SQLite (StoreSetting 모델 추가)                                                        | 유연한 매장 운영 관리                                                                                                                                                                              | 설정 변경 시 적용 범위 고려 (e.g., 실시간 반영 여부).                                                                                                                                                         |
+| **중간** | **고객 관리 (CRM) (기본)** | 고객 주문 내역 조회, 기본적인 고객 정보 관리 기능을 제공합니다.                                         | - **Frontend:** React/Next.js (고객 목록/상세 UI) <br> - **Backend:** FastAPI (User/Order 연동 API, Customer 모델 추가) <br> - **Database:** SQLite (Customer 모델 추가, Order 연동)                       | 단골 고객 파악, 기본적인 고객 응대 지원                                                                                                                                                             | 개인정보 처리 방침 준수 필요. 포인트/쿠폰 기능은 후순위 고려.                                                                                                                                             |
+| **중간** | **프로모션 및 이벤트 관리 (기본)** | 간단한 전체 할인 또는 특정 메뉴 할인 프로모션을 생성하고 적용합니다.                                      | - **Frontend:** React/Next.js (프로모션 설정 UI) <br> - **Backend:** FastAPI (Promotion 모델 추가, 주문/결제 로직 연동) <br> - **Database:** SQLite (Promotion 모델 추가)                               | 단기 매출 증대 유도                                                                                                                                                                              | 복잡한 조건의 프로모션(쿠폰, 기간별 복합 할인 등)은 후순위 고려. 주문/결제 로직 수정 필요.                                                                                                                     |
+| **낮음** | **재고 관리**         | 메뉴와 연동하여 재고 현황을 관리합니다. (실시간 연동 및 알림은 후순위)                                 | - **Frontend:** React/Next.js (재고 관리 UI) <br> - **Backend:** FastAPI (Inventory 모델 추가, CRUD, 메뉴 연동) <br> - **Database:** SQLite (Inventory 모델 추가)                                           | 재고 파악 용이성 증대                                                                                                                                                                              | 실시간 재고 차감 및 알림 기능은 동시성 문제 및 SQLite 성능 고려 시 복잡도 높음. 초기에는 수동 관리 또는 배치성 업데이트 고려. PostgreSQL/MySQL 전환 시 재평가.                                                       |
+| **낮음** | **AI 추천 설정 (옵션)** | AI 메뉴 추천 로직의 기본 파라미터를 조정할 수 있도록 합니다.                                                 | - **Frontend:** React/Next.js (설정 UI) <br> - **Backend:** FastAPI (AI 모델 설정 연동 API) <br> - **AI:** Python (기존 추천 로직 활용, 설정값 반영)                                                 | AI 추천 시스템의 사업자 맞춤 조정 가능성 제공                                                                                                                                                       | AI 모델 및 Vector Store 구조에 대한 이해 필요. 파라미터 변경이 추천 결과에 미치는 영향 고려.                                                                                                                       |
+| **낮음** | **매출 및 데이터 분석 (고급)** | 고급 시각화(다양한 차트), 고객 세분화 분석 등 심층적인 분석 기능을 제공합니다.                             | - **Frontend:** React/Next.js (고급 차트 라이브러리) <br> - **Backend:** FastAPI (복잡한 분석 API) / 별도 분석 서버 <br> - **Database:** PostgreSQL/MySQL 또는 데이터 웨어하우스 <br> - **Tools:** Pandas, etc. | 데이터 기반 심층 인사이트 확보, 정교한 전략 수립 지원                                                                                                                                              | SQLite 부적합. PostgreSQL/MySQL 등 RDBMS 또는 별도 데이터 분석 시스템 구축 필요.                                                                                                                            |
 
+## 기술 스택 요약
 
+-   **Frontend:** React, Next.js, TypeScript, Tailwind CSS (또는 다른 UI 라이브러리), 상태 관리 (Zustand, Recoil 등), 차트 라이브러리 (Chart.js, Recharts 등)
+-   **Backend:** Node.js (Express/NestJS) 또는 Python (Django/Flask), TypeScript/Python, ORM (Prisma, TypeORM, SQLAlchemy 등)
+-   **Database:** PostgreSQL, MySQL, MongoDB, Redis (캐싱, 실시간 처리용)
+-   **AI (메뉴 추천):** Python, TensorFlow, PyTorch, Scikit-learn
+-   **Infra/DevOps:** Docker, Kubernetes, AWS/GCP/Azure, Nginx, Jenkins/GitLab CI/CD
+-   **Storage:** AWS S3, Google Cloud Storage, Cloudinary (이미지 등 정적 파일 저장)
+-   **Real-time:** WebSockets (Socket.IO)
 
-### 2.3. 주문 생성
+## 결론
 
-
-
-### 2.4. AI 메뉴 추천 (채팅)
-
-
-
-## 3. 모듈별 주요 기능
-
-*   **`app/main.py`**: FastAPI 앱 초기화, 라우터 포함, 미들웨어 설정.
-*   **`app/database.py`**: SQLAlchemy 설정, 데이터베이스 세션 생성.
-*   **`app/models/`**: SQLAlchemy 모델 정의 (데이터베이스 테이블 매핑).
-*   **`app/schemas/`**: Pydantic 모델 정의 (API 데이터 유효성 검사 및 직렬화/역직렬화).
-*   **`app/crud/`**: 데이터베이스 CRUD(Create, Read, Update, Delete) 로직 구현. 모델 객체와 상호작용.
-*   **`app/routers/`**:
-    *   `chat.py`: AI 기반 채팅 및 메뉴 추천 요청 처리. Vector Store 사용 가능성 높음.
-    *   `menus.py`: 메뉴 목록 조회, 상세 정보 조회 등 메뉴 관련 요청 처리.
-    *   `cart.py`: 장바구니 추가, 조회, 수정, 삭제 요청 처리.
-    *   `order.py`: 주문 생성, 조회 등 주문 관련 요청 처리.
-    *   `payment.py`: 결제 시작, 검증 등 결제 관련 요청 처리 (API 로직 호출).
-*   **`app/api/`**:
-    *   `cart.py`, `order.py`, `payment.py`: 각 라우터에서 호출되는 상세 비즈니스 로직 구현 (CRUD 함수 사용).
-    *   `admin/`: 관리자 관련 API 로직.
-    *   `deps.py`: API 레벨의 의존성 주입 (e.g., 현재 사용자 정보 가져오기).
-*   **`app/core/`**: 설정 값 로딩 등 애플리케이션의 핵심 설정 관리.
-*   **`vector_store/`**: AI 추천을 위한 메뉴 임베딩 등 벡터 데이터 저장.
-*   **Root Directory Files**:
-    *   `requirements.txt`: Python 패키지 의존성 목록.
-    *   `.env*`: 환경 변수 설정 파일.
-    *   `alembic/`, `alembic.ini`: Alembic 데이터베이스 마이그레이션 설정 및 스크립트.
-    *   `init_*.py`, `update_*.py`: 초기 데이터 생성 및 업데이트 스크립트. 
+위에 제시된 기능들은 사업자들이 'cafe-recommend' 플랫폼을 통해 실질적인 운영 효율성 개선과 매출 증대를 경험할 수 있도록 돕는 핵심 요소가 될 것입니다. 각 기능의 우선순위를 정하고 단계적으로 개발하여 플랫폼의 가치를 지속적으로 높여나가는 것을 추천합니다. 
