@@ -4,28 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "b3e01363e7c7f585",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "07daf14054956c2a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 등록요건(2차시).pdf",
-                "page": 22,
-                "left": -20,
-                "top": 329,
-                "zoom": 0.7583333333333334
-              },
-              "icon": "lucide-file-text",
-              "title": "상표제도 등록요건(2차시)"
-            }
-          }
-        ]
-      },
-      {
         "id": "ffb70660302e9f3f",
         "type": "tabs",
         "children": [
@@ -33,14 +11,36 @@
             "id": "8cdbce69cb3f6151",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ComputerScience/프로그래밍언어론/pdf/chap01 기본사항.pdf",
+                "page": 18,
+                "left": -20,
+                "top": 149,
+                "zoom": 0.7583333333333334
+              },
+              "icon": "lucide-file-text",
+              "title": "chap01 기본사항"
+            }
+          }
+        ]
+      },
+      {
+        "id": "72bbeba24212aedf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1d9fc776bf4c206",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
+                "file": "ComputerScience/프로그래밍언어론/프린트/1. 기본사항 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "상표제도 및 등록요건"
+              "title": "1. 기본사항 1"
             }
           }
         ]
@@ -205,10 +205,16 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "8cdbce69cb3f6151",
+  "active": "d1d9fc776bf4c206",
   "lastOpenFiles": [
-    "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 등록요건(2차시).pdf",
+    "ComputerScience/프로그래밍언어론/pdf/chap01 기본사항.pdf",
+    "ComputerScience/프로그래밍언어론/프린트/1. 기본사항 1.md",
+    "ComputerScience/프로그래밍언어론/필기/1. 기본사항.md",
+    "ComputerScience/프로그래밍언어론/프린트/0. 명령어 집합 1.md",
+    "ComputerScience/프로그래밍언어론/프린트",
+    "ComputerScience/프로그래밍언어론/필기/0. 명령어 집합.md",
     "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
+    "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 등록요건(2차시).pdf",
     "ComputerScience/지식재산개론/중간.md",
     "ComputerScience/프로그래밍언어론/과제/5장 연습문제.md",
     "ComputerScience/프로그래밍언어론/pdf/chap05 이름 바인딩 영역.pdf",
@@ -243,12 +249,6 @@
     "ComputerScience/LLM 이해와 활용/환경 구성.md",
     "ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG",
     "ComputerScience/LLM 이해와 활용/image",
-    "ComputerScience/LLM 이해와 활용/ChatGPT API",
-    "ComputerScience/LLM 이해와 활용",
-    "ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGCA.md",
-    "ComputerScience/인공지능/5. CNN/실습/VGGNet/UMNet.md",
-    "ComputerScience/인공지능/5. CNN/실습/LeNet/CNN 모듈.md",
-    "ComputerScience/머신러닝/Linear_Regression/우버데이터_Multiple_Linear_Regression.md",
     "ComputerScience/수리논리학/images/normal_stft_phase.png",
     "ComputerScience/수리논리학/images/normal_stft_mag.png",
     "ComputerScience/수리논리학/images/normal_mfcc.png"
