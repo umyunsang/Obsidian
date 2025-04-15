@@ -11,16 +11,14 @@
             "id": "d2bafa5d5966e640",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ComputerScience/머신러닝/SVM/20250415_Suport_vector_machine_실습 강의자료.pdf",
-                "page": 21,
-                "left": -24,
-                "top": 20,
-                "zoom": 0.6262471196195782
+                "file": "ComputerScience/머신러닝/SVM/SVM.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "20250415_Suport_vector_machine_실습 강의자료"
+              "icon": "lucide-file",
+              "title": "SVM"
             }
           }
         ]
@@ -80,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5041847229004,
-    "collapsed": true
+    "width": 219.5041847229004
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -188,7 +185,15 @@
   },
   "active": "d2bafa5d5966e640",
   "lastOpenFiles": [
+    "ComputerScience/머신러닝/SVM/예상 MultiSVM.md",
     "ComputerScience/머신러닝/SVM/SVM.md",
+    "ComputerScience/머신러닝/SVM/QP SVM.md",
+    "ComputerScience/머신러닝/Linear_Regression/LSM, GDM 선형 회귀모델.md",
+    "ComputerScience/머신러닝/Linear_Regression/Linear Regression.md",
+    "ComputerScience/머신러닝/Linear_Regression/Multiple_Linear_Regression.md",
+    "Pasted image 20250415173546.png",
+    "Pasted image 20250415173442.png",
+    "Pasted image 20250415173230.png",
     "ComputerScience/머신러닝/SVM/20250415_Suport_vector_machine_실습 강의자료.pdf",
     "ComputerScience/분산처리/pdf/03_multicore2-강의자료업데이트_0415.pdf",
     "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
@@ -222,16 +227,9 @@
     "ComputerScience/AI시스템개발및설계/test.md",
     "ComputerScience/인공지능/5. CNN/실습/VGGNet/VGGskip.md",
     "ComputerScience/LLM 이해와 활용/LLM 이해/LLM 모델 이해.md",
-    "ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/Vector store.md",
-    "ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/RAG.md",
-    "ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/Llama Index.md",
-    "ComputerScience/LLM 이해와 활용/검색 증강 생성 RAG/LangChain.md",
     "ComputerScience/LLM 이해와 활용/image/Pasted image 20250121150551.png",
     "ComputerScience/LLM 이해와 활용/image/Pasted image 20250120112057.png",
     "ComputerScience/LLM 이해와 활용/image/Pasted image 20250120111923.png",
-    "ComputerScience/LLM 이해와 활용/image/Pasted image 20250120103633.png",
-    "ComputerScience/LLM 이해와 활용/image/Pasted image 20250120103626.png",
-    "ComputerScience/LLM 이해와 활용/image/Pasted image 20250120103621.png",
-    "ComputerScience/LLM 이해와 활용/image/Pasted image 20250120101836.png"
+    "ComputerScience/LLM 이해와 활용/image/Pasted image 20250120103633.png"
   ]
 }
