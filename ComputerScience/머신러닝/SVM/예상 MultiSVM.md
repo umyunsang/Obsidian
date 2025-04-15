@@ -1,6 +1,18 @@
 
 ---
-```
+# 다중 클래스 SVM(Multi-class SVM) 구현
+
+> [!info] 다중 클래스 SVM 개요
+> SVM은 기본적으로 이진 분류 알고리즘이지만, 다중 클래스 문제로 확장할 수 있습니다. 주요 접근 방식은 다음과 같습니다:
+> - One-vs-One(OvO): 모든 클래스 쌍에 대해 이진 분류기를 학습하고 투표 방식으로 결정
+> - One-vs-Rest(OvR): 각 클래스를 나머지 모든 클래스와 구분하는 이진 분류기를 학습
+> 
+> 이 예제에서는 One-vs-One 방식을 구현합니다.
+
+## 1. 필요한 라이브러리 임포트
+데이터 처리와 시각화에 필요한 기본 라이브러리를 가져옵니다.
+
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -8,7 +20,10 @@ import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
 ```
 
-```
+## 2. 다중 클래스 데이터 생성 및 시각화
+세 개의 클래스로 구성된 인공 데이터셋을 생성하고 시각화합니다.
+
+```python
 # 데이터 생성
 X, y = make_blobs(n_samples=50, centers=3, random_state=42, cluster_std=1.0)
 
@@ -20,7 +35,16 @@ plt.ylabel('x_2')
 plt.show()
 ```
 
-```
+> [!note] 데이터 생성 매개변수
+> - n_samples: 생성할 데이터 샘플 수 (50개)
+> - centers: 생성할 클래스 수 (3개)
+> - cluster_std: 클래스 내 데이터의 표준편차 (분산)
+> - random_state: 재현성을 위한 난수 시드
+
+## 3. 기본 이진 분류 SVM 클래스 구현
+다중 클래스 SVM의 기반이 되는 이진 분류 SVM을 구현합니다.
+
+```python
 class SVM:
     def __init__(self, learning_rate=0.001, n_iters=1000):
         self.learning_rate = learning_rate
@@ -68,7 +92,16 @@ class SVM:
         return np.sign(linear_output)
 ```
 
-```
+> [!important] 이진 분류 SVM 요약
+> - 목적: 두 클래스를 최대 마진으로 분리하는 초평면 찾기
+> - 초평면 방정식: w^T * x + b = 0
+> - 경사 하강법: 마진 조건을 만족하지 않는 샘플에 대해서만 가중치 업데이트
+> - 예측: 결정 함수의 부호에 따라 클래스 할당
+
+## 4. 다중 클래스 SVM(MultiSVM) 클래스 구현
+One-vs-One 방식으로 다중 클래스 SVM을 구현합니다.
+
+```python
 class MultiSVM:
     def __init__(self, learning_rate=0.001, n_iters=1000):
         self.learning_rate = learning_rate
@@ -128,7 +161,23 @@ class MultiSVM:
         return self.classes[np.argmax(votes, axis=1)]
 ```
 
-```
+> [!tip] One-vs-One(OvO) 방식 설명
+> - 총 이진 분류기 수: k(k-1)/2 (k는 클래스 수)
+> - 모든 클래스 쌍(i,j)에 대해 별도의 SVM 분류기 학습
+> - 장점: 각 분류기는 관련 클래스의 데이터만 사용하므로 학습이 빠름
+> - 단점: 클래스 수가 많을 경우 필요한 분류기 수가 급증
+> 
+> **투표 방식**: 새 데이터 예측 시 모든 이진 분류기의 결과를 종합하여 가장 많은 표를 받은 클래스로 예측
+
+> [!warning] 주의사항
+> 1. k개의 클래스에 대해 k(k-1)/2개의 이진 분류기가 필요
+> 2. 클래스 간 표본 수가 불균형한 경우 성능이 저하될 수 있음
+> 3. 투표가 동점인 경우 예측이 일관되지 않을 수 있음
+
+## 5. 모델 학습 및 성능 평가
+생성한 다중 클래스 SVM 모델을 학습시키고 정확도를 평가합니다.
+
+```python
 # 모델 생성 및 학습
 model = MultiSVM(learning_rate=0.01, n_iters=1000)
 model.fit(X, y)
@@ -141,7 +190,16 @@ accuracy = np.sum(y_pred == y) / len(y)
 print(f"정확도: {accuracy:.4f}")
 ```
 
-```
+> [!note] 모델 매개변수
+> - learning_rate: 경사 하강법의 학습률 (0.01)
+> - n_iters: 반복 횟수 (1000)
+> 
+> **정확도 계산**: 올바르게 예측된 샘플 수 / 전체 샘플 수
+
+## 6. 전체 결정 경계 시각화
+학습된 다중 클래스 SVM 모델의 전체 결정 경계를 시각화합니다.
+
+```python
 # 결정 경계 시각화
 def plot_decision_boundary(model, X, y):
     """
@@ -171,7 +229,16 @@ def plot_decision_boundary(model, X, y):
 plot_decision_boundary(model, X, y)
 ```
 
-```
+> [!tip] 결정 경계 시각화 방법
+> 1. 특성 공간을 조밀한 격자로 분할
+> 2. 각 격자점에 대한 클래스 예측
+> 3. 예측 결과를 색상으로 표현하여 결정 경계 시각화
+> 4. 원본 데이터 포인트 표시
+
+## 7. 각 이진 분류기 정보 출력
+생성된 이진 분류기들의 가중치, 편향, 마진 정보를 출력합니다.
+
+```python
 # 각 이진 분류기의 정보 출력
 for (class_i, class_j), svm in model.classifiers.items():
     print(f"클래스 {class_i} vs 클래스 {class_j}:")
@@ -184,7 +251,16 @@ for (class_i, class_j), svm in model.classifiers.items():
     print("-" * 50)
 ```
 
-```
+> [!note] 이진 분류기 정보
+> - 클래스 쌍: 각 이진 분류기가 구분하는 두 클래스
+> - 가중치(w): 결정 경계의 법선 벡터
+> - 편향(b): 결정 경계의 절편
+> - 마진 크기: 2/||w|| (결정 경계와 가장 가까운 데이터 간의 거리)
+
+## 8. 개별 이진 분류기의 결정 경계 시각화
+각 이진 분류기별로 결정 경계와 마진을 시각화합니다.
+
+```python
 # 개별 클래스 쌍에 대한 결정 경계 시각화
 def plot_binary_decision_boundaries(model, X, y):
     """
@@ -252,3 +328,16 @@ def plot_binary_decision_boundaries(model, X, y):
 plot_binary_decision_boundaries(model, X, y)
 ```
 
+> [!success] 다중 클래스 SVM 시각화 해석
+> - 각 서브플롯: 특정 두 클래스 쌍에 대한 이진 분류기의 결정 경계
+> - 실선: 결정 경계 (w^T * x + b = 0)
+> - 점선: 마진 경계 (w^T * x + b = ±1)
+> - 색상 영역: 각 클래스에 할당된 특성 공간
+>
+> 모든 이진 분류기의 결과를 종합하여 최종 다중 클래스 결정 경계가 형성됩니다.
+
+> [!important] 다중 클래스 SVM 요약
+> 1. **기본 원리**: 이진 분류 SVM을 다중 클래스로 확장
+> 2. **구현 방식**: One-vs-One(OvO) 방식으로 가능한 모든 클래스 쌍에 대해 이진 분류기 학습
+> 3. **분류 결정**: 모든 이진 분류기의 예측 결과를 투표 방식으로 집계하여 최종 클래스 결정
+> 4. **계산 복잡성**: k개 클래스에 대해 k(k-1)/2개의 분류기 필요

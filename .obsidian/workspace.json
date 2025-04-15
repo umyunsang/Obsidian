@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/머신러닝/SVM/SVM.md",
+                "file": "ComputerScience/머신러닝/SVM/예상 MultiSVM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SVM"
+              "title": "예상 MultiSVM"
             }
           }
         ]
@@ -185,9 +185,9 @@
   },
   "active": "d2bafa5d5966e640",
   "lastOpenFiles": [
-    "ComputerScience/머신러닝/SVM/예상 MultiSVM.md",
-    "ComputerScience/머신러닝/SVM/SVM.md",
     "ComputerScience/머신러닝/SVM/QP SVM.md",
+    "ComputerScience/머신러닝/SVM/SVM.md",
+    "ComputerScience/머신러닝/SVM/예상 MultiSVM.md",
     "ComputerScience/머신러닝/Linear_Regression/LSM, GDM 선형 회귀모델.md",
     "ComputerScience/머신러닝/Linear_Regression/Linear Regression.md",
     "ComputerScience/머신러닝/Linear_Regression/Multiple_Linear_Regression.md",
