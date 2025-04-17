@@ -142,17 +142,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerScience/프로그래밍언어론/과제/3장 연습문제 (과제).md",
+                "file": "ComputerScience/수리논리학/논리학 개론.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "3장 연습문제 (과제) 의 개요"
+              "title": "논리학 개론 의 개요"
             }
           },
           {
-            "id": "26dc6ed33f3a45fb",
+            "id": "9315e9647a85ac57",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -185,8 +185,8 @@
   },
   "active": "81e11261ac583200",
   "lastOpenFiles": [
-    "ComputerScience/프로그래밍언어론/필기/6. 데이터 타입.md",
     "ComputerScience/지식재산개론/기출문제/기출문제.md",
+    "ComputerScience/프로그래밍언어론/필기/6. 데이터 타입.md",
     "ComputerScience/지식재산개론/conversion_output.txt",
     "ComputerScience/지식재산개론/convert_with_pdfium.py",
     "ComputerScience/지식재산개론/convert.py",
