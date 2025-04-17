@@ -11,16 +11,14 @@
             "id": "18c5036523632b8c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ComputerScience/머신러닝/중간/머신러닝 중간고사 대비문제.pdf",
-                "page": 1,
-                "left": -15,
-                "top": 27,
-                "zoom": 1.06875
+                "file": "ComputerScience/머신러닝/중간/대비문제.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "머신러닝 중간고사 대비문제"
+              "icon": "lucide-file",
+              "title": "대비문제"
             }
           }
         ]
@@ -80,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5041847229004
+    "width": 219.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -187,8 +186,12 @@
   },
   "active": "18c5036523632b8c",
   "lastOpenFiles": [
-    "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.pdf",
+    "Pasted image 20250417161611.png",
+    "Pasted image 20250417161202.png",
+    "Pasted image 20250417161009.png",
     "ComputerScience/머신러닝/중간/머신러닝 중간고사 대비문제.pdf",
+    "ComputerScience/머신러닝/중간/대비문제.md",
+    "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.pdf",
     "ComputerScience/머신러닝/중간",
     "ComputerScience/머신러닝/새 폴더",
     "ComputerScience/수리논리학/논리학 개론.md",
@@ -201,7 +204,6 @@
     "ComputerScience/지식재산개론/simple_convert.bat",
     "ComputerScience/지식재산개론/simple_pdf_convert.py",
     "ComputerScience/지식재산개론/conversion_log.txt",
-    "ComputerScience/지식재산개론/pdf_to_md.py",
     "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
     "ComputerScience/프로그래밍언어론/필기/3. 구문론.md",
     "ComputerScience/프로그래밍언어론/필기/2. 프로그래밍 언어의 발전사.md",
@@ -229,9 +231,6 @@
     "Pasted image 20250329135531.png",
     "ComputerScience/프로그래밍언어론/과제/5장 연습문제.md",
     "Pasted image 20250414130109.png",
-    "Pasted image 20250414130054.png",
-    "ComputerScience/프로그래밍언어론/필기/5. 이름, 바인딩, 영역.md",
-    "ComputerScience/프로그래밍언어론/필기/4. 재귀 하강 파싱.md",
-    "ComputerScience/LLM 이해와 활용/image/Pasted image 20250121150551.png"
+    "ComputerScience/프로그래밍언어론/필기/5. 이름, 바인딩, 영역.md"
   ]
 }
