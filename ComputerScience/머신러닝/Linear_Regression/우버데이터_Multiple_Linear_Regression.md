@@ -39,6 +39,25 @@ data = data.drop(['Unnamed: 0.1', 'Unnamed: 0', 'key', 'pickup_datetime'], axis=
 data = data.dropna()
 ```
 
+## L1, L2 이동거리 계산 및 열 추가
+
+**L1 Distance (맨해튼 거리):**
+
+L1_distance = |pickup_x - dropoff_x| + |pickup_y - dropoff_y|
+
+**L2 Distance (유클리드 거리):**
+
+L2_distance = √((pickup_x - dropoff_x)² + (pickup_y - dropoff_y)²)
+
+- 절댓값 계산 함수: np.abs()
+- 제곱근 (square root) 계산 함수: np.sqrt()
+
+```python
+data['L1_distance'] = np.abs(data['pickup_x'] - data['dropoff_x']) + np.abs(data['pickup_y'] - data['dropoff_y'])
+data['L2_distance'] = np.sqrt((data['pickup_x'] - data['dropoff_x'])**2 + (data['pickup_y'] - data['dropoff_y'])**2)
+
+data # L1/L2_distance 열이 정상적으로 계산/추가되었는지 확인
+```
 ## 데이터셋 전처리
 
 >[!important] 가우시안 정규화 (Gaussian Normalization)
@@ -71,13 +90,27 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_
 
 >[!note] 최소 제곱법 (Least Square Method)
 >- 예측값과 실제값의 차이(오차)의 제곱합을 최소화하는 방법
->- 수식: $$\theta = (X^T \cdot X)^{-1} \cdot (X^T \cdot Y)$$
->- 장점:
->    - 계산이 간단하고 빠름
->    - 최적해를 한 번에 구할 수 있음
->- 단점:
->    - 이상치에 민감
->    - 다중공선성 문제 발생 가능
+>>[!important] 수식
+>>```python
+>>XT = X.T
+>>```
+>>$$X^\top$$
+>>```python
+>>XTX = np.dot(XT, X)
+>>```
+>>$$X^\top X$$
+>>```python
+>>XTX_inverse = np.linalg.inv(XTX)
+>>```
+>>$$\left(X^\top X\right)^{-1}$$
+>>```python
+>>XTY = np.dot(XT, Y)
+>>```
+>>$$X^\top Y$$
+>>```python
+>>self.theta = np.dot(XTX_inverse, XTY)
+>>```
+>>$$\theta = \left(X^\top X\right)^{-1} X^\top Y$$
 
 ```python
 class LinearRegression_LSM():
@@ -95,7 +128,7 @@ class LinearRegression_LSM():
         self.theta = np.zeros(X.shape[1])
 
         # Least Square Method 수행
-        XT = X.T
+        XT = X.T 
         XTX = np.dot(XT, X)
         XTX_inverse = np.linalg.inv(XTX)
         XTY = np.dot(XT, Y)
