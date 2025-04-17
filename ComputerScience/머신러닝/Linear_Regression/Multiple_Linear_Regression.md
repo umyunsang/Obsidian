@@ -116,10 +116,10 @@ plt.show()
 # 예측에 사용할 데이터들에 대한 2차원 행렬 변환
 
 # MSE : 0.33
-# X = np.array(data_normalized[['sqft_living', 'grade', 'sqft_above', 'bathrooms', 'sqft_living15', 'bedrooms', 'floors', 'waterfront', 'view', 'condition', 'sqft_basement', 'yr_built', 'yr_renovated', 'zipcode', 'lat', 'long', 'sqft_lot', 'sqft_lot15']])
+X = np.array(data_normalized[['sqft_living', 'grade', 'sqft_above', 'bathrooms', 'sqft_living15', 'bedrooms', 'floors', 'waterfront', 'view', 'condition', 'sqft_basement', 'yr_built', 'yr_renovated', 'zipcode', 'lat', 'long', 'sqft_lot', 'sqft_lot15']])
 
 # MSE : 0.45
-# X = np.array(data_normalized[['sqft_living', 'grade', 'sqft_above']])
+X = np.array(data_normalized[['sqft_living', 'grade', 'sqft_above']])
 
 X = np.array(data_normalized[['sqft_living', 'grade']])
 Y = np.array(data_normalized[['price']])
