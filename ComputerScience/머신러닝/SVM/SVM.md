@@ -79,9 +79,9 @@ class SVM:
 
                 if not condition:  # 마진 조건을 만족하지 않는 경우
                     # 힌지 손실 함수의 그래디언트를 계산하여 가중치 업데이트
-                    # ∂L/∂W = y_i * x_i 에 따라 가중치 업데이트
+                    # ∂L/∂W = -y_i * x_i 에 따라 가중치 업데이트
                     self.weights += self.learning_rate * (y_modified[idx] * x_i)
-                    # ∂L/∂b = y_i 에 따라 바이어스 업데이트
+                    # ∂L/∂b = -y_i 에 따라 바이어스 업데이트
                     self.bias += self.learning_rate * (y_modified[idx])
                 
                 

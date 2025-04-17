@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/머신러닝/중간/대비문제.md",
+                "file": "ComputerScience/머신러닝/SVM/SVM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "대비문제"
+              "title": "SVM"
             }
           }
         ]
@@ -186,11 +186,11 @@
   },
   "active": "18c5036523632b8c",
   "lastOpenFiles": [
+    "ComputerScience/머신러닝/중간/대비문제.md",
     "Pasted image 20250417161611.png",
     "Pasted image 20250417161202.png",
     "Pasted image 20250417161009.png",
     "ComputerScience/머신러닝/중간/머신러닝 중간고사 대비문제.pdf",
-    "ComputerScience/머신러닝/중간/대비문제.md",
     "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.pdf",
     "ComputerScience/머신러닝/중간",
     "ComputerScience/머신러닝/새 폴더",
@@ -230,7 +230,6 @@
     "ComputerScience/프로그래밍언어론/과제/3장 연습문제 (과제).md",
     "Pasted image 20250329135531.png",
     "ComputerScience/프로그래밍언어론/과제/5장 연습문제.md",
-    "Pasted image 20250414130109.png",
     "ComputerScience/프로그래밍언어론/필기/5. 이름, 바인딩, 영역.md"
   ]
 }
