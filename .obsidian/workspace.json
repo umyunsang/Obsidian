@@ -11,16 +11,14 @@
             "id": "18c5036523632b8c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ComputerScience/프로그래밍언어론/pdf/chap01 기본사항.pdf",
-                "page": 18,
-                "left": -11,
-                "top": 163,
-                "zoom": 1.425
+                "file": "ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "chap01 기본사항"
+              "icon": "lucide-file",
+              "title": "저작권 제도와 등록요건"
             }
           }
         ]
@@ -187,15 +185,17 @@
   },
   "active": "18c5036523632b8c",
   "lastOpenFiles": [
-    "ComputerScience/프로그래밍언어론/필기/1. 기본사항.md",
-    "ComputerScience/프로그래밍언어론/필기/0. 명령어 집합.md",
     "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
     "ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
     "ComputerScience/지식재산개론/1. 소개/소개.md",
-    "ComputerScience/프로그래밍언어론/필기/6. 데이터 타입.md",
-    "무제.md",
     "ComputerScience/수리논리학/논리학 개론.md",
     "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
+    "ComputerScience/분산처리/1. WhyParlleism.md",
+    "ComputerScience/프로그래밍언어론/pdf/chap01 기본사항.pdf",
+    "ComputerScience/프로그래밍언어론/필기/1. 기본사항.md",
+    "ComputerScience/프로그래밍언어론/필기/0. 명령어 집합.md",
+    "ComputerScience/프로그래밍언어론/필기/6. 데이터 타입.md",
+    "무제.md",
     "ComputerScience/머신러닝/Linear_Regression/Linear Regression.md",
     "ComputerScience/머신러닝/SVM/QP SVM.md",
     "ComputerScience/머신러닝/SVM/예상 MultiSVM.md",
@@ -218,7 +218,6 @@
     "ComputerScience/지식재산개론/conversion_output.txt",
     "ComputerScience/지식재산개론/convert_with_pdfium.py",
     "ComputerScience/지식재산개론/convert.py",
-    "ComputerScience/지식재산개론/simple_convert.bat",
     "ComputerScience/프로그래밍언어론/필기/3. 구문론.md",
     "ComputerScience/프로그래밍언어론/필기/2. 프로그래밍 언어의 발전사.md",
     "ComputerScience/프로그래밍언어론/과제/5장 연습문제 (제출용).md",
@@ -231,7 +230,6 @@
     "ComputerScience/프로그래밍언어론/과제/4장 연습문제.md",
     "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
     "ComputerScience/프로그래밍언어론/과제/3장 연습문제 (과제).md",
-    "Pasted image 20250329135531.png",
-    "ComputerScience/프로그래밍언어론/과제/5장 연습문제.md"
+    "Pasted image 20250329135531.png"
   ]
 }
