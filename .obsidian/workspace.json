@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
-                "mode": "source",
+                "file": "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "저작권 제도와 등록요건"
+              "title": "상표제도 및 등록요건"
             }
           }
         ]
@@ -185,8 +185,8 @@
   },
   "active": "18c5036523632b8c",
   "lastOpenFiles": [
-    "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
     "ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
+    "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
     "ComputerScience/지식재산개론/1. 소개/소개.md",
     "ComputerScience/수리논리학/논리학 개론.md",
     "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
