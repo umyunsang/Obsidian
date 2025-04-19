@@ -13,6 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "ComputerScience/프로그래밍언어론/필기/6. 데이터 타입.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. 데이터 타입"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3a3292bbdb00f352",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62e9e9bfa78e0a38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "ComputerScience/프로그래밍언어론/교재/6장_교재_문제.md",
                 "mode": "source",
                 "source": false
@@ -78,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5041847229004
+    "width": 219.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -185,11 +206,12 @@
   },
   "active": "18c5036523632b8c",
   "lastOpenFiles": [
-    "ComputerScience/프로그래밍언어론/교재/3장_교재_문제.md",
+    "ComputerScience/프로그래밍언어론/필기/5. 이름, 바인딩, 영역.md",
+    "ComputerScience/프로그래밍언어론/필기/6. 데이터 타입.md",
     "ComputerScience/프로그래밍언어론/교재/6장_교재_문제.md",
+    "ComputerScience/프로그래밍언어론/교재/3장_교재_문제.md",
     "ComputerScience/프로그래밍언어론/교재/5장_교재_문제.md",
     "ComputerScience/프로그래밍언어론/교재/4장_교재_문제.md",
-    "ComputerScience/프로그래밍언어론/필기/6. 데이터 타입.md",
     "ComputerScience/프로그래밍언어론/교재/4장_교재_문제_답.md",
     "ComputerScience/프로그래밍언어론/4장_교재_문제.md",
     "ComputerScience/프로그래밍언어론/3장_교재_문제.md",
@@ -220,7 +242,6 @@
     "ComputerScience/지식재산개론/1. 소개/소개.md",
     "ComputerScience/수리논리학/논리학 개론.md",
     "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
-    "ComputerScience/분산처리/1. WhyParlleism.md",
     "Pasted image 20250417161611.png",
     "Pasted image 20250417161202.png",
     "Pasted image 20250417161009.png",
