@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/지식재산개론/1. 소개/소개.md",
-                "mode": "preview",
+                "file": "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "소개"
+              "title": "상표제도 및 등록요건"
             }
           }
         ]
@@ -185,6 +185,9 @@
   },
   "active": "62e9e9bfa78e0a38",
   "lastOpenFiles": [
+    "ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
+    "ComputerScience/지식재산개론/기출문제/중간 예상 문제.md",
+    "ComputerScience/지식재산개론/1. 소개/소개.md",
     "ComputerScience/프로그래밍언어론/필기/1. 기본사항.md",
     "ComputerScience/프로그래밍언어론/필기/2. 프로그래밍 언어의 발전사.md",
     "ComputerScience/머신러닝/Linear_Regression/우버데이터_Multiple_Linear_Regression.md",
@@ -210,8 +213,6 @@
     "ComputerScience/프로그래밍언어론/chapter3_review.md",
     "ComputerScience/프로그래밍언어론/chapter4_review.md",
     "ComputerScience/프로그래밍언어론/5장_교재_문제.md",
-    "ComputerScience/프로그래밍언어론/6장_교재_문제.md",
-    "ComputerScience/프로그래밍언어론/6장_복습문제.md",
     "ComputerScience/프로그래밍언어론/pdf_check.py",
     "ComputerScience/프로그래밍언어론/pdf_to_md.py",
     "ComputerScience/프로그래밍언어론/교재/6장.pdf",
@@ -220,7 +221,6 @@
     "ComputerScience/프로그래밍언어론/교재/3장.pdf",
     "ComputerScience/프로그래밍언어론/교재",
     "ComputerScience/프로그래밍언어론/교제/6장.pdf",
-    "ComputerScience/프로그래밍언어론/교제/1. 기본사항.md",
     "Pasted image 20250417161611.png",
     "Pasted image 20250417161202.png",
     "Pasted image 20250417161009.png",
