@@ -40,7 +40,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
-import seaborn as sns
 
 np.set_printoptions(precision=6, suppress=True)
 ```
@@ -63,7 +62,6 @@ np.set_printoptions(precision=6, suppress=True)
 
 ```python
 # Download dataset file
-# !wget "https://dongaackr-my.sharepoint.com/:x:/g/personal/sjkim_donga_ac_kr/ET2udlQfsxRAsvnlEtgzfi0B3HAMAmqP_Y2WRsbYrTvYaA?e=dN8Hti&download=1" -q -O kc_house_data.csv
 
 # Load dataset file
 data = pd.read_csv('kc_house_data.csv')
@@ -96,6 +94,10 @@ sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', center=0)
 plt.title('Feature Correlation Heatmap')
 plt.tight_layout()
 plt.show()
+
+# 데이터의 각 열에 대한 상관관계 확인
+correlation_matrix = data_normalized.corr()
+correlation_matrix
 ```
 
 상관계수 행렬 분석 결과:

@@ -1,6 +1,64 @@
 
 ---
-### Least Square Method 기반 선형 회귀 모델 작성
+# Simple Linear Regression
+
+### 데이터셋 로딩 및 전처리
+- kc_house_data: 미국 워싱턴주 시애틀 지역의 주택 가격 데이터를 포함한 공개 데이터셋
+- **price: 주택의 판매 가격 (종속 변수, 목표 값).**
+- **sqft_living: 주택의 실내 면적 (평방 피트).**
+
+```python
+# # Download dataset file
+
+# Load dataset file
+data = pd.read_csv('kc_house_data.csv')
+
+# Single linear regression 실습에 사용할 데이터 열만 수집 (price (정답), sqft_living (입력))
+X, Y = data['sqft_living'], data['price']
+
+# 데이터 값 확인
+df = data[['sqft_living', 'price']]
+print(df)
+
+# Numpy 배열로 전환
+X = np.array(X) # sqft_living
+Y = np.array(Y) # price
+
+# X, Y 각각에 대한 평균과 표준편차 계산
+X_mean = np.mean(X)
+Y_mean = np.mean(Y)
+X_std = np.std(X)
+Y_std = np.std(Y)
+
+# 평균, 표준편차를 이용한 Gaussian 정규화 수행
+X = (X - X_mean) / X_std
+Y = (Y - Y_mean) / Y_std
+
+# 2차원 행렬 변환
+X = np.expand_dims(X, 1)
+Y = np.expand_dims(Y, 1)
+
+# Train dataset / Test dataset 분할 (8:2 비율)
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=1234)
+
+# Test dataset 시각화
+fig = plt.figure()
+plt.scatter(X_test, Y_test, color='b', marker='o', s=15)
+plt.xlabel("X_test (sqft_living)")
+plt.ylabel("Y_test (price)")
+plt.show()
+
+# 데이터 형상 확인
+print(f"X_train: {X_train.shape}, Y_train: {Y_train.shape}")
+print(f"X_test: {X_test.shape}, Y_test: {Y_test.shape}")
+```
+
+>[!success]
+>![[Pasted image 20250421120641.png]]
+>X_train: (17290, 1), Y_train: (17290, 1)
+X_test: (4323, 1), Y_test: (4323, 1)
+
+## Least Square Method 기반 선형 회귀 모델 작성
 
 - 크기를 입력 받고 모두 1로 채워진 행렬 생성:
   ```python
@@ -90,8 +148,36 @@ class LinearRegression_LSM():
         return pred
 ```
 
+###  X_train, Y_train 데이터를 이용한 linear regression 수행 (학습)
+
+```python
+model_LSM = LinearRegression_LSM()
+theta = model_LSM.fit(X_train, Y_train)
+
+print(f"W = {theta[0]}, b = {theta[1]}")
+```
+>[!success]
+>W = [0.70406843], b = [0.00267388]
+
+### X_test, Y_test 데이터를 이용한 linear regression 성능 검증 (테스트)
+```python
+Y_pred = model_LSM.predict(X_test)
+
+# 시각화
+fig = plt.figure()
+plt.scatter(X_test, Y_test, color='b', marker='o', s=15)
+plt.plot(X_test, Y_pred, color='r')
+plt.xlabel("X_test (sqft_living)")
+plt.ylabel("Y_test / Y_pred (price)")
+plt.show()
+```
+
+>[!success]
+>![[Pasted image 20250421120853.png]]
+
+
 ---
-### Gradient Descent Method 기반 선형 회귀 모델 작성
+## Gradient Descent Method 기반 선형 회귀 모델 작성
 
 - **Parameters:**
   - `iteration`: 경사하강법의 반복 횟수
@@ -183,4 +269,24 @@ class LinearRegression_GDM():
     pred = np.dot(X, self.theta)        # (N x 1)
 
     return pred
+```
+
+### 학습
+```python
+model_GDM = LinearRegression_GDM(iteration=1000, learning_rate=0.1)
+theta = model_GDM.fit(X_train, Y_train)
+
+print(f"W = {theta[0]}, b = {theta[1]}")
+```
+### 성능 검증
+```python
+Y_pred = model_GDM.predict(X_test)
+
+# 시각화
+fig = plt.figure()
+plt.scatter(X_test, Y_test, color='b', marker='o', s=15)
+plt.plot(X_test, Y_pred, color='r')
+plt.xlabel("X_test (sqft_living)")
+plt.ylabel("Y_test / Y_pred (price)")
+plt.show()
 ```

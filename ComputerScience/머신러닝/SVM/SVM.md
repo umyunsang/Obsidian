@@ -21,12 +21,6 @@ import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
 ```
 
-> [!note] 핵심 라이브러리
-> - pandas: 데이터 분석용 라이브러리
-> - numpy: 수치 계산용 라이브러리
-> - matplotlib: 데이터 시각화 라이브러리
-> - scikit-learn: 머신러닝 라이브러리 (make_blobs: 군집화된 데이터 생성)
-
 ## 2. 테스트 데이터 생성 및 시각화
 선형 분리 가능한 이진 분류 데이터를 생성하고 시각화합니다.
 
@@ -38,12 +32,9 @@ plt.ylabel("x_2")
 plt.show()
 ```
 
-> [!tip] 데이터 생성 파라미터
-> - n_samples: 생성할 데이터 수 (여기서는 50개)
-> - n_features: 특성(차원) 수 (여기서는 2차원)
-> - centers: 클래스(군집) 수 (여기서는 2개 - 이진분류)
-> - cluster_std: 클래스 내 데이터의 표준편차 (값이 클수록 군집이 흩어짐)
-> - random_state: 난수 생성 시드 (재현성 확보)
+>[!success]
+>![[Pasted image 20250421121448.png]]
+
 
 ## 3. SVM 클래스 구현
 SVM 알고리즘을 직접 구현한 클래스입니다.
@@ -125,9 +116,6 @@ margin_log = model.fit(X, y)
 print(model.weights, model.bias)
 ```
 
-> [!note] 모델 파라미터
-> - weights: 초평면을 정의하는 가중치 벡터 (w)
-> - bias: 초평면의 편향(절편) 값 (b)
 
 ## 5. 결정 경계 시각화 함수
 SVM의 결정 경계와 마진을 시각화하는 함수를 정의합니다.

@@ -73,6 +73,7 @@ data = data.dropna()
 
 # 데이터셋 가우시안 정규화
 data_normalized = (data - data.mean()) / data.std()
+data_normalized
 ```
 
 ## 택시요금 예측에 사용할 데이터 지정
@@ -84,6 +85,10 @@ Y = np.array(data_normalized[['fare_amount']])
 
 # Train dataset / Test dataset 분할
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=1234)
+
+# Train dataset 형상 확인
+print(X_train.shape)
+print(Y_train.shape)
 ```
 
 ## Least Square Method 기반 선형 회귀 모델 구현
@@ -149,11 +154,16 @@ class LinearRegression_LSM():
 
 ## 모델 학습 및 평가
 
+$$
+\text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (Y_i - \hat{Y}_i)^2
+$$
+
 ```python
-# 모델 학습
+# X_train, Y_train 데이터를 이용한 linear regression 수행 (학습)
 model_LSM = LinearRegression_LSM()
 theta = model_LSM.fit(X_train, Y_train)
 
+## X_test, Y_test 데이터를 이용한 linear regression 성능 검증 (테스트)
 # MSE 계산 함수 정의
 def MSE(Y, Y_hat):
     error = Y - Y_hat
@@ -165,28 +175,55 @@ Y_hat = model_LSM.predict(X_test)
 mse = MSE(Y_test, Y_hat)
 ```
 
+## 임의 데이터 X 입력 시 Y_hat 예측
+
+**가우시안 정규화:**
+
+$$
+x' = \frac{x - \mu}{\sigma}
+$$
+
+**가우시안 역정규화:**
+
+$$
+x = x' \cdot \sigma + \mu
+$$
+
 >[!example] 새로운 데이터에 대한 예측
 >```python
 ># 가우시안 정규화/역정규화를 위한 평균, 표준편차 저장
 >mean_array = data.mean()
 >std_array = data.std()
 >
-># 새로운 데이터 입력 및 정규화
->L1_distance = 250  # 맨해튼 거리
->L2_distance = 197  # 유클리드 거리
->passenger_count = 2  # 승객 수
+>mean_L1 = mean_array['L1_distance']
+>mean_L2 = mean_array['L2_distance']
+>mean_passenger = mean_array['passenger_count']
+>mean_fare = mean_array['fare_amount']
 >
-># 정규화
->L1_distance_norm = (L1_distance - mean_array['L1_distance']) / std_array['L1_distance']
->L2_distance_norm = (L2_distance - mean_array['L2_distance']) / std_array['L2_distance']
->passenger_count_norm = (passenger_count - mean_array['passenger_count']) / std_array['passenger_count']
+>std_L1 = std_array['L1_distance']
+>std_L2 = std_array['L2_distance']
+>std_passenger = std_array['passenger_count']
+>std_fare = std_array['fare_amount']
 >
-># 예측
+># 임의 데이터 X 생성
+>L1_distance = 250
+>L2_distance = 197
+>passenger_count = 2
+>
+># 각 입력 변수 X에 대한 정규화 수행
+>L1_distance_norm = (L1_distance - mean_L1) / std_L1
+>L2_distance_norm = (L2_distance - mean_L2) / std_L2
+>passenger_count_norm = (passenger_count - mean_passenger) / std_passenger
+>
 >X_new = np.array([[L1_distance_norm, L2_distance_norm, passenger_count_norm]])
+>
+># 학습한 모델 theta를 이용해 Y_hat 예측
 >Y_hat = model_LSM.predict(X_new)
 >
-># 역정규화하여 실제 요금 계산
->fare_predicted = (Y_hat * std_array['fare_amount']) + mean_array['fare_amount']
+># 출력 변수 Y에 대한 역정규화 수행
+>Y_hat = (Y_hat * std_fare) + mean_fare
+>
+>print(f"Y_hat = {Y_hat}")
 >```
 
 >[!warning] 주의사항
@@ -194,9 +231,3 @@ mse = MSE(Y_test, Y_hat)
 >2. 예측 결과는 역정규화하여 해석
 >3. L1, L2 거리는 실제 거리와 비례하도록 계산
 >4. 승객 수는 정수값으로 입력
-
->[!tip] 모델 성능 향상을 위한 제안
->1. 시간대별 요금 변동 고려
->2. 교통 혼잡도 데이터 추가
->3. 날씨 정보 활용
->4. 특별 행사/이벤트 정보 반영 

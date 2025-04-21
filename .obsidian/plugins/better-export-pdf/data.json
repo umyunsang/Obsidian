@@ -12,11 +12,11 @@
   "isTimestamp": false,
   "enabledCss": false,
   "prevConfig": {
-    "pageSize": "Custom",
+    "pageSize": "A4",
     "marginType": "1",
     "showTitle": true,
     "open": true,
-    "scale": 100,
+    "scale": 78,
     "landscape": false,
     "marginTop": "10",
     "marginBottom": "10",
