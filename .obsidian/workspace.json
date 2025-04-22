@@ -14,10 +14,8 @@
               "type": "pdf",
               "state": {
                 "file": "ComputerScience/프로그래밍언어론/pdf/chap06 데이터 타입-3.pdf",
-                "page": 15,
-                "left": -22,
-                "top": 2,
-                "zoom": 0.8
+                "page": 1,
+                "zoom": 1
               },
               "icon": "lucide-file-text",
               "title": "chap06 데이터 타입-3"
@@ -206,7 +204,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e16501e96c1db1ed",
+  "active": "067b09c736836671",
   "lastOpenFiles": [
     "ComputerScience/프로그래밍언어론/pdf/chap06 데이터 타입-3.pdf",
     "ComputerScience/프로그래밍언어론/필기/6. 데이터 타입.md",
