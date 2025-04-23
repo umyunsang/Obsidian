@@ -4,28 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "71115314b8c98dfa",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ffd106323559be3c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ComputerScience/분산처리/pdf/01_WhyParallelism.pdf",
-                "page": 84,
-                "left": -29,
-                "top": 465,
-                "zoom": 0.5140625000000001
-              },
-              "icon": "lucide-file-text",
-              "title": "01_WhyParallelism"
-            }
-          }
-        ]
-      },
-      {
         "id": "746d265bb652bb3f",
         "type": "tabs",
         "children": [
@@ -36,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -208,6 +186,7 @@
   "active": "88967bc4191ee4f0",
   "lastOpenFiles": [
     "ComputerScience/분산처리/1. WhyParlleism.md",
+    "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
     "ComputerScience/분산처리/pdf/01_WhyParallelism.pdf",
     "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.pdf",
     "ComputerScience/지식재산개론/기출문제/중간 예상 문제.md",
