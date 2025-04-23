@@ -8,17 +8,39 @@
         "type": "tabs",
         "children": [
           {
+            "id": "ffd106323559be3c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ComputerScience/분산처리/pdf/01_WhyParallelism.pdf",
+                "page": 84,
+                "left": -29,
+                "top": 465,
+                "zoom": 0.5140625000000001
+              },
+              "icon": "lucide-file-text",
+              "title": "01_WhyParallelism"
+            }
+          }
+        ]
+      },
+      {
+        "id": "746d265bb652bb3f",
+        "type": "tabs",
+        "children": [
+          {
             "id": "88967bc4191ee4f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
+                "file": "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "상표제도 및 등록요건"
+              "title": "2. 멀티 코어 프로세서"
             }
           }
         ]
@@ -185,9 +207,13 @@
   },
   "active": "88967bc4191ee4f0",
   "lastOpenFiles": [
+    "ComputerScience/분산처리/1. WhyParlleism.md",
+    "ComputerScience/분산처리/pdf/01_WhyParallelism.pdf",
+    "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.pdf",
+    "ComputerScience/지식재산개론/기출문제/중간 예상 문제.md",
+    "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
     "ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
     "ComputerScience/지식재산개론/1. 소개/소개.md",
-    "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
     "ComputerScience/프로그래밍언어론/pdf/chap06 데이터 타입-3.pdf",
     "ComputerScience/프로그래밍언어론/필기/6. 데이터 타입.md",
     "ComputerScience/프로그래밍언어론/교재/6장_교재_문제.md",
@@ -197,8 +223,6 @@
     "ComputerScience/프로그래밍언어론/교재/3장.pdf",
     "ComputerScience/프로그래밍언어론/교재/5.장.pdf",
     "ComputerScience/프로그래밍언어론/교재/6장.pdf",
-    "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.pdf",
-    "ComputerScience/지식재산개론/기출문제/중간 예상 문제.md",
     "ComputerScience/머신러닝/중간/대비문제.md",
     "ComputerScience/머신러닝/images/Pasted image 20250421121942.png",
     "ComputerScience/머신러닝/images/Pasted image 20250421121448.png",
@@ -208,7 +232,6 @@
     "ComputerScience/머신러닝/프린트/대비문제.pdf",
     "ComputerScience/머신러닝/프린트/QP SVM.pdf",
     "ComputerScience/머신러닝/프린트/SVM.pdf",
-    "ComputerScience/머신러닝/프린트/Multiple_Linear_Regression.pdf",
     "ComputerScience/머신러닝/중간/프린트용.md",
     "ComputerScience/머신러닝/SVM/QP SVM.md",
     "ComputerScience/머신러닝/SVM/Multi_SVM.md",
@@ -227,7 +250,6 @@
     "ComputerScience/프로그래밍언어론/필기/3. 구문론.md",
     "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
     "ComputerScience/프로그래밍언어론/필기/4. 재귀 하강 파싱.md",
-    "ComputerScience/프로그래밍언어론/필기/5. 이름, 바인딩, 영역.md",
     "Pasted image 20250417161611.png",
     "Pasted image 20250417161202.png"
   ]
