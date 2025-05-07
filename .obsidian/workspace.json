@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ComputerScience/지식재산개론/4. 디자인 제도 및 등록요건/디자인 제도 1차시.pdf",
-                "page": 25,
+                "file": "ComputerScience/지식재산개론/4. 디자인 제도 및 등록요건/디자인 제도 2차시.pdf",
+                "page": 23,
                 "left": -25,
-                "top": 576,
-                "zoom": 0.6182297311749464
+                "top": 543,
+                "zoom": 0.6182297311749463
               },
               "icon": "lucide-file-text",
-              "title": "디자인 제도 1차시"
+              "title": "디자인 제도 2차시"
             }
           }
         ]
@@ -206,10 +206,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "aea034f698b180e8",
+  "active": "063fbb9f03d10288",
   "lastOpenFiles": [
-    "ComputerScience/지식재산개론/4. 디자인 제도 및 등록요건/디자인 제도 1차시.pdf",
+    "ComputerScience/지식재산개론/4. 디자인 제도 및 등록요건/디자인 제도 2차시.pdf",
     "ComputerScience/지식재산개론/4. 디자인 제도 및 등록요건/디자인 제도의 목적과 개념.md",
+    "스크린샷 2025-05-07 091243.png",
+    "ComputerScience/지식재산개론/4. 디자인 제도 및 등록요건/디자인 제도 1차시.pdf",
     "ComputerScience/지식재산개론/images/Pasted image 20250430090936.png",
     "Pasted image 20250430090936.png",
     "ComputerScience/분산처리/무제.md",
@@ -220,7 +222,6 @@
     "ComputerScience/분산처리/pdf/06_Locality_Communication_Contention.pdf",
     "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
     "ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
-    "ComputerScience/지식재산개론/4. 디자인 제도 및 등록요건/디자인 제도 2차시.pdf",
     "ComputerScience/프로그래밍언어론/교재/5장_교재_문제.md",
     "ComputerScience/프로그래밍언어론/교재/4장_교재_문제.md",
     "ComputerScience/프로그래밍언어론/교재/3장_교재_문제.md",
@@ -251,7 +252,6 @@
     "ComputerScience/머신러닝/SVM/SVM.md",
     "Pasted image 20250421121448.png",
     "ComputerScience/머신러닝/Linear_Regression/Multiple_Linear_Regression.md",
-    "Pasted image 20250421120853.png",
-    "Pasted image 20250421120641.png"
+    "Pasted image 20250421120853.png"
   ]
 }
