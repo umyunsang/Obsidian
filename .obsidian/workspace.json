@@ -4,28 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "228bac0df2608196",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "aea034f698b180e8",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ComputerScience/지식재산개론/4. 디자인 제도 및 등록요건/디자인 제도 2차시.pdf",
-                "page": 25,
-                "left": -25,
-                "top": 198,
-                "zoom": 0.6182297311749463
-              },
-              "icon": "lucide-file-text",
-              "title": "디자인 제도 2차시"
-            }
-          }
-        ]
-      },
-      {
         "id": "b39a907be0c7446d",
         "type": "tabs",
         "children": [
@@ -33,14 +11,16 @@
             "id": "063fbb9f03d10288",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ComputerScience/지식재산개론/4. 디자인 제도 및 등록요건/디자인 제도의 목적과 개념.md",
-                "mode": "source",
-                "source": false
+                "file": "ComputerScience/분산처리/pdf/04_Parallel Programming 기본.pdf",
+                "page": 1,
+                "left": -16,
+                "top": 544,
+                "zoom": 0.95390625
               },
-              "icon": "lucide-file",
-              "title": "디자인 제도의 목적과 개념"
+              "icon": "lucide-file-text",
+              "title": "04_Parallel Programming 기본"
             }
           }
         ]
@@ -100,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5041847229004,
-    "collapsed": true
+    "width": 219.5041847229004
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -208,8 +187,9 @@
   },
   "active": "063fbb9f03d10288",
   "lastOpenFiles": [
-    "ComputerScience/지식재산개론/4. 디자인 제도 및 등록요건/디자인 제도 2차시.pdf",
+    "ComputerScience/분산처리/pdf/05_Performance Optimization I Work Distribution and Scheduling.pdf",
     "ComputerScience/지식재산개론/4. 디자인 제도 및 등록요건/디자인 제도의 목적과 개념.md",
+    "ComputerScience/지식재산개론/4. 디자인 제도 및 등록요건/디자인 제도 2차시.pdf",
     "스크린샷 2025-05-07 091243.png",
     "ComputerScience/지식재산개론/4. 디자인 제도 및 등록요건/디자인 제도 1차시.pdf",
     "ComputerScience/지식재산개론/images/Pasted image 20250430090936.png",
@@ -218,7 +198,6 @@
     "ComputerScience/분산처리/pdf/03_multicore2-update_0416.pdf",
     "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
     "ComputerScience/분산처리/pdf/04_Parallel Programming 기본.pdf",
-    "ComputerScience/분산처리/pdf/05_Performance Optimization I Work Distribution and Scheduling.pdf",
     "ComputerScience/분산처리/pdf/06_Locality_Communication_Contention.pdf",
     "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
     "ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
