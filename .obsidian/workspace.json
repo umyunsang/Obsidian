@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ComputerScience/분산처리/pdf/04_Parallel Programming 기본.pdf",
-                "page": 31,
-                "left": -107,
-                "top": 357,
+                "file": "ComputerScience/머신러닝/CNN, UNet/11주차_실습_CNN, U_Net.pdf",
+                "page": 21,
+                "left": -3,
+                "top": 361,
                 "zoom": 0.9
               },
               "icon": "lucide-file-text",
-              "title": "04_Parallel Programming 기본"
+              "title": "11주차_실습_CNN, U_Net"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5041847229004
+    "width": 219.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -187,21 +188,21 @@
   },
   "active": "b301d5f59da744b1",
   "lastOpenFiles": [
+    "ComputerScience/분산처리/pdf/04_Parallel Programming 기본.pdf",
+    "ComputerScience/머신러닝/CNN, UNet/11주차_실습_CNN, U_Net.pdf",
+    "ComputerScience/머신러닝/CNN, UNet",
+    "ComputerScience/머신러닝/새 폴더",
     "ComputerScience/머신러닝/KNN, 결정트리/250508_머신러닝_03분반_엔트로피(결정트리,KNN).pdf",
     "ComputerScience/머신러닝/KNN, 결정트리",
     "ComputerScience/머신러닝/KNN",
-    "ComputerScience/머신러닝/새 폴더",
     "ComputerScience/분산처리/pdf/05_Performance Optimization I Work Distribution and Scheduling.pdf",
     "ComputerScience/지식재산개론/5. 특허/발명의성립성신규성(4주차-2차시강의자료).pdf",
     "ComputerScience/지식재산개론/5. 특허/특허 제도.md",
     "ComputerScience/지식재산개론/4. 디자인 제도 및 등록요건/디자인 제도의 목적과 개념.md",
     "ComputerScience/지식재산개론/4. 디자인 제도 및 등록요건/디자인 제도 2차시.pdf",
     "ComputerScience/지식재산개론/5. 특허/발명의성립성신규성(5주차-1차시강의자료).pdf",
-    "ComputerScience/지식재산개론/5. 특허",
-    "ComputerScience/지식재산개론/새 폴더",
     "ComputerScience/수리논리학/동아설계도.md",
     "ComputerScience/수리논리학/논리학 개론.md",
-    "ComputerScience/분산처리/pdf/04_Parallel Programming 기본.pdf",
     "스크린샷 2025-05-07 091243.png",
     "ComputerScience/지식재산개론/images/Pasted image 20250430090936.png",
     "Pasted image 20250430090936.png",
