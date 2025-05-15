@@ -11,16 +11,14 @@
             "id": "b301d5f59da744b1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ComputerScience/머신러닝/CNN, UNet/11주차_실습_CNN, U_Net.pdf",
-                "page": 21,
-                "left": -3,
-                "top": 361,
-                "zoom": 0.9
+                "file": "ComputerScience/수리논리학/논리학 개론.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "11주차_실습_CNN, U_Net"
+              "icon": "lucide-file",
+              "title": "논리학 개론"
             }
           }
         ]
@@ -80,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5041847229004,
-    "collapsed": true
+    "width": 219.5041847229004
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -188,8 +185,8 @@
   },
   "active": "b301d5f59da744b1",
   "lastOpenFiles": [
-    "ComputerScience/분산처리/pdf/04_Parallel Programming 기본.pdf",
     "ComputerScience/머신러닝/CNN, UNet/11주차_실습_CNN, U_Net.pdf",
+    "ComputerScience/분산처리/pdf/04_Parallel Programming 기본.pdf",
     "ComputerScience/머신러닝/CNN, UNet",
     "ComputerScience/머신러닝/새 폴더",
     "ComputerScience/머신러닝/KNN, 결정트리/250508_머신러닝_03분반_엔트로피(결정트리,KNN).pdf",
