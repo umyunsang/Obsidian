@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ComputerScience/분산처리/pdf/07_GPU Architecture & CUDAProgramming_v01.pdf",
-                "page": 2,
-                "left": -13,
-                "top": 433,
-                "zoom": 1.2398437500000001
+                "file": "ComputerScience/머신러닝/KNN, 결정트리/250520_Decision_Tree_KNN_실습자료.pdf",
+                "page": 1,
+                "left": -28,
+                "top": 544,
+                "zoom": 0.5828125000000001
               },
               "icon": "lucide-file-text",
-              "title": "07_GPU Architecture & CUDAProgramming_v01"
+              "title": "250520_Decision_Tree_KNN_실습자료"
             }
           }
         ]
@@ -188,6 +188,11 @@
   },
   "active": "b301d5f59da744b1",
   "lastOpenFiles": [
+    "ComputerScience/머신러닝/KNN, 결정트리/250508_머신러닝_03분반_엔트로피(결정트리,KNN).pdf",
+    "ComputerScience/머신러닝/KNN, 결정트리/250520_Decision_Tree_KNN_실습자료.pdf",
+    "ComputerScience/분산처리/pdf/07_GPU Architecture & CUDAProgramming_v01.pdf",
+    "ComputerScience/머신러닝/KNN, 결정트리/Decision_tree_base_code.ipynb",
+    "ComputerScience/머신러닝/KNN, 결정트리/KNN_base_code.ipynb",
     "ComputerScience/지식재산개론/5. 특허/발명의성립성신규성(5주차-1차시강의자료).pdf",
     "ComputerScience/지식재산개론/5. 특허/특허 제도.md",
     "ComputerScience/지식재산개론/5. 특허/특허출원절차와보정-2.pdf",
@@ -196,10 +201,6 @@
     "ComputerScience/머신러닝/CNN, UNet/11주차_실습_CNN, U_Net.pdf",
     "ComputerScience/분산처리/pdf/04_Parallel Programming 기본.pdf",
     "ComputerScience/머신러닝/CNN, UNet",
-    "ComputerScience/머신러닝/새 폴더",
-    "ComputerScience/머신러닝/KNN, 결정트리/250508_머신러닝_03분반_엔트로피(결정트리,KNN).pdf",
-    "ComputerScience/머신러닝/KNN, 결정트리",
-    "ComputerScience/머신러닝/KNN",
     "ComputerScience/지식재산개론/4. 디자인 제도 및 등록요건/디자인 제도의 목적과 개념.md",
     "ComputerScience/수리논리학/동아설계도.md",
     "스크린샷 2025-05-07 091243.png",
