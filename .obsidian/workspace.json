@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "ComputerScience/지식재산개론/5. 특허/특허출원절차와보정-1.pdf",
-                "page": 14,
+                "page": 18,
                 "left": -26,
-                "top": 590,
+                "top": 468,
                 "zoom": 0.5861601773964189
               },
               "icon": "lucide-file-text",
@@ -205,7 +205,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b301d5f59da744b1",
+  "active": "dafd933f4f2e4ba0",
   "lastOpenFiles": [
     "ComputerScience/지식재산개론/5. 특허/특허출원절차와보정-1.pdf",
     "ComputerScience/지식재산개론/5. 특허/특허 제도.md",
