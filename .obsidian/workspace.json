@@ -11,16 +11,14 @@
             "id": "dafd933f4f2e4ba0",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ComputerScience/지식재산개론/5. 특허/특허출원절차와보정-1.pdf",
-                "page": 18,
-                "left": -26,
-                "top": 468,
-                "zoom": 0.5861601773964189
+                "file": "ComputerScience/수리논리학/동아설계도.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "특허출원절차와보정-1"
+              "icon": "lucide-file",
+              "title": "동아설계도"
             }
           }
         ]
