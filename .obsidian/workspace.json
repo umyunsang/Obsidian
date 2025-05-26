@@ -8,19 +8,39 @@
         "type": "tabs",
         "children": [
           {
-            "id": "12172545db6790dc",
+            "id": "900e8dd8a20b71bf",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ComputerScience/머신러닝/SRCNN/머신러닝_12주차_250522_Super Resolution using CNN.pdf",
-                "page": 29,
-                "left": -27,
-                "top": 546,
-                "zoom": 0.5828125
+                "file": "ComputerScience/지식재산개론/5. 특허/특허출원절차와보정-2.pdf",
+                "page": 14,
+                "left": -26,
+                "top": 98,
+                "zoom": 0.5861601773964189
               },
               "icon": "lucide-file-text",
-              "title": "머신러닝_12주차_250522_Super Resolution using CNN"
+              "title": "특허출원절차와보정-2"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a21e1c8360b46bbf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12172545db6790dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerScience/지식재산개론/5. 특허/특허 제도.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "특허 제도"
             }
           }
         ]
@@ -80,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5041847229004,
-    "collapsed": true
+    "width": 219.5041847229004
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -186,21 +205,22 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "12172545db6790dc",
+  "active": "900e8dd8a20b71bf",
   "lastOpenFiles": [
     "ComputerScience/지식재산개론/5. 특허/특허 제도.md",
-    "ComputerScience/수리논리학/동아설계도.md",
-    "ComputerScience/지식재산개론/5. 특허/특허출원절차와보정-1.pdf",
     "ComputerScience/지식재산개론/5. 특허/특허출원절차와보정-2.pdf",
+    "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.pdf",
+    "ComputerScience/지식재산개론/기출문제/중간 예상 문제.md",
+    "ComputerScience/지식재산개론/5. 특허/특허출원절차와보정-1.pdf",
+    "ComputerScience/지식재산개론/5. 특허/명세서 작성 및 청구범위 해석_강의자료(2022개론 9-1).pdf",
+    "ComputerScience/지식재산개론/5. 특허/명세서 작성 및 청구범위 해석(22.11.8).pdf",
+    "ComputerScience/머신러닝/SRCNN/머신러닝_12주차_250522_Super Resolution using CNN.pdf",
+    "ComputerScience/수리논리학/동아설계도.md",
     "ComputerScience/머신러닝/KNN, 결정트리/250520_Decision_Tree_KNN_실습자료.pdf",
     "ComputerScience/머신러닝/KNN, 결정트리/250508_머신러닝_03분반_엔트로피(결정트리,KNN).pdf",
     "ComputerScience/분산처리/pdf/07_GPU Architecture & CUDAProgramming_v01.pdf",
     "ComputerScience/머신러닝/KNN, 결정트리/Decision_tree_base_code.ipynb",
-    "ComputerScience/머신러닝/KNN, 결정트리/KNN_base_code.ipynb",
-    "ComputerScience/지식재산개론/5. 특허/발명의성립성신규성(5주차-1차시강의자료).pdf",
     "ComputerScience/수리논리학/논리학 개론.md",
-    "ComputerScience/머신러닝/CNN, UNet/11주차_실습_CNN, U_Net.pdf",
-    "ComputerScience/분산처리/pdf/04_Parallel Programming 기본.pdf",
     "ComputerScience/지식재산개론/4. 디자인 제도 및 등록요건/디자인 제도의 목적과 개념.md",
     "스크린샷 2025-05-07 091243.png",
     "ComputerScience/지식재산개론/images/Pasted image 20250430090936.png",
@@ -221,7 +241,6 @@
     "ComputerScience/프로그래밍언어론/필기/1. 기본사항.md",
     "ComputerScience/프로그래밍언어론/필기/0. 명령어 집합.md",
     "ComputerScience/분산처리/1. WhyParlleism.md",
-    "ComputerScience/지식재산개론/기출문제/중간 예상 문제.md",
     "ComputerScience/지식재산개론/1. 소개/소개.md",
     "ComputerScience/머신러닝/중간/대비문제.md",
     "ComputerScience/머신러닝/images/Pasted image 20250421121942.png",
