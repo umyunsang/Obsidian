@@ -11,14 +11,16 @@
             "id": "900e8dd8a20b71bf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ComputerScience/프로그래밍언어론/과제/9장 레포트.md",
-                "mode": "preview",
-                "source": false
+                "file": "ComputerScience/지식재산개론/6. 특허 명세서/특허명세서 작성법.pdf",
+                "page": 20,
+                "left": -13,
+                "top": 516,
+                "zoom": 1.218643043584044
               },
-              "icon": "lucide-file",
-              "title": "9장 레포트"
+              "icon": "lucide-file-text",
+              "title": "특허명세서 작성법"
             }
           }
         ]
@@ -185,9 +187,9 @@
   },
   "active": "900e8dd8a20b71bf",
   "lastOpenFiles": [
+    "ComputerScience/프로그래밍언어론/과제/9장 레포트.md",
     "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
     "ComputerScience/프로그래밍언어론/과제/3장 연습문제 (과제).md",
-    "ComputerScience/프로그래밍언어론/과제/9장 레포트.md",
     "ComputerScience/지식재산개론/6. 특허 명세서/특허명세서 작성법.pdf",
     "ComputerScience/지식재산개론/5. 특허/특허출원절차와보정-2.pdf",
     "ComputerScience/지식재산개론/5. 특허/명세서 작성 및 청구범위 해석(22.11.8).pdf",
