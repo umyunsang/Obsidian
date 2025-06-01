@@ -11,12 +11,14 @@
             "id": "900e8dd8a20b71bf",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ComputerScience/지식재산개론/6. 특허 명세서/특허명세서 작성법.pdf"
+                "file": "프로젝트/MCP_연구/실험_결과/커서_연동_테스트.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "특허명세서 작성법"
+              "icon": "lucide-file",
+              "title": "커서_연동_테스트"
             }
           }
         ]
@@ -183,20 +185,23 @@
   },
   "active": "900e8dd8a20b71bf",
   "lastOpenFiles": [
+    "MCP_테스트/새로운_폴더/MCP_테스트_노트.md",
+    "프로젝트/MCP_테스트/새로운_폴더/MCP_테스트_노트.md",
+    "프로젝트/MCP_테스트/새로운_폴더",
+    "프로젝트/MCP_테스트",
+    "프로젝트/MCP_연구/실험_결과/커서_연동_테스트.md",
+    "ComputerScience/머신러닝/RNN_LSTM/머신러닝_실습_RNN_LSTM.pdf",
+    "ComputerScience/머신러닝/RNN_LSTM/머신러닝_03분반_13주차_강의영상_(RNN,LSTM))_판서.pdf",
+    "ComputerScience/지식재산개론/6. 특허 명세서/특허명세서 작성법.pdf",
     "ComputerScience/프로그래밍언어론/과제/9장 레포트.md",
     "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
     "ComputerScience/프로그래밍언어론/과제/3장 연습문제 (과제).md",
-    "ComputerScience/지식재산개론/6. 특허 명세서/특허명세서 작성법.pdf",
     "ComputerScience/지식재산개론/5. 특허/특허출원절차와보정-2.pdf",
     "ComputerScience/지식재산개론/5. 특허/명세서 작성 및 청구범위 해석(22.11.8).pdf",
     "ComputerScience/지식재산개론/6. 특허 명세서/명세서 작성 및 청구범위 해석(22.11.8).pdf",
     "ComputerScience/지식재산개론/6. 특허 명세서/명세서 작성 및 청구범위 해석_강의자료(2022개론 9-1).pdf",
     "ComputerScience/지식재산개론/6. 특허 명세서",
-    "ComputerScience/지식재산개론/새 폴더",
-    "ComputerScience/지식재산개론/특허명세서 작성법.pdf",
-    "ComputerScience/지식재산개론/5. 특허/명세서 작성 및 청구범위 해석_강의자료(2022개론 9-1).pdf",
     "ComputerScience/지식재산개론/5. 특허/특허 제도.md",
-    "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.pdf",
     "ComputerScience/지식재산개론/기출문제/중간 예상 문제.md",
     "ComputerScience/수리논리학/동아설계도.md",
     "ComputerScience/수리논리학/논리학 개론.md",
@@ -219,9 +224,6 @@
     "ComputerScience/프로그래밍언어론/필기/2. 프로그래밍 언어의 발전사.md",
     "ComputerScience/프로그래밍언어론/필기/1. 기본사항.md",
     "ComputerScience/프로그래밍언어론/필기/0. 명령어 집합.md",
-    "ComputerScience/분산처리/1. WhyParlleism.md",
-    "ComputerScience/지식재산개론/1. 소개/소개.md",
-    "ComputerScience/머신러닝/중간/대비문제.md",
     "ComputerScience/머신러닝/images/Pasted image 20250421121942.png",
     "ComputerScience/머신러닝/images/Pasted image 20250421121448.png",
     "ComputerScience/머신러닝/images/Pasted image 20250421120853.png",
