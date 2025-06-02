@@ -11,14 +11,16 @@
             "id": "900e8dd8a20b71bf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "프로젝트/MCP_연구/실험_결과/커서_연동_테스트.md",
-                "mode": "source",
-                "source": false
+                "file": "ComputerScience/지식재산개론/6. 특허 명세서/특허명세서 작성법.pdf",
+                "page": 20,
+                "left": -12,
+                "top": 67,
+                "zoom": 1.218643043584044
               },
-              "icon": "lucide-file",
-              "title": "커서_연동_테스트"
+              "icon": "lucide-file-text",
+              "title": "특허명세서 작성법"
             }
           }
         ]
@@ -185,11 +187,12 @@
   },
   "active": "900e8dd8a20b71bf",
   "lastOpenFiles": [
+    "ComputerScience/지식재산개론/6. 특허 명세서/특허 명세서 작성법.md",
+    "프로젝트/MCP_연구/실험_결과/커서_연동_테스트.md",
     "MCP_테스트/새로운_폴더/MCP_테스트_노트.md",
     "프로젝트/MCP_테스트/새로운_폴더/MCP_테스트_노트.md",
     "프로젝트/MCP_테스트/새로운_폴더",
     "프로젝트/MCP_테스트",
-    "프로젝트/MCP_연구/실험_결과/커서_연동_테스트.md",
     "ComputerScience/머신러닝/RNN_LSTM/머신러닝_실습_RNN_LSTM.pdf",
     "ComputerScience/머신러닝/RNN_LSTM/머신러닝_03분반_13주차_강의영상_(RNN,LSTM))_판서.pdf",
     "ComputerScience/지식재산개론/6. 특허 명세서/특허명세서 작성법.pdf",
@@ -223,7 +226,6 @@
     "ComputerScience/프로그래밍언어론/필기/5. 이름, 바인딩, 영역.md",
     "ComputerScience/프로그래밍언어론/필기/2. 프로그래밍 언어의 발전사.md",
     "ComputerScience/프로그래밍언어론/필기/1. 기본사항.md",
-    "ComputerScience/프로그래밍언어론/필기/0. 명령어 집합.md",
     "ComputerScience/머신러닝/images/Pasted image 20250421121942.png",
     "ComputerScience/머신러닝/images/Pasted image 20250421121448.png",
     "ComputerScience/머신러닝/images/Pasted image 20250421120853.png",
