@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ComputerScience/머신러닝/RNN_LSTM/머신러닝_실습_RNN_LSTM.pdf",
-                "page": 19,
-                "left": -27,
-                "top": 151,
-                "zoom": 0.5828125
+                "file": "ComputerScience/머신러닝/Transformer/14주차_머신러닝_Transformer_강의자료.pdf",
+                "page": 1,
+                "left": -107,
+                "top": 543,
+                "zoom": 0.9
               },
               "icon": "lucide-file-text",
-              "title": "머신러닝_실습_RNN_LSTM"
+              "title": "14주차_머신러닝_Transformer_강의자료"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5041847229004,
-    "collapsed": true
+    "width": 219.5041847229004
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -188,6 +187,9 @@
   },
   "active": "900e8dd8a20b71bf",
   "lastOpenFiles": [
+    "ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
+    "ComputerScience/머신러닝/Transformer/14주차_머신러닝_Transformer_강의자료.pdf",
+    "ComputerScience/머신러닝/RNN_LSTM/머신러닝_실습_RNN_LSTM.pdf",
     "ComputerScience/머신러닝/RNN_LSTM/머신러닝_03분반_13주차_강의영상_(RNN,LSTM))_판서.pdf",
     "ComputerScience/머신러닝/KNN, 결정트리/250520_Decision_Tree_KNN_실습자료.pdf",
     "ComputerScience/머신러닝/KNN, 결정트리/250508_머신러닝_03분반_엔트로피(결정트리,KNN).pdf",
@@ -203,12 +205,9 @@
     "프로젝트/MCP_테스트/새로운_폴더/MCP_테스트_노트.md",
     "프로젝트/MCP_테스트/새로운_폴더",
     "프로젝트/MCP_테스트",
-    "ComputerScience/머신러닝/RNN_LSTM/머신러닝_실습_RNN_LSTM.pdf",
     "ComputerScience/프로그래밍언어론/과제/9장 레포트.md",
     "ComputerScience/프로그래밍언어론/과제/3장 연습문제 (과제).md",
     "ComputerScience/지식재산개론/5. 특허/특허출원절차와보정-2.pdf",
-    "ComputerScience/지식재산개론/5. 특허/명세서 작성 및 청구범위 해석(22.11.8).pdf",
-    "ComputerScience/지식재산개론/6. 특허 명세서/명세서 작성 및 청구범위 해석(22.11.8).pdf",
     "ComputerScience/지식재산개론/5. 특허/특허 제도.md",
     "ComputerScience/지식재산개론/기출문제/중간 예상 문제.md",
     "ComputerScience/수리논리학/동아설계도.md",
