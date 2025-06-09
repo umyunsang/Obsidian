@@ -11,16 +11,14 @@
             "id": "900e8dd8a20b71bf",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ComputerScience/지식재산개론/5. 특허/특허일반(직무발명).pdf",
-                "page": 2,
-                "left": -12,
-                "top": 186,
-                "zoom": 1.218643043584044
+                "file": "ComputerScience/프로그래밍언어론/연습문제.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "특허일반(직무발명)"
+              "icon": "lucide-file",
+              "title": "연습문제"
             }
           }
         ]
@@ -187,9 +185,10 @@
   },
   "active": "900e8dd8a20b71bf",
   "lastOpenFiles": [
+    "ComputerScience/지식재산개론/5. 특허/특허일반(직무발명).pdf",
+    "ComputerScience/프로그래밍언어론/연습문제.md",
     "ComputerScience/지식재산개론/6. 특허 명세서/특허명세서 작성법.pdf",
     "ComputerScience/지식재산개론/6. 특허 명세서/2_명세서 작성 및 청구범위.pdf",
-    "ComputerScience/지식재산개론/5. 특허/특허일반(직무발명).pdf",
     "ComputerScience/지식재산개론/과제/과제2.pdf",
     "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.md",
     "ComputerScience/지식재산개론/과제/특허명세서의 양식.md",
@@ -210,7 +209,6 @@
     "프로젝트/MCP_연구/실험_결과/커서_연동_테스트.md",
     "MCP_테스트/새로운_폴더/MCP_테스트_노트.md",
     "프로젝트/MCP_테스트/새로운_폴더/MCP_테스트_노트.md",
-    "프로젝트/MCP_테스트/새로운_폴더",
     "ComputerScience/프로그래밍언어론/과제/9장 레포트.md",
     "ComputerScience/프로그래밍언어론/과제/3장 연습문제 (과제).md",
     "ComputerScience/지식재산개론/5. 특허/특허 제도.md",
@@ -225,7 +223,6 @@
     "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
     "ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
     "ComputerScience/프로그래밍언어론/교재/5장_교재_문제.md",
-    "ComputerScience/프로그래밍언어론/교재/4장_교재_문제.md",
     "ComputerScience/머신러닝/images/Pasted image 20250421121942.png",
     "ComputerScience/머신러닝/images/Pasted image 20250421121448.png",
     "ComputerScience/머신러닝/images/Pasted image 20250421120853.png",
