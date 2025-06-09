@@ -11,14 +11,16 @@
             "id": "900e8dd8a20b71bf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_최종정리.md",
-                "mode": "source",
-                "source": false
+                "file": "ComputerScience/지식재산개론/5. 특허/특허일반(직무발명).pdf",
+                "page": 2,
+                "left": -12,
+                "top": 186,
+                "zoom": 1.218643043584044
               },
-              "icon": "lucide-file",
-              "title": "1. IPAT 기출문제 지식재산권_최종정리"
+              "icon": "lucide-file-text",
+              "title": "특허일반(직무발명)"
             }
           }
         ]
@@ -185,9 +187,15 @@
   },
   "active": "900e8dd8a20b71bf",
   "lastOpenFiles": [
-    "ComputerScience/머신러닝/Transformer/14주차_머신러닝_Transformer_강의자료.pdf",
-    "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_최종정리.md",
+    "ComputerScience/지식재산개론/6. 특허 명세서/특허명세서 작성법.pdf",
+    "ComputerScience/지식재산개론/6. 특허 명세서/2_명세서 작성 및 청구범위.pdf",
+    "ComputerScience/지식재산개론/5. 특허/특허일반(직무발명).pdf",
+    "ComputerScience/지식재산개론/과제/과제2.pdf",
     "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.md",
+    "ComputerScience/지식재산개론/과제/특허명세서의 양식.md",
+    "ComputerScience/지식재산개론/과제/과제.md",
+    "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_최종정리.md",
+    "ComputerScience/머신러닝/Transformer/14주차_머신러닝_Transformer_강의자료.pdf",
     "ComputerScience/머신러닝/Transformer/머신러닝_Transformer-예시.pdf",
     "ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
     "ComputerScience/머신러닝/RNN_LSTM/머신러닝_실습_RNN_LSTM.pdf",
@@ -197,15 +205,12 @@
     "ComputerScience/분산처리/REPORT.md",
     "ComputerScience/프로그래밍언어론/교재/3장_교재_문제.md",
     "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
-    "ComputerScience/지식재산개론/6. 특허 명세서/특허명세서 작성법.pdf",
-    "ComputerScience/지식재산개론/과제/과제2.pdf",
     "ComputerScience/지식재산개론/6. 특허 명세서/특허명세서_AI_enhanced.md",
     "ComputerScience/지식재산개론/6. 특허 명세서/특허 명세서 작성법.md",
     "프로젝트/MCP_연구/실험_결과/커서_연동_테스트.md",
     "MCP_테스트/새로운_폴더/MCP_테스트_노트.md",
     "프로젝트/MCP_테스트/새로운_폴더/MCP_테스트_노트.md",
     "프로젝트/MCP_테스트/새로운_폴더",
-    "프로젝트/MCP_테스트",
     "ComputerScience/프로그래밍언어론/과제/9장 레포트.md",
     "ComputerScience/프로그래밍언어론/과제/3장 연습문제 (과제).md",
     "ComputerScience/지식재산개론/5. 특허/특허 제도.md",
@@ -221,8 +226,6 @@
     "ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
     "ComputerScience/프로그래밍언어론/교재/5장_교재_문제.md",
     "ComputerScience/프로그래밍언어론/교재/4장_교재_문제.md",
-    "ComputerScience/프로그래밍언어론/필기/6. 데이터 타입.md",
-    "ComputerScience/프로그래밍언어론/교재/6장_교재_문제.md",
     "ComputerScience/머신러닝/images/Pasted image 20250421121942.png",
     "ComputerScience/머신러닝/images/Pasted image 20250421121448.png",
     "ComputerScience/머신러닝/images/Pasted image 20250421120853.png",
