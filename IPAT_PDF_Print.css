@@ -1,0 +1,163 @@
+/* IPAT 기출문제 PDF 인쇄 최적화 CSS */
+/* .obsidian/snippets/ 폴더에 이 파일을 넣고 활성화하세요 */
+
+@media print {
+  /* 전체 문서 설정 */
+  body, .markdown-preview-view {
+    font-size: 9px !important;
+    line-height: 1.2 !important;
+    margin: 0.3in !important;
+    padding: 0 !important;
+    color: black !important;
+    font-family: "Malgun Gothic", "Noto Sans KR", Arial, sans-serif !important;
+    background: white !important;
+  }
+  
+  /* 제목 스타일 */
+  h1 {
+    font-size: 16px !important;
+    text-align: center !important;
+    margin: 0.2em 0 0.5em 0 !important;
+    page-break-after: avoid !important;
+    border-bottom: 2px solid #333 !important;
+    padding-bottom: 0.2em !important;
+  }
+  
+  /* 문제 블록 - 페이지 브레이크 방지 */
+  .question-block {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    margin-bottom: 0.4em !important;
+    padding: 0.2em !important;
+    border: 1px solid #ccc !important;
+    background-color: #f9f9f9 !important;
+  }
+  
+  /* 문제 제목 */
+  .question-title {
+    font-weight: bold !important;
+    font-size: 10px !important;
+    margin-bottom: 0.2em !important;
+    page-break-after: avoid !important;
+    color: #000 !important;
+  }
+  
+  /* 문제 선택지 */
+  .question-options {
+    margin: 0.1em 0 !important;
+    padding-left: 0.5em !important;
+    font-size: 8px !important;
+    line-height: 1.3 !important;
+  }
+  
+  /* 해설 부분 */
+  .question-explanation {
+    font-size: 7px !important;
+    margin-top: 0.2em !important;
+    padding: 0.2em !important;
+    background-color: #f0f0f0 !important;
+    page-break-before: avoid !important;
+    border-top: 1px dashed #999 !important;
+  }
+  
+  /* 구분선 */
+  hr {
+    page-break-after: avoid !important;
+    margin: 0.2em 0 !important;
+    border: none !important;
+    border-top: 1px solid #666 !important;
+    height: 1px !important;
+  }
+  
+  /* 강조 표시된 정답 */
+  mark, .highlight {
+    background-color: #ffeb3b !important;
+    padding: 1px 3px !important;
+    font-weight: bold !important;
+    color: black !important;
+    border: 1px solid #ffc107 !important;
+  }
+  
+  /* 굵은 글씨 */
+  strong, b {
+    font-weight: bold !important;
+    color: #000 !important;
+  }
+  
+  /* 불필요한 요소 숨기기 */
+  .print\\:hidden,
+  .no-print,
+  .obsidian-header,
+  .obsidian-footer,
+  .view-header,
+  .mod-header,
+  .workspace-tab-header {
+    display: none !important;
+  }
+  
+  /* 링크 스타일 */
+  a {
+    color: black !important;
+    text-decoration: none !important;
+  }
+  
+  /* 리스트 스타일 */
+  ul, ol {
+    margin: 0.1em 0 !important;
+    padding-left: 1em !important;
+  }
+  
+  li {
+    margin: 0.05em 0 !important;
+    font-size: 8px !important;
+  }
+  
+  /* 코드 블록 */
+  code, pre {
+    font-size: 7px !important;
+    font-family: "Consolas", "Monaco", monospace !important;
+    background-color: #f5f5f5 !important;
+    padding: 0.1em 0.2em !important;
+    border: 1px solid #ddd !important;
+  }
+  
+  /* 테이블 */
+  table {
+    font-size: 8px !important;
+    border-collapse: collapse !important;
+    width: 100% !important;
+    margin: 0.2em 0 !important;
+  }
+  
+  th, td {
+    border: 1px solid #ccc !important;
+    padding: 0.1em 0.2em !important;
+    font-size: 7px !important;
+  }
+  
+  /* 페이지 여백 최소화 */
+  @page {
+    margin: 0.3in !important;
+    size: A4 !important;
+  }
+  
+  /* 개별 문제들이 함께 유지되도록 */
+  .markdown-preview-view > div:has(.question-block) {
+    page-break-inside: avoid !important;
+  }
+  
+  /* 문제 번호 스타일 */
+  .question-title strong {
+    color: #2c3e50 !important;
+    font-size: 11px !important;
+  }
+  
+  /* 선택지 정답 표시 */
+  .question-options li:has(mark),
+  .question-options p:has(mark) {
+    font-weight: bold !important;
+    background-color: #fff3cd !important;
+    padding: 0.1em !important;
+    border-left: 3px solid #ffc107 !important;
+  }
+} 
