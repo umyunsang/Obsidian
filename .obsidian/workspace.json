@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "a99635585dcb3bf8",
+        "id": "8fa879921721c9ef",
         "type": "tabs",
         "children": [
           {
-            "id": "900e8dd8a20b71bf",
+            "id": "5edde652f64dfde1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_최종정리.md",
+                "file": "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_답안해설_완료.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. IPAT 기출문제 지식재산권_최종정리"
+              "title": "IPAT_기출문제_답안해설_완료"
+            }
+          },
+          {
+            "id": "645893a96e79a2a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,8 +198,18 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "900e8dd8a20b71bf",
+  "active": "645893a96e79a2a9",
   "lastOpenFiles": [
+    "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_답안해설_완료.md",
+    "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.md",
+    "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_최종정리.md",
+    "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.pdf",
+    "ComputerScience/지식재산개론/기출문제/processed/지식재산권_processed.md",
+    "ComputerScience/지식재산개론/기출문제/processed/저작권_processed.md",
+    "ComputerScience/지식재산개론/기출문제/processed/상표_processed.md",
+    "conflict-files-obsidian-git.md",
+    "ComputerScience/지식재산개론/기출문제/processed/특허_processed.md",
+    "ComputerScience/지식재산개론/기출문제/processed",
     "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_최종정리.md.backup",
     "ComputerScience/분산처리/pdf/09_GPU Architecture & CUDAProgramming_v03.pdf",
     "ComputerScience/분산처리/쿠다.md",
@@ -197,15 +222,10 @@
     "ComputerScience/지식재산개론/6. 특허 명세서/특허명세서 작성법.pdf",
     "ComputerScience/지식재산개론/6. 특허 명세서/2_명세서 작성 및 청구범위.pdf",
     "ComputerScience/지식재산개론/과제/과제2.pdf",
-    "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.md",
     "ComputerScience/지식재산개론/과제/특허명세서의 양식.md",
     "ComputerScience/지식재산개론/과제/과제.md",
-    "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_최종정리.md",
     "ComputerScience/머신러닝/Transformer/14주차_머신러닝_Transformer_강의자료.pdf",
-    "ComputerScience/머신러닝/Transformer/머신러닝_Transformer-예시.pdf",
     "ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
-    "ComputerScience/머신러닝/RNN_LSTM/머신러닝_실습_RNN_LSTM.pdf",
-    "ComputerScience/머신러닝/RNN_LSTM/머신러닝_03분반_13주차_강의영상_(RNN,LSTM))_판서.pdf",
     "ComputerScience/프로그래밍언어론/교재/3장_교재_문제.md",
     "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
     "ComputerScience/지식재산개론/6. 특허 명세서/특허명세서_AI_enhanced.md",
@@ -215,15 +235,9 @@
     "프로젝트/MCP_테스트/새로운_폴더/MCP_테스트_노트.md",
     "ComputerScience/프로그래밍언어론/과제/9장 레포트.md",
     "ComputerScience/프로그래밍언어론/과제/3장 연습문제 (과제).md",
-    "ComputerScience/지식재산개론/5. 특허/특허 제도.md",
-    "ComputerScience/지식재산개론/기출문제/중간 예상 문제.md",
-    "ComputerScience/수리논리학/동아설계도.md",
-    "ComputerScience/수리논리학/논리학 개론.md",
-    "ComputerScience/지식재산개론/4. 디자인 제도 및 등록요건/디자인 제도의 목적과 개념.md",
     "스크린샷 2025-05-07 091243.png",
     "ComputerScience/지식재산개론/images/Pasted image 20250430090936.png",
     "Pasted image 20250430090936.png",
-    "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
     "ComputerScience/머신러닝/images/Pasted image 20250421121942.png",
     "ComputerScience/머신러닝/images/Pasted image 20250421121448.png",
     "ComputerScience/머신러닝/images/Pasted image 20250421120853.png",
