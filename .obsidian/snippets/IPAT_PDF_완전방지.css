@@ -1,0 +1,555 @@
+/* ====================================
+   IPAT 기출문제 PDF 완전 끊김 방지
+   모든 가능한 기법 총동원 버전
+   ==================================== */
+
+@media print {
+  /* ============================
+     기본 페이지 및 브라우저 설정
+     ============================ */
+  
+  @page {
+    margin: 0.3in !important;
+    size: A4 !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+    /* 모든 요소에 기본 끊김 방지 */
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  html, body {
+    font-size: 9px !important;
+    line-height: 1.15 !important;
+    font-family: "Malgun Gothic", "Noto Sans KR", Arial, sans-serif !important;
+    color: black !important;
+    background: white !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    /* 전체 문서 끊김 방지 */
+    orphans: 10 !important;
+    widows: 10 !important;
+  }
+
+  /* ============================
+     2단 컬럼 레이아웃 최적화
+     ============================ */
+  
+  .markdown-preview-view {
+    column-count: 2 !important;
+    column-gap: 0.25in !important;
+    column-rule: 1px solid #ccc !important;
+    font-size: 9px !important;
+    line-height: 1.15 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    /* 컬럼 레벨 끊김 방지 */
+    orphans: 10 !important;
+    widows: 10 !important;
+    column-fill: auto !important;
+  }
+
+  /* ============================
+     제목 처리
+     ============================ */
+  
+  h1, h2, h3, h4, h5, h6 {
+    column-span: all !important;
+    font-size: 12px !important;
+    text-align: center !important;
+    margin: 0.1em 0 0.3em 0 !important;
+    border-bottom: 2px solid black !important;
+    padding-bottom: 0.05em !important;
+    font-weight: bold !important;
+    /* 제목 끊김 방지 */
+    page-break-after: avoid !important;
+    column-break-after: avoid !important;
+    break-after: avoid !important;
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+    orphans: 10 !important;
+    widows: 10 !important;
+  }
+
+  /* ============================
+     모든 기본 요소 끊김 방지 강화
+     ============================ */
+  
+  p, ul, ol, li, hr, div, span, strong, b, em, i {
+    /* 최강 끊김 방지 */
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+    page-break-before: avoid !important;
+    column-break-before: avoid !important;
+    break-before: avoid !important;
+    /* 최강 고아/위도우 방지 */
+    orphans: 8 !important;
+    widows: 8 !important;
+  }
+
+  /* 일반 문단 최적화 */
+  p {
+    margin: 0.02em 0 !important;
+    padding: 0.01em 0 !important;
+    font-size: 9px !important;
+    line-height: 1.2 !important;
+  }
+
+  /* ============================
+     문제 번호 패턴 완전 포괄 처리
+     ============================ */
+  
+  /* 1-100번까지 모든 문제 번호 대응 */
+  p:contains("1."), p:contains("2."), p:contains("3."), p:contains("4."), p:contains("5."),
+  p:contains("6."), p:contains("7."), p:contains("8."), p:contains("9."), p:contains("10."),
+  p:contains("11."), p:contains("12."), p:contains("13."), p:contains("14."), p:contains("15."),
+  p:contains("16."), p:contains("17."), p:contains("18."), p:contains("19."), p:contains("20."),
+  p:contains("21."), p:contains("22."), p:contains("23."), p:contains("24."), p:contains("25."),
+  p:contains("26."), p:contains("27."), p:contains("28."), p:contains("29."), p:contains("30."),
+  p:contains("31."), p:contains("32."), p:contains("33."), p:contains("34."), p:contains("35."),
+  p:contains("36."), p:contains("37."), p:contains("38."), p:contains("39."), p:contains("40."),
+  p:contains("41."), p:contains("42."), p:contains("43."), p:contains("44."), p:contains("45."),
+  p:contains("46."), p:contains("47."), p:contains("48."), p:contains("49."), p:contains("50."),
+  p:contains("51."), p:contains("52."), p:contains("53."), p:contains("54."), p:contains("55."),
+  p:contains("56."), p:contains("57."), p:contains("58."), p:contains("59."), p:contains("60."),
+  p:contains("61."), p:contains("62."), p:contains("63."), p:contains("64."), p:contains("65."),
+  p:contains("66."), p:contains("67."), p:contains("68."), p:contains("69."), p:contains("70."),
+  p:contains("71."), p:contains("72."), p:contains("73."), p:contains("74."), p:contains("75."),
+  p:contains("76."), p:contains("77."), p:contains("78."), p:contains("79."), p:contains("80."),
+  p:contains("81."), p:contains("82."), p:contains("83."), p:contains("84."), p:contains("85."),
+  p:contains("86."), p:contains("87."), p:contains("88."), p:contains("89."), p:contains("90."),
+  p:contains("91."), p:contains("92."), p:contains("93."), p:contains("94."), p:contains("95."),
+  p:contains("96."), p:contains("97."), p:contains("98."), p:contains("99."), p:contains("100.") {
+    /* 문제 제목 강력한 여백 */
+    margin-top: 1.2em !important;
+    margin-bottom: 0.1em !important;
+    padding: 0.6em 0.4em 0.3em 0.4em !important;
+    
+    /* 강력한 시각적 구분 */
+    background: linear-gradient(135deg, #f8f8f8 0%, #e8e8e8 100%) !important;
+    border: 3px solid #999 !important;
+    border-radius: 5px !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+    
+    /* 문제 제목 스타일 */
+    font-weight: bold !important;
+    font-size: 10px !important;
+    
+    /* 절대적 끊김 방지 - 모든 속성 동원 */
+    page-break-before: auto !important;
+    page-break-after: avoid !important;
+    page-break-inside: avoid !important;
+    column-break-before: auto !important;
+    column-break-after: avoid !important;
+    column-break-inside: avoid !important;
+    break-before: auto !important;
+    break-after: avoid !important;
+    break-inside: avoid !important;
+    
+    /* 최강 고아/위도우 방지 */
+    orphans: 15 !important;
+    widows: 15 !important;
+    
+    /* 추가 브라우저별 속성 */
+    -webkit-column-break-inside: avoid !important;
+    -webkit-column-break-after: avoid !important;
+    -moz-column-break-inside: avoid !important;
+    -moz-column-break-after: avoid !important;
+  }
+
+  /* ============================
+     문제 블록 전체를 하나로 묶기 (초강력)
+     ============================ */
+  
+  /* 문제 제목부터 다음 문제까지 모든 요소 연결 */
+  p:contains("1.") ~ *:not(p:contains("2.")):not(p:contains("3.")):not(p:contains("4.")):not(p:contains("5.")):not(p:contains("6.")):not(p:contains("7.")):not(p:contains("8.")):not(p:contains("9.")):not(p:contains("10.")):not(p:contains("11.")):not(p:contains("12.")):not(p:contains("13.")):not(p:contains("14.")):not(p:contains("15.")):not(p:contains("16.")):not(p:contains("17.")):not(p:contains("18.")):not(p:contains("19.")):not(p:contains("20.")):not(hr),
+  p:contains("2.") ~ *:not(p:contains("3.")):not(p:contains("4.")):not(p:contains("5.")):not(p:contains("6.")):not(p:contains("7.")):not(p:contains("8.")):not(p:contains("9.")):not(p:contains("10.")):not(p:contains("11.")):not(p:contains("12.")):not(p:contains("13.")):not(p:contains("14.")):not(p:contains("15.")):not(p:contains("16.")):not(p:contains("17.")):not(p:contains("18.")):not(p:contains("19.")):not(p:contains("20.")):not(hr),
+  p:contains("3.") ~ *:not(p:contains("4.")):not(p:contains("5.")):not(p:contains("6.")):not(p:contains("7.")):not(p:contains("8.")):not(p:contains("9.")):not(p:contains("10.")):not(p:contains("11.")):not(p:contains("12.")):not(p:contains("13.")):not(p:contains("14.")):not(p:contains("15.")):not(p:contains("16.")):not(p:contains("17.")):not(p:contains("18.")):not(p:contains("19.")):not(p:contains("20.")):not(hr),
+  p:contains("4.") ~ *:not(p:contains("5.")):not(p:contains("6.")):not(p:contains("7.")):not(p:contains("8.")):not(p:contains("9.")):not(p:contains("10.")):not(p:contains("11.")):not(p:contains("12.")):not(p:contains("13.")):not(p:contains("14.")):not(p:contains("15.")):not(p:contains("16.")):not(p:contains("17.")):not(p:contains("18.")):not(p:contains("19.")):not(p:contains("20.")):not(hr),
+  p:contains("5.") ~ *:not(p:contains("6.")):not(p:contains("7.")):not(p:contains("8.")):not(p:contains("9.")):not(p:contains("10.")):not(p:contains("11.")):not(p:contains("12.")):not(p:contains("13.")):not(p:contains("14.")):not(p:contains("15.")):not(p:contains("16.")):not(p:contains("17.")):not(p:contains("18.")):not(p:contains("19.")):not(p:contains("20.")):not(hr),
+  p:contains("6.") ~ *:not(p:contains("7.")):not(p:contains("8.")):not(p:contains("9.")):not(p:contains("10.")):not(p:contains("11.")):not(p:contains("12.")):not(p:contains("13.")):not(p:contains("14.")):not(p:contains("15.")):not(p:contains("16.")):not(p:contains("17.")):not(p:contains("18.")):not(p:contains("19.")):not(p:contains("20.")):not(hr),
+  p:contains("7.") ~ *:not(p:contains("8.")):not(p:contains("9.")):not(p:contains("10.")):not(p:contains("11.")):not(p:contains("12.")):not(p:contains("13.")):not(p:contains("14.")):not(p:contains("15.")):not(p:contains("16.")):not(p:contains("17.")):not(p:contains("18.")):not(p:contains("19.")):not(p:contains("20.")):not(hr),
+  p:contains("8.") ~ *:not(p:contains("9.")):not(p:contains("10.")):not(p:contains("11.")):not(p:contains("12.")):not(p:contains("13.")):not(p:contains("14.")):not(p:contains("15.")):not(p:contains("16.")):not(p:contains("17.")):not(p:contains("18.")):not(p:contains("19.")):not(p:contains("20.")):not(hr),
+  p:contains("9.") ~ *:not(p:contains("10.")):not(p:contains("11.")):not(p:contains("12.")):not(p:contains("13.")):not(p:contains("14.")):not(p:contains("15.")):not(p:contains("16.")):not(p:contains("17.")):not(p:contains("18.")):not(p:contains("19.")):not(p:contains("20.")):not(hr),
+  p:contains("10.") ~ *:not(p:contains("11.")):not(p:contains("12.")):not(p:contains("13.")):not(p:contains("14.")):not(p:contains("15.")):not(p:contains("16.")):not(p:contains("17.")):not(p:contains("18.")):not(p:contains("19.")):not(p:contains("20.")):not(hr),
+  p:contains("11.") ~ *:not(p:contains("12.")):not(p:contains("13.")):not(p:contains("14.")):not(p:contains("15.")):not(p:contains("16.")):not(p:contains("17.")):not(p:contains("18.")):not(p:contains("19.")):not(p:contains("20.")):not(hr),
+  p:contains("12.") ~ *:not(p:contains("13.")):not(p:contains("14.")):not(p:contains("15.")):not(p:contains("16.")):not(p:contains("17.")):not(p:contains("18.")):not(p:contains("19.")):not(p:contains("20.")):not(hr),
+  p:contains("13.") ~ *:not(p:contains("14.")):not(p:contains("15.")):not(p:contains("16.")):not(p:contains("17.")):not(p:contains("18.")):not(p:contains("19.")):not(p:contains("20.")):not(hr),
+  p:contains("14.") ~ *:not(p:contains("15.")):not(p:contains("16.")):not(p:contains("17.")):not(p:contains("18.")):not(p:contains("19.")):not(p:contains("20.")):not(hr),
+  p:contains("15.") ~ *:not(p:contains("16.")):not(p:contains("17.")):not(p:contains("18.")):not(p:contains("19.")):not(p:contains("20.")):not(hr),
+  p:contains("16.") ~ *:not(p:contains("17.")):not(p:contains("18.")):not(p:contains("19.")):not(p:contains("20.")):not(hr),
+  p:contains("17.") ~ *:not(p:contains("18.")):not(p:contains("19.")):not(p:contains("20.")):not(hr),
+  p:contains("18.") ~ *:not(p:contains("19.")):not(p:contains("20.")):not(hr),
+  p:contains("19.") ~ *:not(p:contains("20.")):not(hr),
+  p:contains("20.") ~ *:not(hr) {
+    /* 절대적 끊김 방지 */
+    page-break-before: avoid !important;
+    column-break-before: avoid !important;
+    break-before: avoid !important;
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+    
+    /* 최강 고아/위도우 방지 */
+    orphans: 10 !important;
+    widows: 10 !important;
+    
+    /* 브라우저별 추가 속성 */
+    -webkit-column-break-before: avoid !important;
+    -webkit-column-break-inside: avoid !important;
+    -moz-column-break-before: avoid !important;
+    -moz-column-break-inside: avoid !important;
+  }
+
+  /* ============================
+     모든 연속 요소 강력 연결
+     ============================ */
+  
+  /* 인접한 모든 요소들 연결 */
+  * + *, * + * + *, * + * + * + *, * + * + * + * + *,
+  * + * + * + * + * + *, * + * + * + * + * + * + *,
+  * + * + * + * + * + * + * + *, * + * + * + * + * + * + * + * {
+    page-break-before: avoid !important;
+    column-break-before: avoid !important;
+    break-before: avoid !important;
+    -webkit-column-break-before: avoid !important;
+    -moz-column-break-before: avoid !important;
+  }
+
+  /* ============================
+     리스트 및 선택지 완전 최적화
+     ============================ */
+  
+  ul, ol {
+    /* 리스트 전체 끊김 방지 */
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+    page-break-before: avoid !important;
+    column-break-before: avoid !important;
+    break-before: avoid !important;
+    
+    margin: 0.02em 0 !important;
+    padding-left: 0.5em !important;
+    orphans: 10 !important;
+    widows: 10 !important;
+    
+    /* 브라우저별 추가 */
+    -webkit-column-break-inside: avoid !important;
+    -webkit-column-break-before: avoid !important;
+    -moz-column-break-inside: avoid !important;
+    -moz-column-break-before: avoid !important;
+  }
+
+  li {
+    /* 각 선택지 끊김 방지 */
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+    page-break-before: avoid !important;
+    column-break-before: avoid !important;
+    break-before: avoid !important;
+    
+    font-size: 8px !important;
+    margin: 0.005em 0 !important;
+    padding: 0.002em 0 !important;
+    line-height: 1.25 !important;
+    orphans: 8 !important;
+    widows: 8 !important;
+    
+    /* 브라우저별 추가 */
+    -webkit-column-break-inside: avoid !important;
+    -webkit-column-break-before: avoid !important;
+    -moz-column-break-inside: avoid !important;
+    -moz-column-break-before: avoid !important;
+  }
+
+  /* 리스트 내부 모든 요소 연결 */
+  li *, ul *, ol * {
+    page-break-before: avoid !important;
+    column-break-before: avoid !important;
+    break-before: avoid !important;
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  /* ============================
+     해설 부분 완전 연결
+     ============================ */
+  
+  p:contains("해설:"), p:contains("해설"), p:contains("정답:"), p:contains("정답") {
+    /* 해설 강력한 연결 */
+    page-break-before: avoid !important;
+    column-break-before: avoid !important;
+    break-before: avoid !important;
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+    
+    background-color: #f9f9f9 !important;
+    padding: 0.1em 0.15em !important;
+    border-top: 2px dashed #999 !important;
+    font-size: 8px !important;
+    margin-top: 0.05em !important;
+    orphans: 10 !important;
+    widows: 10 !important;
+    
+    /* 브라우저별 추가 */
+    -webkit-column-break-before: avoid !important;
+    -webkit-column-break-inside: avoid !important;
+    -moz-column-break-before: avoid !important;
+    -moz-column-break-inside: avoid !important;
+  }
+
+  /* 해설 다음 모든 요소도 연결 */
+  p:contains("해설:") ~ *, p:contains("해설") ~ *, 
+  p:contains("정답:") ~ *, p:contains("정답") ~ * {
+    page-break-before: avoid !important;
+    column-break-before: avoid !important;
+    break-before: avoid !important;
+  }
+
+  /* ============================
+     구분선 처리 최적화
+     ============================ */
+  
+  hr {
+    /* 구분선 자체는 끊김 허용하되 다음 요소와 연결 */
+    page-break-after: avoid !important;
+    column-break-after: avoid !important;
+    break-after: avoid !important;
+    
+    border: none !important;
+    border-top: 3px solid #666 !important;
+    margin: 0.8em 0 0.2em 0 !important;
+    height: 3px !important;
+    background: linear-gradient(90deg, #999, #666, #999) !important;
+    
+    /* 브라우저별 추가 */
+    -webkit-column-break-after: avoid !important;
+    -moz-column-break-after: avoid !important;
+  }
+
+  /* 구분선 다음 요소 강력 연결 */
+  hr + *, hr ~ * {
+    page-break-before: avoid !important;
+    column-break-before: avoid !important;
+    break-before: avoid !important;
+    -webkit-column-break-before: avoid !important;
+    -moz-column-break-before: avoid !important;
+  }
+
+  /* ============================
+     모든 볼드체 초기화 (문제 제목 제외)
+     ============================ */
+  
+  strong, b {
+    font-weight: bold !important;
+    color: black !important;
+    font-size: inherit !important;
+    background: none !important;
+    padding: 0 !important;
+    border: none !important;
+    display: inline !important;
+    margin: 0 !important;
+    /* 볼드체도 끊김 방지 */
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  /* ============================
+     기타 요소들 완전 최적화
+     ============================ */
+  
+  mark {
+    background-color: #ffff00 !important;
+    color: black !important;
+    font-weight: bold !important;
+    padding: 1px 2px !important;
+    font-size: inherit !important;
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+    page-break-before: avoid !important;
+    column-break-before: avoid !important;
+    break-before: avoid !important;
+    margin: 0.05em 0 !important;
+  }
+
+  table {
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+    page-break-before: avoid !important;
+    column-break-before: avoid !important;
+    break-before: avoid !important;
+    font-size: 7px !important;
+    border-collapse: collapse !important;
+    margin: 0.05em 0 !important;
+    width: 100% !important;
+  }
+
+  th, td {
+    border: 1px solid #ccc !important;
+    padding: 0.02em !important;
+    font-size: 6px !important;
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  a {
+    color: black !important;
+    text-decoration: underline !important;
+    font-size: inherit !important;
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  blockquote {
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+    page-break-before: avoid !important;
+    column-break-before: avoid !important;
+    break-before: avoid !important;
+    font-size: 8px !important;
+    margin: 0.05em 0 !important;
+    padding: 0.05em 0.1em !important;
+    border-left: 2px solid #999 !important;
+    background: #f9f9f9 !important;
+    orphans: 10 !important;
+    widows: 10 !important;
+  }
+
+  /* ============================
+     컬럼 균형 및 흐름 완전 제어
+     ============================ */
+  
+  .markdown-preview-view {
+    column-fill: auto !important;
+    /* 전체 컨테이너 끊김 방지 강화 */
+    orphans: 15 !important;
+    widows: 15 !important;
+  }
+
+  .markdown-preview-view > * {
+    orphans: 10 !important;
+    widows: 10 !important;
+  }
+
+  /* ============================
+     브라우저별 추가 호환성
+     ============================ */
+  
+  /* Webkit 브라우저 (Chrome, Safari) */
+  @supports (-webkit-column-break-inside: avoid) {
+    * {
+      -webkit-column-break-inside: avoid !important;
+      -webkit-column-break-before: avoid !important;
+    }
+  }
+
+  /* Firefox */
+  @supports (-moz-column-break-inside: avoid) {
+    * {
+      -moz-column-break-inside: avoid !important;
+      -moz-column-break-before: avoid !important;
+    }
+  }
+
+  /* ============================
+     숨길 요소들
+     ============================ */
+  
+  .print-hidden, .no-print, .view-header, .workspace-tab-header, 
+  .status-bar, .titlebar, .nav-header, .nav-buttons-container {
+    display: none !important;
+  }
+
+  /* ============================
+     최종 강제 설정 (모든 브라우저)
+     ============================ */
+  
+  /* 모든 요소에 강제 적용 */
+  .markdown-preview-view * {
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+    orphans: 8 !important;
+    widows: 8 !important;
+  }
+
+  /* 문제 번호가 포함된 요소만 브레이크 허용 */
+  p[class*="1."], p[class*="2."], p[class*="3."], p[class*="4."], p[class*="5."],
+  p[class*="6."], p[class*="7."], p[class*="8."], p[class*="9."], p[class*="10."],
+  p[class*="11."], p[class*="12."], p[class*="13."], p[class*="14."], p[class*="15."],
+  p[class*="16."], p[class*="17."], p[class*="18."], p[class*="19."], p[class*="20."] {
+    column-break-before: auto !important;
+    page-break-before: auto !important;
+  }
+}
+
+/* ============================
+   인쇄 미리보기용 스타일
+   ============================ */
+
+@media screen {
+  .print-preview-mode {
+    font-size: 10px;
+    line-height: 1.2;
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 0.5in;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    min-height: 11in;
+  }
+
+  .print-preview-mode .markdown-preview-view {
+    column-count: 2;
+    column-gap: 0.25in;
+    column-rule: 1px solid #ccc;
+    font-size: 10px;
+    line-height: 1.2;
+  }
+
+  .print-preview-mode h1 {
+    column-span: all;
+  }
+
+  /* 미리보기에서 문제 간 여백 표시 */
+  .print-preview-mode p:contains("1."), .print-preview-mode p:contains("2."),
+  .print-preview-mode p:contains("3."), .print-preview-mode p:contains("4."),
+  .print-preview-mode p:contains("5."), .print-preview-mode p:contains("6."),
+  .print-preview-mode p:contains("7."), .print-preview-mode p:contains("8."),
+  .print-preview-mode p:contains("9."), .print-preview-mode p:contains("10."),
+  .print-preview-mode p:contains("11."), .print-preview-mode p:contains("12."),
+  .print-preview-mode p:contains("13."), .print-preview-mode p:contains("14."),
+  .print-preview-mode p:contains("15."), .print-preview-mode p:contains("16."),
+  .print-preview-mode p:contains("17."), .print-preview-mode p:contains("18."),
+  .print-preview-mode p:contains("19."), .print-preview-mode p:contains("20.") {
+    margin-top: 1.2em;
+    padding: 0.6em 0.4em 0.3em 0.4em;
+    background: linear-gradient(135deg, #f8f8f8 0%, #e8e8e8 100%);
+    border: 3px solid #999;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+} 

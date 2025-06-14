@@ -1,0 +1,473 @@
+/* ====================================
+   IPAT 기출문제 PDF 최적화 (최종 완성)
+   문제 끊김 완전 방지 + 명확한 문제 간 여백
+   ==================================== */
+
+@media print {
+  /* ============================
+     기본 페이지 설정
+     ============================ */
+  
+  @page {
+    margin: 0.4in !important;
+    size: A4 !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+
+  body {
+    font-size: 10px !important;
+    line-height: 1.2 !important;
+    font-family: "Malgun Gothic", "Noto Sans KR", Arial, sans-serif !important;
+    color: black !important;
+    background: white !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* ============================
+     2단 컬럼 레이아웃 설정
+     ============================ */
+  
+  .markdown-preview-view {
+    column-count: 2 !important;
+    column-gap: 0.3in !important;
+    column-rule: 1px solid #ddd !important;
+    font-size: 10px !important;
+    line-height: 1.2 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    orphans: 5 !important;
+    widows: 5 !important;
+  }
+
+  /* ============================
+     제목은 전체 폭 사용
+     ============================ */
+  
+  h1 {
+    column-span: all !important;
+    font-size: 14px !important;
+    text-align: center !important;
+    margin: 0.2em 0 0.5em 0 !important;
+    border-bottom: 2px solid black !important;
+    padding-bottom: 0.1em !important;
+    font-weight: bold !important;
+    page-break-after: avoid !important;
+  }
+
+  /* ============================
+     모든 요소 기본 설정
+     ============================ */
+  
+  p, ul, ol, li, hr {
+    orphans: 4 !important;
+    widows: 4 !important;
+  }
+
+  /* 일반 문단 */
+  p {
+    margin: 0.05em 0 !important;
+    padding: 0.02em 0 !important;
+    font-size: 10px !important;
+  }
+
+  /* ============================
+     문제 제목 감지 및 스타일링
+     ============================ */
+  
+  /* 문제 번호 패턴 (1. ~ 50.까지 대응) */
+  p:has(strong:first-child:matches("^\\d+\\.")),
+  p strong:first-child:contains("1."), p strong:first-child:contains("2."), p strong:first-child:contains("3."), 
+  p strong:first-child:contains("4."), p strong:first-child:contains("5."), p strong:first-child:contains("6."), 
+  p strong:first-child:contains("7."), p strong:first-child:contains("8."), p strong:first-child:contains("9."), 
+  p strong:first-child:contains("10."), p strong:first-child:contains("11."), p strong:first-child:contains("12."), 
+  p strong:first-child:contains("13."), p strong:first-child:contains("14."), p strong:first-child:contains("15."), 
+  p strong:first-child:contains("16."), p strong:first-child:contains("17."), p strong:first-child:contains("18."), 
+  p strong:first-child:contains("19."), p strong:first-child:contains("20."), p strong:first-child:contains("21."), 
+  p strong:first-child:contains("22."), p strong:first-child:contains("23."), p strong:first-child:contains("24."), 
+  p strong:first-child:contains("25."), p strong:first-child:contains("26."), p strong:first-child:contains("27."), 
+  p strong:first-child:contains("28."), p strong:first-child:contains("29."), p strong:first-child:contains("30."),
+  p strong:first-child:contains("31."), p strong:first-child:contains("32."), p strong:first-child:contains("33."), 
+  p strong:first-child:contains("34."), p strong:first-child:contains("35."), p strong:first-child:contains("36."), 
+  p strong:first-child:contains("37."), p strong:first-child:contains("38."), p strong:first-child:contains("39."), 
+  p strong:first-child:contains("40."), p strong:first-child:contains("41."), p strong:first-child:contains("42."), 
+  p strong:first-child:contains("43."), p strong:first-child:contains("44."), p strong:first-child:contains("45."), 
+  p strong:first-child:contains("46."), p strong:first-child:contains("47."), p strong:first-child:contains("48."), 
+  p strong:first-child:contains("49."), p strong:first-child:contains("50.") {
+    /* 강력한 문제 간 여백 */
+    margin-top: 0.8em !important;
+    margin-bottom: 0.2em !important;
+    padding-top: 0.4em !important;
+    padding-bottom: 0.15em !important;
+    
+    /* 시각적 구분 */
+    background-color: #f5f5f5 !important;
+    border: 2px solid #ddd !important;
+    border-radius: 3px !important;
+    
+    /* 문제 제목 스타일 */
+    font-weight: bold !important;
+    font-size: 11px !important;
+    
+    /* 절대적 끊김 방지 */
+    page-break-before: auto !important;
+    page-break-after: avoid !important;
+    page-break-inside: avoid !important;
+    column-break-before: auto !important;
+    column-break-after: avoid !important;
+    column-break-inside: avoid !important;
+    break-before: auto !important;
+    break-after: avoid !important;
+    break-inside: avoid !important;
+    
+    /* 강력한 고아/위도우 방지 */
+    orphans: 6 !important;
+    widows: 6 !important;
+  }
+
+  /* 문제 제목의 strong 요소 스타일 */
+  p:has(strong:first-child:matches("^\\d+\\.")) strong:first-child,
+  p strong:first-child:contains("1."), p strong:first-child:contains("2."), p strong:first-child:contains("3."), 
+  p strong:first-child:contains("4."), p strong:first-child:contains("5."), p strong:first-child:contains("6."), 
+  p strong:first-child:contains("7."), p strong:first-child:contains("8."), p strong:first-child:contains("9."), 
+  p strong:first-child:contains("10."), p strong:first-child:contains("11."), p strong:first-child:contains("12."), 
+  p strong:first-child:contains("13."), p strong:first-child:contains("14."), p strong:first-child:contains("15."), 
+  p strong:first-child:contains("16."), p strong:first-child:contains("17."), p strong:first-child:contains("18."), 
+  p strong:first-child:contains("19."), p strong:first-child:contains("20."), p strong:first-child:contains("21."), 
+  p strong:first-child:contains("22."), p strong:first-child:contains("23."), p strong:first-child:contains("24."), 
+  p strong:first-child:contains("25."), p strong:first-child:contains("26."), p strong:first-child:contains("27."), 
+  p strong:first-child:contains("28."), p strong:first-child:contains("29."), p strong:first-child:contains("30."),
+  p strong:first-child:contains("31."), p strong:first-child:contains("32."), p strong:first-child:contains("33."), 
+  p strong:first-child:contains("34."), p strong:first-child:contains("35."), p strong:first-child:contains("36."), 
+  p strong:first-child:contains("37."), p strong:first-child:contains("38."), p strong:first-child:contains("39."), 
+  p strong:first-child:contains("40."), p strong:first-child:contains("41."), p strong:first-child:contains("42."), 
+  p strong:first-child:contains("43."), p strong:first-child:contains("44."), p strong:first-child:contains("45."), 
+  p strong:first-child:contains("46."), p strong:first-child:contains("47."), p strong:first-child:contains("48."), 
+  p strong:first-child:contains("49."), p strong:first-child:contains("50.") {
+    display: block !important;
+    padding: 0.2em 0.3em !important;
+    margin: 0 !important;
+    background-color: #e8e8e8 !important;
+    border-left: 4px solid #333 !important;
+  }
+
+  /* ============================
+     문제 블록 전체 끊김 방지 (매우 강력)
+     ============================ */
+  
+  /* 문제 제목 다음 15개 요소까지 강력하게 연결 */
+  p:has(strong:first-child:matches("^\\d+\\.")) + *,
+  p:has(strong:first-child:matches("^\\d+\\.")) + * + *,
+  p:has(strong:first-child:matches("^\\d+\\.")) + * + * + *,
+  p:has(strong:first-child:matches("^\\d+\\.")) + * + * + * + *,
+  p:has(strong:first-child:matches("^\\d+\\.")) + * + * + * + * + *,
+  p:has(strong:first-child:matches("^\\d+\\.")) + * + * + * + * + * + *,
+  p:has(strong:first-child:matches("^\\d+\\.")) + * + * + * + * + * + * + *,
+  p:has(strong:first-child:matches("^\\d+\\.")) + * + * + * + * + * + * + * + *,
+  p:has(strong:first-child:matches("^\\d+\\.")) + * + * + * + * + * + * + * + * + *,
+  p:has(strong:first-child:matches("^\\d+\\.")) + * + * + * + * + * + * + * + * + * + *,
+  p:has(strong:first-child:matches("^\\d+\\.")) + * + * + * + * + * + * + * + * + * + * + *,
+  p:has(strong:first-child:matches("^\\d+\\.")) + * + * + * + * + * + * + * + * + * + * + * + *,
+  p:has(strong:first-child:matches("^\\d+\\.")) + * + * + * + * + * + * + * + * + * + * + * + * + *,
+  p:has(strong:first-child:matches("^\\d+\\.")) + * + * + * + * + * + * + * + * + * + * + * + * + * + *,
+  p:has(strong:first-child:matches("^\\d+\\.")) + * + * + * + * + * + * + * + * + * + * + * + * + * + * + * {
+    /* 절대적 끊김 방지 */
+    page-break-before: avoid !important;
+    column-break-before: avoid !important;
+    break-before: avoid !important;
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+    
+    /* 강력한 고아/위도우 방지 */
+    orphans: 5 !important;
+    widows: 5 !important;
+  }
+
+  /* 모든 연속 요소 강력 연결 */
+  p + p, p + ul, p + ol, ul + p, ol + p, li + li,
+  p + p + p, p + p + p + p, p + p + p + p + p,
+  p + p + p + p + p + p, p + p + p + p + p + p + p {
+    page-break-before: avoid !important;
+    column-break-before: avoid !important;
+    break-before: avoid !important;
+  }
+
+  /* ============================
+     일반 볼드체 스타일 초기화
+     ============================ */
+  
+  /* 모든 strong 요소 기본 스타일 */
+  strong, b {
+    font-weight: bold !important;
+    color: black !important;
+    font-size: inherit !important;
+    background: none !important;
+    padding: 0 !important;
+    border: none !important;
+    display: inline !important;
+    margin: 0 !important;
+  }
+
+  /* 문제 제목이 아닌 모든 strong 요소 초기화 */
+  p strong:not(:first-child),
+  p strong:first-child:not(:contains("1.")):not(:contains("2.")):not(:contains("3.")):not(:contains("4.")):not(:contains("5.")):not(:contains("6.")):not(:contains("7.")):not(:contains("8.")):not(:contains("9.")):not(:contains("10.")):not(:contains("11.")):not(:contains("12.")):not(:contains("13.")):not(:contains("14.")):not(:contains("15.")):not(:contains("16.")):not(:contains("17.")):not(:contains("18.")):not(:contains("19.")):not(:contains("20.")):not(:contains("21.")):not(:contains("22.")):not(:contains("23.")):not(:contains("24.")):not(:contains("25.")):not(:contains("26.")):not(:contains("27.")):not(:contains("28.")):not(:contains("29.")):not(:contains("30.")):not(:contains("31.")):not(:contains("32.")):not(:contains("33.")):not(:contains("34.")):not(:contains("35.")):not(:contains("36.")):not(:contains("37.")):not(:contains("38.")):not(:contains("39.")):not(:contains("40.")):not(:contains("41.")):not(:contains("42.")):not(:contains("43.")):not(:contains("44.")):not(:contains("45.")):not(:contains("46.")):not(:contains("47.")):not(:contains("48.")):not(:contains("49.")):not(:contains("50.")) {
+    background: none !important;
+    padding: 0 !important;
+    border: none !important;
+    display: inline !important;
+    margin: 0 !important;
+  }
+
+  /* ============================
+     해설 부분 특별 처리
+     ============================ */
+  
+  /* 해설 문단 */
+  p:has(strong:contains("해설:")),
+  p strong:contains("해설:") {
+    background-color: #f9f9f9 !important;
+    padding: 0.15em 0.2em !important;
+    border-top: 2px dashed #999 !important;
+    font-size: 9px !important;
+    margin-top: 0.1em !important;
+    
+    /* 해설도 문제와 강력하게 연결 */
+    page-break-before: avoid !important;
+    column-break-before: avoid !important;
+    break-before: avoid !important;
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+    orphans: 4 !important;
+    widows: 4 !important;
+  }
+
+  /* 해설 내부 볼드체 초기화 */
+  p:has(strong:contains("해설:")) strong:not(:contains("해설:")),
+  p:contains("해설:") strong:not(:contains("해설:")) {
+    background: none !important;
+    padding: 0 !important;
+    border: none !important;
+    display: inline !important;
+    font-size: inherit !important;
+  }
+
+  /* ============================
+     리스트 및 선택지 최적화
+     ============================ */
+  
+  ul, ol {
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+    page-break-before: avoid !important;
+    column-break-before: avoid !important;
+    break-before: avoid !important;
+    margin: 0.05em 0 !important;
+    padding-left: 0.6em !important;
+    orphans: 4 !important;
+    widows: 4 !important;
+  }
+
+  li {
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+    font-size: 9px !important;
+    margin: 0.01em 0 !important;
+    padding: 0.005em 0 !important;
+    line-height: 1.3 !important;
+    orphans: 3 !important;
+    widows: 3 !important;
+  }
+
+  /* 리스트 내부 볼드체 초기화 */
+  li strong, li b {
+    background: none !important;
+    padding: 0 !important;
+    border: none !important;
+    display: inline !important;
+  }
+
+  /* ============================
+     구분선 처리
+     ============================ */
+  
+  hr {
+    /* 구분선은 문제 간 여백 역할 */
+    page-break-after: avoid !important;
+    column-break-after: avoid !important;
+    break-after: avoid !important;
+    border: none !important;
+    border-top: 2px solid #999 !important;
+    margin: 0.6em 0 0.4em 0 !important;
+    height: 2px !important;
+    background-color: #ccc !important;
+  }
+
+  /* 구분선 다음 요소 연결 */
+  hr + * {
+    page-break-before: avoid !important;
+    column-break-before: avoid !important;
+    break-before: avoid !important;
+  }
+
+  /* ============================
+     기타 요소들
+     ============================ */
+  
+  mark {
+    background-color: #ffff00 !important;
+    color: black !important;
+    font-weight: bold !important;
+    padding: 1px 3px !important;
+    font-size: inherit !important;
+  }
+
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+    margin: 0.1em 0 !important;
+  }
+
+  table {
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+    font-size: 8px !important;
+    border-collapse: collapse !important;
+    margin: 0.1em 0 !important;
+    width: 100% !important;
+  }
+
+  th, td {
+    border: 1px solid #ccc !important;
+    padding: 0.05em !important;
+    font-size: 7px !important;
+  }
+
+  th strong, td strong, th b, td b {
+    background: none !important;
+    padding: 0 !important;
+    border: none !important;
+    display: inline !important;
+  }
+
+  a {
+    color: black !important;
+    text-decoration: underline !important;
+    font-size: inherit !important;
+  }
+
+  blockquote {
+    page-break-inside: avoid !important;
+    column-break-inside: avoid !important;
+    break-inside: avoid !important;
+    font-size: 9px !important;
+    margin: 0.1em 0 !important;
+    padding: 0.1em 0.15em !important;
+    border-left: 2px solid #999 !important;
+    background: #f9f9f9 !important;
+  }
+
+  blockquote strong, blockquote b {
+    background: none !important;
+    padding: 0 !important;
+    border: none !important;
+    display: inline !important;
+  }
+
+  /* ============================
+     컬럼 균형 및 흐름 제어
+     ============================ */
+  
+  .markdown-preview-view {
+    column-fill: balance !important;
+  }
+
+  .markdown-preview-view > * {
+    orphans: 4 !important;
+    widows: 4 !important;
+  }
+
+  /* ============================
+     숨길 요소들
+     ============================ */
+  
+  .print-hidden,
+  .no-print,
+  .view-header,
+  .workspace-tab-header,
+  .status-bar,
+  .titlebar {
+    display: none !important;
+  }
+
+  /* ============================
+     최종 보완 설정
+     ============================ */
+  
+  /* 문제 시작에서만 브레이크 허용 */
+  p:has(strong:first-child:matches("^\\d+\\.")) {
+    column-break-before: auto !important;
+    page-break-before: auto !important;
+  }
+
+  /* 문제 내용은 절대 끊기지 않게 */
+  p:not(:has(strong:first-child:matches("^\\d+\\."))) {
+    column-break-before: avoid !important;
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+  }
+
+  /* 전체 문서 고아/위도우 강화 */
+  .markdown-preview-view {
+    orphans: 5 !important;
+    widows: 5 !important;
+  }
+}
+
+/* ============================
+   인쇄 미리보기용 스타일
+   ============================ */
+
+@media screen {
+  .print-preview-mode {
+    font-size: 11px;
+    line-height: 1.3;
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 1in;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    min-height: 11in;
+  }
+
+  .print-preview-mode .markdown-preview-view {
+    column-count: 2;
+    column-gap: 0.3in;
+    column-rule: 1px solid #ddd;
+    font-size: 11px;
+    line-height: 1.3;
+  }
+
+  .print-preview-mode h1 {
+    column-span: all;
+  }
+
+  /* 미리보기에서 문제 간 여백 표시 */
+  .print-preview-mode p:has(strong:first-child:matches("^\\d+\\.")) {
+    margin-top: 0.8em;
+    padding-top: 0.4em;
+    background-color: #f5f5f5;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+  }
+} 
