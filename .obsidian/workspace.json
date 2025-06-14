@@ -11,16 +11,14 @@
             "id": "900e8dd8a20b71bf",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ComputerScience/분산처리/pdf/09_GPU Architecture & CUDAProgramming_v03.pdf",
-                "page": 39,
-                "left": -15,
-                "top": 517,
-                "zoom": 1.06875
+                "file": "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_최종정리.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "09_GPU Architecture & CUDAProgramming_v03"
+              "icon": "lucide-file",
+              "title": "1. IPAT 기출문제 지식재산권_최종정리"
             }
           }
         ]
@@ -187,9 +185,10 @@
   },
   "active": "900e8dd8a20b71bf",
   "lastOpenFiles": [
+    "ComputerScience/분산처리/pdf/09_GPU Architecture & CUDAProgramming_v03.pdf",
+    "ComputerScience/분산처리/쿠다.md",
     "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
     "ComputerScience/분산처리/무제.md",
-    "ComputerScience/분산처리/pdf/09_GPU Architecture & CUDAProgramming_v03.pdf",
     "ComputerScience/분산처리/pdf/11_MPI 프로그래밍_V_01.pdf",
     "ComputerScience/분산처리/REPORT.md",
     "ComputerScience/프로그래밍언어론/연습문제.md",
@@ -224,7 +223,6 @@
     "ComputerScience/지식재산개론/images/Pasted image 20250430090936.png",
     "Pasted image 20250430090936.png",
     "ComputerScience/지식재산개론/3. 상표제도 등록요건/상표제도 및 등록요건.md",
-    "ComputerScience/지식재산개론/2. 저작권제도와 등록요건/저작권 제도와 등록요건.md",
     "ComputerScience/머신러닝/images/Pasted image 20250421121942.png",
     "ComputerScience/머신러닝/images/Pasted image 20250421121448.png",
     "ComputerScience/머신러닝/images/Pasted image 20250421120853.png",
