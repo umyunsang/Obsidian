@@ -14,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.pdf",
-                "page": 2,
+                "page": 4,
                 "left": -17,
-                "top": 576,
-                "zoom": 0.9680672268907563
+                "top": 241,
+                "zoom": 0.9680672268907564
               },
               "icon": "lucide-file-text",
               "title": "1. IPAT 기출문제 지식재산권_답안통합"
@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_답안해설_완료.md",
+                "file": "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_서식제거완료.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IPAT_기출문제_답안해설_완료"
+              "title": "IPAT_기출문제_서식제거완료"
             }
           }
         ]
@@ -165,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_답안해설_완료.md",
+                "file": "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_서식제거완료.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "IPAT_기출문제_답안해설_완료 의 개요"
+              "title": "IPAT_기출문제_서식제거완료 의 개요"
             }
           },
           {
@@ -208,9 +208,10 @@
   },
   "active": "4d5854a00cf1c1c6",
   "lastOpenFiles": [
-    "remove_format_and_explanation.py",
-    "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.pdf",
     "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_답안해설_완료.md",
+    "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_서식제거완료.md",
+    "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.pdf",
+    "remove_format_and_explanation.py",
     "fix_answers.py",
     "IPAT_PDF_완전방지.css",
     "IPAT_PDF_최종완성.css",
@@ -221,7 +222,6 @@
     "IPAT_PDF_가독성최적화.css",
     "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.md",
     "PDF_인쇄_완전가이드.md",
-    "IPAT_PDF_실용적.css",
     "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_답안해설_완료_PDF최적화.md",
     "ComputerScience/지식재산개론/기출문제/processed/저작권_processed.md",
     "ComputerScience/지식재산개론/기출문제/processed/상표_processed.md",
