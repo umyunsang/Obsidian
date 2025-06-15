@@ -15,9 +15,9 @@
               "state": {
                 "file": "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.pdf",
                 "page": 4,
-                "left": -17,
-                "top": 241,
-                "zoom": 0.9680672268907564
+                "left": -18,
+                "top": 245,
+                "zoom": 0.8294117647058825
               },
               "icon": "lucide-file-text",
               "title": "1. IPAT 기출문제 지식재산권_답안통합"
@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_서식제거완료.md",
+                "file": "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_equals서식제거.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IPAT_기출문제_서식제거완료"
+              "title": "IPAT_기출문제_equals서식제거"
             }
           }
         ]
@@ -100,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5041847229004,
-    "collapsed": true
+    "width": 219.5041847229004
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -165,13 +164,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_서식제거완료.md",
+                "file": "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_equals서식제거.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "IPAT_기출문제_서식제거완료 의 개요"
+              "title": "IPAT_기출문제_equals서식제거 의 개요"
             }
           },
           {
@@ -208,8 +207,9 @@
   },
   "active": "4d5854a00cf1c1c6",
   "lastOpenFiles": [
-    "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_답안해설_완료.md",
     "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_서식제거완료.md",
+    "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_equals서식제거.md",
+    "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_답안해설_완료.md",
     "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.pdf",
     "remove_format_and_explanation.py",
     "fix_answers.py",
@@ -243,7 +243,6 @@
     "ComputerScience/지식재산개론/6. 특허 명세서/특허명세서_AI_enhanced.md",
     "ComputerScience/지식재산개론/6. 특허 명세서/특허 명세서 작성법.md",
     "프로젝트/MCP_연구/실험_결과/커서_연동_테스트.md",
-    "MCP_테스트/새로운_폴더/MCP_테스트_노트.md",
     "스크린샷 2025-05-07 091243.png",
     "ComputerScience/지식재산개론/images/Pasted image 20250430090936.png",
     "Pasted image 20250430090936.png",
