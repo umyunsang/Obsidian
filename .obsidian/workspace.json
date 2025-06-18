@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.pdf",
-                "page": 51,
-                "left": -10,
-                "top": 618,
-                "zoom": 1.7243697478991598
+                "file": "ComputerScience/머신러닝/CNN, UNet/11주차_실습_CNN, U_Net.pdf",
+                "page": 20,
+                "left": -14,
+                "top": 208,
+                "zoom": 1.06875
               },
               "icon": "lucide-file-text",
-              "title": "1. IPAT 기출문제 지식재산권_답안통합"
+              "title": "11주차_실습_CNN, U_Net"
             }
           }
         ]
@@ -187,8 +187,11 @@
   },
   "active": "c01f1a0d2e27221d",
   "lastOpenFiles": [
-    "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제.md",
+    "ComputerScience/머신러닝/KNN, 결정트리/250508_머신러닝_03분반_엔트로피(결정트리,KNN).pdf",
+    "ComputerScience/머신러닝/KNN, 결정트리/250520_Decision_Tree_KNN_실습자료.pdf",
+    "ComputerScience/머신러닝/CNN, UNet/11주차_실습_CNN, U_Net.pdf",
     "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.pdf",
+    "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제.md",
     "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_equals서식제거.md",
     "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_서식제거완료.md",
     "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_답안해설_완료.md",
@@ -199,8 +202,6 @@
     "IPAT_PDF_2단컬럼_완성.css",
     "문제_div_그룹화.py",
     "IPAT_PDF_2단컬럼_수정.css",
-    "IPAT_PDF_2단컬럼.css",
-    "IPAT_PDF_가독성최적화.css",
     "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.md",
     "PDF_인쇄_완전가이드.md",
     "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_답안해설_완료_PDF최적화.md",
