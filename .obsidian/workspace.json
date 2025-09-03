@@ -11,14 +11,36 @@
             "id": "c01f1a0d2e27221d",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ComputerScience/[3-2] 빅데이터분석/pdf/1 빅데이터 분석이란.pdf",
+                "page": 3,
+                "left": -29,
+                "top": 35,
+                "zoom": 0.6
+              },
+              "icon": "lucide-file-text",
+              "title": "1 빅데이터 분석이란"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b766ca32b9e827f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50ba4ce48efd9e34",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "졸업학점.md",
+                "file": "ComputerScience/[3-2] 빅데이터분석/md/1. 빅테이터란.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "졸업학점"
+              "title": "1. 빅테이터란"
             }
           }
         ]
@@ -40,7 +62,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "alphabeticalReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -78,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5041847229004
+    "width": 219.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -183,53 +206,52 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c01f1a0d2e27221d",
+  "active": "50ba4ce48efd9e34",
   "lastOpenFiles": [
-    "ComputerScience/분산처리/pdf/05_Performance Optimization I Work Distribution and Scheduling.pdf",
-    "ComputerScience/분산처리/pdf/06_Locality_Communication_Contention.pdf",
-    "ComputerScience/분산처리/1. WhyParlleism.md",
-    "ComputerScience/분산처리/pdf/09_GPU Architecture & CUDAProgramming_v03.pdf",
-    "ComputerScience/분산처리/쿠다.md",
-    "ComputerScience/분산처리/쿠다.pdf",
-    "Pasted image 20250618111938.png",
-    "ComputerScience/분산처리/pdf/08_GPU Architecture & CUDAProgramming_v02.pdf",
-    "ComputerScience/분산처리/REPORT.md",
-    "ComputerScience/머신러닝/CNN, UNet/11주차_실습_CNN, U_Net.pdf",
-    "ComputerScience/머신러닝/KNN, 결정트리/250508_머신러닝_03분반_엔트로피(결정트리,KNN).pdf",
-    "ComputerScience/머신러닝/KNN, 결정트리/250520_Decision_Tree_KNN_실습자료.pdf",
-    "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.pdf",
-    "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제.md",
-    "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_equals서식제거.md",
-    "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_서식제거완료.md",
-    "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_답안해설_완료.md",
-    "remove_format_and_explanation.py",
-    "fix_answers.py",
-    "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.md",
-    "PDF_인쇄_완전가이드.md",
-    "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_답안해설_완료_PDF최적화.md",
-    "ComputerScience/지식재산개론/기출문제/processed/저작권_processed.md",
-    "ComputerScience/지식재산개론/기출문제/processed/상표_processed.md",
-    "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_답안해설_완료_구분선추가.md",
-    "conflict-files-obsidian-git.md",
-    "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_최종정리.md",
-    "ComputerScience/지식재산개론/기출문제/processed/지식재산권_processed.md",
-    "ComputerScience/지식재산개론/기출문제/processed/특허_processed.md",
-    "ComputerScience/분산처리/2. 멀티 코어 프로세서.md",
-    "ComputerScience/분산처리/무제.md",
-    "ComputerScience/프로그래밍언어론/연습문제.md",
-    "ComputerScience/지식재산개론/과제/특허명세서의 양식.md",
-    "ComputerScience/지식재산개론/과제/과제.md",
-    "ComputerScience/데이터베이스/4. 데이터 모델링/데이터 모델링.md",
-    "ComputerScience/프로그래밍언어론/교재/3장_교재_문제.md",
-    "ComputerScience/프로그래밍언어론/과제/3장 제출용.md",
-    "스크린샷 2025-05-07 091243.png",
-    "ComputerScience/지식재산개론/images/Pasted image 20250430090936.png",
-    "Pasted image 20250430090936.png",
-    "ComputerScience/머신러닝/images/Pasted image 20250421121942.png",
-    "ComputerScience/머신러닝/images/Pasted image 20250421121448.png",
-    "ComputerScience/머신러닝/images/Pasted image 20250421120853.png",
-    "ComputerScience/머신러닝/images/Pasted image 20250421120641.png",
-    "Pasted image 20250421121942.png",
-    "Pasted image 20250421121448.png"
+    "ComputerScience/[3-2] 빅데이터분석/pdf/1 빅데이터 분석이란.pdf",
+    "ComputerScience/[3-2] 빅데이터분석/md/1. 빅테이터란.md",
+    "ComputerScience/[3-2] 빅데이터분석/md",
+    "ComputerScience/[3-2] 빅데이터분석/새 폴더",
+    "ComputerScience/[3-2] 빅데이터분석/pdf/2 하둡 및 분산 아키텍쳐.pdf",
+    "졸업학점.md",
+    "ComputerScience/[2-1] 확률과 통계/22.map/22_map.pdf",
+    "ComputerScience/[2-1] 확률과 통계/22.map/22_MAP.md",
+    "ComputerScience/[2-1] 확률과 통계/중간 시험/중간시험 범위.md",
+    "ComputerScience/[2-1] 확률과 통계/중간 시험/11_joint_rvs.pdf",
+    "ComputerScience/[2-1] 확률과 통계/중간 시험/10_normal_gaussian.pdf",
+    "ComputerScience/[2-1] 확률과 통계/중간 시험/09_continuous_rv.pdf",
+    "ComputerScience/[2-1] 확률과 통계/중간 시험/07_bernoulli_binomial.pdf",
+    "ComputerScience/[2-1] 확률과 통계/중간 시험/06_random variables.pdf",
+    "ComputerScience/[2-1] 확률과 통계/기말 시험/기말 범위.md",
+    "ComputerScience/[2-1] 확률과 통계/기말 시험/23_naive_bayes 1.md",
+    "ComputerScience/[2-1] 확률과 통계/기말 시험/22_MAP 1.md",
+    "ComputerScience/[2-1] 확률과 통계/기말 시험/20_mle 1.md",
+    "ComputerScience/[2-1] 확률과 통계/기말 시험/19_sampling 1.md",
+    "ComputerScience/[2-1] 확률과 통계/9.Continuous_RVs/문제 풀이.md",
+    "ComputerScience/[2-1] 확률과 통계/9.Continuous_RVs/Continuous RVs.md",
+    "ComputerScience/[2-1] 확률과 통계/8.Poisson/문제풀이.md",
+    "ComputerScience/[2-1] 확률과 통계/8.Poisson/Poisson Distribution.md",
+    "ComputerScience/[2-1] 확률과 통계/8.Poisson/More Discreete Distributions (시험 X).md",
+    "ComputerScience/[2-1] 확률과 통계/7-2.Binomial_RV/Binomial Distribution.md",
+    "ComputerScience/[2-1] 확률과 통계/7-1.Bernoulli_RV/Bernoulli Distribution.md",
+    "ComputerScience/[2-1] 확률과 통계/7-0.Variance/문제 풀이.md",
+    "ComputerScience/[2-1] 확률과 통계/7-0.Variance/Variance.md",
+    "ComputerScience/[2-1] 확률과 통계/6.Random_Variables/문제 풀이.md",
+    "ComputerScience/[2-1] 확률과 통계/6.Random_Variables/Random Variables.md",
+    "ComputerScience/[2-1] 확률과 통계/6.Random_Variables/Expectation.md",
+    "ComputerScience/[2-1] 확률과 통계/5.Independence/문제 풀이.md",
+    "ComputerScience/[2-1] 확률과 통계/5.Independence/Independence.md",
+    "ComputerScience/[2-1] 확률과 통계/4.Bayes_theorem/문제 풀이.md",
+    "ComputerScience/[2-1] 확률과 통계/4.Bayes_theorem/Bayes' Theorem.md",
+    "ComputerScience/[3-1] 프로그래밍언어론/images/Pasted image 20250326155552.png",
+    "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250430090936.png",
+    "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250326093244.png",
+    "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250326093233.png",
+    "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250326093219.png",
+    "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250326093205.png",
+    "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250312095722.png",
+    "ComputerScience/[3-1] 수리논리학/images/normal_stft_phase.png",
+    "ComputerScience/[3-1] 수리논리학/images/normal_stft_mag.png",
+    "ComputerScience/[3-1] 수리논리학/images/normal_mfcc.png"
   ]
 }
