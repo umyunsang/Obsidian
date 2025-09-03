@@ -11,16 +11,14 @@
             "id": "c01f1a0d2e27221d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ComputerScience/분산처리/pdf/05_Performance Optimization I Work Distribution and Scheduling.pdf",
-                "page": 8,
-                "left": -15,
-                "top": 501,
-                "zoom": 1.06875
+                "file": "졸업학점.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "05_Performance Optimization I Work Distribution and Scheduling"
+              "icon": "lucide-file",
+              "title": "졸업학점"
             }
           }
         ]
@@ -187,6 +185,7 @@
   },
   "active": "c01f1a0d2e27221d",
   "lastOpenFiles": [
+    "ComputerScience/분산처리/pdf/05_Performance Optimization I Work Distribution and Scheduling.pdf",
     "ComputerScience/분산처리/pdf/06_Locality_Communication_Contention.pdf",
     "ComputerScience/분산처리/1. WhyParlleism.md",
     "ComputerScience/분산처리/pdf/09_GPU Architecture & CUDAProgramming_v03.pdf",
@@ -205,7 +204,6 @@
     "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_답안해설_완료.md",
     "remove_format_and_explanation.py",
     "fix_answers.py",
-    "IPAT_PDF_완전방지.css",
     "ComputerScience/지식재산개론/기출문제/1. IPAT 기출문제 지식재산권_답안통합.md",
     "PDF_인쇄_완전가이드.md",
     "ComputerScience/지식재산개론/기출문제/processed/IPAT_기출문제_답안해설_완료_PDF최적화.md",
