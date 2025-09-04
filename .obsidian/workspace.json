@@ -42,21 +42,8 @@
               "icon": "lucide-file",
               "title": "1. 빅테이터란"
             }
-          },
-          {
-            "id": "586313c38c77d42f",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.12"
-              },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.9.12"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,22 +207,23 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "586313c38c77d42f",
+  "active": "50ba4ce48efd9e34",
   "lastOpenFiles": [
+    "ComputerScience/[3-2] 최적화수학/pdf/MSC087_1장_행렬.pdf",
+    "ComputerScience/[3-2] 최적화수학/pdf",
+    "ComputerScience/[3-2] 최적화수학/새 폴더",
+    "ComputerScience/[3-2] 최적화수학/MSC087_1장_행렬.pdf",
+    "ComputerScience/[3-2] 최적화수학",
+    "ComputerScience/[3-2] c",
+    "ComputerScience/새 폴더",
     "ComputerScience/[3-2] 빅데이터분석/pdf/1 빅데이터 분석이란.pdf",
     "ComputerScience/[3-2] 빅데이터분석/md/1. 빅테이터란.md",
     "ComputerScience/[3-2] 빅데이터분석/md",
     "ComputerScience/[3-2] 빅데이터분석/새 폴더",
     "ComputerScience/[3-2] 빅데이터분석/pdf/2 하둡 및 분산 아키텍쳐.pdf",
     "졸업학점.md",
-    "ComputerScience/[2-1] 확률과 통계/22.map/22_map.pdf",
     "ComputerScience/[2-1] 확률과 통계/22.map/22_MAP.md",
     "ComputerScience/[2-1] 확률과 통계/중간 시험/중간시험 범위.md",
-    "ComputerScience/[2-1] 확률과 통계/중간 시험/11_joint_rvs.pdf",
-    "ComputerScience/[2-1] 확률과 통계/중간 시험/10_normal_gaussian.pdf",
-    "ComputerScience/[2-1] 확률과 통계/중간 시험/09_continuous_rv.pdf",
-    "ComputerScience/[2-1] 확률과 통계/중간 시험/07_bernoulli_binomial.pdf",
-    "ComputerScience/[2-1] 확률과 통계/중간 시험/06_random variables.pdf",
     "ComputerScience/[2-1] 확률과 통계/기말 시험/기말 범위.md",
     "ComputerScience/[2-1] 확률과 통계/기말 시험/23_naive_bayes 1.md",
     "ComputerScience/[2-1] 확률과 통계/기말 시험/22_MAP 1.md",
