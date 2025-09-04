@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ComputerScience/[3-2] 최적화수학/1. Matrix/MSC087_1장_행렬.pdf",
-                "page": 11,
+                "file": "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬.pdf",
+                "page": 17,
                 "left": -23,
-                "top": 151,
+                "top": 118,
                 "zoom": 0.6854166666666667
               },
               "icon": "lucide-file-text",
-              "title": "MSC087_1장_행렬"
+              "title": "1장_행렬"
             }
           }
         ]
@@ -208,7 +208,7 @@
   },
   "active": "2c8b0055da19716c",
   "lastOpenFiles": [
-    "ComputerScience/[3-2] 최적화수학/1. Matrix/MSC087_1장_행렬.pdf",
+    "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬.pdf",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
     "Pasted image 20250904151517.png",
     "ComputerScience/[3-2] 최적화수학/1. Matrix",
