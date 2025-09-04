@@ -4,43 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "bab6acbb438aee17",
+        "id": "936ab59e469d7000",
         "type": "tabs",
         "children": [
           {
-            "id": "c01f1a0d2e27221d",
+            "id": "529e823728bd5a49",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ComputerScience/[3-2] 빅데이터분석/pdf/1 빅데이터 분석이란.pdf",
-                "page": 5,
-                "left": -26,
-                "top": 438,
-                "zoom": 0.6
+                "file": "ComputerScience/[3-2] 최적화수학/1. Matrix/MSC087_1장_행렬.pdf",
+                "page": 11,
+                "left": -23,
+                "top": 151,
+                "zoom": 0.6854166666666667
               },
               "icon": "lucide-file-text",
-              "title": "1 빅데이터 분석이란"
+              "title": "MSC087_1장_행렬"
             }
           }
         ]
       },
       {
-        "id": "b766ca32b9e827f0",
+        "id": "051f41fc14bbd615",
         "type": "tabs",
         "children": [
           {
-            "id": "50ba4ce48efd9e34",
+            "id": "2c8b0055da19716c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/[3-2] 빅데이터분석/md/1. 빅테이터란.md",
+                "file": "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. 빅테이터란"
+              "title": "1. Matrix"
             }
           }
         ]
@@ -100,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5041847229004,
-    "collapsed": true
+    "width": 219.5041847229004
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -207,8 +206,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "50ba4ce48efd9e34",
+  "active": "2c8b0055da19716c",
   "lastOpenFiles": [
+    "ComputerScience/[3-2] 최적화수학/1. Matrix/MSC087_1장_행렬.pdf",
+    "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
+    "Pasted image 20250904151517.png",
+    "ComputerScience/[3-2] 최적화수학/1. Matrix",
+    "ComputerScience/[3-2] 빅데이터분석/pdf/1 빅데이터 분석이란.pdf",
+    "ComputerScience/[3-2] 빅데이터분석/md/1. 빅테이터란.md",
     "ComputerScience/[3-2] 최적화수학/pdf/MSC087_1장_행렬.pdf",
     "ComputerScience/[3-2] 최적화수학/pdf",
     "ComputerScience/[3-2] 최적화수학/새 폴더",
@@ -216,11 +221,6 @@
     "ComputerScience/[3-2] 최적화수학",
     "ComputerScience/[3-2] c",
     "ComputerScience/새 폴더",
-    "ComputerScience/[3-2] 빅데이터분석/pdf/1 빅데이터 분석이란.pdf",
-    "ComputerScience/[3-2] 빅데이터분석/md/1. 빅테이터란.md",
-    "ComputerScience/[3-2] 빅데이터분석/md",
-    "ComputerScience/[3-2] 빅데이터분석/새 폴더",
-    "ComputerScience/[3-2] 빅데이터분석/pdf/2 하둡 및 분산 아키텍쳐.pdf",
     "졸업학점.md",
     "ComputerScience/[2-1] 확률과 통계/22.map/22_MAP.md",
     "ComputerScience/[2-1] 확률과 통계/중간 시험/중간시험 범위.md",
@@ -244,7 +244,6 @@
     "ComputerScience/[2-1] 확률과 통계/5.Independence/문제 풀이.md",
     "ComputerScience/[2-1] 확률과 통계/5.Independence/Independence.md",
     "ComputerScience/[2-1] 확률과 통계/4.Bayes_theorem/문제 풀이.md",
-    "ComputerScience/[2-1] 확률과 통계/4.Bayes_theorem/Bayes' Theorem.md",
     "ComputerScience/[3-1] 프로그래밍언어론/images/Pasted image 20250326155552.png",
     "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250430090936.png",
     "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250326093244.png",
@@ -253,7 +252,6 @@
     "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250326093205.png",
     "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250312095722.png",
     "ComputerScience/[3-1] 수리논리학/images/normal_stft_phase.png",
-    "ComputerScience/[3-1] 수리논리학/images/normal_stft_mag.png",
-    "ComputerScience/[3-1] 수리논리학/images/normal_mfcc.png"
+    "ComputerScience/[3-1] 수리논리학/images/normal_stft_mag.png"
   ]
 }
