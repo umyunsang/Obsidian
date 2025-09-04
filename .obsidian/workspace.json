@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "ComputerScience/[3-2] 빅데이터분석/pdf/1 빅데이터 분석이란.pdf",
-                "page": 3,
-                "left": -29,
-                "top": 35,
+                "page": 5,
+                "left": -26,
+                "top": 438,
                 "zoom": 0.6
               },
               "icon": "lucide-file-text",
@@ -42,8 +42,21 @@
               "icon": "lucide-file",
               "title": "1. 빅테이터란"
             }
+          },
+          {
+            "id": "586313c38c77d42f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.9.12"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,6 +207,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:새 베이스 생성하기": false,
       "switcher:빠른 전환기 열기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
@@ -206,7 +220,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "50ba4ce48efd9e34",
+  "active": "586313c38c77d42f",
   "lastOpenFiles": [
     "ComputerScience/[3-2] 빅데이터분석/pdf/1 빅데이터 분석이란.pdf",
     "ComputerScience/[3-2] 빅데이터분석/md/1. 빅테이터란.md",
