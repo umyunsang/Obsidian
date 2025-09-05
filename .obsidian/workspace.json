@@ -4,28 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "936ab59e469d7000",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "529e823728bd5a49",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬.pdf",
-                "page": 17,
-                "left": -23,
-                "top": 118,
-                "zoom": 0.6854166666666667
-              },
-              "icon": "lucide-file-text",
-              "title": "1장_행렬"
-            }
-          }
-        ]
-      },
-      {
         "id": "051f41fc14bbd615",
         "type": "tabs",
         "children": [
@@ -206,8 +184,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2c8b0055da19716c",
+  "active": "ba9e23474eb62275",
   "lastOpenFiles": [
+    "ComputerScience/융합전공/ai-ux디자인/1.md",
+    "ComputerScience/융합전공/ai-ux디자인",
+    "ComputerScience/융합전공/ai-ux",
+    "ComputerScience/융합전공/새 폴더",
+    "ComputerScience/융합전공",
+    "ComputerScience/새 폴더",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬.pdf",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
     "Pasted image 20250904151517.png",
@@ -216,11 +200,6 @@
     "ComputerScience/[3-2] 빅데이터분석/md/1. 빅테이터란.md",
     "ComputerScience/[3-2] 최적화수학/pdf/MSC087_1장_행렬.pdf",
     "ComputerScience/[3-2] 최적화수학/pdf",
-    "ComputerScience/[3-2] 최적화수학/새 폴더",
-    "ComputerScience/[3-2] 최적화수학/MSC087_1장_행렬.pdf",
-    "ComputerScience/[3-2] 최적화수학",
-    "ComputerScience/[3-2] c",
-    "ComputerScience/새 폴더",
     "졸업학점.md",
     "ComputerScience/[2-1] 확률과 통계/22.map/22_MAP.md",
     "ComputerScience/[2-1] 확률과 통계/중간 시험/중간시험 범위.md",
