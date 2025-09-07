@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "051f41fc14bbd615",
+        "id": "c95336ed8681bfd9",
         "type": "tabs",
         "children": [
           {
-            "id": "2c8b0055da19716c",
+            "id": "982bb88475bb1825",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1. Matrix"
+              "title": "새 탭"
             }
           }
         ]
@@ -186,6 +182,7 @@
   },
   "active": "ba9e23474eb62275",
   "lastOpenFiles": [
+    "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
     "ComputerScience/융합전공/ai-ux디자인/1.md",
     "ComputerScience/융합전공/ai-ux디자인",
     "ComputerScience/융합전공/ai-ux",
@@ -193,7 +190,6 @@
     "ComputerScience/융합전공",
     "ComputerScience/새 폴더",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬.pdf",
-    "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
     "Pasted image 20250904151517.png",
     "ComputerScience/[3-2] 최적화수학/1. Matrix",
     "ComputerScience/[3-2] 빅데이터분석/pdf/1 빅데이터 분석이란.pdf",
