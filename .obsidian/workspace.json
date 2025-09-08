@@ -14,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬.pdf",
-                "page": 20,
-                "left": -23,
-                "top": 211,
-                "zoom": 0.6854166666666668
+                "page": 21,
+                "left": -26,
+                "top": 29,
+                "zoom": 0.5708333333333333
               },
               "icon": "lucide-file-text",
               "title": "1장_행렬"
@@ -100,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5041847229004,
-    "collapsed": true
+    "width": 219.5041847229004
   },
   "right": {
     "id": "67c0be972fb46913",
