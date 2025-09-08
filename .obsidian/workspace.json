@@ -11,16 +11,14 @@
             "id": "772d969e32f542a5",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ComputerScience/[3-2] 뉴럴네트워크/pdf/1장_인공신경망.pdf",
-                "page": 14,
-                "left": -13,
-                "top": 91,
-                "zoom": 1.184375
+                "file": "ComputerScience/[3-2] 뉴럴네트워크/md/퍼셉트론.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "1장_인공신경망"
+              "icon": "lucide-file",
+              "title": "퍼셉트론"
             }
           }
         ]
@@ -188,16 +186,20 @@
   },
   "active": "772d969e32f542a5",
   "lastOpenFiles": [
+    "ComputerScience/[3-2] 뉴럴네트워크/image/image.png",
+    "ComputerScience/[3-2] 뉴럴네트워크/image/logic_gates_visualization.txt",
+    "ComputerScience/[3-2] 뉴럴네트워크/image/logic_gates_comparison.md",
+    "ComputerScience/[3-2] 뉴럴네트워크/image",
     "ComputerScience/[3-2] 뉴럴네트워크/pdf/2장_퍼셉트론.pdf",
     "ComputerScience/[3-2] 뉴럴네트워크/pdf/1장_인공신경망.pdf",
+    "ComputerScience/[3-2] 뉴럴네트워크/md/퍼셉트론.md",
+    "ComputerScience/[3-2] 뉴럴네트워크/md",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬.pdf",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
     "ComputerScience/[3-2] 뉴럴네트워크/pdf",
     "ComputerScience/[3-2] 뉴럴네트워크/무제 폴더",
     "ComputerScience/[3-2] 뉴럴네트워크",
     "ComputerScience/무제 폴더",
-    "[공지용]+2024-2+기말고사+시간표.pdf",
-    "2024-2+중간고사+시간표_업로드용_변동.pdf",
     "ComputerScience/📋 다음 작업 진행 가이드.md",
     "ComputerScience/🎨 Graph View 최적화 가이드.md",
     "ComputerScience/[2-1] 컴퓨터 구조/💻 Computer Architecture Hub.md",
@@ -206,7 +208,6 @@
     "ComputerScience/[2-1] 데이터 구조/1. 리스트/리스트.md",
     "ComputerScience/코딩테스트/자료구조/3. 투 포인터.md",
     "Python basic/6. 함수.md",
-    "Python basic",
     "ComputerScience/[2-2] 데이터베이스/0. 시험/연습문제.md",
     "ComputerScience/자바/5. 조건문.md",
     "ComputerScience/자바/4. 연산자.md",
@@ -222,8 +223,6 @@
     "ComputerScience_지식그래프.md",
     "ComputerScience/융합전공/ai-ux디자인/1.md",
     "Pasted image 20250904151517.png",
-    "ComputerScience/[3-2] 빅데이터분석/md/1. 빅테이터란.md",
-    "졸업학점.md",
     "ComputerScience/[3-1] 프로그래밍언어론/images/Pasted image 20250326155552.png",
     "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250430090936.png",
     "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250326093244.png",
