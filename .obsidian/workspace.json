@@ -4,17 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "051f41fc14bbd615",
+        "id": "50e0db1aa5783251",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1230e198667b7f30",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬.pdf",
+                "page": 20,
+                "left": -23,
+                "top": 211,
+                "zoom": 0.6854166666666668
+              },
+              "icon": "lucide-file-text",
+              "title": "1장_행렬"
+            }
+          }
+        ]
+      },
+      {
+        "id": "6541c4c1d6a768c0",
         "type": "tabs",
         "children": [
           {
             "id": "2c8b0055da19716c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Matrix"
             }
           }
         ]
@@ -74,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5041847229004
+    "width": 219.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -182,6 +209,8 @@
   },
   "active": "2c8b0055da19716c",
   "lastOpenFiles": [
+    "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬.pdf",
+    "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
     "[공지용]+2024-2+기말고사+시간표.pdf",
     "2024-2+중간고사+시간표_업로드용_변동.pdf",
     "ComputerScience/📋 다음 작업 진행 가이드.md",
@@ -205,9 +234,7 @@
     "ComputerScience/Graph_View_사용_가이드.md",
     "ComputerScience/태그_시스템_가이드.md",
     "ComputerScience_지식그래프_시각화.md",
-    "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
     "ComputerScience_지식그래프.md",
-    "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬.pdf",
     "ComputerScience/융합전공/ai-ux디자인/1.md",
     "ComputerScience/융합전공/ai-ux디자인",
     "ComputerScience/융합전공/ai-ux",
@@ -216,7 +243,6 @@
     "ComputerScience/새 폴더",
     "Pasted image 20250904151517.png",
     "ComputerScience/[3-2] 최적화수학/1. Matrix",
-    "ComputerScience/[3-2] 빅데이터분석/pdf/1 빅데이터 분석이란.pdf",
     "ComputerScience/[3-2] 빅데이터분석/md/1. 빅테이터란.md",
     "졸업학점.md",
     "ComputerScience/[3-1] 프로그래밍언어론/images/Pasted image 20250326155552.png",
