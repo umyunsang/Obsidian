@@ -16,30 +16,29 @@
                 "file": "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬.pdf",
                 "page": 21,
                 "left": -26,
-                "top": 29,
+                "top": 374,
                 "zoom": 0.5708333333333333
               },
               "icon": "lucide-file-text",
               "title": "1장_행렬"
             }
-          }
-        ]
-      },
-      {
-        "id": "6541c4c1d6a768c0",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "982bb88475bb1825",
+            "id": "2c8b0055da19716c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "1. Matrix"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
