@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/[3-2] 뉴럴네트워크/md/퍼셉트론.md",
+                "file": "ComputerScience/[3-2] 컴퓨터 그래픽스/0. 소개.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "퍼셉트론"
+              "title": "0. 소개"
             }
           }
         ]
@@ -186,8 +186,12 @@
   },
   "active": "772d969e32f542a5",
   "lastOpenFiles": [
-    "ComputerScience/[3-2] 뉴럴네트워크/image/image.png",
     "ComputerScience/[3-2] 뉴럴네트워크/md/퍼셉트론.md",
+    "ComputerScience/[3-2] 컴퓨터 그래픽스/0. 소개.md",
+    "ComputerScience/[3-2] 컴퓨터그래픽스/무제 폴더",
+    "ComputerScience/[3-2] 컴퓨터 그래픽스",
+    "ComputerScience/무제 폴더",
+    "ComputerScience/[3-2] 뉴럴네트워크/image/image.png",
     "ComputerScience/[3-2] 뉴럴네트워크/image/logic_gates_visualization.txt",
     "ComputerScience/[3-2] 뉴럴네트워크/image/logic_gates_comparison.md",
     "ComputerScience/[3-2] 뉴럴네트워크/image",
@@ -197,9 +201,6 @@
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬.pdf",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
     "ComputerScience/[3-2] 뉴럴네트워크/pdf",
-    "ComputerScience/[3-2] 뉴럴네트워크/무제 폴더",
-    "ComputerScience/[3-2] 뉴럴네트워크",
-    "ComputerScience/무제 폴더",
     "ComputerScience/📋 다음 작업 진행 가이드.md",
     "ComputerScience/🎨 Graph View 최적화 가이드.md",
     "ComputerScience/[2-1] 컴퓨터 구조/💻 Computer Architecture Hub.md",
