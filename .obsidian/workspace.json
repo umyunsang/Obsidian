@@ -42,8 +42,19 @@
               "icon": "lucide-file",
               "title": "1. Matrix"
             }
+          },
+          {
+            "id": "173a7a2c127b4700",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,13 +217,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b9ff5412ea951b4d",
+  "active": "173a7a2c127b4700",
   "lastOpenFiles": [
+    "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
     "Pasted image 20250904151517.png",
     "Pasted image 20250618111938.png",
     "스크린샷 2025-05-07 091243.png",
     "README.md",
-    "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬_v2.pdf",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬.pdf",
     "ComputerScience/[3-2] 뉴럴네트워크/md/인공신경망.md",
