@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬_v2.pdf",
-                "page": 27,
+                "page": 37,
                 "left": -27,
-                "top": 52,
+                "top": 365,
                 "zoom": 0.5625
               },
               "icon": "lucide-file-text",
@@ -208,9 +208,13 @@
   },
   "active": "b9ff5412ea951b4d",
   "lastOpenFiles": [
+    "Pasted image 20250904151517.png",
+    "Pasted image 20250618111938.png",
+    "스크린샷 2025-05-07 091243.png",
+    "README.md",
+    "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬_v2.pdf",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬.pdf",
-    "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
     "ComputerScience/[3-2] 뉴럴네트워크/md/인공신경망.md",
     "ComputerScience/[3-2] 뉴럴네트워크/pdf/3장_인공신경망.pdf",
     "ComputerScience/[3-2] 뉴럴네트워크/pdf/2장_퍼셉트론.pdf",
@@ -244,14 +248,10 @@
     "ComputerScience/배치_처리_계획.md",
     "ComputerScience/Graph_View_최적화_완료_보고서.md",
     "ComputerScience/Graph_View_사용_가이드.md",
-    "ComputerScience/태그_시스템_가이드.md",
-    "Pasted image 20250904151517.png",
     "ComputerScience/[3-1] 프로그래밍언어론/images/Pasted image 20250326155552.png",
     "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250430090936.png",
     "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250326093244.png",
     "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250326093233.png",
-    "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250326093219.png",
-    "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250326093205.png",
-    "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250312095722.png"
+    "ComputerScience/[3-1] 지식재산개론/images/Pasted image 20250326093219.png"
   ]
 }
