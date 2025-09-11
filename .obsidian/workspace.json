@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬.pdf",
-                "page": 21,
-                "left": -23,
-                "top": 259,
-                "zoom": 0.6770833333333334
+                "file": "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬_v2.pdf",
+                "page": 27,
+                "left": -27,
+                "top": 52,
+                "zoom": 0.5625
               },
               "icon": "lucide-file-text",
-              "title": "1장_행렬"
+              "title": "1장_행렬_v2"
             }
           }
         ]
@@ -100,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5041847229004,
-    "collapsed": true
+    "width": 219.5041847229004
   },
   "right": {
     "id": "67c0be972fb46913",
@@ -209,9 +208,10 @@
   },
   "active": "b9ff5412ea951b4d",
   "lastOpenFiles": [
-    "ComputerScience/[3-2] 뉴럴네트워크/md/인공신경망.md",
+    "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬_v2.pdf",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬.pdf",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
+    "ComputerScience/[3-2] 뉴럴네트워크/md/인공신경망.md",
     "ComputerScience/[3-2] 뉴럴네트워크/pdf/3장_인공신경망.pdf",
     "ComputerScience/[3-2] 뉴럴네트워크/pdf/2장_퍼셉트론.pdf",
     "ComputerScience/[3-2] 컴퓨터 그래픽스/0. 소개.md",
@@ -225,7 +225,6 @@
     "ComputerScience/[3-2] 컴퓨터 그래픽스",
     "ComputerScience/무제 폴더",
     "ComputerScience/[3-2] 뉴럴네트워크/image/image.png",
-    "ComputerScience/[3-2] 뉴럴네트워크/image/logic_gates_visualization.txt",
     "ComputerScience/[3-2] 뉴럴네트워크/image/logic_gates_comparison.md",
     "ComputerScience/📋 다음 작업 진행 가이드.md",
     "ComputerScience/🎨 Graph View 최적화 가이드.md",
