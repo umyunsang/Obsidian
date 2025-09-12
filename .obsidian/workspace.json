@@ -8,22 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "44b6e2fe82a99496",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ComputerScience/융합전공/_GenAI_FineTuning.pdf",
-                "page": 43,
-                "left": -86,
-                "top": 86,
-                "zoom": 0.77
-              },
-              "icon": "lucide-file-text",
-              "title": "_GenAI_FineTuning"
-            }
-          },
-          {
             "id": "df649cf7505e37f9",
             "type": "leaf",
             "state": {
@@ -200,25 +184,27 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ba9e23474eb62275",
+  "active": "df649cf7505e37f9",
   "lastOpenFiles": [
+    "Pasted image 20250904151517.png",
+    "image/Pasted image 20250904151517.png",
+    "image/Pasted image 20250618111938.png",
+    "image/스크린샷 2025-09-12 13.10.59.png",
+    "image/스크린샷 2025-09-12 13.10.35.png",
+    "image/스크린샷 2025-09-12 13.10.18.png",
+    "image/스크린샷 2025-09-12 13.10.01.png",
+    "image/스크린샷 2025-09-12 13.09.49.png",
+    "image/스크린샷 2025-09-12 13.09.42.png",
+    "image/스크린샷 2025-09-12 13.09.34.png",
+    "image/스크린샷 2025-09-12 13.09.24.png",
+    "image/과제1.pdf",
+    "ComputerScience/융합전공/_GenAI_FineTuning.pdf",
     "ComputerScience/융합전공/image",
     "ComputerScience/융합전공/과제1.md",
-    "Pasted image 20250912123819.png",
-    "ComputerScience/융합전공/_GenAI_FineTuning.pdf",
-    "ChatGPT Image 2025년 9월 12일 오후 12_17_56.png",
-    "Pasted image 20250912121713.png",
-    "Pasted image 20250912121429.png",
-    "Pasted image 20250912121248.png",
-    "ChatGPT Image 2025년 9월 12일 오후 12_05_36.png",
-    "Pasted image 20250912120731.png",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬_v2.pdf",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
     "ComputerScience/융합전공",
     "ComputerScience/무제 폴더",
-    "Pasted image 20250904151517.png",
-    "Pasted image 20250618111938.png",
-    "스크린샷 2025-05-07 091243.png",
     "README.md",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬.pdf",
     "ComputerScience/[3-2] 뉴럴네트워크/md/인공신경망.md",
@@ -227,8 +213,6 @@
     "ComputerScience/[3-2] 컴퓨터 그래픽스/0. 소개.md",
     "ComputerScience/[3-2] 빅데이터분석/md/1. 빅테이터란.md",
     "ComputerScience/[3-2] 빅데이터분석/pdf/1 빅데이터 분석이란 (Updated 2025).pdf",
-    "ComputerScience/[3-2] 빅데이터분석/images",
-    "ComputerScience/[3-2] 빅데이터분석/pdf/1 빅데이터 분석이란.pdf",
     "ComputerScience/[3-2] 뉴럴네트워크/md/퍼셉트론.md",
     "ComputerScience/[3-2] 뉴럴네트워크/image/logic_gates_comparison.md",
     "ComputerScience/📋 다음 작업 진행 가이드.md",
