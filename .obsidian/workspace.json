@@ -11,14 +11,16 @@
             "id": "df649cf7505e37f9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ComputerScience/융합전공/과제1.md",
-                "mode": "source",
-                "source": false
+                "file": "ComputerScience/융합전공/_GenAI_FineTuning.pdf",
+                "page": 45,
+                "left": -18,
+                "top": 374,
+                "zoom": 0.87578125
               },
-              "icon": "lucide-file",
-              "title": "과제1"
+              "icon": "lucide-file-text",
+              "title": "_GenAI_FineTuning"
             }
           }
         ]
@@ -186,6 +188,7 @@
   },
   "active": "df649cf7505e37f9",
   "lastOpenFiles": [
+    "ComputerScience/융합전공/과제1.md",
     "Pasted image 20250904151517.png",
     "image/Pasted image 20250904151517.png",
     "image/Pasted image 20250618111938.png",
@@ -196,11 +199,9 @@
     "image/스크린샷 2025-09-12 13.09.49.png",
     "image/스크린샷 2025-09-12 13.09.42.png",
     "image/스크린샷 2025-09-12 13.09.34.png",
-    "image/스크린샷 2025-09-12 13.09.24.png",
     "image/과제1.pdf",
     "ComputerScience/융합전공/_GenAI_FineTuning.pdf",
     "ComputerScience/융합전공/image",
-    "ComputerScience/융합전공/과제1.md",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬_v2.pdf",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1. Matrix.md",
     "ComputerScience/융합전공",
