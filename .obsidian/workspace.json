@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/[3-2] 컴퓨터 그래픽스/0. 소개.md",
+                "file": "ComputerScience/[3-2] 빅데이터분석/md/1. 빅테이터란.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. 소개"
+              "title": "1. 빅테이터란"
             }
           }
         ]
@@ -186,6 +186,7 @@
   },
   "active": "ea23dc9fabafa966",
   "lastOpenFiles": [
+    "ComputerScience/[3-2] 컴퓨터 그래픽스/0. 소개.md",
     "ComputerScience/융합전공/_GenAI_FineTuning.pdf",
     "ComputerScience/[3-2] 뉴럴네트워크/md/인공신경망.md",
     "ComputerScience/[3-2] 뉴럴네트워크/image/스크린샷 2025-09-15 15.50.31.png",
@@ -210,7 +211,6 @@
     "README.md",
     "ComputerScience/[3-2] 최적화수학/1. Matrix/1장_행렬.pdf",
     "ComputerScience/[3-2] 뉴럴네트워크/pdf/2장_퍼셉트론.pdf",
-    "ComputerScience/[3-2] 컴퓨터 그래픽스/0. 소개.md",
     "ComputerScience/[3-2] 빅데이터분석/md/1. 빅테이터란.md",
     "ComputerScience/[3-2] 빅데이터분석/pdf/1 빅데이터 분석이란 (Updated 2025).pdf",
     "ComputerScience/[3-2] 뉴럴네트워크/image/logic_gates_comparison.md",
