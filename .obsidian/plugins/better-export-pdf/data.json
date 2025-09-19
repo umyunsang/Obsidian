@@ -12,8 +12,8 @@
   "isTimestamp": false,
   "enabledCss": false,
   "prevConfig": {
-    "pageSize": "A4",
-    "marginType": "1",
+    "pageSize": "Custom",
+    "marginType": "3",
     "showTitle": false,
     "open": true,
     "scale": 75,
@@ -25,7 +25,7 @@
     "displayHeader": false,
     "displayFooter": false,
     "cssSnippet": "0",
-    "pageHeight": "6000",
+    "pageHeight": "1500",
     "pageWidth": "200"
   }
 }
