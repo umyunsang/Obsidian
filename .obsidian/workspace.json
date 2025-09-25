@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/[3-2] 빅데이터분석/Converted_MD/01-WordCount.md",
+                "file": "ComputerScience/[3-2] 빅데이터분석/md/과제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-WordCount"
+              "title": "과제"
             }
           }
         ]
@@ -186,6 +186,8 @@
   },
   "active": "69b8ed413d1b00d8",
   "lastOpenFiles": [
+    "ComputerScience/[3-2] 빅데이터분석/Converted_MD/01-WordCount.md",
+    "ComputerScience/[3-2] 빅데이터분석/md/과제.md",
     "ComputerScience/코딩테스트/README.md",
     "ComputerScience/자바/README.md",
     "ComputerScience/도커와 쿠버네티스/README.md",
@@ -210,8 +212,6 @@
     "ComputerScience/[2-1] 컴퓨터 구조/README.md",
     "ComputerScience/[2-1] 인공지능/README.md",
     "ComputerScience/[2-1] 웹프로그래밍/README.md",
-    "ComputerScience/[2-1] 리눅스시스템/README.md",
-    "ComputerScience/[2-1] 데이터 구조/README.md",
     "ComputerScience/[3-2] 빅데이터분석/Converted_MD",
     "Pasted image 20250924155841.png",
     "ComputerScience/[3-2] 뉴럴네트워크/pdf/3장_인공신경망.pdf",
