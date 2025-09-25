@@ -1,0 +1,276 @@
+/* PDF 인쇄용 스타일링 - 소셜 비디오 빅데이터 과제 */
+
+/* 기본 페이지 설정 */
+@media print {
+  @page {
+    margin: 2cm;
+    size: A4;
+  }
+  
+  body {
+    font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+    font-size: 11pt;
+    line-height: 1.6;
+    color: #333;
+    background: white;
+  }
+}
+
+/* 헤더 스타일링 */
+h1 {
+  color: #2c3e50;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 24pt;
+  font-weight: bold;
+  page-break-after: avoid;
+}
+
+h2 {
+  color: #34495e;
+  border-left: 4px solid #3498db;
+  padding-left: 15px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 18pt;
+  font-weight: bold;
+  page-break-after: avoid;
+}
+
+h3 {
+  color: #2c3e50;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 14pt;
+  font-weight: bold;
+  page-break-after: avoid;
+}
+
+/* 목록 스타일링 */
+ul, ol {
+  margin: 10px 0;
+  padding-left: 25px;
+}
+
+li {
+  margin: 5px 0;
+  line-height: 1.5;
+}
+
+/* 강조 텍스트 */
+strong, b {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+em, i {
+  color: #8e44ad;
+  font-style: italic;
+}
+
+/* 인라인 코드 */
+code {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 3px;
+  padding: 2px 6px;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 10pt;
+  color: #d63384;
+}
+
+/* 코드 블록 */
+pre {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px 0;
+  overflow-x: auto;
+  page-break-inside: avoid;
+}
+
+pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #495057;
+  font-size: 9pt;
+  line-height: 1.4;
+}
+
+/* Mermaid 다이어그램 스타일링 */
+.mermaid {
+  text-align: center;
+  margin: 20px 0;
+  page-break-inside: avoid;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Mermaid 다이어그램 크기 조절 */
+@media print {
+  .mermaid {
+    transform: scale(0.7);
+    transform-origin: center;
+    max-width: 90%;
+    margin: 15px auto;
+  }
+  
+  /* Mermaid SVG 요소 크기 조절 */
+  .mermaid svg {
+    max-width: 100% !important;
+    height: auto !important;
+    width: auto !important;
+  }
+  
+  /* Mermaid 컨테이너 크기 제한 */
+  .mermaid > div {
+    max-width: 100%;
+    overflow: hidden;
+  }
+}
+
+/* 텍스트 기반 아키텍처 다이어그램 스타일링 */
+pre {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px 0;
+  overflow-x: auto;
+  page-break-inside: avoid;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 9pt;
+  line-height: 1.2;
+}
+
+/* 아키텍처 다이어그램 특별 스타일링 */
+@media print {
+  /* 아키텍처 다이어그램이 포함된 pre 블록 */
+  pre:has-text("┌─────────────────────────────────────────────────────────────────┐") {
+    font-size: 8pt;
+    line-height: 1.1;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    page-break-inside: avoid;
+  }
+  
+  /* 아키텍처 다이어그램 내부 텍스트 */
+  pre code {
+    font-size: 8pt;
+    line-height: 1.1;
+    color: #495057;
+  }
+}
+
+/* 구분선 */
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, #3498db, #e74c3c);
+  margin: 30px 0;
+}
+
+/* 인쇄 시 페이지 브레이크 */
+@media print {
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+  
+  pre, .mermaid {
+    page-break-inside: avoid;
+  }
+  
+  /* 페이지 시작 시 여백 조정 */
+  h1:first-of-type {
+    margin-top: 0;
+  }
+}
+
+/* 메타데이터 스타일링 (작성자, 제출일 등) */
+h1 + p {
+  color: #7f8c8d;
+  font-style: italic;
+  margin-bottom: 30px;
+  border-left: 3px solid #bdc3c7;
+  padding-left: 15px;
+}
+
+/* 섹션 간격 조정 */
+h2 + p, h3 + p {
+  margin-top: 10px;
+}
+
+/* 목록 내 중첩 스타일 */
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* 코드 블록 내 특수 문자 */
+pre code .token.comment {
+  color: #6c757d;
+  font-style: italic;
+}
+
+/* 인쇄 시 색상 최적화 */
+@media print {
+  * {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+  
+  /* 배경색이 있는 요소들 */
+  code, pre {
+    background-color: #f8f9fa !important;
+    border: 1px solid #e9ecef !important;
+  }
+}
+
+/* 표 스타일링 (만약 표가 있다면) */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 15px 0;
+  page-break-inside: avoid;
+}
+
+th, td {
+  border: 1px solid #dee2e6;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  color: #495057;
+}
+
+/* 인용문 스타일 */
+blockquote {
+  border-left: 4px solid #3498db;
+  margin: 15px 0;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  font-style: italic;
+  page-break-inside: avoid;
+}
+
+/* 링크 스타일 (인쇄 시 URL 표시) */
+@media print {
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 8pt;
+    color: #6c757d;
+  }
+  
+  a[href^="#"]:after {
+    content: "";
+  }
+}

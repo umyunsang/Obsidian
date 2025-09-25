@@ -1,4 +1,6 @@
 {
   "accentColor": "",
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [
+    "pdf-print-styling"
+  ]
 }
