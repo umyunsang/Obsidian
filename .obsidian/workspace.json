@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/[3-2] 빅데이터분석/md/과제.md",
+                "file": "프로젝트/오픈소스.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "과제"
+              "title": "오픈소스"
             }
           }
         ]
@@ -186,10 +186,11 @@
   },
   "active": "69b8ed413d1b00d8",
   "lastOpenFiles": [
+    "ComputerScience/[3-2] 빅데이터분석/md/과제.md",
+    "프로젝트/오픈소스.md",
     "ComputerScience/[3-2] 빅데이터분석/md/architecture_text.md",
     "ComputerScience/[3-2] 빅데이터분석/md/architecture_diagram.md",
     "ComputerScience/[3-2] 빅데이터분석/Converted_MD/01-WordCount.md",
-    "ComputerScience/[3-2] 빅데이터분석/md/과제.md",
     "ComputerScience/코딩테스트/README.md",
     "ComputerScience/자바/README.md",
     "ComputerScience/도커와 쿠버네티스/README.md",
@@ -211,7 +212,6 @@
     "ComputerScience/[2-2] 데이터베이스/README.md",
     "ComputerScience/[2-2] OSS/README.md",
     "ComputerScience/[2-1] 확률과 통계/README.md",
-    "ComputerScience/[2-1] 컴퓨터 구조/README.md",
     "ComputerScience/[3-2] 빅데이터분석/Converted_MD",
     "Pasted image 20250924155841.png",
     "ComputerScience/[3-2] 뉴럴네트워크/pdf/3장_인공신경망.pdf",
