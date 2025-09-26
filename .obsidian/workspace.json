@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트/오픈소스.md",
+                "file": "ComputerScience/융합전공/프로젝트 주제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "오픈소스"
+              "title": "프로젝트 주제"
             }
           }
         ]
@@ -186,8 +186,9 @@
   },
   "active": "69b8ed413d1b00d8",
   "lastOpenFiles": [
-    "ComputerScience/[3-2] 빅데이터분석/md/과제.md",
     "프로젝트/오픈소스.md",
+    "ComputerScience/융합전공/프로젝트 주제.md",
+    "ComputerScience/[3-2] 빅데이터분석/md/과제.md",
     "ComputerScience/[3-2] 빅데이터분석/md/architecture_text.md",
     "ComputerScience/[3-2] 빅데이터분석/md/architecture_diagram.md",
     "ComputerScience/[3-2] 빅데이터분석/Converted_MD/01-WordCount.md",
@@ -211,7 +212,6 @@
     "ComputerScience/[2-2] 운영체제/README.md",
     "ComputerScience/[2-2] 데이터베이스/README.md",
     "ComputerScience/[2-2] OSS/README.md",
-    "ComputerScience/[2-1] 확률과 통계/README.md",
     "ComputerScience/[3-2] 빅데이터분석/Converted_MD",
     "Pasted image 20250924155841.png",
     "ComputerScience/[3-2] 뉴럴네트워크/pdf/3장_인공신경망.pdf",
