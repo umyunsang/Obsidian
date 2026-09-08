@@ -1,0 +1,116 @@
+{
+  "course": "가상현실 01분반",
+  "semester": "2026-2",
+  "files": [
+    {
+      "name": "L01_Orientation_4.pdf",
+      "bytes": 3660238
+    },
+    {
+      "name": "L02_가상현실의 개념과 역사.pdf",
+      "bytes": 14867375
+    },
+    {
+      "name": "L03_인간의 오감을 실현하는 가상현실 기술.pdf",
+      "bytes": 6021947
+    },
+    {
+      "name": "L04_게임엔진.pdf",
+      "bytes": 899568
+    },
+    {
+      "name": "L05_360도 비디오.pdf",
+      "bytes": 3126080
+    },
+    {
+      "name": "L06_홀로그램.pdf",
+      "bytes": 2314413
+    },
+    {
+      "name": "L07_가상현실 생태계.pdf",
+      "bytes": 1720836
+    },
+    {
+      "name": "L08_가상현실 사용자 경험.pdf",
+      "bytes": 1725908
+    },
+    {
+      "name": "L09_가상현실 부작용.pdf",
+      "bytes": 1061523
+    },
+    {
+      "name": "L10_메타버스.pdf",
+      "bytes": 7269649
+    },
+    {
+      "name": "L11_Novel View Synthesis_NeRF.pdf",
+      "bytes": 2346807
+    },
+    {
+      "name": "L12_Gaussian Splatting.pdf",
+      "bytes": 8777749
+    },
+    {
+      "name": "[실습] Unity 기초실습.pdf",
+      "bytes": 3994580
+    }
+  ],
+  "links": [
+    {
+      "name": "L01_Orientation_4",
+      "url": "https://canvas.donga.ac.kr/courses/140132/modules/items/8151579?return_url=/courses/140132/external_tools/37"
+    },
+    {
+      "name": "L02_가상현실의 개념과 역사",
+      "url": "https://canvas.donga.ac.kr/courses/140132/modules/items/8150482?return_url=/courses/140132/external_tools/37"
+    },
+    {
+      "name": "[실습] Unity 기초실습",
+      "url": "https://canvas.donga.ac.kr/courses/140132/modules/items/8153547?return_url=/courses/140132/external_tools/37"
+    },
+    {
+      "name": "1주차 실습",
+      "url": "https://canvas.donga.ac.kr/courses/140132/modules/items/8153833"
+    },
+    {
+      "name": "L03_인간의 오감을 실현하는 가상현실 기술",
+      "url": "https://canvas.donga.ac.kr/courses/140132/modules/items/8151534?return_url=/courses/140132/external_tools/37"
+    },
+    {
+      "name": "L04_게임엔진",
+      "url": "https://canvas.donga.ac.kr/courses/140132/modules/items/8151535?return_url=/courses/140132/external_tools/37"
+    },
+    {
+      "name": "L05_360도 비디오",
+      "url": "https://canvas.donga.ac.kr/courses/140132/modules/items/8151537?return_url=/courses/140132/external_tools/37"
+    },
+    {
+      "name": "L06_홀로그램",
+      "url": "https://canvas.donga.ac.kr/courses/140132/modules/items/8151538?return_url=/courses/140132/external_tools/37"
+    },
+    {
+      "name": "L07_가상현실 생태계",
+      "url": "https://canvas.donga.ac.kr/courses/140132/modules/items/8151539?return_url=/courses/140132/external_tools/37"
+    },
+    {
+      "name": "L08_가상현실 사용자 경험",
+      "url": "https://canvas.donga.ac.kr/courses/140132/modules/items/8151540?return_url=/courses/140132/external_tools/37"
+    },
+    {
+      "name": "L09_가상현실 부작용",
+      "url": "https://canvas.donga.ac.kr/courses/140132/modules/items/8151541?return_url=/courses/140132/external_tools/37"
+    },
+    {
+      "name": "L10_메타버스",
+      "url": "https://canvas.donga.ac.kr/courses/140132/modules/items/8151542?return_url=/courses/140132/external_tools/37"
+    },
+    {
+      "name": "L11_Novel View Synthesis_NeRF",
+      "url": "https://canvas.donga.ac.kr/courses/140132/modules/items/8151543?return_url=/courses/140132/external_tools/37"
+    },
+    {
+      "name": "L12_Gaussian Splatting",
+      "url": "https://canvas.donga.ac.kr/courses/140132/modules/items/8151544?return_url=/courses/140132/external_tools/37"
+    }
+  ]
+}

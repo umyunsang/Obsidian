@@ -1,0 +1,34 @@
+가상현실 01분반 | 2026년 2학기 | 동아대학교
+
+위치: ComputerScience/06_algorithms-graphics/virtual-reality
+sources: 강의 L01~L12와 Unity 기초실습 PDF 13개
+원본과 내려받기 목록: download-manifest.json
+
+iPad 필기
+파일 앱 > iCloud Drive > Obsidian > edu > ComputerScience >
+06_algorithms-graphics > virtual-reality > sources
+PDF를 열어 마크업으로 필기하고 같은 위치에 저장하세요.
+Goodnotes 등으로 가져오면 앱 내부 사본이 되므로, 필기한 PDF를 이 폴더에
+다시 내보내야 iCloud 및 Git에 반영됩니다.
+동일한 PDF를 Mac과 iPad에서 동시에 수정하지 마세요.
+
+Mac Git 동기화
+cd ~/work/edu
+git pull --ff-only
+# iCloud에서 iPad 변경이 내려온 뒤 차이를 확인합니다.
+git status --short
+git add -- ComputerScience/06_algorithms-graphics/virtual-reality
+git commit -m "Update virtual reality class materials and annotations"
+git push origin main
+
+주의: umyunsang/edu는 공개 저장소입니다. 커밋한 PDF 및 필기는 공개됩니다.
+추적되지 않은 다른 작업이 있으므로 git add . 대신 과목 경로만 지정하세요.
+PDF 충돌은 자동 병합할 수 없습니다. 원본을 보존한 뒤 수동 해결하세요.
+자동 커밋/자동 push는 이번 작업에서 켜지 않았습니다.
+
+구조
+실제 파일: ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/edu
+기존 경로: ~/work/edu (위 폴더로 연결)
+Git 데이터: ~/work/.edu-git (iCloud 충돌 방지를 위해 Mac에 보관)
+iPad는 iCloud로 파일을 동기화하고, Git pull/push는 Mac에서 수행합니다.
+Mac 전용 .git 경로이므로 다른 Mac에서는 별도 clone 설정이 필요합니다.
