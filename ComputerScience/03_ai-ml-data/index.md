@@ -14,6 +14,7 @@
 * [large-language-models](./large-language-models/index.md)
 * [machine-learning](./machine-learning/index.md)
 * [ml-projects](./ml-projects/index.md)
+* [Natural-Language-Processing](./Natural-Language-Processing/index.md)
 * [neural-networks](./neural-networks/index.md)
 * [quantum-lecture](./quantum-lecture/index.md)
 * [quantum-ml](./quantum-ml/index.md)
